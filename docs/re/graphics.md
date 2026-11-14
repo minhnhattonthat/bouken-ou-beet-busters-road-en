@@ -32,7 +32,7 @@ Result: **all Japanese graphics text is uncompressed**, in two banks; the LZ arc
 | G4 | Toolbox (道具) | menu > 道具 | tab その他 (and other tabs), `SELECT: ならびかえ`, `PAGE` | raw bank `0xDDA400-0xE03000` (guess) |
 | G5 | Status box, name entry | menu | small 8x8 font: kana, Latin, digits, Greek (ビィト in the status box) | **second font**: raw gba4 at `0x300000` (~0x2C00 bytes, SJIS cell order like the 12x12 one), verified by sight (`work/gfx/r300000.png`) |
 | G6 | Status (ステータス) | menu > ステータス | label 昇格値 | raw bank (guess) |
-| G7 | Skill (特技) | menu > 特技 | なし under the Saiga ring | font or tiles: check in marker tour |
+| G7 | Skill (特技) | menu > 特技 (scenes `skills_saiga`, `skills_tengeki`) | なし under the Saiga ring; TENGEKI TYPE/RANGE values (攻撃, 単体 ...) next to icons, not in the script | font or tiles: check in marker tour |
 | G8 | Quest (クエスト) | menu > クエスト | header クエスト選択; body 現在受けているクエストはありません is 12x12 font text | header: raw bank (guess) |
 | G9 | Monster book (図鑑) | menu > 図鑑 > モンスター | 属性, 昇格値, 出現場所 | raw bank (guess) |
 | G10 | Options (オプション) | menu > オプション | メッセージ はやい ふつう おそい | probably 12x12 font: check in marker tour |

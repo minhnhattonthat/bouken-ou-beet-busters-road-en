@@ -21,11 +21,12 @@ sys.path.insert(0, str(ROOT / "tools"))
 EVENT = {
     "msg": (38, 3, "measured", "work/qa/qa1"),  # [PAGE] opens a new box; [BR] = next line
     "name": (24, 1, "measured", "work/qa/qa2"),  # tag box sizes to the name
-    "choice": (36, 1, "measured", "work/qa/mk4/recruit (37 visible, screen edge)"),
-    "banner": (30, 1, "guess", "PLACE banner box ~32 letters (work/qa/mk6/banner f1880); op6F text not seen yet"),
+    "choice": (36, 1, "measured", "work/qa/mk4/recruit (37 visible, screen edge); 3-way op1E: work/play/c3/0001.png"),
+    "banner": (18, 1, "guess", "op6F text: not read when the op runs (work/qa/bnw); stored with a quest-record "
+                               "pointer, probably a quest client name; where it is drawn: unknown"),
     "draw": (None, None, "measured", "work/qa/mk2/prologue: (240 - x) // 12 * 2 per line, x at site-4"),
-    "quest_title": (16, 1, "guess", "quest board not reachable in a new game yet"),
-    "quest_desc": (36, 2, "guess", "quest board not reachable in a new game yet"),
+    "quest_title": (20, 1, "measured", "work/play/q5/0002.png: board list row, type icon at x=146; detail header same"),
+    "quest_desc": (36, 7, "measured", "work/play/q5/0003.png: DETAIL auto-wraps at 36, 7 lines visible"),
     "ui": (None, None, "guess", "UI windows sized to the JP: 2 letters per JP cell unless measured"),
 }
 # UI strings measured wider than their JP (id -> letters per line)
@@ -35,34 +36,48 @@ UI = {
     **{i: (8, "measured", "work/qa/mk5/shop_weapon") for i in
        ("ui:11700A", "ui:117010", "ui:117016", "ui:11701E", "ui:117026", "ui:11702C", "ui:117032", "ui:11703A",
         "ui:117042", "ui:117048", "ui:11704E", "ui:117056", "ui:11705E")},
+    # book NOTICE (モンスター/ヴァンデル): 12 letters lost the last cell
+    **{i: (10, "measured", "work/qa/qa4/book_notice") for i in ("ui:DDA8BA", "ui:DDA8C6")},
+    # skill-slot picker NOTICE (才牙/武器/天撃/アイテム/はずす): the 9th letter wraps
+    **{i: (8, "measured", "work/qa/qa4/skills_slot") for i in
+       ("ui:DDAC4C", "ui:DDAC5C", "ui:DDAC62", "ui:DDAC68", "ui:DDAC70")},
+    # 特技 NOTICE (ローテーションメニュー / 才牙・天撃): 22 letters fit
+    **{i: (22, "measured", "work/qa/qa5/skills_notice") for i in ("ui:DDAA84", "ui:DDAA9C")},
+    # monster-book 属性 value: drawn with a 1-code count (0x0804E01A movs r3,#1); engine task to widen it
+    **{i: (2, "measured", "work/qa/qa5/book_full (6 given, 2 drawn)") for i in
+       ("ui:DDA88E", "ui:DDA892", "ui:DDA896", "ui:DDA89A", "ui:DDA89E", "ui:DDA8A2", "ui:DDA8A6", "ui:DDA8AA",
+        "ui:DDA8AE", "ui:DDA8B2", "ui:DDA8B6")},
+    # quest type label after the type icon (討伐/収集/配達/護衛/その他): x=176 to the frame at ~230
+    **{i: (8, "measured", "work/play/q5/0003.png") for i in
+       ("ui:DDAC46", "ui:DDAB1C", "ui:DDAB4A", "ui:DDAB50", "ui:DDAB56")},
 }
 # (table, field) -> (letters per line the screen shows, lines, state, shot); the field size caps it too (field_cap)
 TABLE = {
     ("weapons", "name"): (20, 1, "measured", "work/qa/mk5c/shop_buy, mk4/menu_equip"),
     ("armor", "name"): (20, 1, "measured", "work/qa/mk4/menu_equip"),
     ("items", "name"): (20, 1, "measured", "work/qa/mk5c/shop_items_buy"),
-    ("loot", "name"): (20, 1, "guess", "toolbox list: same LIST frame as the shop (no items in a new game)"),
+    ("loot", "name"): (20, 1, "measured", "work/play/tb/0004.png: toolbox 貴重品 tab, x 1 after at x~190"),
     ("weapons", "desc"): (36, 1, "measured", "work/qa/mk5c/shop_buy: line 2 of DETAIL holds the stats"),
     ("armor", "desc"): (36, 1, "guess", "armor shop DETAIL: as weapons"),
     ("items", "desc"): (36, 2, "measured", "work/qa/mk5c/shop_items_buy: auto-wraps at 36"),
-    ("loot", "desc"): (36, 2, "guess", "toolbox DETAIL: as items"),
+    ("loot", "desc"): (36, 2, "measured", "work/play/tb/0004.png: toolbox DETAIL, 36 x 2 as items"),
     ("weapons", "kana"): (20, 1, "guess", "sort key"), ("armor", "kana"): (20, 1, "guess", "sort key"),
     ("items", "kana"): (20, 1, "guess", "sort key"), ("loot", "kana"): (20, 1, "guess", "sort key"),
     ("weapons", "menu"): (20, 1, "guess", "8x8 menu font"), ("items", "menu"): (20, 1, "guess", "8x8 menu font"),
     ("monsters", "kana"): (20, 1, "measured", "work/qa/mk5b/battle f2400: 8x8 name bar, 10 tiles"),
-    ("monsters", "name"): (20, 1, "guess", "monster book (empty in a new game)"),
-    ("monsters", "habitat"): (20, 1, "guess", "monster book 出現場所 row"),
+    ("monsters", "name"): (20, 1, "measured", "work/qa/qa4/book_full: from x=8, 属性 label at x~150"),
+    ("monsters", "habitat"): (26, 1, "measured", "work/qa/qa4/book_full: 出現場所 row draws 13 cells of the field"),
     ("bosses", "kana"): (20, 1, "guess", "battle name bar, as monsters"),
     ("bosses", "name"): (20, 1, "guess", "monster book"),
     ("bosses", "desc"): (36, 1, "guess", "placeholder 説明 in every record: probably unused"),
     ("chars", "name"): (12, 1, "measured", "work/qa/mk4/menu_status (12x12, LV box after); 8x8 HUD holds 16"),
     ("areas", "name"): (18, 1, "guess", "field cap; where it is drawn: not seen yet"),
     ("maps", "name"): (18, 1, "measured", "work/qa/mk6/banner f1880: PLACE banner, 18 of ~32 letters used"),
-    ("moves", "name"): (18, 1, "guess", "skills menu (Saiga moves)"),
-    ("moves", "desc"): (26, 1, "guess", "skills menu"),
-    ("tenmon", "name"): (12, 1, "guess", "skills menu (Tenmon)"),
+    ("moves", "name"): (24, 1, "measured", "work/qa/qa5/skills_saiga: SKILL list from x=96 (field caps it at 18)"),
+    ("moves", "desc"): (26, 1, "measured", "work/qa/qa5/skills_saiga: DETAIL draws 13 cells"),
+    ("tenmon", "name"): (24, 1, "measured", "work/qa/qa5/skills_tengeki: list from x=96 (field caps it at 12)"),
     ("tenmon", "kana"): (24, 1, "guess", "sort key / 8x8"),
-    ("tenmon", "desc"): (36, 1, "guess", "skills menu"),
+    ("tenmon", "desc"): (26, 1, "measured", "work/qa/qa5/skills_tengeki: 36 given, DETAIL draws 13 cells"),
     ("rank", "name"): (16, 1, "measured", "work/qa/qa3 + mk6/menu: field-menu header, centred; 18 lost a cell"),
     ("wtypes", "name"): (20, 1, "guess", "equip screen weapon type"),
     ("voices", "shout"): (32, 1, "guess", "battle shout"),

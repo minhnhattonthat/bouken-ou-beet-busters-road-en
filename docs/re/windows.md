@@ -20,13 +20,21 @@ Stress builds: `build.py --marker --qa "ID=TEXT" --out build/qaN.gba`; opening d
 | DETAIL box (shop) | 12x12 | auto-wraps at **36 letters**; items: 2 lines (72 = the field); weapons/armor: 1 line (line 2 = ATK/HIT/AGL stats). Auto-wrap splits words: pad lines to 36 (or [BR]) | measured `work/qa/mk5c` |
 | Shop command box (買う/売る/鍛える/閉じる/泊まる) | 12x12 | 8 letters (4 cells; longer wraps onto the next command) | measured `work/qa/mk5/shop_weapon` |
 | Choices (op 1D 2-way; 1E assumed same box) | 12x12 | text from x=16; 37 letters reach the screen edge: budget 36 | measured `work/qa/mk4/recruit` |
-| PLACE banner (map name on map entry; op6F sets a custom place, e.g. 鑑定小屋) | 12x12 | box holds ~32 letters from x=44; map names capped at 18 by the field | measured `work/qa/mk6/banner` f1880 (op6F text itself not yet seen) |
+| PLACE banner (map name on map entry) | 12x12 | box holds ~32 letters from x=44; map names capped at 18 by the field | measured `work/qa/mk6/banner` f1880 (op6F text itself not yet seen) |
 | Field-menu header = team rank (`rank:name`) | 12x12 | centred; **16 letters** (18 lost its first cell) | measured `work/qa/qa3` |
 | Fixed table fields in general | — | a field whose JP never fills it must keep its 0000 terminator: the PLACE banner read a full `maps:name` field on into the next record (garbage, `work/qa/mk5b/banner` f1880). `limits.field_cap` | measured |
 | Toolbox list + DETAIL (items tab) | 12x12 | name 20 letters (whole field, "x 1" after at x~190), DETAIL 36 x 2 lines, as the shop | measured `work/qa/m7_toolbox_t/f002100` (marker7) |
-| Monster book page | 12x12 | name from x=8, 属性 label at x~150 (room for ~23 letters; the field caps at 20); habitat one line from x=16 to the side panel at x~192 (~29 letters, so 28 = 14 cells) | seen on JP `work/qa/book1/f003240`; marker shot pending (`book_full` scene) |
-| Skill-slot picker (NOTICE: 才牙/武器/天撃/アイテム/はずす, `ui:DDAC4C..DDAC68`) | 12x12 | narrow box sized to 4 cells: ~8 letters; marker text wraps letter by letter down the box | seen `work/qa/m7_skills_t/f003900`; measure with `--qa` |
-| Quest board titles/descriptions, toolbox (loot tab), skills LIST (moves, tenmon), battle shouts, areas name | — | **not measured**: debug-tool grants (scenes `toolbox_loot`, `book_full`, `skills_slot`) now reach items, book and level 99; quests and learned moves still need state (`events.md` §Debug tool) | guess |
+| Toolbox loot tab (貴重品, 4th tab: R x3) | 12x12 | name 20 letters (whole field), DETAIL 36 x 2 | measured `work/play/tb/0004.png` (scene `toolbox_loot`) |
+| Monster book page | 12x12 | name 20 (from x=8, 属性 label at x~150); habitat (出現場所) **26**: the row draws 13 cells of the 36-code field; **属性 value: 1 code (2 letters)**, drawn with count 1 at `0x0804E01A` (engine task: widen it before translating the 11 values `ui:DDA88E..DDA8B6`) | measured `work/qa/qa4/book_full`, `qa5/book_full` |
+| Book NOTICE (モンスター/ヴァンデル) | 12x12 | 10 letters (12 lost the last cell) | measured `work/qa/qa4/book_notice` |
+| Skill-slot picker NOTICE (才牙/武器/天撃/アイテム/はずす) | 12x12 | 8 letters (the 9th wraps) | measured `work/qa/qa4/skills_slot` |
+| 特技 NOTICE (ローテーションメニュー / 才牙・天撃) | 12x12 | 22 letters fit (box wider) | measured `work/qa/qa5/skills_notice` |
+| Skills SAIGA page (moves) | 12x12 | Saiga = weapon name 20 from x=96; move names from x=96, 24 to the edge (field caps 18); DETAIL draws **13 cells = 26 letters**, one line | measured `work/qa/qa5/skills_saiga` |
+| Skills TENGEKI page (tenmon) | 12x12 | names from x=96 (field caps 12: 7-code field); DETAIL **26** (36 given, 26 drawn); TYPE/RANGE values (攻撃, 単体 ...) are graphics (G7) | measured `work/qa/qa5/skills_tengeki` |
+| Quest board list + detail | 12x12 | title **20** (type icon at x=146, list and detail header); type label (討伐 ...) 8 after the icon; description auto-wraps at **36**, 7 lines visible; the quest NOTICE (このクエストを受けますか？) holds its 26 | measured `work/play/q5/0002.png`, `0003.png` (from a cold boot the board lists 3 quests on 2 pages) |
+| 3-way choice (op 1E) | 12x12 | 36, as the 2-way | measured `work/play/c3/0001.png` |
+| op6F text (`banner` kind: ？？？？, ポアラの母, 鑑定小屋 ...) | — | not drawn when the op runs (no read of the string in the `banner` scene, `work/qa/bnw`); the op also takes a quest-record pointer (`0x0824xxxx`): probably a quest client name. Guess 18 | guess |
+| Battle shouts (`voices`), areas name, weapon types, 8x8 `menu` fields, `kana` sort keys, boss book, armor DETAIL | — | not seen yet (no shout text in `battle_win`, `work/qa/qa5/bw`) | guess |
 
 Machine-readable budgets: `tools/limits.py` (per kind / table field / UI id, state + shot); `tests/test_lint.py` checks
 every non-empty `en` against them (width per line, lines per box, glyphs, control codes, no Japanese).

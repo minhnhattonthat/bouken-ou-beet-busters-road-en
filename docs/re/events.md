@@ -52,7 +52,7 @@ graphics pointers, word 19 = trigger list {count, entry ptrs}; entry = {u32 type
 | `1D a b` / `1E a b c` | 9/13 | 2-/3-way choice (string ptrs) | verified by layout |
 | `3A data a b` | 13 | menu (appraisal house) | guess |
 | `85 x16 y16 ptr` | 9 | draw text at x,y (prologue narration, credits) | verified by layout |
-| `6F data ptr` | 9 | text with map name (place banner?) | guess |
+| `6F rec ptr` | 9 | quest-record pointer (`0x0824xxxx`) + a name (ポアラの母, 鑑定小屋, ？？？？): the string is not read while the op runs (`work/qa/bnw`); probably the quest client | guess |
 | `46 id16 tile16 dir ? ptr` / `47 ...` | 11 | place NPC with talk script (`+7`) | verified (map init) |
 | `84 / 12 / 3D shop16 ..` | 5 | open weapon / armor / item shop | verified by layout |
 | `3C price` | 2 | inn | guess |
@@ -77,6 +77,16 @@ script> / FF` to spare EWRAM `0x0203FE00` and sets `GS+0x1E18` to it and mode 2,
 State grants (scenes.txt 6th column or `--var`): `GIVE=3001-3028,4001` (opcode 03 per id, in a script at
 `0x0203F000`; EWRAM `0x0203C000-0x0203FE00` stays zero in every dump), `MONEY=n` (opcode 04), `POKE=off=hexbytes[*n],..`
 (save-object bytes at warp time), `GOD=1` / `KILL=1` (battle HP). Scenes: `toolbox_*`, `book_full`, `retina_99`
-(Beet to level 99), `skills_slot`, `battle_win`. Not yet: quest availability (quest records at `0x241000` are tag-coded
-data with linked pointers; the board's filter is unknown), learned Saiga moves / Tenmon (the skills LIST stays empty at
-level 99 with the Saiga weapons 0x1010-0x1019 given), party members beyond Beet.
+(Beet to level 99), `skills_slot`, `skills_saiga`, `skills_tengeki`, `skills_notice`, `battle_win`. Not yet: party
+members beyond Beet.
+- **Skills lists** (verified, `work/qa/qa5/skills_*`): character record (SO+0xC+i*0x18C) +0x78 = 20 u32 Tenmon ids
+  (1-based into `0x080A6520 + id*0x98`, list code `0x08043EC8`), +0xC8 = the Saiga move list (`0x08044C38`). A non-empty
+  move list opens the SAIGA page, else TENGEKI. Level-up rewards (才牙を習得 ...) are labels at `0x0806CB38`.
+- **Quests** (verified by reads, `0x08037B6C`): object `*0x030041B0` (= `0x02003310`) +4 = vector of 5 accepted-quest
+  entries (0x5C each, `0x020033F0`), +0x10 = the board's 5 entries (`0x020035C0`). Entry valid (`0x0800B464`) when
+  +4 (record), +8 (title ptr), +0xC (description ptr) are non-zero and +0x10 != -1. A new game's board already lists
+  3 quests (scene `quest_board`; the old "empty board" was a marker build whose appraiser menu wrapped and broke the
+  route: give those 5 menu strings short `--qa` text). Savestates keep the entries' ROM string pointers: a state from
+  one build shows that build's quest text on another.
+- Helpers: `tools/lua/sodump.lua` (char records hex), `sopoke.lua` (poke SO bytes every frame from a state, for
+  `play.py --script`), `peek.lua` (u32 at `*addr+off` chains).
