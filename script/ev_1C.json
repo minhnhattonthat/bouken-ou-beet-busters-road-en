@@ -6899,7 +6899,7 @@
   "addr": "1C5D48",
   "kind": "msg",
   "jp": "・・・あ・・・あんたねぇ！[BR]なに能天気（のうてんき）な事[BR]言ってんのよ！！[PAGE]そーゆー問題！？[BR]ちょっとはこれから[BR]先行きが不安にならないワケ！！？[WAIT]",
-  "en": "…Y-you…! What kind of[BR]happy-go-lucky talk is that?![PAGE]Is that really the point?![BR]Doesn't the road ahead worry[BR]you even a little bit?!![WAIT]",
+  "en": "…Y-you…! How can you be so carefree?![PAGE]Is that really the point?![BR]Doesn't the road ahead worry[BR]you even a little bit?!![WAIT]",
   "bytes": 150,
   "sites": [
    "1C442F:op7A+2",
@@ -15710,7 +15710,7 @@
   "addr": "1CEB1A",
   "kind": "msg",
   "jp": "・・・依頼（いらい）も終わったし、[BR]宿屋へでも行かないか？[BR]ちょっと、話がある・・・[WAIT]",
-  "en": "…Now that the job's done, why don't[BR]we head to the inn or something?[BR]I've got… something to talk about…[WAIT]",
+  "en": "…Job's done. Shall we head to[BR]the inn? There's something we[BR]need to talk about…[WAIT]",
   "bytes": 88,
   "sites": [
    "1CD312:op7A+2"
@@ -16502,7 +16502,7 @@
   "addr": "1CF466",
   "kind": "msg",
   "jp": "・・・うん[WAIT]",
-  "en": "…Okay.[WAIT]",
+  "en": "…Yeah.[WAIT]",
   "bytes": 14,
   "sites": [
    "1CD63F:op7A+2"

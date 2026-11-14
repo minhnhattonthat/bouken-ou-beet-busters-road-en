@@ -321,3 +321,60 @@ Minor review findings; tick when applied or rejected (phase 9: none unticked).
 - [x] ev:1909F4 - Kissu deduces that the ten evils represent monster types - “Monster attributes” differs from the glossary’s Book label “Type,” weakening the connection to the player-facing terminology - Suggested EN: “The ten evils… I think they probably stand for the different monster types…” -- fixed
 
 ## story:17_quest_log
+
+## story:01_opening.r2
+- [x] ev:19847A - JP gist: Beet’s wounds leave him beyond ordinary help. - “Beet-kun is… already…” can suggest he has already died, muddying the ensuing effort to save his remaining life. - Suggested EN: “With wounds like these… Beet-kun won't… survive…” -- fixed
+- [x] ev:19D1B4 - JP gist: Beet quietly confirms that the attacker was Beltorze. - “…Okay.” sounds like agreement to a request rather than a subdued confirmation while recalling the tragedy. - Suggested EN: “…Yeah.” -- fixed
+
+## story:02_prologue.r2
+- [x] **ev:1A3B34** - Shaderico reacts to Horus attacking just as his Dark Attack fires - “That sneaky so-and-so” sounds quaint beside Shaderico’s otherwise vicious threats - Suggested EN: “Geh… Geh! …That blasted Buster… Going for me just as my Dark Attack fires…!” -- fixed
+- [x] **ev:1A5C06 / ev:1A5CD0** - Horus says Beet inherited the Warriors’ righteous spirit; Beet echoes him - “Hearts of justice” and “Hearts… of justice…” sound translated during an otherwise effective emotional exchange. Polish both together to preserve the echo - Suggested EN: Horus: “No, not only their power. Their… sense of justice, too.” Beet: “Their sense… of justice… Yeah, that’s it! I’m gonna work hard enough for all of them, and become ‘the man who’ll end the Dark Century’!!” -- fixed
+
+## story:03_three_years.r2
+
+## story:04_elfast_redou.r2
+- [x] ev:1B0166 - JP gist: The Saiga are mementos of the fallen Warriors. - “Keepsakes” weakens the implication of death that provokes Beet’s immediate objection. - Suggested EN: “…So that's what happened… Their Saiga… something to remember them by…” -- fixed
+- [x] ev:1BECF8 - JP gist: Grineed chuckles smugly at Dangol’s praise. - “Hee hee hee” sounds impish beside his otherwise cultivated voice; his later “Hmm hmm hmm” better matches the style reference. - Suggested EN: “Hmm hmm hmm…” -- fixed
+
+## story:05_phantom_redou.r2
+- [x] ev:1C5D48 - Poala scolds Beet for responding so blithely to the Phantom revelation - “What kind of happy-go-lucky talk is that?!” sounds translated and blunts her otherwise sharp, natural exasperation - Suggested EN: “…Y-you…! How can you be so carefree?! Is that really the point?! Aren’t you even a little worried about what’s ahead?!” -- fixed
+- [x] ev:1CEB1A - Slade proposes visiting the inn because he has something to discuss - “Why don’t we head to the inn or something?” followed by “something to talk about” makes his opening wordier and more hesitant than his usual terse delivery - Suggested EN: “…Job’s done. Shall we head to the inn? There’s something I need to say…” -- fixed
+
+## story:06_across_river.r2
+- [x] ev:1D3C3E - Grineed commands other Vandels, so fighting him will be serious business - “Ain’t gonna be any half-baked deal” sounds unnatural and blunts Beet’s recognition of the danger - Suggested EN: “…Yeah. He's even got Vandels working under him… Fighting Grineed's gonna be no joke…!!” -- fixed
+
+## story:07_orb_terceron.r2
+- [x] ev:1E961E - Frausky rejects Beet’s murderous glare as unchildlike - “What kid makes eyes that full of killin’ intent?” sounds unnatural and interrupts his casual voice - Suggested EN: “…Yeah, you're no good. What kinda kid gives you a look that says ‘I'll kill you’? Human kids are only cute up to about that little man's age, tops.” -- fixed
+- [x] ev:1E8A12 - Shin desperately wants to search himself, but his condition prevents it - “With this body” is a stiff calque in an otherwise heartfelt plea - Suggested EN: “Please, we're counting on you. I'd go right this minute myself if I could… but in my condition…” -- fixed
+
+## story:08_mugine_castle.r2
+- [x] ev:1FA61C - Rozzgoat says he must defend himself against provocation - “Brush away the sparks that fly my way” sounds translated and weakens his controlled menace - Suggested EN: “…But you leave me no choice. I cannot simply allow you to attack me…!!” -- fixed
+- [x] ev:1FA7AA - Seeing Beet again brings back fond memories - “This feels so nostalgic” makes Kissu’s reunion sound abstract - Suggested EN: “…It really does feel like old times…!” -- fixed
+- [x] ev:1FF4C6 - Frausky marvels at Beet’s exceptional audacity - “One off-the-charts kid” interrupts his otherwise natural hitman drawl - Suggested EN: “Hah… You're really somethin', kid… You think you can beat me one on one?” -- fixed
+
+## story:09_kissu_betrayal.r2
+- [x] ev:203816 - Frausky marvels at Beet’s terrifying, unmeasurable strength - “Way past off the charts” awkwardly combines expressions, interrupting his shaken delivery - Suggested EN: “…What a scary brat… Even ‘off the charts’ doesn’t cover it……” -- fixed
+- [x] ev:2072EA - Kissu insists his dream predates Beet’s encouragement - “Because you carried me along” sounds unnatural in this intimate exchange - Suggested EN: “…That’s… not true… I wasn’t just caught up in your enthusiasm… I wanted it long before that… ever since I was a kid… ever since I became a Buster…” -- fixed
+
+## story:10_hermit_milfa.r2
+- [x] ev:21F12A - Poala privately fumes about Milfa’s behavior - “What kind of personality does she even have?!” is awkwardly literal; the equivalent scene at ev:21BD5E already handles this naturally - Suggested EN: “(…What's so ‘dramatic’ about it?! Who IS this woman?! How can she act like that?! …And besides…!!)” -- fixed
+
+## story:11_kissu_probation.r2
+- [x] ev:220DD4 - JP gist: The Dirt Anemones’ gate-breaking experiment succeeded. - “Gate-breaking” differs from the glossary’s named term “Gate Breaker.” - Suggested EN: “That is so, sire, but… the ‘Gate Breaker’ experiment with the Dirt Anemones went splendidly too, and Musley Village is, for all intents and purposes, destroyed, sire!” -- fixed
+- [x] ev:224260 - JP gist: From Milfa’s perspective, staying might hinder the team’s growth. - “Me, I feel the opposite” briefly suggests she disagrees with Poala’s desire to grow stronger; this is a change of perspective rather than opposing goals. - Suggested EN: “…Poala. Looking at it from my side… I worry that if I stay, I might hold you all back… keep you from growing as the Beet Warriors.” -- fixed
+- [x] ev:22477E - JP gist: Milfa laughs warmly during the friendly rivalry exchange. - “Ufufufu!” retains Japanese laughter despite the glossary’s English-interjection rule. - Suggested EN: “Hee hee hee!” -- fixed
+
+## story:12_sadram_grineed.r2
+- [x] ev:232C1A - JP gist: They might encounter Grineed despite their plan. - “There's no telling we won't” makes Kissu's otherwise clear explanation awkward. - Suggested EN: “Yeah… But we could still run right into Grineed…” -- fixed
+- [x] ev:23D340 - JP gist: Kissu admits his weakness but asserts the one decision he will uphold. - Repeated “weak heart” risks sounding medical and makes this pivotal declaration wooden. - Suggested EN: “…I'm weak… just as you say…! But… even someone as weak as me has made one firm decision… And that is…” -- fixed
+
+## story:13_ending.r2
+
+## story:14_side_tower_party.r2
+- [x] ev:17C300 - JP gist: God dwells in your heart and watches over you; perseverance will be rewarded. - Redou’s church dialogue alternates between singular “God” here and plural “gods” at ev:17C14A and ev:17C40E without a corresponding distinction in Japanese. Standardize during polish. - Suggested EN opening, matching the surrounding plural usage: “The gods live within your heart and are always watching over you.” -- fixed
+
+## story:15_side_juno_party_lake.r2
+
+## story:16_side_lake.r2
+
+## story:17_quest_log.r2

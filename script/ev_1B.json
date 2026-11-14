@@ -64,7 +64,7 @@
   "addr": "1B0166",
   "kind": "msg",
   "jp": "・・・そうだったの・・・[BR]みんなの、[BR]形見の才牙（サイガ）が・・・[WAIT]",
-  "en": "…So that's how it was…[BR]Everyone's Saiga, left[BR]behind as keepsakes of them…[WAIT]",
+  "en": "…So that's how it was…[BR]Everyone's Saiga, left behind as[BR]something to remember them by…[WAIT]",
   "bytes": 70,
   "sites": [
    "1AF76B:op7A+2"
@@ -13291,7 +13291,7 @@
   "addr": "1BE19C",
   "kind": "msg",
   "jp": "フフフッ・・・・・・[WAIT]",
-  "en": "Hee hee hee……[WAIT]",
+  "en": "Hmm hmm hmm…[WAIT]",
   "bytes": 24,
   "sites": [
    "1BD8CB:op7A+2"
@@ -13867,7 +13867,7 @@
   "addr": "1BECF8",
   "kind": "msg",
   "jp": "フフフッ・・・・・・[WAIT]",
-  "en": "Hee hee hee……[WAIT]",
+  "en": "Hmm hmm hmm…[WAIT]",
   "bytes": 24,
   "sites": [
    "1BE763:op7A+2"

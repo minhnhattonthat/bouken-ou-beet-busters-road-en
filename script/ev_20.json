@@ -3620,7 +3620,7 @@
   "addr": "203816",
   "kind": "msg",
   "jp": "・・・なんて・・・こえぇガキだ・・・[BR]圏外（けんがい）にも[BR]ほどがあるぜ・・・・・・[WAIT]",
-  "en": "…What a scary brat… This is[BR]way past off the charts……[WAIT]",
+  "en": "…What a scary brat… Even \"off[BR]the charts\" doesn't cover it……[WAIT]",
   "bytes": 88,
   "sites": [
    "20206F:op7A+2",
@@ -9526,7 +9526,7 @@
   "addr": "2072EA",
   "kind": "msg",
   "jp": "・・・そんなこと・・・ないよ・・・[BR]君につられたからじゃない・・・[PAGE]ぼくはその前からずっと・・・[BR]こどものころから・・・[BR]バスターになった時からずっと・・・[WAIT]",
-  "en": "…That's… not true… It wasn't[BR]because you carried me along…[PAGE]I wanted it long before that…[BR]ever since I was a kid… ever[BR]since I became a Buster…[WAIT]",
+  "en": "…That's… not true… I wasn't just[BR]caught up in your enthusiasm…[PAGE]I wanted it long before that…[BR]ever since I was a kid… ever[BR]since I became a Buster…[WAIT]",
   "bytes": 160,
   "sites": [
    "204BFA:op7A+2",

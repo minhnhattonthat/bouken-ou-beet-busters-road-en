@@ -3547,7 +3547,7 @@
   "addr": "1A3B34",
   "kind": "msg",
   "jp": "ゲッ・・・ゲヒッ！[BR]・・・なんてヤロウだ・・・[PAGE]冥撃（めいげき）の発動の[BR]しゅんかんをねらってくるとは・・・！[WAIT]",
-  "en": "Geh… Geh! …Why, that sneaky so-and-so…[PAGE]Going for me right at the[BR]instant my Dark Attack fires…![WAIT]",
+  "en": "Geh… Geh! …That blasted Buster…[PAGE]Going for me just as[BR]my Dark Attack fires…![WAIT]",
   "bytes": 114,
   "sites": [
    "1A30A2:op7A+2"
@@ -5659,7 +5659,7 @@
   "addr": "1A5C06",
   "kind": "msg",
   "jp": "・・・そうか[BR]キミはかれらの力を受けついで[BR]いるんだったね[PAGE]いや、力だけじゃない[BR]かれらの持っていた・・・[BR]正義（せいぎ）の心もだ[PAGE]・・・それが、[BR]キミの力のヒミツなのかも[BR]知れないな・・・[WAIT]",
-  "en": "…I see. You've inherited[BR]their power, haven't you.[PAGE]No, not only their power.[BR]Their… hearts of justice, too.[PAGE]…Maybe that's the secret[BR]of your strength…[WAIT]",
+  "en": "…I see. You've inherited[BR]their power, haven't you.[PAGE]No, not only their power.[BR]Their sense of justice, too.[PAGE]…Maybe that's the secret[BR]of your strength…[WAIT]",
   "bytes": 194,
   "sites": [
    "1A44F1:op52+5"
@@ -5683,7 +5683,7 @@
   "addr": "1A5CD0",
   "kind": "msg",
   "jp": "正義（せいぎ）の・・・心・・・[BR]うん、そうだ！[PAGE]オレはみんなの分までがんばって、[BR]「暗黒の世紀（あんこくのせいき）を[BR]終わらせる男」になるんだ！！[WAIT]",
-  "en": "Hearts… of justice… Yeah, that's it![PAGE]I'm gonna work hard enough for[BR]all of them, and become \"the man[BR]who'll end the Dark Century\"!![WAIT]",
+  "en": "Their sense… of justice…[BR]Yeah, that's it![PAGE]I'm gonna work hard enough for[BR]all of them, and become \"the man[BR]who'll end the Dark Century\"!![WAIT]",
   "bytes": 150,
   "sites": [
    "1A4505:op7A+2"
@@ -10427,7 +10427,7 @@
   "addr": "1A8F08",
   "kind": "msg",
   "jp": "黒の地平の拡大（かくだい）・・・[BR]それにモンスターの[BR]自己生産（じこせいさん）・・・[PAGE]世紀の大偉業（せいきのだいいぎょう）[BR]の完遂（かんすい）を目前にして・・・[PAGE]君らのようなわかぞうにたおされた事は[BR]すなおにくやしいが・・・[WAIT]",
-  "en": "Expanding the Black Horizon… and[BR]monsters that produce themselves…[PAGE]With the completion of the[BR]great achievement of the[BR]century right before my eyes…[PAGE]I'll admit, being beaten by[BR]youngsters like you is galling, but…[WAIT]",
+  "en": "Expanding the Black Horizon…[BR]and producing my own monsters…[PAGE]With the greatest achievement of the[BR]century almost within my grasp…[PAGE]I'll admit, being beaten by[BR]youngsters like you is galling, but…[WAIT]",
   "bytes": 228,
   "sites": [
    "1A7F55:op7A+2",
@@ -14897,7 +14897,7 @@
   "addr": "1ABE1E",
   "kind": "msg",
   "jp": "・・・ええっ！[WAIT]",
-  "en": "…Whaaat?![WAIT]",
+  "en": "…Oh![WAIT]",
   "bytes": 18,
   "sites": [
    "1AAB34:op7A+2"

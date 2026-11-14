@@ -13099,7 +13099,7 @@
   "addr": "1FA61C",
   "kind": "msg",
   "jp": "・・・ここまできては、[BR]ふりかかる火のこは[BR]はらわねばならんっ・・・！！[WAIT]",
-  "en": "…Now that it has come to[BR]this, I must brush away the[BR]sparks that fly my way…!![WAIT]",
+  "en": "…But you leave me no choice. I cannot[BR]simply allow you to attack me…!![WAIT]",
   "bytes": 76,
   "sites": [
    "1F9573:op7A+2",
@@ -13288,7 +13288,7 @@
   "addr": "1FA7AA",
   "kind": "msg",
   "jp": "・・・なんだか・・・[BR]とてもなつかしいよ・・・！[WAIT]",
-  "en": "…Somehow… this feels so nostalgic…![WAIT]",
+  "en": "…It really does feel like old times…![WAIT]",
   "bytes": 52,
   "sites": [
    "1F9614:op7A+2",
@@ -13912,7 +13912,7 @@
   "addr": "1FAC7A",
   "kind": "msg",
   "jp": "・・・ええっ！[WAIT]",
-  "en": "…Whaaat?![WAIT]",
+  "en": "…Oh![WAIT]",
   "bytes": 18,
   "sites": [
    "1F97DE:op7A+2",
@@ -19706,7 +19706,7 @@
   "addr": "1FF4C6",
   "kind": "msg",
   "jp": "ハッ・・・[BR]全く図ぬけたボウズだな・・・[BR]サシでオレに勝てるつもりかよ？[WAIT]",
-  "en": "Hah… You're one off-the-charts[BR]kid, man… You really think you[BR]can beat me one on one?[WAIT]",
+  "en": "Hah… You're really somethin', kid… You[BR]think you can beat me one on one?[WAIT]",
   "bytes": 76,
   "sites": [
    "1FE6E5:op7A+2"

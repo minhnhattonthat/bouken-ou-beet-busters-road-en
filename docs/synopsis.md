@@ -187,7 +187,8 @@ sunlight on the Black Horizon. Tone: shonen comedy with real grief at the deaths
 - Wrong-region quest copies (ev_24): Musley block 荒野 -> 山地 (24753A, 24757C); Terceron block delivers to the Triark
   Plains (24DB7C); Etria block to the Musley Wasteland (24DF94); アンクルスの平原 (249E7C) = Anklus Plains.
 - 181EAE "can't carry Cool Gel" vs 181EE2 "got Trakira Leaf": item mismatch; controller to decide.
-- 238992 tagged ロズゴート after his death: the "Bloodstained Beast" line; likely a mis-tag; check in game.
+- 238992 tagged ロズゴート after his death: the "Bloodstained Beast" line. The original ROM's event code shows his
+  name box here too, so the English keeps the source tag (ruled in phase 9: a source quirk, not a translation issue).
 - Two Appraisers of different genders (and more by town): old woman in Anklus, old man in Redou.
 - Juno's help-menu lines (182EFA-183D74) are casual, the story lines polite.
 - Fural says ビィト君 and casual 見ていってよ (1A1E44, 1A1FDA): possible speaker slip.

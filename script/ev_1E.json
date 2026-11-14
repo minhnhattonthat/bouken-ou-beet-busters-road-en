@@ -12141,7 +12141,7 @@
   "addr": "1E8A12",
   "kind": "msg",
   "jp": "よろしく、おねがいします[PAGE]本当なら自分がすぐにでも[BR]行きたいんですが・・・[BR]この身体では・・・[WAIT]",
-  "en": "Please, we're counting on you.[PAGE]If I could, I'd go right this[BR]minute myself… but with this body…[WAIT]",
+  "en": "Please, we're counting on you.[PAGE]I'd go right this minute myself[BR]if I could… but in my condition…[WAIT]",
   "bytes": 98,
   "sites": [
    "1E774B:op52+5",
@@ -13471,7 +13471,7 @@
   "addr": "1E961E",
   "kind": "msg",
   "jp": "・・・やっぱ、オマエはダメだ[BR]こどもがそんなすげぇ[BR]殺気（さっき）の目をするかよ[PAGE]やっぱり人間の[BR]子供（こども）がかわいいのは[BR]せいぜい今のぼっちゃんくらいまでだな[WAIT]",
-  "en": "…Yeah, you're no good. What kid makes[BR]eyes that full of killin' intent?[PAGE]Human kids are only cute up to[BR]about little man's age, tops.[WAIT]",
+  "en": "…Yeah, you're no good. What[BR]kinda kid gives you a look[BR]that says \"I'll kill you\"?[PAGE]Human kids are only cute up to[BR]about little man's age, tops.[WAIT]",
   "bytes": 168,
   "sites": [
    "1E7C20:op7A+2",

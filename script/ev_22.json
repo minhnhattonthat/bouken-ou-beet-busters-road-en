@@ -844,7 +844,7 @@
   "addr": "220DD4",
   "kind": "msg",
   "jp": "そうですが・・・[BR]ツチギンチャクによる[BR]「門くずし」の実験（じっけん）も[PAGE]うまくいきましたし、[BR]事実上ムスリーの里は[BR]壊滅（かいめつ）でございます！[WAIT]",
-  "en": "That is so, sire, but… the[BR]\"Gate-breaking\" experiment[BR]with the Dirt Anemones[PAGE]went splendidly too, and Musley[BR]Village is, for all intents and[BR]purposes, destroyed, sire![WAIT]",
+  "en": "That is so, sire, but… the[BR]\"Gate Breaker\" experiment[BR]with the Dirt Anemones[PAGE]went splendidly too, and Musley[BR]Village is, for all intents and[BR]purposes, destroyed, sire![WAIT]",
   "bytes": 152,
   "sites": [
    "2207F8:op7A+2"
@@ -4783,7 +4783,7 @@
   "addr": "224260",
   "kind": "msg",
   "jp": "・・・ポアラ[BR]あたしはぎゃくにね、[BR]このままあたしがいると・・・[PAGE]みんなの・・・[BR]「ビィト戦士団（せんしだん）」としての[BR]成長（せいちょう）に[PAGE]水をさしちゃうんじゃないかなぁって[BR]・・・そういう気がするの[WAIT]",
-  "en": "…Poala. Me, I feel the opposite…[BR]If I stay with you like this…[PAGE]I might end up dampening everyone's[BR]growth… as the \"Beet Warriors\"…[PAGE]That's the feeling I get.[WAIT]",
+  "en": "…Poala. Looking at it from my side…[BR]If I stay with you like this…[PAGE]I might end up dampening everyone's[BR]growth… as the \"Beet Warriors\"…[PAGE]That's the feeling I get.[WAIT]",
   "bytes": 208,
   "sites": [
    "222E9E:op7A+2"
@@ -5232,7 +5232,7 @@
   "addr": "22477E",
   "kind": "msg",
   "jp": "うふふふっ！[WAIT]",
-  "en": "Ufufufu![WAIT]",
+  "en": "Hee hee hee![WAIT]",
   "bytes": 16,
   "sites": [
    "223033:op7A+2",

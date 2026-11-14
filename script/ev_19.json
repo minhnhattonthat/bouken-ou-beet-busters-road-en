@@ -9333,7 +9333,7 @@
   "addr": "19847A",
   "kind": "msg",
   "jp": "このキズでは・・・[BR]ビィト君は・・・もう・・・[WAIT]",
-  "en": "With wounds like these…[BR]Beet-kun is… already…[WAIT]",
+  "en": "With wounds like these…[BR]Beet-kun won't… survive…[WAIT]",
   "bytes": 50,
   "sites": [
    "19501A:op7A+2",
@@ -9826,7 +9826,7 @@
   "addr": "198854",
   "kind": "msg",
   "jp": "そうだ・・・この子の想い・・・・！！[BR]この子をころしてはいけないっ・・・！[WAIT]",
-  "en": "Yes… his feelings….!! We[BR]can't let this boy die…![WAIT]",
+  "en": "Yes… his belief in justice….!![BR]We can't let this boy die…![WAIT]",
   "bytes": 78,
   "sites": [
    "195190:op7A+2",
@@ -13332,7 +13332,7 @@
   "addr": "19B3E6",
   "kind": "msg",
   "jp": "・・・うん[WAIT]",
-  "en": "…Okay.[WAIT]",
+  "en": "…Yeah.[WAIT]",
   "bytes": 14,
   "sites": [
    "199B67:op7A+2",
@@ -14597,7 +14597,7 @@
   "addr": "19D1B4",
   "kind": "msg",
   "jp": "・・・うん[WAIT]",
-  "en": "…Okay.[WAIT]",
+  "en": "…Yeah.[WAIT]",
   "bytes": 14,
   "sites": [
    "19BAA1:op7A+2"

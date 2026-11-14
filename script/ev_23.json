@@ -4866,7 +4866,7 @@
   "addr": "232C1A",
   "kind": "msg",
   "jp": "うん・・・でもグリニデとはち合わせ[BR]しないともかぎらないよ・・・[WAIT]",
-  "en": "Yeah… There's no telling we won't[BR]run right into Grineed, though…[WAIT]",
+  "en": "Yeah… But we could still[BR]run right into Grineed…[WAIT]",
   "bytes": 68,
   "sites": [
    "23187F:op7A+2",
@@ -14093,7 +14093,7 @@
   "addr": "237C90",
   "kind": "msg",
   "jp": "この先に・・・[BR]モンスターの実験場（じっけんじょう）[BR]があるらしくて・・・[PAGE]そこで仲間（なかま）たちは・・・[WAIT]",
-  "en": "Up ahead… there's[BR]supposedly a Monster Lab…[PAGE]and our friends there are…[WAIT]",
+  "en": "Up ahead… there's[BR]supposedly a Monster Lab…[PAGE]That's where they… did[BR]this to our friends…[WAIT]",
   "bytes": 112,
   "sites": [
    "2370BB:op52+5",
@@ -26621,7 +26621,7 @@
   "addr": "23D340",
   "kind": "msg",
   "jp": "・・・ぼくは・・・あなたが言うように[BR]心の弱い人間です・・・！[PAGE]でも・・・たったひとつだけ・・・[BR]この弱い心で決めた事があるんです[BR]・・・それが・・・[WAIT]",
-  "en": "…I am… just as you say, a[BR]person with a weak heart…![PAGE]But… there's just one thing… one[BR]thing I decided with this weak[BR]heart of mine… And that is…[WAIT]",
+  "en": "…I'm weak… just as you say…![PAGE]But… even someone as weak as me has[BR]made one firm decision… And that is…[WAIT]",
   "bytes": 154,
   "sites": [
    "23BD97:op7A+2",
