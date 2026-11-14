@@ -616,7 +616,7 @@
   "addr": "1C0994",
   "kind": "msg",
   "jp": "・・・オレはその方が[BR]楽しめる・・・がな！[WAIT]",
-  "en": "…I'd enjoy that more… I would![WAIT]",
+  "en": "…Though I'd enjoy that more![WAIT]",
   "bytes": 46,
   "sites": [
    "1BF914:op7A+2"
@@ -1180,7 +1180,7 @@
   "addr": "1C1154",
   "kind": "msg",
   "jp": "（うおっ、すげぇ・・・！[BR]まちがいなく３年前いじょうの[BR]パワーだ・・・[PAGE]ビリビリつたわってくるっ・・・！！）[WAIT]",
-  "en": "(Whoa, that's insane…! That's way more[BR]power than three years ago, no doubt…[PAGE]I can feel it tingling[BR]right through me…!!)[WAIT]",
+  "en": "(Whoa, that's insane…! That's way more[BR]power than three years ago, no doubt…[PAGE]I can feel it crackling[BR]right through me…!!)[WAIT]",
   "bytes": 112,
   "sites": [
    "1BFB50:op7A+2"
@@ -1800,7 +1800,7 @@
   "addr": "1C1736",
   "kind": "msg",
   "jp": "・・・そ、そんなっ・・・！！[BR]ビィトの渾身（こんしん）のいちげきを[BR]受けたのにっ！！！[WAIT]",
-  "en": "…N-no way…!! He took[BR]Beet's all-out attack…!!![WAIT]",
+  "en": "…N-no way…!! He took Beet's all-out[BR]attack and he's still standing…!!![WAIT]",
   "bytes": 90,
   "sites": [
    "1BFDD9:op7A+2",
@@ -2080,7 +2080,7 @@
   "addr": "1C1B6E",
   "kind": "msg",
   "jp": "・・・ハッ！[WAIT]",
-  "en": "…Huh![WAIT]",
+  "en": "…Ah![WAIT]",
   "bytes": 16,
   "sites": [
    "1BFEB5:op7A+2",
@@ -3228,7 +3228,7 @@
   "addr": "1C270A",
   "kind": "msg",
   "jp": "・・・ビィト[BR]とにかくおまえはよめさんを[BR]つれてにげろ！[PAGE]その毒（どく）はヤバイ！・・・[BR]鑑定小屋（ハウス）まで行けば[BR]解毒（げどく）してもらえるはずだっ！[WAIT]",
-  "en": "…Beet. Whatever happens,[BR]take the missus and run![PAGE]That poison's bad news! …Get to[BR]the Appraisal House and they[BR]should be able to cure it![WAIT]",
+  "en": "…Beet. Just take the missus and run![PAGE]That poison's bad news! …Get to[BR]the Appraisal House and they[BR]should be able to cure it![WAIT]",
   "bytes": 160,
   "sites": [
    "1C02D6:op7A+2",
@@ -3446,7 +3446,7 @@
   "addr": "1C2F46",
   "kind": "msg",
   "jp": "なんとっ！？[BR]見せてみなさい[WAIT]",
-  "en": "What?! Let me have a look.[WAIT]",
+  "en": "What?! Let's have a look at her, then.[WAIT]",
   "bytes": 32,
   "sites": [
    "1C28E4:op7A+2"
@@ -3590,7 +3590,7 @@
   "addr": "1C30C8",
   "kind": "msg",
   "jp": "さっきの襲撃（しゅうげき）で・・・[BR]解毒道具（げどくどうぐ）のたぐいが[BR]全部ダメにされてしまってのぉ・・・[PAGE]ワシの能力（のうりょく）では[BR]どうしようもない・・・・・・[WAIT]",
-  "en": "In that raid just now…[BR]every last antidote tool I[BR]had was ruined, blast it…[PAGE]With my abilities, there's[BR]nothing I can do……[WAIT]",
+  "en": "In that raid just now… every[BR]last antidote and remedy I[BR]had was ruined, blast it…[PAGE]With my abilities, there's[BR]nothing I can do……[WAIT]",
   "bytes": 170,
   "sites": [
    "1C2991:op7A+2"
@@ -5072,7 +5072,7 @@
   "addr": "1C4B36",
   "kind": "msg",
   "jp": "・・・チッ[BR]このままベルトーゼの首をかっ切って[BR]やろうかと思ってたのに・・・[PAGE]てきに教えるヤツがあるかよ・・・！！[WAIT]",
-  "en": "…Tch. I was going to slit[BR]Beltorze's throat just like that…[PAGE]Who tips off the enemy like that…?!![WAIT]",
+  "en": "…Tch. I was about to[BR]slit Beltorze's throat…[PAGE]Who tips off the enemy…?!![WAIT]",
   "bytes": 118,
   "sites": [
    "1C3CDD:op7A+2"
@@ -6197,7 +6197,7 @@
   "addr": "1C55D6",
   "kind": "msg",
   "jp": "・・・そうじゃ[WAIT]",
-  "en": "…That's right.[WAIT]",
+  "en": "…Aye, that it is.[WAIT]",
   "bytes": 18,
   "sites": [
    "1C41DD:op7A+2",
@@ -6925,7 +6925,7 @@
   "addr": "1C5DE8",
   "kind": "msg",
   "jp": "・・・・・・フゥ[WAIT]",
-  "en": "……Phew.[WAIT]",
+  "en": "……*sigh*[WAIT]",
   "bytes": 20,
   "sites": [
    "1C4445:op7A+2",
@@ -6951,7 +6951,7 @@
   "addr": "1C5E04",
   "kind": "msg",
   "jp": "おまえ・・・[BR]やっぱ大物じゃのぉ・・・[WAIT]",
-  "en": "You, my boy… you really[BR]are something big, eh…[WAIT]",
+  "en": "You, my boy… you're quite[BR]the big shot yourself, eh…[WAIT]",
   "bytes": 42,
   "sites": [
    "1C445B:op7A+2",
@@ -7445,7 +7445,7 @@
   "addr": "1C6446",
   "kind": "msg",
   "jp": "強力なバスターも多く集まっておる[BR]情報（じょうほう）や仲間（なかま）を[BR]さがすなら、トロワナが一番じゃろ[WAIT]",
-  "en": "Lots of powerful Busters gather[BR]there, too. If you're after[BR]information or companions,[PAGE]Trowana's your best bet, eh.[WAIT]",
+  "en": "Lots of powerful Busters gather[BR]there, too. For information or[BR]companions, Trowana's your best bet.[WAIT]",
   "bytes": 108,
   "sites": [
    "1C45FD:op7A+2",
@@ -7990,7 +7990,7 @@
   "addr": "1C6CCC",
   "kind": "msg",
   "jp": "いやぁ・・・[PAGE]おどろきましたなグリニデ様[BR]まさかあなた様の[BR]長年のライバルである[PAGE]ベルトーゼめがあらわれようとは・・・[BR]いやはやなんとも・・・[BR]思いもしない事態（じたい）でっ・・・[WAIT]",
-  "en": "My, my…[PAGE]What a surprise, Grineed-sama,[BR]sire! Who'd have thought that[BR]Beltorze, your longtime rival,[PAGE]would show his face, indeed… My,[BR]my, most certainly… a most[BR]unexpected turn of events, sire…[WAIT]",
+  "en": "My, my…[PAGE]What a surprise, Grineed-sama![BR]Who'd have thought that[BR]Beltorze, your longtime rival,[PAGE]would show his face, indeed… My,[BR]my, most certainly… a most[BR]unexpected turn of events, sire…[WAIT]",
   "bytes": 184,
   "sites": [
    "1C6A2E:op7A+2"
@@ -8374,7 +8374,7 @@
   "addr": "1C719A",
   "kind": "msg",
   "jp": "フッ・・・[BR]いつもすまぬな・・・[BR]ダンゴール[WAIT]",
-  "en": "Hm… Sorry as always, Dangol.[WAIT]",
+  "en": "Heh… Forgive me, as always, Dangol.[WAIT]",
   "bytes": 48,
   "sites": [
    "1C6C4B:op7A+2"
@@ -10318,7 +10318,7 @@
   "addr": "1C90C0",
   "kind": "msg",
   "jp": "・・・そうなのかなぁ・・・[WAIT]",
-  "en": "…Ya think so…[WAIT]",
+  "en": "…Is that really it, I wonder…[WAIT]",
   "bytes": 30,
   "sites": [
    "1C837B:op7A+2"
@@ -10438,7 +10438,7 @@
   "addr": "1C91BC",
   "kind": "msg",
   "jp": "ええええええっ！？[BR]そ、そうなんっ！！？[WAIT]",
-  "en": "Whaaaaaat?! I-is that how it was?!![WAIT]",
+  "en": "Whaaaaaat?! R-really?!![WAIT]",
   "bytes": 44,
   "sites": [
    "1C83E9:op7A+2"
@@ -10966,7 +10966,7 @@
   "addr": "1C9D26",
   "kind": "msg",
   "jp": "おお、いいところにきたね[BR]いまちょうど整理し終わったところ[BR]じゃよ[PAGE]・・・けっこうあるけど、[BR]だいじょうぶかの[WAIT]",
-  "en": "Oh, you came at a good time. I[BR]just finished sorting it all.[PAGE]…There's quite a lot, though.[BR]Will you be all right, eh?[WAIT]",
+  "en": "Oh, you came at a good time. I[BR]just finished sorting it all.[PAGE]…There's quite a lot, though.[BR]Will you be all right?[WAIT]",
   "bytes": 114,
   "sites": [
    "1C94C4:op7A+2"
@@ -11282,7 +11282,7 @@
   "addr": "1CA1FA",
   "kind": "msg",
   "jp": "なんだとぉっ！[BR]あいかわらず口のへらない・・・[WAIT]",
-  "en": "What'd you say?! Still got[BR]a smart mouth as always…[WAIT]",
+  "en": "What'd you say?![BR]Smart-mouthed as ever…[WAIT]",
   "bytes": 50,
   "sites": [
    "1C96E3:op7A+2"
@@ -11618,7 +11618,7 @@
   "addr": "1CAA8E",
   "kind": "msg",
   "jp": "うむ[BR]おそらく塚（つか）には[BR]けっこうな数の[PAGE]グルメアントがいるはずじゃ[BR]気をつけて行くのじゃよ[WAIT]",
-  "en": "Mm. There are bound[BR]to be quite a lot of[PAGE]Gourmet Ants in that hill.[BR]Mind how you go, now.[WAIT]",
+  "en": "Mm. That hill must be crawling with[PAGE]Gourmet Ants. Mind how you go, now.[WAIT]",
   "bytes": 100,
   "sites": [
    "1CA574:op52+5"
@@ -12170,7 +12170,7 @@
   "addr": "1CAF5A",
   "kind": "msg",
   "jp": "・・・ああ、どうやらこれで[BR]終わりらしい・・・・・・[BR]ザコはなっ！！[WAIT]",
-  "en": "…Yes, looks like that's the end of[BR]them…… The small fry, anyway!![WAIT]",
+  "en": "…Yeah, looks like that's the end[BR]of them…… The small fry, anyway!![WAIT]",
   "bytes": 72,
   "sites": [
    "1CA7F0:op7A+2"
@@ -12818,7 +12818,7 @@
   "addr": "1CBC04",
   "kind": "msg",
   "jp": "・・・いたぞ[WAIT]",
-  "en": "…Found them.[WAIT]",
+  "en": "…Target spotted.[WAIT]",
   "bytes": 16,
   "sites": [
    "1CB328:op7A+2"
@@ -12842,7 +12842,7 @@
   "addr": "1CBC1C",
   "kind": "msg",
   "jp": "「いたぞ・・・」ってスレッド、[BR]それじゃあなんだか[BR]モンスター見つけた時みたいな[PAGE]言い方だなぁ・・・[WAIT]",
-  "en": "\"Found them…\"? Geez, Slade,[BR]you make it sound like[PAGE]you just spotted a monster…[WAIT]",
+  "en": "\"Target spotted…\"? Geez,[BR]Slade, you make it sound like[PAGE]you just spotted a monster…[WAIT]",
   "bytes": 104,
   "sites": [
    "1CB346:op7A+2"
@@ -13010,7 +13010,7 @@
   "addr": "1CBE36",
   "kind": "msg",
   "jp": "ふうっ・・・[BR]いっちょう上がりっと！[WAIT]",
-  "en": "Phew… One down, done and dusted![WAIT]",
+  "en": "Phew… And that's that![WAIT]",
   "bytes": 40,
   "sites": [
    "1CB40C:op7A+2"
@@ -13322,7 +13322,7 @@
   "addr": "1CC22A",
   "kind": "msg",
   "jp": "本当にありがとう！[BR]・・・彼にガツンと言われた事、[BR]バスターとしてキモにめいじておくよ[WAIT]",
-  "en": "Thank you so much! …What[BR]he told us straight, I'll[BR]take to heart as a Buster.[WAIT]",
+  "en": "Thank you so much! …I'll take what[BR]he told us to heart, as a Buster.[WAIT]",
   "bytes": 90,
   "sites": [
    "1CB516:op52+5"
@@ -13730,7 +13730,7 @@
   "addr": "1CC920",
   "kind": "msg",
   "jp": "・・・わりと回ったけど・・・[BR]それっぽいモンスターは[BR]いないなぁ・・・[WAIT]",
-  "en": "…We've been around quite a[BR]bit… but there's no monster[BR]that looks like the one…[WAIT]",
+  "en": "…We've been around quite a[BR]bit… but no sign of anything[BR]that looks like our monster…[WAIT]",
   "bytes": 74,
   "sites": [
    "1CC556:op7A+2"
@@ -14174,7 +14174,7 @@
   "addr": "1CD814",
   "kind": "msg",
   "jp": "んー、それがの・・・[PAGE]レドウ灯台（とうだい）は、[BR]いわゆる炎（ほのお）で[BR]てらしてたわけじゃないんじゃよ[WAIT]",
-  "en": "Hmm, well, about that…[PAGE]Redou Lighthouse never shone[BR]with a flame, you see, eh.[WAIT]",
+  "en": "Hmm, well, about that…[PAGE]Redou Lighthouse never shone[BR]with a flame, you see.[WAIT]",
   "bytes": 108,
   "sites": [
    "1CCD53:op52+5"
@@ -14462,7 +14462,7 @@
   "addr": "1CDD86",
   "kind": "msg",
   "jp": "うむ・・・[BR]それがの、今はもうキケンだという事で[BR]封鎖（ふうさ）されていた、[PAGE]レドウ灯台（とうだい）の地下通路から[BR]何者かが侵入（しんにゅう）したあとが[BR]あるそうじゃ[WAIT]",
-  "en": "Mm… Well, it seems there are[BR]signs that someone broke in[BR]through the underground[PAGE]passage of Redou Lighthouse,[PAGE]which had been sealed off[BR]because it's dangerous now.[WAIT]",
+  "en": "Mm… It seems someone broke in[BR]through the Redou Lighthouse's[BR]underground passage,[PAGE]which had been sealed[BR]off as too dangerous.[WAIT]",
   "bytes": 170,
   "sites": [
    "1CCE2F:op52+5"
@@ -14942,7 +14942,7 @@
   "addr": "1CE31E",
   "kind": "msg",
   "jp": "ああ[BR]どうやらヤツが石をうばった[BR]犯人（はんにん）らしいな・・・[WAIT]",
-  "en": "Yes. Looks like that thing's the[BR]culprit who stole the stone…[WAIT]",
+  "en": "Yeah. Looks like that thing's[BR]the culprit who stole the stone…[WAIT]",
   "bytes": 68,
   "sites": [
    "1CCFFD:op7A+2"
@@ -15902,7 +15902,7 @@
   "addr": "1CECD4",
   "kind": "msg",
   "jp": "・・・オレも[BR]トロワナには用事があってな・・・[PAGE]本当はオマエたちなんかと[BR]組んでいたくはないのだが・・・[PAGE]もうしばらく組んでやってもいいかな[BR]ってな・・・[WAIT]",
-  "en": "…I've got business in Trowana too…[PAGE]Truth be told, I'd rather not be[BR]teamed up with the likes of you…[PAGE]but I figured I might[BR]team up a while longer…[WAIT]",
+  "en": "…I've got business in Trowana too…[PAGE]Truth be told, I'd rather not be[BR]teamed up with the likes of you…[PAGE]but I figured I could put up with[BR]teaming up with you a while longer…[WAIT]",
   "bytes": 158,
   "sites": [
    "1CD408:op7A+2"
@@ -16022,7 +16022,7 @@
   "addr": "1CEE3E",
   "kind": "msg",
   "jp": "・・・オレたち仲間（なかま）だろ？[BR]トロワナに用事があるって[BR]そんなの当たり前だろう・・・[PAGE]なんせ「オレたち」が向かうところ[BR]なんだからさ！！[WAIT]",
-  "en": "…We're friends, right? Of course[BR]you've got business in Trowana…[PAGE]I mean, that's where \"we're\" headed!![WAIT]",
+  "en": "…We're friends, right? Of course[BR]you've got business in Trowana…[PAGE]I mean, that's where \"we\" are headed!![WAIT]",
   "bytes": 146,
   "sites": [
    "1CD476:op7A+2"
@@ -16262,7 +16262,7 @@
   "addr": "1CF166",
   "kind": "msg",
   "jp": "ああ！　気合入れて行こうぜ、[BR]トロワナへっ！！[WAIT]",
-  "en": "Yeah! Let's get fired up[BR]and go, to Trowana!![WAIT]",
+  "en": "Yeah! Let's get fired up[BR]and head for Trowana!![WAIT]",
   "bytes": 50,
   "sites": [
    "1CD552:op7A+2"
@@ -16718,7 +16718,7 @@
   "addr": "1CF6D4",
   "kind": "msg",
   "jp": "ああ！　気合入れて行こうぜ、[BR]トロワナへっ！！[WAIT]",
-  "en": "Yeah! Let's get fired up[BR]and go, to Trowana!![WAIT]",
+  "en": "Yeah! Let's get fired up[BR]and head for Trowana!![WAIT]",
   "bytes": 50,
   "sites": [
    "1CD720:op7A+2"

@@ -364,7 +364,7 @@
   "addr": "200660",
   "kind": "msg",
   "jp": "それは心配ないようだよ[BR]フラウスキー・・・[PAGE]あの遺跡（いせき）の主な[BR]古代魔文字（こだいまもじ）は[BR]あいつが全て記録（きろく）して[PAGE]あるそうだ・・・[WAIT]",
-  "en": "There seems to be no need to[BR]worry about that, Frausky…[PAGE]I hear he has recorded all of the main[BR]ancient Vandel script in those ruins,[PAGE]every bit of it…[WAIT]",
+  "en": "There seems to be no need to[BR]worry about that, Frausky…[PAGE]I hear he has recorded all the[BR]main ancient Vandel script[PAGE]in those ruins…[WAIT]",
   "bytes": 152,
   "sites": [
    "2002C0:op7A+2"
@@ -2084,7 +2084,7 @@
   "addr": "20286A",
   "kind": "msg",
   "jp": "ハハハッ[BR]んな事だろうと思ったぜ！[BR]・・・おめえ、この女にイカレたな？[WAIT]",
-  "en": "Hahaha! Figured it was[BR]somethin' like that! …You've[BR]gone soft on this girl, eh?[WAIT]",
+  "en": "Hahaha! Figured it was[BR]somethin' like that! …You've[BR]fallen for this girl, eh?[WAIT]",
   "bytes": 74,
   "sites": [
    "201B01:op7A+2",
@@ -2604,7 +2604,7 @@
   "addr": "202D0C",
   "kind": "msg",
   "jp": "こいつはな[PAGE]あの遺跡（いせき）に[BR]おまえをさそいこんだ[BR]張本人（ちょうほんにん）だぜ[PAGE]・・・オレたち同様、[BR]グリニデの旦那（だんな）の[BR]配下の一人なんだよッ・・・！！[WAIT]",
-  "en": "Listen, this guy[PAGE]is the one who lured you into[BR]those ruins in the first place.[PAGE]…Same as us, he's one of[BR]Grineed the boss's men…!![WAIT]",
+  "en": "Listen, this guy[PAGE]is the one who lured you into[BR]those ruins in the first place.[PAGE]…Same as us, he's one of the[BR]boss's men -- Grineed's…!![WAIT]",
   "bytes": 170,
   "sites": [
    "201CC5:op7A+2",
@@ -5413,7 +5413,7 @@
   "addr": "2059BC",
   "kind": "msg",
   "jp": "・・・こんな冥撃（めいげき）っ！！[WAIT]",
-  "en": "…A Dark Attack like this?!![WAIT]",
+  "en": "…A Dark Attack like this is nothing!![WAIT]",
   "bytes": 38,
   "sites": [
    "2042C4:op7A+2",
@@ -7122,7 +7122,7 @@
   "addr": "206380",
   "kind": "msg",
   "jp": "しかもこの霧（きり）みたいな[BR]毒粉（どくこな）・・・[PAGE]これにつつまれた空間では[BR]天撃（てんげき）や才牙（サイガ）を[BR]生成（せいせい）するのが[PAGE]困難（こんなん）になるし、[BR]身体の自由もきかなくなるんだと[BR]思う・・・！[WAIT]",
-  "en": "What's more, this[BR]mist-like poison powder…[PAGE]inside a space filled with[BR]it, forming Divine Attacks[BR]and Saiga gets difficult,[PAGE]and I think your body[BR]stops moving freely too…![WAIT]",
+  "en": "What's more, this[BR]mist-like poison powder…[PAGE]Inside it, forming Divine[BR]Attacks and Saiga gets hard,[PAGE]and I think it stops your[BR]body moving freely too…![WAIT]",
   "bytes": 218,
   "sites": [
    "20475A:op7A+2",
@@ -7164,7 +7164,7 @@
   "addr": "206462",
   "kind": "msg",
   "jp": "な・・・なんですって・・・！[WAIT]",
-  "en": "Wh… what did you say…![WAIT]",
+  "en": "Wh-what…?![WAIT]",
   "bytes": 32,
   "sites": [
    "204770:op7A+2",
@@ -9848,7 +9848,7 @@
   "addr": "2074F0",
   "kind": "msg",
   "jp": "だから[BR]あいつはオレがたおしてみせる！！[PAGE]おまえのそうなったすがた・・・[BR]ぜったい見てぇもんな！！[WAIT]",
-  "en": "So I'm gonna take that[BR]guy down myself!![PAGE]'Cause I really wanna see[BR]you become that guy!![WAIT]",
+  "en": "So I'm gonna take that[BR]guy down myself!![PAGE]'Cause I really wanna[BR]see you get there!![WAIT]",
   "bytes": 102,
   "sites": [
    "204C94:op7A+2",
@@ -14239,7 +14239,7 @@
   "addr": "208BC2",
   "kind": "msg",
   "jp": "調子いいんだから[BR]もうっ・・・！！[WAIT]",
-  "en": "Honestly, you're always[BR]so full of yourself…!![WAIT]",
+  "en": "Honestly, you and your sweet talk…!![WAIT]",
   "bytes": 38,
   "sites": [
    "2054FA:op7A+2",
@@ -16020,7 +16020,7 @@
   "addr": "209DD0",
   "kind": "msg",
   "jp": "（知ってるも何も、[BR]あれを解決（かいけつ）したのは[BR]オレらだっつーの・・・）[WAIT]",
-  "en": "(Heard of 'em? We're the ones[BR]who solved that, dammit…)[WAIT]",
+  "en": "(Heard of 'em? We're the[BR]ones who solved it, y'know…)[WAIT]",
   "bytes": 80,
   "sites": [
    "2093C4:op7A+2",
@@ -16272,7 +16272,7 @@
   "addr": "20A0C6",
   "kind": "msg",
   "jp": "むむむ・・・、それなんだがな・・・[BR]実は、この里のそうこは[BR]ワシがかし出しておってな・・・[PAGE]むろん、そうこにはワシの大事な[BR]財宝（ざいほう）もしまってあったの[BR]じゃ・・・[PAGE]それをこともあろうに、[BR]たくわえとかんちがいして、[BR]うばっていきおったのじゃよ！[WAIT]",
-  "en": "Hmm hmm… about that, you see… The[BR]truth is, I am the one who rents[BR]out the village storehouse…[PAGE]Naturally, my own precious treasure[BR]was stored in there as well…[PAGE]And of all things, the[BR]creature mistook it for the[BR]stores and carried it off![WAIT]",
+  "en": "Hmmm… about that, you see… The[BR]truth is, I am the one who rents[BR]out the village storehouse…[PAGE]Naturally, my own precious treasure[BR]was stored in there as well…[PAGE]And of all things, the[BR]creature mistook it for the[BR]stores and carried it off![WAIT]",
   "bytes": 256,
   "sites": [
    "209460:op52+5",
@@ -17758,7 +17758,7 @@
   "addr": "20B004",
   "kind": "msg",
   "jp": "むむむ・・・[PAGE]こうなったらお前ら！[BR]ここで１００００００ＭＧ分、[BR]働いてもらうぞーーー！！[WAIT]",
-  "en": "Hmm hmm hmm…[PAGE]In that case, you lot! You'll[BR]work here until you've paid[BR]off 1,000,000 MG!!![WAIT]",
+  "en": "Grrr…[PAGE]In that case, you lot! You'll[BR]work here until you've paid[BR]off 1,000,000 MG!!![WAIT]",
   "bytes": 94,
   "sites": [
    "209990:op52+5",
@@ -18012,7 +18012,7 @@
   "addr": "20C0D4",
   "kind": "msg",
   "jp": "・・・夜まで、待ってしのびこむか？[WAIT]",
-  "en": "…Shall we wait for[BR]nightfall and sneak in?[WAIT]",
+  "en": "…Wait till nightfall and sneak in?[WAIT]",
   "bytes": 38,
   "sites": [
    "20B20A:op7A+2",
@@ -19985,7 +19985,7 @@
   "addr": "20CEE2",
   "kind": "msg",
   "jp": "あっ・・あかつきの、おの～～？[WAIT]",
-  "en": "Th-the Dawn… Axe?[WAIT]",
+  "en": "Th-the Dawn… Axxxe?[WAIT]",
   "bytes": 34,
   "sites": [
    "20B848:op7A+2",

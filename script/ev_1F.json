@@ -856,7 +856,7 @@
   "addr": "1F1112",
   "kind": "msg",
   "jp": "・・・そうじゃ、そういえば[BR]ムガインをたおしたのは[BR]おまえたちじゃったのぉ？[WAIT]",
-  "en": "…Ah, that reminds me. You're the ones[BR]who defeated Mugine, aren't you, eh?[WAIT]",
+  "en": "…Ah, that reminds me. You're the[BR]ones who defeated Mugine, eh?[WAIT]",
   "bytes": 80,
   "sites": [
    "1F064B:op7A+2",
@@ -1681,7 +1681,7 @@
   "addr": "1F19A0",
   "kind": "msg",
   "jp": "ああ！　返りうちだぜ！！[BR]・・・全部ぶっころしてやろうぜ！！[BR]行くぞッ！！！[WAIT]",
-  "en": "Yeah! We'll turn the tables[BR]on 'em!! …Let's smash every[BR]last one!! Let's go!!![WAIT]",
+  "en": "Yeah! We'll turn the tables[BR]on 'em!! …Let's smash every[BR]last one!! Here we go!!![WAIT]",
   "bytes": 80,
   "sites": [
    "1F0956:op7A+2",
@@ -1880,7 +1880,7 @@
   "addr": "1F1BA8",
   "kind": "msg",
   "jp": "・・・これでおまえのたくらみも[BR]終わりだな！　ベンチュラ！！[WAIT]",
-  "en": "…That's the end of[BR]your scheme! Ventura!![WAIT]",
+  "en": "…That's the end of[BR]your scheme, Ventura!![WAIT]",
   "bytes": 64,
   "sites": [
    "1F0A43:op7A+2",
@@ -3117,7 +3117,7 @@
   "addr": "1F2AC4",
   "kind": "msg",
   "jp": "おお、そうじゃそうじゃ[BR]実はこのオーブ・・・[PAGE]使い方によっては、[BR]モンスターやヴァンデルに対する[BR]武器（ぶき）にならないかという[PAGE]考えがあっての・・・[WAIT]",
-  "en": "Oh, right, right. Well,[BR]you see, about this Orb…[PAGE]There's an idea that, used the right[BR]way, it might become a weapon[BR]against monsters and Vandels…[PAGE]that's the thinking, anyway…[WAIT]",
+  "en": "Oh, right, right. Well,[BR]you see, about this Orb…[PAGE]I've had a thought:[BR]used the right way,[PAGE]might it become a weapon[BR]against monsters and Vandels…?[WAIT]",
   "bytes": 154,
   "sites": [
    "1F21CA:op7A+2",
@@ -3448,7 +3448,7 @@
   "addr": "1F2E98",
   "kind": "msg",
   "jp": "うわっ！・・・そ、そんなコト[BR]言われてもさぁ・・・[BR]なぁ、ポアラ・・・？[WAIT]",
-  "en": "Whoa! …Y-you can say that,[BR]but… right, Poala…?[WAIT]",
+  "en": "Whoa! …E-easy for you[BR]to say… Right, Poala…?[WAIT]",
   "bytes": 76,
   "sites": [
    "1F22AF:op7A+2",
@@ -3550,7 +3550,7 @@
   "addr": "1F3026",
   "kind": "msg",
   "jp": "いや、それくらいの知識（ちしき）は[BR]きほんだぞビィト・・・[PAGE]まぁ、とらえてほしいモンスターは、[BR]今ポアラが言ったヤツでじゅうぶんじゃ[PAGE]・・・ただリビングコインは、[BR]その生息地（せいそくち）がもともと[BR]オーブが安置（あんち）されていた[PAGE]場所のようじゃから、[BR]かんけいないじゃろう[WAIT]",
-  "en": "Now, now, that much knowledge[BR]is the basics, Beet…[PAGE]Anyway, the monsters Poala just named[BR]are plenty for what I need caught.[PAGE]…Only, the Living Coin's habitat seems[BR]to be the very place the Orb was kept,[PAGE]so that one won't be relevant.[WAIT]",
+  "en": "No, Beet, that much is[BR]just basic knowledge…[PAGE]Anyway, the monsters Poala just named[BR]are plenty for what I need caught.[PAGE]…Only, the Living Coin's habitat seems[BR]to be the very place the Orb was kept,[PAGE]so that one won't be relevant.[WAIT]",
   "bytes": 280,
   "sites": [
    "1F22F1:op7A+2",
@@ -5517,7 +5517,7 @@
   "addr": "1F4DB2",
   "kind": "msg",
   "jp": "・・・後ろから回り込むか[WAIT]",
-  "en": "…Shall we circle around behind it?[WAIT]",
+  "en": "…We circle around behind it.[WAIT]",
   "bytes": 28,
   "sites": [
    "1F4369:op7A+2"
@@ -6448,7 +6448,7 @@
   "addr": "1F5448",
   "kind": "msg",
   "jp": "でもまぁ・・・[BR]ウワサが一人歩きしてる、なんてことは[BR]よくあることだし・・・[PAGE]凶暴（きょうぼう）じゃなくて[BR]よかったんじゃない？[WAIT]",
-  "en": "Well… rumors taking on a life of[BR]their own happens all the time…[PAGE]Isn't it a good thing[BR]it wasn't ferocious?[WAIT]",
+  "en": "Well… rumors take on a life[BR]of their own all the time…[PAGE]Isn't it a good thing[BR]it wasn't ferocious?[WAIT]",
   "bytes": 132,
   "sites": [
    "1F4734:op7A+2",
@@ -6725,7 +6725,7 @@
   "addr": "1F60E4",
   "kind": "msg",
   "jp": "そうじゃな・・・[WAIT]",
-  "en": "Just so…[WAIT]",
+  "en": "Quite right…[WAIT]",
   "bytes": 20,
   "sites": [
    "1F55C5:op52+5",
@@ -9379,7 +9379,7 @@
   "addr": "1F7DCE",
   "kind": "msg",
   "jp": "さすがにこれでは里の安全も何も[BR]あったもんじゃないのでの、[PAGE]バスターに依頼（いらい）する一方、[BR]わしらでも調査（ちょうさ）を[BR]してみたのだが・・・[WAIT]",
-  "en": "At this rate, the village can't[BR]be safe or anything else, eh,[PAGE]so while we put in a request[BR]with the Busters, we did some[BR]investigating ourselves, but…[WAIT]",
+  "en": "With things like this, the village's[BR]safety is out the window, eh,[PAGE]so while we put in a request[BR]with the Busters, we did some[BR]investigating ourselves, but…[WAIT]",
   "bytes": 150,
   "sites": [
    "1F7257:op7A+2",
@@ -10125,7 +10125,7 @@
   "addr": "1F85D2",
   "kind": "msg",
   "jp": "・・・口よりも身体を動かすべきだな[WAIT]",
-  "en": "…You should move your body[BR]more than your mouth.[WAIT]",
+  "en": "…Less talking, more fighting.[WAIT]",
   "bytes": 38,
   "sites": [
    "1F7574:op7A+2",
@@ -10636,7 +10636,7 @@
   "addr": "1F8954",
   "kind": "msg",
   "jp": "たったいへんなんだ・・・・・・、[BR]こ・・・こ・・・[WAIT]",
-  "en": "Th-this is bad……, th… th…[WAIT]",
+  "en": "Th-this is bad……, i… i…[WAIT]",
   "bytes": 54,
   "sites": [
    "1F776B:op52+5",
@@ -10668,7 +10668,7 @@
   "addr": "1F8992",
   "kind": "msg",
   "jp": "こ・・・？[WAIT]",
-  "en": "Th…?[WAIT]",
+  "en": "I…?[WAIT]",
   "bytes": 14,
   "sites": [
    "1F777F:op7A+2",
@@ -11353,7 +11353,7 @@
   "addr": "1F8D60",
   "kind": "msg",
   "jp": "冷害（れいがい）・・・[BR]という事じゃよ[WAIT]",
-  "en": "Cold damage… is what I mean.[WAIT]",
+  "en": "Frost damage… is what I mean.[WAIT]",
   "bytes": 42,
   "sites": [
    "1F799B:op7A+2",
@@ -11391,7 +11391,7 @@
   "addr": "1F8D92",
   "kind": "msg",
   "jp": "冷害（れいがい）・・・？[WAIT]",
-  "en": "Cold damage…?[WAIT]",
+  "en": "Frost damage…?[WAIT]",
   "bytes": 28,
   "sites": [
    "1F79B1:op7A+2",
@@ -12982,7 +12982,7 @@
   "addr": "1FA4E2",
   "kind": "msg",
   "jp": "（・・・ほらあ、[BR]一字一句（いちじいっく）[BR]ちがわない・・・[PAGE]われながらイヤになっちゃう！）[WAIT]",
-  "en": "(…See? Not one word different…[PAGE]Ugh, even I'm sick of myself!)[WAIT]",
+  "en": "(…See? Not one word different…[PAGE]Ugh, it's almost sad[BR]how well I know him!)[WAIT]",
   "bytes": 96,
   "sites": [
    "1F9512:op7A+2",
@@ -13544,7 +13544,7 @@
   "addr": "1FA94C",
   "kind": "msg",
   "jp": "・・・これからは気をつけなきゃ[BR]ダメだよ、ビィト[PAGE]あのロズゴートっていうヴァンデル、[BR]このあたりじゃ相当な・・・[WAIT]",
-  "en": "…You need to be more[BR]careful from now on, Beet.[PAGE]That Vandel Rozzgoat is a[BR]pretty serious… around here…[WAIT]",
+  "en": "…You need to be more[BR]careful from now on, Beet.[PAGE]That Vandel Rozzgoat is one of[BR]the strongest around here, he's…[WAIT]",
   "bytes": 116,
   "sites": [
    "1F96CA:op7A+2",
@@ -18382,7 +18382,7 @@
   "addr": "1FE95E",
   "kind": "msg",
   "jp": "今はトロワナにたのまれて、[BR]グリニデ陣営（じんえい）の[BR]じょうほうを集めているのさ[WAIT]",
-  "en": "Right now, Trowana asked me to gather[BR]information on Grineed's forces.[WAIT]",
+  "en": "Right now, I'm gathering information[BR]on Grineed's forces for Trowana.[WAIT]",
   "bytes": 86,
   "sites": [
    "1FE106:op7A+2",
@@ -18410,7 +18410,7 @@
   "addr": "1FE9BC",
   "kind": "msg",
   "jp": "・・・ふぅん、[BR]なんかめんどくさそうな[BR]仕事だなぁ・・・・・・[WAIT]",
-  "en": "…Huh. Sounds like kind[BR]of a pain of a job……[WAIT]",
+  "en": "…Huh. That job sounds[BR]like a real pain……[WAIT]",
   "bytes": 66,
   "sites": [
    "1FE11C:op7A+2",

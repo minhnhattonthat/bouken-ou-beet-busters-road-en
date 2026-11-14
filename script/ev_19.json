@@ -2244,7 +2244,7 @@
   "addr": "1909F4",
   "kind": "msg",
   "jp": "１０の魔って・・・[PAGE]おそらく[BR]「モンスターの属性（ぞくせい）」を[BR]表しているのだと思うんだ・・・[WAIT]",
-  "en": "The ten evils…[PAGE]I think they probably stand[BR]for \"monster attributes\"…[WAIT]",
+  "en": "The ten evils…[PAGE]I think they probably stand for[BR]the different monster types…[WAIT]",
   "bytes": 100,
   "sites": [
    "18FAFA:op7A+2",
@@ -2979,7 +2979,7 @@
   "addr": "192192",
   "kind": "msg",
   "jp": "お・・・[BR]絶の杯（ぜつのさかずき）が・・・っ！[WAIT]",
-  "en": "Oh… the Peril Chalice is…![WAIT]",
+  "en": "Oh… the Peril Chalice…![WAIT]",
   "bytes": 50,
   "sites": [
    "19107B:op7A+2"
@@ -3076,7 +3076,7 @@
   "addr": "192268",
   "kind": "msg",
   "jp": "お・・・[BR]樹の杯（じゅのさかずき）が・・・っ！[WAIT]",
-  "en": "Oh… the Tree Chalice is…![WAIT]",
+  "en": "Oh… the Tree Chalice…![WAIT]",
   "bytes": 50,
   "sites": [
    "1910E1:op7A+2"
@@ -3185,7 +3185,7 @@
   "addr": "19237E",
   "kind": "msg",
   "jp": "お・・・[BR]沼の杯（ぬまのさかずき）が・・・っ！[WAIT]",
-  "en": "Oh… the Swamp Chalice is…![WAIT]",
+  "en": "Oh… the Swamp Chalice…![WAIT]",
   "bytes": 50,
   "sites": [
    "1912B0:op7A+2"
@@ -3294,7 +3294,7 @@
   "addr": "192492",
   "kind": "msg",
   "jp": "お・・・[BR]窟の杯（くつのさかずき）が・・・っ！[WAIT]",
-  "en": "Oh… the Cave Chalice is…![WAIT]",
+  "en": "Oh… the Cave Chalice…![WAIT]",
   "bytes": 50,
   "sites": [
    "19147F:op7A+2"
@@ -3403,7 +3403,7 @@
   "addr": "1925A8",
   "kind": "msg",
   "jp": "お・・・[BR]渦の杯（うずのさかずき）が・・・っ！[WAIT]",
-  "en": "Oh… the Whirlpool Chalice is…![WAIT]",
+  "en": "Oh… the Whirlpool Chalice…![WAIT]",
   "bytes": 50,
   "sites": [
    "19164E:op7A+2"
@@ -3512,7 +3512,7 @@
   "addr": "1926BE",
   "kind": "msg",
   "jp": "お・・・[BR]砂の杯（すなのさかずき）が・・・っ！[WAIT]",
-  "en": "Oh… the Sand Chalice is…![WAIT]",
+  "en": "Oh… the Sand Chalice…![WAIT]",
   "bytes": 50,
   "sites": [
    "19181D:op7A+2"
@@ -3621,7 +3621,7 @@
   "addr": "1927CE",
   "kind": "msg",
   "jp": "お・・・[BR]地の杯（ちのさかずき）が・・・っ！[WAIT]",
-  "en": "Oh… the Earth Chalice is…![WAIT]",
+  "en": "Oh… the Earth Chalice…![WAIT]",
   "bytes": 48,
   "sites": [
    "1919EC:op7A+2"
@@ -3730,7 +3730,7 @@
   "addr": "1928E2",
   "kind": "msg",
   "jp": "お・・・[BR]鉱の杯（こうのさかずき）が・・・っ！[WAIT]",
-  "en": "Oh… the Ore Chalice is…![WAIT]",
+  "en": "Oh… the Ore Chalice…![WAIT]",
   "bytes": 50,
   "sites": [
    "191BBB:op7A+2"
@@ -3839,7 +3839,7 @@
   "addr": "1929FE",
   "kind": "msg",
   "jp": "お・・・[BR]極の杯（きょくのさかずき）がっ！[WAIT]",
-  "en": "Oh… the Polar Chalice is…![WAIT]",
+  "en": "Oh… the Polar Chalice…![WAIT]",
   "bytes": 46,
   "sites": [
    "191D8A:op7A+2"
@@ -3948,7 +3948,7 @@
   "addr": "192B10",
   "kind": "msg",
   "jp": "お・・・[BR]骨の杯（ほねのさかずき）が・・・っ！[WAIT]",
-  "en": "Oh… the Bone Chalice is…![WAIT]",
+  "en": "Oh… the Bone Chalice…![WAIT]",
   "bytes": 50,
   "sites": [
    "191F59:op7A+2"
@@ -7943,7 +7943,7 @@
   "addr": "197A46",
   "kind": "msg",
   "jp": "・・・・・・里？[BR]フフッ・・・まったくかまわんよ[PAGE]あんな所には、元々なんのきょうみも[BR]ない！[WAIT]",
-  "en": "……The village? Heh heh… Do[BR]as you please with it.[PAGE]I never had the slightest[BR]interest in that place![WAIT]",
+  "en": "……The village? Heh heh… That[BR]suits me perfectly well.[PAGE]I never had the slightest[BR]interest in that place![WAIT]",
   "bytes": 96,
   "sites": [
    "194673:op7A+2",
@@ -9826,7 +9826,7 @@
   "addr": "198854",
   "kind": "msg",
   "jp": "そうだ・・・この子の想い・・・・！！[BR]この子をころしてはいけないっ・・・！[WAIT]",
-  "en": "Yes… this boy's feelings….!![BR]We can't let this boy die…![WAIT]",
+  "en": "Yes… his feelings….!! We[BR]can't let this boy die…![WAIT]",
   "bytes": 78,
   "sites": [
    "195190:op7A+2",
@@ -11365,7 +11365,7 @@
   "addr": "1992D2",
   "kind": "msg",
   "jp": "はっ・・・！[BR]オレの・・・命・・・[BR]みんなの才牙（サイガ）・・・が・・・[WAIT]",
-  "en": "Huh…! My… life…[BR]everybody's Saiga… are…[WAIT]",
+  "en": "Ah…! My… life… it's everybody's Saiga…[WAIT]",
   "bytes": 76,
   "sites": [
    "195649:op7A+2",
@@ -12413,7 +12413,7 @@
   "addr": "19A3DE",
   "kind": "msg",
   "jp": "なるほどなっ！　わかったぜ！[WAIT]",
-  "en": "Gotcha! Alright, I got it![WAIT]",
+  "en": "Makes sense! Got it![WAIT]",
   "bytes": 32,
   "sites": [
    "1998FB:op7A+2"
@@ -14621,7 +14621,7 @@
   "addr": "19D1CA",
   "kind": "msg",
   "jp": "その話は・・・聞いたことがある[BR]大陸最強（たいりくさいきょう）と[BR]うたわれる[PAGE]ゼノン戦士団（せんしだん）と、[BR]惨劇の王者（さんげきのおうじゃ）[BR]ベルトーゼの死闘（しとう）・・・[PAGE]なんとか里は守られたが、その後、[BR]ベルトーゼのすがたも、[PAGE]ゼノン戦士団（せんしだん）のすがたも[BR]消えてしまったというじゃないか[WAIT]",
-  "en": "I've heard that story…[PAGE]The death match of the Zenon Warriors,[BR]the continent's strongest, against[BR]Beltorze, the King of Tragedy…[PAGE]The village was somehow saved, but[BR]afterward, they say Beltorze and[BR]the Zenon Warriors both vanished.[WAIT]",
+  "en": "I've heard that story…[PAGE]The life-or-death battle[BR]between the Zenon Warriors,[BR]the continent's strongest, and[PAGE]Beltorze, the King of Tragedy…[PAGE]The village was somehow saved, but[BR]afterward, they say Beltorze and[BR]the Zenon Warriors both vanished.[WAIT]",
   "bytes": 308,
   "sites": [
    "19BAAE:op52+5"
@@ -15446,7 +15446,7 @@
   "addr": "19DE92",
   "kind": "msg",
   "jp": "・・・つまり、[BR]そのバーニングランスだけじゃなく[BR]・・・５人の、５つの才牙（サイガ）を[PAGE]具現化（ぐげんか）することが[BR]できるかもしれない・・・！！[WAIT]",
-  "en": "…In other words, not just that[BR]Burning Lance… but all five[BR]Saiga of the five of them…[PAGE]you may be able to[BR]materialize them all…!![WAIT]",
+  "en": "…In other words, not[BR]just that Burning Lance…[PAGE]you may be able to materialize[BR]all five of their Saiga…!![WAIT]",
   "bytes": 150,
   "sites": [
    "19BCFE:op52+5",
@@ -15862,7 +15862,7 @@
   "addr": "19E5E0",
   "kind": "msg",
   "jp": "では、いきますよ！[WAIT]",
-  "en": "Here I come, then![WAIT]",
+  "en": "Here we go, then![WAIT]",
   "bytes": 22,
   "sites": [
    "19BE21:op52+5",
@@ -15940,7 +15940,7 @@
   "addr": "19E69E",
   "kind": "msg",
   "jp": "よし、ビィト君[BR]もうワタシがキミに[BR]教えることは何もない[PAGE]・・・後はいろんなところで[BR]経験（けいけん）を重ねて、[BR]りっぱな・・・[PAGE]ゼノン戦士団（せんしだん）の思いを[BR]つげるようなりっぱなバスターに[BR]なって欲しい[WAIT]",
-  "en": "Very well, Beet-kun. There's[BR]nothing more I can teach you.[PAGE]…The rest is to gain experience in all[BR]sorts of places, and become a fine…[PAGE]I hope you become a fine Buster who[BR]can carry on the Zenon Warriors' will.[WAIT]",
+  "en": "Very well, Beet-kun. There's[BR]nothing more I can teach you.[PAGE]…From here on, gain experience in all[BR]sorts of places and become a fine…[PAGE]a fine Buster who can carry[BR]on the Zenon Warriors' will.[WAIT]",
   "bytes": 214,
   "sites": [
    "19BE52:op52+5",
@@ -16333,7 +16333,7 @@
   "addr": "19EC92",
   "kind": "msg",
   "jp": "へへっ！[BR]・・・って、オレもビックリしたよ[PAGE]ところで、[BR]何かバスターへの依頼（いらい）とかは[BR]ないのかい？[WAIT]",
-  "en": "Heh heh! …Not that I[BR]wasn't surprised too.[PAGE]Anyway, got any jobs for a Buster?[WAIT]",
+  "en": "Heh heh! …Truth is, I was[BR]pretty surprised myself.[PAGE]Anyway, got any jobs for a Buster?[WAIT]",
   "bytes": 110,
   "sites": [
    "19EB2B:op7A+2"

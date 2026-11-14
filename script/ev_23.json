@@ -1969,7 +1969,7 @@
   "addr": "230C64",
   "kind": "msg",
   "jp": "・・・・・・かっ・・・ぐはっ・・・[BR]・・・グ・・・グリニデ・・・様・・・[BR]もうしわ・・・け・・・[WAIT]",
-  "en": "……Gah… ghaah… …G… Grineed…[BR]-sama… I'm so… sor…ry…[WAIT]",
+  "en": "……Gah… ghaah… …G…[BR]Grineed…-sama… I'm so… sor…ry…[WAIT]",
   "bytes": 100,
   "sites": [
    "22FFFB:op52+5",
@@ -2336,7 +2336,7 @@
   "addr": "231A70",
   "kind": "msg",
   "jp": "・・・うむ[BR]さすがにあれほどひどく[BR]おそわれたとあっては・・・[PAGE]またすぐに・・・というわけにも[BR]いかんようじゃの・・・[WAIT]",
-  "en": "…Hmm. After being[BR]attacked that brutally…[PAGE]it seems it won't happen again[BR]anytime soon, I'm afraid…[WAIT]",
+  "en": "…Hmm. After being[BR]attacked that brutally…[PAGE]it seems they can't just[BR]start rebuilding again[BR]right away, I'm afraid…[WAIT]",
   "bytes": 122,
   "sites": [
    "230E7D:op52+5"
@@ -3554,7 +3554,7 @@
   "addr": "2322DC",
   "kind": "msg",
   "jp": "くそっ！[BR]間に合えっ！！！[WAIT]",
-  "en": "Dammit! Make it in time!!![WAIT]",
+  "en": "Dammit! Come on, make it!!![WAIT]",
   "bytes": 30,
   "sites": [
    "23147D:op7A+2"
@@ -4572,7 +4572,7 @@
   "addr": "2329EE",
   "kind": "msg",
   "jp": "ムチャだぞ・・・それは・・・！[WAIT]",
-  "en": "That's reckless… and you know it…![WAIT]",
+  "en": "That's reckless… that is…![WAIT]",
   "bytes": 34,
   "sites": [
    "2317DC:op7A+2",
@@ -4613,7 +4613,7 @@
   "addr": "232A18",
   "kind": "msg",
   "jp": "いや、さすがにそこまでは考えてないよ[PAGE]とにかく、そのつかまってる人や[BR]モンスター実験場（じっけんじょう）[BR]なんかをさがせればさぁ・・・[WAIT]",
-  "en": "Nah, I'm not thinking THAT far ahead.[PAGE]Anyway, if we can just[BR]find those prisoners and[BR]the Monster Lab and stuff…[WAIT]",
+  "en": "Nah, I'm not planning to go THAT far.[PAGE]Anyway, if we can just[BR]find those prisoners and[BR]the Monster Lab and stuff…[WAIT]",
   "bytes": 138,
   "sites": [
    "2317F2:op7A+2",
@@ -6522,7 +6522,7 @@
   "addr": "234482",
   "kind": "msg",
   "jp": "・・・ムスリー山地から[BR]グリニデ城（じょう）へとつづく道には[BR]監視（かんし）のバスターが[PAGE]派遣（はけん）されておる[PAGE]監視（かんし）のバスターには[BR]これを見せれば、[BR]通してくれるじゃろう[WAIT]",
-  "en": "…On the road from the Musley[BR]Mountains to Grineed Castle,[PAGE]Busters have been sent to keep watch.[PAGE]Show this to the watch Busters,[BR]and they should let you through.[WAIT]",
+  "en": "…On the road from the Musley[BR]Mountains to Grineed Castle,[PAGE]Busters have been sent to keep watch.[PAGE]Show this to the Busters on watch,[BR]and they should let you through.[WAIT]",
   "bytes": 188,
   "sites": [
    "233437:op7A+2",
@@ -7102,7 +7102,7 @@
   "addr": "234944",
   "kind": "msg",
   "jp": "そうみたい・・・ね・・・！[WAIT]",
-  "en": "Looks like it… is…![WAIT]",
+  "en": "Looks like it… yeah…![WAIT]",
   "bytes": 30,
   "sites": [
    "233683:op7A+2",
@@ -7187,7 +7187,7 @@
   "addr": "2349C2",
   "kind": "msg",
   "jp": "どの道・・・[BR]門を突破（とっぱ）しないと[BR]入れないんだし・・・[PAGE]派手（はで）にいっちゃう？[WAIT]",
-  "en": "Either way… we can't get in[BR]without breaking through the gate…[PAGE]So, shall we go out with a bang?[WAIT]",
+  "en": "Either way… we can't get in[BR]without breaking through the gate…[PAGE]So, shall we make a[BR]big, flashy entrance?[WAIT]",
   "bytes": 94,
   "sites": [
    "2336DF:op7A+2",
@@ -9783,7 +9783,7 @@
   "addr": "235ACE",
   "kind": "msg",
   "jp": "ワナ・・・か・・・？[WAIT]",
-  "en": "A trap… is it…?[WAIT]",
+  "en": "A trap…?[WAIT]",
   "bytes": 24,
   "sites": [
    "2352F6:op7A+2",
@@ -13505,7 +13505,7 @@
   "addr": "23794C",
   "kind": "msg",
   "jp": "・・・この人たちは・・・・・・[BR]モンスターの実験台（じっけんだい）に[BR]されて・・・・・・[PAGE]恐怖（きょうふ）と絶望（ぜつぼう）で[BR]正気をうしなってしまったんです・・・[WAIT]",
-  "en": "…These people…… were used as[BR]test subjects by the monsters……[PAGE]and the terror and despair[BR]drove them out of their minds…[WAIT]",
+  "en": "…These people…… were made test[BR]subjects for monster experiments……[PAGE]and the terror and despair[BR]drove them out of their minds…[WAIT]",
   "bytes": 168,
   "sites": [
    "236FE3:op52+5",
@@ -16084,7 +16084,7 @@
   "addr": "238C40",
   "kind": "msg",
   "jp": "でもビィト[BR]実験場（じっけんじょう）は[BR]これでかたづいたけれど・・・[PAGE]まだこの城（しろ）の[BR]中枢部（ちゅうすうぶ）がのこってるよ[WAIT]",
-  "en": "But Beet, the lab's[BR]taken care of, but…[PAGE]there's still the core of this castle.[WAIT]",
+  "en": "Beet, the lab's taken care of, but…[PAGE]there's still the core of this castle.[WAIT]",
   "bytes": 132,
   "sites": [
    "238419:op7A+2",
@@ -19804,7 +19804,7 @@
   "addr": "23AE3C",
   "kind": "msg",
   "jp": "みんな、今度はあのオーブめがけて[WAIT]",
-  "en": "Everyone, this time aim for that Orb[WAIT]",
+  "en": "Everyone, this time aim for that Orb…![WAIT]",
   "bytes": 36,
   "sites": [
    "239838:op7A+2",
@@ -23653,7 +23653,7 @@
   "addr": "23C4A0",
   "kind": "msg",
   "jp": "・・・ようこそ、わが城（しろ）へ[BR]バスターの諸君（しょくん）！[BR]ワタシがこの城（しろ）の主、[PAGE]深緑の智将（しんりょくのちしょう）[BR]グリニデだ・・・！！[WAIT]",
-  "en": "…Welcome to my castle,[BR]gentlemen of the Busters! I am[BR]the master of this castle,[PAGE]the Verdant Strategist, Grineed…!![WAIT]",
+  "en": "…Welcome to my castle, my[BR]dear Busters! I am the[BR]master of this castle,[PAGE]the Verdant Strategist, Grineed…!![WAIT]",
   "bytes": 154,
   "sites": [
    "23B984:op7A+2",
@@ -25963,7 +25963,7 @@
   "addr": "23D144",
   "kind": "msg",
   "jp": "そこでだ！　そこにいる・・・[BR]ビィトたちの始末（しまつ）を[BR]てつだいたまえ[WAIT]",
-  "en": "And so! You will help me[BR]dispose of… Beet and his[BR]friends, standing right there.[WAIT]",
+  "en": "Which brings me to my offer! You[BR]will help me dispose of… Beet and[BR]his friends, standing right there.[WAIT]",
   "bytes": 78,
   "sites": [
    "23BCF3:op7A+2",
@@ -28740,7 +28740,7 @@
   "addr": "23DA52",
   "kind": "msg",
   "jp": "・・・その通りだ・・・よ・・・[PAGE]きみたちは・・・[BR]少々やりすぎたようだ・・・[PAGE]知的（ちてき）で冷静（れいせい）な[BR]・・・ヴァンデルの中でも[BR]紳士（しんし）で名高いこのワタシを[PAGE]・・・ここまで・・・っ！！[WAIT]",
-  "en": "…Quite right… he is…[PAGE]It seems you've all…[BR]gone a little too far…[PAGE]To drive me -- intelligent,[BR]composed… renowned even among[BR]Vandels as a gentleman --[PAGE]…this far…!![WAIT]",
+  "en": "…He's… quite… right…[PAGE]It seems you've all…[BR]gone a little too far…[PAGE]To drive me -- intelligent,[BR]composed… renowned even among[BR]Vandels as a gentleman --[PAGE]…this far…!![WAIT]",
   "bytes": 206,
   "sites": [
    "23BFAD:op7A+2",

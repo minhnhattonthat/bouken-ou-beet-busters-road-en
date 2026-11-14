@@ -805,7 +805,7 @@
   "addr": "0B390C",
   "kind": "shout",
   "jp": "死なないていどにがんばるか。",
-  "en": "Guess I'll try not to die.",
+  "en": "Just hard enough not to die.",
   "max": 32,
   "status": "done"
  },
@@ -877,7 +877,7 @@
   "addr": "0B3A0C",
   "kind": "shout",
   "jp": "くぅ！",
-  "en": "Kuh!",
+  "en": "Ngh!",
   "max": 32,
   "status": "done"
  },
@@ -1021,7 +1021,7 @@
   "addr": "0B3C3C",
   "kind": "shout",
   "jp": "動くと正確に切れんだろーがあっ！",
-  "en": "Stop squirming or I'll miss!",
+  "en": "Hold still so I can cut clean!",
   "max": 32,
   "status": "done"
  },
@@ -1192,7 +1192,7 @@
   "addr": "0B3ECC",
   "kind": "shout",
   "jp": "感謝して殺されろよッ！！！",
-  "en": "Be grateful as you die!!!",
+  "en": "Thank me as I kill you!!!",
   "max": 32,
   "status": "done"
  },

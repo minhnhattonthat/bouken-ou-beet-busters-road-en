@@ -232,7 +232,7 @@
   "addr": "2202D2",
   "kind": "msg",
   "jp": "平たく言うと、カッパライじゃな[BR]しかもその犯人（はんにん）が・・・[WAIT]",
-  "en": "Put plainly, snatch-and-grab.[BR]And what's more, the culprit is…[WAIT]",
+  "en": "Put plainly, it's snatch-and-grab[BR]thievery, you see. And what's[BR]more, the culprit is…[WAIT]",
   "bytes": 70,
   "sites": [
    "21E20F:op52+5"
@@ -544,7 +544,7 @@
   "addr": "2209E8",
   "kind": "msg",
   "jp": "申しわけありませんっ！[BR]ワタシがもっと綿密（めんみつ）に[BR]手配していればこんな事には・・・っ！[WAIT]",
-  "en": "I am most terribly sorry, sire! Had I[BR]only made more thorough arrangements,[BR]this never would have… indeed![WAIT]",
+  "en": "I am most terribly sorry, sire! Had I[BR]only made more thorough arrangements,[BR]this never would have…![WAIT]",
   "bytes": 98,
   "sites": [
    "2206A0:op7A+2"
@@ -892,7 +892,7 @@
   "addr": "220EF0",
   "kind": "msg",
   "jp": "申しわけありませんっ！[BR]ワタシがもっと綿密（めんみつ）に[BR]手配していればこんな事には・・・っ！[WAIT]",
-  "en": "I am most terribly sorry, sire! Had I[BR]only made more thorough arrangements,[BR]this never would have… indeed![WAIT]",
+  "en": "I am most terribly sorry, sire! Had I[BR]only made more thorough arrangements,[BR]this never would have…![WAIT]",
   "bytes": 98,
   "sites": [
    "220824:op7A+2",
@@ -975,7 +975,7 @@
   "addr": "220FFC",
   "kind": "msg",
   "jp": "時には失敗（しっぱい）をする事も、[BR]せいこうのヒケツというものだ・・・よ[BR]そうであろう？[PAGE]ダンゴー・・・ル・・・[WAIT]",
-  "en": "Sometimes, failure is also[BR]part of the secret to success…[BR]you see. Wouldn't you agree?[PAGE]Dan… gol…[WAIT]",
+  "en": "Sometimes, failure is also part of[BR]the secret to success… you see.[PAGE]Wouldn't you agree, Dan… gol…?[WAIT]",
   "bytes": 116,
   "sites": [
    "220866:op7A+2",
@@ -1661,7 +1661,7 @@
   "addr": "221B08",
   "kind": "msg",
   "jp": "・・・っていうかぁ・・・[BR]みんなも知ってたんだよね・・・[PAGE]このハンサム君がやってたコト・・・[BR]ヴァンデルの配下だった[BR]・・・ってコ・ト！[WAIT]",
-  "en": "…I mean, like… You all[BR]knew too, didn't you…[PAGE]what Handsome-kun here has been[BR]up to… That he served under a[BR]Vandel! That's the sto-ry![WAIT]",
+  "en": "…I mean, like… You all[BR]knew too, didn't you…[PAGE]what Handsome-kun here has[BR]been up to… That he served[BR]under a Vandel! Am I ri-ight?[WAIT]",
   "bytes": 140,
   "sites": [
    "2213DB:op7A+2",
@@ -3147,7 +3147,7 @@
   "addr": "2236B4",
   "kind": "msg",
   "jp": "「パトレス山地」じゃ[BR]なんでも多くのハウンドナイトを[BR]したがえているらしいぞ[WAIT]",
-  "en": "The \"Patres Mountains.\" Word is[BR]it's got a whole lot of Hound[BR]Knights under its command, eh.[WAIT]",
+  "en": "The \"Patres Mountains.\" Word[BR]is there's one leading a whole[BR]pack of Hound Knights, eh.[WAIT]",
   "bytes": 80,
   "sites": [
    "22284C:op52+5"
@@ -3328,7 +3328,7 @@
   "addr": "2237DE",
   "kind": "msg",
   "jp": "みはり・・・かしらね・・・[WAIT]",
-  "en": "A lookout… I wonder…[WAIT]",
+  "en": "A lookout, maybe…?[WAIT]",
   "bytes": 30,
   "sites": [
    "2228FB:op7A+2",
@@ -3591,7 +3591,7 @@
   "addr": "2239CE",
   "kind": "msg",
   "jp": "いつでもいいぜっ！[WAIT]",
-  "en": "Anytime, man![WAIT]",
+  "en": "Ready when you are![WAIT]",
   "bytes": 22,
   "sites": [
    "222A6E:op7A+2",
@@ -4711,7 +4711,7 @@
   "addr": "224114",
   "kind": "msg",
   "jp": "・・・わたし、同じ女性バスターとして[BR]あなたの強さにはあこがれる・・・[BR]でも、あこがれるだけじゃダメなのよね[WAIT]",
-  "en": "…As a fellow woman Buster, I[BR]admire your strength… But just[BR]admiring it isn't enough, is it?[WAIT]",
+  "en": "…As a fellow girl Buster, I[BR]admire your strength… But just[BR]admiring it isn't enough, is it?[WAIT]",
   "bytes": 112,
   "sites": [
    "222E5C:op7A+2"
@@ -6756,7 +6756,7 @@
   "addr": "225E7E",
   "kind": "msg",
   "jp": "そりゃあ、あんたみたいのと[BR]いっしょにいれば・・・ね！[WAIT]",
-  "en": "Well, hanging around with[BR]someone like you… sure![WAIT]",
+  "en": "Well, that's what happens when you[BR]hang around with someone like you![WAIT]",
   "bytes": 58,
   "sites": [
    "22533D:op7A+2",
@@ -12487,7 +12487,7 @@
   "addr": "22A5C6",
   "kind": "msg",
   "jp": "・・・でも、いい話ね！[WAIT]",
-  "en": "…Still, that's a nice story![WAIT]",
+  "en": "…Still, that's really sweet![WAIT]",
   "bytes": 26,
   "sites": [
    "229F4C:op7A+2",
@@ -14897,7 +14897,7 @@
   "addr": "22BE64",
   "kind": "msg",
   "jp": "こんくらいでヘタばってどうするよ[BR]キッス！[PAGE]・・・まだまだこれから[BR]もっとキツくなるぜっ！！[WAIT]",
-  "en": "What're you doing, worn out[BR]from this little bit, Kissu?![PAGE]…It's only gonna get[BR]tougher from here on!![WAIT]",
+  "en": "C'mon, Kissu, don't wimp out[BR]over a little thing like this![PAGE]…It's only gonna get[BR]tougher from here on!![WAIT]",
   "bytes": 96,
   "sites": [
    "22B2F7:op7A+2",
@@ -15317,7 +15317,7 @@
   "addr": "22C9C4",
   "kind": "msg",
   "jp": "なんだよ、[BR]だったらさいしょからそう言えば[BR]いいのにな！[WAIT]",
-  "en": "Geez, he could've just[BR]said that from the start![WAIT]",
+  "en": "Geez, you could've just[BR]said that from the start![WAIT]",
   "bytes": 60,
   "sites": [
    "22C10D:op7A+2",
@@ -16490,7 +16490,7 @@
   "addr": "22D13C",
   "kind": "msg",
   "jp": "これはちょっと・・・[BR]大捕り物（おおとりもの）に[BR]なるわねぇ・・・！[WAIT]",
-  "en": "This is gonna be…[BR]quite the big catch…![WAIT]",
+  "en": "This is gonna be… quite the showdown…![WAIT]",
   "bytes": 72,
   "sites": [
    "22C4A2:op7A+2",
@@ -20496,7 +20496,7 @@
   "addr": "22EE56",
   "kind": "msg",
   "jp": "・・・グリニデが育て上げた・・・[BR]おつきのモンスターってワケね[WAIT]",
-  "en": "…So he's a pet monster that[BR]Grineed raised himself, huh?[WAIT]",
+  "en": "…So he's an attendant monster that[BR]Grineed raised himself, huh?[WAIT]",
   "bytes": 66,
   "sites": [
    "22DEA5:op7A+2",
@@ -22409,7 +22409,7 @@
   "addr": "22F93C",
   "kind": "msg",
   "jp": "・・・フゥ・・・・・・[BR]そうか・・・分かった[WAIT]",
-  "en": "…Phew…… I see… Very well.[WAIT]",
+  "en": "…Haaah…… I see… Very well.[WAIT]",
   "bytes": 48,
   "sites": [
    "22F5BD:op7A+2"

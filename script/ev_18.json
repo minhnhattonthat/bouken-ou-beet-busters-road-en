@@ -263,7 +263,7 @@
   "addr": "180982",
   "kind": "msg",
   "jp": "よろしくたのむよ[WAIT]",
-  "en": "Count on me.[WAIT]",
+  "en": "Glad to have you, then.[WAIT]",
   "bytes": 20,
   "sites": [
    "17FD39:op7A+2",
@@ -1114,7 +1114,7 @@
   "addr": "181348",
   "kind": "msg",
   "jp": "ここだけの話だけどさ、[BR]兵士達とバスターって仲が悪いんだ[PAGE]兵士達にすれば彼らがいるのに[BR]なんでわざわざバスターを[BR]雇うのかってのが気に入らないらしい[WAIT]",
-  "en": "Just between you and me, the soldiers[BR]and the Busters don't get along.[PAGE]The soldiers hate that the kingdom[BR]goes out of its way to hire[BR]Busters when it already has them.[WAIT]",
+  "en": "Just between you and me, the soldiers[BR]and the Busters don't get along.[PAGE]The soldiers hate that the kingdom[BR]goes out of its way to hire Busters[BR]when it has its own soldiers.[WAIT]",
   "bytes": 152,
   "sites": [
    "17FF66:op52+5"
@@ -1465,7 +1465,7 @@
   "addr": "181640",
   "kind": "msg",
   "jp": "トロワナの墓の調査は[BR]進んでいるかい？[BR]それはさておき・・・[WAIT]",
-  "en": "Is your investigation of[BR]the Trowana graves going[BR]well, eh? Now, that aside…[WAIT]",
+  "en": "Is your investigation of[BR]Trowana Cemetery going[BR]well, eh? Now, that aside…[WAIT]",
   "bytes": 64,
   "sites": [
    "18017A:op7A+2",
@@ -3645,7 +3645,7 @@
   "addr": "183FE6",
   "kind": "msg",
   "jp": "里長のデブレさんの家は、[BR]里の北西の家の東隣にあるよ[WAIT]",
-  "en": "The Elder, Debre-san, lives right[BR]next door, east of the house in[BR]the northwest of the village![WAIT]",
+  "en": "Elder Debre-san's house is right[BR]next to the house in the northwest[BR]of the village, on its east side![WAIT]",
   "bytes": 56,
   "sites": [
    "1827CE:op52+5"
@@ -4672,7 +4672,7 @@
   "addr": "18509A",
   "kind": "msg",
   "jp": "しかしトラキラの葉は[BR]もう持てないのであきらめた[WAIT]",
-  "en": "You found a Torakira Leaf, but you[BR]can't carry any more, so you left it.[WAIT]",
+  "en": "But you can't carry another[BR]Torakira Leaf, so you left it.[WAIT]",
   "bytes": 52,
   "sites": [
    "1849F1:op3B+1"
@@ -6529,7 +6529,7 @@
   "addr": "189E40",
   "kind": "msg",
   "jp": "おいおい、おっちゃん何言ってるんだ？[BR]ポアラはＢＢじゃねぇぞ・・・！[WAIT]",
-  "en": "Hey, hey, old man, what're you[BR]talking about? Poala ain't a BB…![WAIT]",
+  "en": "Hey, hey, Mister, what're you[BR]talking about? Poala ain't a BB…![WAIT]",
   "bytes": 72,
   "sites": [
    "1894BF:op7A+2",
@@ -6555,7 +6555,7 @@
   "addr": "189E92",
   "kind": "msg",
   "jp": "・・・そうか、ポアラちゃんって[BR]言うのか・・・ふむふむ[PAGE]しかしお主！！・・・こんなＢＢを二人も[BR]連れてるとは・・・相当のやり手だな！！[WAIT]",
-  "en": "…I see, so her name's[BR]Poala-chan… Mm-hmm, mm-hmm.[PAGE]But you, lad!! …Traveling with[BR]not one but two BBs like these…[BR]You must be quite the operator!![WAIT]",
+  "en": "…I see, so her name's[BR]Poala-chan… Mm-hmm, mm-hmm.[PAGE]But you, lad!! …Traveling with not[BR]one but two BBs like these… You[BR]must be quite the ladies' man!![WAIT]",
   "bytes": 138,
   "sites": [
    "1894CC:op52+5",
@@ -7213,7 +7213,7 @@
   "addr": "18A572",
   "kind": "msg",
   "jp": "そう・・・でね、[BR]あたしはＢＢの任務（にんむ）として[PAGE]・・・この大陸（たいりく）にある[BR]トリアークの調査（ちょうさ）に[BR]派遣（はけん）されたの[WAIT]",
-  "en": "Right… So, anyway, as a BB mission,[PAGE]…I was sent to investigate[BR]Triark, here on this continent.[WAIT]",
+  "en": "Right… So, anyway, on a BB mission,[PAGE]…I was sent to investigate[BR]Triark, here on this continent.[WAIT]",
   "bytes": 146,
   "sites": [
    "18973D:op7A+2",
@@ -7273,7 +7273,7 @@
   "addr": "18A642",
   "kind": "msg",
   "jp": "そう・・・[BR]今はほろぼされちゃってるわね[PAGE]トリアークは海に面してる事もあって、[BR]グランシスタとも交流があったから、[BR]本国から調査依頼（ちょうさいらい）が[PAGE]出たのよ[WAIT]",
-  "en": "Yeah… It's been destroyed now.[PAGE]Triark faces the sea, so it had[BR]dealings with Grancista too, and[BR]the home country put in a request[PAGE]to investigate it.[WAIT]",
+  "en": "Yeah… It's been destroyed now.[PAGE]Triark faces the sea, so it had[BR]dealings with Grancista too, and[BR]our home country put in a request[PAGE]to investigate it.[WAIT]",
   "bytes": 166,
   "sites": [
    "189769:op7A+2",
@@ -8686,7 +8686,7 @@
   "addr": "18B234",
   "kind": "msg",
   "jp": "・・・おうっ！[BR]さいこうの仲間（なかま）だろっ？[WAIT]",
-  "en": "…You bet! Best friends ever, right?[WAIT]",
+  "en": "…You bet! Best team ever, right?[WAIT]",
   "bytes": 52,
   "sites": [
    "189B8D:op7A+2",
@@ -10383,7 +10383,7 @@
   "addr": "18C9E6",
   "kind": "msg",
   "jp": "いったんもどって調べるか？[WAIT]",
-  "en": "Shall we go back and look into it?[WAIT]",
+  "en": "Head back and look into it?[WAIT]",
   "bytes": 30,
   "sites": [
    "18C013:op7A+2",
@@ -11894,7 +11894,7 @@
   "addr": "18DDC4",
   "kind": "msg",
   "jp": "・・・うわっ！[BR]ちょっと入って行けないかもー？[WAIT]",
-  "en": "…Wow! Not sure I could[BR]squeeze in there~?[WAIT]",
+  "en": "…Wow! Not sure I could[BR]butt in on that~?[WAIT]",
   "bytes": 50,
   "sites": [
    "18D33B:op7A+2",
@@ -13545,7 +13545,7 @@
   "addr": "18EA2A",
   "kind": "msg",
   "jp": "この様子じゃ・・・[WAIT]全部の古代文字に番人がいそうね・・・[WAIT]",
-  "en": "At this rate…[WAIT]every ancient[BR]script probably has a guardian…[WAIT]",
+  "en": "At this rate… there's probably a[BR]guardian at every inscription…[WAIT]",
   "bytes": 60,
   "sites": [
    "18E8A1:op7A+2",
@@ -14982,7 +14982,7 @@
   "addr": "18FDCA",
   "kind": "msg",
   "jp": "・・・やった・・・ね！[WAIT]",
-  "en": "…We did it… huh![WAIT]",
+  "en": "…We did it…![WAIT]",
   "bytes": 26,
   "sites": [
    "18F5B1:op7A+2",

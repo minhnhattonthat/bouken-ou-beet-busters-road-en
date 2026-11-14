@@ -64,7 +64,7 @@
   "addr": "244D74",
   "kind": "quest_desc",
   "jp": "アサド山地に[BR][FFC4]が[BR]出没するので[BR]これを[FFC5]匹倒してほしい",
-  "en": "The monster [FFC4][BR]has been showing up in the Asad[BR]Mountains. Please defeat [FFC5] of[BR]them.",
+  "en": "[FFC4][BR]monsters have been showing[BR]up in the Asad Mountains.[BR]Please defeat [FFC5] of them.",
   "bytes": 58,
   "sites": [
    "244B2D:quest0C"
@@ -280,7 +280,7 @@
   "addr": "2453B8",
   "kind": "quest_desc",
   "jp": "デュオラ平原に[BR][FFC4]が出没するので[BR]これを[FFC5]匹倒してほしい",
-  "en": "The monster [FFC4][BR]has been showing up on the Duora[BR]Plains. Please defeat [FFC5] of them.",
+  "en": "[FFC4] monsters have[BR]been showing up on the Duora[BR]Plains. Please defeat [FFC5] of them.",
   "bytes": 58,
   "sites": [
    "24516D:quest0C"
@@ -496,7 +496,7 @@
   "addr": "24589C",
   "kind": "quest_desc",
   "jp": "アンクルス平原に[BR][FFC4]が出没するので[BR]これを[FFC5]匹倒してほしい",
-  "en": "The monster [FFC4][BR]has been showing up on the Anklus[BR]Plains. Please defeat [FFC5] of them.",
+  "en": "[FFC4] monsters have[BR]been showing up on the Anklus[BR]Plains. Please defeat [FFC5] of them.",
   "bytes": 60,
   "sites": [
    "2457A9:quest0C"
@@ -592,7 +592,7 @@
   "addr": "245D08",
   "kind": "quest_desc",
   "jp": "エトリア山地に[BR][FFC4]が出没するので[BR]これを[FFC5]匹倒してほしい",
-  "en": "The monster [FFC4][BR]has been showing up in the Etria[BR]Mountains. Please defeat [FFC5] of[BR]them.",
+  "en": "[FFC4][BR]monsters have been showing[BR]up in the Etria Mountains.[BR]Please defeat [FFC5] of them.",
   "bytes": 58,
   "sites": [
    "245ABD:quest0C"
@@ -1096,7 +1096,7 @@
   "addr": "246C4C",
   "kind": "quest_desc",
   "jp": "アンクルス平原に[BR][FFC4]が出没するので[BR]これを[FFC5]匹倒してほしい",
-  "en": "The monster [FFC4][BR]has been showing up on the Anklus[BR]Plains. Please defeat [FFC5] of them.",
+  "en": "[FFC4] monsters have[BR]been showing up on the Anklus[BR]Plains. Please defeat [FFC5] of them.",
   "bytes": 60,
   "sites": [
    "246B59:quest0C"
@@ -1192,7 +1192,7 @@
   "addr": "246FD8",
   "kind": "quest_desc",
   "jp": "ワンダラ山地に[BR][FFC4]が出没するので[BR]これを[FFC5]匹倒してほしい",
-  "en": "The monster [FFC4][BR]has been showing up in the[BR]Wandara Mountains. Please defeat[BR][FFC5] of them.",
+  "en": "[FFC4][BR]monsters have been showing[BR]up in the Wandara Mountains.[BR]Please defeat [FFC5] of them.",
   "bytes": 58,
   "sites": [
    "246E69:quest0C"
@@ -1336,7 +1336,7 @@
   "addr": "2474C8",
   "kind": "quest_desc",
   "jp": "ムスリー荒野に[BR][FFC4]が出没するので[BR]これを[FFC5]匹倒してほしい",
-  "en": "The monster [FFC4][BR]has been showing up in the[BR]Musley Wasteland. Please defeat[BR][FFC5] of them.",
+  "en": "[FFC4][BR]monsters have been showing[BR]up in the Musley Wasteland.[BR]Please defeat [FFC5] of them.",
   "bytes": 58,
   "sites": [
    "24727D:quest0C"
@@ -1552,7 +1552,7 @@
   "addr": "247A88",
   "kind": "quest_desc",
   "jp": "ワンダラ山地に[BR][FFC4]が出没するので[BR]これを[FFC5]匹倒してほしい",
-  "en": "The monster [FFC4][BR]has been showing up in the[BR]Wandara Mountains. Please defeat[BR][FFC5] of them.",
+  "en": "[FFC4][BR]monsters have been showing[BR]up in the Wandara Mountains.[BR]Please defeat [FFC5] of them.",
   "bytes": 58,
   "sites": [
    "2478BD:quest0C"
@@ -1720,7 +1720,7 @@
   "addr": "248028",
   "kind": "quest_desc",
   "jp": "パトレス山地に[BR][FFC4]が出没するので[BR]これを[FFC5]匹倒してほしい",
-  "en": "The monster [FFC4][BR]has been showing up in the[BR]Patres Mountains. Please defeat[BR][FFC5] of them.",
+  "en": "[FFC4][BR]monsters have been showing[BR]up in the Patres Mountains.[BR]Please defeat [FFC5] of them.",
   "bytes": 58,
   "sites": [
    "247DDD:quest0C"
@@ -1936,7 +1936,7 @@
   "addr": "2484FC",
   "kind": "quest_desc",
   "jp": "アンクルス平原に[BR][FFC4]が出没するので[BR]これを[FFC5]匹倒してほしい",
-  "en": "The monster [FFC4][BR]has been showing up on the Anklus[BR]Plains. Please defeat [FFC5] of them.",
+  "en": "[FFC4] monsters have[BR]been showing up on the Anklus[BR]Plains. Please defeat [FFC5] of them.",
   "bytes": 60,
   "sites": [
    "248409:quest0C"
@@ -2032,7 +2032,7 @@
   "addr": "24888C",
   "kind": "quest_desc",
   "jp": "テルセロン山地に[BR][FFC4]が出没するので[BR]これを[FFC5]匹倒してほしい",
-  "en": "The monster [FFC4][BR]has been showing up in the[BR]Terceron Mountains. Please[BR]defeat [FFC5] of them.",
+  "en": "[FFC4] monsters[BR]have been showing up in the[BR]Terceron Mountains. Please[BR]defeat [FFC5] of them.",
   "bytes": 60,
   "sites": [
    "24871D:quest0C"
@@ -2140,7 +2140,7 @@
   "addr": "249E66",
   "kind": "quest_title",
   "jp": "実戦！　才牙を振るえ",
-  "en": "Saiga in Real Combat",
+  "en": "Wield Your Saiga!",
   "bytes": 22,
   "sites": [
    "2489D5:quest18"
@@ -2800,7 +2800,7 @@
   "addr": "24ADB8",
   "kind": "quest_desc",
   "jp": "デュオラ平原に「グルメアント」が[BR]塚（つか）を作ってしまい、[BR]里への道がとざされてしまった。[BR]これを駆除（くじょ）してほしい",
-  "en": "\"Gourmet Ants\" have built a hill[BR]on the Duora Plains, cutting off[BR]the road to the village. Please[BR]get rid of them.",
+  "en": "\"Gourmet Ants\" have built an[BR]anthill on the Duora Plains,[BR]cutting off the road to the[BR]village. Please get rid of them.",
   "bytes": 126,
   "sites": [
    "2490A1:quest0C"
@@ -3172,7 +3172,7 @@
   "addr": "24B8C4",
   "kind": "quest_title",
   "jp": "死と共に目覚める呪い",
-  "en": "Death's Waking Curse",
+  "en": "The Curse That Wakes",
   "bytes": 22,
   "sites": [
    "24945A:quest18"
@@ -3868,7 +3868,7 @@
   "addr": "24CFCC",
   "kind": "quest_title",
   "jp": "黒に負けない命",
-  "en": "Life Beats the Black",
+  "en": "Stronger Than Black",
   "bytes": 16,
   "sites": [
    "249B21:quest18"
@@ -4240,7 +4240,7 @@
   "addr": "24DAFC",
   "kind": "quest_desc",
   "jp": "テルセロン山地に[BR][FFC4]が出没するので[BR]これを[FFC5]匹倒してほしい",
-  "en": "The monster [FFC4][BR]has been showing up in the[BR]Terceron Mountains. Please[BR]defeat [FFC5] of them.",
+  "en": "[FFC4] monsters[BR]have been showing up in the[BR]Terceron Mountains. Please[BR]defeat [FFC5] of them.",
   "bytes": 60,
   "sites": [
    "24D989:quest0C"
@@ -4384,7 +4384,7 @@
   "addr": "24DF18",
   "kind": "quest_desc",
   "jp": "エトリア山地に[BR][FFC4]が出没するので[BR]これを[FFC5]匹倒してほしい",
-  "en": "The monster [FFC4][BR]has been showing up in the Etria[BR]Mountains. Please defeat [FFC5] of[BR]them.",
+  "en": "[FFC4][BR]monsters have been showing[BR]up in the Etria Mountains.[BR]Please defeat [FFC5] of them.",
   "bytes": 58,
   "sites": [
    "24DDA9:quest0C"
@@ -4528,7 +4528,7 @@
   "addr": "24E408",
   "kind": "quest_desc",
   "jp": "トロワナの森に[BR][FFC4]が出没するので[BR]これを[FFC5]匹倒してほしい",
-  "en": "The monster [FFC4][BR]has been showing up in Trowana[BR]Forest. Please defeat [FFC5] of them.",
+  "en": "[FFC4] monsters have[BR]been showing up in Trowana Forest.[BR]Please defeat [FFC5] of them.",
   "bytes": 58,
   "sites": [
    "24E1BD:quest0C"
@@ -4744,7 +4744,7 @@
   "addr": "24EA9C",
   "kind": "quest_desc",
   "jp": "アンクルス平原に[BR][FFC4]が出没するので[BR]これを[FFC5]匹倒してほしい",
-  "en": "The monster [FFC4][BR]has been showing up on the Anklus[BR]Plains. Please defeat [FFC5] of them.",
+  "en": "[FFC4] monsters have[BR]been showing up on the Anklus[BR]Plains. Please defeat [FFC5] of them.",
   "bytes": 60,
   "sites": [
    "24E7F9:quest0C"
@@ -4960,7 +4960,7 @@
   "addr": "24EF98",
   "kind": "quest_desc",
   "jp": "ワンダラ山地に[BR][FFC4]が出没するので[BR]これを[FFC5]匹倒してほしい",
-  "en": "The monster [FFC4][BR]has been showing up in the[BR]Wandara Mountains. Please defeat[BR][FFC5] of them.",
+  "en": "[FFC4][BR]monsters have been showing[BR]up in the Wandara Mountains.[BR]Please defeat [FFC5] of them.",
   "bytes": 58,
   "sites": [
    "24EEA9:quest0C"

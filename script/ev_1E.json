@@ -2758,7 +2758,7 @@
   "addr": "1E18BE",
   "kind": "msg",
   "jp": "なんか、かわいいもの見つけるの[BR]早くねぇかポアラぁっ？[WAIT]",
-  "en": "Don't you find cute[BR]stuff kinda fast, Poala?[WAIT]",
+  "en": "Man, you sure are quick at[BR]spotting cute stuff, Poala![WAIT]",
   "bytes": 58,
   "sites": [
    "1E10BA:op7A+2",
@@ -3408,7 +3408,7 @@
   "addr": "1E1CBA",
   "kind": "msg",
   "jp": "・・・・・・やっぱりちょっと、[BR]かわいそう・・・だったかな[WAIT]",
-  "en": "……Maybe it was… a[BR]little sad after all…[WAIT]",
+  "en": "……I guess I do feel… a little[BR]sorry for them, after all…[WAIT]",
   "bytes": 62,
   "sites": [
    "1E12F6:op7A+2",
@@ -3822,7 +3822,7 @@
   "addr": "1E2D92",
   "kind": "msg",
   "jp": "・・・・・・うむ[BR]つい先日な・・・倉庫（そうこ）から[BR]ふくろを里の外へ持ち出してる[PAGE]不審者（ふしんしゃ）がもくげき[BR]されてのぉ・・・[WAIT]",
-  "en": "……Mm. Just the other day…[BR]someone was seen carrying[BR]sacks out of the storehouse,[PAGE]out of the village… a[BR]suspicious person, eh…[WAIT]",
+  "en": "……Mm. Just the other day… a suspicious[BR]person was seen carrying sacks[PAGE]from the storehouse out[BR]of the village, eh…[WAIT]",
   "bytes": 136,
   "sites": [
    "1E1F29:op7A+2",
@@ -4575,7 +4575,7 @@
   "addr": "1E35D0",
   "kind": "msg",
   "jp": "そうよ・・・[BR]フィリップさん、不審者（ふしんしゃ）[BR]がよじ登ってたのはどのへんかしら？[WAIT]",
-  "en": "That's right… Philip-san,[BR]whereabouts was that suspicious[BR]person climbing, I wonder?[WAIT]",
+  "en": "That's right… Philip-san,[BR]where exactly was that[BR]suspicious person climbing?[WAIT]",
   "bytes": 90,
   "sites": [
    "1E21E3:op7A+2",
@@ -6685,7 +6685,7 @@
   "addr": "1E439C",
   "kind": "msg",
   "jp": "・・・よくそれで[BR]星が３つもついてるものだ[WAIT]",
-  "en": "…And with that, he's[BR]somehow got three stars.[WAIT]",
+  "en": "…Amazing a guy like that[BR]has three whole stars.[WAIT]",
   "bytes": 46,
   "sites": [
    "1E2906:op7A+2",
@@ -9736,7 +9736,7 @@
   "addr": "1E6966",
   "kind": "msg",
   "jp": "・・・あっ！　ねぇビィト！！[PAGE]この毒霧（どくきり）も、[BR]ビィトがワタシの毒（どく）を消して[BR]くれた時みたいに消せないしら？[WAIT]",
-  "en": "…Oh! Hey, Beet!![PAGE]Couldn't you get rid of this[BR]poison mist too, like when you[BR]got rid of my poison, I wonder?[WAIT]",
+  "en": "…Oh! Hey, Beet!![PAGE]Couldn't you get rid of this[BR]poison mist the same way you[BR]got rid of my poison?[WAIT]",
   "bytes": 126,
   "sites": [
    "1E5E0F:op7A+2",
@@ -12782,7 +12782,7 @@
   "addr": "1E8FB2",
   "kind": "msg",
   "jp": "んー・・・・[BR]やっぱりわかんないから[BR]一緒にさがして[WAIT]",
-  "en": "Ummm…. I don't know after[BR]all, so help me look.[WAIT]",
+  "en": "Ummm… I dunno where. Help me look![WAIT]",
   "bytes": 56,
   "sites": [
    "1E79A9:op52+5",
@@ -13040,7 +13040,7 @@
   "addr": "1E919A",
   "kind": "msg",
   "jp": "ああん？[BR]おいおい・・・[BR]なに興奮（こうふん）してんだよ！[PAGE]せっかくオレ様が・・・[BR]かわいい迷子（まいご）を助けようと[BR]してンのに・・・[PAGE]またオマエらかよ・・・[WAIT]",
-  "en": "Huh? Whoa, whoa… What're you[BR]all worked up about, man?[PAGE]Here I am… tryin' to help[BR]out a cute little lost kid…[PAGE]and it's you punks again…[WAIT]",
+  "en": "Huh? Whoa, whoa… What're you[BR]all worked up about, man?[PAGE]Here I am… tryin' to help[BR]out a cute little lost kid…[PAGE]and it's you guys again, man…[WAIT]",
   "bytes": 164,
   "sites": [
    "1E7AC4:op7A+2",
@@ -14001,7 +14001,7 @@
   "addr": "1E9B68",
   "kind": "msg",
   "jp": "う・・・えっ・・・えぐっ・・・[WAIT]",
-  "en": "Uu… *hic*… *sob*…[WAIT]",
+  "en": "Uu… *sniff*… *sob*…[WAIT]",
   "bytes": 34,
   "sites": [
    "1E7DDB:op52+5",
@@ -14225,7 +14225,7 @@
   "addr": "1E9CBE",
   "kind": "msg",
   "jp": "ああ・・・[BR]フラウスキーをにがしたのは[BR]・・・ちょっとアレだけどな・・・[WAIT]",
-  "en": "Yeah… Letting Frausky get[BR]away is… kinda meh, though…[WAIT]",
+  "en": "Yeah… Letting Frausky get[BR]away kinda bugs me, though…[WAIT]",
   "bytes": 76,
   "sites": [
    "1E7E60:op7A+2",
@@ -15109,7 +15109,7 @@
   "addr": "1EA824",
   "kind": "msg",
   "jp": "ふぅ～[BR]これで全部のエリアで[BR]たたかったんじゃないかな・・・？[WAIT]",
-  "en": "Whew… I think that's every[BR]area we've fought in now…?[WAIT]",
+  "en": "Whew… I think we've fought[BR]in every area now…?[WAIT]",
   "bytes": 66,
   "sites": [
    "1EA315:op7A+2"
@@ -18408,7 +18408,7 @@
   "addr": "1ED6C0",
   "kind": "msg",
   "jp": "さいきんここで奇妙（きみょう）な事が[BR]起きたとかで・・・[BR]それで・・・友だちといっしょに・・・[WAIT]",
-  "en": "We heard something weird happened here[BR]lately… So… we came with a friend….[WAIT]",
+  "en": "We heard something weird[BR]happened here lately… So… my[BR]friend and I came together…[WAIT]",
   "bytes": 98,
   "sites": [
    "1EC424:op52+5",
@@ -18480,7 +18480,7 @@
   "addr": "1ED742",
   "kind": "msg",
   "jp": "・・・・・・はーーーっ！！[BR]なんて人さわがせなのっ！？[WAIT]",
-  "en": "……Haaaah!! What a nuisance you are![WAIT]",
+  "en": "……Haaaah!! What a scare you gave us![WAIT]",
   "bytes": 58,
   "sites": [
    "1EC44E:op7A+2",
@@ -19439,7 +19439,7 @@
   "addr": "1EDBF8",
   "kind": "msg",
   "jp": "ええ・・・[BR]この腐肉（ふにく）っての・・・[BR]やっぱ持ち帰った方がいいかな？[WAIT]",
-  "en": "Yes… I guess we'd better take some[BR]of this rotten flesh back with us?[WAIT]",
+  "en": "Yes… Should we take some of this[BR]rotten flesh back with us?[WAIT]",
   "bytes": 78,
   "sites": [
    "1EC68C:op7A+2",
@@ -20985,7 +20985,7 @@
   "addr": "1EF260",
   "kind": "msg",
   "jp": "そうね・・・。東の里、って[BR]分かっただけでも上出来だわ！[PAGE]とりあえず、レドウの大河を渡って[BR]レドウの港町まで行きましょう[WAIT]",
-  "en": "Right… Just knowing it's the[BR]eastern villages is good enough![PAGE]For now, let's cross the Redou[BR]River and head to Port Redou.[WAIT]",
+  "en": "Right… Just knowing it's the[BR]eastern villages is a great start![PAGE]For now, let's cross the Redou[BR]River and head to Port Redou.[WAIT]",
   "bytes": 124,
   "sites": [
    "1EE25F:op7A+2",

@@ -49,7 +49,7 @@
   "addr": "0A60BC",
   "kind": "desc",
   "jp": "槍が伸び直線上の全敵を攻撃",
-  "en": "Lance extends, hits a line",
+  "en": "Extends, hits all in line",
   "max": 28,
   "status": "done"
  },
@@ -121,7 +121,7 @@
   "addr": "0A61DC",
   "kind": "desc",
   "jp": "落下し周囲に衝撃波を出す",
-  "en": "Drops, shocking all around",
+  "en": "Lands with a shockwave",
   "max": 28,
   "status": "done"
  },
@@ -337,7 +337,7 @@
   "addr": "0A653C",
   "kind": "desc",
   "jp": "鉄球を回転させ水柱で攻撃",
-  "en": "Whirling ball blasts water",
+  "en": "Ball raises water pillars",
   "max": 28,
   "status": "done"
  },

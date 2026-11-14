@@ -1138,7 +1138,7 @@
   "addr": "0A7EA8",
   "kind": "name",
   "jp": "天撃の光陰",
-  "en": "Light Shadow",
+  "en": "Shadowlight",
   "max": 14,
   "status": "done"
  },
@@ -1147,7 +1147,7 @@
   "addr": "0A7EB6",
   "kind": "kana",
   "jp": "てんげきのこういん",
-  "en": "Light Shadow",
+  "en": "Shadowlight",
   "max": 26,
   "status": "done"
  },

@@ -429,7 +429,7 @@
   "addr": "171EB8",
   "kind": "msg",
   "jp": "しかしトラキラの葉は[BR]もう持てないのであきらめた[WAIT]",
-  "en": "You found a Torakira Leaf, but you[BR]can't carry any more, so you left it.[WAIT]",
+  "en": "But you can't carry another[BR]Torakira Leaf, so you left it.[WAIT]",
   "bytes": 52,
   "sites": [
    "1719E2:op3B+1"
@@ -1261,7 +1261,7 @@
   "addr": "172ED8",
   "kind": "msg",
   "jp": "調査の方はすすんでるかしら？[WAIT]",
-  "en": "How is your investigation[BR]coming along, I wonder?[WAIT]",
+  "en": "I wonder how your[BR]investigation is coming along?[WAIT]",
   "bytes": 32,
   "sites": [
    "172B37:op52+5",
@@ -2451,7 +2451,7 @@
   "addr": "174136",
   "kind": "msg",
   "jp": "この里で使う水はすべて、[BR]里の東にある井戸からくんでおる[WAIT]",
-  "en": "All the water this village[BR]uses is drawn from the well[BR]east of the village, you know.[WAIT]",
+  "en": "All the water this village uses[BR]is drawn from the well east of[BR]here, I'll have you know.[WAIT]",
   "bytes": 60,
   "sites": [
    "173BCD:op52+5"
@@ -2915,7 +2915,7 @@
   "addr": "174890",
   "kind": "msg",
   "jp": "あ、バスターのお兄ちゃんだ！[BR]いっしょに遊ぼう！[WAIT]",
-  "en": "Hey, it's the Buster[BR]Mister! Come play with me![WAIT]",
+  "en": "Hey, it's Mister Buster![BR]Come play with me![WAIT]",
   "bytes": 52,
   "sites": [
    "1743F8:op52+5"
@@ -5488,7 +5488,7 @@
   "addr": "177730",
   "kind": "msg",
   "jp": "よろしくたのまぁ[WAIT]",
-  "en": "Count on me, pal.[WAIT]",
+  "en": "Glad to be aboard, pal.[WAIT]",
   "bytes": 20,
   "sites": [
    "176DD0:op7A+2",
@@ -9278,7 +9278,7 @@
   "addr": "17AFB8",
   "kind": "msg",
   "jp": "あなたたちの協力は絶対に[BR]むだにしないわ・・・[PAGE]黒い沼（ぬま）がきえる日を[BR]楽しみにしていてね[WAIT]",
-  "en": "I promise your help will[BR]never go to waste…[PAGE]Look forward to the day the black[BR]swamps disappear, you hear?[WAIT]",
+  "en": "I promise your help will[BR]never go to waste…[PAGE]Look forward to the day the[BR]black swamps disappear, okay?[WAIT]",
   "bytes": 98,
   "sites": [
    "17A8BD:op52+5",
@@ -10295,7 +10295,7 @@
   "addr": "17C0C2",
   "kind": "msg",
   "jp": "あたしに・・・何か用かい？[WAIT]",
-  "en": "You want… something with me?[WAIT]",
+  "en": "You want… something from me?[WAIT]",
   "bytes": 30,
   "sites": [
    "17B5EF:op52+5"
@@ -11323,7 +11323,7 @@
   "addr": "17CE52",
   "kind": "msg",
   "jp": "今は武装客船は乗れないらしいよ。[BR]理由？[BR]さぁ、そこまでは知らないなぁ[WAIT]",
-  "en": "I hear you can't ride the armed[BR]passenger ship right now. Why?[BR]Hmm, I don't know that much.[WAIT]",
+  "en": "I hear you can't ride the[BR]armed passenger ship right[BR]now. Why? Beats me.[WAIT]",
   "bytes": 74,
   "sites": [
    "17B9B4:op52+5"
@@ -12554,7 +12554,7 @@
   "addr": "17E300",
   "kind": "msg",
   "jp": "おまえたち・・・[BR]バスターをやめて次代のなぞなぞ界を[BR]背負って立つ気はないかね！[WAIT]",
-  "en": "You lot… how would you like to[BR]quit Busting and carry the[BR]next generation of the riddle[PAGE]world on your shoulders?![WAIT]",
+  "en": "You lot… how would you like to[BR]quit being Busters and carry the[BR]next generation of the riddle[PAGE]world on your shoulders?![WAIT]",
   "bytes": 84,
   "sites": [
    "17DC29:op52+5",
@@ -13585,7 +13585,7 @@
   "addr": "17F24E",
   "kind": "msg",
   "jp": "しかしトラキラの葉は[BR]もう持てないのであきらめた[WAIT]",
-  "en": "You found a Torakira Leaf, but you[BR]can't carry any more, so you left it.[WAIT]",
+  "en": "But you can't carry another[BR]Torakira Leaf, so you left it.[WAIT]",
   "bytes": 52,
   "sites": [
    "17EC72:op3B+1"

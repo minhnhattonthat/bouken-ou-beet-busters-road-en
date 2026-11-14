@@ -4,6 +4,7 @@
     python -X utf8 tools/batches.py check [bNNN ...]      a batch's .out.tsv; with no batch, all shipped English
     python -X utf8 tools/batches.py merge bNNN ... [--overwrite]   check, then write the English into script/
     python -X utf8 tools/batches.py fit ID "English"      the wrapped text and its problems (dry run for translators)
+    python -X utf8 tools/batches.py fix FILE              polish fixes (`id<TAB>English` lines) into out.tsv + script/
     python -X utf8 tools/batches.py story                 work/tl/story/<file>.txt: speaker + JP in script order
     python -X utf8 tools/batches.py terms                 refresh build/terms_bNNN.txt after a glossary edit
     python -X utf8 tools/batches.py pairs bNNN ... OUT    reviewer pairs file (>> id | JP / EN, +-2 context lines)
@@ -417,6 +418,43 @@ def pairs(names, outpath):
     print(f"wrote {outpath}")
 
 
+def fix(path, entries, terms):
+    """Polish fixes: FILE lines `id<TAB>English` replace the English of every batch row sharing that id's key (in
+    work/tl/bNNN.out.tsv, so `check` stays in step), then merge them. Checks all first; writes nothing on a problem."""
+    want = {}
+    for r in read_tsv(path):
+        if r[0].startswith("#"):
+            continue
+        e = entries[r[0]]
+        bad = problems(e, r[1], terms)
+        if bad:
+            sys.exit(f"{r[0]}: {bad} {r[1]!r}")
+        want[key(e)] = (r[0], r[1])
+    hit, new, pending = set(), {}, {}
+    for p in existing():
+        out = TL / f"{p.stem}.out.tsv"
+        if not out.exists():
+            continue
+        rows, touched = read_tsv(out), False
+        for k, src in enumerate(read_tsv(p)):
+            u = resolve(entries, src)
+            if key(entries[u]) in want:
+                eid, en = want[key(entries[u])]
+                hit.add(eid)
+                new[u] = en
+                if "\t".join(rows[k][1:]) != en:
+                    rows[k], touched = [rows[k][0], en], True
+        if touched:
+            pending[out] = rows
+    missing = {i for i, _ in want.values()} - hit
+    if missing:
+        sys.exit(f"no batch row for {sorted(missing)}")
+    for out, rows in pending.items():
+        out.write_text("".join("\t".join(r) + "\n" for r in rows), encoding="utf-8", newline="\n")
+    merge(new, True)
+    return 0
+
+
 def main(argv):
     if not argv:
         sys.exit(__doc__)
@@ -439,6 +477,8 @@ def main(argv):
         for p in problems(e, args[1], terms):
             print("  " + p)
         return 0
+    if cmd == "fix":
+        return fix(Path(args[0]), entries, terms)
     overwrite = "--overwrite" in args
     names = [a for a in args if a != "--overwrite"]
     if cmd == "check" and not names:

@@ -1516,7 +1516,7 @@
   "addr": "1B1DA8",
   "kind": "msg",
   "jp": "そうですそうです[BR]そこで、何でもかまいませんので、[BR]モンスターから手に入れたアイテムを[PAGE]５コ、持ってきていただければと[BR]思います[PAGE]それで依頼完了（いらいかんりょう）、[BR]とさせて下さい[WAIT]",
-  "en": "Yes, yes, precisely. So, anything at[BR]all will do: if you could bring us[BR]five items you obtained from monsters,[PAGE]that would be wonderful.[PAGE]Please let that complete the request.[WAIT]",
+  "en": "Yes, yes, precisely. So, anything at[BR]all will do: if you could bring us[BR]five items you obtained from monsters,[PAGE]that would be wonderful.[PAGE]We'll consider the request complete.[WAIT]",
   "bytes": 186,
   "sites": [
    "1B1930:op52+5"
@@ -1664,7 +1664,7 @@
   "addr": "1B1F8A",
   "kind": "msg",
   "jp": "・・・ひぃ、ふぅ、みぃ・・・・っと、[BR]たしかにありますね[BR]さすがバスターさん、カンペキですね[PAGE]これで里もひと安心、というところです[WAIT]",
-  "en": "…One, two, three…… and there we[BR]are, they're all here. Just what[BR]I'd expect of Busters. Perfect![PAGE]Now the village can rest[BR]easy, as they say.[WAIT]",
+  "en": "…One, two, three…… and there we[BR]are, they're all here. Just what[BR]I'd expect of Busters. Perfect![PAGE]Now the village can rest a[BR]little easier, I'd say.[WAIT]",
   "bytes": 134,
   "sites": [
    "1B1A11:op52+5"
@@ -2144,7 +2144,7 @@
   "addr": "1B28EA",
   "kind": "msg",
   "jp": "ウソ・・・ウソでしょーーーーーっ！？[PAGE]だって[BR]才牙（サイガ）が使えるのに[BR]天撃（てんげき）が使えないなんて事が[PAGE]あるわけ！？[BR]天撃（てんげき）がじょうたつして[BR]天力が上がった者がさいごに手に入れる[PAGE]究極の武器（きゅうきょくのぶき）が、[BR]才牙（サイガ）でしょ！！？[WAIT]",
-  "en": "No way… You've GOT to be kiddiiing!?[PAGE]I mean, how can someone who uses Saiga[BR]not be able to use Divine Attacks?![PAGE]When your Divine Attacks get[BR]better and your Divine Power[BR]goes up, the last thing you earn[PAGE]is the ultimate weapon[BR]-- a Saiga! Right?![WAIT]",
+  "en": "No way… You've GOT to be kiddiiing?![PAGE]I mean, how can someone who uses Saiga[BR]not be able to use Divine Attacks?![PAGE]When your Divine Attacks get[BR]better and your Divine Power[BR]goes up, the last thing you earn[PAGE]is the ultimate weapon[BR]-- a Saiga! Right?![WAIT]",
   "bytes": 266,
   "sites": [
    "1B226B:op7A+2"
@@ -2389,7 +2389,7 @@
   "addr": "1B2C0E",
   "kind": "msg",
   "jp": "でっ・・・でかっ！！[WAIT]",
-  "en": "Wh-what a monster!![WAIT]",
+  "en": "Wh-whoa, it's HUGE!![WAIT]",
   "bytes": 24,
   "sites": [
    "1B237F:op7A+2",
@@ -3042,7 +3042,7 @@
   "addr": "1B3546",
   "kind": "msg",
   "jp": "ワタシがしずんでしまっては[BR]里は守れない・・・[PAGE]死してのこるムガインののろい・・・[PAGE]これをたち切るために、[BR]ぜひお前たちの力をかりたい[WAIT]",
-  "en": "If I sink, I cannot[BR]protect the village…[PAGE]Mugine's curse, lingering[BR]on after his death…[PAGE]To break it, I would gladly[BR]borrow your strength.[WAIT]",
+  "en": "If I sink, I cannot[BR]protect the village…[PAGE]Mugine's curse, lingering[BR]on after his death…[PAGE]To break it, I must ask[BR]to borrow your strength.[WAIT]",
   "bytes": 138,
   "sites": [
    "1B2FCC:op7A+2"
@@ -4111,7 +4111,7 @@
   "addr": "1B49BE",
   "kind": "msg",
   "jp": "そっか・・・[BR]おれもポアラのおっちゃんには[BR]世話になってるからな[PAGE]オレも気合入れてやるぜ、ポアラっ！！[WAIT]",
-  "en": "I see… Your old man's looked[BR]out for me plenty too,[PAGE]so I'm givin' this[BR]everything I got, Poala!![WAIT]",
+  "en": "I see… Your dad's always[BR]looked out for me too,[PAGE]so I'm givin' this[BR]everything I got, Poala!![WAIT]",
   "bytes": 106,
   "sites": [
    "1B3A8A:op7A+2"
@@ -4831,7 +4831,7 @@
   "addr": "1B57F6",
   "kind": "msg",
   "jp": "気にすんなって！[BR]オレは報酬（ほうしゅう）がほしくて[BR]バスターやってんじゃないからさっ！！[WAIT]",
-  "en": "Don't sweat it! I'm not bein' a[BR]Buster 'cause I want rewards!![WAIT]",
+  "en": "Don't sweat it! I'm not a[BR]Buster for the rewards!![WAIT]",
   "bytes": 94,
   "sites": [
    "1B4CA9:op7A+2"
@@ -5791,7 +5791,7 @@
   "addr": "1B6CEE",
   "kind": "msg",
   "jp": "そうそう、白砂（しろすな）の[BR]輸送隊（ゆそうたい）も、[BR]それなりにウデにおぼえのある[PAGE]人たちにおねがいしたの[BR]ですけど・・・[PAGE]行きはよくても、[BR]荷物をつんだ帰りがたいへんだ、[BR]ということなの[PAGE]そこでビィト君たちには、[BR]帰りの護衛（ごえい）を[BR]おねがいしようと思うの[WAIT]",
-  "en": "Oh, that's right. For the White Sand[BR]transport team, I've hired people[BR]who are fairly sure of their skills,[PAGE]but…[PAGE]they say going there is fine,[BR]but the trip back, loaded with[BR]cargo, is the hard part.[PAGE]So I'd like to ask you, Beet-kun,[BR]to escort them on the way back.[WAIT]",
+  "en": "Oh, that's right. For the White Sand[BR]transport team, I've hired people[BR]who are fairly sure of their skills,[PAGE]but…[PAGE]they say going there is fine,[BR]but the trip back, loaded with[BR]cargo, is the hard part.[PAGE]So I'd like to ask you two, Beet-kun,[BR]to escort them on the way back.[WAIT]",
   "bytes": 268,
   "sites": [
    "1B5E97:op52+5"
@@ -5839,7 +5839,7 @@
   "addr": "1B6E20",
   "kind": "msg",
   "jp": "実は、もう輸送隊（ゆそうたい）は[BR]出発しているの[PAGE]おそらく、そろそろ白砂（しろすな）を[BR]集めてるころのはずなのね・・・[PAGE]だからビィト君たちは、[BR]じゅんびができたら[BR]海岸の遺跡（かいがんのいせき）に[PAGE]向かってください[BR]そこで輸送隊（ゆそうたい）と[BR]合流して、[PAGE]プリモーレまでの護衛（ごえい）を[BR]おねがいしますね[PAGE]海岸の遺跡（かいがんのいせき）は[BR]デュオラ平原の北東にあります[WAIT]",
-  "en": "Actually, the transport[BR]team has already set out.[PAGE]By now they should be just about[BR]gathering the White Sand…[PAGE]So, Beet-kun, once you're ready,[BR]please head to the Coast Ruins.[PAGE]Meet up with the transport team there,[PAGE]and escort them back[BR]to Primore, please.[PAGE]The Coast Ruins are northeast[BR]of the Duora Plains.[WAIT]",
+  "en": "Actually, the transport[BR]team has already set out.[PAGE]By now they should be just about[BR]gathering the White Sand…[PAGE]So, Beet-kun, once you two are ready,[BR]please head to the Coast Ruins.[PAGE]Meet up with the transport team there,[PAGE]and escort them back[BR]to Primore, please.[PAGE]The Coast Ruins are northeast[BR]of the Duora Plains.[WAIT]",
   "bytes": 376,
   "sites": [
    "1B5EB8:op52+5"
@@ -7567,7 +7567,7 @@
   "addr": "1B8B1A",
   "kind": "msg",
   "jp": "大体・・・イカれてんのは[BR]おまえの方だろうが・・・[PAGE]このご時世に[BR]「正義（せいぎ）」だのなんだと、[BR]あまっちょろい事ばかり[PAGE]ぬかしやがって・・・[PAGE]同じバスターとしておまえみたいなのが[BR]いると目ざわりで仕方ないっ・・・！！[WAIT]",
-  "en": "Besides… you're the one who's cracked…[PAGE]In times like these, all you[BR]ever do is spout naive garbage[BR]about \"justice\" and whatnot…[PAGE]…shooting your mouth off…[PAGE]Having someone like you around as[BR]a fellow Buster is an eyesore…!![WAIT]",
+  "en": "Besides… you're the one who's cracked…[PAGE]In times like these, all you[BR]ever do is spout naive garbage[BR]about \"justice\" and whatnot…[PAGE]…you never shut up about it…[PAGE]Having someone like you around as[BR]a fellow Buster is an eyesore…!![WAIT]",
   "bytes": 224,
   "sites": [
    "1B844A:op7A+2"
@@ -7927,7 +7927,7 @@
   "addr": "1B9026",
   "kind": "msg",
   "jp": "ケッ！[BR]そんなんやってみねぇと[BR]わからねぇだろ！[PAGE]そこまで言われちゃあ[BR]引き下がれねぇな・・・！[PAGE]スレッド、オレと勝負しろっ！！[WAIT]",
-  "en": "Heh! You don't know that till we try![PAGE]After all that, there's no[BR]way I'm backing down…![PAGE]Slade, fight me!![WAIT]",
+  "en": "Tch! You don't know that till we[BR]try! After all that, there's no way[BR]I'm backing down…! Slade, fight me!![WAIT]",
   "bytes": 132,
   "sites": [
    "1B8594:op7A+2"
@@ -8659,7 +8659,7 @@
   "addr": "1BA43E",
   "kind": "msg",
   "jp": "・・・ということは、[BR]ムガインとはちがって[PAGE]住み家とかを持たないタイプの[BR]ヴァンデルなのかしら・・・？[WAIT]",
-  "en": "…So that means, unlike Mugine,[PAGE]it might be the kind of[BR]Vandel that doesn't have a[BR]lair or anything, I wonder…?[WAIT]",
+  "en": "…So that means, unlike Mugine,[PAGE]maybe it's the kind of Vandel that[BR]doesn't have a lair or anything…?[WAIT]",
   "bytes": 106,
   "sites": [
    "1B98A2:op7A+2"
@@ -8803,7 +8803,7 @@
   "addr": "1BA58A",
   "kind": "msg",
   "jp": "・・・・さすがにチョット、[BR]さんぽはないんじゃないの？[WAIT]",
-  "en": "….Going for walks is a bit[BR]much, don't you think?[WAIT]",
+  "en": "…A Vandel out for a stroll? That's a[BR]bit of a stretch, don't you think?[WAIT]",
   "bytes": 58,
   "sites": [
    "1B9926:op7A+2"
@@ -9811,7 +9811,7 @@
   "addr": "1BB1A8",
   "kind": "msg",
   "jp": "なんとかみんな助かったんだけど・・・[BR]でも・・・[BR]すっごいくやしくて・・・[WAIT]",
-  "en": "Somehow everybody made it out okay,[BR]but… still… it made me so mad…[WAIT]",
+  "en": "Somehow everybody made it out okay,[BR]but… still… I was so frustrated…[WAIT]",
   "bytes": 78,
   "sites": [
    "1B9D5A:op7A+2"
@@ -10027,7 +10027,7 @@
   "addr": "1BB53C",
   "kind": "msg",
   "jp": "いや、オマエは分かってない・・・！！[BR]やっぱり、とんでもないあまちゃんだ[PAGE]少々ウデを上げたようだが、[BR]精神面（せいしんめん）では[BR]まだまだだな[WAIT]",
-  "en": "No, you don't know…!! You're[BR]still a hopeless softie.[PAGE]Your skills may have improved[BR]a little, but in your head,[BR]you've got a long way to go.[WAIT]",
+  "en": "No, you don't get it…!! You're[BR]still a hopeless softie.[PAGE]Your skills may have improved[BR]a little, but in your head,[BR]you've got a long way to go.[WAIT]",
   "bytes": 146,
   "sites": [
    "1B9E20:op7A+2"
@@ -10939,7 +10939,7 @@
   "addr": "1BC160",
   "kind": "msg",
   "jp": "これでとどめだ！[WAIT]",
-  "en": "This is the finishing blow![WAIT]",
+  "en": "This finishes it![WAIT]",
   "bytes": 20,
   "sites": [
    "1BA1BC:op7A+2"
@@ -11371,7 +11371,7 @@
   "addr": "1BCA72",
   "kind": "msg",
   "jp": "・・・どうもこうもないだろ・・・[WAIT]",
-  "en": "…Isn't it obvious…[WAIT]",
+  "en": "…Isn't it obvious?[WAIT]",
   "bytes": 36,
   "sites": [
    "1BC461:op7A+2"
@@ -12091,7 +12091,7 @@
   "addr": "1BD180",
   "kind": "msg",
   "jp": "いい人になんか見られなくったって[BR]・・・正義（せいぎ）は守れる！！[WAIT]",
-  "en": "Even if nobody sees us as the good[BR]guys… we can still protect justice!![WAIT]",
+  "en": "Even if nobody sees us as[BR]the good guys… we can still[BR]stand up for justice!![WAIT]",
   "bytes": 70,
   "sites": [
    "1BC6F1:op7A+2"
@@ -13819,7 +13819,7 @@
   "addr": "1BEBE0",
   "kind": "msg",
   "jp": "・・・そうなれば[BR]ワタシのように計画的（けいかくてき）[BR]に人間社会を侵攻（しんこう）する者が[PAGE]評価（ひょうか）の[BR]最優先事項（さいゆうせんじこう）に[BR]なるというわけだ[WAIT]",
-  "en": "…And then, those like me, who invade[BR]human society according to a plan,[PAGE]become the top priority when[BR]it comes to rankings, you see.[WAIT]",
+  "en": "…And then, those like me, who invade[BR]human society according to a plan,[PAGE]would be the ones ranked[BR]highest, you see.[WAIT]",
   "bytes": 170,
   "sites": [
    "1BE737:op7A+2"
@@ -14131,7 +14131,7 @@
   "addr": "1BF032",
   "kind": "msg",
   "jp": "ＥＸＣＥＬＬＥＮＴ（エクセレント）[BR]だよ、ビィト君[PAGE]今回のゲームは[BR]ワタシの完敗（かんぱい）だ・・・！[WAIT]",
-  "en": "Excellent, my dear Beet-kun.[PAGE]I lose this game completely…![WAIT]",
+  "en": "Excellent, my dear Beet-kun.[PAGE]This game is a complete[BR]defeat for me…![WAIT]",
   "bytes": 106,
   "sites": [
    "1BE874:op7A+2"
@@ -14227,7 +14227,7 @@
   "addr": "1BF226",
   "kind": "msg",
   "jp": "フウゥ・・・[BR]できればゲームの中で君を[BR]美しくしまつしたかったのだが・・・[PAGE]これほどまでのポテンシャルを[BR]持った少年を野に放つわけにも[BR]いかん[PAGE]・・・他のくだらんヴァンデルたちの[BR]星をふやすことだけは[BR]さけたいしなぁ・・・[WAIT]",
-  "en": "Hmm… I'd hoped to dispose of you[BR]beautifully within the game, but…[PAGE]I can't let a boy with this[BR]much potential run loose.[PAGE]…And I'd hate to see you add to the[BR]stars of the other worthless Vandels…[WAIT]",
+  "en": "Haaah… I'd hoped to dispose of you[BR]beautifully within the game, but…[PAGE]I can't let a boy with this[BR]much potential run loose.[PAGE]…And I'd hate for you to end up as a[BR]star for some other worthless Vandel…[WAIT]",
   "bytes": 226,
   "sites": [
    "1BE8D2:op7A+2"
@@ -14611,7 +14611,7 @@
   "addr": "1BF61C",
   "kind": "msg",
   "jp": "これほど・・・[BR]万事において知的（ちてき）で・・・[BR]クールなこのワタシがあぁぁっ！！[WAIT]",
-  "en": "Me…! When I am so intelligent in every[BR]way… I am intelligent and COOOOL!![WAIT]",
+  "en": "Me…! I, who am intelligent[BR]in every way… so COOOOL!![WAIT]",
   "bytes": 88,
   "sites": [
    "1BEA38:op7A+2"

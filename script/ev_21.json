@@ -902,7 +902,7 @@
   "addr": "21096E",
   "kind": "msg",
   "jp": "あら、あなた・・・[BR]おかえりなさい[WAIT]",
-  "en": "Oh, dear… Welcome home.[WAIT]",
+  "en": "Oh, honey… Welcome home.[WAIT]",
   "bytes": 38,
   "sites": [
    "20F15D:op52+5",
@@ -2611,7 +2611,7 @@
   "addr": "212116",
   "kind": "msg",
   "jp": "・・・橋をわたらんとする者よ、[BR]立ち止まるがよい[PAGE]なんじ、わがナゾかけに答えなくば[BR]この先へすすむこと、かなわぬ[WAIT]",
-  "en": "…You who would cross the bridge, halt.[PAGE]Unless you answer my conundrum,[BR]you cannot go any further.[WAIT]",
+  "en": "…Ye who would cross the bridge, halt.[PAGE]Unless ye answer my conundrum,[BR]ye cannot go any further.[WAIT]",
   "bytes": 116,
   "sites": [
    "2115CE:op52+5",
@@ -3217,7 +3217,7 @@
   "addr": "2123E0",
   "kind": "msg",
   "jp": "・・・なんじらのこうげき[BR]全てわれにはとどかぬ・・・[PAGE]わがナゾかけに答えよ・・・[BR]さすれば道は開かれん・・・[WAIT]",
-  "en": "…None of your attacks can reach me…[PAGE]Answer my conundrum… Then[BR]shall the way be opened…[WAIT]",
+  "en": "…None of your attacks[BR]can reach me, mortals…[PAGE]Answer my conundrum… Then[BR]shall the way be opened…[WAIT]",
   "bytes": 112,
   "sites": [
    "2117CE:op52+5",
@@ -3526,7 +3526,7 @@
   "addr": "212568",
   "kind": "msg",
   "jp": "・・・よかろう[BR]ではなんじらに問う・・・[PAGE]「高き頂き（いただき）にたたずむ者、[BR]その頂点（ちょうてん）」[BR]・・・さぁ、答えられよ[WAIT]",
-  "en": "…Very well. Then I ask you this…[PAGE]\"One who stands upon the high[BR]summit: its pinnacle.\" …Now, answer.[WAIT]",
+  "en": "…Very well. Then I ask ye this…[PAGE]\"One who stands upon the high[BR]summit: its pinnacle.\" …Now, answer.[WAIT]",
   "bytes": 132,
   "sites": [
    "211850:op52+5",
@@ -7662,7 +7662,7 @@
   "addr": "21613C",
   "kind": "msg",
   "jp": "うむ、その通りじゃ！[BR]木じゃよ。それも一番の大木が[BR]せいかいだろうな[WAIT]",
-  "en": "Mm, just so! A tree. And the[BR]biggest great tree of all[BR]would be the right answer.[WAIT]",
+  "en": "Mm, just so! A tree. And the very[BR]biggest one would be the right answer.[WAIT]",
   "bytes": 72,
   "sites": [
    "215245:op52+5",
@@ -10384,7 +10384,7 @@
   "addr": "2182B8",
   "kind": "msg",
   "jp": "やっぱりおまえたち・・・[BR]バスターをやめて次代のなぞなぞ界を[BR]しょって立つ気はないかね！[WAIT]",
-  "en": "I knew it… You lot… how would[BR]you like to quit Busting and[BR]carry the next generation of the[PAGE]riddle world on your shoulders?![WAIT]",
+  "en": "I knew it… You lot… how would you[BR]like to quit being Busters and[BR]carry the next generation of the[PAGE]riddle world on your shoulders?![WAIT]",
   "bytes": 92,
   "sites": [
    "2172AF:op52+5",
@@ -11904,7 +11904,7 @@
   "addr": "219012",
   "kind": "msg",
   "jp": "あははっ！[BR]うん、がんばろうねっ！[PAGE]ここにも気持ちいい風が[BR]ふくようにさっ！！[WAIT]",
-  "en": "Ahaha! Yeah, let's do our best![PAGE]So a nice wind blows here too!![WAIT]",
+  "en": "Ahaha! Yeah, let's do our best![PAGE]So a nice wind can blow here too!![WAIT]",
   "bytes": 82,
   "sites": [
    "2177D9:op7A+2",
@@ -12044,7 +12044,7 @@
   "addr": "219122",
   "kind": "msg",
   "jp": "・・・フフン！[WAIT]",
-  "en": "…Hmph![WAIT]",
+  "en": "…Heh.[WAIT]",
   "bytes": 18,
   "sites": [
    "217850:op7A+2",
@@ -12651,7 +12651,7 @@
   "addr": "2195EA",
   "kind": "msg",
   "jp": "・・・よかろう[PAGE]ワタシはこれから[BR]「人間の想い」とやらのナゾを[BR]といてみせよう・・・[PAGE]・・・そのためには、[BR]ここにとどまっていてはだめだな[WAIT]",
-  "en": "…Very well.[PAGE]I shall now solve this[BR]mystery of \"human feelings\"…[PAGE]…And for that, I cannot remain here.[WAIT]",
+  "en": "…Very well.[PAGE]I shall now solve this mystery[BR]of so-called \"human feelings\"…[PAGE]…And for that, I cannot remain here.[WAIT]",
   "bytes": 142,
   "sites": [
    "217A57:op52+5",
@@ -12923,7 +12923,7 @@
   "addr": "21982C",
   "kind": "msg",
   "jp": "そうだな・・・おれにも、ポアラにも[BR]・・・みんなそれぞれの心の中に、[PAGE]自分だけの「想い」って[BR]持ってるものな・・・[WAIT]",
-  "en": "Yeah… me, Poala… everybody's got their[BR]own \"feelings\" deep in their heart,[PAGE]ones that are theirs alone…[WAIT]",
+  "en": "Yeah… me, Poala, everybody…[BR]we've all got our own[BR]\"feelings\" deep in our hearts,[PAGE]ones that are ours alone…[WAIT]",
   "bytes": 118,
   "sites": [
    "217B00:op7A+2",
@@ -13498,7 +13498,7 @@
   "addr": "21AD68",
   "kind": "msg",
   "jp": "しんじられない・・・[BR]トロワナにはおよばなくても、[PAGE]このムスリーの門は[BR]硬度（こうど）・結界（けっかい）の力[BR]ともにズバぬけていたのに・・・[WAIT]",
-  "en": "I can't believe it… It was[BR]no match for Trowana's, but[PAGE]Musley's Gate was outstanding in[BR]both hardness and barrier power…[WAIT]",
+  "en": "I can't believe it… It wasn't[BR]quite up to Trowana's, but[PAGE]Musley's Gate was outstanding in[BR]both hardness and barrier power…[WAIT]",
   "bytes": 144,
   "sites": [
    "219CCB:op7A+2",
@@ -14492,7 +14492,7 @@
   "addr": "21B34E",
   "kind": "msg",
   "jp": "だったら・・・じゃましちゃダメよぉ！[PAGE]これから、その悪い子ちゃんを[BR]キュ～～～って目に合わせなきゃ[BR]ならないの！[WAIT]",
-  "en": "Then… no getting in my way, okay~![PAGE]I've gotta give that naughty[BR]boy a nice big squeeeeeze![WAIT]",
+  "en": "Then… no getting in my way, okay~![PAGE]I've gotta make that[BR]naughty boy squeeeeeal![WAIT]",
   "bytes": 116,
   "sites": [
    "219FDB:op52+5",
@@ -16135,7 +16135,7 @@
   "addr": "21BEF2",
   "kind": "msg",
   "jp": "あん！？[WAIT]",
-  "en": "Huh?![WAIT]",
+  "en": "Excuse me?![WAIT]",
   "bytes": 12,
   "sites": [
    "21A441:op7A+2",
@@ -19527,7 +19527,7 @@
   "addr": "21E73C",
   "kind": "msg",
   "jp": "だったら・・・じゃましちゃダメよぉ！[PAGE]これから、その悪い子ちゃんを[BR]キュ～～～って目に合わせなきゃ[BR]ならないの！[WAIT]",
-  "en": "Then… no getting in my way, okay~![PAGE]I've gotta give that naughty[BR]boy a nice big squeeeeeze![WAIT]",
+  "en": "Then… no getting in my way, okay~![PAGE]I've gotta make that[BR]naughty boy squeeeeeal![WAIT]",
   "bytes": 116,
   "sites": [
    "21D930:op52+5",
@@ -20723,7 +20723,7 @@
   "addr": "21F2BA",
   "kind": "msg",
   "jp": "あん！？[WAIT]",
-  "en": "Huh?![WAIT]",
+  "en": "Excuse me?![WAIT]",
   "bytes": 12,
   "sites": [
    "21DD3D:op7A+2",

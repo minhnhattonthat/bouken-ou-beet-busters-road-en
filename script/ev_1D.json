@@ -737,7 +737,7 @@
   "addr": "1D0622",
   "kind": "msg",
   "jp": "・・・凶暴（きょうぼう）な[BR]モンスターだぞ、ヤツらは[WAIT]",
-  "en": "…Those are savage[BR]monsters, those things.[WAIT]",
+  "en": "…They're savage[BR]monsters, those things.[WAIT]",
   "bytes": 56,
   "sites": [
    "1CFB51:op7A+2",
@@ -2470,7 +2470,7 @@
   "addr": "1D165E",
   "kind": "msg",
   "jp": "人さえいれば、[BR]金で雇う（やとう）って手もあるわ！[WAIT]",
-  "en": "As long as there are people, we can[BR]always hire someone with money![WAIT]",
+  "en": "If we can find the right person, we[BR]can always hire them with money![WAIT]",
   "bytes": 54,
   "sites": [
    "1D0FE5:op7A+2",
@@ -5692,7 +5692,7 @@
   "addr": "1D356A",
   "kind": "msg",
   "jp": "うっ・・・うかつにさわるな！！[BR]こっ・・・[BR]この腕輪（うでわ）はあぁっ！！！[WAIT]",
-  "en": "D-don't touch it carelessly!![BR]Th-this… this bracelet is…!!![WAIT]",
+  "en": "D-don't you go touchin' that!![BR]Th-this… this bracelet is…!!![WAIT]",
   "bytes": 80,
   "sites": [
    "1D27FE:op7A+2",
@@ -8994,7 +8994,7 @@
   "addr": "1D52EA",
   "kind": "msg",
   "jp": "ここは西（左）へ抜けてください[WAIT]",
-  "en": "Here, go out to the west (left).[WAIT]",
+  "en": "From here, head west (left).[WAIT]",
   "bytes": 34,
   "sites": [
    "1D4267:op7A+2"
@@ -9018,7 +9018,7 @@
   "addr": "1D531A",
   "kind": "msg",
   "jp": "ここは東（右）へ抜けてください[WAIT]",
-  "en": "Here, go out to the east (right).[WAIT]",
+  "en": "From here, head east (right).[WAIT]",
   "bytes": 34,
   "sites": [
    "1D427F:op7A+2"
@@ -9042,7 +9042,7 @@
   "addr": "1D534A",
   "kind": "msg",
   "jp": "ここは南（下）へ抜けてください[WAIT]",
-  "en": "Here, go out to the south (down).[WAIT]",
+  "en": "From here, head south (down).[WAIT]",
   "bytes": 34,
   "sites": [
    "1D4297:op7A+2"
@@ -9066,7 +9066,7 @@
   "addr": "1D537A",
   "kind": "msg",
   "jp": "ここは北（上）へ抜けてください[WAIT]",
-  "en": "Here, go out to the north (up).[WAIT]",
+  "en": "From here, head north (up).[WAIT]",
   "bytes": 34,
   "sites": [
    "1D42AF:op7A+2"
@@ -9343,7 +9343,7 @@
   "addr": "1D607C",
   "kind": "msg",
   "jp": "だからいいって！[BR]オレたちだってまよわずに[BR]トロワナまで来れたんだし・・・[PAGE]・・・[PAGE]・・・[PAGE]（・・・・ぐぅ～）[WAIT]",
-  "en": "I told you, it's fine! We got to[BR]Trowana without getting lost too, so…[PAGE]…[PAGE]…[PAGE](….*grumble*)[WAIT]",
+  "en": "I told you, it's fine! Thanks[BR]to you, we made it to Trowana[BR]without getting lost, so…[PAGE]…[PAGE]…[PAGE](….*grumble*)[WAIT]",
   "bytes": 114,
   "sites": [
    "1D54CF:op7A+2",
@@ -9922,7 +9922,7 @@
   "addr": "1D6528",
   "kind": "msg",
   "jp": "・・・ククッ・・・[BR]さわぐんじゃねぇよ・・・[BR]つい、うっちまったじゃねぇか・・・！[WAIT]",
-  "en": "…Heh heh… Don't go makin' a fuss,[BR]man… Now look, I went and shot ya…![WAIT]",
+  "en": "…Heh heh… Don't go makin' a[BR]fuss, man… Now look what ya made[BR]me do. I went and shot ya…![WAIT]",
   "bytes": 86,
   "sites": [
    "1D56AD:op7A+2",
@@ -10381,7 +10381,7 @@
   "addr": "1D6908",
   "kind": "msg",
   "jp": "・・・つまんねぇ事で[BR]あつくなってんじゃねぇよ[PAGE]ヴァンデルだぜ・・・オレは[PAGE]人間をころす理由なんて[BR]考えた事ぁねぇ・・・！[BR]・・・それとも・・・[WAIT]",
-  "en": "…Don't go gettin' all hot[BR]over somethin' so dumb.[PAGE]I'm a Vandel, man…[PAGE]Never once thought about needin' a[BR]reason to kill humans…! …Or what…[WAIT]",
+  "en": "…Don't go gettin' all hot[BR]over somethin' so dumb.[PAGE]I'm a Vandel, man…[PAGE]Never once thought about needin' a[BR]reason to kill humans…! …Or maybe…[WAIT]",
   "bytes": 148,
   "sites": [
    "1D5802:op7A+2",
@@ -10449,7 +10449,7 @@
   "addr": "1D69C2",
   "kind": "msg",
   "jp": "ころす前に理由を言ってくれなきゃ[BR]イヤなのか？[BR]ボウズ・・・！[WAIT]",
-  "en": "You won't let me kill ya unless[BR]I give ya a reason first? Kid…![WAIT]",
+  "en": "You'd rather I gave ya a reason[BR]before I kill ya? Huh, kid…![WAIT]",
   "bytes": 66,
   "sites": [
    "1D582E:op7A+2",
@@ -10997,7 +10997,7 @@
   "addr": "1D6CF4",
   "kind": "msg",
   "jp": "なんだって！！[WAIT]",
-  "en": "What did you say!![WAIT]",
+  "en": "What?!![WAIT]",
   "bytes": 18,
   "sites": [
    "1D59A6:op7A+2",
@@ -12954,7 +12954,7 @@
   "addr": "1D7CCC",
   "kind": "msg",
   "jp": "・・・そろそろいくか[WAIT]",
-  "en": "…Shall we get going?[WAIT]",
+  "en": "…Let's get moving.[WAIT]",
   "bytes": 24,
   "sites": [
    "1D75D8:op7A+2",
@@ -13748,7 +13748,7 @@
   "addr": "1D821C",
   "kind": "msg",
   "jp": "・・・別にカレシじゃないわ！[PAGE]それに・・・[BR]いきなりなぐってきたのは[BR]あっちの方でしょ？[PAGE]アンタのツレ・・・の化け物！[WAIT]",
-  "en": "…He is NOT my boyfriend![PAGE]Besides… HE'S the one who started[BR]swinging out of nowhere, isn't he?[PAGE]That monster… your pal![WAIT]",
+  "en": "…He is NOT my boyfriend![PAGE]Besides… HE'S the one who started[BR]swinging out of nowhere, isn't he?[PAGE]Your pal… that monster![WAIT]",
   "bytes": 122,
   "sites": [
    "1D78E5:op7A+2",
@@ -15516,7 +15516,7 @@
   "addr": "1D9FF6",
   "kind": "msg",
   "jp": "ちょっとぉ！[BR]またそんなコト勝手に言うっ！！！[WAIT]",
-  "en": "Hey! You're saying that[BR]on your own AGAIN!!![WAIT]",
+  "en": "Hey! Quit deciding stuff like[BR]that on your own AGAIN!!![WAIT]",
   "bytes": 50,
   "sites": [
    "1D8B8F:op7A+2",
@@ -18561,7 +18561,7 @@
   "addr": "1DB752",
   "kind": "msg",
   "jp": "聞いたら余計にだけどなっ！！[BR]ベンチュラ！[WAIT]",
-  "en": "Even less now that we've[BR]heard it!! Ventura![WAIT]",
+  "en": "Especially now that we've[BR]heard all that!! Ventura![WAIT]",
   "bytes": 46,
   "sites": [
    "1D9292:op7A+2",
@@ -18837,7 +18837,7 @@
   "addr": "1DB9EE",
   "kind": "msg",
   "jp": "あっ！！　ってか、[BR]こっちもあっ！！！[WAIT]",
-  "en": "Ah!! I mean, ahh, this too!!![WAIT]",
+  "en": "Hey!! Wait, and the herb!!![WAIT]",
   "bytes": 42,
   "sites": [
    "1D940F:op7A+2",
@@ -22156,7 +22156,7 @@
   "addr": "1DD8EC",
   "kind": "msg",
   "jp": "・・・とびらに何か[BR]模様（もよう）があるけど・・・[BR]これが気になるわね[WAIT]",
-  "en": "…There's some kind of pattern[BR]on the door… That bugs me.[WAIT]",
+  "en": "…There's some kind of pattern on[BR]the door… I wonder what it means.[WAIT]",
   "bytes": 74,
   "sites": [
    "1DCB3E:op7A+2",
