@@ -1,6 +1,6 @@
 """Run every scene in tools/debug/scenes.txt (or the named ones) from a cold boot with warp.lua.
 
-    python -X utf8 tools/debug/warpall.py [ROM] [--only a,b] [--jobs 3] [--out work/qa/warp] [--states] [--script probe.lua]
+    python -X utf8 tools/debug/warpall.py [ROM] [--only a,b] [--scenes F] [--jobs 3] [--out work/qa/warp] [--states] [--script probe.lua]
 
 Each scene runs in OUT/<name>/ (final.png = the proof shot); --states also saves work/states/<name>.mss (regenerate
 them all after any engine, font or graphics change). Ends with OUT/sheet*.png over every final.png and exits 1 if
@@ -64,9 +64,12 @@ def main():
     ap.add_argument("--states", action="store_true")
     ap.add_argument("--script", action="append", default=[], help="extra Lua probe for every scene (repeatable)")
     ap.add_argument("--var", action="append", default=[], help="NAME=VALUE for the probes (repeatable)")
+    ap.add_argument("--scenes", help="another scene list in scenes.txt format (ad-hoc probe runs)")
     a = ap.parse_args()
     VARS.extend(a.var)
-    todo = scenes()
+    if a.scenes:
+        VARS.append(f"SCENES='{Path(a.scenes).resolve().as_posix()}'")
+    todo = scenes(Path(a.scenes)) if a.scenes else scenes()
     if a.only:
         want = set(a.only.split(","))
         todo = [s for s in todo if s["name"] in want]

@@ -23,8 +23,8 @@ EVENT = {
     "msg": (38, 3, "measured", "work/qa/qa1"),  # [PAGE] opens a new box; [BR] = next line
     "name": (24, 1, "measured", "work/qa/qa2"),  # tag box sizes to the name
     "choice": (36, 1, "measured", "work/qa/mk4/recruit (37 visible, screen edge); 3-way op1E: work/play/c3/0001.png"),
-    "banner": (18, 1, "guess", "op6F text: not read when the op runs (work/qa/bnw); stored with a quest-record "
-                               "pointer, probably a quest client name; where it is drawn: unknown"),
+    "banner": (26, 1, "measured", "op6F = quest client (依頼者), quest log page 2 from x=72: the 27th letter is cut, "
+                                  "longer wraps over the 依頼場所 row (work/qa/qa9/quest; scene quest_log)"),
     "draw": (None, None, "measured", "work/qa/mk2/prologue: (240 - x) // 12 * 2 per line, x at site-4"),
     "quest_title": (20, 1, "measured", "work/play/q5/0002.png: board list row, type icon at x=146; detail header same"),
     "quest_desc": (36, 7, "measured", "work/play/q5/0003.png: DETAIL auto-wraps at 36, 7 lines visible"),
@@ -52,6 +52,14 @@ UI = {
     # なし also labels an empty 特技 slot in the battle ring and the skill page
     **{i: (20, "measured", "work/qa/qa7/rot f2180 (20 letters centred), qa7/slots f4170 (なし)") for i in
        ("ui:DDA83A", "ui:DDA844", "ui:DDA84C", "ui:DDA856", "ui:DDAC56")},
+    # quest log page 2: 報酬 unit (ＭＧ, after the amount, wraps after 10), 期限 values (期限なし: 11th letter is the last
+    # drawn; 期限切れ and [FF01]日 share the row; both are in place: 8 / 4 letters anyway)
+    **{i: (10, "measured", "work/qa/qa9/quest (scene quest_log)") for i in
+       ("ui:DDABCE", "ui:DDABC4", "ui:DDABBA", "ui:DDABB4")},
+    # suspend NOTICE: auto-wraps at 24 letters per line, 2 lines above the yes/no row; use [BR] at 24
+    "ui:DDA8D2": (24, "measured", "work/qa/qa9/suspend (24 per line, 2 lines)"),
+    # はい / いいえ under a NOTICE: the 8th letter wraps
+    **{i: (6, "measured", "work/qa/qa9/suspend") for i in ("ui:DDACE6", "ui:DDACEE")},
     # quest type label after the type icon (討伐/収集/配達/護衛/その他): x=176 to the frame at ~230
     **{i: (8, "measured", "work/play/q5/0003.png") for i in
        ("ui:DDAC46", "ui:DDAB1C", "ui:DDAB4A", "ui:DDAB50", "ui:DDAB56")},
@@ -59,8 +67,10 @@ UI = {
 KANA = ("sort key, never drawn: the battle toolbox SELECT sort reads every items:kana (work/qa/tblreads3/battle_sort), "
         "no scene reads any other kana (tools/fieldreads.py work/qa/tblreads). Fill with the English name: digraph "
         "codes follow ASCII order, so it sorts alphabetically")
-MENU8 = ("8x8 kana-only name (the 8x8 font has no kanji), never read in 92 scenes; probably the battle-ring label "
-         "of a slotted item/weapon (the ring's 8x8 labels hold 20 centred, ui:DDA844); slot assignment not reached yet")
+MENU8 = ("8x8 battle-ring label of a slotted item/weapon: the ring builder (0x08035AE6..0x08035D18) passes record+0x78 "
+         "to the same draw call (0x08036184) as the measured ring labels (ui:DDA844, work/qa/qa7/rot): 20 centred; no "
+         "other code reads +0x78 of these tables")
+UNREAD = "never read in 92 scenes (work/qa/tblreads) nor 64 event battles incl. every boss (work/qa/bossreads)"
 # (table, field) -> (letters per line the screen shows, lines, state, shot); the field size caps it too (field_cap)
 TABLE = {
     ("weapons", "name"): (20, 1, "measured", "work/qa/mk5c/shop_buy, mk4/menu_equip"),
@@ -72,16 +82,17 @@ TABLE = {
     ("items", "desc"): (36, 2, "measured", "work/qa/mk5c/shop_items_buy: auto-wraps at 36"),
     ("loot", "desc"): (36, 2, "measured", "work/play/tb/0004.png: toolbox DETAIL, 36 x 2 as items"),
     **{(t, "kana"): (20, 1, "unused", KANA) for t in ("weapons", "armor", "items", "loot")},
-    ("weapons", "menu"): (20, 1, "guess", MENU8), ("items", "menu"): (20, 1, "guess", MENU8),
+    ("weapons", "menu"): (20, 1, "measured", MENU8), ("items", "menu"): (20, 1, "measured", MENU8),
     ("monsters", "kana"): (20, 1, "measured", "work/qa/mk5b/battle f2400: 8x8 name bar, 10 tiles"),
     ("monsters", "name"): (20, 1, "measured", "work/qa/qa4/book_full: from x=8, 属性 label at x~150"),
     ("monsters", "habitat"): (26, 1, "measured", "work/qa/qa4/book_full: 出現場所 row draws 13 cells of the field"),
-    ("bosses", "kana"): (20, 1, "guess", "battle name bar, as monsters? never read in 92 scenes (no boss battle yet)"),
-    ("bosses", "name"): (20, 1, "guess", "not the Vandel book (it draws monsters:name, work/qa/qa6/book_vandel); "
-                                         "never read in 92 scenes"),
-    ("bosses", "desc"): (36, 1, "guess", "placeholder 説明 in every record: probably unused"),
+    ("bosses", "kana"): (20, 1, "measured", "boss battle 8x8 name bar, as monsters:kana (read at battle start in 7 "
+                                            "boss groups, work/qa/bossreads; scene boss_shouts)"),
+    ("bosses", "name"): (20, 1, "unused", UNREAD + "; the Vandel book draws monsters:name (work/qa/qa6/book_vandel)"),
+    ("bosses", "desc"): (36, 1, "unused", UNREAD + "; placeholder 説明 in every record"),
     ("chars", "name"): (12, 1, "measured", "work/qa/mk4/menu_status (12x12, LV box after); 8x8 HUD holds 16"),
-    ("areas", "name"): (18, 1, "guess", "field cap; where it is drawn: not seen yet"),
+    ("areas", "name"): (18, 1, "unused", UNREAD + ", nor on the world map (work/qa/world); every code ref to "
+                                         "0x0810C908 reads +0x14..+0x2C only (coords, sprite)"),
     ("maps", "name"): (18, 1, "measured", "work/qa/mk6/banner f1880: PLACE banner, 18 of ~32 letters used"),
     ("moves", "name"): (24, 1, "measured", "work/qa/qa5/skills_saiga: SKILL list from x=96 (field caps it at 18)"),
     ("moves", "desc"): (26, 1, "measured", "work/qa/qa5/skills_saiga: DETAIL draws 13 cells"),
@@ -89,8 +100,9 @@ TABLE = {
     ("tenmon", "kana"): (24, 1, "unused", KANA + "; skills_tengeki reads it only in whole-record word copies"),
     ("tenmon", "desc"): (26, 1, "measured", "work/qa/qa5/skills_tengeki: 36 given, DETAIL draws 13 cells"),
     ("rank", "name"): (16, 1, "measured", "work/qa/qa3 + mk6/menu: field-menu header, centred; 18 lost a cell"),
-    ("wtypes", "name"): (20, 1, "guess", "equip screen weapon type"),
-    ("voices", "shout"): (32, 1, "guess", "battle shout"),
+    ("wtypes", "name"): (20, 1, "unused", UNREAD + "; all 22 code refs to 0x080B1144 read +0x14/+0x18 only"),
+    ("voices", "shout"): (32, 1, "measured", "portrait bubble in battle, 12x12 from x=40 to the border at ~236 "
+                                             "(work/qa/boss28 f1820, original); scene boss_shouts. なし = no shout"),
 }
 # Runtime inserts and their width in letters (the longest value they can take)
 VARS = {"[FF00]": 16, "[FF01]": 6, "[FF05]": 16, "[FFC4]": 20, "[FFC5]": 2}

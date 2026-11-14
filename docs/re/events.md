@@ -52,7 +52,8 @@ graphics pointers, word 19 = trigger list {count, entry ptrs}; entry = {u32 type
 | `1D a b` / `1E a b c` | 9/13 | 2-/3-way choice (string ptrs) | verified by layout |
 | `3A data a b` | 13 | menu (appraisal house) | guess |
 | `85 x16 y16 ptr` | 9 | draw text at x,y (prologue narration, credits) | verified by layout |
-| `6F rec ptr` | 9 | quest-record pointer (`0x0824xxxx`) + a name (ポアラの母, 鑑定小屋, ？？？？): the string is not read while the op runs (`work/qa/bnw`); probably the quest client | guess |
+| `6F rec ptr` | 9 | log a quest (`0x08031788` -> `0x08001E4C`): quest record (`0x0824xxxx`), client name (依頼者, drawn on quest log page 2) + the current map's name as 依頼場所 | verified (scene `quest_log`) |
+| `13 group16 a b` | 5 | event battle against enemy group (handler `0x0802F6FC` -> `0x0802DE18` -> `0x08025958`); 64 distinct groups, bosses among them | verified (code; `b<group>` scenes) |
 | `46 id16 tile16 dir ? ptr` / `47 ...` | 11 | place NPC with talk script (`+7`) | verified (map init) |
 | `84 / 12 / 3D shop16 ..` | 5 | open weapon / armor / item shop | verified by layout |
 | `3C price` | 2 | inn | guess |
@@ -78,7 +79,14 @@ State grants (scenes.txt 6th column or `--var`): `GIVE=3001-3028,4001` (opcode 0
 `0x0203F000`; EWRAM `0x0203C000-0x0203FE00` stays zero in every dump), `MONEY=n` (opcode 04), `POKE=off=hexbytes[*n],..`
 (save-object bytes at warp time), `GOD=1` / `KILL=1` (battle HP). Scenes: `toolbox_*`, `book_full`, `retina_99`
 (Beet to level 99), `skills_slot`, `skills_saiga`, `skills_tengeki`, `skills_notice`, `battle_win`. Not yet: party
-members beyond Beet.
+members beyond Beet. `OPS=<hex>` appends raw opcodes to the grant script (`OPS=@1ABE4D+9` copies 9 bytes from the
+running ROM, so pointers fit any build: scene `quest_log`); `FIELDMODE=7` ends the field loop once the scene is up.
+`warpall.py --scenes FILE` runs an ad-hoc scene list (e.g. `b<group>` per event battle group: `work/re/probe/bosses.txt`).
+- **Top-level states** (SO+4, switch at `0x080001D0`, table `0x08000208`): 4/9 = field (`0x08024DF8`, returns 3 when
+  field mode > 6), 3/8 = world map + defeat/respawn hub (`0x0804FC5C`, area records +0x14..+0x2C). Field mode 5
+  (defeat) sets mode 7 on A. A script that ends with PC 1 in mode 2 also sets 7 (`0x08025178`); which opcode does
+  that: not found (1-byte ops 3F 40 2C 1F 11 32 18 28 43 35 injected: none). Scene `world_map` shows the map but
+  takes no input (cursor static): not a full entry.
 - **Skills lists** (verified, `work/qa/qa5/skills_*`): character record (SO+0xC+i*0x18C) +0x78 = 20 u32 Tenmon ids
   (1-based into `0x080A6520 + id*0x98`, list code `0x08043EC8`), +0xC8 = the Saiga move list (`0x08044C38`). A non-empty
   move list opens the SAIGA page, else TENGEKI. Level-up rewards (才牙を習得 ...) are labels at `0x0806CB38`.

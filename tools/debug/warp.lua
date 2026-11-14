@@ -31,7 +31,8 @@ local function load_scene(name)
       for k, v in (f[6] or ""):gmatch("(%u+)=([^;]+)") do  -- state column: GIVE=3001-3028,4001;MONEY=99999
         if k == "GIVE" and not GIVE then GIVE = v elseif k == "MONEY" and not MONEY then MONEY = tonumber(v)
         elseif k == "POKE" and not POKE then POKE = v
-        elseif (k == "GOD" or k == "KILL") and _G[k] == nil then _G[k] = tonumber(v) end
+        elseif k == "OPS" and not OPS then OPS = v
+        elseif (k == "GOD" or k == "KILL" or k == "FIELDMODE") and _G[k] == nil then _G[k] = tonumber(v) end
       end
       return { name = f[1], map = f[2], pos = f[3], script = f[4], route = f[5] }
     end
@@ -55,6 +56,7 @@ end
 -- GIVE='3001-3028,4001' = opcode 03 <id32> per item id (hex; 1xxx weapons, 2xxx armor, 3xxx loot, 4xxx items),
 -- MONEY=n = opcode 04 <n32> (adds マギー). Scenes take them (and POKE, GOD, KILL) from a 6th scenes.txt column,
 -- KEY=value pairs joined by ; (GIVE=3001-3028,4001;POKE=24=00ffffff;GOD=1). A --var wins over the column.
+-- Also OPS (raw opcodes, below) and FIELDMODE (field mode written once the scene is up: 7 = world map).
 local GRANT = 0x0203F000
 local function grant_bytes()
   local b = {}
@@ -63,6 +65,14 @@ local function grant_bytes()
     for id = tonumber(lo, 16), tonumber(hi ~= "" and hi or lo, 16) do op(0x03, id) end
   end
   if MONEY then op(0x04, MONEY) end
+  -- OPS='6fa0892408c0bf1908': raw opcode bytes (hex), e.g. 6F <quest rec> <client name> logs a quest;
+  -- OPS='@1ABE4D+9' copies 9 bytes from the running ROM instead (pointers stay right on any build)
+  local at, n = (OPS or ""):match("^@(%x+)%+(%d+)$")
+  if at then
+    for k = 0, tonumber(n) - 1 do b[#b + 1] = emu.read(0x08000000 + tonumber(at, 16) + k, M) end
+  else
+    for byte in (OPS or ""):gmatch("%x%x") do b[#b + 1] = tonumber(byte, 16) end
+  end
   if #b > 0 then b[#b + 1] = 0xFF end
   return b
 end
@@ -193,6 +203,8 @@ L.on_frame(function(n)
     if r32(gs + 0x70) == tonumber(sc.map) and n - t0 >= hold then
       phase = "done"
       L.log(string.format("f%d SCENE_OK %s mode=%d", n, sc.name, mode))
+      -- FIELDMODE=7: the field loop (0x08024DF8) runs while mode <= 6, then returns top state 3 = world map
+      if FIELDMODE then emu.write32(MODE, FIELDMODE, M) end
       queue_route(sc.route)
     elseif n - t0 > 1800 then
       L.fail("warp to " .. sc.name .. " never reached map " .. sc.map)

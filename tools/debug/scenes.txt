@@ -121,3 +121,11 @@ battle_ring      0    t77c,20    b78     30_left;30_right;180_-;6_select;60_-;6_
 battle_sort      0    t77c,20    b78     30_left;30_right;180_-;6_select;60_-;6_a;60_-;6_select;60_-;6_select;60_-;6_r;40_-;6_select;60_-;6_r;40_-;6_select;60_-  GOD=1;GIVE=4001-4011,1010-1019,3001-3028
 battle_slots     0    t77c,20    -       200_-;6_start;60_-;6_down;12_-;6_down;12_-;6_down;12_-;6_a;80_-;6_a;80_-;6_down;12_-;6_down;12_-;6_down;12_-;6_a;60_-;6_a;60_-;6_a;60_-;6_b;40_-;6_b;40_-;6_b;40_-;6_b;40_-;6_b;40_-;60_left;60_right;60_left;60_right;60_left;60_right;60_left;60_right;60_left;60_right;60_up;60_down;60_up;60_down;60_left;60_right;60_left;60_right;180_-;20_l+a;60_-;6_right;40_-;20_r+a;60_-  POKE=24=00ffffff;GIVE=4001-4011,1010-1019
 battle_win       0    t77c,20    b78    30_left;30_right;6_a;40_-;6_a;40_-;6_a;40_-;6_a;40_-;6_a;40_-;6_a;40_-;6_a;40_-;6_a;40_-;6_a;40_-;6_a;40_-;6_a;40_-;6_a;40_-;6_a;40_-;6_a;40_-;6_a;40_-;6_a;40_-;6_a;40_-;6_a;40_-;6_a;40_-;6_a;40_-;6_a;40_-;6_a;40_-;6_a;40_-;6_a;40_-;6_a;40_-;6_a;40_-;6_a;40_-;6_a;40_-;6_a;40_-;6_a;40_-;300_-  GOD=1;KILL=1
+# quest log page 2 (依頼者 = op6F client string, 依頼場所 = maps:name, 報酬 unit, 期限): OPS copies the 6F op at
+# 0x1ABE4D (quest 泥トカゲを倒せ！, client ポアラの父) from the running ROM, so its pointers fit any build
+quest_log        16   1a,d,80    -       30_-;6_start;60_-;6_down;12_-;6_down;12_-;6_down;12_-;6_down;12_-;6_a;80_-;6_a;80_-;6_a;80_-;6_right;80_-  OPS=@1ABE4D+9
+# world map (top state 3, 0x0804FC5C): field mode 7 ends the field loop. Shows the map only: input and the
+# このマップに移動しますか？ prompt need the real entry (a script returning PC 1 in mode 2, 0x08025178), not found yet
+world_map        16   1a,d,80    -       300_-  FIELDMODE=7
+# boss battle (group 0x28, スレッド + Zenon-type ally voices): battle shouts (voices) in the portrait bubble, boss name bar (bosses:kana)
+boss_shouts      0    t77c,20    b28     30_left;30_right;6_a;40_-;6_a;40_-;6_a;40_-;6_a;40_-;6_a;40_-;300_-  GOD=1
