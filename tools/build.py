@@ -85,6 +85,7 @@ class Space:
 class Patch:
     def __init__(self, orig):
         self.orig, self.buf, self.writes = bytes(orig), bytearray(orig), []
+        self.strings = []  # (id, ROM offset the game reads the string from): build/strings.tsv for textcover.py
 
     def put(self, off, data, by):
         end = off + len(data)
@@ -195,6 +196,7 @@ def text(p, space, width=None, qa=None):
                     if p.orig[off:off + 4] != struct.pack("<I", 0x08000000 + a):
                         raise ValueError(f"{e['id']}: site {s} does not point at {a:#x}")
                     p.put(off, struct.pack("<I", 0x08000000 + new), f"ptr:{e['id']}")
+                p.strings.append((e["id"], new))
             elif "max" in e:  # within the field, keeping a terminator unless the JP fills such fields (limits.py)
                 data = fit(digraph.codes(en), limits.field_cap(e), e["id"], bool(width))
                 p.put(a, data + bytes(e["max"] - len(data)), f"text:{e['id']}")
@@ -202,6 +204,8 @@ def text(p, space, width=None, qa=None):
                 cs = digraph.codes(en)
                 p.put(a, fit(cs[:e["bytes"] // 2 - 1] if width else cs, e["bytes"] - 2, e["id"], False) + b"\0\0",
                       f"text:{e['id']}")
+            if not ptrs:
+                p.strings.append((e["id"], a))
             n += 1
     return n
 
@@ -242,6 +246,8 @@ def main(argv=None):
     with open(out.parent / "writes.log", "w", encoding="utf-8") as f:
         for off, o, new, by in p.writes:
             f.write(f"{off:06X} {o.hex()} {new.hex()} {by}\n")
+    with open(out.parent / "strings.tsv", "w", encoding="utf-8") as f:  # textcover.py ... --mask 0x1FFFFFF
+        f.writelines(f"{i}\t{a:06X}\n" for i, a in p.strings)
     same = "identical to the dump" if p.buf == p.orig else "differs from the dump"
     print(f"{out}: sha1 {hashlib.sha1(p.buf).hexdigest()}, {len(p.writes)} writes ({n} entries), {same}"
           + (f", {p.free_left // 1024} KB free space left" if hasattr(p, "free_left") else ""))
