@@ -43,7 +43,7 @@ def test_lint():
     errs, guessed = [], 0
     for e in entries():
         errs += [f"{e['id']}: {m}" for m in lint(e)]
-        guessed += limits.budget(e)[2] != "measured"
+        guessed += limits.budget(e)[2] == "guess"
     if guessed:
         print(f"{guessed} translated entries are checked against guessed budgets (tools/limits.py)")
     assert not errs, f"{len(errs)} lint errors:\n" + "\n".join(errs[:50])
@@ -54,7 +54,7 @@ def test_budgets_cover_every_entry():
     for f in sorted((ROOT / "script").glob("*.json")):
         for e in json.loads(f.read_text(encoding="utf-8")):
             w, n, st, _ = limits.budget(e)
-            assert w and w > 0 and st in ("measured", "guess"), e["id"]
+            assert w and w > 0 and st in ("measured", "unused", "guess"), e["id"]
 
 
 def test_check_catches_overflow():

@@ -17,6 +17,7 @@ ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT / "tools"))
 from skill import SKILL  # noqa: E402
 
+VARS = []  # --var NAME=VALUE passed to every probe
 WARP_FRAMES = 2400  # cold boot -> new game -> free roam -> warp settled (~f1612 original, ~f2032 marker build)
 
 
@@ -43,6 +44,8 @@ def run(rom, sc, out, states, extra=()):
            "--frames", str(frames(sc)), "--smoke", "--timeout", "600"]
     for s in extra:
         cmd += ["--script", s]
+    for v in VARS:
+        cmd += ["--var", v]
     if states:
         cmd += ["--state-out", str(ROOT / "work/states" / f"{sc['name']}.mss")]
     r = subprocess.run(cmd, capture_output=True, text=True, encoding="utf-8", errors="replace")
@@ -60,7 +63,9 @@ def main():
     ap.add_argument("--out", default=str(ROOT / "work/qa/warp"))
     ap.add_argument("--states", action="store_true")
     ap.add_argument("--script", action="append", default=[], help="extra Lua probe for every scene (repeatable)")
+    ap.add_argument("--var", action="append", default=[], help="NAME=VALUE for the probes (repeatable)")
     a = ap.parse_args()
+    VARS.extend(a.var)
     todo = scenes()
     if a.only:
         want = set(a.only.split(","))

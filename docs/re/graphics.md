@@ -34,7 +34,7 @@ Result: **all Japanese graphics text is uncompressed**, in two banks; the LZ arc
 | G6 | Status (ステータス) | menu > ステータス | label 昇格値 | raw bank (guess) |
 | G7 | Skill (特技) | menu > 特技 (scenes `skills_saiga`, `skills_tengeki`) | なし under the Saiga ring; TENGEKI TYPE/RANGE values (攻撃, 単体 ...) next to icons, not in the script | font or tiles: check in marker tour |
 | G8 | Quest (クエスト) | menu > クエスト | header クエスト選択; body 現在受けているクエストはありません is 12x12 font text | header: raw bank (guess) |
-| G9 | Monster book (図鑑) | menu > 図鑑 > モンスター | 属性, 昇格値, 出現場所 | raw bank (guess) |
+| G9 | Monster book (図鑑) | menu > 図鑑 > モンスター | 属性, 昇格値, 出現場所 | raw bank (guess). **Move the 属性 label** off x=152-172 (row y~20): the value window now starts there (code patch, 6 letters to x=188) and the label draws above it (`work/qa/qa6/book_full`). Put the English label at x~128-150 (name field ends at x=128) |
 | G10 | Options (オプション) | menu > オプション | メッセージ はやい ふつう おそい | probably 12x12 font: check in marker tour |
 | G11 | Suspend (中断) | menu > 中断 | 今の状態を保存してゲームを中断しますか？ はい いいえ | probably 12x12 font: check in marker tour |
 | G12 | Battle / HUD (to tour) | battle | menu-label fragments, large outlined kana (cut-in shouts?), next to MISS PAUSE TARGET ATK DEF HIT AGL LV MAX POWER BOUNCE | raw `0x30A400-0x31F400` |

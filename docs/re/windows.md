@@ -25,7 +25,7 @@ Stress builds: `build.py --marker --qa "ID=TEXT" --out build/qaN.gba`; opening d
 | Fixed table fields in general | — | a field whose JP never fills it must keep its 0000 terminator: the PLACE banner read a full `maps:name` field on into the next record (garbage, `work/qa/mk5b/banner` f1880). `limits.field_cap` | measured |
 | Toolbox list + DETAIL (items tab) | 12x12 | name 20 letters (whole field, "x 1" after at x~190), DETAIL 36 x 2 lines, as the shop | measured `work/qa/m7_toolbox_t/f002100` (marker7) |
 | Toolbox loot tab (貴重品, 4th tab: R x3) | 12x12 | name 20 letters (whole field), DETAIL 36 x 2 | measured `work/play/tb/0004.png` (scene `toolbox_loot`) |
-| Monster book page | 12x12 | name 20 (from x=8, 属性 label at x~150); habitat (出現場所) **26**: the row draws 13 cells of the 36-code field; **属性 value: 1 code (2 letters)**, drawn with count 1 at `0x0804E01A` (engine task: widen it before translating the 11 values `ui:DDA88E..DDA8B6`) | measured `work/qa/qa4/book_full`, `qa5/book_full` |
+| Monster book page | 12x12 | name 20 (from x=8, 属性 label at x~150); habitat (出現場所) **26**: the row draws 13 cells of the 36-code field; **属性 value: 6 letters** after the code patch (`build.CODE`: window rect built at `0x0804D660` {22,2,2,2} -> {19,2,5,2}, draw count at `0x0804E01A` 1 -> 3); text x=152-188. The 属性 label (graphics, G9) draws above it: move the label to x~128-150 in the G9 redraw | measured `work/qa/qa6/book_full` |
 | Book NOTICE (モンスター/ヴァンデル) | 12x12 | 10 letters (12 lost the last cell) | measured `work/qa/qa4/book_notice` |
 | Skill-slot picker NOTICE (才牙/武器/天撃/アイテム/はずす) | 12x12 | 8 letters (the 9th wraps) | measured `work/qa/qa4/skills_slot` |
 | 特技 NOTICE (ローテーションメニュー / 才牙・天撃) | 12x12 | 22 letters fit (box wider) | measured `work/qa/qa5/skills_notice` |
@@ -34,7 +34,12 @@ Stress builds: `build.py --marker --qa "ID=TEXT" --out build/qaN.gba`; opening d
 | Quest board list + detail | 12x12 | title **20** (type icon at x=146, list and detail header); type label (討伐 ...) 8 after the icon; description auto-wraps at **36**, 7 lines visible; the quest NOTICE (このクエストを受けますか？) holds its 26 | measured `work/play/q5/0002.png`, `0003.png` (from a cold boot the board lists 3 quests on 2 pages) |
 | 3-way choice (op 1E) | 12x12 | 36, as the 2-way | measured `work/play/c3/0001.png` |
 | op6F text (`banner` kind: ？？？？, ポアラの母, 鑑定小屋 ...) | — | not drawn when the op runs (no read of the string in the `banner` scene, `work/qa/bnw`); the op also takes a quest-record pointer (`0x0824xxxx`): probably a quest client name. Guess 18 | guess |
-| Battle shouts (`voices`), areas name, weapon types, 8x8 `menu` fields, `kana` sort keys, boss book, armor DETAIL | — | not seen yet (no shout text in `battle_win`, `work/qa/qa5/bw`) | guess |
+| Armor DETAIL (shop) | 12x12 | 36 letters, line 1; line 2 = DEF/HIT/AGL stats | measured `work/qa/qa6/shop_armor_buy` |
+| Vandel book page (図鑑 > ヴァンデル) | 12x12 | opens straight on a page; the name is **`monsters:name`** (record 151+, budget 20), not `bosses:name` | measured `work/qa/qa6/book_vandel` |
+| Battle rotation ring label (SELECT in battle: たいれつ/どうぐ/さくせん/スキル, empty slot なし) | 8x8 | centred on x=120, clipped to 10 tiles: **20 letters** | measured `work/qa/qa7/rot` f2180, `qa7/slots` f4170 |
+| `kana` fields (weapons, armor, items, loot, tenmon) | — | **sort keys, never drawn**: the battle toolbox's SELECT sort reads every `items:kana`; no scene reads any other kana (`tools/fieldreads.py work/qa/tblreads`, 92 scenes). Fill with the English name (codes follow ASCII order) | unused |
+| 8x8 `menu` fields (weapons, items: kana-only names) | 8x8 | never read in 92 scenes; probably the battle-ring label of a slotted item/weapon (20 centred). Scene `battle_slots` tries to assign a slot first: picker order on qa8 differs from the ids guessed, route not right yet | guess |
+| Battle shouts (`voices`), areas name, weapon types (`wtypes`), `bosses` fields, op6F `banner` strings | — | **never read** in 92 scenes on the original ROM (`work/qa/tblreads`, textcover probe over every table + banner string), including battles, the toolbox, the books, shops and all area maps; DMA reads would not show | guess |
 
 Machine-readable budgets: `tools/limits.py` (per kind / table field / UI id, state + shot); `tests/test_lint.py` checks
 every non-empty `en` against them (width per line, lines per box, glyphs, control codes, no Japanese).

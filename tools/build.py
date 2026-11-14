@@ -56,6 +56,14 @@ FONT8_PTRS = (0x5AB4, 0x7234)  # 8x8 font base - 32 (0x082FFFE0), read by 0x0800
 REGIONS += [(FONT_PTR, FONT_PTR + 4, "font base literal (blitter 0x08004574)")]
 REGIONS += [(x, x + 4, "8x8 font base literal") for x in FONT8_PTRS]
 REGIONS += [(lo, hi, "free space: relocated font and text") for lo, hi in FREE]
+# Code patches: (offset, original bytes, new bytes, why); each checked against the dump (docs/re/windows.md)
+CODE = [
+    # monster-book 属性 value window {x=22,y=2,w=2,h=2} -> {x=19,y=2,w=5,h=2} (r8 is reloaded at 0x0804D686)
+    (0x04D660, "1622 9046 0222 9246 4246 1a80 5246 5a80 9a80 da80",
+     "0222 9246 5a80 da80 1322 1a80 0522 9a80 c046 c046", "book 属性 window: x 19, w 5"),
+    (0x04E01A, "0123", "0323", "book 属性 value: draw 3 codes (6 letters), was 1"),
+]
+REGIONS += [(o, o + len(bytes.fromhex(a)), why) for o, a, _, why in CODE]
 RULER = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789abcdefghijklmnopqrstuvwxyz"
 
 
@@ -121,6 +129,14 @@ def font(p, space):
         if p.orig[lit:lit + 4] != struct.pack("<I", 0x082FFFE0):
             raise ValueError(f"8x8 font literal {lit:#x} does not hold 0x082FFFE0")
         p.put(lit, struct.pack("<I", 0x08000000 + a), "font8:pointer")
+
+
+def code(p):
+    for off, old, new, why in CODE:
+        old, new = bytes.fromhex(old), bytes.fromhex(new)
+        if p.orig[off:off + len(old)] != old or len(new) != len(old):
+            raise ValueError(f"code patch {off:#x} ({why}): dump bytes differ")
+        p.put(off, new, f"code:{why}")
 
 
 def marker(e, width):
@@ -198,6 +214,7 @@ def build(identity_pass=False, marker_width=None, qa=None):
     else:
         space = Space()
         font(p, space)
+        code(p)
         n = text(p, space, marker_width, qa)
         p.free_left = sum(hi - lo for lo, hi in space.free)
     if len(p.buf) != SIZE:

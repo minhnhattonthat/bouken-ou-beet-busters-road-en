@@ -4,8 +4,9 @@ the translator brief. Budgets are in letters (English characters; 2 per 12-px ce
     python -X utf8 tools/limits.py            # table of variants: budget, lines, state, shot
     python -X utf8 tools/limits.py ID         # one entry's budget
 
-state: "measured" = read off a marker or --qa shot (the path in `shot`); "guess" = not yet seen in game (the lint
-warns on English against a guess, once, in a summary line).
+state: "measured" = read off a marker or --qa shot (the path in `shot`); "unused" = never drawn (read-probe evidence
+in `shot`; the budget is the field); "guess" = not yet seen in game (the lint warns on English against a guess, once,
+in a summary line).
 """
 import json
 import re
@@ -43,14 +44,23 @@ UI = {
        ("ui:DDAC4C", "ui:DDAC5C", "ui:DDAC62", "ui:DDAC68", "ui:DDAC70")},
     # 特技 NOTICE (ローテーションメニュー / 才牙・天撃): 22 letters fit
     **{i: (22, "measured", "work/qa/qa5/skills_notice") for i in ("ui:DDAA84", "ui:DDAA9C")},
-    # monster-book 属性 value: drawn with a 1-code count (0x0804E01A movs r3,#1); engine task to widen it
-    **{i: (2, "measured", "work/qa/qa5/book_full (6 given, 2 drawn)") for i in
+    # monster-book 属性 value: build.CODE widens its window (x=152, 5 tiles) and draws 3 codes (was 1)
+    **{i: (6, "measured", "work/qa/qa6/book_full (x=152-188; G9 must move the 属性 label off it)") for i in
        ("ui:DDA88E", "ui:DDA892", "ui:DDA896", "ui:DDA89A", "ui:DDA89E", "ui:DDA8A2", "ui:DDA8A6", "ui:DDA8AA",
         "ui:DDA8AE", "ui:DDA8B2", "ui:DDA8B6")},
+    # battle rotation ring (SELECT in battle): 8x8 label centred on x=120, clipped to 10 tiles (20 letters);
+    # なし also labels an empty 特技 slot in the battle ring and the skill page
+    **{i: (20, "measured", "work/qa/qa7/rot f2180 (20 letters centred), qa7/slots f4170 (なし)") for i in
+       ("ui:DDA83A", "ui:DDA844", "ui:DDA84C", "ui:DDA856", "ui:DDAC56")},
     # quest type label after the type icon (討伐/収集/配達/護衛/その他): x=176 to the frame at ~230
     **{i: (8, "measured", "work/play/q5/0003.png") for i in
        ("ui:DDAC46", "ui:DDAB1C", "ui:DDAB4A", "ui:DDAB50", "ui:DDAB56")},
 }
+KANA = ("sort key, never drawn: the battle toolbox SELECT sort reads every items:kana (work/qa/tblreads3/battle_sort), "
+        "no scene reads any other kana (tools/fieldreads.py work/qa/tblreads). Fill with the English name: digraph "
+        "codes follow ASCII order, so it sorts alphabetically")
+MENU8 = ("8x8 kana-only name (the 8x8 font has no kanji), never read in 92 scenes; probably the battle-ring label "
+         "of a slotted item/weapon (the ring's 8x8 labels hold 20 centred, ui:DDA844); slot assignment not reached yet")
 # (table, field) -> (letters per line the screen shows, lines, state, shot); the field size caps it too (field_cap)
 TABLE = {
     ("weapons", "name"): (20, 1, "measured", "work/qa/mk5c/shop_buy, mk4/menu_equip"),
@@ -58,17 +68,17 @@ TABLE = {
     ("items", "name"): (20, 1, "measured", "work/qa/mk5c/shop_items_buy"),
     ("loot", "name"): (20, 1, "measured", "work/play/tb/0004.png: toolbox 貴重品 tab, x 1 after at x~190"),
     ("weapons", "desc"): (36, 1, "measured", "work/qa/mk5c/shop_buy: line 2 of DETAIL holds the stats"),
-    ("armor", "desc"): (36, 1, "guess", "armor shop DETAIL: as weapons"),
+    ("armor", "desc"): (36, 1, "measured", "work/qa/qa6/shop_armor_buy: DETAIL line 1, line 2 = DEF/HIT/AGL stats"),
     ("items", "desc"): (36, 2, "measured", "work/qa/mk5c/shop_items_buy: auto-wraps at 36"),
     ("loot", "desc"): (36, 2, "measured", "work/play/tb/0004.png: toolbox DETAIL, 36 x 2 as items"),
-    ("weapons", "kana"): (20, 1, "guess", "sort key"), ("armor", "kana"): (20, 1, "guess", "sort key"),
-    ("items", "kana"): (20, 1, "guess", "sort key"), ("loot", "kana"): (20, 1, "guess", "sort key"),
-    ("weapons", "menu"): (20, 1, "guess", "8x8 menu font"), ("items", "menu"): (20, 1, "guess", "8x8 menu font"),
+    **{(t, "kana"): (20, 1, "unused", KANA) for t in ("weapons", "armor", "items", "loot")},
+    ("weapons", "menu"): (20, 1, "guess", MENU8), ("items", "menu"): (20, 1, "guess", MENU8),
     ("monsters", "kana"): (20, 1, "measured", "work/qa/mk5b/battle f2400: 8x8 name bar, 10 tiles"),
     ("monsters", "name"): (20, 1, "measured", "work/qa/qa4/book_full: from x=8, 属性 label at x~150"),
     ("monsters", "habitat"): (26, 1, "measured", "work/qa/qa4/book_full: 出現場所 row draws 13 cells of the field"),
-    ("bosses", "kana"): (20, 1, "guess", "battle name bar, as monsters"),
-    ("bosses", "name"): (20, 1, "guess", "monster book"),
+    ("bosses", "kana"): (20, 1, "guess", "battle name bar, as monsters? never read in 92 scenes (no boss battle yet)"),
+    ("bosses", "name"): (20, 1, "guess", "not the Vandel book (it draws monsters:name, work/qa/qa6/book_vandel); "
+                                         "never read in 92 scenes"),
     ("bosses", "desc"): (36, 1, "guess", "placeholder 説明 in every record: probably unused"),
     ("chars", "name"): (12, 1, "measured", "work/qa/mk4/menu_status (12x12, LV box after); 8x8 HUD holds 16"),
     ("areas", "name"): (18, 1, "guess", "field cap; where it is drawn: not seen yet"),
@@ -76,7 +86,7 @@ TABLE = {
     ("moves", "name"): (24, 1, "measured", "work/qa/qa5/skills_saiga: SKILL list from x=96 (field caps it at 18)"),
     ("moves", "desc"): (26, 1, "measured", "work/qa/qa5/skills_saiga: DETAIL draws 13 cells"),
     ("tenmon", "name"): (24, 1, "measured", "work/qa/qa5/skills_tengeki: list from x=96 (field caps it at 12)"),
-    ("tenmon", "kana"): (24, 1, "guess", "sort key / 8x8"),
+    ("tenmon", "kana"): (24, 1, "unused", KANA + "; skills_tengeki reads it only in whole-record word copies"),
     ("tenmon", "desc"): (26, 1, "measured", "work/qa/qa5/skills_tengeki: 36 given, DETAIL draws 13 cells"),
     ("rank", "name"): (16, 1, "measured", "work/qa/qa3 + mk6/menu: field-menu header, centred; 18 lost a cell"),
     ("wtypes", "name"): (20, 1, "guess", "equip screen weapon type"),
