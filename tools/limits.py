@@ -186,6 +186,20 @@ def _draw_x(e):
     return struct.unpack_from("<h", _rom(), site - 4)[0]
 
 
+# prologue card lines (ev:195830-195B62, scene prologue): the JP centres each by hand with leading 　 codes, so the
+# wrap centres the English on screen (x=120) and the lint checks it (phase-7 review)
+PROLOGUE = (0x195830, 0x195B62)
+
+
+def centred(e):
+    return e["kind"] == "draw" and e["id"].startswith("ev:") and PROLOGUE[0] <= int(e["id"][3:], 16) <= PROLOGUE[1]
+
+
+def centre_pad(e, line):
+    """Leading spaces (6 px letters) that centre `line` on x=120 from the draw's x."""
+    return max(0, (240 - 2 * _draw_x(e) - 6 * line_letters(line)) // 12)
+
+
 def budget(e):
     """(letters per line, lines or None, state, shot) for an entry."""
     if "max" in e:

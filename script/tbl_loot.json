@@ -49,7 +49,7 @@
   "addr": "0A4CD0",
   "kind": "desc",
   "jp": "モンスターを倒した証の残骸",
-  "en": "Remains that prove a monster was    defeated.",
+  "en": "Remains that prove a                monster was defeated.",
   "max": 76,
   "status": "done"
  },
@@ -76,7 +76,7 @@
   "addr": "0A4D4C",
   "kind": "desc",
   "jp": "黒い沼の水を採集するためのケース",
-  "en": "A case for collecting black swamp   water.",
+  "en": "A case for collecting               black swamp water.",
   "max": 76,
   "status": "done"
  },
@@ -103,7 +103,7 @@
   "addr": "0A4DC8",
   "kind": "desc",
   "jp": "モンスターの体液を採集するためのケース",
-  "en": "A case for collecting monster body  fluids.",
+  "en": "A case for collecting               monster body fluids.",
   "max": 76,
   "status": "done"
  },
@@ -130,7 +130,7 @@
   "addr": "0A4E44",
   "kind": "desc",
   "jp": "レドウの灯台で使われている白く輝く石",
-  "en": "A white, shining stone used in the  Redou Lighthouse.",
+  "en": "A white, shining stone used         in the Redou Lighthouse.",
   "max": 76,
   "status": "done"
  },
@@ -292,7 +292,7 @@
   "addr": "0A512C",
   "kind": "desc",
   "jp": "モンスター「墓場荒らし」が落とした腐った肉",
-  "en": "Rotten flesh dropped by the monster \"Grave Robber.\"",
+  "en": "Rotten flesh dropped by the         monster \"Grave Robber.\"",
   "max": 76,
   "status": "done"
  },
@@ -319,7 +319,7 @@
   "addr": "0A51A8",
   "kind": "desc",
   "jp": "モンスター「カネック」が食い荒らした財宝の入っていた袋",
-  "en": "A bag that held treasure the monster\"Kaneck\" devoured.",
+  "en": "A bag that held treasure the        monster \"Kaneck\" devoured.",
   "max": 76,
   "status": "done"
  },
@@ -427,7 +427,7 @@
   "addr": "0A5398",
   "kind": "desc",
   "jp": "アサド山地に自生している植物",
-  "en": "A plant that grows wild in the Asad Mountains.",
+  "en": "A plant that grows wild             in the Asad Mountains.",
   "max": 76,
   "status": "done"
  },
@@ -454,7 +454,7 @@
   "addr": "0A5414",
   "kind": "desc",
   "jp": "テルセロン山地に自生している植物",
-  "en": "A plant that grows wild in the      Terceron Mountains.",
+  "en": "A plant that grows wild in          the Terceron Mountains.",
   "max": 76,
   "status": "done"
  },
@@ -481,7 +481,7 @@
   "addr": "0A5490",
   "kind": "desc",
   "jp": "トロワナの森に自生している植物",
-  "en": "A plant that grows wild in the      Trowana Forest.",
+  "en": "A plant that grows wild             in the Trowana Forest.",
   "max": 76,
   "status": "done"
  },
@@ -508,7 +508,7 @@
   "addr": "0A550C",
   "kind": "desc",
   "jp": "エトリア山地に自生している植物",
-  "en": "A plant that grows wild in the EtriaMountains.",
+  "en": "A plant that grows wild             in the Etria Mountains.",
   "max": 76,
   "status": "done"
  },
@@ -535,7 +535,7 @@
   "addr": "0A5588",
   "kind": "desc",
   "jp": "ムスリー荒野に自生している植物",
-  "en": "A plant that grows wild in the      Musley Wasteland.",
+  "en": "A plant that grows wild             in the Musley Wasteland.",
   "max": 76,
   "status": "done"
  },
@@ -562,7 +562,7 @@
   "addr": "0A5604",
   "kind": "desc",
   "jp": "パトレス山地に自生している植物",
-  "en": "A plant that grows wild in the      Patres Mountains.",
+  "en": "A plant that grows wild             in the Patres Mountains.",
   "max": 76,
   "status": "done"
  },
@@ -589,7 +589,7 @@
   "addr": "0A5680",
   "kind": "desc",
   "jp": "ムスリー山地に自生している植物",
-  "en": "A plant that grows wild in the      Musley Mountains.",
+  "en": "A plant that grows wild             in the Musley Mountains.",
   "max": 76,
   "status": "done"
  },
@@ -616,7 +616,7 @@
   "addr": "0A56FC",
   "kind": "desc",
   "jp": "トリアーク平原に自生している植物",
-  "en": "A plant that grows wild on the      Triark Plains.",
+  "en": "A plant that grows wild             on the Triark Plains.",
   "max": 76,
   "status": "done"
  },
@@ -697,7 +697,7 @@
   "addr": "0A5870",
   "kind": "desc",
   "jp": "古代文字で「沼」とえがかれた杯",
-  "en": "A chalice inscribed with \"Swamp\" in ancient script.",
+  "en": "A chalice inscribed with            \"Swamp\" in ancient script.",
   "max": 76,
   "status": "done"
  },
@@ -724,7 +724,7 @@
   "addr": "0A58EC",
   "kind": "desc",
   "jp": "古代文字で「窟」とえがかれた杯",
-  "en": "A chalice inscribed with \"Cave\" in  ancient script.",
+  "en": "A chalice inscribed with            \"Cave\" in ancient script.",
   "max": 76,
   "status": "done"
  },
@@ -751,7 +751,7 @@
   "addr": "0A5968",
   "kind": "desc",
   "jp": "古代文字で「渦」とえがかれた杯",
-  "en": "A chalice inscribed with \"Whirlpool\"in ancient script.",
+  "en": "A chalice inscribed with            \"Whirlpool\" in ancient script.",
   "max": 76,
   "status": "done"
  },
@@ -778,7 +778,7 @@
   "addr": "0A59E4",
   "kind": "desc",
   "jp": "古代文字で「地」とえがかれた杯",
-  "en": "A chalice inscribed with \"Earth\" in ancient script.",
+  "en": "A chalice inscribed with            \"Earth\" in ancient script.",
   "max": 76,
   "status": "done"
  },
@@ -805,7 +805,7 @@
   "addr": "0A5A60",
   "kind": "desc",
   "jp": "古代文字で「樹」とえがかれた杯",
-  "en": "A chalice inscribed with \"Tree\" in  ancient script.",
+  "en": "A chalice inscribed with            \"Tree\" in ancient script.",
   "max": 76,
   "status": "done"
  },
@@ -832,7 +832,7 @@
   "addr": "0A5ADC",
   "kind": "desc",
   "jp": "古代文字で「骨」とえがかれた杯",
-  "en": "A chalice inscribed with \"Bone\" in  ancient script.",
+  "en": "A chalice inscribed with            \"Bone\" in ancient script.",
   "max": 76,
   "status": "done"
  },
@@ -859,7 +859,7 @@
   "addr": "0A5B58",
   "kind": "desc",
   "jp": "古代文字で「極」とえがかれた杯",
-  "en": "A chalice inscribed with \"Polar\" in ancient script.",
+  "en": "A chalice inscribed with            \"Polar\" in ancient script.",
   "max": 76,
   "status": "done"
  },
@@ -886,7 +886,7 @@
   "addr": "0A5BD4",
   "kind": "desc",
   "jp": "古代文字で「鉱」とえがかれた杯",
-  "en": "A chalice inscribed with \"Ore\" in   ancient script.",
+  "en": "A chalice inscribed with            \"Ore\" in ancient script.",
   "max": 76,
   "status": "done"
  },
@@ -913,7 +913,7 @@
   "addr": "0A5C50",
   "kind": "desc",
   "jp": "古代文字で「砂」とえがかれた杯",
-  "en": "A chalice inscribed with \"Sand\" in  ancient script.",
+  "en": "A chalice inscribed with            \"Sand\" in ancient script.",
   "max": 76,
   "status": "done"
  },
@@ -940,7 +940,7 @@
   "addr": "0A5CCC",
   "kind": "desc",
   "jp": "古代文字で「絶」とえがかれた杯",
-  "en": "A chalice inscribed with \"Peril\" in ancient script.",
+  "en": "A chalice inscribed with            \"Peril\" in ancient script.",
   "max": 76,
   "status": "done"
  },
@@ -1075,7 +1075,7 @@
   "addr": "0A5F38",
   "kind": "desc",
   "jp": "すずなりに咲いている花",
-  "en": "A flower blooming in clusters like  little bells.",
+  "en": "A flower blooming in                clusters like little bells.",
   "max": 76,
   "status": "done"
  }

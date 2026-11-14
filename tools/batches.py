@@ -38,7 +38,8 @@ VARIABLE = r"\[FF[0-9A-F]{2}\]"  # numbers / names the game draws
 TRAIL = re.compile(r"(?:\[(?:WAIT|PAGE)\])+$")
 # honorific after a katakana name -> the EN suffix (D1: kept)
 GLOSSARY_WAIVE = {"ui:DDAC62": ("天撃",),  # D9: 8-letter skill-slot picker says "Divine" (Divine Attack can't fit)
-                  "maps:063:name": ("ムガイン",), "areas:028:name": ("ムガイン",),  # 18 letters: "Dead Swamp" (glossary)
+                  **{f"maps:{i:03d}:name": ("ムガイン",) for i in range(63, 67)},  # 18 letters:
+                  "areas:028:name": ("ムガイン",),  # "Dead Swamp" (glossary; maps 063-066 share the JP)
                   "loot:019:name": ("ムスリー", "ムスリー荒野")}  # 20 letters: "Wasteland Plant" (the only 荒野 area)
 HONORIFICS = {"さん": "-san", "くん": "-kun", "ちゃん": "-chan"}  # 様 not enforced: self-styled ベンチュラ様 = "the great Ventura"
 NOT_NAMES = {"ヨメ", "バスター", "オバ", "オジ", "ジイ", "バア"}  # katakana nouns, not names, before さん etc.
@@ -89,7 +90,7 @@ def wrap(e, en):
     """Translator English -> the text the game gets (see module doc)."""
     import limits
     w, n, _, _ = limits.budget(e)
-    text = en.strip().replace("...", "…").replace("\\n", "[BR]")
+    text = (en.rstrip() if e["kind"] == "draw" else en.strip()).replace("...", "…").replace("\\n", "[BR]")
     text = TRAIL.sub("", text) if TRAIL.search(e["jp"]) else text
     trail = TRAIL.search(e["jp"])
     table = "max" in e
@@ -99,6 +100,8 @@ def wrap(e, en):
             lines = []
             for part in re.split(r"\[BR\]", box):
                 p = part.rstrip() if e["kind"] == "draw" else part.strip()  # credits indent with spaces
+                if limits.centred(e):  # prologue: the JP centres by hand
+                    p = " " * limits.centre_pad(e, p.strip()) + p.strip()
                 lines += [p] if not w or limits.line_letters(p) <= w else wrap_line(p.strip(), w)
             boxes.append(lines)
         if e["kind"] == "msg":  # refill boxes of n lines; explicit [PAGE] starts a new one
@@ -110,7 +113,7 @@ def wrap(e, en):
     return text + (trail.group() if trail else "")
 
 
-def wrap_line(line, w):
+def greedy(line, w):
     import limits
     out, cur = [], ""
     for word in line.split(" "):
@@ -121,6 +124,21 @@ def wrap_line(line, w):
         else:
             cur = cand
     return out + [cur]
+
+
+def wrap_line(line, w):
+    """Balanced wrap: the greedy line count at w, laid out at the narrowest width that keeps that count (no
+    one-word widow; phase-7 review). Greedy's line count never grows with the width, so the scan stops at the
+    first narrower width that needs another line."""
+    import limits
+    best = greedy(line, w)
+    top = max(limits.line_letters(ln) for ln in best)
+    for k in range(w - 1, 0, -1):
+        cand = greedy(line, k)
+        if len(cand) != len(best) or max(limits.line_letters(ln) for ln in cand) > top:
+            break
+        best = cand
+    return best
 
 
 def kind(char):
@@ -168,6 +186,14 @@ def problems(e, en, terms):
         out.append("escape sequence or tab in the English")
     if re.search(VARIABLE + r"(st|nd|rd|th)\b", en):
         out.append('ordinal suffix after a variable (write "No. [FF01]")')
+    final = wrap(e, en)
+    lint = test_lint.lint({**e, "en": final})
+    return out + term_problems(e, en, terms) + lint
+
+
+def term_problems(e, en, terms):
+    """Glossary and honorific rules (also run over the shipped English by tests/test_batches.py)."""
+    jp, out = e["jp"], []
     jp_plain = re.sub(r"（[^）]*）", "", TOKEN.sub("", jp))  # furigana readings aren't terms (災害（サイガい）)
     for jps, ens, avoid in terms:
         eid = e.get("id", "")
@@ -181,9 +207,7 @@ def problems(e, en, terms):
         runs = re.findall(f"([ァ-ヺー]*[ァ-ヺ]){jp_form}", jp_plain)
         if any(r not in NOT_NAMES for r in runs) and en_form.lower() not in en.lower():
             out.append(f"honorific {jp_form} needs {en_form}")
-    final = wrap(e, en)
-    lint = test_lint.lint({**e, "en": final})
-    return out + lint
+    return out
 
 
 def uid(e, count):

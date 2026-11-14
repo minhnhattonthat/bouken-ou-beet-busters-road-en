@@ -1,6 +1,7 @@
 """Text lint over script/*.json English (pipeline §Checks): glyphs, width/lines per box variant (tools/limits.py),
-control codes, no Japanese, no ordinal glued to a variable. Untranslated entries (empty en) are skipped here;
-coverage of en is phase 7's gate. Lines against a guessed budget are counted in one summary, not failed."""
+control codes, no Japanese, no ordinal glued to a variable, no stub last line in a message box, draw lines keep the
+JP's leading blank (prologue lines centred). Untranslated entries (empty en) are skipped here; en coverage is
+tests/test_batches.py::test_every_jp_has_english. Lines against a guessed budget are counted in one summary."""
 import collections
 import json
 import re
@@ -36,7 +37,27 @@ def lint(e):
         errs.append("missing final [WAIT]")
     if re.search(r"\[FF[0-9A-F]{2}\](st|nd|rd|th)\b", en):
         errs.append("ordinal suffix after a variable")
+    if e.get("kind") == "msg":
+        errs += [f"stub last line {box[-1]!r} (balance the wrap)" for box in limits.boxes(en)
+                 if len(box) > 1 and 0 < limits.line_letters(box[-1]) < STUB]  # '' = the JP's own trailing [BR]
+    if e.get("kind") == "draw":
+        errs += indent(e, en)
     return errs + limits.check(e, en)
+
+
+STUB = 6  # letters: a multi-line box's last line shorter than this is a widow (pipeline §Checks)
+
+
+def indent(e, en):
+    """draw lines keep the JP's leading blank (credits columns); prologue lines are centred instead."""
+    jl, el = e["jp"].split("[BR]"), en.split("[BR]")
+    if limits.centred(e):
+        pad = len(el[0]) - len(el[0].lstrip(" "))
+        return [] if abs(pad - limits.centre_pad(e, el[0].strip())) <= 1 else [f"not centred ({pad} spaces)"]
+    if len(jl) != len(el):
+        return []
+    return [f"line {k} drops the JP's leading blank: {x!r}" for k, (j, x) in enumerate(zip(jl, el))
+            if j.startswith("　") and j.strip("　") and x.strip() and not x.startswith(" ")]
 
 
 def test_lint():

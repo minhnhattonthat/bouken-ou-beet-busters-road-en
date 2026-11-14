@@ -25,7 +25,43 @@ def test_wrap_keeps_explicit_page():
 def test_wrap_pads_table_detail():
     e = {"id": "items:000:desc", "kind": "desc", "jp": "ＨＰを５０回復", "max": 72}
     out = batches.wrap(e, "Restores 50 HP. A common herb that grows in the fields.")
-    assert out[:36].rstrip().endswith("that") and out[36:].startswith("grows") and not limits.check(e, out)
+    assert out[:36].rstrip().endswith("herb") and out[36:].startswith("that") and not limits.check(e, out)
+
+
+def test_wrap_balanced_no_widow():
+    e = {"id": "ev:000002", "kind": "msg", "jp": "あ[WAIT]"}
+    out = batches.wrap(e, "So this is the red flower they asked for!")
+    assert out == "So this is the red[BR]flower they asked for![WAIT]"
+    import test_lint
+    assert not test_lint.lint({**e, "en": out})
+    assert any("stub" in m for m in test_lint.lint({**e, "en": "So this is the red flower they asked[BR]for![WAIT]"}))
+
+
+def test_shipped_english_has_no_term_problems():
+    """Glossary + honorifics over script/ (phase-7 review): [BR]/[PAGE] flattened, so a term split by the wrap
+    still matches."""
+    import re
+    terms, bad = batches.glossary(), []
+    for u, e in batches.index().items():
+        if e.get("en") and not batches.derived(e):
+            en = re.sub(r" +", " ", re.sub(r"\[(?:BR|PAGE)\]", " ", e["en"]))
+            bad += [f"{u}: {p}: {en!r}" for p in batches.term_problems(e, en, terms)]
+    assert not bad, f"{len(bad)}:\n" + "\n".join(bad[:40])
+
+
+def test_every_jp_has_english():
+    """en coverage (phase 7 gate): non-empty JP needs English unless listed in script/keep_jp.txt."""
+    keep = ROOT / "script" / "keep_jp.txt"
+    waived = set(keep.read_text(encoding="utf-8").split()) if keep.exists() else set()
+    left = [u for u, e in batches.index().items() if batches.needs_english(e) and u not in waived]
+    left += [u for u, e in batches.index().items()
+             if batches.derived(e) and e["jp"].strip() and not e.get("en") and u not in waived]
+    assert not left, left[:20]
+
+
+def test_out_files_all_merged():
+    """Every work/tl/bNNN.out.tsv row is in script/ (phase-6 defect); work/ is local, so a clone checks nothing."""
+    assert batches.main(["check"]) == 0
 
 
 def test_problems_catch_codes_and_ordinals():

@@ -16,7 +16,7 @@
   "addr": "244CFA",
   "kind": "quest_desc",
   "jp": "アサド山地に出没する[BR][FFC4]を[FFC5]匹倒してほしい",
-  "en": "Please hunt down[BR][FFC4] x[FFC5] prowling[BR]the Asad Mountains.",
+  "en": "Please hunt down[BR][FFC4] x[FFC5][BR]prowling the Asad Mountains.",
   "bytes": 44,
   "sites": [
    "244AF5:quest0C"
@@ -40,7 +40,7 @@
   "addr": "244D34",
   "kind": "quest_desc",
   "jp": "アサド山地に[BR][FFC4]が大量発生した[BR][FFC5]匹以上倒してほしい",
-  "en": "There's an outbreak of[BR][FFC4] in the Asad[BR]Mountains. Please defeat at least [FFC5][BR]of them.",
+  "en": "There's an outbreak of[BR][FFC4] in the[BR]Asad Mountains. Please[BR]defeat at least [FFC5] of them.",
   "bytes": 54,
   "sites": [
    "244B11:quest0C"
@@ -64,7 +64,7 @@
   "addr": "244D74",
   "kind": "quest_desc",
   "jp": "アサド山地に[BR][FFC4]が[BR]出没するので[BR]これを[FFC5]匹倒してほしい",
-  "en": "The monster [FFC4] has[BR]been showing up in the Asad[BR]Mountains. Please defeat [FFC5] of[BR]them.",
+  "en": "The monster [FFC4][BR]has been showing up in the Asad[BR]Mountains. Please defeat [FFC5] of[BR]them.",
   "bytes": 58,
   "sites": [
    "244B2D:quest0C"
@@ -160,7 +160,7 @@
   "addr": "244E7A",
   "kind": "quest_desc",
   "jp": "薬を作るのに必要なハーブが[BR]たりなくなったので[BR]湖畔の遺跡のどこかに[BR]自生している[BR]ハーブを探してほしい",
-  "en": "We've run short of the herbs we need[BR]to make medicine. Please find the[BR]herbs growing wild somewhere in the[BR]Lakeside Ruins.",
+  "en": "We've run short of the herbs we[BR]need to make medicine. Please[BR]find the herbs growing wild[BR]somewhere in the Lakeside Ruins.",
   "bytes": 106,
   "sites": [
    "244C50:quest0C"
@@ -184,7 +184,7 @@
   "addr": "244EF4",
   "kind": "quest_desc",
   "jp": "暗いところにしかさかない[BR]めずらしい赤い花がある[BR]湖畔の遺跡のどこかに[BR]自生している[BR]探しだしてほしい",
-  "en": "There's a rare red flower that[BR]blooms only in dark places. It grows[BR]wild somewhere in the Lakeside[BR]Ruins. Please find it.",
+  "en": "There's a rare red flower that[BR]blooms only in dark places. It[BR]grows wild somewhere in the[BR]Lakeside Ruins. Please find it.",
   "bytes": 104,
   "sites": [
    "244C85:quest0C"
@@ -232,7 +232,7 @@
   "addr": "24533A",
   "kind": "quest_desc",
   "jp": "デュオラ平原に出没する[BR][FFC4]を[FFC5]匹倒してほしい",
-  "en": "Please hunt down[BR][FFC4] x[FFC5] prowling[BR]the Duora Plains.",
+  "en": "Please hunt down[BR][FFC4] x[FFC5][BR]prowling the Duora Plains.",
   "bytes": 46,
   "sites": [
    "245135:quest0C"
@@ -256,7 +256,7 @@
   "addr": "245376",
   "kind": "quest_desc",
   "jp": "デュオラ平原に[BR][FFC4]が大量発生した[BR][FFC5]匹以上倒してほしい",
-  "en": "There's an outbreak of[BR][FFC4] on the Duora[BR]Plains. Please defeat at least [FFC5][BR]of them.",
+  "en": "There's an outbreak of[BR][FFC4] on the[BR]Duora Plains. Please defeat[BR]at least [FFC5] of them.",
   "bytes": 56,
   "sites": [
    "245151:quest0C"
@@ -280,7 +280,7 @@
   "addr": "2453B8",
   "kind": "quest_desc",
   "jp": "デュオラ平原に[BR][FFC4]が出没するので[BR]これを[FFC5]匹倒してほしい",
-  "en": "The monster [FFC4] has[BR]been showing up on the Duora Plains.[BR]Please defeat [FFC5] of them.",
+  "en": "The monster [FFC4][BR]has been showing up on the Duora[BR]Plains. Please defeat [FFC5] of them.",
   "bytes": 58,
   "sites": [
    "24516D:quest0C"
@@ -328,7 +328,7 @@
   "addr": "245434",
   "kind": "quest_desc",
   "jp": "デュオラ平原で調査しているバスターに荷物を届けて欲しい",
-  "en": "Please deliver a package to a Buster[BR]surveying the Duora Plains.",
+  "en": "Please deliver a package to a[BR]Buster surveying the Duora Plains.",
   "bytes": 56,
   "sites": [
    "2451EC:quest0C"
@@ -376,7 +376,7 @@
   "addr": "2454C4",
   "kind": "quest_desc",
   "jp": "薬を作るのに必要なハーブが[BR]たりなくなったので[BR]海岸の遺跡のどこかに[BR]自生している[BR]ハーブを探してほしい",
-  "en": "We've run short of the herbs we need[BR]to make medicine. Please find the[BR]herbs growing wild somewhere in the[BR]Coast Ruins.",
+  "en": "We've run short of the herbs we[BR]need to make medicine. Please[BR]find the herbs growing wild[BR]somewhere in the Coast Ruins.",
   "bytes": 106,
   "sites": [
    "245290:quest0C"
@@ -400,7 +400,7 @@
   "addr": "24553E",
   "kind": "quest_desc",
   "jp": "海辺にしかさかない[BR]めずらしい赤い花がある[BR]海岸の遺跡のどこかに[BR]自生しているので[BR]探しだしてほしい",
-  "en": "There's a rare red flower that[BR]blooms only by the sea. It grows[BR]wild somewhere in the Coast Ruins,[BR]so please find it.",
+  "en": "There's a rare red flower that[BR]blooms only by the sea. It grows[BR]wild somewhere in the Coast[BR]Ruins, so please find it.",
   "bytes": 102,
   "sites": [
    "2452C5:quest0C"
@@ -448,7 +448,7 @@
   "addr": "24581A",
   "kind": "quest_desc",
   "jp": "アンクルス平原に出没する[BR][FFC4]を[FFC5]匹倒してほしい",
-  "en": "Please hunt down[BR][FFC4] x[FFC5] prowling[BR]the Anklus Plains.",
+  "en": "Please hunt down[BR][FFC4] x[FFC5][BR]prowling the Anklus Plains.",
   "bytes": 48,
   "sites": [
    "245771:quest0C"
@@ -472,7 +472,7 @@
   "addr": "245858",
   "kind": "quest_desc",
   "jp": "アンクルス平原に[BR][FFC4]が大量発生した[BR][FFC5]匹以上倒してほしい",
-  "en": "There's an outbreak of[BR][FFC4] on the Anklus[BR]Plains. Please defeat at least [FFC5][BR]of them.",
+  "en": "There's an outbreak of[BR][FFC4] on the[BR]Anklus Plains. Please defeat[BR]at least [FFC5] of them.",
   "bytes": 58,
   "sites": [
    "24578D:quest0C"
@@ -496,7 +496,7 @@
   "addr": "24589C",
   "kind": "quest_desc",
   "jp": "アンクルス平原に[BR][FFC4]が出没するので[BR]これを[FFC5]匹倒してほしい",
-  "en": "The monster [FFC4] has[BR]been showing up on the Anklus[BR]Plains. Please defeat [FFC5] of them.",
+  "en": "The monster [FFC4][BR]has been showing up on the Anklus[BR]Plains. Please defeat [FFC5] of them.",
   "bytes": 60,
   "sites": [
    "2457A9:quest0C"
@@ -544,7 +544,7 @@
   "addr": "245C8A",
   "kind": "quest_desc",
   "jp": "エトリア山地に出没する[BR][FFC4]を[FFC5]匹倒してほしい",
-  "en": "Please hunt down[BR][FFC4] x[FFC5] prowling[BR]the Etria Mountains.",
+  "en": "Please hunt down[BR][FFC4] x[FFC5][BR]prowling the Etria Mountains.",
   "bytes": 46,
   "sites": [
    "245A85:quest0C"
@@ -568,7 +568,7 @@
   "addr": "245CC6",
   "kind": "quest_desc",
   "jp": "エトリア山地に[BR][FFC4]が大量発生した[BR][FFC5]匹以上倒してほしい",
-  "en": "There's an outbreak of[BR][FFC4] in the Etria[BR]Mountains. Please defeat at least [FFC5][BR]of them.",
+  "en": "There's an outbreak of[BR][FFC4] in the[BR]Etria Mountains. Please[BR]defeat at least [FFC5] of them.",
   "bytes": 56,
   "sites": [
    "245AA1:quest0C"
@@ -592,7 +592,7 @@
   "addr": "245D08",
   "kind": "quest_desc",
   "jp": "エトリア山地に[BR][FFC4]が出没するので[BR]これを[FFC5]匹倒してほしい",
-  "en": "The monster [FFC4] has[BR]been showing up in the Etria[BR]Mountains. Please defeat [FFC5] of[BR]them.",
+  "en": "The monster [FFC4][BR]has been showing up in the Etria[BR]Mountains. Please defeat [FFC5] of[BR]them.",
   "bytes": 58,
   "sites": [
    "245ABD:quest0C"
@@ -688,7 +688,7 @@
   "addr": "245E14",
   "kind": "quest_desc",
   "jp": "薬を作るのに必要なハーブが[BR]たりなくなったので[BR]地底湖のどこかに[BR]自生している[BR]ハーブを探してほしい",
-  "en": "We've run short of the herbs we need[BR]to make medicine. Please find the[BR]herbs growing wild somewhere in the[BR]Underground Lake.",
+  "en": "We've run short of the herbs we[BR]need to make medicine. Please find[BR]the herbs growing wild somewhere[BR]in the Underground Lake.",
   "bytes": 102,
   "sites": [
    "245BE0:quest0C"
@@ -712,7 +712,7 @@
   "addr": "245E8A",
   "kind": "quest_desc",
   "jp": "暗いところにしかさかない[BR]めずらしい赤い花がある[BR]地底湖のどこかに[BR]自生している[BR]探しだしてほしい",
-  "en": "There's a rare red flower that[BR]blooms only in dark places. It grows[BR]wild somewhere in the Underground[BR]Lake. Please find it.",
+  "en": "There's a rare red flower that[BR]blooms only in dark places. It[BR]grows wild somewhere in the[BR]Underground Lake. Please find it.",
   "bytes": 100,
   "sites": [
    "245C15:quest0C"
@@ -808,7 +808,7 @@
   "addr": "24641E",
   "kind": "quest_desc",
   "jp": "地底湖（ちていこ）の扉（とびら）の[BR]おくにあった杯（さかずき）[BR]その「樹の杯（じゅのさかずき）」を[BR]みたすモンスターをたいじする",
-  "en": "A chalice lay beyond the door in the[BR]Underground Lake. Defeat the[BR]monsters that will fill that \"Tree[BR]Chalice.\"",
+  "en": "A chalice lay beyond the door[BR]in the Underground Lake.[BR]Defeat the monsters that will[BR]fill that \"Tree Chalice.\"",
   "bytes": 130,
   "sites": [
    "245FDC:quest0C"
@@ -832,7 +832,7 @@
   "addr": "2464B0",
   "kind": "quest_desc",
   "jp": "地底湖（ちていこ）の扉（とびら）の[BR]おくにあった杯（さかずき）[BR]その「絶の杯（ぜつのさかずき）」をみたすモンスターをたいじする",
-  "en": "A chalice lay beyond the door in the[BR]Underground Lake. Defeat the[BR]monsters that will fill that \"Peril[BR]Chalice.\"",
+  "en": "A chalice lay beyond the door[BR]in the Underground Lake.[BR]Defeat the monsters that will[BR]fill that \"Peril Chalice.\"",
   "bytes": 128,
   "sites": [
    "246022:quest0C"
@@ -856,7 +856,7 @@
   "addr": "246540",
   "kind": "quest_desc",
   "jp": "地底湖（ちていこ）の扉（とびら）の[BR]おくにあった杯（さかずき）[BR]その「沼の杯（ぬまのさかずき）」を[BR]みたすモンスターをたいじする",
-  "en": "A chalice lay beyond the door in the[BR]Underground Lake. Defeat the[BR]monsters that will fill that \"Swamp[BR]Chalice.\"",
+  "en": "A chalice lay beyond the door[BR]in the Underground Lake.[BR]Defeat the monsters that will[BR]fill that \"Swamp Chalice.\"",
   "bytes": 130,
   "sites": [
    "246068:quest0C"
@@ -880,7 +880,7 @@
   "addr": "2465D2",
   "kind": "quest_desc",
   "jp": "地底湖（ちていこ）の扉（とびら）の[BR]おくにあった杯（さかずき）[BR]その「窟の杯（くつのさかずき）」を[BR]みたすモンスターをたいじする",
-  "en": "A chalice lay beyond the door in the[BR]Underground Lake. Defeat the[BR]monsters that will fill that \"Cave[BR]Chalice.\"",
+  "en": "A chalice lay beyond the door[BR]in the Underground Lake.[BR]Defeat the monsters that will[BR]fill that \"Cave Chalice.\"",
   "bytes": 130,
   "sites": [
    "2460AE:quest0C"
@@ -904,7 +904,7 @@
   "addr": "246664",
   "kind": "quest_desc",
   "jp": "地底湖（ちていこ）の扉（とびら）の[BR]おくにあった杯（さかずき）[BR]その「渦の杯（うずのさかずき）」を[BR]みたすモンスターをたいじする",
-  "en": "A chalice lay beyond the door in the[BR]Underground Lake. Defeat the[BR]monsters that will fill that[BR]\"Whirlpool Chalice.\"",
+  "en": "A chalice lay beyond the door[BR]in the Underground Lake.[BR]Defeat the monsters that will[BR]fill that \"Whirlpool Chalice.\"",
   "bytes": 130,
   "sites": [
    "2460F4:quest0C"
@@ -928,7 +928,7 @@
   "addr": "2466F6",
   "kind": "quest_desc",
   "jp": "地底湖（ちていこ）の扉（とびら）の[BR]おくにあった杯（さかずき）[BR]その「砂の杯（すなのさかずき）」を[BR]みたすモンスターをたいじする",
-  "en": "A chalice lay beyond the door in the[BR]Underground Lake. Defeat the[BR]monsters that will fill that \"Sand[BR]Chalice.\"",
+  "en": "A chalice lay beyond the door[BR]in the Underground Lake.[BR]Defeat the monsters that will[BR]fill that \"Sand Chalice.\"",
   "bytes": 130,
   "sites": [
    "24613A:quest0C"
@@ -952,7 +952,7 @@
   "addr": "246788",
   "kind": "quest_desc",
   "jp": "地底湖（ちていこ）の扉（とびら）の[BR]おくにあった杯（さかずき）[BR]その「地の杯（ちのさかずき）」を[BR]みたすモンスターをたいじする",
-  "en": "A chalice lay beyond the door in the[BR]Underground Lake. Defeat the[BR]monsters that will fill that \"Earth[BR]Chalice.\"",
+  "en": "A chalice lay beyond the door[BR]in the Underground Lake.[BR]Defeat the monsters that will[BR]fill that \"Earth Chalice.\"",
   "bytes": 128,
   "sites": [
    "246180:quest0C"
@@ -976,7 +976,7 @@
   "addr": "246818",
   "kind": "quest_desc",
   "jp": "地底湖（ちていこ）の扉（とびら）の[BR]おくにあった杯（さかずき）[BR]その「鉱の杯（こうのさかずき）」を[BR]みたすモンスターをたいじする",
-  "en": "A chalice lay beyond the door in the[BR]Underground Lake. Defeat the[BR]monsters that will fill that \"Ore[BR]Chalice.\"",
+  "en": "A chalice lay beyond the door[BR]in the Underground Lake.[BR]Defeat the monsters that will[BR]fill that \"Ore Chalice.\"",
   "bytes": 130,
   "sites": [
    "2461C6:quest0C"
@@ -1000,7 +1000,7 @@
   "addr": "2468AA",
   "kind": "quest_desc",
   "jp": "地底湖（ちていこ）の扉（とびら）の[BR]おくにあった杯（さかずき）[BR]その「極の杯（きょくのさかずき）」をみたすモンスターをたいじする",
-  "en": "A chalice lay beyond the door in the[BR]Underground Lake. Defeat the[BR]monsters that will fill that \"Polar[BR]Chalice.\"",
+  "en": "A chalice lay beyond the door[BR]in the Underground Lake.[BR]Defeat the monsters that will[BR]fill that \"Polar Chalice.\"",
   "bytes": 130,
   "sites": [
    "24620C:quest0C"
@@ -1024,7 +1024,7 @@
   "addr": "24693C",
   "kind": "quest_desc",
   "jp": "地底湖（ちていこ）の扉（とびら）の[BR]おくにあった杯（さかずき）[BR]その「骨の杯（ほねのさかずき）」をみたすモンスターをたいじする",
-  "en": "A chalice lay beyond the door in the[BR]Underground Lake. Defeat the[BR]monsters that will fill that \"Bone[BR]Chalice.\"",
+  "en": "A chalice lay beyond the door[BR]in the Underground Lake.[BR]Defeat the monsters that will[BR]fill that \"Bone Chalice.\"",
   "bytes": 128,
   "sites": [
    "246252:quest0C"
@@ -1048,7 +1048,7 @@
   "addr": "246BCA",
   "kind": "quest_desc",
   "jp": "アンクルス平原に出没する[BR][FFC4]を[FFC5]匹倒してほしい",
-  "en": "Please hunt down[BR][FFC4] x[FFC5] prowling[BR]the Anklus Plains.",
+  "en": "Please hunt down[BR][FFC4] x[FFC5][BR]prowling the Anklus Plains.",
   "bytes": 48,
   "sites": [
    "246B21:quest0C"
@@ -1072,7 +1072,7 @@
   "addr": "246C08",
   "kind": "quest_desc",
   "jp": "アンクルス平原に[BR][FFC4]が大量発生した[BR][FFC5]匹以上倒してほしい",
-  "en": "There's an outbreak of[BR][FFC4] on the Anklus[BR]Plains. Please defeat at least [FFC5][BR]of them.",
+  "en": "There's an outbreak of[BR][FFC4] on the[BR]Anklus Plains. Please defeat[BR]at least [FFC5] of them.",
   "bytes": 58,
   "sites": [
    "246B3D:quest0C"
@@ -1096,7 +1096,7 @@
   "addr": "246C4C",
   "kind": "quest_desc",
   "jp": "アンクルス平原に[BR][FFC4]が出没するので[BR]これを[FFC5]匹倒してほしい",
-  "en": "The monster [FFC4] has[BR]been showing up on the Anklus[BR]Plains. Please defeat [FFC5] of them.",
+  "en": "The monster [FFC4][BR]has been showing up on the Anklus[BR]Plains. Please defeat [FFC5] of them.",
   "bytes": 60,
   "sites": [
    "246B59:quest0C"
@@ -1144,7 +1144,7 @@
   "addr": "246F5A",
   "kind": "quest_desc",
   "jp": "ワンダラ山地に出没する[BR][FFC4]を[FFC5]匹倒してほしい",
-  "en": "Please hunt down[BR][FFC4] x[FFC5] prowling[BR]the Wandara Mountains.",
+  "en": "Please hunt down[BR][FFC4] x[FFC5][BR]prowling the Wandara Mountains.",
   "bytes": 46,
   "sites": [
    "246E31:quest0C"
@@ -1168,7 +1168,7 @@
   "addr": "246F96",
   "kind": "quest_desc",
   "jp": "ワンダラ山地に[BR][FFC4]が大量発生した[BR][FFC5]匹以上倒してほしい",
-  "en": "There's an outbreak of[BR][FFC4] in the Wandara[BR]Mountains. Please defeat at least [FFC5][BR]of them.",
+  "en": "There's an outbreak of[BR][FFC4] in the[BR]Wandara Mountains. Please[BR]defeat at least [FFC5] of them.",
   "bytes": 56,
   "sites": [
    "246E4D:quest0C"
@@ -1192,7 +1192,7 @@
   "addr": "246FD8",
   "kind": "quest_desc",
   "jp": "ワンダラ山地に[BR][FFC4]が出没するので[BR]これを[FFC5]匹倒してほしい",
-  "en": "The monster [FFC4] has[BR]been showing up in the Wandara[BR]Mountains. Please defeat [FFC5] of[BR]them.",
+  "en": "The monster [FFC4][BR]has been showing up in the[BR]Wandara Mountains. Please defeat[BR][FFC5] of them.",
   "bytes": 58,
   "sites": [
    "246E69:quest0C"
@@ -1264,7 +1264,7 @@
   "addr": "24709A",
   "kind": "quest_desc",
   "jp": "ワンダラ山地を冒険中のバスターに支援物資を配達してほしい",
-  "en": "Please deliver supplies to a Buster[BR]adventuring in the Wandara[BR]Mountains.",
+  "en": "Please deliver supplies to[BR]a Buster adventuring in[BR]the Wandara Mountains.",
   "bytes": 58,
   "sites": [
    "246F04:quest0C"
@@ -1288,7 +1288,7 @@
   "addr": "24744A",
   "kind": "quest_desc",
   "jp": "ムスリー荒野に出没する[BR][FFC4]を[FFC5]匹倒してほしい",
-  "en": "Please hunt down[BR][FFC4] x[FFC5] prowling[BR]the Musley Wasteland.",
+  "en": "Please hunt down[BR][FFC4] x[FFC5][BR]prowling the Musley Wasteland.",
   "bytes": 46,
   "sites": [
    "247245:quest0C"
@@ -1312,7 +1312,7 @@
   "addr": "247486",
   "kind": "quest_desc",
   "jp": "ムスリー荒野に[BR][FFC4]が大量発生した[BR][FFC5]匹以上倒してほしい",
-  "en": "There's an outbreak of[BR][FFC4] in the Musley[BR]Wasteland. Please defeat at least [FFC5][BR]of them.",
+  "en": "There's an outbreak of[BR][FFC4] in the[BR]Musley Wasteland. Please[BR]defeat at least [FFC5] of them.",
   "bytes": 56,
   "sites": [
    "247261:quest0C"
@@ -1336,7 +1336,7 @@
   "addr": "2474C8",
   "kind": "quest_desc",
   "jp": "ムスリー荒野に[BR][FFC4]が出没するので[BR]これを[FFC5]匹倒してほしい",
-  "en": "The monster [FFC4] has[BR]been showing up in the Musley[BR]Wasteland. Please defeat [FFC5] of[BR]them.",
+  "en": "The monster [FFC4][BR]has been showing up in the[BR]Musley Wasteland. Please defeat[BR][FFC5] of them.",
   "bytes": 58,
   "sites": [
    "24727D:quest0C"
@@ -1432,7 +1432,7 @@
   "addr": "2475D4",
   "kind": "quest_desc",
   "jp": "薬を作るのに必要なハーブが[BR]たりなくなったので[BR]荒野の遺跡のどこかに[BR]自生している[BR]ハーブを探してほしい",
-  "en": "We've run short of the herbs we need[BR]to make medicine. Please find the[BR]herbs growing wild somewhere in the[BR]Wasteland Ruins.",
+  "en": "We've run short of the herbs we[BR]need to make medicine. Please find[BR]the herbs growing wild somewhere[BR]in the Wasteland Ruins.",
   "bytes": 106,
   "sites": [
    "2473A0:quest0C"
@@ -1504,7 +1504,7 @@
   "addr": "247A0A",
   "kind": "quest_desc",
   "jp": "ワンダラ山地に出没する[BR][FFC4]を[FFC5]匹倒してほしい",
-  "en": "Please hunt down[BR][FFC4] x[FFC5] prowling[BR]the Wandara Mountains.",
+  "en": "Please hunt down[BR][FFC4] x[FFC5][BR]prowling the Wandara Mountains.",
   "bytes": 46,
   "sites": [
    "247885:quest0C"
@@ -1528,7 +1528,7 @@
   "addr": "247A46",
   "kind": "quest_desc",
   "jp": "ワンダラ山地に[BR][FFC4]が大量発生した[BR][FFC5]匹以上倒してほしい",
-  "en": "There's an outbreak of[BR][FFC4] in the Wandara[BR]Mountains. Please defeat at least [FFC5][BR]of them.",
+  "en": "There's an outbreak of[BR][FFC4] in the[BR]Wandara Mountains. Please[BR]defeat at least [FFC5] of them.",
   "bytes": 56,
   "sites": [
    "2478A1:quest0C"
@@ -1552,7 +1552,7 @@
   "addr": "247A88",
   "kind": "quest_desc",
   "jp": "ワンダラ山地に[BR][FFC4]が出没するので[BR]これを[FFC5]匹倒してほしい",
-  "en": "The monster [FFC4] has[BR]been showing up in the Wandara[BR]Mountains. Please defeat [FFC5] of[BR]them.",
+  "en": "The monster [FFC4][BR]has been showing up in the[BR]Wandara Mountains. Please defeat[BR][FFC5] of them.",
   "bytes": 58,
   "sites": [
    "2478BD:quest0C"
@@ -1600,7 +1600,7 @@
   "addr": "247B0A",
   "kind": "quest_desc",
   "jp": "薬を作るのに必要なハーブが[BR]たりなくなったので[BR]洞窟のどこかに自生している[BR]ハーブを探してほしい",
-  "en": "We've run short of the herbs we need[BR]to make medicine. Please find the[BR]herbs growing wild somewhere in the[BR]cave.",
+  "en": "We've run short of the herbs[BR]we need to make medicine.[BR]Please find the herbs growing[BR]wild somewhere in the cave.",
   "bytes": 98,
   "sites": [
    "247961:quest0C"
@@ -1624,7 +1624,7 @@
   "addr": "247B7C",
   "kind": "quest_desc",
   "jp": "暗いところにしかさかない[BR]めずらしい赤い花がある[BR]洞窟のどこかに自生しているので[BR]探しだしてほしい",
-  "en": "There's a rare red flower that[BR]blooms only in dark places. It grows[BR]wild somewhere in the cave, so[BR]please find it.",
+  "en": "There's a rare red flower that[BR]blooms only in dark places. It[BR]grows wild somewhere in the[BR]cave, so please find it.",
   "bytes": 100,
   "sites": [
    "247996:quest0C"
@@ -1648,7 +1648,7 @@
   "addr": "247BEC",
   "kind": "quest_desc",
   "jp": "研究（けんきゅう）のために[BR]洞窟のどこかに自生している[BR]すずなり花を探してほしい",
-  "en": "For research, please find the[BR]Bellcluster Flowers growing wild[BR]somewhere in the cave.",
+  "en": "For research, please find the[BR]Bellcluster Flowers growing[BR]wild somewhere in the cave.",
   "bytes": 82,
   "sites": [
    "2479CB:quest0C"
@@ -1672,7 +1672,7 @@
   "addr": "247FAA",
   "kind": "quest_desc",
   "jp": "パトレス山地に出没する[BR][FFC4]を[FFC5]匹倒してほしい",
-  "en": "Please hunt down[BR][FFC4] x[FFC5] prowling[BR]the Patres Mountains.",
+  "en": "Please hunt down[BR][FFC4] x[FFC5][BR]prowling the Patres Mountains.",
   "bytes": 46,
   "sites": [
    "247DA5:quest0C"
@@ -1696,7 +1696,7 @@
   "addr": "247FE6",
   "kind": "quest_desc",
   "jp": "パトレス山地に[BR][FFC4]が大量発生した[BR][FFC5]匹以上倒してほしい",
-  "en": "There's an outbreak of[BR][FFC4] in the Patres[BR]Mountains. Please defeat at least [FFC5][BR]of them.",
+  "en": "There's an outbreak of[BR][FFC4] in the[BR]Patres Mountains. Please[BR]defeat at least [FFC5] of them.",
   "bytes": 56,
   "sites": [
    "247DC1:quest0C"
@@ -1720,7 +1720,7 @@
   "addr": "248028",
   "kind": "quest_desc",
   "jp": "パトレス山地に[BR][FFC4]が出没するので[BR]これを[FFC5]匹倒してほしい",
-  "en": "The monster [FFC4] has[BR]been showing up in the Patres[BR]Mountains. Please defeat [FFC5] of[BR]them.",
+  "en": "The monster [FFC4][BR]has been showing up in the[BR]Patres Mountains. Please defeat[BR][FFC5] of them.",
   "bytes": 58,
   "sites": [
    "247DDD:quest0C"
@@ -1816,7 +1816,7 @@
   "addr": "248134",
   "kind": "quest_desc",
   "jp": "薬を作るのに必要なハーブが[BR]たりなくなったので[BR]廃坑のどこかに[BR]自生している[BR]ハーブを探してほしい",
-  "en": "We've run short of the herbs we need[BR]to make medicine. Please find the[BR]herbs growing wild somewhere in the[BR]abandoned mine.",
+  "en": "We've run short of the herbs we[BR]need to make medicine. Please[BR]find the herbs growing wild[BR]somewhere in the abandoned mine.",
   "bytes": 100,
   "sites": [
    "247F00:quest0C"
@@ -1840,7 +1840,7 @@
   "addr": "2481A8",
   "kind": "quest_desc",
   "jp": "暗いところにしかさかない[BR]めずらしい赤い花がある[BR]廃坑のどこかに[BR]自生している[BR]探しだしてほしい",
-  "en": "There's a rare red flower that[BR]blooms only in dark places. It grows[BR]wild somewhere in the abandoned[BR]mine. Please find it.",
+  "en": "There's a rare red flower that[BR]blooms only in dark places. It[BR]grows wild somewhere in the[BR]abandoned mine. Please find it.",
   "bytes": 98,
   "sites": [
    "247F35:quest0C"
@@ -1888,7 +1888,7 @@
   "addr": "24847A",
   "kind": "quest_desc",
   "jp": "アンクルス平原に出没する[BR][FFC4]を[FFC5]匹倒してほしい",
-  "en": "Please hunt down[BR][FFC4] x[FFC5] prowling[BR]the Anklus Plains.",
+  "en": "Please hunt down[BR][FFC4] x[FFC5][BR]prowling the Anklus Plains.",
   "bytes": 48,
   "sites": [
    "2483D1:quest0C"
@@ -1912,7 +1912,7 @@
   "addr": "2484B8",
   "kind": "quest_desc",
   "jp": "アンクルス平原に[BR][FFC4]が大量発生した[BR][FFC5]匹以上倒してほしい",
-  "en": "There's an outbreak of[BR][FFC4] on the Anklus[BR]Plains. Please defeat at least [FFC5][BR]of them.",
+  "en": "There's an outbreak of[BR][FFC4] on the[BR]Anklus Plains. Please defeat[BR]at least [FFC5] of them.",
   "bytes": 58,
   "sites": [
    "2483ED:quest0C"
@@ -1936,7 +1936,7 @@
   "addr": "2484FC",
   "kind": "quest_desc",
   "jp": "アンクルス平原に[BR][FFC4]が出没するので[BR]これを[FFC5]匹倒してほしい",
-  "en": "The monster [FFC4] has[BR]been showing up on the Anklus[BR]Plains. Please defeat [FFC5] of them.",
+  "en": "The monster [FFC4][BR]has been showing up on the Anklus[BR]Plains. Please defeat [FFC5] of them.",
   "bytes": 60,
   "sites": [
    "248409:quest0C"
@@ -1984,7 +1984,7 @@
   "addr": "24880A",
   "kind": "quest_desc",
   "jp": "テルセロン山地に出没する[BR][FFC4]を[FFC5]匹倒してほしい",
-  "en": "Please hunt down[BR][FFC4] x[FFC5] prowling[BR]the Terceron Mountains.",
+  "en": "Please hunt down[BR][FFC4] x[FFC5][BR]prowling the Terceron Mountains.",
   "bytes": 48,
   "sites": [
    "2486E5:quest0C"
@@ -2008,7 +2008,7 @@
   "addr": "248848",
   "kind": "quest_desc",
   "jp": "テルセロン山地に[BR][FFC4]が大量発生した[BR][FFC5]匹以上倒してほしい",
-  "en": "There's an outbreak of[BR][FFC4] in the Terceron[BR]Mountains. Please defeat at least [FFC5][BR]of them.",
+  "en": "There's an outbreak of[BR][FFC4] in the[BR]Terceron Mountains. Please[BR]defeat at least [FFC5] of them.",
   "bytes": 58,
   "sites": [
    "248701:quest0C"
@@ -2032,7 +2032,7 @@
   "addr": "24888C",
   "kind": "quest_desc",
   "jp": "テルセロン山地に[BR][FFC4]が出没するので[BR]これを[FFC5]匹倒してほしい",
-  "en": "The monster [FFC4] has[BR]been showing up in the Terceron[BR]Mountains. Please defeat [FFC5] of[BR]them.",
+  "en": "The monster [FFC4][BR]has been showing up in the[BR]Terceron Mountains. Please[BR]defeat [FFC5] of them.",
   "bytes": 60,
   "sites": [
    "24871D:quest0C"
@@ -2104,7 +2104,7 @@
   "addr": "248954",
   "kind": "quest_desc",
   "jp": "テルセロン山地を冒険中のバスターに支援物資を配達してほしい",
-  "en": "Please deliver supplies to a Buster[BR]adventuring in the Terceron[BR]Mountains.",
+  "en": "Please deliver supplies to[BR]a Buster adventuring in[BR]the Terceron Mountains.",
   "bytes": 60,
   "sites": [
    "2487B8:quest0C"
@@ -2200,7 +2200,7 @@
   "addr": "249FCA",
   "kind": "quest_desc",
   "jp": "アンクルス平原にある[BR]水源（すいげん）にしゅつぼつする[BR]犬型のモンスターをたおしてほしい",
-  "en": "Please defeat the dog-type monster[BR]haunting the water source on the[BR]Anklus Plains.",
+  "en": "Please defeat the dog-type[BR]monster haunting the water[BR]source on the Anklus Plains.",
   "bytes": 90,
   "sites": [
    "248A69:quest0C"
@@ -2224,7 +2224,7 @@
   "addr": "24A032",
   "kind": "quest_desc",
   "jp": "アンクルスの里長から里祭りに[BR]まつわる仕事の依頼（いらい）。[BR]くわしくは里長のデブレさんにきくこと",
-  "en": "A job request from the Anklus[BR]Village Elder concerning the village[BR]festival. For details, ask[BR]Debre-san, the Village Elder.",
+  "en": "A job request from the Anklus[BR]Village Elder concerning the[BR]village festival. For details, ask[BR]Debre-san, the Village Elder.",
   "bytes": 100,
   "sites": [
    "248AAB:quest0C"
@@ -2248,7 +2248,7 @@
   "addr": "24A0A0",
   "kind": "quest_desc",
   "jp": "ワンダラ山地から行ける[BR]洞窟（どうくつ）にいる[BR]つららこうもりを１０匹たいじする",
-  "en": "Defeat 10 Icicle Bats in the cave[BR]you can reach from the Wandara[BR]Mountains.",
+  "en": "Defeat 10 Icicle Bats in the[BR]cave you can reach from the[BR]Wandara Mountains.",
   "bytes": 82,
   "sites": [
    "248AE6:quest0C"
@@ -2344,7 +2344,7 @@
   "addr": "24A28A",
   "kind": "quest_desc",
   "jp": "アンクルス平原の黒い沼（ぬま）に[BR]あらわれる泥トカゲ（どろとかげ）を[BR]全てたおす",
-  "en": "Defeat all the Mud Lizards that[BR]appear in the black swamps of the[BR]Anklus Plains.",
+  "en": "Defeat all the Mud Lizards[BR]that appear in the black[BR]swamps of the Anklus Plains.",
   "bytes": 82,
   "sites": [
    "248BFD:quest0C"
@@ -2368,7 +2368,7 @@
   "addr": "24A2EC",
   "kind": "quest_desc",
   "jp": "アンクルスの里にあらわれた[BR]ヴァンデル・ムガインをたおす",
-  "en": "Defeat the Vandel Mugine, who has[BR]appeared in Anklus Village.",
+  "en": "Defeat the Vandel Mugine, who[BR]has appeared in Anklus Village.",
   "bytes": 58,
   "sites": [
    "248C3F:quest0C"
@@ -2392,7 +2392,7 @@
   "addr": "24A334",
   "kind": "quest_desc",
   "jp": "ポアラがねている間に、[BR]特訓（とっくん）のために[BR]あたりのモンスターをたおす",
-  "en": "While Poala is asleep, defeat the[BR]monsters around here for some[BR]special training.",
+  "en": "While Poala is asleep, defeat[BR]the monsters around here for[BR]some special training.",
   "bytes": 78,
   "sites": [
    "248C81:quest0C"
@@ -2416,7 +2416,7 @@
   "addr": "24A396",
   "kind": "quest_desc",
   "jp": "荷物の中にあったマギーを食べた[BR]カネックをたおす",
-  "en": "Defeat the Kanecks that ate the Magi[BR]in your bags.",
+  "en": "Defeat the Kanecks that[BR]ate the Magi in your bags.",
   "bytes": 50,
   "sites": [
    "248CBC:quest0C"
@@ -2440,7 +2440,7 @@
   "addr": "24A3D6",
   "kind": "quest_desc",
   "jp": "エルファストの防具屋（ぼうぐや）[BR]主人のアトスさんが、[BR]どうしてもバスターに[BR]たのみがあるという。[BR]依頼（いらい）のしょうさいは[BR]アトスさんから聞くように",
-  "en": "Athos-san, the owner of the Elfast[BR]armor shop, has a favor he simply[BR]must ask of a Buster. Get the[BR]details of the request from[BR]Athos-san.",
+  "en": "Athos-san, the owner of the[BR]Elfast armor shop, has a[BR]favor he simply must ask of[BR]a Buster. Get the details of[BR]the request from Athos-san.",
   "bytes": 156,
   "sites": [
    "248CF7:quest0C"
@@ -2464,7 +2464,7 @@
   "addr": "24A47E",
   "kind": "quest_desc",
   "jp": "インスアの里近くの平原で、ひんぱんにモンスターがあらわれる[BR]というほうこくがきている。[BR]インスア里長のハイアさんから[BR]話を聞いて、それをたいじしてほしい",
-  "en": "Reports say monsters keep appearing[BR]on the plains near Insua Village.[BR]Hear the story from Haia-san, the[BR]Insua Village Elder, and defeat[BR]them.",
+  "en": "Reports say monsters keep[BR]appearing on the plains near[BR]Insua Village. Hear the story[BR]from Haia-san, the Insua Village[BR]Elder, and defeat them.",
   "bytes": 154,
   "sites": [
    "248D39:quest0C"
@@ -2488,7 +2488,7 @@
   "addr": "24A526",
   "kind": "quest_desc",
   "jp": "ワンダラ山地の山道に[BR]大型（おおがた）のモンスターが[BR]あらわれ、[BR]旅人がこまっているとのこと。[BR]これを調査（ちょうさ）して、[BR]モンスターをたいじしてほしい",
-  "en": "Large monsters have appeared on the[BR]mountain trail in the Wandara[BR]Mountains, and travelers are in[BR]trouble. Please investigate and[BR]defeat the monsters.",
+  "en": "Large monsters have appeared on[BR]the mountain trail in the Wandara[BR]Mountains, and travelers are in[BR]trouble. Please investigate and[BR]defeat the monsters.",
   "bytes": 156,
   "sites": [
    "248D86:quest0C"
@@ -2512,7 +2512,7 @@
   "addr": "24A5D2",
   "kind": "quest_desc",
   "jp": "プリモーレの門からの依頼（いらい）で里にすむ黒い沼（ぬま）の[BR]研究家（けんきゅうか）ウエスさんを[BR]たずねる",
-  "en": "At the request of the Gate of[BR]Primore, visit Wes-san, a black[BR]swamp researcher who lives in the[BR]village.",
+  "en": "At the request of the Gate[BR]of Primore, visit Wes-san,[BR]a black swamp researcher[BR]who lives in the village.",
   "bytes": 108,
   "sites": [
    "248DC1:quest0C"
@@ -2536,7 +2536,7 @@
   "addr": "24A64A",
   "kind": "quest_desc",
   "jp": "プリモーレの里にすむ黒い沼（ぬま）の研究家（けんきゅうか）ウエスさん[BR]からの依頼（いらい）。[BR]アンクルス平原と[BR]ムガインの死人沼（しびとぬま）から[BR]黒い沼（ぬま）の水をさいしゅう[BR]してきてほしい",
-  "en": "A request from Wes-san, the black[BR]swamp researcher in Primore Village.[BR]Please collect black swamp water[BR]from the Anklus Plains and from[BR]Mugine's Dead Swamp.",
+  "en": "A request from Wes-san, the black[BR]swamp researcher in Primore[BR]Village. Please collect black[BR]swamp water from the Anklus Plains[BR]and from Mugine's Dead Swamp.",
   "bytes": 196,
   "sites": [
    "248DF5:quest0C"
@@ -2560,7 +2560,7 @@
   "addr": "24A71C",
   "kind": "quest_desc",
   "jp": "プリモーレの里にすむ黒い沼（ぬま）の研究家（けんきゅうか）ウエスさんが[BR]研究（けんきゅう）をすすめるために[BR]バスターにたのみたいことがあるというウエスさんをたずねて、[BR]力になってやってほしい",
-  "en": "Wes-san, the black swamp researcher[BR]in Primore Village, has something to[BR]ask of a Buster to move her research[BR]forward. Visit Wes-san and lend her[BR]a hand.",
+  "en": "Wes-san, the black swamp[BR]researcher in Primore Village, has[BR]something to ask of a Buster to[BR]move her research forward. Visit[BR]Wes-san and lend her a hand.",
   "bytes": 192,
   "sites": [
    "248E37:quest0C"
@@ -2584,7 +2584,7 @@
   "addr": "24A7EA",
   "kind": "quest_desc",
   "jp": "プリモーレの里にすむ黒い沼（ぬま）の研究家（けんきゅうか）ウエスさんから黒い沼（ぬま）の[BR]対処法（たいしょほう）を発見したとのほうこくがあった。[BR]ただ、それにはバスターの[BR]助けがいるという。[BR]ウエスさんをたずね、手をかしてほしい",
-  "en": "Wes-san, the black swamp researcher[BR]in Primore Village, reports she has[BR]found a way to deal with the black[BR]swamps. But she needs a Buster's[BR]help. Visit Wes-san and lend her a[BR]hand.",
+  "en": "Wes-san, the black swamp[BR]researcher in Primore Village,[BR]reports she has found a way to[BR]deal with the black swamps. But[BR]she needs a Buster's help. Visit[BR]Wes-san and lend her a hand.",
   "bytes": 230,
   "sites": [
    "248E79:quest0C"
@@ -2608,7 +2608,7 @@
   "addr": "24A8DC",
   "kind": "quest_desc",
   "jp": "海岸の遺跡（かいがんのいせき）で[BR]さいきん「唸り声（うなりごえ）の[BR]ような音が聞こえる」という。[BR]デュオラの猟師（りょうし）たちは[BR]「モンスターが住みついたのかも[BR]しれない」とおそれており、[BR]これを調査（ちょうさ）してほしい",
-  "en": "People say that lately \"a sound like[BR]a growl\" can be heard in the Coast[BR]Ruins. The Duora hunters fear that[BR]\"a monster may have moved in.\"[BR]Please investigate.",
+  "en": "People say that lately \"a sound[BR]like a growl\" can be heard in the[BR]Coast Ruins. The Duora hunters[BR]fear that \"a monster may have[BR]moved in.\" Please investigate.",
   "bytes": 226,
   "sites": [
    "248EDE:quest0C"
@@ -2632,7 +2632,7 @@
   "addr": "24A9CC",
   "kind": "quest_desc",
   "jp": "レドウの鑑定小屋（ハウス）が、とある依頼（いらい）のために[BR]ウデききのバスターをさがしている[BR]らしい。[BR]くわしいことはふめいだが[BR]たずねてみてはどうだろうか",
-  "en": "The Redou Appraisal House is[BR]apparently looking for a skilled[BR]Buster for a certain job. The[BR]details are unknown, but why not pay[BR]them a visit?",
+  "en": "The Redou Appraisal House is[BR]apparently looking for a[BR]skilled Buster for a certain[BR]job. The details are unknown,[BR]but why not pay them a visit?",
   "bytes": 158,
   "sites": [
    "248F19:quest0C"
@@ -2656,7 +2656,7 @@
   "addr": "24AA7A",
   "kind": "quest_desc",
   "jp": "さいきんレドウの近くで[BR]ふくすうのヴァンデルもくげき[BR]じょうほうがよせられている。[BR]これを発見し、ただちにたおしてほしい",
-  "en": "Lately there have been several[BR]reports of Vandel sightings near[BR]Redou. Find them and defeat them at[BR]once.",
+  "en": "Lately there have been several[BR]reports of Vandel sightings[BR]near Redou. Find them and[BR]defeat them at once.",
   "bytes": 122,
   "sites": [
    "248F4D:quest0C"
@@ -2680,7 +2680,7 @@
   "addr": "24AB00",
   "kind": "quest_desc",
   "jp": "レドウにしんにゅうした[BR]モンスターを全てたいじする",
-  "en": "Defeat every monster that has[BR]invaded Redou.",
+  "en": "Defeat every monster[BR]that has invaded Redou.",
   "bytes": 52,
   "sites": [
    "248F88:quest0C"
@@ -2704,7 +2704,7 @@
   "addr": "24AB44",
   "kind": "quest_desc",
   "jp": "グリニデの毒（どく）を受けたポアラをいっこくも早く[BR]鑑定小屋（ハウス）へつれて行く",
-  "en": "Take Poala, poisoned by Grineed, to[BR]the Appraisal House as fast as you[BR]can.",
+  "en": "Take Poala, poisoned by[BR]Grineed, to the Appraisal[BR]House as fast as you can.",
   "bytes": 84,
   "sites": [
    "248FBC:quest0C"
@@ -2752,7 +2752,7 @@
   "addr": "24AC30",
   "kind": "quest_desc",
   "jp": "ワンダラ山地で山火事が発生した！[BR]あたりにはモンスターも多く、[BR]消火に行きたくても行けないらしい。[BR]なんとか火事をおさめてほしい",
-  "en": "A wildfire has broken out in the[BR]Wandara Mountains! There are lots of[BR]monsters around, so no one can get[BR]there to fight it. Please find a way[BR]to put the fire out.",
+  "en": "A wildfire has broken out in the[BR]Wandara Mountains! There are lots[BR]of monsters around, so no one can[BR]get there to fight it. Please find[BR]a way to put the fire out.",
   "bytes": 130,
   "sites": [
    "24902B:quest0C"
@@ -2800,7 +2800,7 @@
   "addr": "24ADB8",
   "kind": "quest_desc",
   "jp": "デュオラ平原に「グルメアント」が[BR]塚（つか）を作ってしまい、[BR]里への道がとざされてしまった。[BR]これを駆除（くじょ）してほしい",
-  "en": "\"Gourmet Ants\" have built a hill on[BR]the Duora Plains, cutting off the[BR]road to the village. Please get rid[BR]of them.",
+  "en": "\"Gourmet Ants\" have built a hill[BR]on the Duora Plains, cutting off[BR]the road to the village. Please[BR]get rid of them.",
   "bytes": 126,
   "sites": [
    "2490A1:quest0C"
@@ -2848,7 +2848,7 @@
   "addr": "24AF2E",
   "kind": "quest_desc",
   "jp": "アサドの里へ向かっていた旅人が、[BR]空からおそってくるモンスターの[BR]被害（ひがい）にあったとのこと。[BR]被害（ひがい）がふえる前に[BR]モンスターをたいじしてくれ",
-  "en": "Travelers headed for Asad Village[BR]have been attacked by monsters[BR]swooping down from the sky. Please[BR]defeat the monsters before anyone[BR]else gets hurt.",
+  "en": "Travelers headed for Asad[BR]Village have been attacked by[BR]monsters swooping down from the[BR]sky. Please defeat the monsters[BR]before anyone else gets hurt.",
   "bytes": 156,
   "sites": [
    "249117:quest0C"
@@ -2872,7 +2872,7 @@
   "addr": "24AFD4",
   "kind": "quest_desc",
   "jp": "レドウ大河（たいが）を[BR]行き来する船が目印としている[BR]「レドウ灯台（とうだい）」の光が[BR]消えてしまった[BR]どうやらモンスターに[BR]うばわれてしまったらしい。[BR]これがないと船の運航（うんこう）ができないので光を取りもどしてくれ",
-  "en": "The light of Redou Lighthouse, the[BR]landmark for ships traveling the[BR]Redou River, has gone out. It seems[BR]a monster stole it. Ships can't sail[BR]without it, so please get the light[BR]back.",
+  "en": "The light of Redou Lighthouse,[BR]the landmark for ships traveling[BR]the Redou River, has gone out.[BR]It seems a monster stole it.[BR]Ships can't sail without it, so[BR]please get the light back.",
   "bytes": 222,
   "sites": [
    "249152:quest0C"
@@ -2944,7 +2944,7 @@
   "addr": "24B272",
   "kind": "quest_desc",
   "jp": "森の遺跡（いせき）のおくにある[BR]しかけ扉（とびら）を[BR]調査（ちょうさ）する",
-  "en": "Investigate the trick door deep in[BR]the Forest Ruins.",
+  "en": "Investigate the trick door[BR]deep in the Forest Ruins.",
   "bytes": 76,
   "sites": [
    "249203:quest0C"
@@ -2968,7 +2968,7 @@
   "addr": "24B2C6",
   "kind": "quest_desc",
   "jp": "森の遺跡（いせき）にあった[BR]しかけ扉（とびら）のおくで[BR]手に入れたなぞのオーブの[BR]正体は？",
-  "en": "What is the mysterious Orb found[BR]behind the trick door in the Forest[BR]Ruins?",
+  "en": "What is the mysterious Orb[BR]found behind the trick[BR]door in the Forest Ruins?",
   "bytes": 92,
   "sites": [
    "24923E:quest0C"
@@ -2992,7 +2992,7 @@
   "addr": "24B32C",
   "kind": "quest_desc",
   "jp": "アサド山地で[BR]「群がり犬（むらがりいぬ）」と[BR]よばれるモンスターによる[BR]被害（ひがい）が相次いでいる。[BR]これをたいじしてほしい",
-  "en": "In the Asad Mountains, monsters[BR]called \"Pack Dogs\" have been[BR]attacking one after another. Please[BR]defeat them.",
+  "en": "In the Asad Mountains,[BR]monsters called \"Pack Dogs\"[BR]have been attacking one after[BR]another. Please defeat them.",
   "bytes": 128,
   "sites": [
    "249279:quest0C"
@@ -3016,7 +3016,7 @@
   "addr": "24B3BA",
   "kind": "quest_desc",
   "jp": "テルセロンの鑑定小屋（ハウス）からの依頼（いらい）。[BR]里のたくわえをモンスターに[BR]送っている者がいるらしい。[BR]これを調査（ちょうさ）して[BR]つきとめて欲しい",
-  "en": "A request from the Terceron[BR]Appraisal House. Someone seems to be[BR]sending the village's stores to[BR]monsters. Please investigate and[BR]find out who.",
+  "en": "A request from the Terceron[BR]Appraisal House. Someone seems[BR]to be sending the village's[BR]stores to monsters. Please[BR]investigate and find out who.",
   "bytes": 156,
   "sites": [
    "2492B4:quest0C"
@@ -3064,7 +3064,7 @@
   "addr": "24B4FA",
   "kind": "quest_desc",
   "jp": "エトリア山地で動物たちがたくさん[BR]死んでいるらしい。[BR]調査（ちょうさ）したところ、[BR]明け方に立ち込める霧（きり）が[BR]あやしいとのこと。[BR]くわしく調査（ちょうさ）して、この霧（きり）をなんとかしてほしい",
-  "en": "Lots of animals have apparently been[BR]dying in the Etria Mountains. An[BR]investigation found that the mist[BR]rising at dawn is suspicious. Please[BR]look into it closely and do[BR]something about this mist.",
+  "en": "Lots of animals have apparently[BR]been dying in the Etria Mountains.[BR]An investigation found that the[BR]mist rising at dawn is suspicious.[BR]Please look into it closely and do[BR]something about this mist.",
   "bytes": 202,
   "sites": [
    "24932A:quest0C"
@@ -3160,7 +3160,7 @@
   "addr": "24B818",
   "kind": "quest_desc",
   "jp": "トロワナにある墓地（ぼち）が[BR]あらされたというほうこくが入った。[BR]しかもどうやら盗掘（とうくつ）のためではないようだ・・・。[BR]トロワナの鑑定小屋（ハウス）[BR]で話を聞くこと",
-  "en": "A report came in that the cemetery[BR]in Trowana has been vandalized. And[BR]it seems it wasn't for grave[BR]robbing, either… Hear the story at[BR]the Trowana Appraisal House.",
+  "en": "A report came in that the cemetery[BR]in Trowana has been vandalized.[BR]And it seems it wasn't for grave[BR]robbing, either… Hear the story at[BR]the Trowana Appraisal House.",
   "bytes": 172,
   "sites": [
    "249424:quest0C"
@@ -3184,7 +3184,7 @@
   "addr": "24B8DA",
   "kind": "quest_desc",
   "jp": "トロワナの墓地（ぼち）があらされた[BR]事について、[BR]新たなほうこくが入った。[BR]なぞの付着物（ふちゃくぶつ）の[BR]鑑定（かんてい）がすんだらしい。[BR]トロワナの鑑定小屋（ハウス）[BR]にて、話を聞くこと",
-  "en": "There's a new report about the[BR]vandalized Trowana cemetery. The[BR]appraisal of a mysterious residue[BR]seems to be done. Hear the story at[BR]the Trowana Appraisal House.",
+  "en": "There's a new report about the[BR]vandalized Trowana cemetery. The[BR]appraisal of a mysterious residue[BR]seems to be done. Hear the story[BR]at the Trowana Appraisal House.",
   "bytes": 192,
   "sites": [
    "24945F:quest0C"
@@ -3208,7 +3208,7 @@
   "addr": "24B9A2",
   "kind": "quest_desc",
   "jp": "主のいなくなったムガイン城（じょう）に何者かが出入りしている。[BR]ヴァンデルかもしれないので、[BR]これをしらべてほしい",
-  "en": "Someone has been going in and out of[BR]Mugine Castle, now without its[BR]master. It may be a Vandel, so[BR]please look into it.",
+  "en": "Someone has been going in and[BR]out of Mugine Castle, now[BR]without its master. It may be a[BR]Vandel, so please look into it.",
   "bytes": 116,
   "sites": [
    "24949A:quest0C"
@@ -3280,7 +3280,7 @@
   "addr": "24BC28",
   "kind": "quest_desc",
   "jp": "パトレスの鑑定小屋（ハウス）[BR]からの依頼（いらい）で、モンスターを生けどりにしてほしい。[BR]ガブリ貝、つららこうもり、[BR]海のブロウガンナー、ジャーマウス、[BR]砂（すな）ふくろう、ペンバリーの６種まずは「ガブリ貝」をつかまえること",
-  "en": "A Patres Appraisal House request:[BR]capture monsters alive. Six kinds:[BR]Chomp Clam, Icicle Bat, Sea[BR]Blowgunner, Jar Mouse, Sand Owl and[BR]Penbury. First, catch a \"Chomp[BR]Clam.\"",
+  "en": "A Patres Appraisal House[BR]request: capture monsters alive.[BR]Six kinds: Chomp Clam, Icicle[BR]Bat, Sea Blowgunner, Jar Mouse,[BR]Sand Owl and Penbury. First,[BR]catch a \"Chomp Clam.\"",
   "bytes": 226,
   "sites": [
    "24953D:quest0C"
@@ -3304,7 +3304,7 @@
   "addr": "24BD1A",
   "kind": "quest_desc",
   "jp": "パトレスの鑑定小屋（ハウス）[BR]からの依頼（いらい）で、モンスターを生けどりにしてほしい。[BR]ガブリ貝、つららこうもり、[BR]海のブロウガンナー、ジャーマウス、[BR]砂（すな）ふくろう、ペンバリーの６種次は「つららこうもり」を[BR]つかまえること",
-  "en": "A Patres Appraisal House request:[BR]capture monsters alive. Six kinds:[BR]Chomp Clam, Icicle Bat, Sea[BR]Blowgunner, Jar Mouse, Sand Owl and[BR]Penbury. Next, catch an \"Icicle[BR]Bat.\"",
+  "en": "A Patres Appraisal House[BR]request: capture monsters alive.[BR]Six kinds: Chomp Clam, Icicle[BR]Bat, Sea Blowgunner, Jar Mouse,[BR]Sand Owl and Penbury. Next,[BR]catch an \"Icicle Bat.\"",
   "bytes": 232,
   "sites": [
    "24957C:quest0C"
@@ -3328,7 +3328,7 @@
   "addr": "24BE12",
   "kind": "quest_desc",
   "jp": "パトレスの鑑定小屋（ハウス）[BR]からの依頼（いらい）で、モンスターを生けどりにしてほしい。[BR]ガブリ貝、つららこうもり、[BR]海のブロウガンナー、ジャーマウス、[BR]砂（すな）ふくろう、ペンバリーの６種次は「海のブロウガンナー」を[BR]つかまえること",
-  "en": "A Patres Appraisal House request:[BR]capture monsters alive. Six kinds:[BR]Chomp Clam, Icicle Bat, Sea[BR]Blowgunner, Jar Mouse, Sand Owl and[BR]Penbury. Next, catch a \"Sea[BR]Blowgunner.\"",
+  "en": "A Patres Appraisal House[BR]request: capture monsters alive.[BR]Six kinds: Chomp Clam, Icicle[BR]Bat, Sea Blowgunner, Jar Mouse,[BR]Sand Owl and Penbury. Next,[BR]catch a \"Sea Blowgunner.\"",
   "bytes": 236,
   "sites": [
    "2495BB:quest0C"
@@ -3424,7 +3424,7 @@
   "addr": "24C1EA",
   "kind": "quest_desc",
   "jp": "パトレス山地に、大型（おおがた）の[BR]狼（おおかみ）モンスターがあらわれたほうこくによると、どうやら月夜にだけあらわれるという[BR]「七星餓狼（しちせいがろう）」らしいこれをたいじしてほしい",
-  "en": "A large wolf monster has appeared in[BR]the Patres Mountains. According to[BR]reports, it seems to be the[BR]\"Seven-Star Wolf,\" said to appear[BR]only on moonlit nights. Please[BR]defeat it.",
+  "en": "A large wolf monster has appeared[BR]in the Patres Mountains. According[BR]to reports, it seems to be the[BR]\"Seven-Star Wolf,\" said to appear[BR]only on moonlit nights. Please[BR]defeat it.",
   "bytes": 186,
   "sites": [
    "2496B7:quest0C"
@@ -3448,7 +3448,7 @@
   "addr": "24C2B2",
   "kind": "quest_desc",
   "jp": "廃坑（はいこう）に向かった[BR]バスターからのれんらくが[BR]とだえてしまった。[BR]そのバスターをさがしてくれ",
-  "en": "We've lost contact with a Buster who[BR]headed to the abandoned mine. Please[BR]find that Buster.",
+  "en": "We've lost contact with a Buster[BR]who headed to the abandoned[BR]mine. Please find that Buster.",
   "bytes": 102,
   "sites": [
    "2496F2:quest0C"
@@ -3472,7 +3472,7 @@
   "addr": "24C32A",
   "kind": "quest_desc",
   "jp": "デュオラ地方がとつぜん[BR]こごえるような寒さに[BR]なってしまったとのほうこくが[BR]入った。[BR]デュオラの鑑定小屋（ハウス）[BR]で話を聞くこと",
-  "en": "A report came in that the Duora[BR]region has suddenly turned freezing[BR]cold. Hear the story at the Duora[BR]Appraisal House.",
+  "en": "A report came in that the Duora[BR]region has suddenly turned[BR]freezing cold. Hear the story at[BR]the Duora Appraisal House.",
   "bytes": 132,
   "sites": [
    "24972D:quest0C"
@@ -3496,7 +3496,7 @@
   "addr": "24C3C0",
   "kind": "quest_desc",
   "jp": "ヴァンデルと思われる不審（ふしん）な人かげがトロワナの近くで[BR]もくげきされた。[BR]その調査（ちょうさ）を頼みたい。[BR]トロワナの鑑定小屋（ハウス）[BR]で話を聞くこと",
-  "en": "A suspicious figure, thought to be a[BR]Vandel, was sighted near Trowana.[BR]We'd like you to investigate. Hear[BR]the story at the Trowana Appraisal[BR]House.",
+  "en": "A suspicious figure, thought[BR]to be a Vandel, was sighted[BR]near Trowana. We'd like you to[BR]investigate. Hear the story at[BR]the Trowana Appraisal House.",
   "bytes": 160,
   "sites": [
    "249768:quest0C"
@@ -3640,7 +3640,7 @@
   "addr": "24C7E2",
   "kind": "quest_desc",
   "jp": "ムスリーの里で、なにやら[BR]ぶよぶよしたものが発見された。[BR]ムスリーの鑑定小屋（ハウス）[BR]で話を聞くように",
-  "en": "Something squishy has been found in[BR]Musley Village. Hear the story at[BR]the Musley Appraisal House.",
+  "en": "Something squishy has been found[BR]in Musley Village. Hear the story[BR]at the Musley Appraisal House.",
   "bytes": 106,
   "sites": [
    "2498D8:quest0C"
@@ -3688,7 +3688,7 @@
   "addr": "24C974",
   "kind": "quest_desc",
   "jp": "アサド山地の橋にいすわった[BR]「山の隠者（いんじゃ）」の謎かけ[BR]「高き頂（ただき）にたたずむ者。[BR]その頂点（ちょうてん）」[BR]その答えをもとめるため、[BR]テルセロンの里の「なぞなぞ名人」を[BR]訪問（ほうもん）する",
-  "en": "The \"Mountain Hermit\" sitting on the[BR]Asad Mountains bridge poses a[BR]conundrum: \"One who stands upon the[BR]high summit: its pinnacle.\" To find[BR]the answer, visit the \"Riddle[BR]Master\" of Terceron Village.",
+  "en": "The \"Mountain Hermit\" sitting on[BR]the Asad Mountains bridge poses a[BR]conundrum: \"One who stands upon[BR]the high summit: its pinnacle.\" To[BR]find the answer, visit the \"Riddle[BR]Master\" of Terceron Village.",
   "bytes": 206,
   "sites": [
    "24994E:quest0C"
@@ -3712,7 +3712,7 @@
   "addr": "24CA50",
   "kind": "quest_desc",
   "jp": "アサド山地の橋にいすわった[BR]「山の隠者（いんじゃ）」の謎かけ[BR]「大地に腰（こし）をすえ[BR]輝き（かがやき）をさえぎる者。[BR]その極み（きわみ）」。[BR]その答えをもとめるため、[BR]テルセロンの里の「なぞなぞ名人」を[BR]訪問（ほうもん）する",
-  "en": "The \"Mountain Hermit\" sitting on the[BR]Asad Mountains bridge poses a[BR]conundrum: \"One who sits rooted in[BR]the earth and blocks the radiance:[BR]its utmost.\" To find the answer,[BR]visit the \"Riddle Master\" of[BR]Terceron Village.",
+  "en": "The \"Mountain Hermit\" sitting on[BR]the Asad Mountains bridge poses a[BR]conundrum: \"One who sits rooted in[BR]the earth and blocks the radiance:[BR]its utmost.\" To find the answer,[BR]visit the \"Riddle Master\" of[BR]Terceron Village.",
   "bytes": 228,
   "sites": [
    "249989:quest0C"
@@ -3832,7 +3832,7 @@
   "addr": "24CE56",
   "kind": "quest_desc",
   "jp": "前にモンスターによりほろぼされた[BR]「トリアーク」を復興（ふっこう）することになった。[BR]そのためにはまず、[BR]トリアークにのこっているモンスターを一掃（いっそう）しなければならない",
-  "en": "It's been decided to rebuild[BR]\"Triark,\" once destroyed by[BR]monsters. To do that, the monsters[BR]still left in Triark must first be[BR]wiped out.",
+  "en": "It's been decided to rebuild[BR]\"Triark,\" once destroyed by[BR]monsters. To do that, the[BR]monsters still left in Triark[BR]must first be wiped out.",
   "bytes": 178,
   "sites": [
    "249AB0:quest0C"
@@ -3880,7 +3880,7 @@
   "addr": "24CFDC",
   "kind": "quest_desc",
   "jp": "黒の地平での植物の育ちが悪くなる中、この環境（かんきょう）にたえ、[BR]育つ植物もあるらしい。[BR]そういった植物を[BR]バスター協会（きょうかい）で[BR]研究したい。[BR]サンプルを持ち帰ってくれ",
-  "en": "As plants grow poorly on the Black[BR]Horizon, some are said to endure[BR]this environment and grow anyway.[BR]The Buster Association wants to[BR]study such plants. Please bring back[BR]samples.",
+  "en": "As plants grow poorly on the[BR]Black Horizon, some are said to[BR]endure this environment and grow[BR]anyway. The Buster Association[BR]wants to study such plants.[BR]Please bring back samples.",
   "bytes": 180,
   "sites": [
    "249B26:quest0C"
@@ -3904,7 +3904,7 @@
   "addr": "24D098",
   "kind": "quest_desc",
   "jp": "里を守ってくれている「門」と、[BR]里を囲む「カベ」。[BR]それらをきれいに掃除（そうじ）して[BR]きよめようという事になった。[BR]そのために清聖水（せいせいすい）を[BR]取ってきてほしい",
-  "en": "It's been decided to clean and[BR]purify the \"Gate\" that protects the[BR]village and the \"Wall\" around it.[BR]Please bring back Holy Water for the[BR]job.",
+  "en": "It's been decided to clean and[BR]purify the \"Gate\" that[BR]protects the village and the[BR]\"Wall\" around it. Please bring[BR]back Holy Water for the job.",
   "bytes": 172,
   "sites": [
    "249B5A:quest0C"
@@ -3952,7 +3952,7 @@
   "addr": "24D22E",
   "kind": "quest_desc",
   "jp": "パトレス山地でガケくずれが起きた。[BR]急いで助けにきてほしいとのこと",
-  "en": "A landslide has struck the Patres[BR]Mountains. They're asking for help,[BR]fast.",
+  "en": "A landslide has struck the[BR]Patres Mountains. They're[BR]asking for help, fast.",
   "bytes": 68,
   "sites": [
    "249BD0:quest0C"
@@ -3976,7 +3976,7 @@
   "addr": "24D27C",
   "kind": "quest_desc",
   "jp": "エトリア山地で商隊（しょうたい）が[BR]モンスターの襲撃（しゅうげき）を[BR]受けた。[BR]運よくにげのびた人のほうこくでは、[BR]モンスターは人間を殺さずに、[BR]どこかへつれ去ったらしい。[BR]さらわれた人をすくい出してほしい",
-  "en": "A merchant caravan was attacked by[BR]monsters in the Etria Mountains.[BR]According to someone who luckily[BR]escaped, the monsters didn't kill[BR]the people but carried them off[BR]somewhere. Please rescue the people[BR]who were taken.",
+  "en": "A merchant caravan was attacked by[BR]monsters in the Etria Mountains.[BR]According to someone who luckily[BR]escaped, the monsters didn't kill[BR]the people but carried them off[BR]somewhere. Please rescue the[BR]people who were taken.",
   "bytes": 208,
   "sites": [
    "249C0B:quest0C"
@@ -4024,7 +4024,7 @@
   "addr": "24D3F2",
   "kind": "quest_desc",
   "jp": "サドラムに移住（いじゅう）する[BR]予定だった人々が、[BR]先日の襲撃（しゅうげき）で[BR]難民（なんみん）となってしまった。[BR]かれらをトロワナで保護（ほご）する[BR]事になったので、[BR]その護衛（ごえい）をたのみたい",
-  "en": "The people who were going to move to[BR]Sadram became refugees in the recent[BR]attack. They're to be sheltered in[BR]Trowana, so we'd like you to escort[BR]them.",
+  "en": "The people who were going to[BR]move to Sadram became refugees[BR]in the recent attack. They're[BR]to be sheltered in Trowana, so[BR]we'd like you to escort them.",
   "bytes": 202,
   "sites": [
    "249C81:quest0C"
@@ -4192,7 +4192,7 @@
   "addr": "24DA7A",
   "kind": "quest_desc",
   "jp": "テルセロン山地に出没する[BR][FFC4]を[FFC5]匹倒してほしい",
-  "en": "Please hunt down[BR][FFC4] x[FFC5] prowling[BR]the Terceron Mountains.",
+  "en": "Please hunt down[BR][FFC4] x[FFC5][BR]prowling the Terceron Mountains.",
   "bytes": 48,
   "sites": [
    "24D951:quest0C"
@@ -4216,7 +4216,7 @@
   "addr": "24DAB8",
   "kind": "quest_desc",
   "jp": "テルセロン山地に[BR][FFC4]が大量発生した[BR][FFC5]匹以上倒してほしい",
-  "en": "There's an outbreak of[BR][FFC4] in the Terceron[BR]Mountains. Please defeat at least [FFC5][BR]of them.",
+  "en": "There's an outbreak of[BR][FFC4] in the[BR]Terceron Mountains. Please[BR]defeat at least [FFC5] of them.",
   "bytes": 58,
   "sites": [
    "24D96D:quest0C"
@@ -4240,7 +4240,7 @@
   "addr": "24DAFC",
   "kind": "quest_desc",
   "jp": "テルセロン山地に[BR][FFC4]が出没するので[BR]これを[FFC5]匹倒してほしい",
-  "en": "The monster [FFC4] has[BR]been showing up in the Terceron[BR]Mountains. Please defeat [FFC5] of[BR]them.",
+  "en": "The monster [FFC4][BR]has been showing up in the[BR]Terceron Mountains. Please[BR]defeat [FFC5] of them.",
   "bytes": 60,
   "sites": [
    "24D989:quest0C"
@@ -4336,7 +4336,7 @@
   "addr": "24DE9A",
   "kind": "quest_desc",
   "jp": "エトリア山地に出没する[BR][FFC4]を[FFC5]匹倒してほしい",
-  "en": "Please hunt down[BR][FFC4] x[FFC5] prowling[BR]the Etria Mountains.",
+  "en": "Please hunt down[BR][FFC4] x[FFC5][BR]prowling the Etria Mountains.",
   "bytes": 46,
   "sites": [
    "24DD71:quest0C"
@@ -4360,7 +4360,7 @@
   "addr": "24DED6",
   "kind": "quest_desc",
   "jp": "エトリア山地に[BR][FFC4]が大量発生した[BR][FFC5]匹以上倒してほしい",
-  "en": "There's an outbreak of[BR][FFC4] in the Etria[BR]Mountains. Please defeat at least [FFC5][BR]of them.",
+  "en": "There's an outbreak of[BR][FFC4] in the[BR]Etria Mountains. Please[BR]defeat at least [FFC5] of them.",
   "bytes": 56,
   "sites": [
    "24DD8D:quest0C"
@@ -4384,7 +4384,7 @@
   "addr": "24DF18",
   "kind": "quest_desc",
   "jp": "エトリア山地に[BR][FFC4]が出没するので[BR]これを[FFC5]匹倒してほしい",
-  "en": "The monster [FFC4] has[BR]been showing up in the Etria[BR]Mountains. Please defeat [FFC5] of[BR]them.",
+  "en": "The monster [FFC4][BR]has been showing up in the Etria[BR]Mountains. Please defeat [FFC5] of[BR]them.",
   "bytes": 58,
   "sites": [
    "24DDA9:quest0C"
@@ -4480,7 +4480,7 @@
   "addr": "24E38A",
   "kind": "quest_desc",
   "jp": "トロワナの森に出没する[BR][FFC4]を[FFC5]匹倒してほしい",
-  "en": "Please hunt down[BR][FFC4] x[FFC5] prowling[BR]Trowana Forest.",
+  "en": "Please hunt down[BR][FFC4] x[FFC5][BR]prowling Trowana Forest.",
   "bytes": 46,
   "sites": [
    "24E185:quest0C"
@@ -4504,7 +4504,7 @@
   "addr": "24E3C6",
   "kind": "quest_desc",
   "jp": "トロワナの森に[BR][FFC4]が大量発生した[BR][FFC5]匹以上倒してほしい",
-  "en": "There's an outbreak of[BR][FFC4] in Trowana[BR]Forest. Please defeat at least [FFC5][BR]of them.",
+  "en": "There's an outbreak of[BR][FFC4] in[BR]Trowana Forest. Please[BR]defeat at least [FFC5] of them.",
   "bytes": 56,
   "sites": [
    "24E1A1:quest0C"
@@ -4528,7 +4528,7 @@
   "addr": "24E408",
   "kind": "quest_desc",
   "jp": "トロワナの森に[BR][FFC4]が出没するので[BR]これを[FFC5]匹倒してほしい",
-  "en": "The monster [FFC4] has[BR]been showing up in Trowana Forest.[BR]Please defeat [FFC5] of them.",
+  "en": "The monster [FFC4][BR]has been showing up in Trowana[BR]Forest. Please defeat [FFC5] of them.",
   "bytes": 58,
   "sites": [
    "24E1BD:quest0C"
@@ -4576,7 +4576,7 @@
   "addr": "24E484",
   "kind": "quest_desc",
   "jp": "トロワナの森で調査しているバスターに荷物を届けて欲しい",
-  "en": "Please deliver a package to a Buster[BR]surveying Trowana Forest.",
+  "en": "Please deliver a package to a[BR]Buster surveying Trowana Forest.",
   "bytes": 56,
   "sites": [
    "24E23C:quest0C"
@@ -4624,7 +4624,7 @@
   "addr": "24E514",
   "kind": "quest_desc",
   "jp": "薬を作るのに必要なハーブが[BR]たりなくなったので[BR]森の遺跡のどこかに[BR]自生している[BR]ハーブを探してほしい",
-  "en": "We've run short of the herbs we need[BR]to make medicine. Please find the[BR]herbs growing wild somewhere in the[BR]Forest Ruins.",
+  "en": "We've run short of the herbs we[BR]need to make medicine. Please[BR]find the herbs growing wild[BR]somewhere in the Forest Ruins.",
   "bytes": 104,
   "sites": [
    "24E2E0:quest0C"
@@ -4648,7 +4648,7 @@
   "addr": "24E58C",
   "kind": "quest_desc",
   "jp": "暗いところにしかさかない[BR]めずらしい赤い花がある[BR]森の遺跡のどこかに[BR]自生している[BR]探しだしてほしい",
-  "en": "There's a rare red flower that[BR]blooms only in dark places. It grows[BR]wild somewhere in the Forest Ruins.[BR]Please find it.",
+  "en": "There's a rare red flower that[BR]blooms only in dark places. It[BR]grows wild somewhere in the[BR]Forest Ruins. Please find it.",
   "bytes": 102,
   "sites": [
    "24E315:quest0C"
@@ -4696,7 +4696,7 @@
   "addr": "24EA1A",
   "kind": "quest_desc",
   "jp": "アンクルス平原に出没する[BR][FFC4]を[FFC5]匹倒してほしい",
-  "en": "Please hunt down[BR][FFC4] x[FFC5] prowling[BR]the Anklus Plains.",
+  "en": "Please hunt down[BR][FFC4] x[FFC5][BR]prowling the Anklus Plains.",
   "bytes": 48,
   "sites": [
    "24E7C1:quest0C"
@@ -4720,7 +4720,7 @@
   "addr": "24EA58",
   "kind": "quest_desc",
   "jp": "アンクルス平原に[BR][FFC4]が大量発生した[BR][FFC5]匹以上倒してほしい",
-  "en": "There's an outbreak of[BR][FFC4] on the Anklus[BR]Plains. Please defeat at least [FFC5][BR]of them.",
+  "en": "There's an outbreak of[BR][FFC4] on the[BR]Anklus Plains. Please defeat[BR]at least [FFC5] of them.",
   "bytes": 58,
   "sites": [
    "24E7DD:quest0C"
@@ -4744,7 +4744,7 @@
   "addr": "24EA9C",
   "kind": "quest_desc",
   "jp": "アンクルス平原に[BR][FFC4]が出没するので[BR]これを[FFC5]匹倒してほしい",
-  "en": "The monster [FFC4] has[BR]been showing up on the Anklus[BR]Plains. Please defeat [FFC5] of them.",
+  "en": "The monster [FFC4][BR]has been showing up on the Anklus[BR]Plains. Please defeat [FFC5] of them.",
   "bytes": 60,
   "sites": [
    "24E7F9:quest0C"
@@ -4840,7 +4840,7 @@
   "addr": "24EBB0",
   "kind": "quest_desc",
   "jp": "薬を作るのに必要なハーブが[BR]たりなくなったので[BR]ムガインの死人沼のどこかに[BR]自生している[BR]ハーブを探してほしい",
-  "en": "We've run short of the herbs we need[BR]to make medicine. Please find the[BR]herbs growing wild somewhere in[BR]Mugine's Dead Swamp.",
+  "en": "We've run short of the herbs we[BR]need to make medicine. Please find[BR]the herbs growing wild somewhere[BR]in Mugine's Dead Swamp.",
   "bytes": 112,
   "sites": [
    "24E91C:quest0C"
@@ -4864,7 +4864,7 @@
   "addr": "24EC30",
   "kind": "quest_desc",
   "jp": "暗いところにしかさかない[BR]めずらしい赤い花がある[BR]ムガインの死人沼のどこかに[BR]自生しているので[BR]探しだしてほしい",
-  "en": "There's a rare red flower that[BR]blooms only in dark places. It grows[BR]wild somewhere in Mugine's Dead[BR]Swamp, so please find it.",
+  "en": "There's a rare red flower that[BR]blooms only in dark places. It[BR]grows wild somewhere in Mugine's[BR]Dead Swamp, so please find it.",
   "bytes": 114,
   "sites": [
    "24E951:quest0C"
@@ -4912,7 +4912,7 @@
   "addr": "24EF1A",
   "kind": "quest_desc",
   "jp": "ワンダラ山地に出没する[BR][FFC4]を[FFC5]匹倒してほしい",
-  "en": "Please hunt down[BR][FFC4] x[FFC5] prowling[BR]the Wandara Mountains.",
+  "en": "Please hunt down[BR][FFC4] x[FFC5][BR]prowling the Wandara Mountains.",
   "bytes": 46,
   "sites": [
    "24EE71:quest0C"
@@ -4936,7 +4936,7 @@
   "addr": "24EF56",
   "kind": "quest_desc",
   "jp": "ワンダラ山地に[BR][FFC4]が大量発生した[BR][FFC5]匹以上倒してほしい",
-  "en": "There's an outbreak of[BR][FFC4] in the Wandara[BR]Mountains. Please defeat at least [FFC5][BR]of them.",
+  "en": "There's an outbreak of[BR][FFC4] in the[BR]Wandara Mountains. Please[BR]defeat at least [FFC5] of them.",
   "bytes": 56,
   "sites": [
    "24EE8D:quest0C"
@@ -4960,7 +4960,7 @@
   "addr": "24EF98",
   "kind": "quest_desc",
   "jp": "ワンダラ山地に[BR][FFC4]が出没するので[BR]これを[FFC5]匹倒してほしい",
-  "en": "The monster [FFC4] has[BR]been showing up in the Wandara[BR]Mountains. Please defeat [FFC5] of[BR]them.",
+  "en": "The monster [FFC4][BR]has been showing up in the[BR]Wandara Mountains. Please defeat[BR][FFC5] of them.",
   "bytes": 58,
   "sites": [
    "24EEA9:quest0C"

@@ -532,7 +532,7 @@
   "addr": "DDA8FC",
   "kind": "ui",
   "jp": "中断データを保存中です。[BR]電源を切らないでください。",
-  "en": "Saving suspend data. Do not turn[BR]off the power.",
+  "en": "Saving suspend data. Do[BR]not turn off the power.",
   "bytes": 54,
   "refs": [
    "04E9B4"
@@ -554,7 +554,7 @@
   "addr": "DDA956",
   "kind": "ui",
   "jp": "中断データを保存しました。[BR]電源を切ってください。",
-  "en": "Suspend data saved. Please turn[BR]off the power.",
+  "en": "Suspend data saved. Please[BR]turn off the power.",
   "bytes": 52,
   "refs": [
    "04EA44"
@@ -602,7 +602,7 @@
   "addr": "DDAA10",
   "kind": "ui",
   "jp": "ゲームデータをセーブしています。電源を切らないでください。",
-  "en": "Saving game data. Do not turn[BR]off the power.",
+  "en": "Saving game data. Do not[BR]turn off the power.",
   "bytes": 60,
   "refs": [
    "04E67C"
@@ -922,7 +922,7 @@
   "addr": "DDABD4",
   "kind": "ui",
   "jp": "現在受けることのできる[BR]クエストはありません",
-  "en": "There are no quests you can accept[BR]right now.",
+  "en": "There are no quests you[BR]can accept right now.",
   "bytes": 46,
   "refs": [
    "037D44"
