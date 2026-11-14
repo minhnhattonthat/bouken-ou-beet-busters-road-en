@@ -41,6 +41,11 @@ No argument words seen after any of them. Literal pool words `0xFF70` at `0x5E4C
   mostly script bytes that happen to decode, plus some real lines (e.g. 0x1721AE, 0x174AB2 sit after `FF72`/`0001`
   inside a longer message: they are tails, not orphans). Phase 4 must walk the interpreter's opcode table rather than
   rely on byte patterns: the interpreter reads script bytes at `0x0802F66C`, `0x0802FD58`, `0x08030044` ... (watch log).
+- **Tail pointers** — verified (identity build): some sites point into the middle of another string: `0x1C209A` (tail of
+  `0x1C2058`, ・・[PAGE]ファントムストローク！！, likely a real reuse) and `0x210000` (inside `0x20FFD2`; probably a byte
+  pattern that isn't a real site). Phase 4 must keep such a tail pointing at the same text (or give it its own copy).
+- Codec: `tools/text16.py` (word-by-word over tbl.Table; unknown codes as `[HI][LO]`). `build.py --identity` re-encodes
+  all 13,172 distinct pool strings the 5B 59 / 7A sites reach and the ROM comes out byte-identical.
 - Strings are copied to RAM (`0x08007A5C`) before drawing, so lengths are bounded by that buffer (size: phase 5).
 
 ## Other text (0-terminated, same encoding) — located, formats not yet decoded
