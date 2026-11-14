@@ -103,7 +103,8 @@ def draw(img, rect, s, font, style=STYLE, x=None, top=2):
                 if ch == "#":
                     ink[(cx + gx, y0 + top + gy)] = style["fill"][gy]
         cx += len(font[c][0]) + 1
-    edge = {(px + dx, py + dy) for px, py in ink for dx in (-1, 0, 1) for dy in (-1, 0, 1)} - set(ink)
+    edge = {(px + dx, py + dy) for px, py in ink for dx in (-1, 0, 1) for dy in (-1, 0, 1)} - set(ink) \
+        if style["edge"] is not None else set()
     shadow = {(px + 1, py + 1) for px, py in edge | set(ink)} - edge - set(ink) if style["shadow"] else set()
     for pts, val in ((shadow, style["shadow"]), (edge, style["edge"])):
         for px, py in pts:
@@ -112,7 +113,7 @@ def draw(img, rect, s, font, style=STYLE, x=None, top=2):
             img[py][px] = val
     for (px, py), v in ink.items():
         img[py][px] = v
-    return max(px for px, _ in shadow | edge) + 1  # right end (exclusive)
+    return max(px for px, _ in shadow | edge | set(ink)) + 1  # right end (exclusive)
 
 
 def block(img, tx, ty):
@@ -173,6 +174,24 @@ REDRAWS = {
 }
 
 
+# Raw strips loaded by code (no tilemap in ROM): (offset, cols, rows, text, style). G4 toolbox/equip tabs, 48x16
+# each in row-major tiles at 0x0830A720 + k * 0x180 (literal at 0x3EE6C), text centred on a transparent bg.
+TAB = dict(fill=(1, 1, 1, 1, 1, 1, 2, 2, 3, 3), edge=4, shadow=None, bg=0)
+TAB_FLAT = dict(TAB, edge=None)  # 天撃 / 才牙 tabs are drawn without an outline
+RAW = [(0x30A720 + k * 0x180, 6, 2, t, s) for k, (t, s) in enumerate([
+    ("Weapons", TAB), ("Armor", TAB), ("Valuables", TAB), ("Other", TAB), ("Goods", TAB), ("Items", TAB),
+    ("Divine", TAB_FLAT), ("Saiga", TAB_FLAT)])]
+
+
+def raw_strip(rom, off, cols, rows, text, style, font):
+    tiles = tiles_get(rom, off, cols * rows)
+    img = [[tiles[(y // 8) * cols + x // 8][(y % 8) * 8 + x % 8] for x in range(cols * 8)] for y in range(rows * 8)]
+    w = cols * 8
+    x = (w - text_width(font, text)) // 2
+    draw(img, (0, 0, w, rows * 8), text, font, style, x=x, top=2)
+    return tiles_put([list(block(img, tx, ty)) for ty in range(rows) for tx in range(cols)])
+
+
 def triple(rom, table):
     return tuple(struct.unpack_from("<I", rom, table + 4 * k)[0] - 0x08000000 for k in range(3))
 
@@ -194,6 +213,8 @@ def patches(rom):
         s = redraw(rom, table, font)
         out.append((s.tiles_at + 4, s.data(), f"gfx tiles {table:X}"))
         out.append((s.map_at + 4, struct.pack(f"<{len(s.map)}H", *s.map), f"gfx map {table:X}"))
+    for off, cols, rows, text, style in RAW:
+        out.append((off, raw_strip(rom, off, cols, rows, text, style, font), f"gfx raw {off:X} {text}"))
     return out
 
 
@@ -206,6 +227,7 @@ def regions():
         n = struct.unpack_from("<I", rom, t)[0] // 2
         w, h = struct.unpack_from("<HH", rom, m)
         out += [(t + 4, t + 4 + n, f"gfx tiles {table:X}"), (m + 4, m + 4 + 2 * w * h, f"gfx map {table:X}")]
+    out += [(off, off + cols * rows * 32, f"gfx raw {text}") for off, cols, rows, text, _ in RAW]
     return out
 
 
