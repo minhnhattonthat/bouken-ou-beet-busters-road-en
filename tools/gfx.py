@@ -393,7 +393,8 @@ def patches(rom):
     for k, name in enumerate(ICONS):
         out.append((ICONS_AT + k * 128, icon(rom, k, name), f"gfx quest icon {k} {name}"))
     out.append((SORT_AT, sort_badge(rom), "gfx SORT badge"))
-    return out
+    import logo  # G2 title logo (its own generator: TrueType lettering, per-cell palette banks)
+    return out + logo.patches(rom)
 
 
 def regions():
@@ -408,7 +409,8 @@ def regions():
     out += [(off, off + cols * rows * 32, f"gfx raw {text}") for off, cols, rows, text, *_ in RAW]
     out.append((ICONS_AT, ICONS_AT + len(ICONS) * 128, "gfx quest-type icons"))
     out.append((SORT_AT, SORT_AT + 5 * 32, "gfx SORT badge"))
-    return out
+    import logo
+    return out + logo.regions(rom)
 
 
 def save_png(img, path, pal=None, zoom=3):

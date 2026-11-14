@@ -23,6 +23,18 @@ def test_dedupe_keeps_image():
     assert s.image() == before
 
 
+def test_logo_only_touches_its_rects():
+    import logo
+    rom = ROM.read_bytes()
+    s, pal, jp, err = logo.build_logo(rom)
+    en = logo.render(s, pal).load()
+    jpx = jp.load()
+    bad = {(x // 8, y // 8) for y in range(jp.height) for x in range(jp.width)
+           if en[x, y] != jpx[x, y] and not any(rx <= x < rx + rw and ry <= y < ry + rh for rx, ry, rw, rh in logo.CLEAR)}
+    assert bad <= set(err), sorted(bad - set(err))  # only cells that mix two banks' colours may shift
+    assert len(err) <= 20
+
+
 @pytest.mark.parametrize("table", sorted(gfx.REDRAWS))
 def test_redraw_only_touches_rects(table):
     rom = ROM.read_bytes()
