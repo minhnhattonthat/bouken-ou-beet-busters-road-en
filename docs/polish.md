@@ -72,7 +72,7 @@ Minor review findings; tick when applied or rejected (phase 9: none unticked).
 - [ ] ev:1BC160 - Beet: これでとどめだ！ - "This is the finishing blow!" is stiff for Beet. Suggested EN: "This finishes it!"
 - [ ] ev:1BCA72 - Slade: どうもこうもないだろ - needs a question mark or a flat statement. Suggested EN: "...Isn't it obvious?"
 - [ ] ev:1BD180 - Beet: 正義は守れる - "protect justice" is awkward English. Suggested EN: "Even if nobody sees us as the good guys... we can still stand up for justice!!"
-- [ ] ev:1BE0E8 - Dangol to Beet: あなたの大事なおつれサマ - "sire" is the word he uses for Grineed, and saying it to the enemy muddies that. Suggested EN: "And your precious companion, young sir... is right over there, as you can plainly see..."
+- [x] ev:1BE0E8 - Dangol to Beet: あなたの大事なおつれサマ - "sire" is the word he uses for Grineed, and saying it to the enemy muddies that. Suggested EN: "And your precious companion, young sir... is right over there, as you can plainly see..."
 - [ ] ev:1BEBE0 - Grineed: 評価の最優先事項になる - "become the top priority when it comes to rankings" is vague. Suggested EN: "...those like me, who invade human society according to a plan, [PAGE] would be the ones ranked highest, you see."
 - [ ] ev:1BF032 - Grineed: 今回のゲームはワタシの完敗だ - "I lose this game completely" is clunky. Suggested EN: "This game is a complete defeat for me...!"
 - [ ] ev:1BF226 - Grineed: フウゥ - a sigh, not "Hmm". 他のくだらんヴァンデルたちの星をふやす = Beet ending up as a star for some other Vandel. Suggested EN: "Haaah... [...] ...And I'd hate for you to end up as a star for some other worthless Vandel..."
@@ -134,7 +134,7 @@ Minor review findings; tick when applied or rejected (phase 9: none unticked).
 - [ ] ev:19EC92 - へへっ！・・・って、オレもビックリしたよ "Heh heh! ...Actually, I was surprised too" - "Not that I wasn't surprised too" is a double negative that young readers will stumble on. - Heh heh! …Truth is, I was pretty surprised myself.
 
 ## r08
-- [ ] ev:1E0314 - このダンゴールが持ち帰るのです = "I, Dangol, shall take it back!" - "is mine, Dangol's, to bring back, sire" is clumsy, and Dangol's "sire" belongs to Grineed, not to the enemy party - "Why, it's you lot! That Orb... I, Dangol, shall be taking it home, indeed!!"
+- [x] ev:1E0314 - このダンゴールが持ち帰るのです = "I, Dangol, shall take it back!" - "is mine, Dangol's, to bring back, sire" is clumsy, and Dangol's "sire" belongs to Grineed, not to the enemy party - "Why, it's you lot! That Orb... I, Dangol, shall be taking it home, indeed!!"
 - [ ] ev:1E13A8 - 群がり犬ぅ～？ (stretched, sceptical) - the drawn-out tone is gone - "Pack Doooogs...?"
 - [ ] ev:1E18BE - かわいいもの見つけるの早くねぇか = "aren't you quick at spotting cute stuff?" - "Don't you find cute stuff kinda fast" is awkward - "Man, you sure are quick at spotting cute stuff, Poala!"
 - [ ] ev:1E1CBA - かわいそう・・・だったかな = "maybe we were a bit cruel to them / I feel sorry for them" (after killing the parent dog) - "it was a little sad" is vague and blunts the beat that Beet answers next - "......I guess I do feel... a little sorry for them, after all..."

@@ -5980,7 +5980,7 @@
   "addr": "0B1084",
   "kind": "name",
   "jp": "グリニデ変身後",
-  "en": "Grineed Transformed",
+  "en": "Transformed Grineed",
   "max": 20,
   "status": "done"
  },
@@ -5989,7 +5989,7 @@
   "addr": "0B1098",
   "kind": "kana",
   "jp": "なし",
-  "en": "Grineed Transformed",
+  "en": "Transformed Grineed",
   "max": 20,
   "status": "done"
  },
@@ -6007,7 +6007,7 @@
   "addr": "0B10F8",
   "kind": "menu",
   "jp": "なし",
-  "en": "Grineed Transformed",
+  "en": "Transformed Grineed",
   "max": 20,
   "status": "done"
  }

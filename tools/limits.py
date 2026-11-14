@@ -53,9 +53,8 @@ UI = {
     **{i: (20, "measured", "work/qa/qa7/rot f2180 (20 letters centred), qa7/slots f4170 (なし)") for i in
        ("ui:DDA83A", "ui:DDA844", "ui:DDA84C", "ui:DDA856", "ui:DDAC56")},
     # quest log page 2: 報酬 unit (ＭＧ, after the amount, wraps after 10), 期限 values (期限なし: 11th letter is the last
-    # drawn; 期限切れ and [FF01]日 share the row; both are in place: 8 / 4 letters anyway)
-    **{i: (10, "measured", "work/qa/qa9/quest (scene quest_log)") for i in
-       ("ui:DDABCE", "ui:DDABC4", "ui:DDABBA", "ui:DDABB4")},
+    # drawn); 期限切れ and [FF01]日 are unused (below)
+    **{i: (10, "measured", "work/qa/qa9/quest (scene quest_log)") for i in ("ui:DDABCE", "ui:DDABC4")},
     # suspend NOTICE: auto-wraps at 24 letters per line, 2 lines above the yes/no row; use [BR] at 24
     "ui:DDA8D2": (24, "measured", "work/qa/qa9/suspend (24 per line, 2 lines)"),
     # はい / いいえ under a NOTICE: the 8th letter wraps
@@ -95,9 +94,13 @@ UI = {
     # (0x0800FECA..0x0800FEE8); the longest JP name (10 cells) + label (7 cells) fit, so 7 cells for each
     **{i: (14, "measured", "code: 0x0800FED8 label after the name (Saiga level-up not reached)") for i in
        ("ui:DDAC76", "ui:DDAC84", "ui:DDAC90", "ui:DDAC9C", "ui:DDACA6", "ui:DDACB6", "ui:DDACC0")},
-    # no pointer to these anywhere in the ROM (32-bit literal search; every other pool string has one)
+    # no pointer to these anywhere in the ROM (32-bit literal search; every other pool string has one);
+    # DDABBA 期限切れ / DDABB4 [FF01]日: the one 期限 draw (0x080383FC) draws 期限なし DDABC4 unconditionally
     **{i: (None, "unused", "no ROM literal points at it; in place within its bytes") for i in
-       ("ui:DDA800", "ui:DDA812", "ui:DDA824", "ui:DDA85E", "ui:DDA872", "ui:DDA878", "ui:DDA932", "ui:DDAB2C")},
+       ("ui:DDA800", "ui:DDA812", "ui:DDA824", "ui:DDA85E", "ui:DDA872", "ui:DDA878", "ui:DDA932", "ui:DDAB2C",
+        "ui:DDABBA")},
+    # the lint counts [FF01] as its widest number; the build still holds it to its 6 bytes (D11)
+    "ui:DDABB4": (10, "unused", "no ROM literal points at it; the 期限 row would give it 10 (work/qa/qa9/quest)"),
 }
 # UI lines per box where the JP's [BR] count is not the limit (id -> lines)
 UI_LINES = {"ui:DDA8FC": 2, "ui:DDAA10": 2, "ui:DDAA4C": 2, "ui:DDA956": 4, "ui:DDAC02": 2, "ui:DDABD4": 2,
@@ -227,6 +230,13 @@ def check(e, text):
     """Width/line errors of English text against the entry's budget (empty = fits)."""
     w, n, _, _ = budget(e)
     errs = []
+    room = field_cap(e) if "max" in e else None if e.get("sites") or e.get("refs") or "bytes" not in e \
+        else e["bytes"] - 2
+    if room is not None:  # in place, no pointer to move: the same room build.fit allows
+        import digraph
+        size = 2 * len(digraph.codes(text))
+        if size > room:
+            errs.append(f"{size} bytes > {room} in place")
     if "max" in e and n and n > 1 and "[BR]" not in text:  # DETAIL auto-wraps every w letters (batches.wrap pads)
         if len(text) > w * n:
             errs.append(f"{len(text)} letters > {n} lines of {w}")

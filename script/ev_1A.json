@@ -18605,7 +18605,7 @@
   "addr": "1AFA60",
   "kind": "msg",
   "jp": "はぁっ、はぁっ・・・[PAGE]悪いけど、[BR]あんたらカネックにやる金なんか[BR]１ＭＧ（マギー）も無いわよ！[PAGE]こちとら、バカなあいぼうのせいで・・・[BR]もう！！[WAIT]",
-  "en": "Huff, huff…[PAGE]Sorry, but I don't have a single Magi[BR]to give you Kanecks![PAGE]I'm already in this mess thanks to my[BR]idiot partner… Honestly!![WAIT]",
+  "en": "Huff, huff…[PAGE]Sorry, but I don't have a single MG to[BR]give you Kanecks![PAGE]I'm already in this mess thanks to my[BR]idiot partner… Honestly!![WAIT]",
   "bytes": 148,
   "sites": [
    "1AF5D2:op7A+2"

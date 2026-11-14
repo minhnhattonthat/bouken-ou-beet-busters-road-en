@@ -49,7 +49,7 @@
   "addr": "0B11EC",
   "kind": "name",
   "jp": "槌",
-  "en": "Hammer",
+  "en": "Mallet",
   "max": 20,
   "status": "done"
  },
@@ -76,7 +76,7 @@
   "addr": "0B1240",
   "kind": "name",
   "jp": "鉄球",
-  "en": "Iron Ball",
+  "en": "Flail",
   "max": 20,
   "status": "done"
  },

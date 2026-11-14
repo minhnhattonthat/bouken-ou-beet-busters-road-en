@@ -13243,7 +13243,7 @@
   "addr": "1BE0E8",
   "kind": "msg",
   "jp": "ワタシの名はダンゴール・・・[PAGE]そして[BR]あなたの大事なおつれサマは・・・[BR]ほら、あの通りでございます・・・[WAIT]",
-  "en": "My name is Dangol…[PAGE]And your precious companion, sire… is[BR]right over there, as you can see…[WAIT]",
+  "en": "My name is Dangol…[PAGE]And your precious companion… is right[BR]over there, as you can see…[WAIT]",
   "bytes": 108,
   "sites": [
    "1BD86C:op7A+2"

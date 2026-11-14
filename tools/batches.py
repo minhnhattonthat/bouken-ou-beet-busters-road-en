@@ -420,6 +420,12 @@ def main(argv):
     if cmd == "check" and not names:
         import test_lint
         bad = [f"{i}: {p}" for i, e in entries.items() if e.get("en") for p in test_lint.lint(e)]
+        for p in existing():  # an out-file fix never merged leaves script/ stale (phase-6 review)
+            if not (TL / f"{p.stem}.out.tsv").exists():
+                continue
+            _, rows = check_batch(p.stem, entries, terms)
+            bad += [f"{u}: {p.stem}.out.tsv not merged: {wrap(entries[u], en)!r} vs {entries[u].get('en')!r}"
+                    for u, en in rows.items() if wrap(entries[u], en) != entries[u].get("en")]
         print(f"{len(entries)} entries, {len(bad)} problems")
         print("\n".join(bad[:200]))
         return 1 if bad else 0

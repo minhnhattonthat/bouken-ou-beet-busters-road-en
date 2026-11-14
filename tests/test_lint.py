@@ -63,4 +63,7 @@ def test_check_catches_overflow():
     assert limits.check(e, "A" * 39 + "[WAIT]")
     assert limits.check(e, "A[BR]B[BR]C[BR]D[WAIT]")
     assert not limits.check(e, "A[BR]B[BR]C[PAGE]D[WAIT]")
+    inplace = {"id": "ui:X", "kind": "ui", "jp": "日日", "bytes": 6, "refs": []}  # 2 codes + terminator
+    assert not [m for m in limits.check(inplace, "days") if "bytes" in m]
+    assert [m for m in limits.check(inplace, "[FF01]days") if "bytes" in m]
     assert limits.line_letters("Hi [FF00]!") == 4 + 16 + 2
