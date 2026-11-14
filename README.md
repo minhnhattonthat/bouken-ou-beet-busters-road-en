@@ -1,6 +1,6 @@
-# <Game title> English translation
+# Bouken-Ou Beet: Busters Road English translation
 
-Unofficial English fan translation of **<Game title>** (<platform>, <publisher>, <year>): the source text and tools
+Unofficial English fan translation of **Bouken-Ou Beet: Busters Road** (Game Boy Advance, Bandai, 2005): the source text and tools
 that build the patch.
 
 **Just want to play?** Download the patch from [Releases](../../releases) and follow its README. This repository holds
