@@ -152,24 +152,16 @@ def fit(codes, size, what, cut):
     return b + bytes(size - len(b))
 
 
-def text(p, space, width=None):
+def text(p, space, width=None, qa=None):
     """English (or, with width, marker text) from script/*.json. Dialogue goes to free space and every recorded
     pointer site is moved (each asserted to hold the old address first); UI pool strings and table fields stay in
     place within their size. Entries with no English are left alone. Returns the count written."""
     import digraph
-    import tables
     n, placed = 0, {}
     for f in sorted((ROOT / "script").glob("*.json")):
         for e in json.loads(f.read_text(encoding="utf-8")):
             a = int(e["addr"], 16)
-            if e.get("kind") == "kana":
-                if width:  # sort keys, maybe never drawn: full-width JP codes, legible in either font
-                    name, rec, kind = e["id"].split(":")
-                    fw = "".join(chr(ord(c) + 0xFEE0) for c in f"{kind[0]}{name[:2]}{rec}".upper())
-                    p.put(a, tables.encode_field(fw[:e["max"] // 2], e["max"]), f"text:{e['id']}")
-                    n += 1
-                continue  # normal builds: see docs/re/font.md (kana sort keys)
-            en = marker(e, width) if width else e.get("en", "")
+            en = (qa or {}).get(e["id"]) or (marker(e, width) if width else e.get("en", ""))
             if not en:
                 continue
             # pointer words: event-script sites (scripts sharing code repeat one) or a UI string's code literals
@@ -195,7 +187,7 @@ def text(p, space, width=None):
     return n
 
 
-def build(identity_pass=False, marker_width=None):
+def build(identity_pass=False, marker_width=None, qa=None):
     check_rom.check()
     p = Patch(ROM.read_bytes())
     if identity_pass:
@@ -203,7 +195,7 @@ def build(identity_pass=False, marker_width=None):
     else:
         space = Space()
         font(p, space)
-        n = text(p, space, marker_width)
+        n = text(p, space, marker_width, qa)
         p.free_left = sum(hi - lo for lo, hi in space.free)
     if len(p.buf) != SIZE:
         raise ValueError(f"ROM size {len(p.buf):#x}, must stay {SIZE:#x}")
@@ -218,9 +210,12 @@ def main(argv=None):
     ap.add_argument("--identity", action="store_true", help="roundtrip every dialogue string, expect identical output")
     ap.add_argument("--marker", type=int, metavar="CHARS", nargs="?", const=38,
                     help="marker build: every line = the entry's id + a ruler, CHARS letters in all (default 38)")
+    ap.add_argument("--qa", action="append", default=[], metavar="ID=TEXT",
+                    help="stress test: this entry gets TEXT (repeatable), e.g. --qa \"ev:1995DC=One[BR]Two[WAIT]\"")
     ap.add_argument("--out", default=str(ROOT / "build" / "beet_en.gba"))
     a = ap.parse_args(argv)
-    p, n = build(a.identity, a.marker)
+    qa = dict(s.split("=", 1) for s in a.qa)
+    p, n = build(a.identity, a.marker, qa)
     out = Path(a.out)
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_bytes(p.buf)

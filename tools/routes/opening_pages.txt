@@ -1,0 +1,8 @@
+# opening: first dialogue box, A to page 2, wait for the typewriter
+600 -
+6 start
+150 -
+6 start
+500 -
+6 a
+500 -

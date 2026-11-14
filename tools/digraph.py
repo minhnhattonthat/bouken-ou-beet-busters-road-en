@@ -23,7 +23,7 @@ import text16  # noqa: E402
 FONT_EN = ROOT / "tbl" / "font_en.txt"
 JP_FONT, JP_CELLS = 0x6D814, 0x1F1E  # original font: cells 0..0x1F1D (docs/re/text.md)
 DIGRAPH = 0x2000
-CHARSET = (" !\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[]_abcdefghijklmnopqrstuvwxyz~…")
+CHARSET = (" !\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ_abcdefghijklmnopqrstuvwxyz~…")  # no [ ]: tags
 N = len(CHARSET)
 CELL = 24
 TAG = re.compile(r"\[[^\]]*\]")

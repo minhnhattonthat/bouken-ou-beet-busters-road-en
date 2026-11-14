@@ -17,10 +17,20 @@ in the half cell, cap rows 2-9, descenders 10-11.
 - Cost: no code change; every fixed field holds 2 letters per code unit (names 20 letters, descriptions 72).
 - Limit: fixed 6-px pitch. A run between tags with odd length ends in a half space, so text right after a
   runtime-inserted name ([FF00]) starts on a cell boundary.
-- Marker build: `build.py --marker [CHARS]` (default 40): every message = `ADDR ` + ruler `A-Z0-9a-z` per line,
-  names = last 4 hex digits of the address, fixed fields = `<table><rec><kind>` + ruler cut to the field; `kana` and
-  `menu` fields get full-width JP codes (`ＭＩＴ０００`), legible in either font.
+- Marker build: `build.py --marker [CHARS]` (default 38): every message line = `ADDR ` + ruler `A-Z0-9a-z`, CHARS
+  letters in all; names = last 4 hex digits + ruler (16 letters); fixed fields = `<table><rec><kind>` + ruler cut to
+  the field (`kana` and `menu` fields too: they draw in the 8x8 font). Dialogue and UI strings with pointers go to free
+  space (identical strings share one copy); UI strings without a pointer and table fields stay in place.
 
-## 8x8 menu font
-Raw gba4 tiles at `0x300000` (SJIS cell order; kana, Latin, digits, Greek, no kanji). Referenced from resource
-tables at `0x6BD088` and `0x961860`. Where the `menu` (kana) fields are drawn: see the width table below.
+## 8x8 menu font — verified
+Raw gba4 tiles, tile for code c at `0x300000 + (c-1)*32` (same SJIS-cell codes as the 12x12 font; kana, digits,
+symbols; body colour F, shadow E right/below). Drawn per code by `0x08005A2C(win, xtile, ytile, code)` (DMA of 32
+bytes from `[0x08005AB4] + code*32`, literal `0x082FFFE0`) and by the code at `0x08007160` (literal at `0x7234`); the
+string loop `0x08005D7C` advances one tile per code. (The ROM words `0x08300000` at 0x6BD088 / 0x961860 are pixel data.)
+DMA reads are invisible to Lua read hooks, which is why the trap test never saw it.
+Drawn in this font (marker tour): party names (field-menu panel, battle HUD), monster `kana` field (battle, bottom
+bar: the kana fields are display names in this font, not only sort keys), items/weapons `menu` field.
+**English:** `build.font` copies tiles 1..0xFFF (`0x300000-0x31FFE0`, includes the HUD label tiles) to free space,
+leaves the gap up to 0x2000 to the text allocator, appends 8,100 pair tiles (`digraph.tile8`: two 3-px letters from
+`tbl/font_tiny.txt` + shadow, 4-px pitch) at the same codes as the 12x12 cells, and moves both literals. So one
+English string draws in either font. Graphics edits to `0x300000-0x320000` must run before `build.font`.
