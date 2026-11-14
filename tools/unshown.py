@@ -41,7 +41,7 @@ def reason(e, starts, run):
     site = int(e["sites"][0].split(":")[0], 16) if e.get("sites") else int(e["addr"], 16)
     owner = starts[bisect.bisect_right(starts, site) - 1] if site >= starts[0] else None
     if owner in run:
-        return "branch", (f"event script {owner:X} run by runscripts (from area00, then on its own map with --stall): "
+        return "branch", (f"event script {owner:X} run by runscripts (from area00; most also on its own map with --stall): "
                           "this branch needs story flags, another choice, or a state the script waits on")
     return "notrun", f"event script {owner if owner is None else f'{owner:X}'} never started by the runner"
 
