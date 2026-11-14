@@ -227,6 +227,10 @@ def check(e, text):
     """Width/line errors of English text against the entry's budget (empty = fits)."""
     w, n, _, _ = budget(e)
     errs = []
+    if "max" in e and n and n > 1 and "[BR]" not in text:  # DETAIL auto-wraps every w letters (batches.wrap pads)
+        if len(text) > w * n:
+            errs.append(f"{len(text)} letters > {n} lines of {w}")
+        return errs
     for box in boxes(text):
         for ln in box:
             if line_letters(ln) > w:
