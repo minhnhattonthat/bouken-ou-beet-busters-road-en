@@ -4552,14 +4552,15 @@
   "addr": "212DD8",
   "kind": "banner",
   "jp": "鑑定小屋",
-  "en": "",
+  "en": "Appraisal House",
   "bytes": 10,
   "sites": [
    "211B72:op6F+5",
    "211B72:op6F+5",
    "211B72:op6F+5",
    "211B72:op6F+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:212DE2",
@@ -6228,7 +6229,7 @@
   "addr": "214996",
   "kind": "banner",
   "jp": "鑑定小屋",
-  "en": "",
+  "en": "Appraisal House",
   "bytes": 10,
   "sites": [
    "2133E8:op6F+5",
@@ -6237,7 +6238,8 @@
    "2133E8:op6F+5",
    "2133E8:op6F+5",
    "2133E8:op6F+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:2149A0",
@@ -7687,12 +7689,13 @@
   "addr": "216460",
   "kind": "msg",
   "jp": "オッケー！[WAIT]",
-  "en": "",
+  "en": "Gotcha![WAIT]",
   "bytes": 14,
   "sites": [
    "215368:op7A+2",
    "215368:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:21646E",
@@ -9280,7 +9283,7 @@
   "addr": "216EC8",
   "kind": "banner",
   "jp": "鑑定小屋",
-  "en": "",
+  "en": "Appraisal House",
   "bytes": 10,
   "sites": [
    "215ACB:op6F+5",
@@ -9289,7 +9292,8 @@
    "215ACB:op6F+5",
    "215ACB:op6F+5",
    "215ACB:op6F+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:216ED2",
@@ -12409,7 +12413,7 @@
   "addr": "21978E",
   "kind": "msg",
   "jp": "・・・ああ[WAIT]",
-  "en": "",
+  "en": "…Yeah.[WAIT]",
   "bytes": 14,
   "sites": [
    "217ABE:op7A+2",
@@ -12418,7 +12422,8 @@
    "217ABE:op7A+2",
    "217ABE:op7A+2",
    "217ABE:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:21979C",
@@ -13998,7 +14003,7 @@
   "addr": "21B33C",
   "kind": "msg",
   "jp": "！？[WAIT]",
-  "en": "",
+  "en": "?![WAIT]",
   "bytes": 8,
   "sites": [
    "219FC6:op7A+2",
@@ -14007,7 +14012,8 @@
    "219FC6:op7A+2",
    "219FC6:op7A+2",
    "219FC6:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:21B344",
@@ -15000,7 +15006,7 @@
   "addr": "21B95A",
   "kind": "msg",
   "jp": "！！[WAIT]",
-  "en": "",
+  "en": "!![WAIT]",
   "bytes": 8,
   "sites": [
    "21A292:op52+5",
@@ -15010,7 +15016,8 @@
    "21A292:op52+5",
    "21A292:op52+5",
    "21A292:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:21B962",
@@ -16368,7 +16375,7 @@
   "addr": "21C5E4",
   "kind": "msg",
   "jp": "！！[WAIT]",
-  "en": "",
+  "en": "!![WAIT]",
   "bytes": 8,
   "sites": [
    "21A689:op7A+2",
@@ -16380,7 +16387,8 @@
    "21A689:op7A+2",
    "21A689:op7A+2",
    "21A689:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:21C5EC",
@@ -16407,7 +16415,7 @@
   "addr": "21C5F6",
   "kind": "msg",
   "jp": "！[WAIT]",
-  "en": "",
+  "en": "![WAIT]",
   "bytes": 6,
   "sites": [
    "21A69F:op7A+2",
@@ -16419,7 +16427,8 @@
    "21A69F:op7A+2",
    "21A69F:op7A+2",
    "21A69F:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:21C5FC",
@@ -16602,7 +16611,7 @@
   "addr": "21C6C4",
   "kind": "msg",
   "jp": "！！？[WAIT]",
-  "en": "",
+  "en": "?!![WAIT]",
   "bytes": 10,
   "sites": [
    "21A702:op7A+2",
@@ -16614,7 +16623,8 @@
    "21A702:op7A+2",
    "21A702:op7A+2",
    "21A702:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:21C6CE",
@@ -18902,12 +18912,13 @@
   "addr": "21E72A",
   "kind": "msg",
   "jp": "！？[WAIT]",
-  "en": "",
+  "en": "?![WAIT]",
   "bytes": 8,
   "sites": [
    "21D923:op7A+2",
    "21D923:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:21E732",
@@ -19629,12 +19640,13 @@
   "addr": "21ED42",
   "kind": "msg",
   "jp": "！！[WAIT]",
-  "en": "",
+  "en": "!![WAIT]",
   "bytes": 8,
   "sites": [
    "21DB93:op52+5",
    "21DB93:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:21ED4A",

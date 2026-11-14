@@ -316,11 +316,12 @@
   "addr": "1A0B00",
   "kind": "banner",
   "jp": "鑑定小屋",
-  "en": "",
+  "en": "Appraisal House",
   "bytes": 10,
   "sites": [
    "1A0536:op6F+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1A0B0A",
@@ -795,11 +796,12 @@
   "addr": "1A1290",
   "kind": "msg",
   "jp": "ふむふむ[WAIT]",
-  "en": "",
+  "en": "Uh-huh, uh-huh.[WAIT]",
   "bytes": 12,
   "sites": [
    "1A06EB:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1A129C",
@@ -2018,11 +2020,12 @@
   "addr": "1A23D0",
   "kind": "banner",
   "jp": "鑑定小屋",
-  "en": "",
+  "en": "Appraisal House",
   "bytes": 10,
   "sites": [
    "1A218B:op6F+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1A23DA",
@@ -2632,11 +2635,12 @@
   "addr": "1A31E0",
   "kind": "banner",
   "jp": "鑑定小屋",
-  "en": "",
+  "en": "Appraisal House",
   "bytes": 10,
   "sites": [
    "1A2D06:op6F+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1A31EA",
@@ -3363,11 +3367,12 @@
   "addr": "1A3A0C",
   "kind": "msg",
   "jp": "！！[WAIT]",
-  "en": "",
+  "en": "!![WAIT]",
   "bytes": 8,
   "sites": [
    "1A2FD4:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1A3A14",
@@ -4766,11 +4771,12 @@
   "addr": "1A511C",
   "kind": "msg",
   "jp": "！？[WAIT]",
-  "en": "",
+  "en": "?![WAIT]",
   "bytes": 8,
   "sites": [
    "1A41EB:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1A5124",
@@ -4897,11 +4903,12 @@
   "addr": "1A5326",
   "kind": "msg",
   "jp": "・・・くっ！！[WAIT]",
-  "en": "",
+  "en": "…Ngh!![WAIT]",
   "bytes": 18,
   "sites": [
    "1A4277:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1A5338",
@@ -5604,11 +5611,12 @@
   "addr": "1A5B60",
   "kind": "msg",
   "jp": "・・・？[WAIT]",
-  "en": "",
+  "en": "…?[WAIT]",
   "bytes": 12,
   "sites": [
    "1A44D0:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1A5B6C",
@@ -6293,13 +6301,14 @@
   "addr": "1A6DCA",
   "kind": "msg",
   "jp": "！？[WAIT]",
-  "en": "",
+  "en": "?![WAIT]",
   "bytes": 8,
   "sites": [
    "1A62C8:op7A+2",
    "1A62C8:op7A+2",
    "1A62C8:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1A6DD2",
@@ -6404,13 +6413,14 @@
   "addr": "1A6E42",
   "kind": "msg",
   "jp": "！！[WAIT]",
-  "en": "",
+  "en": "!![WAIT]",
   "bytes": 8,
   "sites": [
    "1A634A:op7A+2",
    "1A634A:op7A+2",
    "1A634A:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1A6E4A",
@@ -7381,7 +7391,7 @@
   "addr": "1A73E2",
   "kind": "msg",
   "jp": "！！[WAIT]",
-  "en": "",
+  "en": "!![WAIT]",
   "bytes": 8,
   "sites": [
    "1A6767:op7A+2",
@@ -7403,7 +7413,8 @@
    "1A6767:op7A+2",
    "1A6767:op7A+2",
    "1A6767:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1A73EA",
@@ -10199,14 +10210,15 @@
   "addr": "1A8C90",
   "kind": "msg",
   "jp": "！！[WAIT]",
-  "en": "",
+  "en": "!![WAIT]",
   "bytes": 8,
   "sites": [
    "1A7EA3:op7A+2",
    "1A7EA3:op7A+2",
    "1A7EA3:op7A+2",
    "1A7EA3:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1A8C98",
@@ -10707,7 +10719,7 @@
   "addr": "1A90EC",
   "kind": "msg",
   "jp": "！？[WAIT]",
-  "en": "",
+  "en": "?![WAIT]",
   "bytes": 8,
   "sites": [
    "1A8034:op7A+2",
@@ -10717,7 +10729,8 @@
    "1A8034:op7A+2",
    "1A8034:op7A+2",
    "1A8034:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1A90F4",
@@ -11671,7 +11684,7 @@
   "addr": "1A95D8",
   "kind": "msg",
   "jp": "・・・？[WAIT]",
-  "en": "",
+  "en": "…?[WAIT]",
   "bytes": 12,
   "sites": [
    "1A82ED:op7A+2",
@@ -11688,7 +11701,8 @@
    "1A82ED:op7A+2",
    "1A82ED:op7A+2",
    "1A82ED:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1A95E4",
@@ -14091,11 +14105,12 @@
   "addr": "1AB5CA",
   "kind": "msg",
   "jp": "！！[WAIT]",
-  "en": "",
+  "en": "!![WAIT]",
   "bytes": 8,
   "sites": [
    "1AA7FE:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1AB5D2",
@@ -14570,11 +14585,12 @@
   "addr": "1ABA62",
   "kind": "msg",
   "jp": "！？[WAIT]",
-  "en": "",
+  "en": "?![WAIT]",
   "bytes": 8,
   "sites": [
    "1AA9FF:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1ABA6A",
@@ -15421,11 +15437,12 @@
   "addr": "1ACE18",
   "kind": "msg",
   "jp": "・・・？[WAIT]",
-  "en": "",
+  "en": "…?[WAIT]",
   "bytes": 12,
   "sites": [
    "1AC080:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1ACE24",
@@ -15444,11 +15461,12 @@
   "addr": "1ACE30",
   "kind": "msg",
   "jp": "・・・？[WAIT]",
-  "en": "",
+  "en": "…?[WAIT]",
   "bytes": 12,
   "sites": [
    "1AC096:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1ACE3C",
@@ -15635,11 +15653,12 @@
   "addr": "1AD05C",
   "kind": "msg",
   "jp": "ん？[WAIT]",
-  "en": "",
+  "en": "Hm?[WAIT]",
   "bytes": 8,
   "sites": [
    "1AC198:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1AD064",
@@ -16558,11 +16577,12 @@
   "addr": "1ADF80",
   "kind": "banner",
   "jp": "鑑定小屋",
-  "en": "",
+  "en": "Appraisal House",
   "bytes": 10,
   "sites": [
    "1ADA6B:op6F+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1ADF8A",
@@ -16905,11 +16925,12 @@
   "addr": "1AE36A",
   "kind": "msg",
   "jp": "！！？[WAIT]",
-  "en": "",
+  "en": "?!![WAIT]",
   "bytes": 10,
   "sites": [
    "1ADBE0:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1AE374",
@@ -17120,11 +17141,12 @@
   "addr": "1AE502",
   "kind": "msg",
   "jp": "！！[WAIT]",
-  "en": "",
+  "en": "!![WAIT]",
   "bytes": 8,
   "sites": [
    "1ADCCC:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1AE50A",
@@ -17779,11 +17801,12 @@
   "addr": "1AEF10",
   "kind": "banner",
   "jp": "鑑定小屋",
-  "en": "",
+  "en": "Appraisal House",
   "bytes": 10,
   "sites": [
    "1AECC5:op6F+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1AEF1A",

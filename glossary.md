@@ -280,6 +280,7 @@ Generic tags, used as the name box (24 letters). In dialogue the same words take
 | 灼熱の冥獄炎 | Blazing Dark Inferno | | Beltorze's Upper Dark Attack | |
 | ファントムストローク | Phantom Stroke | | Beltorze's attack | |
 | 陛下 | Majesty | | "Your Majesty" | |
+| 大気 | air | | 大気を練る = "draw in the air's power" (how a Buster charges Divine Attack); 大気が練れない "can't draw in the air's power" | |
 | 白砂輸送隊 | White Sand | | White Sand transport team | |
 | 初心者戦士団 | Novice Warriors | 16 | rank | |
 | 新米戦士団 | Rookie Warriors | 16 | rank | |

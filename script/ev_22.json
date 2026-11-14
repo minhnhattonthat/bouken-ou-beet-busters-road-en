@@ -1423,13 +1423,14 @@
   "addr": "221A28",
   "kind": "msg",
   "jp": "・・・・・・！！[WAIT]",
-  "en": "",
+  "en": "……!![WAIT]",
   "bytes": 20,
   "sites": [
    "221326:op7A+2",
    "221326:op7A+2",
    "221326:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:221A3C",
@@ -1450,13 +1451,14 @@
   "addr": "221A44",
   "kind": "msg",
   "jp": "！！[WAIT]",
-  "en": "",
+  "en": "!![WAIT]",
   "bytes": 8,
   "sites": [
    "22133C:op7A+2",
    "22133C:op7A+2",
    "22133C:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:221A4C",
@@ -2234,7 +2236,7 @@
   "addr": "222148",
   "kind": "msg",
   "jp": "・・・・・・！！[WAIT]",
-  "en": "",
+  "en": "……!![WAIT]",
   "bytes": 20,
   "sites": [
    "221606:op7A+2",
@@ -2243,7 +2245,8 @@
    "221606:op7A+2",
    "221606:op7A+2",
    "221606:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:22215C",
@@ -4212,7 +4215,7 @@
   "addr": "223EA6",
   "kind": "msg",
   "jp": "・・・えっ？[WAIT]",
-  "en": "",
+  "en": "…Huh?[WAIT]",
   "bytes": 16,
   "sites": [
    "222D1F:op7A+2",
@@ -4220,7 +4223,8 @@
    "222D1F:op7A+2",
    "222D1F:op7A+2",
    "222D1F:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:223EB6",
@@ -13806,13 +13810,14 @@
   "addr": "22B928",
   "kind": "msg",
   "jp": "・・・ビィト・・・！[WAIT]",
-  "en": "",
+  "en": "…Beet…![WAIT]",
   "bytes": 24,
   "sites": [
    "22B10E:op7A+2",
    "22B10E:op7A+2",
    "22B10E:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:22B940",

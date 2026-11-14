@@ -2168,12 +2168,13 @@
   "addr": "1D13E8",
   "kind": "msg",
   "jp": "うんうん[WAIT]",
-  "en": "",
+  "en": "Yeah, yeah.[WAIT]",
   "bytes": 12,
   "sites": [
    "1D0EE1:op7A+2",
    "1D0EE1:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1D13F4",
@@ -3088,7 +3089,7 @@
   "addr": "1D1AB8",
   "kind": "msg",
   "jp": "・・・ポアラ・・・[WAIT]",
-  "en": "",
+  "en": "…Poala…[WAIT]",
   "bytes": 22,
   "sites": [
    "1D11C1:op7A+2",
@@ -3098,7 +3099,8 @@
    "1D11C1:op7A+2",
    "1D11C1:op7A+2",
    "1D11C1:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1D1ACE",
@@ -3429,11 +3431,12 @@
   "addr": "1D1FD2",
   "kind": "msg",
   "jp": "！？[WAIT]",
-  "en": "",
+  "en": "?![WAIT]",
   "bytes": 8,
   "sites": [
    "1D1CDC:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1D1FDA",
@@ -3817,14 +3820,15 @@
   "addr": "1D219A",
   "kind": "msg",
   "jp": "くっ！！[WAIT]",
-  "en": "",
+  "en": "Ngh!![WAIT]",
   "bytes": 12,
   "sites": [
    "1D1E7C:op7A+2",
    "1D1E7C:op7A+2",
    "1D1E7C:op7A+2",
    "1D1E7C:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1D21A6",
@@ -4993,7 +4997,7 @@
   "addr": "1D31E8",
   "kind": "msg",
   "jp": "・・・・・・！！[WAIT]",
-  "en": "",
+  "en": "……!![WAIT]",
   "bytes": 20,
   "sites": [
    "1D264E:op7A+2",
@@ -5003,7 +5007,8 @@
    "1D264E:op7A+2",
    "1D264E:op7A+2",
    "1D264E:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1D31FC",
@@ -5750,7 +5755,7 @@
   "addr": "1D35D2",
   "kind": "msg",
   "jp": "！！！[WAIT]",
-  "en": "",
+  "en": "!!![WAIT]",
   "bytes": 10,
   "sites": [
    "1D2836:op7A+2",
@@ -5763,7 +5768,8 @@
    "1D2836:op7A+2",
    "1D2836:op7A+2",
    "1D2836:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1D35DC",
@@ -9367,14 +9373,15 @@
   "addr": "1D60F6",
   "kind": "msg",
   "jp": "！？[WAIT]",
-  "en": "",
+  "en": "?![WAIT]",
   "bytes": 8,
   "sites": [
    "1D54E5:op7A+2",
    "1D54E5:op7A+2",
    "1D54E5:op7A+2",
    "1D54E5:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1D60FE",
@@ -10139,7 +10146,7 @@
   "addr": "1D66C2",
   "kind": "msg",
   "jp": "！！[WAIT]",
-  "en": "",
+  "en": "!![WAIT]",
   "bytes": 8,
   "sites": [
    "1D5754:op7A+2",
@@ -10147,7 +10154,8 @@
    "1D5754:op7A+2",
    "1D5754:op7A+2",
    "1D5754:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1D66CA",
@@ -10837,7 +10845,7 @@
   "addr": "1D6BCC",
   "kind": "msg",
   "jp": "！？[WAIT]",
-  "en": "",
+  "en": "?![WAIT]",
   "bytes": 8,
   "sites": [
    "1D5949:op7A+2",
@@ -10848,7 +10856,8 @@
    "1D5949:op7A+2",
    "1D5949:op7A+2",
    "1D5949:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1D6BD4",
@@ -11243,7 +11252,7 @@
   "addr": "1D6DD8",
   "kind": "msg",
   "jp": "！！？[WAIT]",
-  "en": "",
+  "en": "?!![WAIT]",
   "bytes": 10,
   "sites": [
    "1D5A3A:op7A+2",
@@ -11255,7 +11264,8 @@
    "1D5A3A:op7A+2",
    "1D5A3A:op7A+2",
    "1D5A3A:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1D6DE2",
@@ -11442,7 +11452,7 @@
   "addr": "1D6E6A",
   "kind": "msg",
   "jp": "！！[WAIT]",
-  "en": "",
+  "en": "!![WAIT]",
   "bytes": 8,
   "sites": [
    "1D5AAD:op7A+2",
@@ -11454,7 +11464,8 @@
    "1D5AAD:op7A+2",
    "1D5AAD:op7A+2",
    "1D5AAD:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1D6E72",
@@ -13454,7 +13465,7 @@
   "addr": "1D8080",
   "kind": "msg",
   "jp": "・・・・・・！！[WAIT]",
-  "en": "",
+  "en": "……!![WAIT]",
   "bytes": 20,
   "sites": [
    "1D77D4:op7A+2",
@@ -13463,7 +13474,8 @@
    "1D77D4:op7A+2",
    "1D77D4:op7A+2",
    "1D77D4:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1D8094",
@@ -15329,7 +15341,7 @@
   "addr": "1D9F28",
   "kind": "msg",
   "jp": "・・・えっ？[WAIT]",
-  "en": "",
+  "en": "…Huh?[WAIT]",
   "bytes": 16,
   "sites": [
    "1D8B25:op52+5",
@@ -15338,7 +15350,8 @@
    "1D8B25:op52+5",
    "1D8B25:op52+5",
    "1D8B25:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1D9F38",
@@ -16059,7 +16072,7 @@
   "addr": "1DA3D6",
   "kind": "msg",
   "jp": "えっ！！[WAIT]",
-  "en": "",
+  "en": "Whoa!![WAIT]",
   "bytes": 12,
   "sites": [
    "1D8CDC:op7A+2",
@@ -16073,7 +16086,8 @@
    "1D8CDC:op7A+2",
    "1D8CDC:op7A+2",
    "1D8CDC:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1DA3E2",
@@ -17663,7 +17677,7 @@
   "addr": "1DAFA4",
   "kind": "msg",
   "jp": "ん？[WAIT]",
-  "en": "",
+  "en": "Hm?[WAIT]",
   "bytes": 8,
   "sites": [
    "1D8F8B:op7A+2",
@@ -17680,7 +17694,8 @@
    "1D8F8B:op7A+2",
    "1D8F8B:op7A+2",
    "1D8F8B:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1DAFAC",
@@ -18212,12 +18227,13 @@
   "addr": "1DB2EC",
   "kind": "msg",
   "jp": "ああっ！！！[WAIT]",
-  "en": "",
+  "en": "Aaah!!![WAIT]",
   "bytes": 16,
   "sites": [
    "1D9171:op7A+2",
    "1D9171:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1DB2FC",
@@ -19382,13 +19398,14 @@
   "addr": "1DBE6C",
   "kind": "msg",
   "jp": "・・・？[WAIT]",
-  "en": "",
+  "en": "…?[WAIT]",
   "bytes": 12,
   "sites": [
    "1D95FB:op52+5",
    "1D95FB:op52+5",
    "1D95FB:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1DBE78",
@@ -22264,7 +22281,7 @@
   "addr": "1DD986",
   "kind": "msg",
   "jp": "うおっ！！[WAIT]",
-  "en": "",
+  "en": "Whoa!![WAIT]",
   "bytes": 14,
   "sites": [
    "1DCB79:op7A+2",
@@ -22281,7 +22298,8 @@
    "1DCB79:op7A+2",
    "1DCB79:op7A+2",
    "1DCB79:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1DD994",
@@ -22992,11 +23010,12 @@
   "addr": "1DE3D0",
   "kind": "banner",
   "jp": "鑑定小屋",
-  "en": "",
+  "en": "Appraisal House",
   "bytes": 10,
   "sites": [
    "1DDC2B:op6F+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1DE3DA",
@@ -23380,12 +23399,13 @@
   "addr": "1DE8F2",
   "kind": "msg",
   "jp": "ふむふむ[WAIT]",
-  "en": "",
+  "en": "Uh-huh, uh-huh.[WAIT]",
   "bytes": 12,
   "sites": [
    "1DDDA1:op7A+2",
    "1DDDA1:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1DE8FE",
@@ -24998,12 +25018,13 @@
   "addr": "1DFF30",
   "kind": "banner",
   "jp": "鑑定小屋",
-  "en": "",
+  "en": "Appraisal House",
   "bytes": 10,
   "sites": [
    "1DF845:op6F+5",
    "1DF845:op6F+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1DFF3A",
