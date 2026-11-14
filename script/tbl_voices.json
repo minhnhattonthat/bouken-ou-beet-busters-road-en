@@ -1,0 +1,2114 @@
+[
+ {
+  "id": "voices:000:shout",
+  "addr": "0B2D2C",
+  "kind": "shout",
+  "jp": "戦闘開始時",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:000:shout",
+  "addr": "0B2D4C",
+  "kind": "shout",
+  "jp": "戦闘開始時",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:000:shout",
+  "addr": "0B2D6C",
+  "kind": "shout",
+  "jp": "攻撃",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:000:shout",
+  "addr": "0B2D8C",
+  "kind": "shout",
+  "jp": "攻撃",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:000:shout",
+  "addr": "0B2DAC",
+  "kind": "shout",
+  "jp": "攻撃",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:000:shout",
+  "addr": "0B2DCC",
+  "kind": "shout",
+  "jp": "天撃開始",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:000:shout",
+  "addr": "0B2DEC",
+  "kind": "shout",
+  "jp": "天撃開始",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:000:shout",
+  "addr": "0B2E0C",
+  "kind": "shout",
+  "jp": "天撃開始",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:000:shout",
+  "addr": "0B2E2C",
+  "kind": "shout",
+  "jp": "ダメージ",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:000:shout",
+  "addr": "0B2E4C",
+  "kind": "shout",
+  "jp": "ダメージ",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:000:shout",
+  "addr": "0B2E6C",
+  "kind": "shout",
+  "jp": "ダメージ",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:001:shout",
+  "addr": "0B2EA4",
+  "kind": "shout",
+  "jp": "みんな、気をつけて！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:001:shout",
+  "addr": "0B2EC4",
+  "kind": "shout",
+  "jp": "さっさと片付けるわよ！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:001:shout",
+  "addr": "0B2EE4",
+  "kind": "shout",
+  "jp": "行っけえぇーーー！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:001:shout",
+  "addr": "0B2F04",
+  "kind": "shout",
+  "jp": "こンのぉーーーーっ！！！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:001:shout",
+  "addr": "0B2F24",
+  "kind": "shout",
+  "jp": "えい！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:001:shout",
+  "addr": "0B2F44",
+  "kind": "shout",
+  "jp": "ビィトお願い！敵を引き付けて！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:001:shout",
+  "addr": "0B2F64",
+  "kind": "shout",
+  "jp": "いくわよ！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:001:shout",
+  "addr": "0B2F84",
+  "kind": "shout",
+  "jp": "これでどう！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:001:shout",
+  "addr": "0B2FA4",
+  "kind": "shout",
+  "jp": "このくらいで・・・",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:001:shout",
+  "addr": "0B2FC4",
+  "kind": "shout",
+  "jp": "うあっ！！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:001:shout",
+  "addr": "0B2FE4",
+  "kind": "shout",
+  "jp": "くっ！！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:002:shout",
+  "addr": "0B301C",
+  "kind": "shout",
+  "jp": "さぁ、行こう。",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:002:shout",
+  "addr": "0B303C",
+  "kind": "shout",
+  "jp": "敵だ！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:002:shout",
+  "addr": "0B305C",
+  "kind": "shout",
+  "jp": "えぇい！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:002:shout",
+  "addr": "0B307C",
+  "kind": "shout",
+  "jp": "たああああーーーっ！！！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:002:shout",
+  "addr": "0B309C",
+  "kind": "shout",
+  "jp": "これでどうだい。",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:002:shout",
+  "addr": "0B30BC",
+  "kind": "shout",
+  "jp": "これでどうだい。",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:002:shout",
+  "addr": "0B30DC",
+  "kind": "shout",
+  "jp": "行くよ。",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:002:shout",
+  "addr": "0B30FC",
+  "kind": "shout",
+  "jp": "ビィト、少し時間を稼いで！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:002:shout",
+  "addr": "0B311C",
+  "kind": "shout",
+  "jp": "うわぁっ！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:002:shout",
+  "addr": "0B313C",
+  "kind": "shout",
+  "jp": "ううっ！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:002:shout",
+  "addr": "0B315C",
+  "kind": "shout",
+  "jp": "ぐっ！！！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:003:shout",
+  "addr": "0B3194",
+  "kind": "shout",
+  "jp": "！！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:003:shout",
+  "addr": "0B31B4",
+  "kind": "shout",
+  "jp": "いくぞ！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:003:shout",
+  "addr": "0B31D4",
+  "kind": "shout",
+  "jp": "フッ",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:003:shout",
+  "addr": "0B31F4",
+  "kind": "shout",
+  "jp": "・・・",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:003:shout",
+  "addr": "0B3214",
+  "kind": "shout",
+  "jp": "！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:003:shout",
+  "addr": "0B3234",
+  "kind": "shout",
+  "jp": "行くぞ！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:003:shout",
+  "addr": "0B3254",
+  "kind": "shout",
+  "jp": "これで・・・どうだ！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:003:shout",
+  "addr": "0B3274",
+  "kind": "shout",
+  "jp": "覚悟！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:003:shout",
+  "addr": "0B3294",
+  "kind": "shout",
+  "jp": "ちっ・・・！！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:003:shout",
+  "addr": "0B32B4",
+  "kind": "shout",
+  "jp": "・・・くっ！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:003:shout",
+  "addr": "0B32D4",
+  "kind": "shout",
+  "jp": "まだだっ！！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:004:shout",
+  "addr": "0B330C",
+  "kind": "shout",
+  "jp": "邪魔しちゃダメよぉ！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:004:shout",
+  "addr": "0B332C",
+  "kind": "shout",
+  "jp": "さぁ！大掃除のはじまりよ",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:004:shout",
+  "addr": "0B334C",
+  "kind": "shout",
+  "jp": "そうはイカの・・・金時計よ！！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:004:shout",
+  "addr": "0B336C",
+  "kind": "shout",
+  "jp": "ハァッ！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:004:shout",
+  "addr": "0B338C",
+  "kind": "shout",
+  "jp": "とぅ！！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:004:shout",
+  "addr": "0B33AC",
+  "kind": "shout",
+  "jp": "行くわよ！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:004:shout",
+  "addr": "0B33CC",
+  "kind": "shout",
+  "jp": "天撃のぉ・・・",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:004:shout",
+  "addr": "0B33EC",
+  "kind": "shout",
+  "jp": "まだまだこれからよ！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:004:shout",
+  "addr": "0B340C",
+  "kind": "shout",
+  "jp": "！！！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:004:shout",
+  "addr": "0B342C",
+  "kind": "shout",
+  "jp": "キャァ！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:004:shout",
+  "addr": "0B344C",
+  "kind": "shout",
+  "jp": "うっ！！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:005:shout",
+  "addr": "0B3484",
+  "kind": "shout",
+  "jp": "いっくぜぇ！！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:005:shout",
+  "addr": "0B34A4",
+  "kind": "shout",
+  "jp": "じゃまするな！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:005:shout",
+  "addr": "0B34C4",
+  "kind": "shout",
+  "jp": "甘ぇよ！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:005:shout",
+  "addr": "0B34E4",
+  "kind": "shout",
+  "jp": "おらぁ！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:005:shout",
+  "addr": "0B3504",
+  "kind": "shout",
+  "jp": "まだまだぁ！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:005:shout",
+  "addr": "0B3524",
+  "kind": "shout",
+  "jp": "これでもくらえ！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:005:shout",
+  "addr": "0B3544",
+  "kind": "shout",
+  "jp": "どうだぁ！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:005:shout",
+  "addr": "0B3564",
+  "kind": "shout",
+  "jp": "おりゃぁ！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:005:shout",
+  "addr": "0B3584",
+  "kind": "shout",
+  "jp": "うおっ！！！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:005:shout",
+  "addr": "0B35A4",
+  "kind": "shout",
+  "jp": "グアッ",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:005:shout",
+  "addr": "0B35C4",
+  "kind": "shout",
+  "jp": "グオッ",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:006:shout",
+  "addr": "0B35FC",
+  "kind": "shout",
+  "jp": "行くよ！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:006:shout",
+  "addr": "0B361C",
+  "kind": "shout",
+  "jp": "さぁ、気を引きしめなよ！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:006:shout",
+  "addr": "0B363C",
+  "kind": "shout",
+  "jp": "それ！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:006:shout",
+  "addr": "0B365C",
+  "kind": "shout",
+  "jp": "えい！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:006:shout",
+  "addr": "0B367C",
+  "kind": "shout",
+  "jp": "そこ！！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:006:shout",
+  "addr": "0B369C",
+  "kind": "shout",
+  "jp": "天撃いくよぉ！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:006:shout",
+  "addr": "0B36BC",
+  "kind": "shout",
+  "jp": "みんな、どいたどいたぁ！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:006:shout",
+  "addr": "0B36DC",
+  "kind": "shout",
+  "jp": "行くよーーー！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:006:shout",
+  "addr": "0B36FC",
+  "kind": "shout",
+  "jp": "うっ！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:006:shout",
+  "addr": "0B371C",
+  "kind": "shout",
+  "jp": "何だって！！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:006:shout",
+  "addr": "0B373C",
+  "kind": "shout",
+  "jp": "まだまだだよ！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:007:shout",
+  "addr": "0B3774",
+  "kind": "shout",
+  "jp": "どけッどけッ！！邪魔だ！！！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:007:shout",
+  "addr": "0B3794",
+  "kind": "shout",
+  "jp": "軽くひねってやる！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:007:shout",
+  "addr": "0B37B4",
+  "kind": "shout",
+  "jp": "ふざけんな！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:007:shout",
+  "addr": "0B37D4",
+  "kind": "shout",
+  "jp": "この！！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:007:shout",
+  "addr": "0B37F4",
+  "kind": "shout",
+  "jp": "てめぇ！！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:007:shout",
+  "addr": "0B3814",
+  "kind": "shout",
+  "jp": "うりゃぁ！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:007:shout",
+  "addr": "0B3834",
+  "kind": "shout",
+  "jp": "おっしゃー！！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:007:shout",
+  "addr": "0B3854",
+  "kind": "shout",
+  "jp": "そりゃぁ！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:007:shout",
+  "addr": "0B3874",
+  "kind": "shout",
+  "jp": "ちっ！！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:007:shout",
+  "addr": "0B3894",
+  "kind": "shout",
+  "jp": "くっ！！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:007:shout",
+  "addr": "0B38B4",
+  "kind": "shout",
+  "jp": "ぐはっ！！！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:008:shout",
+  "addr": "0B38EC",
+  "kind": "shout",
+  "jp": "ちっ、敵だぜ！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:008:shout",
+  "addr": "0B390C",
+  "kind": "shout",
+  "jp": "死なないていどにがんばるか。",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:008:shout",
+  "addr": "0B392C",
+  "kind": "shout",
+  "jp": "よっ！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:008:shout",
+  "addr": "0B394C",
+  "kind": "shout",
+  "jp": "ハッ！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:008:shout",
+  "addr": "0B396C",
+  "kind": "shout",
+  "jp": "たー！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:008:shout",
+  "addr": "0B398C",
+  "kind": "shout",
+  "jp": "天撃いくぞ！！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:008:shout",
+  "addr": "0B39AC",
+  "kind": "shout",
+  "jp": "これでもくらいな！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:008:shout",
+  "addr": "0B39CC",
+  "kind": "shout",
+  "jp": "こいつで、どうだ！！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:008:shout",
+  "addr": "0B39EC",
+  "kind": "shout",
+  "jp": "ううっ・・・",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:008:shout",
+  "addr": "0B3A0C",
+  "kind": "shout",
+  "jp": "くぅ！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:008:shout",
+  "addr": "0B3A2C",
+  "kind": "shout",
+  "jp": "うぉ！！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:009:shout",
+  "addr": "0B3A64",
+  "kind": "shout",
+  "jp": "いくぞ・・・小僧・・・！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:009:shout",
+  "addr": "0B3A84",
+  "kind": "shout",
+  "jp": "よっぽど殺されたいらしい・・・！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:009:shout",
+  "addr": "0B3AA4",
+  "kind": "shout",
+  "jp": "どうした！？",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:009:shout",
+  "addr": "0B3AC4",
+  "kind": "shout",
+  "jp": "今だァッ！！！！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:009:shout",
+  "addr": "0B3AE4",
+  "kind": "shout",
+  "jp": "くらうがいい・・・",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:009:shout",
+  "addr": "0B3B04",
+  "kind": "shout",
+  "jp": "・・・次だ！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:009:shout",
+  "addr": "0B3B24",
+  "kind": "shout",
+  "jp": "くらえ！！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:009:shout",
+  "addr": "0B3B44",
+  "kind": "shout",
+  "jp": "フン！！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:009:shout",
+  "addr": "0B3B64",
+  "kind": "shout",
+  "jp": "やりよる",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:009:shout",
+  "addr": "0B3B84",
+  "kind": "shout",
+  "jp": "！！！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:009:shout",
+  "addr": "0B3BA4",
+  "kind": "shout",
+  "jp": "ガフッ",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:010:shout",
+  "addr": "0B3BDC",
+  "kind": "shout",
+  "jp": "さぁ・・・お相手しましょう",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:010:shout",
+  "addr": "0B3BFC",
+  "kind": "shout",
+  "jp": "勝負ですよボウヤ・・・",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:010:shout",
+  "addr": "0B3C1C",
+  "kind": "shout",
+  "jp": "計算通りです",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:010:shout",
+  "addr": "0B3C3C",
+  "kind": "shout",
+  "jp": "動くと正確に切れんだろーがあっ！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:010:shout",
+  "addr": "0B3C5C",
+  "kind": "shout",
+  "jp": "遅ォい！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:010:shout",
+  "addr": "0B3C7C",
+  "kind": "shout",
+  "jp": "無駄無駄ぁ・・・",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:010:shout",
+  "addr": "0B3C9C",
+  "kind": "shout",
+  "jp": "カアァッ！！！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:010:shout",
+  "addr": "0B3CBC",
+  "kind": "shout",
+  "jp": "死ねエエエェッ！！！！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:010:shout",
+  "addr": "0B3CDC",
+  "kind": "shout",
+  "jp": "バ・・・バカなっ・・・",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:010:shout",
+  "addr": "0B3CFC",
+  "kind": "shout",
+  "jp": "！！？",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:010:shout",
+  "addr": "0B3D1C",
+  "kind": "shout",
+  "jp": "計算に・・・合ってないっ",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:011:shout",
+  "addr": "0B3D54",
+  "kind": "shout",
+  "jp": "なし",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:011:shout",
+  "addr": "0B3D74",
+  "kind": "shout",
+  "jp": "なし",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:011:shout",
+  "addr": "0B3D94",
+  "kind": "shout",
+  "jp": "殺してやる！！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:011:shout",
+  "addr": "0B3DB4",
+  "kind": "shout",
+  "jp": "クソ人間がっ！！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:011:shout",
+  "addr": "0B3DD4",
+  "kind": "shout",
+  "jp": "エクセレント！！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:011:shout",
+  "addr": "0B3DF4",
+  "kind": "shout",
+  "jp": "フン！！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:011:shout",
+  "addr": "0B3E14",
+  "kind": "shout",
+  "jp": "フン！！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:011:shout",
+  "addr": "0B3E34",
+  "kind": "shout",
+  "jp": "フン！！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:011:shout",
+  "addr": "0B3E54",
+  "kind": "shout",
+  "jp": "クソがッ！！！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:011:shout",
+  "addr": "0B3E74",
+  "kind": "shout",
+  "jp": "ギリッ",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:011:shout",
+  "addr": "0B3E94",
+  "kind": "shout",
+  "jp": "無礼なっ・・・！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:012:shout",
+  "addr": "0B3ECC",
+  "kind": "shout",
+  "jp": "感謝して殺されろよッ！！！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:012:shout",
+  "addr": "0B3EEC",
+  "kind": "shout",
+  "jp": "なし",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:012:shout",
+  "addr": "0B3F0C",
+  "kind": "shout",
+  "jp": "ウオオオオオッ！！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:012:shout",
+  "addr": "0B3F2C",
+  "kind": "shout",
+  "jp": "ガァァアーーーーッ！！！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:012:shout",
+  "addr": "0B3F4C",
+  "kind": "shout",
+  "jp": "おとなしく死んでおけ！！！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:012:shout",
+  "addr": "0B3F6C",
+  "kind": "shout",
+  "jp": "フン！！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:012:shout",
+  "addr": "0B3F8C",
+  "kind": "shout",
+  "jp": "フン！！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:012:shout",
+  "addr": "0B3FAC",
+  "kind": "shout",
+  "jp": "フン！！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:012:shout",
+  "addr": "0B3FCC",
+  "kind": "shout",
+  "jp": "ヌン！！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:012:shout",
+  "addr": "0B3FEC",
+  "kind": "shout",
+  "jp": "ぬがっ！！！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:012:shout",
+  "addr": "0B400C",
+  "kind": "shout",
+  "jp": "オォオオオッ・・・",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:013:shout",
+  "addr": "0B4044",
+  "kind": "shout",
+  "jp": "このベンチュラ様が・・・相手だ！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:013:shout",
+  "addr": "0B4064",
+  "kind": "shout",
+  "jp": "なし",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:013:shout",
+  "addr": "0B4084",
+  "kind": "shout",
+  "jp": "ウケケケケッ！！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:013:shout",
+  "addr": "0B40A4",
+  "kind": "shout",
+  "jp": "ケケッ！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:013:shout",
+  "addr": "0B40C4",
+  "kind": "shout",
+  "jp": "無駄なんだよッ！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:013:shout",
+  "addr": "0B40E4",
+  "kind": "shout",
+  "jp": "ヒヒヒッ！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:013:shout",
+  "addr": "0B4104",
+  "kind": "shout",
+  "jp": "生意気なぁっ・・・！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:013:shout",
+  "addr": "0B4124",
+  "kind": "shout",
+  "jp": "フハハハッ！！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:013:shout",
+  "addr": "0B4144",
+  "kind": "shout",
+  "jp": "きっ・・・貴様っ・・・！！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:013:shout",
+  "addr": "0B4164",
+  "kind": "shout",
+  "jp": "あだだだっ！！！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:013:shout",
+  "addr": "0B4184",
+  "kind": "shout",
+  "jp": "う・・・うぐぐっ・・・！！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:014:shout",
+  "addr": "0B41BC",
+  "kind": "shout",
+  "jp": "お見せしよう、我が冥力の極致・・",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:014:shout",
+  "addr": "0B41DC",
+  "kind": "shout",
+  "jp": "なし",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:014:shout",
+  "addr": "0B41FC",
+  "kind": "shout",
+  "jp": "調子が悪そうだな・・・",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:014:shout",
+  "addr": "0B421C",
+  "kind": "shout",
+  "jp": "このまま終わり・・・かね？",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:014:shout",
+  "addr": "0B423C",
+  "kind": "shout",
+  "jp": "ククッ",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:014:shout",
+  "addr": "0B425C",
+  "kind": "shout",
+  "jp": "フフッ",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:014:shout",
+  "addr": "0B427C",
+  "kind": "shout",
+  "jp": "行けぇ！！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:014:shout",
+  "addr": "0B429C",
+  "kind": "shout",
+  "jp": "・・・さらばだっ！！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:014:shout",
+  "addr": "0B42BC",
+  "kind": "shout",
+  "jp": "・・・！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:014:shout",
+  "addr": "0B42DC",
+  "kind": "shout",
+  "jp": "・・・なめるなッ・・・！！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:014:shout",
+  "addr": "0B42FC",
+  "kind": "shout",
+  "jp": "ぐあッ！！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:015:shout",
+  "addr": "0B4334",
+  "kind": "shout",
+  "jp": "手間がはぶけるね！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:015:shout",
+  "addr": "0B4354",
+  "kind": "shout",
+  "jp": "楽そうな仕事だろ？",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:015:shout",
+  "addr": "0B4374",
+  "kind": "shout",
+  "jp": "ニヤッ",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:015:shout",
+  "addr": "0B4394",
+  "kind": "shout",
+  "jp": "・・・さてと",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:015:shout",
+  "addr": "0B43B4",
+  "kind": "shout",
+  "jp": "遅えよ！！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:015:shout",
+  "addr": "0B43D4",
+  "kind": "shout",
+  "jp": "フン！！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:015:shout",
+  "addr": "0B43F4",
+  "kind": "shout",
+  "jp": "フン！！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:015:shout",
+  "addr": "0B4414",
+  "kind": "shout",
+  "jp": "フン！！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:015:shout",
+  "addr": "0B4434",
+  "kind": "shout",
+  "jp": "ホウ・・・",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:015:shout",
+  "addr": "0B4454",
+  "kind": "shout",
+  "jp": "・・・！！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:015:shout",
+  "addr": "0B4474",
+  "kind": "shout",
+  "jp": "なにィッ！！？",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:016:shout",
+  "addr": "0B44AC",
+  "kind": "shout",
+  "jp": "なし",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:016:shout",
+  "addr": "0B44CC",
+  "kind": "shout",
+  "jp": "なし",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:016:shout",
+  "addr": "0B44EC",
+  "kind": "shout",
+  "jp": "それ！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:016:shout",
+  "addr": "0B450C",
+  "kind": "shout",
+  "jp": "まだまだだ！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:016:shout",
+  "addr": "0B452C",
+  "kind": "shout",
+  "jp": "どうだ！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:016:shout",
+  "addr": "0B454C",
+  "kind": "shout",
+  "jp": "これでもくらえ！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:016:shout",
+  "addr": "0B456C",
+  "kind": "shout",
+  "jp": "フン！！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:016:shout",
+  "addr": "0B458C",
+  "kind": "shout",
+  "jp": "くらえ！！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:016:shout",
+  "addr": "0B45AC",
+  "kind": "shout",
+  "jp": "う・・・あああッ・・・！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:016:shout",
+  "addr": "0B45CC",
+  "kind": "shout",
+  "jp": "バッバカなっ！！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:016:shout",
+  "addr": "0B45EC",
+  "kind": "shout",
+  "jp": "くっ・・・",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:017:shout",
+  "addr": "0B4624",
+  "kind": "shout",
+  "jp": "なし",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:017:shout",
+  "addr": "0B4644",
+  "kind": "shout",
+  "jp": "なし",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:017:shout",
+  "addr": "0B4664",
+  "kind": "shout",
+  "jp": "死ねぇ！！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:017:shout",
+  "addr": "0B4684",
+  "kind": "shout",
+  "jp": "フン！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:017:shout",
+  "addr": "0B46A4",
+  "kind": "shout",
+  "jp": "どうだ！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:017:shout",
+  "addr": "0B46C4",
+  "kind": "shout",
+  "jp": "ククッ",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:017:shout",
+  "addr": "0B46E4",
+  "kind": "shout",
+  "jp": "フン！！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:017:shout",
+  "addr": "0B4704",
+  "kind": "shout",
+  "jp": "くらえ！！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:017:shout",
+  "addr": "0B4724",
+  "kind": "shout",
+  "jp": "ぐっ",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:017:shout",
+  "addr": "0B4744",
+  "kind": "shout",
+  "jp": "！！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:017:shout",
+  "addr": "0B4764",
+  "kind": "shout",
+  "jp": "バカな！！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:018:shout",
+  "addr": "0B479C",
+  "kind": "shout",
+  "jp": "なし",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:018:shout",
+  "addr": "0B47BC",
+  "kind": "shout",
+  "jp": "なし",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:018:shout",
+  "addr": "0B47DC",
+  "kind": "shout",
+  "jp": "ソレ！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:018:shout",
+  "addr": "0B47FC",
+  "kind": "shout",
+  "jp": "フン！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:018:shout",
+  "addr": "0B481C",
+  "kind": "shout",
+  "jp": "どうだ！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:018:shout",
+  "addr": "0B483C",
+  "kind": "shout",
+  "jp": "これでもくらえ！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:018:shout",
+  "addr": "0B485C",
+  "kind": "shout",
+  "jp": "フン！！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:018:shout",
+  "addr": "0B487C",
+  "kind": "shout",
+  "jp": "くらえ！！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:018:shout",
+  "addr": "0B489C",
+  "kind": "shout",
+  "jp": "ぐっ",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:018:shout",
+  "addr": "0B48BC",
+  "kind": "shout",
+  "jp": "！！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:018:shout",
+  "addr": "0B48DC",
+  "kind": "shout",
+  "jp": "バカな！！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:019:shout",
+  "addr": "0B4914",
+  "kind": "shout",
+  "jp": "なし",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:019:shout",
+  "addr": "0B4934",
+  "kind": "shout",
+  "jp": "なし",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:019:shout",
+  "addr": "0B4954",
+  "kind": "shout",
+  "jp": "グハハハハハッ・・・！！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:019:shout",
+  "addr": "0B4974",
+  "kind": "shout",
+  "jp": "フン！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:019:shout",
+  "addr": "0B4994",
+  "kind": "shout",
+  "jp": "どうだ！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:019:shout",
+  "addr": "0B49B4",
+  "kind": "shout",
+  "jp": "ククッ・・・",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:019:shout",
+  "addr": "0B49D4",
+  "kind": "shout",
+  "jp": "フン！！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:019:shout",
+  "addr": "0B49F4",
+  "kind": "shout",
+  "jp": "くらえ！！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:019:shout",
+  "addr": "0B4A14",
+  "kind": "shout",
+  "jp": "うっ・・・",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:019:shout",
+  "addr": "0B4A34",
+  "kind": "shout",
+  "jp": "うおおっ・・・！！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:019:shout",
+  "addr": "0B4A54",
+  "kind": "shout",
+  "jp": "ウグゥ・・・ッ！！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:020:shout",
+  "addr": "0B4A8C",
+  "kind": "shout",
+  "jp": "ゲヒヒヒヒッ！！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:020:shout",
+  "addr": "0B4AAC",
+  "kind": "shout",
+  "jp": "なし",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:020:shout",
+  "addr": "0B4ACC",
+  "kind": "shout",
+  "jp": "ゲヒヒヒ！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:020:shout",
+  "addr": "0B4AEC",
+  "kind": "shout",
+  "jp": "ゲヒ！！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:020:shout",
+  "addr": "0B4B0C",
+  "kind": "shout",
+  "jp": "これでもくらいな",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:020:shout",
+  "addr": "0B4B2C",
+  "kind": "shout",
+  "jp": "ゲヒヒヒ！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:020:shout",
+  "addr": "0B4B4C",
+  "kind": "shout",
+  "jp": "ゲヒ！！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:020:shout",
+  "addr": "0B4B6C",
+  "kind": "shout",
+  "jp": "これでもくらいな",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:020:shout",
+  "addr": "0B4B8C",
+  "kind": "shout",
+  "jp": "！！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:020:shout",
+  "addr": "0B4BAC",
+  "kind": "shout",
+  "jp": "ゲヒッ？！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:020:shout",
+  "addr": "0B4BCC",
+  "kind": "shout",
+  "jp": "ゲッ！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:021:shout",
+  "addr": "0B4C04",
+  "kind": "shout",
+  "jp": "なし",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:021:shout",
+  "addr": "0B4C24",
+  "kind": "shout",
+  "jp": "なし",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:021:shout",
+  "addr": "0B4C44",
+  "kind": "shout",
+  "jp": "ソレ！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:021:shout",
+  "addr": "0B4C64",
+  "kind": "shout",
+  "jp": "フン！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:021:shout",
+  "addr": "0B4C84",
+  "kind": "shout",
+  "jp": "どうだ！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:021:shout",
+  "addr": "0B4CA4",
+  "kind": "shout",
+  "jp": "これでもくらえ！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:021:shout",
+  "addr": "0B4CC4",
+  "kind": "shout",
+  "jp": "フン！！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:021:shout",
+  "addr": "0B4CE4",
+  "kind": "shout",
+  "jp": "くらえ！！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:021:shout",
+  "addr": "0B4D04",
+  "kind": "shout",
+  "jp": "ぐっ",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:021:shout",
+  "addr": "0B4D24",
+  "kind": "shout",
+  "jp": "！！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:021:shout",
+  "addr": "0B4D44",
+  "kind": "shout",
+  "jp": "バカな！！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:022:shout",
+  "addr": "0B4D7C",
+  "kind": "shout",
+  "jp": "！！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:022:shout",
+  "addr": "0B4D9C",
+  "kind": "shout",
+  "jp": "いくぞ！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:022:shout",
+  "addr": "0B4DBC",
+  "kind": "shout",
+  "jp": "フッ",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:022:shout",
+  "addr": "0B4DDC",
+  "kind": "shout",
+  "jp": "・・・",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:022:shout",
+  "addr": "0B4DFC",
+  "kind": "shout",
+  "jp": "！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:022:shout",
+  "addr": "0B4E1C",
+  "kind": "shout",
+  "jp": "行くぞ！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:022:shout",
+  "addr": "0B4E3C",
+  "kind": "shout",
+  "jp": "これで・・・どうだ！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:022:shout",
+  "addr": "0B4E5C",
+  "kind": "shout",
+  "jp": "覚悟！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:022:shout",
+  "addr": "0B4E7C",
+  "kind": "shout",
+  "jp": "ちっ・・・！！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:022:shout",
+  "addr": "0B4E9C",
+  "kind": "shout",
+  "jp": "・・・くっ！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:022:shout",
+  "addr": "0B4EBC",
+  "kind": "shout",
+  "jp": "まだだっ！！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:023:shout",
+  "addr": "0B4EF4",
+  "kind": "shout",
+  "jp": "いっくぜぇ！！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:023:shout",
+  "addr": "0B4F14",
+  "kind": "shout",
+  "jp": "じゃまするな！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:023:shout",
+  "addr": "0B4F34",
+  "kind": "shout",
+  "jp": "甘ぇよ！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:023:shout",
+  "addr": "0B4F54",
+  "kind": "shout",
+  "jp": "おらぁ！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:023:shout",
+  "addr": "0B4F74",
+  "kind": "shout",
+  "jp": "まだまだぁ！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:023:shout",
+  "addr": "0B4F94",
+  "kind": "shout",
+  "jp": "これでもくらえ！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:023:shout",
+  "addr": "0B4FB4",
+  "kind": "shout",
+  "jp": "どうだぁ！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:023:shout",
+  "addr": "0B4FD4",
+  "kind": "shout",
+  "jp": "おりゃぁ！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:023:shout",
+  "addr": "0B4FF4",
+  "kind": "shout",
+  "jp": "うおっ！！！",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:023:shout",
+  "addr": "0B5014",
+  "kind": "shout",
+  "jp": "グアッ",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "voices:023:shout",
+  "addr": "0B5034",
+  "kind": "shout",
+  "jp": "グオッ",
+  "en": "",
+  "max": 32
+ }
+]

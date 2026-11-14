@@ -22,6 +22,9 @@ CONTROL = {
     0xFF71: "[WAIT]",
     0xFF72: "[PAGE]",
 }
+# Other FFxx words are argument-less controls (variables such as FF00 name, FF01 number, FFC4 monster, FFC5 count;
+# docs/re/text.md): named [FFxx] so they survive translation as one token.
+CONTROL.update({c: f"[{c:04X}]" for c in range(0xFF00, 0x10000) if c not in CONTROL})
 
 
 def sjis_char(lead, trail):
@@ -52,6 +55,7 @@ def table(rom):
             if not any(struct.unpack_from("<12H", rom, FONT + code * CELL)):
                 continue
             out.setdefault(code, ch)
+    out[0x0001] = "　"  # SJIS 8140 full-width space: blank glyph, used inside lines
     for i, c in enumerate(range(0x20, 0x7F)):
         out[0x300 + i] = chr(c)
     for i, c in enumerate(range(0xA1, 0xE0)):

@@ -3,7 +3,8 @@
 Skill: translate-retro-game (Claude Code: plugin, enabled in .claude/settings.json; other agents: `<SKILL_DIR>/SKILL.md`; `$SKILL` = the directory holding its SKILL.md, printed by `python tools/skill.py`). Read it before ROM, text or QA work.
 
 ## Commands (run from repo root)
-- Build:    `python -X utf8 tools/build.py` -> build/beet_en.gba (checks the dump against `rom.sha1` first; writes only inside `build.REGIONS`, log `build/writes.log`, ends with romdiff). `--identity` = byte-identical roundtrip of all dialogue (test_build.py). Codec: `tools/text16.py`
+- Build:    `python -X utf8 tools/build.py` -> build/beet_en.gba (checks the dump against `rom.sha1` first; writes only inside `build.REGIONS`, log `build/writes.log`, ends with romdiff). `--identity` = byte-identical roundtrip of all extracted text (test_build.py). Codec: `tools/text16.py`
+- Extract:  `python -X utf8 tools/extract.py dump [--force]` -> `script/*.json` (refuses to overwrite without `--force`, which keeps `en`/`status`/`notes`); `extract.py check` = roundtrip + whole-ROM coverage (test_extract.py). Sources: `tools/evtext.py` (event scripts + quest records), `tools/tables.py` (record tables), `extract.POOLS` (UI)
 - Check:    `python -X utf8 tools/check.py`  (tests + lint; the pre-commit hook runs this). Hooks: `git config core.hooksPath tools/hooks`
 - Smoke:    `python -X utf8 $SKILL/scripts/emu.py build/beet_en.gba --out work/qa/smoke --route tools/routes/boot.txt --smoke`
 - Warp:     `python -X utf8 $SKILL/scripts/emu.py build/beet_en.gba --out work/qa/warp/x --script tools/debug/warp.lua --var "SCENE='<name>'" --frames 2400 --sheet` (cold boot; scene ready ~f1650; scenes: `tools/debug/scenes.txt`, format and RAM map `docs/re/events.md`; never ask the user to play to a scene). All scenes + states: `python -X utf8 tools/debug/warpall.py [ROM] [--only a,b] --states`

@@ -1,0 +1,194 @@
+[
+ {
+  "id": "wtypes:000:name",
+  "addr": "0B1160",
+  "kind": "name",
+  "jp": "片手剣",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "wtypes:001:name",
+  "addr": "0B117C",
+  "kind": "name",
+  "jp": "両手剣",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "wtypes:002:name",
+  "addr": "0B1198",
+  "kind": "name",
+  "jp": "投剣",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "wtypes:003:name",
+  "addr": "0B11B4",
+  "kind": "name",
+  "jp": "槍",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "wtypes:004:name",
+  "addr": "0B11D0",
+  "kind": "name",
+  "jp": "斧",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "wtypes:005:name",
+  "addr": "0B11EC",
+  "kind": "name",
+  "jp": "槌",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "wtypes:006:name",
+  "addr": "0B1208",
+  "kind": "name",
+  "jp": "銃",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "wtypes:007:name",
+  "addr": "0B1224",
+  "kind": "name",
+  "jp": "弓",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "wtypes:008:name",
+  "addr": "0B1240",
+  "kind": "name",
+  "jp": "鉄球",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "wtypes:009:name",
+  "addr": "0B125C",
+  "kind": "name",
+  "jp": "盾",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "wtypes:010:name",
+  "addr": "0B1278",
+  "kind": "name",
+  "jp": "拳",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "wtypes:011:name",
+  "addr": "0B1294",
+  "kind": "name",
+  "jp": "爪",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "wtypes:012:name",
+  "addr": "0B12B0",
+  "kind": "name",
+  "jp": "打撃",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "wtypes:013:name",
+  "addr": "0B12CC",
+  "kind": "name",
+  "jp": "バーニングランス",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "wtypes:014:name",
+  "addr": "0B12E8",
+  "kind": "name",
+  "jp": "エクセリオンブレード",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "wtypes:015:name",
+  "addr": "0B1304",
+  "kind": "name",
+  "jp": "ボルティックアックス",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "wtypes:016:name",
+  "addr": "0B1320",
+  "kind": "name",
+  "jp": "サイクロンガンナー",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "wtypes:017:name",
+  "addr": "0B133C",
+  "kind": "name",
+  "jp": "クラウンシールド",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "wtypes:018:name",
+  "addr": "0B1358",
+  "kind": "name",
+  "jp": "サイレントグレイブ",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "wtypes:019:name",
+  "addr": "0B1374",
+  "kind": "name",
+  "jp": "ライボルトグラスパー",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "wtypes:020:name",
+  "addr": "0B1390",
+  "kind": "name",
+  "jp": "レッドヴァンソード",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "wtypes:021:name",
+  "addr": "0B13AC",
+  "kind": "name",
+  "jp": "クリスタルブロッカー",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "wtypes:022:name",
+  "addr": "0B13C8",
+  "kind": "name",
+  "jp": "サイクロンガンナー",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "wtypes:023:name",
+  "addr": "0B13E4",
+  "kind": "name",
+  "jp": "クラウンシールド",
+  "en": "",
+  "max": 20
+ }
+]

@@ -1,0 +1,322 @@
+[
+ {
+  "id": "moves:000:name",
+  "addr": "0A6018",
+  "kind": "name",
+  "jp": "百烈突き",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "moves:000:desc",
+  "addr": "0A602C",
+  "kind": "desc",
+  "jp": "高速で突きを連続で繰り出す",
+  "en": "",
+  "max": 28
+ },
+ {
+  "id": "moves:001:name",
+  "addr": "0A6060",
+  "kind": "name",
+  "jp": "炎の衝撃波",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "moves:001:desc",
+  "addr": "0A6074",
+  "kind": "desc",
+  "jp": "炎の衝撃波を出す",
+  "en": "",
+  "max": 28
+ },
+ {
+  "id": "moves:002:name",
+  "addr": "0A60A8",
+  "kind": "name",
+  "jp": "貫通ランス",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "moves:002:desc",
+  "addr": "0A60BC",
+  "kind": "desc",
+  "jp": "槍が伸び直線上の全敵を攻撃",
+  "en": "",
+  "max": 28
+ },
+ {
+  "id": "moves:003:name",
+  "addr": "0A60F0",
+  "kind": "name",
+  "jp": "特攻",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "moves:003:desc",
+  "addr": "0A6104",
+  "kind": "desc",
+  "jp": "特攻して横方向の全敵を攻撃",
+  "en": "",
+  "max": 28
+ },
+ {
+  "id": "moves:004:name",
+  "addr": "0A6138",
+  "kind": "name",
+  "jp": "ゼノンウィンザード",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "moves:004:desc",
+  "addr": "0A614C",
+  "kind": "desc",
+  "jp": "衝撃波を飛ばし敵を攻撃",
+  "en": "",
+  "max": 28
+ },
+ {
+  "id": "moves:005:name",
+  "addr": "0A6180",
+  "kind": "name",
+  "jp": "乱舞",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "moves:005:desc",
+  "addr": "0A6194",
+  "kind": "desc",
+  "jp": "上昇しつつ敵を連続で攻撃",
+  "en": "",
+  "max": 28
+ },
+ {
+  "id": "moves:006:name",
+  "addr": "0A61C8",
+  "kind": "name",
+  "jp": "兜割り",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "moves:006:desc",
+  "addr": "0A61DC",
+  "kind": "desc",
+  "jp": "落下し周囲に衝撃波を出す",
+  "en": "",
+  "max": 28
+ },
+ {
+  "id": "moves:007:name",
+  "addr": "0A6210",
+  "kind": "name",
+  "jp": "スライドカッター",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "moves:007:desc",
+  "addr": "0A6224",
+  "kind": "desc",
+  "jp": "敵の左右を往復して攻撃",
+  "en": "",
+  "max": 28
+ },
+ {
+  "id": "moves:008:name",
+  "addr": "0A6258",
+  "kind": "name",
+  "jp": "狙う",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "moves:008:desc",
+  "addr": "0A626C",
+  "kind": "desc",
+  "jp": "攻撃の命中精度を上げる",
+  "en": "",
+  "max": 28
+ },
+ {
+  "id": "moves:009:name",
+  "addr": "0A62A0",
+  "kind": "name",
+  "jp": "カッター",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "moves:009:desc",
+  "addr": "0A62B4",
+  "kind": "desc",
+  "jp": "風圧による刃で横方向を攻撃",
+  "en": "",
+  "max": 28
+ },
+ {
+  "id": "moves:010:name",
+  "addr": "0A62E8",
+  "kind": "name",
+  "jp": "もず落とし",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "moves:010:desc",
+  "addr": "0A62FC",
+  "kind": "desc",
+  "jp": "敵を斧の上に落下させ攻撃",
+  "en": "",
+  "max": 28
+ },
+ {
+  "id": "moves:011:name",
+  "addr": "0A6330",
+  "kind": "name",
+  "jp": "ラウンドカッター",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "moves:011:desc",
+  "addr": "0A6344",
+  "kind": "desc",
+  "jp": "風圧による刃で４方向へ攻撃",
+  "en": "",
+  "max": 28
+ },
+ {
+  "id": "moves:012:name",
+  "addr": "0A6378",
+  "kind": "name",
+  "jp": "長距離射程モード",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "moves:012:desc",
+  "addr": "0A638C",
+  "kind": "desc",
+  "jp": "画面外の敵も攻撃できる",
+  "en": "",
+  "max": 28
+ },
+ {
+  "id": "moves:013:name",
+  "addr": "0A63C0",
+  "kind": "name",
+  "jp": "全弾開放モード",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "moves:013:desc",
+  "addr": "0A63D4",
+  "kind": "desc",
+  "jp": "前方の敵を一斉に攻撃する",
+  "en": "",
+  "max": 28
+ },
+ {
+  "id": "moves:014:name",
+  "addr": "0A6408",
+  "kind": "name",
+  "jp": "炸裂弾",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "moves:014:desc",
+  "addr": "0A641C",
+  "kind": "desc",
+  "jp": "着弾と同時に弾が分裂",
+  "en": "",
+  "max": 28
+ },
+ {
+  "id": "moves:015:name",
+  "addr": "0A6450",
+  "kind": "name",
+  "jp": "ショットガン",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "moves:015:desc",
+  "addr": "0A6464",
+  "kind": "desc",
+  "jp": "前５方向に弾を同時に射出",
+  "en": "",
+  "max": 28
+ },
+ {
+  "id": "moves:016:name",
+  "addr": "0A6498",
+  "kind": "name",
+  "jp": "鉄球変形",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "moves:016:desc",
+  "addr": "0A64AC",
+  "kind": "desc",
+  "jp": "鉄球へ変形させる",
+  "en": "",
+  "max": 28
+ },
+ {
+  "id": "moves:017:name",
+  "addr": "0A64E0",
+  "kind": "name",
+  "jp": "カウンター",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "moves:017:desc",
+  "addr": "0A64F4",
+  "kind": "desc",
+  "jp": "敵の攻撃をそのまま跳ね返す",
+  "en": "",
+  "max": 28
+ },
+ {
+  "id": "moves:018:name",
+  "addr": "0A6528",
+  "kind": "name",
+  "jp": "アクアウォール",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "moves:018:desc",
+  "addr": "0A653C",
+  "kind": "desc",
+  "jp": "鉄球を回転させ水柱で攻撃",
+  "en": "",
+  "max": 28
+ },
+ {
+  "id": "moves:019:name",
+  "addr": "0A6570",
+  "kind": "name",
+  "jp": "鉄球捕縛",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "moves:019:desc",
+  "addr": "0A6584",
+  "kind": "desc",
+  "jp": "鉄球で相手引き寄せ攻撃",
+  "en": "",
+  "max": 28
+ }
+]

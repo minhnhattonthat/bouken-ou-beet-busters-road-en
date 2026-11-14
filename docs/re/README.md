@@ -12,7 +12,8 @@ Addresses are for the dump in `rom.sha1` unless a note says otherwise.
 
 | File | Covers | State |
 |---|---|---|
-| [text.md](text.md) | encoding, 12x12 font, control codes, event-script pointers, text regions | encoding/font verified; controls partly guessed |
+| [text.md](text.md) | encoding, 12x12 font, control codes, event-script pointers, text regions | encoding/font, extraction verified; controls partly guessed |
+| [tables.md](tables.md) | record tables with inline text (equipment, items, moves, monsters, maps ...) | verified (roundtrip) |
 | [space.md](space.md) | ROM map, save type, free-space candidates | candidates untested |
 | [events.md](events.md) | event byte code, game state RAM, map table, debug-tool warp | verified (warps from cold boot) |
 | [graphics.md](graphics.md) | tile-drawn Japanese survey, static sweep of all LZ77/raw graphics | sweep done; mid-game screens to tour via debug tool |

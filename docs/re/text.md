@@ -13,56 +13,62 @@ Dump: `rom.sha1` (16 MiB, game code BOVJ, "VANDELBUSTER", Bandai 2004/2005, EEPR
   at `0x35F-0x39D`. Blank glyph = no character; a small dot glyph marks unassigned cells (0xBE, 0x2FE, 0x1EB6 ...).
   `tools/mktbl.py` builds `tbl/jp.tbl` from this rule (7119 codes); verified on お 0x129, 、0x02, ！0x0A, ？0x09,
   ・0x06, ア 0x182, ボ 0x1BD, 亜 0x598, 母 0xFA3, 身 0xB60, 具 0x828, ① 0x479, and a visual check of 0x1E80-0x1F1D.
-- `0x0001` = full-width space (blank glyph, used inside lines; not yet in jp.tbl as a char — add in phase 4).
+- `0x0001` = full-width space (blank glyph, used inside lines): in jp.tbl as `　` (phase 4).
 
 ## Control codes
 | Code | Meaning | State |
 |---|---|---|
 | `0000` | end of string | verified (wstrcpy at `0x08007A5C` copies to RAM until 0) |
+| `0001` | full-width space (SJIS 8140, blank glyph) | verified: in jp.tbl as `　` since phase 4 |
 | `FF70` | line break | verified (dialogue 0x1995DC: 2-line box) |
 | `FF71` | end of message, wait for button | verified by layout, every message ends with it |
 | `FF72` | page break inside a message (new box, same speaker) | guess (seen mid-message, e.g. 0x1721AC) |
-| `FF00` | insert variable (party member name?) | guess: `<FF00>は[BR]これでレベル<FF01>だ` at 0x175848 |
-| `FF01` | insert number (level, money) | guess, same line |
-No argument words seen after any of them. Literal pool words `0xFF70` at `0x5E4C`/`0x33190`, `0xFF71`/`0xFF72` at
-`0x2C4A0-0x2C4A4` mark the renderer code; confirm the full list there in phase 4/5.
+| `FF00` | insert variable (party member name?) | guess: `[FF00]は[BR]これでレベル[FF01]だ` at 0x175848 (1 use) |
+| `FF01` | insert number (level, money) | guess, same line; also 2 UI strings (`ui:DDAB84`, quest give-up cost) |
+| `FF05` | insert number (reward money) | guess: `今回の報酬は[BR][FF05]マギーだ` 0x175862 (1 use) |
+| `FFC4` / `FFC5` | quest: monster name / count | guess: `[FFC4]を[FFC5]匹倒してほしい` (64 uses each, quest descriptions) |
+No argument words after any of them. jp.tbl names every other `FFxx` as `[FFxx]` (one token); no other FF code
+occurs in extracted text, and no code outside the table (`[HI][LO]` escape) occurs at all. Literal pool words
+`0xFF70` at `0x5E4C`/`0x33190`, `0xFF71`/`0xFF72` at `0x2C4A0-0x2C4A4` mark the renderer code (phase 5).
 
-## Dialogue: event scripts — verified
-- Region `0x170000-0x240000`: byte-code event scripts interleaved with their string pools (each scene: script, then its
-  strings). ~290 KB of dialogue text in 1879 pools.
-- Pointers are **unaligned** 32-bit LE ROM addresses (`0x08xxxxxx`) embedded in the byte code:
-  - `5B 59 <ptr>`: speaker name (then `<slot> <face> 00 00 00 28 00 7A <slot> <ptr msg> 20 <slot> 21`)
-  - `7A <slot> <ptr>`: message
-  - `5B 52 <ptr name> <ptr msg>`: name + message (shops, NPCs)
-  - `5B 3B <ptr>`: message without speaker (item pickups, signs)
-  A message string = text with `FF70`/`FF72`, ending `FF71 0000`; the speaker string is a separate 0-terminated string.
-- `tools/scriptptrs.py --sites` lists the `5B 59` / `7A` sites (12,104). A whole-range scan for any pointer that lands on
-  a string start (scratch `cov.py`, not committed) reaches 16,312 of 19,200 strings in the range; the ~2,900 left are
-  mostly script bytes that happen to decode, plus some real lines (e.g. 0x1721AE, 0x174AB2 sit after `FF72`/`0001`
-  inside a longer message: they are tails, not orphans). Phase 4 must walk the interpreter's opcode table rather than
-  rely on byte patterns: the interpreter reads script bytes at `0x0802F66C`, `0x0802FD58`, `0x08030044` ... (watch log).
-- **Tail pointers** — verified (identity build): some sites point into the middle of another string: `0x1C209A` (tail of
-  `0x1C2058`, ・・[PAGE]ファントムストローク！！, likely a real reuse) and `0x210000` (inside `0x20FFD2`; probably a byte
-  pattern that isn't a real site). Phase 4 must keep such a tail pointing at the same text (or give it its own copy).
-- Codec: `tools/text16.py` (word-by-word over tbl.Table; unknown codes as `[HI][LO]`). `build.py --identity` re-encodes
-  all 13,172 distinct pool strings the 5B 59 / 7A sites reach and the ROM comes out byte-identical.
+## Dialogue: event scripts — verified (phase 4, `tools/evtext.py`)
+- Region `0x16A000-0x250000` (scripts start right after the C++ RTTI strings at `0x169F80`): byte-code event scripts
+  interleaved with their string pools, plus the quest records at `0x241000-0x250000`.
+- Pointers are **unaligned** 32-bit LE ROM addresses (`0x08xxxxxx`) embedded in the byte code. String args per opcode
+  (`evdis.STR_ARGS`, checked by decoding every target over all walked scripts): `59 +1` speaker name, `7A +2`
+  message, `52 +1/+5` name + message, `3B +1` message without speaker, `1D +1/+5` / `1E +1/+5/+9` choices,
+  `68 +1/+5/+9/+13` name + 3 messages (appraiser level report), `6F +5` banner, `85 +5` draw text (prologue,
+  credits). `4D +6` and `22 +1` are data, not text.
+- Script discovery (`evdis.walk`): map trigger lists, then aligned pointers anywhere below the region and unaligned
+  ones in the map/NPC data `0x110000-0x16A000` (script tables at `0x117070`, `0x118000-0x11B000`, `0x121000`)
+  that decode to FF, then pointer args (SCRIPT_ARGS), then **chained** scripts: bytes right after a script's FF that
+  decode to FF and hold a text/script pointer (code indexes them, e.g. the appraiser reports at `0x17538D`).
+  Quest records hold `18 <ptr title>` / `0C <ptr description>` and loose script pointers; `evtext.scan` takes those
+  too (other 4-byte values there that look like pointers are not: `00 FF 18 08` reads as 0x0818FF00).
+  Result: 6,076 scripts, 17,617 strings (416 quest titles/descriptions), 78,171 pointer sites.
+- Leftover check (`evtext.py --left`): 206 text-like runs in the region reached by nothing, all pointer bytes or
+  tables (`躯黽` = bytes of `0x0824xxxx`, 黒[FF22]黒[FF23] = pointer lists); none holds 2 kana in a row.
+- **No tail pointers**: the phase-3 "tails" `0x1C209A` / `0x210000` came from a whole-ROM byte-pattern scan hitting
+  graphics data (`0xC86CCA`, `0x33A594`); decoded scripts never point into the middle of a string.
+- Codec: `tools/text16.py` (word-by-word over tbl.Table; unknown codes as `[HI][LO]`).
 - Strings are copied to RAM (`0x08007A5C`) before drawing, so lengths are bounded by that buffer (size: phase 5).
 
-## Other text (0-terminated, same encoding) — located, formats not yet decoded
-| Range | Content |
-|---|---|
-| `0x0A16C4-0x0A8888` | equipment: name, kana reading (sort key), description |
-| `0x0A8B84-0x0B13F6` | special moves (Saiga), effects |
-| `0x0B2E2C-0x0B503C` | battle messages and battle shouts |
-| `0x0D70EC-0x0E09FE` | monsters (name + kana reading), places, items |
-| `0x10C932-0x11476C` | village / area names (map) |
-| `0x116FD6-0x117066` | menu commands (クエストを受ける, 閉じる, 鍛える ...) |
-| `0x244D16-0x24F00A` | quest board: titles and descriptions |
-| `0x32B77E-0x32B936` | name-entry kana grid |
-| `0x0DDA800-0x0DDACEE` | ? (moves, どうぐ) — check |
-Tables of fixed-size records with aligned pointers are likely here (GBA rule: repoint only inside decoded tables).
+## Extraction (phase 4) — verified
+`tools/extract.py dump` writes `script/*.json` (20,118 entries, 9,211 distinct Japanese strings, ~326k characters):
+`ev_<bank>.json` (dialogue, quest board), `tbl_<name>.json` (record tables, `docs/re/tables.md`), `ui.json` (pools
+below). `extract.py check` = roundtrip (every entry re-encodes to the original bytes) + coverage (every
+0-terminated run with 2 kana in a row anywhere in the ROM lies in an entry, a decoded script, or a `NONTEXT` range:
+tilemaps of kana sheets, map NPC tile ids, the unused name-entry grid at `0x32B700`); `tests/test_extract.py`.
+`build.py --identity` writes all of it back: byte-identical. A second scan for kanji-only runs (2-12 kanji between
+0000 words) found only pointer/table noise, so it is not a gate.
+
+| Pool (strings back to back) | Content | Reached by |
+|---|---|---|
+| `0x06D64C-0x06D688` | shop prompts 購入しますか？ 売却しますか？ マギーがたりません | code literal `0x0804F060` |
+| `0x116FCC-0x117066` | shop / appraisal-house commands (鑑定, クエストを受ける, 閉じる ...) | pointer table `0x116F80` |
+| `0xDDA800-0xDDACF4` | field menu (たいれつ どうぐ さくせん), save/suspend messages, options, quest board, Saiga/Tenmon menus | code literals |
 
 ## Second font
 Menu names (ビィト in the status box) use a smaller font, not the 12x12 one: raw 8x8 gba4 tiles at `0x300000`
 (~0x2C00 bytes: symbols, digits, Latin, kana, Greek; no kanji), seen in the static sweep (`docs/re/graphics.md` G5).
-Code-to-cell mapping and the blitter: phase 5.
+The `menu` fields of the item/weapon tables are the names again in kana for it. Code-to-cell mapping, blitter: phase 5.

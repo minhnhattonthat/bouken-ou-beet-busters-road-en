@@ -1,0 +1,3650 @@
+[
+ {
+  "id": "monsters:000:name",
+  "addr": "0D70EC",
+  "kind": "name",
+  "jp": "ガブリ貝",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:000:kana",
+  "addr": "0D7102",
+  "kind": "kana",
+  "jp": "ガブリがい",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:000:habitat",
+  "addr": "0D7118",
+  "kind": "habitat",
+  "jp": "アンクルス平原",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "monsters:001:name",
+  "addr": "0D71C8",
+  "kind": "name",
+  "jp": "岩石毛虫",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:001:kana",
+  "addr": "0D71DE",
+  "kind": "kana",
+  "jp": "がんせきけむし",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:001:habitat",
+  "addr": "0D71F4",
+  "kind": "habitat",
+  "jp": "洞窟",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "monsters:002:name",
+  "addr": "0D72A4",
+  "kind": "name",
+  "jp": "赤いじゅうたん",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:002:kana",
+  "addr": "0D72BA",
+  "kind": "kana",
+  "jp": "あかいじゅうたん",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:002:habitat",
+  "addr": "0D72D0",
+  "kind": "habitat",
+  "jp": "アンクルス平原",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "monsters:003:name",
+  "addr": "0D7380",
+  "kind": "name",
+  "jp": "海のガブリ貝",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:003:kana",
+  "addr": "0D7396",
+  "kind": "kana",
+  "jp": "うみのガブリがい",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:003:habitat",
+  "addr": "0D73AC",
+  "kind": "habitat",
+  "jp": "海岸の遺跡",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "monsters:004:name",
+  "addr": "0D745C",
+  "kind": "name",
+  "jp": "水晶の卵",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:004:kana",
+  "addr": "0D7472",
+  "kind": "kana",
+  "jp": "すいしょうのたまご",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:004:habitat",
+  "addr": "0D7488",
+  "kind": "habitat",
+  "jp": "洞窟",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "monsters:005:name",
+  "addr": "0D7538",
+  "kind": "name",
+  "jp": "ジャーマウス",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:005:kana",
+  "addr": "0D754E",
+  "kind": "kana",
+  "jp": "ジャーマウス",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:005:habitat",
+  "addr": "0D7564",
+  "kind": "habitat",
+  "jp": "アンクルス平原",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "monsters:006:name",
+  "addr": "0D7614",
+  "kind": "name",
+  "jp": "ペンバリー",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:006:kana",
+  "addr": "0D762A",
+  "kind": "kana",
+  "jp": "ペンバリー",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:006:habitat",
+  "addr": "0D7640",
+  "kind": "habitat",
+  "jp": "アンクルス平原ほか",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "monsters:007:name",
+  "addr": "0D76F0",
+  "kind": "name",
+  "jp": "びっくり箱",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:007:kana",
+  "addr": "0D7706",
+  "kind": "kana",
+  "jp": "びっくりばこ",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:007:habitat",
+  "addr": "0D771C",
+  "kind": "habitat",
+  "jp": "海岸の遺跡",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "monsters:008:name",
+  "addr": "0D77CC",
+  "kind": "name",
+  "jp": "貯金箱",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:008:kana",
+  "addr": "0D77E2",
+  "kind": "kana",
+  "jp": "ちょきんばこ",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:008:habitat",
+  "addr": "0D77F8",
+  "kind": "habitat",
+  "jp": "アンクルス平原",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "monsters:009:name",
+  "addr": "0D78A8",
+  "kind": "name",
+  "jp": "オドオド",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:009:kana",
+  "addr": "0D78BE",
+  "kind": "kana",
+  "jp": "オドオド",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:009:habitat",
+  "addr": "0D78D4",
+  "kind": "habitat",
+  "jp": "洞窟",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "monsters:010:name",
+  "addr": "0D7984",
+  "kind": "name",
+  "jp": "カネック",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:010:kana",
+  "addr": "0D799A",
+  "kind": "kana",
+  "jp": "カネック",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:010:habitat",
+  "addr": "0D79B0",
+  "kind": "habitat",
+  "jp": "アンクルス平原ほか",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "monsters:011:name",
+  "addr": "0D7A60",
+  "kind": "name",
+  "jp": "コダマンボ",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:011:kana",
+  "addr": "0D7A76",
+  "kind": "kana",
+  "jp": "コダマンボ",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:011:habitat",
+  "addr": "0D7A8C",
+  "kind": "habitat",
+  "jp": "アンクルス平原ほか",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "monsters:012:name",
+  "addr": "0D7B3C",
+  "kind": "name",
+  "jp": "ボスカネック",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:012:kana",
+  "addr": "0D7B52",
+  "kind": "kana",
+  "jp": "ボスカネック",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:012:habitat",
+  "addr": "0D7B68",
+  "kind": "habitat",
+  "jp": "ワンダラ山地",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "monsters:013:name",
+  "addr": "0D7C18",
+  "kind": "name",
+  "jp": "鉄の貯金箱",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:013:kana",
+  "addr": "0D7C2E",
+  "kind": "kana",
+  "jp": "てつのちょきんばこ",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:013:habitat",
+  "addr": "0D7C44",
+  "kind": "habitat",
+  "jp": "洞窟",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "monsters:014:name",
+  "addr": "0D7CF4",
+  "kind": "name",
+  "jp": "空飛ぶクリオネ",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:014:kana",
+  "addr": "0D7D0A",
+  "kind": "kana",
+  "jp": "そらとぶクリオネ",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:014:habitat",
+  "addr": "0D7D20",
+  "kind": "habitat",
+  "jp": "ムガインの死人沼",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "monsters:015:name",
+  "addr": "0D7DD0",
+  "kind": "name",
+  "jp": "青き炎",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:015:kana",
+  "addr": "0D7DE6",
+  "kind": "kana",
+  "jp": "あおきほのお",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:015:habitat",
+  "addr": "0D7DFC",
+  "kind": "habitat",
+  "jp": "地底湖",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "monsters:016:name",
+  "addr": "0D7EAC",
+  "kind": "name",
+  "jp": "ハンドゴースト",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:016:kana",
+  "addr": "0D7EC2",
+  "kind": "kana",
+  "jp": "ハンドゴースト",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:016:habitat",
+  "addr": "0D7ED8",
+  "kind": "habitat",
+  "jp": "海岸の遺跡",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "monsters:017:name",
+  "addr": "0D7F88",
+  "kind": "name",
+  "jp": "海のブロウガンナー",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:017:kana",
+  "addr": "0D7F9E",
+  "kind": "kana",
+  "jp": "うみのブロウガンナー",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:017:habitat",
+  "addr": "0D7FB4",
+  "kind": "habitat",
+  "jp": "海岸の遺跡",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "monsters:018:name",
+  "addr": "0D8064",
+  "kind": "name",
+  "jp": "つららこうもり",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:018:kana",
+  "addr": "0D807A",
+  "kind": "kana",
+  "jp": "つららこうもり",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:018:habitat",
+  "addr": "0D8090",
+  "kind": "habitat",
+  "jp": "洞窟",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "monsters:019:name",
+  "addr": "0D8140",
+  "kind": "name",
+  "jp": "ホワイトジャーマウス",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:019:kana",
+  "addr": "0D8156",
+  "kind": "kana",
+  "jp": "ホワイトジャーマウス",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:019:habitat",
+  "addr": "0D816C",
+  "kind": "habitat",
+  "jp": "デュオラ平原",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "monsters:020:name",
+  "addr": "0D821C",
+  "kind": "name",
+  "jp": "魔人の像",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:020:kana",
+  "addr": "0D8232",
+  "kind": "kana",
+  "jp": "まじんのぞう",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:020:habitat",
+  "addr": "0D8248",
+  "kind": "habitat",
+  "jp": "ムガインの死人沼",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "monsters:021:name",
+  "addr": "0D82F8",
+  "kind": "name",
+  "jp": "沼のメガトンボ",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:021:kana",
+  "addr": "0D830E",
+  "kind": "kana",
+  "jp": "ぬまのメガトンボ",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:021:habitat",
+  "addr": "0D8324",
+  "kind": "habitat",
+  "jp": "ムガインの死人沼",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "monsters:022:name",
+  "addr": "0D83D4",
+  "kind": "name",
+  "jp": "ピンクの卵",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:022:kana",
+  "addr": "0D83EA",
+  "kind": "kana",
+  "jp": "ピンクのたまご",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:022:habitat",
+  "addr": "0D8400",
+  "kind": "habitat",
+  "jp": "？？？",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "monsters:023:name",
+  "addr": "0D84B0",
+  "kind": "name",
+  "jp": "毒のガブリ貝",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:023:kana",
+  "addr": "0D84C6",
+  "kind": "kana",
+  "jp": "どくのガブリがい",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:023:habitat",
+  "addr": "0D84DC",
+  "kind": "habitat",
+  "jp": "海岸の遺跡",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "monsters:024:name",
+  "addr": "0D858C",
+  "kind": "name",
+  "jp": "泥トカゲ",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:024:kana",
+  "addr": "0D85A2",
+  "kind": "kana",
+  "jp": "どろトカゲ",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:024:habitat",
+  "addr": "0D85B8",
+  "kind": "habitat",
+  "jp": "アンクルス平原ほか",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "monsters:025:name",
+  "addr": "0D8668",
+  "kind": "name",
+  "jp": "メタルジャーマウス",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:025:kana",
+  "addr": "0D867E",
+  "kind": "kana",
+  "jp": "メタルジャーマウス",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:025:habitat",
+  "addr": "0D8694",
+  "kind": "habitat",
+  "jp": "アサド山地ほか",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "monsters:026:name",
+  "addr": "0D8744",
+  "kind": "name",
+  "jp": "サンゴガブリ貝",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:026:kana",
+  "addr": "0D875A",
+  "kind": "kana",
+  "jp": "サンゴガブリがい",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:026:habitat",
+  "addr": "0D8770",
+  "kind": "habitat",
+  "jp": "海岸の遺跡",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "monsters:027:name",
+  "addr": "0D8820",
+  "kind": "name",
+  "jp": "武装ペンバリー",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:027:kana",
+  "addr": "0D8836",
+  "kind": "kana",
+  "jp": "ぶそうペンバリー",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:027:habitat",
+  "addr": "0D884C",
+  "kind": "habitat",
+  "jp": "ワンダラ山地ほか",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "monsters:028:name",
+  "addr": "0D88FC",
+  "kind": "name",
+  "jp": "リビングコイン",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:028:kana",
+  "addr": "0D8912",
+  "kind": "kana",
+  "jp": "リビングコイン",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:028:habitat",
+  "addr": "0D8928",
+  "kind": "habitat",
+  "jp": "パトレス山地",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "monsters:029:name",
+  "addr": "0D89D8",
+  "kind": "name",
+  "jp": "グルメアント",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:029:kana",
+  "addr": "0D89EE",
+  "kind": "kana",
+  "jp": "グルメアント",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:029:habitat",
+  "addr": "0D8A04",
+  "kind": "habitat",
+  "jp": "ワンダラ山地ほか",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "monsters:030:name",
+  "addr": "0D8AB4",
+  "kind": "name",
+  "jp": "砂ふくろう",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:030:kana",
+  "addr": "0D8ACA",
+  "kind": "kana",
+  "jp": "すなふくろう",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:030:habitat",
+  "addr": "0D8AE0",
+  "kind": "habitat",
+  "jp": "ワンダラ山地",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "monsters:031:name",
+  "addr": "0D8B90",
+  "kind": "name",
+  "jp": "沼の吸血鬼",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:031:kana",
+  "addr": "0D8BA6",
+  "kind": "kana",
+  "jp": "ぬまのきゅうけつき",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:031:habitat",
+  "addr": "0D8BBC",
+  "kind": "habitat",
+  "jp": "ムガインの死人沼ほか",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "monsters:032:name",
+  "addr": "0D8C6C",
+  "kind": "name",
+  "jp": "はじまりの卵",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:032:kana",
+  "addr": "0D8C82",
+  "kind": "kana",
+  "jp": "はじまりのたまご",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:032:habitat",
+  "addr": "0D8C98",
+  "kind": "habitat",
+  "jp": "グリニデ城",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "monsters:033:name",
+  "addr": "0D8D48",
+  "kind": "name",
+  "jp": "弾丸モグラ",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:033:kana",
+  "addr": "0D8D5E",
+  "kind": "kana",
+  "jp": "だんがんモグラ",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:033:habitat",
+  "addr": "0D8D74",
+  "kind": "habitat",
+  "jp": "デュオラ平原ほか",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "monsters:034:name",
+  "addr": "0D8E24",
+  "kind": "name",
+  "jp": "ガラガラ",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:034:kana",
+  "addr": "0D8E3A",
+  "kind": "kana",
+  "jp": "ガラガラ",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:034:habitat",
+  "addr": "0D8E50",
+  "kind": "habitat",
+  "jp": "ワンダラ山地",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "monsters:035:name",
+  "addr": "0D8F00",
+  "kind": "name",
+  "jp": "ツチギンチャク",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:035:kana",
+  "addr": "0D8F16",
+  "kind": "kana",
+  "jp": "ツチギンチャク",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:035:habitat",
+  "addr": "0D8F2C",
+  "kind": "habitat",
+  "jp": "海岸の遺跡ほか",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "monsters:036:name",
+  "addr": "0D8FDC",
+  "kind": "name",
+  "jp": "トドドリル",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:036:kana",
+  "addr": "0D8FF2",
+  "kind": "kana",
+  "jp": "トドドリル",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:036:habitat",
+  "addr": "0D9008",
+  "kind": "habitat",
+  "jp": "アサド山地ほか",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "monsters:037:name",
+  "addr": "0D90B8",
+  "kind": "name",
+  "jp": "毒虫の化石",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:037:kana",
+  "addr": "0D90CE",
+  "kind": "kana",
+  "jp": "どくむしのかせき",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:037:habitat",
+  "addr": "0D90E4",
+  "kind": "habitat",
+  "jp": "湖畔の遺跡",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "monsters:038:name",
+  "addr": "0D9194",
+  "kind": "name",
+  "jp": "強力ガブリ貝",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:038:kana",
+  "addr": "0D91AA",
+  "kind": "kana",
+  "jp": "ごうりきガブリがい",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:038:habitat",
+  "addr": "0D91C0",
+  "kind": "habitat",
+  "jp": "海岸の遺跡",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "monsters:039:name",
+  "addr": "0D9270",
+  "kind": "name",
+  "jp": "アクアドッグ",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:039:kana",
+  "addr": "0D9286",
+  "kind": "kana",
+  "jp": "アクアドッグ",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:039:habitat",
+  "addr": "0D929C",
+  "kind": "habitat",
+  "jp": "ムガインの死人沼ほか",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "monsters:040:name",
+  "addr": "0D934C",
+  "kind": "name",
+  "jp": "百目タマムシ",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:040:kana",
+  "addr": "0D9362",
+  "kind": "kana",
+  "jp": "ひゃくめタマムシ",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:040:habitat",
+  "addr": "0D9378",
+  "kind": "habitat",
+  "jp": "テルセロン山地",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "monsters:041:name",
+  "addr": "0D9428",
+  "kind": "name",
+  "jp": "黒煙ゼミ",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:041:kana",
+  "addr": "0D943E",
+  "kind": "kana",
+  "jp": "こくえんゼミ",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:041:habitat",
+  "addr": "0D9454",
+  "kind": "habitat",
+  "jp": "トロワナの森",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "monsters:042:name",
+  "addr": "0D9504",
+  "kind": "name",
+  "jp": "猛毒タマムシ",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:042:kana",
+  "addr": "0D951A",
+  "kind": "kana",
+  "jp": "もうどくタマムシ",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:042:habitat",
+  "addr": "0D9530",
+  "kind": "habitat",
+  "jp": "トロワナの森",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "monsters:043:name",
+  "addr": "0D95E0",
+  "kind": "name",
+  "jp": "黒煙虫",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:043:kana",
+  "addr": "0D95F6",
+  "kind": "kana",
+  "jp": "こくえんちゅう",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:043:habitat",
+  "addr": "0D960C",
+  "kind": "habitat",
+  "jp": "トロワナの森",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "monsters:044:name",
+  "addr": "0D96BC",
+  "kind": "name",
+  "jp": "金のつららこうもり",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:044:kana",
+  "addr": "0D96D2",
+  "kind": "kana",
+  "jp": "きんのつららこうもり",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:044:habitat",
+  "addr": "0D96E8",
+  "kind": "habitat",
+  "jp": "？？？",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "monsters:045:name",
+  "addr": "0D9798",
+  "kind": "name",
+  "jp": "煙突カメムシ",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:045:kana",
+  "addr": "0D97AE",
+  "kind": "kana",
+  "jp": "えんとつカメムシ",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:045:habitat",
+  "addr": "0D97C4",
+  "kind": "habitat",
+  "jp": "トロワナの森",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "monsters:046:name",
+  "addr": "0D9874",
+  "kind": "name",
+  "jp": "バーム",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:046:kana",
+  "addr": "0D988A",
+  "kind": "kana",
+  "jp": "バーム",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:046:habitat",
+  "addr": "0D98A0",
+  "kind": "habitat",
+  "jp": "トロワナの森",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "monsters:047:name",
+  "addr": "0D9950",
+  "kind": "name",
+  "jp": "毒バーム",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:047:kana",
+  "addr": "0D9966",
+  "kind": "kana",
+  "jp": "どくバーム",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:047:habitat",
+  "addr": "0D997C",
+  "kind": "habitat",
+  "jp": "トロワナの森",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "monsters:048:name",
+  "addr": "0D9A2C",
+  "kind": "name",
+  "jp": "メガトンボ",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:048:kana",
+  "addr": "0D9A42",
+  "kind": "kana",
+  "jp": "メガトンボ",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:048:habitat",
+  "addr": "0D9A58",
+  "kind": "habitat",
+  "jp": "トロワナの森",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "monsters:049:name",
+  "addr": "0D9B08",
+  "kind": "name",
+  "jp": "巨大メガトンボ",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:049:kana",
+  "addr": "0D9B1E",
+  "kind": "kana",
+  "jp": "きょだいメガトンボ",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:049:habitat",
+  "addr": "0D9B34",
+  "kind": "habitat",
+  "jp": "トロワナの森ほか",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "monsters:050:name",
+  "addr": "0D9BE4",
+  "kind": "name",
+  "jp": "ドローマン",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:050:kana",
+  "addr": "0D9BFA",
+  "kind": "kana",
+  "jp": "ドローマン",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:050:habitat",
+  "addr": "0D9C10",
+  "kind": "habitat",
+  "jp": "デュオラ平原ほか",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "monsters:051:name",
+  "addr": "0D9CC0",
+  "kind": "name",
+  "jp": "暴れマギー",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:051:kana",
+  "addr": "0D9CD6",
+  "kind": "kana",
+  "jp": "あばれマギー",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:051:habitat",
+  "addr": "0D9CEC",
+  "kind": "habitat",
+  "jp": "廃坑",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "monsters:052:name",
+  "addr": "0D9D9C",
+  "kind": "name",
+  "jp": "群がり犬",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:052:kana",
+  "addr": "0D9DB2",
+  "kind": "kana",
+  "jp": "むらがりいぬ",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:052:habitat",
+  "addr": "0D9DC8",
+  "kind": "habitat",
+  "jp": "アサド山地",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "monsters:053:name",
+  "addr": "0D9E78",
+  "kind": "name",
+  "jp": "群がり子犬",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:053:kana",
+  "addr": "0D9E8E",
+  "kind": "kana",
+  "jp": "むらがりこいぬ",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:053:habitat",
+  "addr": "0D9EA4",
+  "kind": "habitat",
+  "jp": "？？？",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "monsters:054:name",
+  "addr": "0D9F54",
+  "kind": "name",
+  "jp": "プロテク虫",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:054:kana",
+  "addr": "0D9F6A",
+  "kind": "kana",
+  "jp": "プロテクちゅう",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:054:habitat",
+  "addr": "0D9F80",
+  "kind": "habitat",
+  "jp": "デュオラ平原ほか",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "monsters:055:name",
+  "addr": "0DA030",
+  "kind": "name",
+  "jp": "ダンゴール",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:055:kana",
+  "addr": "0DA046",
+  "kind": "kana",
+  "jp": "ダンゴール",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:055:habitat",
+  "addr": "0DA05C",
+  "kind": "habitat",
+  "jp": "？？？",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "monsters:056:name",
+  "addr": "0DA10C",
+  "kind": "name",
+  "jp": "森の愚者",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:056:kana",
+  "addr": "0DA122",
+  "kind": "kana",
+  "jp": "もりのぐしゃ",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:056:habitat",
+  "addr": "0DA138",
+  "kind": "habitat",
+  "jp": "トリアーク平原",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "monsters:057:name",
+  "addr": "0DA1E8",
+  "kind": "name",
+  "jp": "ハウンドソルジャー",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:057:kana",
+  "addr": "0DA1FE",
+  "kind": "kana",
+  "jp": "ハウンドソルジャー",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:057:habitat",
+  "addr": "0DA214",
+  "kind": "habitat",
+  "jp": "アサド山地ほか",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "monsters:058:name",
+  "addr": "0DA2C4",
+  "kind": "name",
+  "jp": "腐薬虫",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:058:kana",
+  "addr": "0DA2DA",
+  "kind": "kana",
+  "jp": "ふやくちゅう",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:058:habitat",
+  "addr": "0DA2F0",
+  "kind": "habitat",
+  "jp": "？？？",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "monsters:059:name",
+  "addr": "0DA3A0",
+  "kind": "name",
+  "jp": "火煙虫",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:059:kana",
+  "addr": "0DA3B6",
+  "kind": "kana",
+  "jp": "かえんちゅう",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:059:habitat",
+  "addr": "0DA3CC",
+  "kind": "habitat",
+  "jp": "アサド山地",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "monsters:060:name",
+  "addr": "0DA47C",
+  "kind": "name",
+  "jp": "スノーマン",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:060:kana",
+  "addr": "0DA492",
+  "kind": "kana",
+  "jp": "スノーマン",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:060:habitat",
+  "addr": "0DA4A8",
+  "kind": "habitat",
+  "jp": "地底湖",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "monsters:061:name",
+  "addr": "0DA558",
+  "kind": "name",
+  "jp": "北斗狼",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:061:kana",
+  "addr": "0DA56E",
+  "kind": "kana",
+  "jp": "ほくとおおかみ",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:061:habitat",
+  "addr": "0DA584",
+  "kind": "habitat",
+  "jp": "地底湖",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "monsters:062:name",
+  "addr": "0DA634",
+  "kind": "name",
+  "jp": "トドドドリル",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:062:kana",
+  "addr": "0DA64A",
+  "kind": "kana",
+  "jp": "トドドドリル",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:062:habitat",
+  "addr": "0DA660",
+  "kind": "habitat",
+  "jp": "海岸の遺跡",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "monsters:063:name",
+  "addr": "0DA710",
+  "kind": "name",
+  "jp": "黒いブロウガンナー",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:063:kana",
+  "addr": "0DA726",
+  "kind": "kana",
+  "jp": "くろいブロウガンナー",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:063:habitat",
+  "addr": "0DA73C",
+  "kind": "habitat",
+  "jp": "グリニデ城",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "monsters:064:name",
+  "addr": "0DA7EC",
+  "kind": "name",
+  "jp": "鎧ペンバリー",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:064:kana",
+  "addr": "0DA802",
+  "kind": "kana",
+  "jp": "よろいペンバリー",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:064:habitat",
+  "addr": "0DA818",
+  "kind": "habitat",
+  "jp": "デュオラ平原ほか",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "monsters:065:name",
+  "addr": "0DA8C8",
+  "kind": "name",
+  "jp": "ジャガーム",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:065:kana",
+  "addr": "0DA8DE",
+  "kind": "kana",
+  "jp": "ジャガーム",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:065:habitat",
+  "addr": "0DA8F4",
+  "kind": "habitat",
+  "jp": "ワンダラ山地ほか",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "monsters:066:name",
+  "addr": "0DA9A4",
+  "kind": "name",
+  "jp": "水ふくろう",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:066:kana",
+  "addr": "0DA9BA",
+  "kind": "kana",
+  "jp": "みずふくろう",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:066:habitat",
+  "addr": "0DA9D0",
+  "kind": "habitat",
+  "jp": "ムガインの死人沼ほか",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "monsters:067:name",
+  "addr": "0DAA80",
+  "kind": "name",
+  "jp": "青いびっくり箱",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:067:kana",
+  "addr": "0DAA96",
+  "kind": "kana",
+  "jp": "あおいびっくりばこ",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:067:habitat",
+  "addr": "0DAAAC",
+  "kind": "habitat",
+  "jp": "湖畔の遺跡",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "monsters:068:name",
+  "addr": "0DAB5C",
+  "kind": "name",
+  "jp": "さまようガイコツ",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:068:kana",
+  "addr": "0DAB72",
+  "kind": "kana",
+  "jp": "さまようガイコツ",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:068:habitat",
+  "addr": "0DAB88",
+  "kind": "habitat",
+  "jp": "湖畔の遺跡ほか",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "monsters:069:name",
+  "addr": "0DAC38",
+  "kind": "name",
+  "jp": "闇の天狼",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:069:kana",
+  "addr": "0DAC4E",
+  "kind": "kana",
+  "jp": "やみのてんろう",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:069:habitat",
+  "addr": "0DAC64",
+  "kind": "habitat",
+  "jp": "アサド山地ほか",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "monsters:070:name",
+  "addr": "0DAD14",
+  "kind": "name",
+  "jp": "ハエコマンド",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:070:kana",
+  "addr": "0DAD2A",
+  "kind": "kana",
+  "jp": "ハエコマンド",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:070:habitat",
+  "addr": "0DAD40",
+  "kind": "habitat",
+  "jp": "テルセロン山地ほか",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "monsters:071:name",
+  "addr": "0DADF0",
+  "kind": "name",
+  "jp": "ハウンドナイト",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:071:kana",
+  "addr": "0DAE06",
+  "kind": "kana",
+  "jp": "ハウンドナイト",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:071:habitat",
+  "addr": "0DAE1C",
+  "kind": "habitat",
+  "jp": "エトリア山地",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "monsters:072:name",
+  "addr": "0DAECC",
+  "kind": "name",
+  "jp": "ツチギンチャク分身",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:072:kana",
+  "addr": "0DAEE2",
+  "kind": "kana",
+  "jp": "ツチギンチャク",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:072:habitat",
+  "addr": "0DAEF8",
+  "kind": "habitat",
+  "jp": "トリアーク平原",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "monsters:073:name",
+  "addr": "0DAFA8",
+  "kind": "name",
+  "jp": "さまようガイコツ",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:073:kana",
+  "addr": "0DAFBE",
+  "kind": "kana",
+  "jp": "さまようガイコツ",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:073:habitat",
+  "addr": "0DAFD4",
+  "kind": "habitat",
+  "jp": "アサド山地ほか",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "monsters:074:name",
+  "addr": "0DB084",
+  "kind": "name",
+  "jp": "洞穴の愚者",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:074:kana",
+  "addr": "0DB09A",
+  "kind": "kana",
+  "jp": "どうけつのぐしゃ",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:074:habitat",
+  "addr": "0DB0B0",
+  "kind": "habitat",
+  "jp": "？？？",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "monsters:075:name",
+  "addr": "0DB160",
+  "kind": "name",
+  "jp": "人喰い人魚",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:075:kana",
+  "addr": "0DB176",
+  "kind": "kana",
+  "jp": "ひとくいにんぎょ",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:075:habitat",
+  "addr": "0DB18C",
+  "kind": "habitat",
+  "jp": "地底湖",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "monsters:076:name",
+  "addr": "0DB23C",
+  "kind": "name",
+  "jp": "氷結ゼミ",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:076:kana",
+  "addr": "0DB252",
+  "kind": "kana",
+  "jp": "ひょうけつゼミ",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:076:habitat",
+  "addr": "0DB268",
+  "kind": "habitat",
+  "jp": "地底湖",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "monsters:077:name",
+  "addr": "0DB318",
+  "kind": "name",
+  "jp": "氷のハエコマンド",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:077:kana",
+  "addr": "0DB32E",
+  "kind": "kana",
+  "jp": "こおりのハエコマンド",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:077:habitat",
+  "addr": "0DB344",
+  "kind": "habitat",
+  "jp": "地底湖",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "monsters:078:name",
+  "addr": "0DB3F4",
+  "kind": "name",
+  "jp": "泥の導士",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:078:kana",
+  "addr": "0DB40A",
+  "kind": "kana",
+  "jp": "どろのどうし",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:078:habitat",
+  "addr": "0DB420",
+  "kind": "habitat",
+  "jp": "ムガイン城ほか",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "monsters:079:name",
+  "addr": "0DB4D0",
+  "kind": "name",
+  "jp": "炎のジャガーム",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:079:kana",
+  "addr": "0DB4E6",
+  "kind": "kana",
+  "jp": "ほのおのジャガーム",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:079:habitat",
+  "addr": "0DB4FC",
+  "kind": "habitat",
+  "jp": "パトレス山地ほか",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "monsters:080:name",
+  "addr": "0DB5AC",
+  "kind": "name",
+  "jp": "岩石エイ",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:080:kana",
+  "addr": "0DB5C2",
+  "kind": "kana",
+  "jp": "がんせきエイ",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:080:habitat",
+  "addr": "0DB5D8",
+  "kind": "habitat",
+  "jp": "エトリア山地ほか",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "monsters:081:name",
+  "addr": "0DB688",
+  "kind": "name",
+  "jp": "アサシンクロウ",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:081:kana",
+  "addr": "0DB69E",
+  "kind": "kana",
+  "jp": "アサシンクロウ",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:081:habitat",
+  "addr": "0DB6B4",
+  "kind": "habitat",
+  "jp": "アサド山地ほか",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "monsters:082:name",
+  "addr": "0DB764",
+  "kind": "name",
+  "jp": "猛毒ペンバリー",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:082:kana",
+  "addr": "0DB77A",
+  "kind": "kana",
+  "jp": "もうどくペンバリー",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:082:habitat",
+  "addr": "0DB790",
+  "kind": "habitat",
+  "jp": "トロワナの森ほか",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "monsters:083:name",
+  "addr": "0DB840",
+  "kind": "name",
+  "jp": "空飛ぶクリオネ",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:083:kana",
+  "addr": "0DB856",
+  "kind": "kana",
+  "jp": "そらとぶクリオネ",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:083:habitat",
+  "addr": "0DB86C",
+  "kind": "habitat",
+  "jp": "地底湖",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "monsters:084:name",
+  "addr": "0DB91C",
+  "kind": "name",
+  "jp": "腐肉の人",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:084:kana",
+  "addr": "0DB932",
+  "kind": "kana",
+  "jp": "ふにくのひと",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:084:habitat",
+  "addr": "0DB948",
+  "kind": "habitat",
+  "jp": "森の遺跡",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "monsters:085:name",
+  "addr": "0DB9F8",
+  "kind": "name",
+  "jp": "岩石巨人",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:085:kana",
+  "addr": "0DBA0E",
+  "kind": "kana",
+  "jp": "がんせききょじん",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:085:habitat",
+  "addr": "0DBA24",
+  "kind": "habitat",
+  "jp": "エトリア山地",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "monsters:086:name",
+  "addr": "0DBAD4",
+  "kind": "name",
+  "jp": "ガラガラ",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:086:kana",
+  "addr": "0DBAEA",
+  "kind": "kana",
+  "jp": "ガラガラ",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:086:habitat",
+  "addr": "0DBB00",
+  "kind": "habitat",
+  "jp": "エトリア山地ほか",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "monsters:087:name",
+  "addr": "0DBBB0",
+  "kind": "name",
+  "jp": "魔人の氷像",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:087:kana",
+  "addr": "0DBBC6",
+  "kind": "kana",
+  "jp": "まじんのひょうぞう",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:087:habitat",
+  "addr": "0DBBDC",
+  "kind": "habitat",
+  "jp": "地底湖",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "monsters:088:name",
+  "addr": "0DBC8C",
+  "kind": "name",
+  "jp": "砂のブロウガンナー",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:088:kana",
+  "addr": "0DBCA2",
+  "kind": "kana",
+  "jp": "すなのブロウガンナー",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:088:habitat",
+  "addr": "0DBCB8",
+  "kind": "habitat",
+  "jp": "エトリア山地",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "monsters:089:name",
+  "addr": "0DBD68",
+  "kind": "name",
+  "jp": "ブロウガンナー",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:089:kana",
+  "addr": "0DBD7E",
+  "kind": "kana",
+  "jp": "ブロウガンナー",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:089:habitat",
+  "addr": "0DBD94",
+  "kind": "habitat",
+  "jp": "森の遺跡",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "monsters:090:name",
+  "addr": "0DBE44",
+  "kind": "name",
+  "jp": "ドローマスター",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:090:kana",
+  "addr": "0DBE5A",
+  "kind": "kana",
+  "jp": "ドローマスター",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:090:habitat",
+  "addr": "0DBE70",
+  "kind": "habitat",
+  "jp": "海岸の遺跡ほか",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "monsters:091:name",
+  "addr": "0DBF20",
+  "kind": "name",
+  "jp": "炎の人魚",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:091:kana",
+  "addr": "0DBF36",
+  "kind": "kana",
+  "jp": "ほのおのにんぎょ",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:091:habitat",
+  "addr": "0DBF4C",
+  "kind": "habitat",
+  "jp": "パトレス山地",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "monsters:092:name",
+  "addr": "0DBFFC",
+  "kind": "name",
+  "jp": "首長エイ",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:092:kana",
+  "addr": "0DC012",
+  "kind": "kana",
+  "jp": "くびながエイ",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:092:habitat",
+  "addr": "0DC028",
+  "kind": "habitat",
+  "jp": "地底湖",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "monsters:093:name",
+  "addr": "0DC0D8",
+  "kind": "name",
+  "jp": "七星餓狼",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:093:kana",
+  "addr": "0DC0EE",
+  "kind": "kana",
+  "jp": "しちせいがろう",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:093:habitat",
+  "addr": "0DC104",
+  "kind": "habitat",
+  "jp": "？？？",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "monsters:094:name",
+  "addr": "0DC1B4",
+  "kind": "name",
+  "jp": "青炎馬",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:094:kana",
+  "addr": "0DC1CA",
+  "kind": "kana",
+  "jp": "せいえんば",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:094:habitat",
+  "addr": "0DC1E0",
+  "kind": "habitat",
+  "jp": "エトリア山地ほか",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "monsters:095:name",
+  "addr": "0DC290",
+  "kind": "name",
+  "jp": "鉄騎貝",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:095:kana",
+  "addr": "0DC2A6",
+  "kind": "kana",
+  "jp": "てっきがい",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:095:habitat",
+  "addr": "0DC2BC",
+  "kind": "habitat",
+  "jp": "海岸の遺跡ほか",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "monsters:096:name",
+  "addr": "0DC36C",
+  "kind": "name",
+  "jp": "砂トカゲ",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:096:kana",
+  "addr": "0DC382",
+  "kind": "kana",
+  "jp": "すなトカゲ",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:096:habitat",
+  "addr": "0DC398",
+  "kind": "habitat",
+  "jp": "ムスリー荒野ほか",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "monsters:097:name",
+  "addr": "0DC448",
+  "kind": "name",
+  "jp": "腐肉の人",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:097:kana",
+  "addr": "0DC45E",
+  "kind": "kana",
+  "jp": "ふにくのひと",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:097:habitat",
+  "addr": "0DC474",
+  "kind": "habitat",
+  "jp": "廃坑",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "monsters:098:name",
+  "addr": "0DC524",
+  "kind": "name",
+  "jp": "中甲虫",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:098:kana",
+  "addr": "0DC53A",
+  "kind": "kana",
+  "jp": "ちゅうこうちゅう",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:098:habitat",
+  "addr": "0DC550",
+  "kind": "habitat",
+  "jp": "トロワナの森ほか",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "monsters:099:name",
+  "addr": "0DC600",
+  "kind": "name",
+  "jp": "化石の鉄騎貝",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:099:kana",
+  "addr": "0DC616",
+  "kind": "kana",
+  "jp": "かせきのてっきがい",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:099:habitat",
+  "addr": "0DC62C",
+  "kind": "habitat",
+  "jp": "森の遺跡ほか",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "monsters:100:name",
+  "addr": "0DC6DC",
+  "kind": "name",
+  "jp": "石の魔人像",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:100:kana",
+  "addr": "0DC6F2",
+  "kind": "kana",
+  "jp": "いしのまじんぞう",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:100:habitat",
+  "addr": "0DC708",
+  "kind": "habitat",
+  "jp": "パトレス山地",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "monsters:101:name",
+  "addr": "0DC7B8",
+  "kind": "name",
+  "jp": "潮の導士",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:101:kana",
+  "addr": "0DC7CE",
+  "kind": "kana",
+  "jp": "うしおのどうし",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:101:habitat",
+  "addr": "0DC7E4",
+  "kind": "habitat",
+  "jp": "地底湖",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "monsters:102:name",
+  "addr": "0DC894",
+  "kind": "name",
+  "jp": "ナイトスナイパー",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:102:kana",
+  "addr": "0DC8AA",
+  "kind": "kana",
+  "jp": "ナイトスナイパー",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:102:habitat",
+  "addr": "0DC8C0",
+  "kind": "habitat",
+  "jp": "パトレス山地",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "monsters:103:name",
+  "addr": "0DC970",
+  "kind": "name",
+  "jp": "蔦の導士",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:103:kana",
+  "addr": "0DC986",
+  "kind": "kana",
+  "jp": "つたのどうし",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:103:habitat",
+  "addr": "0DC99C",
+  "kind": "habitat",
+  "jp": "トロワナの森ほか",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "monsters:104:name",
+  "addr": "0DCA4C",
+  "kind": "name",
+  "jp": "白亜の翼竜",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:104:kana",
+  "addr": "0DCA62",
+  "kind": "kana",
+  "jp": "はくあのよくりゅう",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:104:habitat",
+  "addr": "0DCA78",
+  "kind": "habitat",
+  "jp": "森の遺跡",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "monsters:105:name",
+  "addr": "0DCB28",
+  "kind": "name",
+  "jp": "さまようガイコツ",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:105:kana",
+  "addr": "0DCB3E",
+  "kind": "kana",
+  "jp": "さまようガイコツ",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:105:habitat",
+  "addr": "0DCB54",
+  "kind": "habitat",
+  "jp": "パトレス山地",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "monsters:106:name",
+  "addr": "0DCC04",
+  "kind": "name",
+  "jp": "マグネソルジャー",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:106:kana",
+  "addr": "0DCC1A",
+  "kind": "kana",
+  "jp": "マグネソルジャー",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:106:habitat",
+  "addr": "0DCC30",
+  "kind": "habitat",
+  "jp": "グリニデ城",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "monsters:107:name",
+  "addr": "0DCCE0",
+  "kind": "name",
+  "jp": "血雪馬",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:107:kana",
+  "addr": "0DCCF6",
+  "kind": "kana",
+  "jp": "けつせつば",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:107:habitat",
+  "addr": "0DCD0C",
+  "kind": "habitat",
+  "jp": "地底湖",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "monsters:108:name",
+  "addr": "0DCDBC",
+  "kind": "name",
+  "jp": "土の導士",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:108:kana",
+  "addr": "0DCDD2",
+  "kind": "kana",
+  "jp": "つちのどうし",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:108:habitat",
+  "addr": "0DCDE8",
+  "kind": "habitat",
+  "jp": "エトリア山地ほか",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "monsters:109:name",
+  "addr": "0DCE98",
+  "kind": "name",
+  "jp": "マグマの導士",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:109:kana",
+  "addr": "0DCEAE",
+  "kind": "kana",
+  "jp": "マグマのどうし",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:109:habitat",
+  "addr": "0DCEC4",
+  "kind": "habitat",
+  "jp": "廃坑",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "monsters:110:name",
+  "addr": "0DCF74",
+  "kind": "name",
+  "jp": "砂の導士",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:110:kana",
+  "addr": "0DCF8A",
+  "kind": "kana",
+  "jp": "すなのどうし",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:110:habitat",
+  "addr": "0DCFA0",
+  "kind": "habitat",
+  "jp": "ムスリー荒野ほか",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "monsters:111:name",
+  "addr": "0DD050",
+  "kind": "name",
+  "jp": "凍てつく炎",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:111:kana",
+  "addr": "0DD066",
+  "kind": "kana",
+  "jp": "いてつくほのお",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:111:habitat",
+  "addr": "0DD07C",
+  "kind": "habitat",
+  "jp": "地底湖",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "monsters:112:name",
+  "addr": "0DD12C",
+  "kind": "name",
+  "jp": "骨の導士",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:112:kana",
+  "addr": "0DD142",
+  "kind": "kana",
+  "jp": "ほねのどうし",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:112:habitat",
+  "addr": "0DD158",
+  "kind": "habitat",
+  "jp": "荒野の遺跡ほか",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "monsters:113:name",
+  "addr": "0DD208",
+  "kind": "name",
+  "jp": "ハウンドナイト",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:113:kana",
+  "addr": "0DD21E",
+  "kind": "kana",
+  "jp": "ハウンドナイト",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:113:habitat",
+  "addr": "0DD234",
+  "kind": "habitat",
+  "jp": "ムスリー荒野ほか",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "monsters:114:name",
+  "addr": "0DD2E4",
+  "kind": "name",
+  "jp": "罪人たいまつ",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:114:kana",
+  "addr": "0DD2FA",
+  "kind": "kana",
+  "jp": "ざいにんたいまつ",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:114:habitat",
+  "addr": "0DD310",
+  "kind": "habitat",
+  "jp": "トリアーク平原ほか",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "monsters:115:name",
+  "addr": "0DD3C0",
+  "kind": "name",
+  "jp": "ナイトスナイパー",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:115:kana",
+  "addr": "0DD3D6",
+  "kind": "kana",
+  "jp": "ナイトスナイパー",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:115:habitat",
+  "addr": "0DD3EC",
+  "kind": "habitat",
+  "jp": "ムスリー荒野ほか",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "monsters:116:name",
+  "addr": "0DD49C",
+  "kind": "name",
+  "jp": "氷の導士",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:116:kana",
+  "addr": "0DD4B2",
+  "kind": "kana",
+  "jp": "こおりのどうし",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:116:habitat",
+  "addr": "0DD4C8",
+  "kind": "habitat",
+  "jp": "地底湖",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "monsters:117:name",
+  "addr": "0DD578",
+  "kind": "name",
+  "jp": "青銅巨人",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:117:kana",
+  "addr": "0DD58E",
+  "kind": "kana",
+  "jp": "せいどうきょじん",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:117:habitat",
+  "addr": "0DD5A4",
+  "kind": "habitat",
+  "jp": "パトレス山地",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "monsters:118:name",
+  "addr": "0DD654",
+  "kind": "name",
+  "jp": "夢魔",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:118:kana",
+  "addr": "0DD66A",
+  "kind": "kana",
+  "jp": "むま",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:118:habitat",
+  "addr": "0DD680",
+  "kind": "habitat",
+  "jp": "グリニデ城",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "monsters:119:name",
+  "addr": "0DD730",
+  "kind": "name",
+  "jp": "フレイムペンギン",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:119:kana",
+  "addr": "0DD746",
+  "kind": "kana",
+  "jp": "フレイムペンギン",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:119:habitat",
+  "addr": "0DD75C",
+  "kind": "habitat",
+  "jp": "廃坑",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "monsters:120:name",
+  "addr": "0DD80C",
+  "kind": "name",
+  "jp": "砂のアサシンクロウ",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:120:kana",
+  "addr": "0DD822",
+  "kind": "kana",
+  "jp": "すなのアサシンクロウ",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:120:habitat",
+  "addr": "0DD838",
+  "kind": "habitat",
+  "jp": "ムスリー荒野ほか",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "monsters:121:name",
+  "addr": "0DD8E8",
+  "kind": "name",
+  "jp": "氷雪巨人",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:121:kana",
+  "addr": "0DD8FE",
+  "kind": "kana",
+  "jp": "ひょうせつきょじん",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:121:habitat",
+  "addr": "0DD914",
+  "kind": "habitat",
+  "jp": "グリニデ城",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "monsters:122:name",
+  "addr": "0DD9C4",
+  "kind": "name",
+  "jp": "さまようガイコツ",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:122:kana",
+  "addr": "0DD9DA",
+  "kind": "kana",
+  "jp": "さまようガイコツ",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:122:habitat",
+  "addr": "0DD9F0",
+  "kind": "habitat",
+  "jp": "荒野の遺跡",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "monsters:123:name",
+  "addr": "0DDAA0",
+  "kind": "name",
+  "jp": "フリーズペンギン",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:123:kana",
+  "addr": "0DDAB6",
+  "kind": "kana",
+  "jp": "フリーズペンギン",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:123:habitat",
+  "addr": "0DDACC",
+  "kind": "habitat",
+  "jp": "グリニデ城",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "monsters:124:name",
+  "addr": "0DDB7C",
+  "kind": "name",
+  "jp": "暗黒マグネナイト",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:124:kana",
+  "addr": "0DDB92",
+  "kind": "kana",
+  "jp": "あんこくマグネナイト",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:124:habitat",
+  "addr": "0DDBA8",
+  "kind": "habitat",
+  "jp": "廃坑",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "monsters:125:name",
+  "addr": "0DDC58",
+  "kind": "name",
+  "jp": "樹氷たいまつ",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:125:kana",
+  "addr": "0DDC6E",
+  "kind": "kana",
+  "jp": "じゅひょうたいまつ",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:125:habitat",
+  "addr": "0DDC84",
+  "kind": "habitat",
+  "jp": "？？？",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "monsters:126:name",
+  "addr": "0DDD34",
+  "kind": "name",
+  "jp": "大甲虫",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:126:kana",
+  "addr": "0DDD4A",
+  "kind": "kana",
+  "jp": "だいこうちゅう",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:126:habitat",
+  "addr": "0DDD60",
+  "kind": "habitat",
+  "jp": "トリアーク平原ほか",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "monsters:127:name",
+  "addr": "0DDE10",
+  "kind": "name",
+  "jp": "氷つららこうもり",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:127:kana",
+  "addr": "0DDE26",
+  "kind": "kana",
+  "jp": "こおりつららこうもり",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:127:habitat",
+  "addr": "0DDE3C",
+  "kind": "habitat",
+  "jp": "ムスリー荒野ほか",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "monsters:128:name",
+  "addr": "0DDEEC",
+  "kind": "name",
+  "jp": "岩石モグラ",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:128:kana",
+  "addr": "0DDF02",
+  "kind": "kana",
+  "jp": "がんせきモグラ",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:128:habitat",
+  "addr": "0DDF18",
+  "kind": "habitat",
+  "jp": "ムスリー荒野ほか",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "monsters:129:name",
+  "addr": "0DDFC8",
+  "kind": "name",
+  "jp": "軍艦トータス",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:129:kana",
+  "addr": "0DDFDE",
+  "kind": "kana",
+  "jp": "ぐんかんトータス",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:129:habitat",
+  "addr": "0DDFF4",
+  "kind": "habitat",
+  "jp": "グリニデ城",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "monsters:130:name",
+  "addr": "0DE0A4",
+  "kind": "name",
+  "jp": "アイアンライノス",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:130:kana",
+  "addr": "0DE0BA",
+  "kind": "kana",
+  "jp": "アイアンライノス",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:130:habitat",
+  "addr": "0DE0D0",
+  "kind": "habitat",
+  "jp": "廃坑",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "monsters:131:name",
+  "addr": "0DE180",
+  "kind": "name",
+  "jp": "バスターゾンビ",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:131:kana",
+  "addr": "0DE196",
+  "kind": "kana",
+  "jp": "バスターゾンビ",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:131:habitat",
+  "addr": "0DE1AC",
+  "kind": "habitat",
+  "jp": "荒野の遺跡ほか",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "monsters:132:name",
+  "addr": "0DE25C",
+  "kind": "name",
+  "jp": "毒沼の翼竜",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:132:kana",
+  "addr": "0DE272",
+  "kind": "kana",
+  "jp": "どくぬまのよくりゅう",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:132:habitat",
+  "addr": "0DE288",
+  "kind": "habitat",
+  "jp": "湖畔の遺跡",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "monsters:133:name",
+  "addr": "0DE338",
+  "kind": "name",
+  "jp": "赤銅巨人",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:133:kana",
+  "addr": "0DE34E",
+  "kind": "kana",
+  "jp": "しゃくどうきょじん",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:133:habitat",
+  "addr": "0DE364",
+  "kind": "habitat",
+  "jp": "ムスリー荒野ほか",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "monsters:134:name",
+  "addr": "0DE414",
+  "kind": "name",
+  "jp": "大軍艦トータス",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:134:kana",
+  "addr": "0DE42A",
+  "kind": "kana",
+  "jp": "だいぐんかんトータス",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:134:habitat",
+  "addr": "0DE440",
+  "kind": "habitat",
+  "jp": "？？？",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "monsters:135:name",
+  "addr": "0DE4F0",
+  "kind": "name",
+  "jp": "砂陣の翼竜",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:135:kana",
+  "addr": "0DE506",
+  "kind": "kana",
+  "jp": "さじんのよくりゅう",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:135:habitat",
+  "addr": "0DE51C",
+  "kind": "habitat",
+  "jp": "？？？",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "monsters:136:name",
+  "addr": "0DE5CC",
+  "kind": "name",
+  "jp": "雪崩モグラ",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:136:kana",
+  "addr": "0DE5E2",
+  "kind": "kana",
+  "jp": "なだれモグラ",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:136:habitat",
+  "addr": "0DE5F8",
+  "kind": "habitat",
+  "jp": "？？？",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "monsters:137:name",
+  "addr": "0DE6A8",
+  "kind": "name",
+  "jp": "真紅の夢魔",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:137:kana",
+  "addr": "0DE6BE",
+  "kind": "kana",
+  "jp": "しんくのむま",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:137:habitat",
+  "addr": "0DE6D4",
+  "kind": "habitat",
+  "jp": "？？？",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "monsters:138:name",
+  "addr": "0DE784",
+  "kind": "name",
+  "jp": "ダイヤの巨人",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:138:kana",
+  "addr": "0DE79A",
+  "kind": "kana",
+  "jp": "ダイヤのきょじん",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:138:habitat",
+  "addr": "0DE7B0",
+  "kind": "habitat",
+  "jp": "ムスリー荒野ほか",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "monsters:139:name",
+  "addr": "0DE860",
+  "kind": "name",
+  "jp": "ツチギンチャク",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:139:kana",
+  "addr": "0DE876",
+  "kind": "kana",
+  "jp": "ツチギンチャク",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:139:habitat",
+  "addr": "0DE88C",
+  "kind": "habitat",
+  "jp": "グリニデ城",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "monsters:140:name",
+  "addr": "0DE93C",
+  "kind": "name",
+  "jp": "鋼の導士",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:140:kana",
+  "addr": "0DE952",
+  "kind": "kana",
+  "jp": "はがねのどうし",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:140:habitat",
+  "addr": "0DE968",
+  "kind": "habitat",
+  "jp": "ムスリー山地",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "monsters:141:name",
+  "addr": "0DEA18",
+  "kind": "name",
+  "jp": "鋼鉄モグラ",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:141:kana",
+  "addr": "0DEA2E",
+  "kind": "kana",
+  "jp": "こうてつモグラ",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:141:habitat",
+  "addr": "0DEA44",
+  "kind": "habitat",
+  "jp": "ムスリー山地",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "monsters:142:name",
+  "addr": "0DEAF4",
+  "kind": "name",
+  "jp": "ゴールデンライノス",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:142:kana",
+  "addr": "0DEB0A",
+  "kind": "kana",
+  "jp": "ゴールデンライノス",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:142:habitat",
+  "addr": "0DEB20",
+  "kind": "habitat",
+  "jp": "ムスリー山地ほか",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "monsters:143:name",
+  "addr": "0DEBD0",
+  "kind": "name",
+  "jp": "火山の翼竜",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:143:kana",
+  "addr": "0DEBE6",
+  "kind": "kana",
+  "jp": "かざんのよくりゅう",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:143:habitat",
+  "addr": "0DEBFC",
+  "kind": "habitat",
+  "jp": "？？？",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "monsters:144:name",
+  "addr": "0DECAC",
+  "kind": "name",
+  "jp": "死を呼ぶ夢魔",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:144:kana",
+  "addr": "0DECC2",
+  "kind": "kana",
+  "jp": "しをよぶむま",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:144:habitat",
+  "addr": "0DECD8",
+  "kind": "habitat",
+  "jp": "グリニデ城",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "monsters:145:name",
+  "addr": "0DED88",
+  "kind": "name",
+  "jp": "黄金マグネナイト",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:145:kana",
+  "addr": "0DED9E",
+  "kind": "kana",
+  "jp": "おうごんマグネナイト",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:145:habitat",
+  "addr": "0DEDB4",
+  "kind": "habitat",
+  "jp": "グリニデ城",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "monsters:146:name",
+  "addr": "0DEE64",
+  "kind": "name",
+  "jp": "鋼の魔人像",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:146:kana",
+  "addr": "0DEE7A",
+  "kind": "kana",
+  "jp": "はがねのまじんぞう",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:146:habitat",
+  "addr": "0DEE90",
+  "kind": "habitat",
+  "jp": "グリニデ城",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "monsters:147:name",
+  "addr": "0DEF40",
+  "kind": "name",
+  "jp": "黒き炎",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:147:kana",
+  "addr": "0DEF56",
+  "kind": "kana",
+  "jp": "くろきほのお",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:147:habitat",
+  "addr": "0DEF6C",
+  "kind": "habitat",
+  "jp": "？？？",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "monsters:148:name",
+  "addr": "0DF01C",
+  "kind": "name",
+  "jp": "トロワナ兵",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:148:kana",
+  "addr": "0DF032",
+  "kind": "kana",
+  "jp": "トロワナへい",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:148:habitat",
+  "addr": "0DF048",
+  "kind": "habitat",
+  "jp": "？？？",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "monsters:149:name",
+  "addr": "0DF0F8",
+  "kind": "name",
+  "jp": "強盗団",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:149:kana",
+  "addr": "0DF10E",
+  "kind": "kana",
+  "jp": "ごうとうだん",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:149:habitat",
+  "addr": "0DF124",
+  "kind": "habitat",
+  "jp": "？？？",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "monsters:150:name",
+  "addr": "0DF1D4",
+  "kind": "name",
+  "jp": "強盗頭領",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:150:kana",
+  "addr": "0DF1EA",
+  "kind": "kana",
+  "jp": "ごうとうとうりょう",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:150:habitat",
+  "addr": "0DF200",
+  "kind": "habitat",
+  "jp": "？？？",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "monsters:151:name",
+  "addr": "0DF2B0",
+  "kind": "name",
+  "jp": "ベルトーゼ",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:151:kana",
+  "addr": "0DF2C6",
+  "kind": "kana",
+  "jp": "ベルトーゼ",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "monsters:151:habitat",
+  "addr": "0DF2DC",
+  "kind": "habitat",
+  "jp": "説明",
+  "en": "",
+  "max": 72
+ }
+]

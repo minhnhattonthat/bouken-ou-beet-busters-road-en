@@ -1,0 +1,546 @@
+[
+ {
+  "id": "items:000:name",
+  "addr": "0A4214",
+  "kind": "name",
+  "jp": "薬草",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "items:000:kana",
+  "addr": "0A4228",
+  "kind": "kana",
+  "jp": "やくそう",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "items:000:desc",
+  "addr": "0A423C",
+  "kind": "desc",
+  "jp": "ＨＰを５０回復",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "items:000:menu",
+  "addr": "0A4288",
+  "kind": "menu",
+  "jp": "やくそう",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "items:001:name",
+  "addr": "0A42AC",
+  "kind": "name",
+  "jp": "ハーブティー",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "items:001:kana",
+  "addr": "0A42C0",
+  "kind": "kana",
+  "jp": "はーぶてぃー",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "items:001:desc",
+  "addr": "0A42D4",
+  "kind": "desc",
+  "jp": "ＨＰを１００回復",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "items:001:menu",
+  "addr": "0A4320",
+  "kind": "menu",
+  "jp": "ハーブティー",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "items:002:name",
+  "addr": "0A4344",
+  "kind": "name",
+  "jp": "体力丸",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "items:002:kana",
+  "addr": "0A4358",
+  "kind": "kana",
+  "jp": "たいりょくがん",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "items:002:desc",
+  "addr": "0A436C",
+  "kind": "desc",
+  "jp": "ＨＰを３００回復",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "items:002:menu",
+  "addr": "0A43B8",
+  "kind": "menu",
+  "jp": "たいりょくがん",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "items:003:name",
+  "addr": "0A43DC",
+  "kind": "name",
+  "jp": "おばばの秘薬",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "items:003:kana",
+  "addr": "0A43F0",
+  "kind": "kana",
+  "jp": "おばばのひやく",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "items:003:desc",
+  "addr": "0A4404",
+  "kind": "desc",
+  "jp": "ＨＰを全回復",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "items:003:menu",
+  "addr": "0A4450",
+  "kind": "menu",
+  "jp": "おばばのひやく",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "items:004:name",
+  "addr": "0A4474",
+  "kind": "name",
+  "jp": "イモリの干物",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "items:004:kana",
+  "addr": "0A4488",
+  "kind": "kana",
+  "jp": "いもりのひもの",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "items:004:desc",
+  "addr": "0A449C",
+  "kind": "desc",
+  "jp": "ＴＰを５０回復",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "items:004:menu",
+  "addr": "0A44E8",
+  "kind": "menu",
+  "jp": "イモリのひもの",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "items:005:name",
+  "addr": "0A450C",
+  "kind": "name",
+  "jp": "イモリの黒焼き",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "items:005:kana",
+  "addr": "0A4520",
+  "kind": "kana",
+  "jp": "いもりのくろやき",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "items:005:desc",
+  "addr": "0A4534",
+  "kind": "desc",
+  "jp": "ＴＰを１００回復",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "items:005:menu",
+  "addr": "0A4580",
+  "kind": "menu",
+  "jp": "イモリのくろやき",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "items:006:name",
+  "addr": "0A45A4",
+  "kind": "name",
+  "jp": "天力丸",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "items:006:kana",
+  "addr": "0A45B8",
+  "kind": "kana",
+  "jp": "てんりょくがん",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "items:006:desc",
+  "addr": "0A45CC",
+  "kind": "desc",
+  "jp": "ＴＰを３００回復",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "items:006:menu",
+  "addr": "0A4618",
+  "kind": "menu",
+  "jp": "てんりょくがん",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "items:007:name",
+  "addr": "0A463C",
+  "kind": "name",
+  "jp": "おじぃの妙薬",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "items:007:kana",
+  "addr": "0A4650",
+  "kind": "kana",
+  "jp": "おじぃのみょうやく",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "items:007:desc",
+  "addr": "0A4664",
+  "kind": "desc",
+  "jp": "ＴＰを全回復",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "items:007:menu",
+  "addr": "0A46B0",
+  "kind": "menu",
+  "jp": "おじぃのみょうやく",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "items:008:name",
+  "addr": "0A46D4",
+  "kind": "name",
+  "jp": "栄養剤",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "items:008:kana",
+  "addr": "0A46E8",
+  "kind": "kana",
+  "jp": "えいようざい",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "items:008:desc",
+  "addr": "0A46FC",
+  "kind": "desc",
+  "jp": "ＨＰ０時の行動不能状態からの復帰。ＨＰを１０だけ回復",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "items:008:menu",
+  "addr": "0A4748",
+  "kind": "menu",
+  "jp": "えいようざい",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "items:009:name",
+  "addr": "0A476C",
+  "kind": "name",
+  "jp": "気付け剤",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "items:009:kana",
+  "addr": "0A4780",
+  "kind": "kana",
+  "jp": "きつけざい",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "items:009:desc",
+  "addr": "0A4794",
+  "kind": "desc",
+  "jp": "ＴＰ０時の眠り状態からの復帰。ＴＰを１０だけ回復",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "items:009:menu",
+  "addr": "0A47E0",
+  "kind": "menu",
+  "jp": "きつけざい",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "items:010:name",
+  "addr": "0A4804",
+  "kind": "name",
+  "jp": "治療薬",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "items:010:kana",
+  "addr": "0A4818",
+  "kind": "kana",
+  "jp": "ちりょうやく",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "items:010:desc",
+  "addr": "0A482C",
+  "kind": "desc",
+  "jp": "行動不能状態及び眠り状態からの復帰。ＨＰ＆ＴＰをそれぞれ１０だけ回復",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "items:010:menu",
+  "addr": "0A4878",
+  "kind": "menu",
+  "jp": "ちりょうやく",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "items:011:name",
+  "addr": "0A489C",
+  "kind": "name",
+  "jp": "万能薬",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "items:011:kana",
+  "addr": "0A48B0",
+  "kind": "kana",
+  "jp": "ばんのうやく",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "items:011:desc",
+  "addr": "0A48C4",
+  "kind": "desc",
+  "jp": "行動不能状態及び眠り状態からの復帰。ＨＰ＆ＴＰをすべてＭＡＸまで回復",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "items:011:menu",
+  "addr": "0A4910",
+  "kind": "menu",
+  "jp": "ばんのうやく",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "items:012:name",
+  "addr": "0A4934",
+  "kind": "name",
+  "jp": "解毒剤",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "items:012:kana",
+  "addr": "0A4948",
+  "kind": "kana",
+  "jp": "げどくざい",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "items:012:desc",
+  "addr": "0A495C",
+  "kind": "desc",
+  "jp": "毒を治療",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "items:012:menu",
+  "addr": "0A49A8",
+  "kind": "menu",
+  "jp": "げどくざい",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "items:013:name",
+  "addr": "0A49CC",
+  "kind": "name",
+  "jp": "トラキラの葉",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "items:013:kana",
+  "addr": "0A49E0",
+  "kind": "kana",
+  "jp": "とらきらのは",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "items:013:desc",
+  "addr": "0A49F4",
+  "kind": "desc",
+  "jp": "混乱を治療",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "items:013:menu",
+  "addr": "0A4A40",
+  "kind": "menu",
+  "jp": "トラキラのは",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "items:014:name",
+  "addr": "0A4A64",
+  "kind": "name",
+  "jp": "しびれ取り",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "items:014:kana",
+  "addr": "0A4A78",
+  "kind": "kana",
+  "jp": "しびれとり",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "items:014:desc",
+  "addr": "0A4A8C",
+  "kind": "desc",
+  "jp": "麻痺を治療",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "items:014:menu",
+  "addr": "0A4AD8",
+  "kind": "menu",
+  "jp": "しびれとり",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "items:015:name",
+  "addr": "0A4AFC",
+  "kind": "name",
+  "jp": "クールジェル",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "items:015:kana",
+  "addr": "0A4B10",
+  "kind": "kana",
+  "jp": "くーるじぇる",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "items:015:desc",
+  "addr": "0A4B24",
+  "kind": "desc",
+  "jp": "やけどを治療",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "items:015:menu",
+  "addr": "0A4B70",
+  "kind": "menu",
+  "jp": "クールジェル",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "items:016:name",
+  "addr": "0A4B94",
+  "kind": "name",
+  "jp": "ホットジェル",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "items:016:kana",
+  "addr": "0A4BA8",
+  "kind": "kana",
+  "jp": "ほっとじぇる",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "items:016:desc",
+  "addr": "0A4BBC",
+  "kind": "desc",
+  "jp": "凍傷を治療",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "items:016:menu",
+  "addr": "0A4C08",
+  "kind": "menu",
+  "jp": "ホットジェル",
+  "en": "",
+  "max": 20
+ }
+]

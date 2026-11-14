@@ -1,0 +1,90 @@
+[
+ {
+  "id": "rank:000:name",
+  "addr": "0A15B8",
+  "kind": "name",
+  "jp": "初心者戦士団",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "rank:001:name",
+  "addr": "0A15D0",
+  "kind": "name",
+  "jp": "新米戦士団",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "rank:002:name",
+  "addr": "0A15E8",
+  "kind": "name",
+  "jp": "無名の戦士団",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "rank:003:name",
+  "addr": "0A1600",
+  "kind": "name",
+  "jp": "普通の戦士団",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "rank:004:name",
+  "addr": "0A1618",
+  "kind": "name",
+  "jp": "中流戦士団",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "rank:005:name",
+  "addr": "0A1630",
+  "kind": "name",
+  "jp": "ベテラン戦士団",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "rank:006:name",
+  "addr": "0A1648",
+  "kind": "name",
+  "jp": "噂の戦士団",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "rank:007:name",
+  "addr": "0A1660",
+  "kind": "name",
+  "jp": "有名な戦士団",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "rank:008:name",
+  "addr": "0A1678",
+  "kind": "name",
+  "jp": "究極の戦士団",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "rank:009:name",
+  "addr": "0A1690",
+  "kind": "name",
+  "jp": "奇跡の戦士団",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "rank:010:name",
+  "addr": "0A16A8",
+  "kind": "name",
+  "jp": "伝説の戦士団",
+  "en": "",
+  "max": 20
+ }
+]

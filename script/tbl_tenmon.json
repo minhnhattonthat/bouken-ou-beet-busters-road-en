@@ -1,0 +1,1034 @@
+[
+ {
+  "id": "tenmon:000:name",
+  "addr": "0A65B8",
+  "kind": "name",
+  "jp": "天撃の火炎",
+  "en": "",
+  "max": 14
+ },
+ {
+  "id": "tenmon:000:kana",
+  "addr": "0A65C6",
+  "kind": "kana",
+  "jp": "てんげきのかえん",
+  "en": "",
+  "max": 26
+ },
+ {
+  "id": "tenmon:000:desc",
+  "addr": "0A65E0",
+  "kind": "desc",
+  "jp": "炎の天撃。威力：小",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "tenmon:001:name",
+  "addr": "0A6650",
+  "kind": "name",
+  "jp": "天撃の火柱",
+  "en": "",
+  "max": 14
+ },
+ {
+  "id": "tenmon:001:kana",
+  "addr": "0A665E",
+  "kind": "kana",
+  "jp": "てんげきのひばしら",
+  "en": "",
+  "max": 26
+ },
+ {
+  "id": "tenmon:001:desc",
+  "addr": "0A6678",
+  "kind": "desc",
+  "jp": "炎の天撃。威力：中",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "tenmon:002:name",
+  "addr": "0A66E8",
+  "kind": "name",
+  "jp": "天撃の火掌",
+  "en": "",
+  "max": 14
+ },
+ {
+  "id": "tenmon:002:kana",
+  "addr": "0A66F6",
+  "kind": "kana",
+  "jp": "てんげきのひしょう",
+  "en": "",
+  "max": 26
+ },
+ {
+  "id": "tenmon:002:desc",
+  "addr": "0A6710",
+  "kind": "desc",
+  "jp": "炎の近接用天撃。威力：大",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "tenmon:003:name",
+  "addr": "0A6780",
+  "kind": "name",
+  "jp": "天烈の大火球",
+  "en": "",
+  "max": 14
+ },
+ {
+  "id": "tenmon:003:kana",
+  "addr": "0A678E",
+  "kind": "kana",
+  "jp": "てんれつのだいかきゅう",
+  "en": "",
+  "max": 26
+ },
+ {
+  "id": "tenmon:003:desc",
+  "addr": "0A67A8",
+  "kind": "desc",
+  "jp": "炎の上位天撃。威力：巨大",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "tenmon:004:name",
+  "addr": "0A6818",
+  "kind": "name",
+  "jp": "天撃の火流",
+  "en": "",
+  "max": 14
+ },
+ {
+  "id": "tenmon:004:kana",
+  "addr": "0A6826",
+  "kind": "kana",
+  "jp": "てんげきのかりゅう",
+  "en": "",
+  "max": 26
+ },
+ {
+  "id": "tenmon:004:desc",
+  "addr": "0A6840",
+  "kind": "desc",
+  "jp": "炎の範囲天撃。威力：小",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "tenmon:005:name",
+  "addr": "0A68B0",
+  "kind": "name",
+  "jp": "天撃の業火",
+  "en": "",
+  "max": 14
+ },
+ {
+  "id": "tenmon:005:kana",
+  "addr": "0A68BE",
+  "kind": "kana",
+  "jp": "てんげきのごうか",
+  "en": "",
+  "max": 26
+ },
+ {
+  "id": "tenmon:005:desc",
+  "addr": "0A68D8",
+  "kind": "desc",
+  "jp": "炎の範囲天撃。威力：中",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "tenmon:006:name",
+  "addr": "0A6948",
+  "kind": "name",
+  "jp": "天撃の爆炎",
+  "en": "",
+  "max": 14
+ },
+ {
+  "id": "tenmon:006:kana",
+  "addr": "0A6956",
+  "kind": "kana",
+  "jp": "てんげきのばくえん",
+  "en": "",
+  "max": 26
+ },
+ {
+  "id": "tenmon:006:desc",
+  "addr": "0A6970",
+  "kind": "desc",
+  "jp": "炎の範囲天撃。威力：大",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "tenmon:007:name",
+  "addr": "0A69E0",
+  "kind": "name",
+  "jp": "天撃の火針",
+  "en": "",
+  "max": 14
+ },
+ {
+  "id": "tenmon:007:kana",
+  "addr": "0A69EE",
+  "kind": "kana",
+  "jp": "てんげきのひはり",
+  "en": "",
+  "max": 26
+ },
+ {
+  "id": "tenmon:007:desc",
+  "addr": "0A6A08",
+  "kind": "desc",
+  "jp": "マヒ状態から回復させる",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "tenmon:008:name",
+  "addr": "0A6A78",
+  "kind": "name",
+  "jp": "天撃の陽炎",
+  "en": "",
+  "max": 14
+ },
+ {
+  "id": "tenmon:008:kana",
+  "addr": "0A6A86",
+  "kind": "kana",
+  "jp": "てんげきのかげろう",
+  "en": "",
+  "max": 26
+ },
+ {
+  "id": "tenmon:008:desc",
+  "addr": "0A6AA0",
+  "kind": "desc",
+  "jp": "敵全体の命中を２０％下げる",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "tenmon:009:name",
+  "addr": "0A6B10",
+  "kind": "name",
+  "jp": "天撃の雹弾",
+  "en": "",
+  "max": 14
+ },
+ {
+  "id": "tenmon:009:kana",
+  "addr": "0A6B1E",
+  "kind": "kana",
+  "jp": "てんげきのひょうだん",
+  "en": "",
+  "max": 26
+ },
+ {
+  "id": "tenmon:009:desc",
+  "addr": "0A6B38",
+  "kind": "desc",
+  "jp": "氷の天撃。威力：小",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "tenmon:010:name",
+  "addr": "0A6BA8",
+  "kind": "name",
+  "jp": "天撃の雹柱",
+  "en": "",
+  "max": 14
+ },
+ {
+  "id": "tenmon:010:kana",
+  "addr": "0A6BB6",
+  "kind": "kana",
+  "jp": "てんげきのぎょうちゅう",
+  "en": "",
+  "max": 26
+ },
+ {
+  "id": "tenmon:010:desc",
+  "addr": "0A6BD0",
+  "kind": "desc",
+  "jp": "氷の天撃。威力：中",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "tenmon:011:name",
+  "addr": "0A6C40",
+  "kind": "name",
+  "jp": "天撃の雹錘",
+  "en": "",
+  "max": 14
+ },
+ {
+  "id": "tenmon:011:kana",
+  "addr": "0A6C4E",
+  "kind": "kana",
+  "jp": "てんげきのひょうすい",
+  "en": "",
+  "max": 26
+ },
+ {
+  "id": "tenmon:011:desc",
+  "addr": "0A6C68",
+  "kind": "desc",
+  "jp": "氷の天撃。威力：大",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "tenmon:012:name",
+  "addr": "0A6CD8",
+  "kind": "name",
+  "jp": "天青の氷結波",
+  "en": "",
+  "max": 14
+ },
+ {
+  "id": "tenmon:012:kana",
+  "addr": "0A6CE6",
+  "kind": "kana",
+  "jp": "てんせいのひょうけつは",
+  "en": "",
+  "max": 26
+ },
+ {
+  "id": "tenmon:012:desc",
+  "addr": "0A6D00",
+  "kind": "desc",
+  "jp": "氷の上位天撃。威力：巨大",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "tenmon:013:name",
+  "addr": "0A6D70",
+  "kind": "name",
+  "jp": "天撃の氷雨",
+  "en": "",
+  "max": 14
+ },
+ {
+  "id": "tenmon:013:kana",
+  "addr": "0A6D7E",
+  "kind": "kana",
+  "jp": "てんげきのひょうう",
+  "en": "",
+  "max": 26
+ },
+ {
+  "id": "tenmon:013:desc",
+  "addr": "0A6D98",
+  "kind": "desc",
+  "jp": "氷の全体天撃。威力：小",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "tenmon:014:name",
+  "addr": "0A6E08",
+  "kind": "name",
+  "jp": "天撃の吹雪",
+  "en": "",
+  "max": 14
+ },
+ {
+  "id": "tenmon:014:kana",
+  "addr": "0A6E16",
+  "kind": "kana",
+  "jp": "てんげきのふぶき",
+  "en": "",
+  "max": 26
+ },
+ {
+  "id": "tenmon:014:desc",
+  "addr": "0A6E30",
+  "kind": "desc",
+  "jp": "氷の全体天撃。威力：中",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "tenmon:015:name",
+  "addr": "0A6EA0",
+  "kind": "name",
+  "jp": "天撃の雪崩",
+  "en": "",
+  "max": 14
+ },
+ {
+  "id": "tenmon:015:kana",
+  "addr": "0A6EAE",
+  "kind": "kana",
+  "jp": "てんげきのなだれ",
+  "en": "",
+  "max": 26
+ },
+ {
+  "id": "tenmon:015:desc",
+  "addr": "0A6EC8",
+  "kind": "desc",
+  "jp": "氷の全体天撃。威力：大",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "tenmon:016:name",
+  "addr": "0A6F38",
+  "kind": "name",
+  "jp": "天撃の浄水",
+  "en": "",
+  "max": 14
+ },
+ {
+  "id": "tenmon:016:kana",
+  "addr": "0A6F46",
+  "kind": "kana",
+  "jp": "てんげきのじょうすい",
+  "en": "",
+  "max": 26
+ },
+ {
+  "id": "tenmon:016:desc",
+  "addr": "0A6F60",
+  "kind": "desc",
+  "jp": "毒状態から回復させる",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "tenmon:017:name",
+  "addr": "0A6FD0",
+  "kind": "name",
+  "jp": "天撃の水衣",
+  "en": "",
+  "max": 14
+ },
+ {
+  "id": "tenmon:017:kana",
+  "addr": "0A6FDE",
+  "kind": "kana",
+  "jp": "てんげきのすいい",
+  "en": "",
+  "max": 26
+ },
+ {
+  "id": "tenmon:017:desc",
+  "addr": "0A6FF8",
+  "kind": "desc",
+  "jp": "物理防御を２０％上昇させる",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "tenmon:018:name",
+  "addr": "0A7068",
+  "kind": "name",
+  "jp": "天撃の疾風",
+  "en": "",
+  "max": 14
+ },
+ {
+  "id": "tenmon:018:kana",
+  "addr": "0A7076",
+  "kind": "kana",
+  "jp": "てんげきのしっぷう",
+  "en": "",
+  "max": 26
+ },
+ {
+  "id": "tenmon:018:desc",
+  "addr": "0A7090",
+  "kind": "desc",
+  "jp": "風の天撃。威力：小",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "tenmon:019:name",
+  "addr": "0A7100",
+  "kind": "name",
+  "jp": "天撃の旋風",
+  "en": "",
+  "max": 14
+ },
+ {
+  "id": "tenmon:019:kana",
+  "addr": "0A710E",
+  "kind": "kana",
+  "jp": "てんげきのせんぷう",
+  "en": "",
+  "max": 26
+ },
+ {
+  "id": "tenmon:019:desc",
+  "addr": "0A7128",
+  "kind": "desc",
+  "jp": "風の天撃。威力：中",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "tenmon:020:name",
+  "addr": "0A7198",
+  "kind": "name",
+  "jp": "天撃の大嵐",
+  "en": "",
+  "max": 14
+ },
+ {
+  "id": "tenmon:020:kana",
+  "addr": "0A71A6",
+  "kind": "kana",
+  "jp": "てんげきのおおあらし",
+  "en": "",
+  "max": 26
+ },
+ {
+  "id": "tenmon:020:desc",
+  "addr": "0A71C0",
+  "kind": "desc",
+  "jp": "風の天撃。威力：大",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "tenmon:021:name",
+  "addr": "0A7230",
+  "kind": "name",
+  "jp": "天乱の大竜巻",
+  "en": "",
+  "max": 14
+ },
+ {
+  "id": "tenmon:021:kana",
+  "addr": "0A723E",
+  "kind": "kana",
+  "jp": "てんらんのおおたつまき",
+  "en": "",
+  "max": 26
+ },
+ {
+  "id": "tenmon:021:desc",
+  "addr": "0A7258",
+  "kind": "desc",
+  "jp": "風の天撃。威力：巨大",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "tenmon:022:name",
+  "addr": "0A72C8",
+  "kind": "name",
+  "jp": "天撃の戦陣",
+  "en": "",
+  "max": 14
+ },
+ {
+  "id": "tenmon:022:kana",
+  "addr": "0A72D6",
+  "kind": "kana",
+  "jp": "てんげきのせんじん",
+  "en": "",
+  "max": 26
+ },
+ {
+  "id": "tenmon:022:desc",
+  "addr": "0A72F0",
+  "kind": "desc",
+  "jp": "風の範囲天撃。威力：大",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "tenmon:023:name",
+  "addr": "0A7360",
+  "kind": "name",
+  "jp": "天撃の涼風",
+  "en": "",
+  "max": 14
+ },
+ {
+  "id": "tenmon:023:kana",
+  "addr": "0A736E",
+  "kind": "kana",
+  "jp": "てんげきのりょうふう",
+  "en": "",
+  "max": 26
+ },
+ {
+  "id": "tenmon:023:desc",
+  "addr": "0A7388",
+  "kind": "desc",
+  "jp": "混乱状態から回復させる",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "tenmon:024:name",
+  "addr": "0A73F8",
+  "kind": "name",
+  "jp": "天撃の風車",
+  "en": "",
+  "max": 14
+ },
+ {
+  "id": "tenmon:024:kana",
+  "addr": "0A7406",
+  "kind": "kana",
+  "jp": "てんげきのかざぐるま",
+  "en": "",
+  "max": 26
+ },
+ {
+  "id": "tenmon:024:desc",
+  "addr": "0A7420",
+  "kind": "desc",
+  "jp": "敵の動きを５秒間封じる",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "tenmon:025:name",
+  "addr": "0A7490",
+  "kind": "name",
+  "jp": "天撃の山彦",
+  "en": "",
+  "max": 14
+ },
+ {
+  "id": "tenmon:025:kana",
+  "addr": "0A749E",
+  "kind": "kana",
+  "jp": "てんげきのやまびこ",
+  "en": "",
+  "max": 26
+ },
+ {
+  "id": "tenmon:025:desc",
+  "addr": "0A74B8",
+  "kind": "desc",
+  "jp": "行動速度を上昇させる",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "tenmon:026:name",
+  "addr": "0A7528",
+  "kind": "name",
+  "jp": "天撃の気流",
+  "en": "",
+  "max": 14
+ },
+ {
+  "id": "tenmon:026:kana",
+  "addr": "0A7536",
+  "kind": "kana",
+  "jp": "てんげきのきりゅう",
+  "en": "",
+  "max": 26
+ },
+ {
+  "id": "tenmon:026:desc",
+  "addr": "0A7550",
+  "kind": "desc",
+  "jp": "冥撃を１発だけ完全に防ぐ",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "tenmon:027:name",
+  "addr": "0A75C0",
+  "kind": "name",
+  "jp": "天撃の風塵",
+  "en": "",
+  "max": 14
+ },
+ {
+  "id": "tenmon:027:kana",
+  "addr": "0A75CE",
+  "kind": "kana",
+  "jp": "てんげきのふうじん",
+  "en": "",
+  "max": 26
+ },
+ {
+  "id": "tenmon:027:desc",
+  "addr": "0A75E8",
+  "kind": "desc",
+  "jp": "敵全体の回避を２０％下げる",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "tenmon:028:name",
+  "addr": "0A7658",
+  "kind": "name",
+  "jp": "天撃の稲妻",
+  "en": "",
+  "max": 14
+ },
+ {
+  "id": "tenmon:028:kana",
+  "addr": "0A7666",
+  "kind": "kana",
+  "jp": "てんげきのいなづま",
+  "en": "",
+  "max": 26
+ },
+ {
+  "id": "tenmon:028:desc",
+  "addr": "0A7680",
+  "kind": "desc",
+  "jp": "雷の天撃。威力：小",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "tenmon:029:name",
+  "addr": "0A76F0",
+  "kind": "name",
+  "jp": "天撃の雷撃",
+  "en": "",
+  "max": 14
+ },
+ {
+  "id": "tenmon:029:kana",
+  "addr": "0A76FE",
+  "kind": "kana",
+  "jp": "てんげきのらいげき",
+  "en": "",
+  "max": 26
+ },
+ {
+  "id": "tenmon:029:desc",
+  "addr": "0A7718",
+  "kind": "desc",
+  "jp": "雷の天撃。威力：中",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "tenmon:030:name",
+  "addr": "0A7788",
+  "kind": "name",
+  "jp": "天撃の雷轟",
+  "en": "",
+  "max": 14
+ },
+ {
+  "id": "tenmon:030:kana",
+  "addr": "0A7796",
+  "kind": "kana",
+  "jp": "てんげきのらいごう",
+  "en": "",
+  "max": 26
+ },
+ {
+  "id": "tenmon:030:desc",
+  "addr": "0A77B0",
+  "kind": "desc",
+  "jp": "雷の天撃。威力：大",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "tenmon:031:name",
+  "addr": "0A7820",
+  "kind": "name",
+  "jp": "閃空の天雷破",
+  "en": "",
+  "max": 14
+ },
+ {
+  "id": "tenmon:031:kana",
+  "addr": "0A782E",
+  "kind": "kana",
+  "jp": "せんくうのてんらいは",
+  "en": "",
+  "max": 26
+ },
+ {
+  "id": "tenmon:031:desc",
+  "addr": "0A7848",
+  "kind": "desc",
+  "jp": "雷の上位天撃。威力：巨大",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "tenmon:032:name",
+  "addr": "0A78B8",
+  "kind": "name",
+  "jp": "天撃の雷電",
+  "en": "",
+  "max": 14
+ },
+ {
+  "id": "tenmon:032:kana",
+  "addr": "0A78C6",
+  "kind": "kana",
+  "jp": "てんげきのらいでん",
+  "en": "",
+  "max": 26
+ },
+ {
+  "id": "tenmon:032:desc",
+  "addr": "0A78E0",
+  "kind": "desc",
+  "jp": "雷の範囲天撃。威力：小",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "tenmon:033:name",
+  "addr": "0A7950",
+  "kind": "name",
+  "jp": "天撃の極雷",
+  "en": "",
+  "max": 14
+ },
+ {
+  "id": "tenmon:033:kana",
+  "addr": "0A795E",
+  "kind": "kana",
+  "jp": "てんげきのごくらい",
+  "en": "",
+  "max": 26
+ },
+ {
+  "id": "tenmon:033:desc",
+  "addr": "0A7978",
+  "kind": "desc",
+  "jp": "雷の範囲天撃。威力：中",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "tenmon:034:name",
+  "addr": "0A79E8",
+  "kind": "name",
+  "jp": "天撃の超雷",
+  "en": "",
+  "max": 14
+ },
+ {
+  "id": "tenmon:034:kana",
+  "addr": "0A79F6",
+  "kind": "kana",
+  "jp": "てんげきのちょうらい",
+  "en": "",
+  "max": 26
+ },
+ {
+  "id": "tenmon:034:desc",
+  "addr": "0A7A10",
+  "kind": "desc",
+  "jp": "雷の範囲天撃。威力：大",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "tenmon:035:name",
+  "addr": "0A7A80",
+  "kind": "name",
+  "jp": "天撃の落雷",
+  "en": "",
+  "max": 14
+ },
+ {
+  "id": "tenmon:035:kana",
+  "addr": "0A7A8E",
+  "kind": "kana",
+  "jp": "てんげきのらくらい",
+  "en": "",
+  "max": 26
+ },
+ {
+  "id": "tenmon:035:desc",
+  "addr": "0A7AA8",
+  "kind": "desc",
+  "jp": "攻撃を雷属性のみにする",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "tenmon:036:name",
+  "addr": "0A7B18",
+  "kind": "name",
+  "jp": "天撃の電流",
+  "en": "",
+  "max": 14
+ },
+ {
+  "id": "tenmon:036:kana",
+  "addr": "0A7B26",
+  "kind": "kana",
+  "jp": "てんげきのでんりゅう",
+  "en": "",
+  "max": 26
+ },
+ {
+  "id": "tenmon:036:desc",
+  "addr": "0A7B40",
+  "kind": "desc",
+  "jp": "敵単体の回避を４０％下げる",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "tenmon:037:name",
+  "addr": "0A7BB0",
+  "kind": "name",
+  "jp": "天撃の光弾",
+  "en": "",
+  "max": 14
+ },
+ {
+  "id": "tenmon:037:kana",
+  "addr": "0A7BBE",
+  "kind": "kana",
+  "jp": "てんげきのこうだん",
+  "en": "",
+  "max": 26
+ },
+ {
+  "id": "tenmon:037:desc",
+  "addr": "0A7BD8",
+  "kind": "desc",
+  "jp": "光の天撃。威力：小",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "tenmon:038:name",
+  "addr": "0A7C48",
+  "kind": "name",
+  "jp": "天撃の閃光",
+  "en": "",
+  "max": 14
+ },
+ {
+  "id": "tenmon:038:kana",
+  "addr": "0A7C56",
+  "kind": "kana",
+  "jp": "てんげきのせんこう",
+  "en": "",
+  "max": 26
+ },
+ {
+  "id": "tenmon:038:desc",
+  "addr": "0A7C70",
+  "kind": "desc",
+  "jp": "光の天撃。威力：中",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "tenmon:039:name",
+  "addr": "0A7CE0",
+  "kind": "name",
+  "jp": "天撃の瞬光",
+  "en": "",
+  "max": 14
+ },
+ {
+  "id": "tenmon:039:kana",
+  "addr": "0A7CEE",
+  "kind": "kana",
+  "jp": "てんげきのしゅんこう",
+  "en": "",
+  "max": 26
+ },
+ {
+  "id": "tenmon:039:desc",
+  "addr": "0A7D08",
+  "kind": "desc",
+  "jp": "光の天撃。威力：大",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "tenmon:040:name",
+  "addr": "0A7D78",
+  "kind": "name",
+  "jp": "天撃の白熱",
+  "en": "",
+  "max": 14
+ },
+ {
+  "id": "tenmon:040:kana",
+  "addr": "0A7D86",
+  "kind": "kana",
+  "jp": "てんげきのはくねつ",
+  "en": "",
+  "max": 26
+ },
+ {
+  "id": "tenmon:040:desc",
+  "addr": "0A7DA0",
+  "kind": "desc",
+  "jp": "光の範囲天撃。威力：中",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "tenmon:041:name",
+  "addr": "0A7E10",
+  "kind": "name",
+  "jp": "天撃の銀光",
+  "en": "",
+  "max": 14
+ },
+ {
+  "id": "tenmon:041:kana",
+  "addr": "0A7E1E",
+  "kind": "kana",
+  "jp": "てんげきのぎんこう",
+  "en": "",
+  "max": 26
+ },
+ {
+  "id": "tenmon:041:desc",
+  "addr": "0A7E38",
+  "kind": "desc",
+  "jp": "光の範囲天撃。威力：大",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "tenmon:042:name",
+  "addr": "0A7EA8",
+  "kind": "name",
+  "jp": "天撃の光陰",
+  "en": "",
+  "max": 14
+ },
+ {
+  "id": "tenmon:042:kana",
+  "addr": "0A7EB6",
+  "kind": "kana",
+  "jp": "てんげきのこういん",
+  "en": "",
+  "max": 26
+ },
+ {
+  "id": "tenmon:042:desc",
+  "addr": "0A7ED0",
+  "kind": "desc",
+  "jp": "敵単体の命中を２０％下げる",
+  "en": "",
+  "max": 72
+ }
+]

@@ -15,13 +15,18 @@ from collections import Counter
 from maps import MAP_COUNT, MAP_REC, MAP_TABLE, rom
 
 LEN_TABLE, NOPS = 0x6D17C, 0xB0
-EV_LO, EV_HI = 0x170000, 0x250000
+EV_LO, EV_HI = 0x16A000, 0x250000  # scripts start after the C++ RTTI strings at 0x169F80
 END = 0xFF
 # opcode -> offsets (from the opcode byte) of pointer args, checked by looking at the targets
 SCRIPT_ARGS = {0x9E: (1,), 0xA0: (1,), 0xA5: (1,), 0x6D: (1,), 0xAA: (5,), 0x38: (5,), 0x4C: (6,),
                0xAE: (9,), 0x46: (7,), 0x47: (7,)}
-STR_ARGS = {0x7A: (2,), 0x59: (1,), 0x52: (1, 5), 0x3B: (1,), 0x1D: (1, 5), 0x1E: (1, 5, 9), 0x4D: (6,),
+# 68 = appraiser level-up report: name, 3 messages. Every target of these decodes as a string (argstats over all
+# walked scripts); 4D +6 and 22 +1 point at data.
+STR_ARGS = {0x7A: (2,), 0x59: (1,), 0x52: (1, 5), 0x3B: (1,), 0x1D: (1, 5), 0x1E: (1, 5, 9), 0x68: (1, 5, 9, 13),
             0x6F: (5,), 0x85: (5,)}
+# Script tables outside the event region (aligned pointers): code literal pools and the map/NPC data at
+# 0x110000-0x16A000 (e.g. 0x117070, 0x118000-0x11B000, 0x121000); that data also holds unaligned pointers.
+EXT_ALIGNED, EXT_UNALIGNED = (0, EV_LO), (0x110000, EV_LO)
 
 
 def lengths(d):
@@ -70,22 +75,58 @@ def seeds(d):
                 yield scr & 0x1FFFFFF, f"map{m} trig{i} type{typ}"
 
 
-def walk(d):
-    """{script addr: source} for every script reachable from the map triggers through pointer arguments."""
-    seen, todo = {}, list(seeds(d))
+def is_script(d, a):
+    ins = decode(d, a, 400)
+    return len(ins) >= 2 and ins[-1][1] is not None and ins[-1][1][0] == END
+
+
+def ext_seeds(d):
+    """(script, source) for pointers from outside the event region that decode as a script ending in FF."""
+    lo, hi = 0x08000000 + EV_LO, 0x08000000 + EV_HI
+    for (s, e), step in ((EXT_ALIGNED, 4), (EXT_UNALIGNED, 1)):
+        for i in range(s, e - 3, step):
+            if step == 1 and i % 4 == 0:
+                continue
+            v = struct.unpack_from("<I", d, i)[0]
+            if lo <= v < hi and is_script(d, v & 0x1FFFFFF):
+                yield v & 0x1FFFFFF, f"ext {i:06X}"
+
+
+def walk(d, external=True):
+    """{script addr: source} for every script reachable from the map triggers (and, with external, the script
+    tables outside the region) through pointer arguments."""
+    seen, todo = {}, list(seeds(d)) + (list(ext_seeds(d)) if external else [])
     while todo:
         a, src = todo.pop()
         if a in seen:
             continue
         seen[a] = src
-        for ia, ins in decode(d, a):
-            if ins is None:
+        ins = decode(d, a)
+        for ia, i in ins:
+            if i is None:
                 continue
-            for k in SCRIPT_ARGS.get(ins[0], ()):
+            for k in SCRIPT_ARGS.get(i[0], ()):
                 p = struct.unpack_from("<I", d, ia + k)[0]
                 if 0x08000000 + EV_LO <= p < 0x08000000 + EV_HI:
                     todo.append((p & 0x1FFFFFF, f"from {ia:06X}"))
+        # scripts stored back to back where code indexes them (appraiser reports at 0x17538D): take the bytes after
+        # an FF as a script when they decode to FF and hold a text or script pointer (a string pool never does)
+        nxt = ins[-1][0] + 1
+        if ins[-1][1] is not None and nxt not in seen and chained(d, nxt):
+            todo.append((nxt, f"after {a:06X}"))
     return seen
+
+
+def chained(d, a):
+    ins = decode(d, a, 400)
+    if len(ins) < 2 or ins[-1][1] is None or ins[-1][1][0] != END:
+        return False
+    for ia, i in ins:
+        for k in SCRIPT_ARGS.get(i[0], ()) + STR_ARGS.get(i[0], ()):
+            p = struct.unpack_from("<I", d, ia + k)[0]
+            if 0x08000000 + EV_LO <= p < 0x08000000 + EV_HI:
+                return True
+    return False
 
 
 _TBL = None

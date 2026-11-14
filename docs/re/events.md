@@ -26,7 +26,9 @@ graphics pointers, word 19 = trigger list {count, entry ptrs}; entry = {u32 type
   `0x0802B318`: handler returns 0 = wait (re-run next frame), else PC += length (opcode A0 manages PC itself). `FF` = end
   of script / return from a call.
 - `tools/evdis.py all` walks every script reachable from the map trigger lists through the pointer args below
-  (3279 scripts, no unknown opcode). Not reachable that way: the prologue `0x193440`, scripts entered from code.
+  (3279 scripts from the triggers alone, no unknown opcode). Since phase 4 `walk` also seeds from the script tables
+  outside the region and takes chained scripts (`text.md` §Dialogue): 6,076 scripts, the prologue included.
+  The event region starts at `0x16A000` (NPC/map scripts referenced from `0x118000-0x11B000`), not `0x170000`.
 
 | Op | Len | Meaning | State |
 |---|---|---|---|
@@ -41,6 +43,7 @@ graphics pointers, word 19 = trigger list {count, entry ptrs}; entry = {u32 type
 | `6D ptr` | 5 | set START-skip target | verified (prologue skip) |
 | `5B`, `59 name ...`, `7A slot msg`, `20 slot`, `21` | | speaker name, message, close | verified (text.md) |
 | `52 name msg` | 9 | NPC name + message | verified |
+| `68 name msg msg msg` | 17 | appraiser level-up report (3 messages) | verified by layout |
 | `3B msg` | 5 | message without speaker | verified by layout |
 | `1D a b` / `1E a b c` | 9/13 | 2-/3-way choice (string ptrs) | verified by layout |
 | `3A data a b` | 13 | menu (appraisal house) | guess |

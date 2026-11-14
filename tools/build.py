@@ -23,8 +23,19 @@ ROM = ROOT / "rom" / "Bouken-Ou Beet - Busters Road (Japan).gba"
 SIZE = 0x1000000  # EEPROM save: stay at 16 MiB (docs/re/space.md)
 # Where the build may write (docs/re/text.md, space.md); add a range here with the RE note that justifies it.
 REGIONS = [
-    (0x170000, 0x240000, "dialogue: event scripts + string pools"),
+    (0x16A000, 0x250000, "dialogue: event scripts + string pools, quest records (evtext.py)"),
+    (0x06D64C, 0x06D688, "UI pool: shop prompts (extract.POOLS)"),
+    (0x116FCC, 0x117066, "UI pool: shop menu commands"),
+    (0xDDA800, 0xDDACF4, "UI pool: field menu / save / quest board strings"),
 ]
+
+
+def _table_regions():
+    import tables
+    return [(b, b + s * n, f"table {k} (tables.py)") for k, (b, s, n, _) in tables.TABLES.items()]
+
+
+REGIONS += _table_regions()
 
 
 class Patch:
@@ -40,16 +51,18 @@ class Patch:
 
 
 def identity(p):
-    """Decode and re-encode every string a 5B 59 / 7A site points at; write it back in place."""
-    import scriptptrs
-    from textscan import load_tbl
-    n, last_end = 0, 0
-    for tgt in sorted({t for _, _, t, _, _ in scriptptrs.sites(p.orig, load_tbl())}):
-        if tgt < last_end or not 0x170000 <= tgt < 0x240000:
-            continue  # a pointer into another string's tail (0x1C209A, 0x210000): covered by that string
-        s, last_end = text16.decode(p.orig, tgt)
-        p.put(tgt, text16.encode(s), f"identity:{tgt:06X}")
-        n += 1
+    """Re-encode every extracted string (extract.entries: dialogue, tables, UI pools); write it back in place."""
+    import extract
+    import tables
+    n = 0
+    for ents in extract.entries(p.orig).values():
+        for e in ents:
+            if "tail_of" in e:
+                continue  # its bytes are written by the containing string
+            a = int(e["addr"], 16)
+            data = tables.encode_field(e["jp"], e["max"]) if "max" in e else text16.encode(e["jp"])
+            p.put(a, data, f"identity:{e['id']}")
+            n += 1
     return n
 
 

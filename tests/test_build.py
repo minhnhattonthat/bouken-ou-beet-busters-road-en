@@ -11,7 +11,7 @@ needs_rom = pytest.mark.skipif(not ROM.is_file(), reason="ROM absent")
 
 def test_text16_roundtrip_unknown_codes():
     import text16
-    raw = bytes.fromhex("2901 0200 70ff 0100 feff 0000")
+    raw = bytes.fromhex("2901 0200 70ff 0100 feff be00 0000")
     s, end = text16.decode(raw, 0)
     assert end == len(raw) and text16.encode(s) == raw
 
@@ -21,7 +21,7 @@ def test_patch_refuses_writes_outside_regions():
     p = build.Patch(bytes(0x300000))
     p.put(0x170000, b"\x01", "ok")
     with pytest.raises(ValueError):
-        p.put(0x23FFFF, b"\x01\x02", "spans the end")
+        p.put(0x24FFFF, b"\x01\x02", "spans the end")
     with pytest.raises(ValueError):
         p.put(0x100, b"\x01", "outside")
 

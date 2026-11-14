@@ -1,0 +1,4578 @@
+[
+ {
+  "id": "ev:244CF0",
+  "addr": "244CF0",
+  "kind": "quest_title",
+  "jp": "魔物討伐",
+  "en": "",
+  "bytes": 10,
+  "sites": [
+   "244AF0:quest18"
+  ]
+ },
+ {
+  "id": "ev:244CFA",
+  "addr": "244CFA",
+  "kind": "quest_desc",
+  "jp": "アサド山地に出没する[BR][FFC4]を[FFC5]匹倒してほしい",
+  "en": "",
+  "bytes": 44,
+  "sites": [
+   "244AF5:quest0C"
+  ]
+ },
+ {
+  "id": "ev:244D26",
+  "addr": "244D26",
+  "kind": "quest_title",
+  "jp": "魔物大量発生",
+  "en": "",
+  "bytes": 14,
+  "sites": [
+   "244B0C:quest18"
+  ]
+ },
+ {
+  "id": "ev:244D34",
+  "addr": "244D34",
+  "kind": "quest_desc",
+  "jp": "アサド山地に[BR][FFC4]が大量発生した[BR][FFC5]匹以上倒してほしい",
+  "en": "",
+  "bytes": 54,
+  "sites": [
+   "244B11:quest0C"
+  ]
+ },
+ {
+  "id": "ev:244D6A",
+  "addr": "244D6A",
+  "kind": "quest_title",
+  "jp": "魔物退治",
+  "en": "",
+  "bytes": 10,
+  "sites": [
+   "244B28:quest18"
+  ]
+ },
+ {
+  "id": "ev:244D74",
+  "addr": "244D74",
+  "kind": "quest_desc",
+  "jp": "アサド山地に[BR][FFC4]が[BR]出没するので[BR]これを[FFC5]匹倒してほしい",
+  "en": "",
+  "bytes": 58,
+  "sites": [
+   "244B2D:quest0C"
+  ]
+ },
+ {
+  "id": "ev:244DAE",
+  "addr": "244DAE",
+  "kind": "quest_title",
+  "jp": "魔物を倒せ！",
+  "en": "",
+  "bytes": 14,
+  "sites": [
+   "244B44:quest18"
+  ]
+ },
+ {
+  "id": "ev:244DBC",
+  "addr": "244DBC",
+  "kind": "quest_desc",
+  "jp": "アサド山地にいる[BR][FFC4]を[FFC5]匹倒してほしい",
+  "en": "",
+  "bytes": 40,
+  "sites": [
+   "244B49:quest0C"
+  ]
+ },
+ {
+  "id": "ev:244DE4",
+  "addr": "244DE4",
+  "kind": "quest_title",
+  "jp": "荷物搬送",
+  "en": "",
+  "bytes": 10,
+  "sites": [
+   "244BA7:quest18"
+  ]
+ },
+ {
+  "id": "ev:244DEE",
+  "addr": "244DEE",
+  "kind": "quest_desc",
+  "jp": "アサド山地で調査しているバスターに荷物を届けて欲しい",
+  "en": "",
+  "bytes": 54,
+  "sites": [
+   "244BAC:quest0C"
+  ]
+ },
+ {
+  "id": "ev:244E24",
+  "addr": "244E24",
+  "kind": "quest_title",
+  "jp": "支援物資配達",
+  "en": "",
+  "bytes": 14,
+  "sites": [
+   "244BC3:quest18"
+  ]
+ },
+ {
+  "id": "ev:244E32",
+  "addr": "244E32",
+  "kind": "quest_desc",
+  "jp": "アサド山地を冒険中のバスターに支援物資を配達してほしい",
+  "en": "",
+  "bytes": 56,
+  "sites": [
+   "244BC8:quest0C"
+  ]
+ },
+ {
+  "id": "ev:244E6A",
+  "addr": "244E6A",
+  "kind": "quest_title",
+  "jp": "ハーブを探して",
+  "en": "",
+  "bytes": 16,
+  "sites": [
+   "244C4B:quest18"
+  ]
+ },
+ {
+  "id": "ev:244E7A",
+  "addr": "244E7A",
+  "kind": "quest_desc",
+  "jp": "薬を作るのに必要なハーブが[BR]たりなくなったので[BR]湖畔の遺跡のどこかに[BR]自生している[BR]ハーブを探してほしい",
+  "en": "",
+  "bytes": 106,
+  "sites": [
+   "244C50:quest0C"
+  ]
+ },
+ {
+  "id": "ev:244EE4",
+  "addr": "244EE4",
+  "kind": "quest_title",
+  "jp": "赤い花を求めて",
+  "en": "",
+  "bytes": 16,
+  "sites": [
+   "244C80:quest18"
+  ]
+ },
+ {
+  "id": "ev:244EF4",
+  "addr": "244EF4",
+  "kind": "quest_desc",
+  "jp": "暗いところにしかさかない[BR]めずらしい赤い花がある[BR]湖畔の遺跡のどこかに[BR]自生している[BR]探しだしてほしい",
+  "en": "",
+  "bytes": 104,
+  "sites": [
+   "244C85:quest0C"
+  ]
+ },
+ {
+  "id": "ev:244F5C",
+  "addr": "244F5C",
+  "kind": "quest_title",
+  "jp": "すずなり花",
+  "en": "",
+  "bytes": 12,
+  "sites": [
+   "244CB5:quest18"
+  ]
+ },
+ {
+  "id": "ev:244F68",
+  "addr": "244F68",
+  "kind": "quest_desc",
+  "jp": "研究（けんきゅう）のために[BR]湖畔の遺跡のどこかに[BR]自生している[BR]すずなり花を探してほしい",
+  "en": "",
+  "bytes": 90,
+  "sites": [
+   "244CBA:quest0C"
+  ]
+ },
+ {
+  "id": "ev:245330",
+  "addr": "245330",
+  "kind": "quest_title",
+  "jp": "魔物討伐",
+  "en": "",
+  "bytes": 10,
+  "sites": [
+   "245130:quest18"
+  ]
+ },
+ {
+  "id": "ev:24533A",
+  "addr": "24533A",
+  "kind": "quest_desc",
+  "jp": "デュオラ平原に出没する[BR][FFC4]を[FFC5]匹倒してほしい",
+  "en": "",
+  "bytes": 46,
+  "sites": [
+   "245135:quest0C"
+  ]
+ },
+ {
+  "id": "ev:245368",
+  "addr": "245368",
+  "kind": "quest_title",
+  "jp": "魔物大量発生",
+  "en": "",
+  "bytes": 14,
+  "sites": [
+   "24514C:quest18"
+  ]
+ },
+ {
+  "id": "ev:245376",
+  "addr": "245376",
+  "kind": "quest_desc",
+  "jp": "デュオラ平原に[BR][FFC4]が大量発生した[BR][FFC5]匹以上倒してほしい",
+  "en": "",
+  "bytes": 56,
+  "sites": [
+   "245151:quest0C"
+  ]
+ },
+ {
+  "id": "ev:2453AE",
+  "addr": "2453AE",
+  "kind": "quest_title",
+  "jp": "魔物退治",
+  "en": "",
+  "bytes": 10,
+  "sites": [
+   "245168:quest18"
+  ]
+ },
+ {
+  "id": "ev:2453B8",
+  "addr": "2453B8",
+  "kind": "quest_desc",
+  "jp": "デュオラ平原に[BR][FFC4]が出没するので[BR]これを[FFC5]匹倒してほしい",
+  "en": "",
+  "bytes": 58,
+  "sites": [
+   "24516D:quest0C"
+  ]
+ },
+ {
+  "id": "ev:2453F2",
+  "addr": "2453F2",
+  "kind": "quest_title",
+  "jp": "魔物を倒せ！",
+  "en": "",
+  "bytes": 14,
+  "sites": [
+   "245184:quest18"
+  ]
+ },
+ {
+  "id": "ev:245400",
+  "addr": "245400",
+  "kind": "quest_desc",
+  "jp": "デュオラ平原にいる[BR][FFC4]を[FFC5]匹倒してほしい",
+  "en": "",
+  "bytes": 42,
+  "sites": [
+   "245189:quest0C"
+  ]
+ },
+ {
+  "id": "ev:24542A",
+  "addr": "24542A",
+  "kind": "quest_title",
+  "jp": "荷物搬送",
+  "en": "",
+  "bytes": 10,
+  "sites": [
+   "2451E7:quest18"
+  ]
+ },
+ {
+  "id": "ev:245434",
+  "addr": "245434",
+  "kind": "quest_desc",
+  "jp": "デュオラ平原で調査しているバスターに荷物を届けて欲しい",
+  "en": "",
+  "bytes": 56,
+  "sites": [
+   "2451EC:quest0C"
+  ]
+ },
+ {
+  "id": "ev:24546C",
+  "addr": "24546C",
+  "kind": "quest_title",
+  "jp": "支援物資配達",
+  "en": "",
+  "bytes": 14,
+  "sites": [
+   "245203:quest18"
+  ]
+ },
+ {
+  "id": "ev:24547A",
+  "addr": "24547A",
+  "kind": "quest_desc",
+  "jp": "デュオラ平原を冒険中のバスターに支援物資を配達してほしい",
+  "en": "",
+  "bytes": 58,
+  "sites": [
+   "245208:quest0C"
+  ]
+ },
+ {
+  "id": "ev:2454B4",
+  "addr": "2454B4",
+  "kind": "quest_title",
+  "jp": "ハーブを探して",
+  "en": "",
+  "bytes": 16,
+  "sites": [
+   "24528B:quest18"
+  ]
+ },
+ {
+  "id": "ev:2454C4",
+  "addr": "2454C4",
+  "kind": "quest_desc",
+  "jp": "薬を作るのに必要なハーブが[BR]たりなくなったので[BR]海岸の遺跡のどこかに[BR]自生している[BR]ハーブを探してほしい",
+  "en": "",
+  "bytes": 106,
+  "sites": [
+   "245290:quest0C"
+  ]
+ },
+ {
+  "id": "ev:24552E",
+  "addr": "24552E",
+  "kind": "quest_title",
+  "jp": "赤い花を求めて",
+  "en": "",
+  "bytes": 16,
+  "sites": [
+   "2452C0:quest18"
+  ]
+ },
+ {
+  "id": "ev:24553E",
+  "addr": "24553E",
+  "kind": "quest_desc",
+  "jp": "海辺にしかさかない[BR]めずらしい赤い花がある[BR]海岸の遺跡のどこかに[BR]自生しているので[BR]探しだしてほしい",
+  "en": "",
+  "bytes": 102,
+  "sites": [
+   "2452C5:quest0C"
+  ]
+ },
+ {
+  "id": "ev:2455A4",
+  "addr": "2455A4",
+  "kind": "quest_title",
+  "jp": "すずなり花",
+  "en": "",
+  "bytes": 12,
+  "sites": [
+   "2452F5:quest18"
+  ]
+ },
+ {
+  "id": "ev:2455B0",
+  "addr": "2455B0",
+  "kind": "quest_desc",
+  "jp": "研究（けんきゅう）のために[BR]海岸の遺跡のどこかに[BR]自生している[BR]すずなり花を探してほしい",
+  "en": "",
+  "bytes": 90,
+  "sites": [
+   "2452FA:quest0C"
+  ]
+ },
+ {
+  "id": "ev:245810",
+  "addr": "245810",
+  "kind": "quest_title",
+  "jp": "魔物討伐",
+  "en": "",
+  "bytes": 10,
+  "sites": [
+   "24576C:quest18"
+  ]
+ },
+ {
+  "id": "ev:24581A",
+  "addr": "24581A",
+  "kind": "quest_desc",
+  "jp": "アンクルス平原に出没する[BR][FFC4]を[FFC5]匹倒してほしい",
+  "en": "",
+  "bytes": 48,
+  "sites": [
+   "245771:quest0C"
+  ]
+ },
+ {
+  "id": "ev:24584A",
+  "addr": "24584A",
+  "kind": "quest_title",
+  "jp": "魔物大量発生",
+  "en": "",
+  "bytes": 14,
+  "sites": [
+   "245788:quest18"
+  ]
+ },
+ {
+  "id": "ev:245858",
+  "addr": "245858",
+  "kind": "quest_desc",
+  "jp": "アンクルス平原に[BR][FFC4]が大量発生した[BR][FFC5]匹以上倒してほしい",
+  "en": "",
+  "bytes": 58,
+  "sites": [
+   "24578D:quest0C"
+  ]
+ },
+ {
+  "id": "ev:245892",
+  "addr": "245892",
+  "kind": "quest_title",
+  "jp": "魔物退治",
+  "en": "",
+  "bytes": 10,
+  "sites": [
+   "2457A4:quest18"
+  ]
+ },
+ {
+  "id": "ev:24589C",
+  "addr": "24589C",
+  "kind": "quest_desc",
+  "jp": "アンクルス平原に[BR][FFC4]が出没するので[BR]これを[FFC5]匹倒してほしい",
+  "en": "",
+  "bytes": 60,
+  "sites": [
+   "2457A9:quest0C"
+  ]
+ },
+ {
+  "id": "ev:2458D8",
+  "addr": "2458D8",
+  "kind": "quest_title",
+  "jp": "魔物を倒せ！",
+  "en": "",
+  "bytes": 14,
+  "sites": [
+   "2457C0:quest18"
+  ]
+ },
+ {
+  "id": "ev:2458E6",
+  "addr": "2458E6",
+  "kind": "quest_desc",
+  "jp": "アンクルス平原にいる[BR][FFC4]を[FFC5]匹倒してほしい",
+  "en": "",
+  "bytes": 44,
+  "sites": [
+   "2457C5:quest0C"
+  ]
+ },
+ {
+  "id": "ev:245C80",
+  "addr": "245C80",
+  "kind": "quest_title",
+  "jp": "魔物討伐",
+  "en": "",
+  "bytes": 10,
+  "sites": [
+   "245A80:quest18"
+  ]
+ },
+ {
+  "id": "ev:245C8A",
+  "addr": "245C8A",
+  "kind": "quest_desc",
+  "jp": "エトリア山地に出没する[BR][FFC4]を[FFC5]匹倒してほしい",
+  "en": "",
+  "bytes": 46,
+  "sites": [
+   "245A85:quest0C"
+  ]
+ },
+ {
+  "id": "ev:245CB8",
+  "addr": "245CB8",
+  "kind": "quest_title",
+  "jp": "魔物大量発生",
+  "en": "",
+  "bytes": 14,
+  "sites": [
+   "245A9C:quest18"
+  ]
+ },
+ {
+  "id": "ev:245CC6",
+  "addr": "245CC6",
+  "kind": "quest_desc",
+  "jp": "エトリア山地に[BR][FFC4]が大量発生した[BR][FFC5]匹以上倒してほしい",
+  "en": "",
+  "bytes": 56,
+  "sites": [
+   "245AA1:quest0C"
+  ]
+ },
+ {
+  "id": "ev:245CFE",
+  "addr": "245CFE",
+  "kind": "quest_title",
+  "jp": "魔物退治",
+  "en": "",
+  "bytes": 10,
+  "sites": [
+   "245AB8:quest18"
+  ]
+ },
+ {
+  "id": "ev:245D08",
+  "addr": "245D08",
+  "kind": "quest_desc",
+  "jp": "エトリア山地に[BR][FFC4]が出没するので[BR]これを[FFC5]匹倒してほしい",
+  "en": "",
+  "bytes": 58,
+  "sites": [
+   "245ABD:quest0C"
+  ]
+ },
+ {
+  "id": "ev:245D42",
+  "addr": "245D42",
+  "kind": "quest_title",
+  "jp": "魔物を倒せ！",
+  "en": "",
+  "bytes": 14,
+  "sites": [
+   "245AD4:quest18"
+  ]
+ },
+ {
+  "id": "ev:245D50",
+  "addr": "245D50",
+  "kind": "quest_desc",
+  "jp": "エトリア山地にいる[BR][FFC4]を[FFC5]匹倒してほしい",
+  "en": "",
+  "bytes": 42,
+  "sites": [
+   "245AD9:quest0C"
+  ]
+ },
+ {
+  "id": "ev:245D7A",
+  "addr": "245D7A",
+  "kind": "quest_title",
+  "jp": "荷物搬送",
+  "en": "",
+  "bytes": 10,
+  "sites": [
+   "245B37:quest18"
+  ]
+ },
+ {
+  "id": "ev:245D84",
+  "addr": "245D84",
+  "kind": "quest_desc",
+  "jp": "エトリア山地で調査しているバスターに荷物を届けて欲しい",
+  "en": "",
+  "bytes": 56,
+  "sites": [
+   "245B3C:quest0C"
+  ]
+ },
+ {
+  "id": "ev:245DBC",
+  "addr": "245DBC",
+  "kind": "quest_title",
+  "jp": "支援物資配達",
+  "en": "",
+  "bytes": 14,
+  "sites": [
+   "245B53:quest18"
+  ]
+ },
+ {
+  "id": "ev:245DCA",
+  "addr": "245DCA",
+  "kind": "quest_desc",
+  "jp": "エトリア山地を冒険中のバスターに支援物資を配達してほしい",
+  "en": "",
+  "bytes": 58,
+  "sites": [
+   "245B58:quest0C"
+  ]
+ },
+ {
+  "id": "ev:245E04",
+  "addr": "245E04",
+  "kind": "quest_title",
+  "jp": "ハーブを探して",
+  "en": "",
+  "bytes": 16,
+  "sites": [
+   "245BDB:quest18"
+  ]
+ },
+ {
+  "id": "ev:245E14",
+  "addr": "245E14",
+  "kind": "quest_desc",
+  "jp": "薬を作るのに必要なハーブが[BR]たりなくなったので[BR]地底湖のどこかに[BR]自生している[BR]ハーブを探してほしい",
+  "en": "",
+  "bytes": 102,
+  "sites": [
+   "245BE0:quest0C"
+  ]
+ },
+ {
+  "id": "ev:245E7A",
+  "addr": "245E7A",
+  "kind": "quest_title",
+  "jp": "赤い花を求めて",
+  "en": "",
+  "bytes": 16,
+  "sites": [
+   "245C10:quest18"
+  ]
+ },
+ {
+  "id": "ev:245E8A",
+  "addr": "245E8A",
+  "kind": "quest_desc",
+  "jp": "暗いところにしかさかない[BR]めずらしい赤い花がある[BR]地底湖のどこかに[BR]自生している[BR]探しだしてほしい",
+  "en": "",
+  "bytes": 100,
+  "sites": [
+   "245C15:quest0C"
+  ]
+ },
+ {
+  "id": "ev:245EEE",
+  "addr": "245EEE",
+  "kind": "quest_title",
+  "jp": "すずなり花",
+  "en": "",
+  "bytes": 12,
+  "sites": [
+   "245C45:quest18"
+  ]
+ },
+ {
+  "id": "ev:245EFA",
+  "addr": "245EFA",
+  "kind": "quest_desc",
+  "jp": "研究（けんきゅう）のために[BR]地底湖のどこかに[BR]自生している[BR]すずなり花を探してほしい",
+  "en": "",
+  "bytes": 86,
+  "sites": [
+   "245C4A:quest0C"
+  ]
+ },
+ {
+  "id": "ev:2462A0",
+  "addr": "2462A0",
+  "kind": "quest_title",
+  "jp": "地底湖に潜むもの",
+  "en": "",
+  "bytes": 18,
+  "sites": [
+   "245F61:quest18"
+  ]
+ },
+ {
+  "id": "ev:2462B2",
+  "addr": "2462B2",
+  "kind": "quest_desc",
+  "jp": "「地底湖（ちていこ）には[BR]ヌシが住んでいる・・・」[BR]そんなウワサが流れており、[BR]人々がふあんにかられている。[BR]さわぎが大きくなる前に、[BR]調査（ちょうさ）してきてほしい",
+  "en": "",
+  "bytes": 168,
+  "sites": [
+   "245F66:quest0C"
+  ]
+ },
+ {
+  "id": "ev:24635A",
+  "addr": "24635A",
+  "kind": "quest_title",
+  "jp": "地底湖の門",
+  "en": "",
+  "bytes": 12,
+  "sites": [
+   "245F9C:quest18"
+  ]
+ },
+ {
+  "id": "ev:246366",
+  "addr": "246366",
+  "kind": "quest_desc",
+  "jp": "ウワサのヌシがたいじされた事により[BR]地底湖（ちていこ）の調査（ちょうさ）が進み、[BR]そのおくに「なぞの門」が発見された。「なぞの門」の調査（ちょうさ）を[BR]してきてほしい",
+  "en": "",
+  "bytes": 168,
+  "sites": [
+   "245FA1:quest0C"
+  ]
+ },
+ {
+  "id": "ev:24640E",
+  "addr": "24640E",
+  "kind": "quest_title",
+  "jp": "樹の杯をみたせ",
+  "en": "",
+  "bytes": 16,
+  "sites": [
+   "245FD7:quest18"
+  ]
+ },
+ {
+  "id": "ev:24641E",
+  "addr": "24641E",
+  "kind": "quest_desc",
+  "jp": "地底湖（ちていこ）の扉（とびら）の[BR]おくにあった杯（さかずき）[BR]その「樹の杯（じゅのさかずき）」を[BR]みたすモンスターをたいじする",
+  "en": "",
+  "bytes": 130,
+  "sites": [
+   "245FDC:quest0C"
+  ]
+ },
+ {
+  "id": "ev:2464A0",
+  "addr": "2464A0",
+  "kind": "quest_title",
+  "jp": "絶の杯をみたせ",
+  "en": "",
+  "bytes": 16,
+  "sites": [
+   "24601D:quest18"
+  ]
+ },
+ {
+  "id": "ev:2464B0",
+  "addr": "2464B0",
+  "kind": "quest_desc",
+  "jp": "地底湖（ちていこ）の扉（とびら）の[BR]おくにあった杯（さかずき）[BR]その「絶の杯（ぜつのさかずき）」をみたすモンスターをたいじする",
+  "en": "",
+  "bytes": 128,
+  "sites": [
+   "246022:quest0C"
+  ]
+ },
+ {
+  "id": "ev:246530",
+  "addr": "246530",
+  "kind": "quest_title",
+  "jp": "沼の杯をみたせ",
+  "en": "",
+  "bytes": 16,
+  "sites": [
+   "246063:quest18"
+  ]
+ },
+ {
+  "id": "ev:246540",
+  "addr": "246540",
+  "kind": "quest_desc",
+  "jp": "地底湖（ちていこ）の扉（とびら）の[BR]おくにあった杯（さかずき）[BR]その「沼の杯（ぬまのさかずき）」を[BR]みたすモンスターをたいじする",
+  "en": "",
+  "bytes": 130,
+  "sites": [
+   "246068:quest0C"
+  ]
+ },
+ {
+  "id": "ev:2465C2",
+  "addr": "2465C2",
+  "kind": "quest_title",
+  "jp": "窟の杯をみたせ",
+  "en": "",
+  "bytes": 16,
+  "sites": [
+   "2460A9:quest18"
+  ]
+ },
+ {
+  "id": "ev:2465D2",
+  "addr": "2465D2",
+  "kind": "quest_desc",
+  "jp": "地底湖（ちていこ）の扉（とびら）の[BR]おくにあった杯（さかずき）[BR]その「窟の杯（くつのさかずき）」を[BR]みたすモンスターをたいじする",
+  "en": "",
+  "bytes": 130,
+  "sites": [
+   "2460AE:quest0C"
+  ]
+ },
+ {
+  "id": "ev:246654",
+  "addr": "246654",
+  "kind": "quest_title",
+  "jp": "渦の杯をみたせ",
+  "en": "",
+  "bytes": 16,
+  "sites": [
+   "2460EF:quest18"
+  ]
+ },
+ {
+  "id": "ev:246664",
+  "addr": "246664",
+  "kind": "quest_desc",
+  "jp": "地底湖（ちていこ）の扉（とびら）の[BR]おくにあった杯（さかずき）[BR]その「渦の杯（うずのさかずき）」を[BR]みたすモンスターをたいじする",
+  "en": "",
+  "bytes": 130,
+  "sites": [
+   "2460F4:quest0C"
+  ]
+ },
+ {
+  "id": "ev:2466E6",
+  "addr": "2466E6",
+  "kind": "quest_title",
+  "jp": "砂の杯をみたせ",
+  "en": "",
+  "bytes": 16,
+  "sites": [
+   "246135:quest18"
+  ]
+ },
+ {
+  "id": "ev:2466F6",
+  "addr": "2466F6",
+  "kind": "quest_desc",
+  "jp": "地底湖（ちていこ）の扉（とびら）の[BR]おくにあった杯（さかずき）[BR]その「砂の杯（すなのさかずき）」を[BR]みたすモンスターをたいじする",
+  "en": "",
+  "bytes": 130,
+  "sites": [
+   "24613A:quest0C"
+  ]
+ },
+ {
+  "id": "ev:246778",
+  "addr": "246778",
+  "kind": "quest_title",
+  "jp": "地の杯をみたせ",
+  "en": "",
+  "bytes": 16,
+  "sites": [
+   "24617B:quest18"
+  ]
+ },
+ {
+  "id": "ev:246788",
+  "addr": "246788",
+  "kind": "quest_desc",
+  "jp": "地底湖（ちていこ）の扉（とびら）の[BR]おくにあった杯（さかずき）[BR]その「地の杯（ちのさかずき）」を[BR]みたすモンスターをたいじする",
+  "en": "",
+  "bytes": 128,
+  "sites": [
+   "246180:quest0C"
+  ]
+ },
+ {
+  "id": "ev:246808",
+  "addr": "246808",
+  "kind": "quest_title",
+  "jp": "鉱の杯をみたせ",
+  "en": "",
+  "bytes": 16,
+  "sites": [
+   "2461C1:quest18"
+  ]
+ },
+ {
+  "id": "ev:246818",
+  "addr": "246818",
+  "kind": "quest_desc",
+  "jp": "地底湖（ちていこ）の扉（とびら）の[BR]おくにあった杯（さかずき）[BR]その「鉱の杯（こうのさかずき）」を[BR]みたすモンスターをたいじする",
+  "en": "",
+  "bytes": 130,
+  "sites": [
+   "2461C6:quest0C"
+  ]
+ },
+ {
+  "id": "ev:24689A",
+  "addr": "24689A",
+  "kind": "quest_title",
+  "jp": "極の杯をみたせ",
+  "en": "",
+  "bytes": 16,
+  "sites": [
+   "246207:quest18"
+  ]
+ },
+ {
+  "id": "ev:2468AA",
+  "addr": "2468AA",
+  "kind": "quest_desc",
+  "jp": "地底湖（ちていこ）の扉（とびら）の[BR]おくにあった杯（さかずき）[BR]その「極の杯（きょくのさかずき）」をみたすモンスターをたいじする",
+  "en": "",
+  "bytes": 130,
+  "sites": [
+   "24620C:quest0C"
+  ]
+ },
+ {
+  "id": "ev:24692C",
+  "addr": "24692C",
+  "kind": "quest_title",
+  "jp": "骨の杯をみたせ",
+  "en": "",
+  "bytes": 16,
+  "sites": [
+   "24624D:quest18"
+  ]
+ },
+ {
+  "id": "ev:24693C",
+  "addr": "24693C",
+  "kind": "quest_desc",
+  "jp": "地底湖（ちていこ）の扉（とびら）の[BR]おくにあった杯（さかずき）[BR]その「骨の杯（ほねのさかずき）」をみたすモンスターをたいじする",
+  "en": "",
+  "bytes": 128,
+  "sites": [
+   "246252:quest0C"
+  ]
+ },
+ {
+  "id": "ev:246BC0",
+  "addr": "246BC0",
+  "kind": "quest_title",
+  "jp": "魔物討伐",
+  "en": "",
+  "bytes": 10,
+  "sites": [
+   "246B1C:quest18"
+  ]
+ },
+ {
+  "id": "ev:246BCA",
+  "addr": "246BCA",
+  "kind": "quest_desc",
+  "jp": "アンクルス平原に出没する[BR][FFC4]を[FFC5]匹倒してほしい",
+  "en": "",
+  "bytes": 48,
+  "sites": [
+   "246B21:quest0C"
+  ]
+ },
+ {
+  "id": "ev:246BFA",
+  "addr": "246BFA",
+  "kind": "quest_title",
+  "jp": "魔物大量発生",
+  "en": "",
+  "bytes": 14,
+  "sites": [
+   "246B38:quest18"
+  ]
+ },
+ {
+  "id": "ev:246C08",
+  "addr": "246C08",
+  "kind": "quest_desc",
+  "jp": "アンクルス平原に[BR][FFC4]が大量発生した[BR][FFC5]匹以上倒してほしい",
+  "en": "",
+  "bytes": 58,
+  "sites": [
+   "246B3D:quest0C"
+  ]
+ },
+ {
+  "id": "ev:246C42",
+  "addr": "246C42",
+  "kind": "quest_title",
+  "jp": "魔物退治",
+  "en": "",
+  "bytes": 10,
+  "sites": [
+   "246B54:quest18"
+  ]
+ },
+ {
+  "id": "ev:246C4C",
+  "addr": "246C4C",
+  "kind": "quest_desc",
+  "jp": "アンクルス平原に[BR][FFC4]が出没するので[BR]これを[FFC5]匹倒してほしい",
+  "en": "",
+  "bytes": 60,
+  "sites": [
+   "246B59:quest0C"
+  ]
+ },
+ {
+  "id": "ev:246C88",
+  "addr": "246C88",
+  "kind": "quest_title",
+  "jp": "魔物を倒せ！",
+  "en": "",
+  "bytes": 14,
+  "sites": [
+   "246B70:quest18"
+  ]
+ },
+ {
+  "id": "ev:246C96",
+  "addr": "246C96",
+  "kind": "quest_desc",
+  "jp": "アンクルス平原にいる[BR][FFC4]を[FFC5]匹倒してほしい",
+  "en": "",
+  "bytes": 44,
+  "sites": [
+   "246B75:quest0C"
+  ]
+ },
+ {
+  "id": "ev:246F50",
+  "addr": "246F50",
+  "kind": "quest_title",
+  "jp": "魔物討伐",
+  "en": "",
+  "bytes": 10,
+  "sites": [
+   "246E2C:quest18"
+  ]
+ },
+ {
+  "id": "ev:246F5A",
+  "addr": "246F5A",
+  "kind": "quest_desc",
+  "jp": "ワンダラ山地に出没する[BR][FFC4]を[FFC5]匹倒してほしい",
+  "en": "",
+  "bytes": 46,
+  "sites": [
+   "246E31:quest0C"
+  ]
+ },
+ {
+  "id": "ev:246F88",
+  "addr": "246F88",
+  "kind": "quest_title",
+  "jp": "魔物大量発生",
+  "en": "",
+  "bytes": 14,
+  "sites": [
+   "246E48:quest18"
+  ]
+ },
+ {
+  "id": "ev:246F96",
+  "addr": "246F96",
+  "kind": "quest_desc",
+  "jp": "ワンダラ山地に[BR][FFC4]が大量発生した[BR][FFC5]匹以上倒してほしい",
+  "en": "",
+  "bytes": 56,
+  "sites": [
+   "246E4D:quest0C"
+  ]
+ },
+ {
+  "id": "ev:246FCE",
+  "addr": "246FCE",
+  "kind": "quest_title",
+  "jp": "魔物退治",
+  "en": "",
+  "bytes": 10,
+  "sites": [
+   "246E64:quest18"
+  ]
+ },
+ {
+  "id": "ev:246FD8",
+  "addr": "246FD8",
+  "kind": "quest_desc",
+  "jp": "ワンダラ山地に[BR][FFC4]が出没するので[BR]これを[FFC5]匹倒してほしい",
+  "en": "",
+  "bytes": 58,
+  "sites": [
+   "246E69:quest0C"
+  ]
+ },
+ {
+  "id": "ev:247012",
+  "addr": "247012",
+  "kind": "quest_title",
+  "jp": "魔物を倒せ！",
+  "en": "",
+  "bytes": 14,
+  "sites": [
+   "246E80:quest18"
+  ]
+ },
+ {
+  "id": "ev:247020",
+  "addr": "247020",
+  "kind": "quest_desc",
+  "jp": "ワンダラ山地にいる[BR][FFC4]を[FFC5]匹倒してほしい",
+  "en": "",
+  "bytes": 42,
+  "sites": [
+   "246E85:quest0C"
+  ]
+ },
+ {
+  "id": "ev:24704A",
+  "addr": "24704A",
+  "kind": "quest_title",
+  "jp": "荷物搬送",
+  "en": "",
+  "bytes": 10,
+  "sites": [
+   "246EE3:quest18"
+  ]
+ },
+ {
+  "id": "ev:247054",
+  "addr": "247054",
+  "kind": "quest_desc",
+  "jp": "ワンダラ山地で調査しているバスターに荷物を届けて欲しい",
+  "en": "",
+  "bytes": 56,
+  "sites": [
+   "246EE8:quest0C"
+  ]
+ },
+ {
+  "id": "ev:24708C",
+  "addr": "24708C",
+  "kind": "quest_title",
+  "jp": "支援物資配達",
+  "en": "",
+  "bytes": 14,
+  "sites": [
+   "246EFF:quest18"
+  ]
+ },
+ {
+  "id": "ev:24709A",
+  "addr": "24709A",
+  "kind": "quest_desc",
+  "jp": "ワンダラ山地を冒険中のバスターに支援物資を配達してほしい",
+  "en": "",
+  "bytes": 58,
+  "sites": [
+   "246F04:quest0C"
+  ]
+ },
+ {
+  "id": "ev:247440",
+  "addr": "247440",
+  "kind": "quest_title",
+  "jp": "魔物討伐",
+  "en": "",
+  "bytes": 10,
+  "sites": [
+   "247240:quest18"
+  ]
+ },
+ {
+  "id": "ev:24744A",
+  "addr": "24744A",
+  "kind": "quest_desc",
+  "jp": "ムスリー荒野に出没する[BR][FFC4]を[FFC5]匹倒してほしい",
+  "en": "",
+  "bytes": 46,
+  "sites": [
+   "247245:quest0C"
+  ]
+ },
+ {
+  "id": "ev:247478",
+  "addr": "247478",
+  "kind": "quest_title",
+  "jp": "魔物大量発生",
+  "en": "",
+  "bytes": 14,
+  "sites": [
+   "24725C:quest18"
+  ]
+ },
+ {
+  "id": "ev:247486",
+  "addr": "247486",
+  "kind": "quest_desc",
+  "jp": "ムスリー荒野に[BR][FFC4]が大量発生した[BR][FFC5]匹以上倒してほしい",
+  "en": "",
+  "bytes": 56,
+  "sites": [
+   "247261:quest0C"
+  ]
+ },
+ {
+  "id": "ev:2474BE",
+  "addr": "2474BE",
+  "kind": "quest_title",
+  "jp": "魔物退治",
+  "en": "",
+  "bytes": 10,
+  "sites": [
+   "247278:quest18"
+  ]
+ },
+ {
+  "id": "ev:2474C8",
+  "addr": "2474C8",
+  "kind": "quest_desc",
+  "jp": "ムスリー荒野に[BR][FFC4]が出没するので[BR]これを[FFC5]匹倒してほしい",
+  "en": "",
+  "bytes": 58,
+  "sites": [
+   "24727D:quest0C"
+  ]
+ },
+ {
+  "id": "ev:247502",
+  "addr": "247502",
+  "kind": "quest_title",
+  "jp": "魔物を倒せ！",
+  "en": "",
+  "bytes": 14,
+  "sites": [
+   "247294:quest18"
+  ]
+ },
+ {
+  "id": "ev:247510",
+  "addr": "247510",
+  "kind": "quest_desc",
+  "jp": "ムスリー荒野にいる[BR][FFC4]を[FFC5]匹倒してほしい",
+  "en": "",
+  "bytes": 42,
+  "sites": [
+   "247299:quest0C"
+  ]
+ },
+ {
+  "id": "ev:24753A",
+  "addr": "24753A",
+  "kind": "quest_title",
+  "jp": "荷物搬送",
+  "en": "",
+  "bytes": 10,
+  "sites": [
+   "2472F7:quest18"
+  ]
+ },
+ {
+  "id": "ev:247544",
+  "addr": "247544",
+  "kind": "quest_desc",
+  "jp": "ムスリー山地で調査しているバスターに荷物を届けて欲しい",
+  "en": "",
+  "bytes": 56,
+  "sites": [
+   "2472FC:quest0C"
+  ]
+ },
+ {
+  "id": "ev:24757C",
+  "addr": "24757C",
+  "kind": "quest_title",
+  "jp": "支援物資配達",
+  "en": "",
+  "bytes": 14,
+  "sites": [
+   "247313:quest18"
+  ]
+ },
+ {
+  "id": "ev:24758A",
+  "addr": "24758A",
+  "kind": "quest_desc",
+  "jp": "ムスリー山地を冒険中のバスターに支援物資を配達してほしい",
+  "en": "",
+  "bytes": 58,
+  "sites": [
+   "247318:quest0C"
+  ]
+ },
+ {
+  "id": "ev:2475C4",
+  "addr": "2475C4",
+  "kind": "quest_title",
+  "jp": "ハーブを探して",
+  "en": "",
+  "bytes": 16,
+  "sites": [
+   "24739B:quest18"
+  ]
+ },
+ {
+  "id": "ev:2475D4",
+  "addr": "2475D4",
+  "kind": "quest_desc",
+  "jp": "薬を作るのに必要なハーブが[BR]たりなくなったので[BR]荒野の遺跡のどこかに[BR]自生している[BR]ハーブを探してほしい",
+  "en": "",
+  "bytes": 106,
+  "sites": [
+   "2473A0:quest0C"
+  ]
+ },
+ {
+  "id": "ev:24763E",
+  "addr": "24763E",
+  "kind": "quest_title",
+  "jp": "赤い花を求めて",
+  "en": "",
+  "bytes": 16,
+  "sites": [
+   "2473D0:quest18"
+  ]
+ },
+ {
+  "id": "ev:24764E",
+  "addr": "24764E",
+  "kind": "quest_desc",
+  "jp": "あれたところにしかさかない[BR]めずらしい赤い花がある[BR]荒野の遺跡のどこかに[BR]自生している[BR]探しだしてほしい",
+  "en": "",
+  "bytes": 106,
+  "sites": [
+   "2473D5:quest0C"
+  ]
+ },
+ {
+  "id": "ev:2476B8",
+  "addr": "2476B8",
+  "kind": "quest_title",
+  "jp": "すずなり花",
+  "en": "",
+  "bytes": 12,
+  "sites": [
+   "247405:quest18"
+  ]
+ },
+ {
+  "id": "ev:2476C4",
+  "addr": "2476C4",
+  "kind": "quest_desc",
+  "jp": "研究（けんきゅう）のために[BR]荒野の遺跡のどこかに[BR]自生している[BR]すずなり花を探してほしい",
+  "en": "",
+  "bytes": 90,
+  "sites": [
+   "24740A:quest0C"
+  ]
+ },
+ {
+  "id": "ev:247A00",
+  "addr": "247A00",
+  "kind": "quest_title",
+  "jp": "魔物討伐",
+  "en": "",
+  "bytes": 10,
+  "sites": [
+   "247880:quest18"
+  ]
+ },
+ {
+  "id": "ev:247A0A",
+  "addr": "247A0A",
+  "kind": "quest_desc",
+  "jp": "ワンダラ山地に出没する[BR][FFC4]を[FFC5]匹倒してほしい",
+  "en": "",
+  "bytes": 46,
+  "sites": [
+   "247885:quest0C"
+  ]
+ },
+ {
+  "id": "ev:247A38",
+  "addr": "247A38",
+  "kind": "quest_title",
+  "jp": "魔物大量発生",
+  "en": "",
+  "bytes": 14,
+  "sites": [
+   "24789C:quest18"
+  ]
+ },
+ {
+  "id": "ev:247A46",
+  "addr": "247A46",
+  "kind": "quest_desc",
+  "jp": "ワンダラ山地に[BR][FFC4]が大量発生した[BR][FFC5]匹以上倒してほしい",
+  "en": "",
+  "bytes": 56,
+  "sites": [
+   "2478A1:quest0C"
+  ]
+ },
+ {
+  "id": "ev:247A7E",
+  "addr": "247A7E",
+  "kind": "quest_title",
+  "jp": "魔物退治",
+  "en": "",
+  "bytes": 10,
+  "sites": [
+   "2478B8:quest18"
+  ]
+ },
+ {
+  "id": "ev:247A88",
+  "addr": "247A88",
+  "kind": "quest_desc",
+  "jp": "ワンダラ山地に[BR][FFC4]が出没するので[BR]これを[FFC5]匹倒してほしい",
+  "en": "",
+  "bytes": 58,
+  "sites": [
+   "2478BD:quest0C"
+  ]
+ },
+ {
+  "id": "ev:247AC2",
+  "addr": "247AC2",
+  "kind": "quest_title",
+  "jp": "魔物を倒せ！",
+  "en": "",
+  "bytes": 14,
+  "sites": [
+   "2478D4:quest18"
+  ]
+ },
+ {
+  "id": "ev:247AD0",
+  "addr": "247AD0",
+  "kind": "quest_desc",
+  "jp": "ワンダラ山地にいる[BR][FFC4]を[FFC5]匹倒してほしい",
+  "en": "",
+  "bytes": 42,
+  "sites": [
+   "2478D9:quest0C"
+  ]
+ },
+ {
+  "id": "ev:247AFA",
+  "addr": "247AFA",
+  "kind": "quest_title",
+  "jp": "ハーブを探して",
+  "en": "",
+  "bytes": 16,
+  "sites": [
+   "24795C:quest18"
+  ]
+ },
+ {
+  "id": "ev:247B0A",
+  "addr": "247B0A",
+  "kind": "quest_desc",
+  "jp": "薬を作るのに必要なハーブが[BR]たりなくなったので[BR]洞窟のどこかに自生している[BR]ハーブを探してほしい",
+  "en": "",
+  "bytes": 98,
+  "sites": [
+   "247961:quest0C"
+  ]
+ },
+ {
+  "id": "ev:247B6C",
+  "addr": "247B6C",
+  "kind": "quest_title",
+  "jp": "赤い花を求めて",
+  "en": "",
+  "bytes": 16,
+  "sites": [
+   "247991:quest18"
+  ]
+ },
+ {
+  "id": "ev:247B7C",
+  "addr": "247B7C",
+  "kind": "quest_desc",
+  "jp": "暗いところにしかさかない[BR]めずらしい赤い花がある[BR]洞窟のどこかに自生しているので[BR]探しだしてほしい",
+  "en": "",
+  "bytes": 100,
+  "sites": [
+   "247996:quest0C"
+  ]
+ },
+ {
+  "id": "ev:247BE0",
+  "addr": "247BE0",
+  "kind": "quest_title",
+  "jp": "すずなり花",
+  "en": "",
+  "bytes": 12,
+  "sites": [
+   "2479C6:quest18"
+  ]
+ },
+ {
+  "id": "ev:247BEC",
+  "addr": "247BEC",
+  "kind": "quest_desc",
+  "jp": "研究（けんきゅう）のために[BR]洞窟のどこかに自生している[BR]すずなり花を探してほしい",
+  "en": "",
+  "bytes": 82,
+  "sites": [
+   "2479CB:quest0C"
+  ]
+ },
+ {
+  "id": "ev:247FA0",
+  "addr": "247FA0",
+  "kind": "quest_title",
+  "jp": "魔物討伐",
+  "en": "",
+  "bytes": 10,
+  "sites": [
+   "247DA0:quest18"
+  ]
+ },
+ {
+  "id": "ev:247FAA",
+  "addr": "247FAA",
+  "kind": "quest_desc",
+  "jp": "パトレス山地に出没する[BR][FFC4]を[FFC5]匹倒してほしい",
+  "en": "",
+  "bytes": 46,
+  "sites": [
+   "247DA5:quest0C"
+  ]
+ },
+ {
+  "id": "ev:247FD8",
+  "addr": "247FD8",
+  "kind": "quest_title",
+  "jp": "魔物大量発生",
+  "en": "",
+  "bytes": 14,
+  "sites": [
+   "247DBC:quest18"
+  ]
+ },
+ {
+  "id": "ev:247FE6",
+  "addr": "247FE6",
+  "kind": "quest_desc",
+  "jp": "パトレス山地に[BR][FFC4]が大量発生した[BR][FFC5]匹以上倒してほしい",
+  "en": "",
+  "bytes": 56,
+  "sites": [
+   "247DC1:quest0C"
+  ]
+ },
+ {
+  "id": "ev:24801E",
+  "addr": "24801E",
+  "kind": "quest_title",
+  "jp": "魔物退治",
+  "en": "",
+  "bytes": 10,
+  "sites": [
+   "247DD8:quest18"
+  ]
+ },
+ {
+  "id": "ev:248028",
+  "addr": "248028",
+  "kind": "quest_desc",
+  "jp": "パトレス山地に[BR][FFC4]が出没するので[BR]これを[FFC5]匹倒してほしい",
+  "en": "",
+  "bytes": 58,
+  "sites": [
+   "247DDD:quest0C"
+  ]
+ },
+ {
+  "id": "ev:248062",
+  "addr": "248062",
+  "kind": "quest_title",
+  "jp": "魔物を倒せ！",
+  "en": "",
+  "bytes": 14,
+  "sites": [
+   "247DF4:quest18"
+  ]
+ },
+ {
+  "id": "ev:248070",
+  "addr": "248070",
+  "kind": "quest_desc",
+  "jp": "パトレス山地にいる[BR][FFC4]を[FFC5]匹倒してほしい",
+  "en": "",
+  "bytes": 42,
+  "sites": [
+   "247DF9:quest0C"
+  ]
+ },
+ {
+  "id": "ev:24809A",
+  "addr": "24809A",
+  "kind": "quest_title",
+  "jp": "荷物搬送",
+  "en": "",
+  "bytes": 10,
+  "sites": [
+   "247E57:quest18"
+  ]
+ },
+ {
+  "id": "ev:2480A4",
+  "addr": "2480A4",
+  "kind": "quest_desc",
+  "jp": "パトレス山地で調査しているバスターに荷物を届けて欲しい",
+  "en": "",
+  "bytes": 56,
+  "sites": [
+   "247E5C:quest0C"
+  ]
+ },
+ {
+  "id": "ev:2480DC",
+  "addr": "2480DC",
+  "kind": "quest_title",
+  "jp": "支援物資配達",
+  "en": "",
+  "bytes": 14,
+  "sites": [
+   "247E73:quest18"
+  ]
+ },
+ {
+  "id": "ev:2480EA",
+  "addr": "2480EA",
+  "kind": "quest_desc",
+  "jp": "パトレス山地を冒険中のバスターに支援物資を配達してほしい",
+  "en": "",
+  "bytes": 58,
+  "sites": [
+   "247E78:quest0C"
+  ]
+ },
+ {
+  "id": "ev:248124",
+  "addr": "248124",
+  "kind": "quest_title",
+  "jp": "ハーブを探して",
+  "en": "",
+  "bytes": 16,
+  "sites": [
+   "247EFB:quest18"
+  ]
+ },
+ {
+  "id": "ev:248134",
+  "addr": "248134",
+  "kind": "quest_desc",
+  "jp": "薬を作るのに必要なハーブが[BR]たりなくなったので[BR]廃坑のどこかに[BR]自生している[BR]ハーブを探してほしい",
+  "en": "",
+  "bytes": 100,
+  "sites": [
+   "247F00:quest0C"
+  ]
+ },
+ {
+  "id": "ev:248198",
+  "addr": "248198",
+  "kind": "quest_title",
+  "jp": "赤い花を求めて",
+  "en": "",
+  "bytes": 16,
+  "sites": [
+   "247F30:quest18"
+  ]
+ },
+ {
+  "id": "ev:2481A8",
+  "addr": "2481A8",
+  "kind": "quest_desc",
+  "jp": "暗いところにしかさかない[BR]めずらしい赤い花がある[BR]廃坑のどこかに[BR]自生している[BR]探しだしてほしい",
+  "en": "",
+  "bytes": 98,
+  "sites": [
+   "247F35:quest0C"
+  ]
+ },
+ {
+  "id": "ev:24820A",
+  "addr": "24820A",
+  "kind": "quest_title",
+  "jp": "すずなり花",
+  "en": "",
+  "bytes": 12,
+  "sites": [
+   "247F65:quest18"
+  ]
+ },
+ {
+  "id": "ev:248216",
+  "addr": "248216",
+  "kind": "quest_desc",
+  "jp": "研究（けんきゅう）のために[BR]廃坑のどこかに[BR]自生している[BR]すずなり花を探してほしい",
+  "en": "",
+  "bytes": 84,
+  "sites": [
+   "247F6A:quest0C"
+  ]
+ },
+ {
+  "id": "ev:248470",
+  "addr": "248470",
+  "kind": "quest_title",
+  "jp": "魔物討伐",
+  "en": "",
+  "bytes": 10,
+  "sites": [
+   "2483CC:quest18"
+  ]
+ },
+ {
+  "id": "ev:24847A",
+  "addr": "24847A",
+  "kind": "quest_desc",
+  "jp": "アンクルス平原に出没する[BR][FFC4]を[FFC5]匹倒してほしい",
+  "en": "",
+  "bytes": 48,
+  "sites": [
+   "2483D1:quest0C"
+  ]
+ },
+ {
+  "id": "ev:2484AA",
+  "addr": "2484AA",
+  "kind": "quest_title",
+  "jp": "魔物大量発生",
+  "en": "",
+  "bytes": 14,
+  "sites": [
+   "2483E8:quest18"
+  ]
+ },
+ {
+  "id": "ev:2484B8",
+  "addr": "2484B8",
+  "kind": "quest_desc",
+  "jp": "アンクルス平原に[BR][FFC4]が大量発生した[BR][FFC5]匹以上倒してほしい",
+  "en": "",
+  "bytes": 58,
+  "sites": [
+   "2483ED:quest0C"
+  ]
+ },
+ {
+  "id": "ev:2484F2",
+  "addr": "2484F2",
+  "kind": "quest_title",
+  "jp": "魔物退治",
+  "en": "",
+  "bytes": 10,
+  "sites": [
+   "248404:quest18"
+  ]
+ },
+ {
+  "id": "ev:2484FC",
+  "addr": "2484FC",
+  "kind": "quest_desc",
+  "jp": "アンクルス平原に[BR][FFC4]が出没するので[BR]これを[FFC5]匹倒してほしい",
+  "en": "",
+  "bytes": 60,
+  "sites": [
+   "248409:quest0C"
+  ]
+ },
+ {
+  "id": "ev:248538",
+  "addr": "248538",
+  "kind": "quest_title",
+  "jp": "魔物を倒せ！",
+  "en": "",
+  "bytes": 14,
+  "sites": [
+   "248420:quest18"
+  ]
+ },
+ {
+  "id": "ev:248546",
+  "addr": "248546",
+  "kind": "quest_desc",
+  "jp": "アンクルス平原にいる[BR][FFC4]を[FFC5]匹倒してほしい",
+  "en": "",
+  "bytes": 44,
+  "sites": [
+   "248425:quest0C"
+  ]
+ },
+ {
+  "id": "ev:248800",
+  "addr": "248800",
+  "kind": "quest_title",
+  "jp": "魔物討伐",
+  "en": "",
+  "bytes": 10,
+  "sites": [
+   "2486E0:quest18"
+  ]
+ },
+ {
+  "id": "ev:24880A",
+  "addr": "24880A",
+  "kind": "quest_desc",
+  "jp": "テルセロン山地に出没する[BR][FFC4]を[FFC5]匹倒してほしい",
+  "en": "",
+  "bytes": 48,
+  "sites": [
+   "2486E5:quest0C"
+  ]
+ },
+ {
+  "id": "ev:24883A",
+  "addr": "24883A",
+  "kind": "quest_title",
+  "jp": "魔物大量発生",
+  "en": "",
+  "bytes": 14,
+  "sites": [
+   "2486FC:quest18"
+  ]
+ },
+ {
+  "id": "ev:248848",
+  "addr": "248848",
+  "kind": "quest_desc",
+  "jp": "テルセロン山地に[BR][FFC4]が大量発生した[BR][FFC5]匹以上倒してほしい",
+  "en": "",
+  "bytes": 58,
+  "sites": [
+   "248701:quest0C"
+  ]
+ },
+ {
+  "id": "ev:248882",
+  "addr": "248882",
+  "kind": "quest_title",
+  "jp": "魔物退治",
+  "en": "",
+  "bytes": 10,
+  "sites": [
+   "248718:quest18"
+  ]
+ },
+ {
+  "id": "ev:24888C",
+  "addr": "24888C",
+  "kind": "quest_desc",
+  "jp": "テルセロン山地に[BR][FFC4]が出没するので[BR]これを[FFC5]匹倒してほしい",
+  "en": "",
+  "bytes": 60,
+  "sites": [
+   "24871D:quest0C"
+  ]
+ },
+ {
+  "id": "ev:2488C8",
+  "addr": "2488C8",
+  "kind": "quest_title",
+  "jp": "魔物を倒せ！",
+  "en": "",
+  "bytes": 14,
+  "sites": [
+   "248734:quest18"
+  ]
+ },
+ {
+  "id": "ev:2488D6",
+  "addr": "2488D6",
+  "kind": "quest_desc",
+  "jp": "テルセロン山地にいる[BR][FFC4]を[FFC5]匹倒してほしい",
+  "en": "",
+  "bytes": 44,
+  "sites": [
+   "248739:quest0C"
+  ]
+ },
+ {
+  "id": "ev:248902",
+  "addr": "248902",
+  "kind": "quest_title",
+  "jp": "荷物搬送",
+  "en": "",
+  "bytes": 10,
+  "sites": [
+   "248797:quest18"
+  ]
+ },
+ {
+  "id": "ev:24890C",
+  "addr": "24890C",
+  "kind": "quest_desc",
+  "jp": "テルセロン山地で調査しているバスターに荷物を届けて欲しい",
+  "en": "",
+  "bytes": 58,
+  "sites": [
+   "24879C:quest0C"
+  ]
+ },
+ {
+  "id": "ev:248946",
+  "addr": "248946",
+  "kind": "quest_title",
+  "jp": "支援物資配達",
+  "en": "",
+  "bytes": 14,
+  "sites": [
+   "2487B3:quest18"
+  ]
+ },
+ {
+  "id": "ev:248954",
+  "addr": "248954",
+  "kind": "quest_desc",
+  "jp": "テルセロン山地を冒険中のバスターに支援物資を配達してほしい",
+  "en": "",
+  "bytes": 60,
+  "sites": [
+   "2487B8:quest0C"
+  ]
+ },
+ {
+  "id": "ev:249E00",
+  "addr": "249E00",
+  "kind": "quest_title",
+  "jp": "胸に秘めた武器",
+  "en": "",
+  "bytes": 16,
+  "sites": [
+   "2489A1:quest18"
+  ]
+ },
+ {
+  "id": "ev:249E10",
+  "addr": "249E10",
+  "kind": "quest_desc",
+  "jp": "ウノロムに滞在（たいざい）している[BR]バスターをたずねて「才牙（サイガ）」のことを聞く",
+  "en": "",
+  "bytes": 86,
+  "sites": [
+   "2489A6:quest0C"
+  ]
+ },
+ {
+  "id": "ev:249E66",
+  "addr": "249E66",
+  "kind": "quest_title",
+  "jp": "実戦！　才牙を振るえ",
+  "en": "",
+  "bytes": 22,
+  "sites": [
+   "2489D5:quest18"
+  ]
+ },
+ {
+  "id": "ev:249E7C",
+  "addr": "249E7C",
+  "kind": "quest_desc",
+  "jp": "さいきん、アンクルスの平原にガブリ貝が多くあらわれるようになった。[BR]まだ目立ったひがいは出てないが、[BR]これをたいじしてほしい",
+  "en": "",
+  "bytes": 126,
+  "sites": [
+   "2489DA:quest0C"
+  ]
+ },
+ {
+  "id": "ev:249EFA",
+  "addr": "249EFA",
+  "kind": "quest_title",
+  "jp": "パトロール",
+  "en": "",
+  "bytes": 12,
+  "sites": [
+   "248A1B:quest18"
+  ]
+ },
+ {
+  "id": "ev:249F06",
+  "addr": "249F06",
+  "kind": "quest_desc",
+  "jp": "近くの里をまわって、ちいきの[BR]パトロールをしてほしい。[BR]まわる里はプリモーレの里・[BR]エルファストの里・インスアの里。[BR]パトロールのほうこくは、[BR]その里の鑑定小屋（ハウス）で[BR]行うこと",
+  "en": "",
+  "bytes": 184,
+  "sites": [
+   "248A20:quest0C"
+  ]
+ },
+ {
+  "id": "ev:249FBE",
+  "addr": "249FBE",
+  "kind": "quest_title",
+  "jp": "水辺の魔犬",
+  "en": "",
+  "bytes": 12,
+  "sites": [
+   "248A64:quest18"
+  ]
+ },
+ {
+  "id": "ev:249FCA",
+  "addr": "249FCA",
+  "kind": "quest_desc",
+  "jp": "アンクルス平原にある[BR]水源（すいげん）にしゅつぼつする[BR]犬型のモンスターをたおしてほしい",
+  "en": "",
+  "bytes": 90,
+  "sites": [
+   "248A69:quest0C"
+  ]
+ },
+ {
+  "id": "ev:24A024",
+  "addr": "24A024",
+  "kind": "quest_title",
+  "jp": "里祭りの準備",
+  "en": "",
+  "bytes": 14,
+  "sites": [
+   "248AA6:quest18"
+  ]
+ },
+ {
+  "id": "ev:24A032",
+  "addr": "24A032",
+  "kind": "quest_desc",
+  "jp": "アンクルスの里長から里祭りに[BR]まつわる仕事の依頼（いらい）。[BR]くわしくは里長のデブレさんにきくこと",
+  "en": "",
+  "bytes": 100,
+  "sites": [
+   "248AAB:quest0C"
+  ]
+ },
+ {
+  "id": "ev:24A096",
+  "addr": "24A096",
+  "kind": "quest_title",
+  "jp": "洞窟掃除",
+  "en": "",
+  "bytes": 10,
+  "sites": [
+   "248AE1:quest18"
+  ]
+ },
+ {
+  "id": "ev:24A0A0",
+  "addr": "24A0A0",
+  "kind": "quest_desc",
+  "jp": "ワンダラ山地から行ける[BR]洞窟（どうくつ）にいる[BR]つららこうもりを１０匹たいじする",
+  "en": "",
+  "bytes": 82,
+  "sites": [
+   "248AE6:quest0C"
+  ]
+ },
+ {
+  "id": "ev:24A0F2",
+  "addr": "24A0F2",
+  "kind": "quest_title",
+  "jp": "ヴァンデル強襲",
+  "en": "",
+  "bytes": 16,
+  "sites": [
+   "248B27:quest18"
+  ]
+ },
+ {
+  "id": "ev:24A102",
+  "addr": "24A102",
+  "kind": "quest_desc",
+  "jp": "ウノロムの里をヴァンデルが[BR]おそっているらしい。[BR]これをたいじしてほしい",
+  "en": "",
+  "bytes": 74,
+  "sites": [
+   "248B2C:quest0C"
+  ]
+ },
+ {
+  "id": "ev:24A14C",
+  "addr": "24A14C",
+  "kind": "quest_title",
+  "jp": "ヴァンデルの力",
+  "en": "",
+  "bytes": 16,
+  "sites": [
+   "248B6B:quest18"
+  ]
+ },
+ {
+  "id": "ev:24A15C",
+  "addr": "24A15C",
+  "kind": "quest_desc",
+  "jp": "ウノロムの里をおそったヴァンデル[BR]「闇の牙（やみのきば）シャデリコ」がまだあたりにひそんでいるらしい。[BR]これをさがしだして、[BR]撃退（げきたい）してほしい",
+  "en": "",
+  "bytes": 154,
+  "sites": [
+   "248B70:quest0C"
+  ]
+ },
+ {
+  "id": "ev:24A1F6",
+  "addr": "24A1F6",
+  "kind": "quest_title",
+  "jp": "帰ってきたアイツ！",
+  "en": "",
+  "bytes": 20,
+  "sites": [
+   "248BB6:quest18"
+  ]
+ },
+ {
+  "id": "ev:24A20A",
+  "addr": "24A20A",
+  "kind": "quest_desc",
+  "jp": "ヴァンデル・ムガインをたおしに[BR]アンクルス平原の北西にある[BR]ムガイン城（じょう）へ向かった[BR]ポアラを助け出す",
+  "en": "",
+  "bytes": 110,
+  "sites": [
+   "248BBB:quest0C"
+  ]
+ },
+ {
+  "id": "ev:24A278",
+  "addr": "24A278",
+  "kind": "quest_title",
+  "jp": "泥トカゲを倒せ！",
+  "en": "",
+  "bytes": 18,
+  "sites": [
+   "248BF8:quest18"
+  ]
+ },
+ {
+  "id": "ev:24A28A",
+  "addr": "24A28A",
+  "kind": "quest_desc",
+  "jp": "アンクルス平原の黒い沼（ぬま）に[BR]あらわれる泥トカゲ（どろとかげ）を[BR]全てたおす",
+  "en": "",
+  "bytes": 82,
+  "sites": [
+   "248BFD:quest0C"
+  ]
+ },
+ {
+  "id": "ev:24A2DC",
+  "addr": "24A2DC",
+  "kind": "quest_title",
+  "jp": "ムガインの逆襲",
+  "en": "",
+  "bytes": 16,
+  "sites": [
+   "248C3A:quest18"
+  ]
+ },
+ {
+  "id": "ev:24A2EC",
+  "addr": "24A2EC",
+  "kind": "quest_desc",
+  "jp": "アンクルスの里にあらわれた[BR]ヴァンデル・ムガインをたおす",
+  "en": "",
+  "bytes": 58,
+  "sites": [
+   "248C3F:quest0C"
+  ]
+ },
+ {
+  "id": "ev:24A326",
+  "addr": "24A326",
+  "kind": "quest_title",
+  "jp": "ビィトの特訓",
+  "en": "",
+  "bytes": 14,
+  "sites": [
+   "248C7C:quest18"
+  ]
+ },
+ {
+  "id": "ev:24A334",
+  "addr": "24A334",
+  "kind": "quest_desc",
+  "jp": "ポアラがねている間に、[BR]特訓（とっくん）のために[BR]あたりのモンスターをたおす",
+  "en": "",
+  "bytes": 78,
+  "sites": [
+   "248C81:quest0C"
+  ]
+ },
+ {
+  "id": "ev:24A382",
+  "addr": "24A382",
+  "kind": "quest_title",
+  "jp": "カネックを追い払え",
+  "en": "",
+  "bytes": 20,
+  "sites": [
+   "248CB7:quest18"
+  ]
+ },
+ {
+  "id": "ev:24A396",
+  "addr": "24A396",
+  "kind": "quest_desc",
+  "jp": "荷物の中にあったマギーを食べた[BR]カネックをたおす",
+  "en": "",
+  "bytes": 50,
+  "sites": [
+   "248CBC:quest0C"
+  ]
+ },
+ {
+  "id": "ev:24A3C8",
+  "addr": "24A3C8",
+  "kind": "quest_title",
+  "jp": "物好きな主人",
+  "en": "",
+  "bytes": 14,
+  "sites": [
+   "248CF2:quest18"
+  ]
+ },
+ {
+  "id": "ev:24A3D6",
+  "addr": "24A3D6",
+  "kind": "quest_desc",
+  "jp": "エルファストの防具屋（ぼうぐや）[BR]主人のアトスさんが、[BR]どうしてもバスターに[BR]たのみがあるという。[BR]依頼（いらい）のしょうさいは[BR]アトスさんから聞くように",
+  "en": "",
+  "bytes": 156,
+  "sites": [
+   "248CF7:quest0C"
+  ]
+ },
+ {
+  "id": "ev:24A472",
+  "addr": "24A472",
+  "kind": "quest_title",
+  "jp": "平原の魔物",
+  "en": "",
+  "bytes": 12,
+  "sites": [
+   "248D34:quest18"
+  ]
+ },
+ {
+  "id": "ev:24A47E",
+  "addr": "24A47E",
+  "kind": "quest_desc",
+  "jp": "インスアの里近くの平原で、ひんぱんにモンスターがあらわれる[BR]というほうこくがきている。[BR]インスア里長のハイアさんから[BR]話を聞いて、それをたいじしてほしい",
+  "en": "",
+  "bytes": 154,
+  "sites": [
+   "248D39:quest0C"
+  ]
+ },
+ {
+  "id": "ev:24A518",
+  "addr": "24A518",
+  "kind": "quest_title",
+  "jp": "山道を越えて",
+  "en": "",
+  "bytes": 14,
+  "sites": [
+   "248D81:quest18"
+  ]
+ },
+ {
+  "id": "ev:24A526",
+  "addr": "24A526",
+  "kind": "quest_desc",
+  "jp": "ワンダラ山地の山道に[BR]大型（おおがた）のモンスターが[BR]あらわれ、[BR]旅人がこまっているとのこと。[BR]これを調査（ちょうさ）して、[BR]モンスターをたいじしてほしい",
+  "en": "",
+  "bytes": 156,
+  "sites": [
+   "248D86:quest0C"
+  ]
+ },
+ {
+  "id": "ev:24A5C2",
+  "addr": "24A5C2",
+  "kind": "quest_title",
+  "jp": "プリモーレの門",
+  "en": "",
+  "bytes": 16,
+  "sites": [
+   "248DBC:quest18"
+  ]
+ },
+ {
+  "id": "ev:24A5D2",
+  "addr": "24A5D2",
+  "kind": "quest_desc",
+  "jp": "プリモーレの門からの依頼（いらい）で里にすむ黒い沼（ぬま）の[BR]研究家（けんきゅうか）ウエスさんを[BR]たずねる",
+  "en": "",
+  "bytes": 108,
+  "sites": [
+   "248DC1:quest0C"
+  ]
+ },
+ {
+  "id": "ev:24A63E",
+  "addr": "24A63E",
+  "kind": "quest_title",
+  "jp": "黒い沼の謎",
+  "en": "",
+  "bytes": 12,
+  "sites": [
+   "248DF0:quest18"
+  ]
+ },
+ {
+  "id": "ev:24A64A",
+  "addr": "24A64A",
+  "kind": "quest_desc",
+  "jp": "プリモーレの里にすむ黒い沼（ぬま）の研究家（けんきゅうか）ウエスさん[BR]からの依頼（いらい）。[BR]アンクルス平原と[BR]ムガインの死人沼（しびとぬま）から[BR]黒い沼（ぬま）の水をさいしゅう[BR]してきてほしい",
+  "en": "",
+  "bytes": 196,
+  "sites": [
+   "248DF5:quest0C"
+  ]
+ },
+ {
+  "id": "ev:24A70E",
+  "addr": "24A70E",
+  "kind": "quest_title",
+  "jp": "研究家の仮説",
+  "en": "",
+  "bytes": 14,
+  "sites": [
+   "248E32:quest18"
+  ]
+ },
+ {
+  "id": "ev:24A71C",
+  "addr": "24A71C",
+  "kind": "quest_desc",
+  "jp": "プリモーレの里にすむ黒い沼（ぬま）の研究家（けんきゅうか）ウエスさんが[BR]研究（けんきゅう）をすすめるために[BR]バスターにたのみたいことがあるというウエスさんをたずねて、[BR]力になってやってほしい",
+  "en": "",
+  "bytes": 192,
+  "sites": [
+   "248E37:quest0C"
+  ]
+ },
+ {
+  "id": "ev:24A7DC",
+  "addr": "24A7DC",
+  "kind": "quest_title",
+  "jp": "白砂を求めて",
+  "en": "",
+  "bytes": 14,
+  "sites": [
+   "248E74:quest18"
+  ]
+ },
+ {
+  "id": "ev:24A7EA",
+  "addr": "24A7EA",
+  "kind": "quest_desc",
+  "jp": "プリモーレの里にすむ黒い沼（ぬま）の研究家（けんきゅうか）ウエスさんから黒い沼（ぬま）の[BR]対処法（たいしょほう）を発見したとのほうこくがあった。[BR]ただ、それにはバスターの[BR]助けがいるという。[BR]ウエスさんをたずね、手をかしてほしい",
+  "en": "",
+  "bytes": 230,
+  "sites": [
+   "248E79:quest0C"
+  ]
+ },
+ {
+  "id": "ev:24A8D0",
+  "addr": "24A8D0",
+  "kind": "quest_title",
+  "jp": "海岸の遺跡",
+  "en": "",
+  "bytes": 12,
+  "sites": [
+   "248ED9:quest18"
+  ]
+ },
+ {
+  "id": "ev:24A8DC",
+  "addr": "24A8DC",
+  "kind": "quest_desc",
+  "jp": "海岸の遺跡（かいがんのいせき）で[BR]さいきん「唸り声（うなりごえ）の[BR]ような音が聞こえる」という。[BR]デュオラの猟師（りょうし）たちは[BR]「モンスターが住みついたのかも[BR]しれない」とおそれており、[BR]これを調査（ちょうさ）してほしい",
+  "en": "",
+  "bytes": 226,
+  "sites": [
+   "248EDE:quest0C"
+  ]
+ },
+ {
+  "id": "ev:24A9BE",
+  "addr": "24A9BE",
+  "kind": "quest_title",
+  "jp": "雇われしもの",
+  "en": "",
+  "bytes": 14,
+  "sites": [
+   "248F14:quest18"
+  ]
+ },
+ {
+  "id": "ev:24A9CC",
+  "addr": "24A9CC",
+  "kind": "quest_desc",
+  "jp": "レドウの鑑定小屋（ハウス）が、とある依頼（いらい）のために[BR]ウデききのバスターをさがしている[BR]らしい。[BR]くわしいことはふめいだが[BR]たずねてみてはどうだろうか",
+  "en": "",
+  "bytes": 158,
+  "sites": [
+   "248F19:quest0C"
+  ]
+ },
+ {
+  "id": "ev:24AA6A",
+  "addr": "24AA6A",
+  "kind": "quest_title",
+  "jp": "謎のヴァンデル",
+  "en": "",
+  "bytes": 16,
+  "sites": [
+   "248F48:quest18"
+  ]
+ },
+ {
+  "id": "ev:24AA7A",
+  "addr": "24AA7A",
+  "kind": "quest_desc",
+  "jp": "さいきんレドウの近くで[BR]ふくすうのヴァンデルもくげき[BR]じょうほうがよせられている。[BR]これを発見し、ただちにたおしてほしい",
+  "en": "",
+  "bytes": 122,
+  "sites": [
+   "248F4D:quest0C"
+  ]
+ },
+ {
+  "id": "ev:24AAF4",
+  "addr": "24AAF4",
+  "kind": "quest_title",
+  "jp": "魔物の襲来",
+  "en": "",
+  "bytes": 12,
+  "sites": [
+   "248F83:quest18"
+  ]
+ },
+ {
+  "id": "ev:24AB00",
+  "addr": "24AB00",
+  "kind": "quest_desc",
+  "jp": "レドウにしんにゅうした[BR]モンスターを全てたいじする",
+  "en": "",
+  "bytes": 52,
+  "sites": [
+   "248F88:quest0C"
+  ]
+ },
+ {
+  "id": "ev:24AB34",
+  "addr": "24AB34",
+  "kind": "quest_title",
+  "jp": "鑑定小屋へ！！",
+  "en": "",
+  "bytes": 16,
+  "sites": [
+   "248FB7:quest18"
+  ]
+ },
+ {
+  "id": "ev:24AB44",
+  "addr": "24AB44",
+  "kind": "quest_desc",
+  "jp": "グリニデの毒（どく）を受けたポアラをいっこくも早く[BR]鑑定小屋（ハウス）へつれて行く",
+  "en": "",
+  "bytes": 84,
+  "sites": [
+   "248FBC:quest0C"
+  ]
+ },
+ {
+  "id": "ev:24AB98",
+  "addr": "24AB98",
+  "kind": "quest_title",
+  "jp": "残党掃討戦",
+  "en": "",
+  "bytes": 12,
+  "sites": [
+   "248FEB:quest18"
+  ]
+ },
+ {
+  "id": "ev:24ABA4",
+  "addr": "24ABA4",
+  "kind": "quest_desc",
+  "jp": "先日レドウをおそったモンスターの[BR]残党（ざんとう）がワンダラ山地に[BR]ひそんでいるらしい。[BR]これらを見つけ出し、たいじしてほしい",
+  "en": "",
+  "bytes": 128,
+  "sites": [
+   "248FF0:quest0C"
+  ]
+ },
+ {
+  "id": "ev:24AC24",
+  "addr": "24AC24",
+  "kind": "quest_title",
+  "jp": "山火事！！",
+  "en": "",
+  "bytes": 12,
+  "sites": [
+   "249026:quest18"
+  ]
+ },
+ {
+  "id": "ev:24AC30",
+  "addr": "24AC30",
+  "kind": "quest_desc",
+  "jp": "ワンダラ山地で山火事が発生した！[BR]あたりにはモンスターも多く、[BR]消火に行きたくても行けないらしい。[BR]なんとか火事をおさめてほしい",
+  "en": "",
+  "bytes": 130,
+  "sites": [
+   "24902B:quest0C"
+  ]
+ },
+ {
+  "id": "ev:24ACB2",
+  "addr": "24ACB2",
+  "kind": "quest_title",
+  "jp": "救援物資",
+  "en": "",
+  "bytes": 10,
+  "sites": [
+   "249061:quest18"
+  ]
+ },
+ {
+  "id": "ev:24ACBC",
+  "addr": "24ACBC",
+  "kind": "quest_desc",
+  "jp": "先日襲撃（しゅうげき）を受けた[BR]レドウだが、げんざい[BR]復興中（ふっこうちゅう）である。[BR]そこでインスア・エルファスト・[BR]デュオラの各里がレドウに[BR]救援物資（きゅうえんぶっし）を[BR]送ってくれるとのこと。[BR]そのゆそうをバスターにたのみたい",
+  "en": "",
+  "bytes": 236,
+  "sites": [
+   "249066:quest0C"
+  ]
+ },
+ {
+  "id": "ev:24ADA8",
+  "addr": "24ADA8",
+  "kind": "quest_title",
+  "jp": "蟻塚を破壊せよ",
+  "en": "",
+  "bytes": 16,
+  "sites": [
+   "24909C:quest18"
+  ]
+ },
+ {
+  "id": "ev:24ADB8",
+  "addr": "24ADB8",
+  "kind": "quest_desc",
+  "jp": "デュオラ平原に「グルメアント」が[BR]塚（つか）を作ってしまい、[BR]里への道がとざされてしまった。[BR]これを駆除（くじょ）してほしい",
+  "en": "",
+  "bytes": 126,
+  "sites": [
+   "2490A1:quest0C"
+  ]
+ },
+ {
+  "id": "ev:24AE36",
+  "addr": "24AE36",
+  "kind": "quest_title",
+  "jp": "補給物資を届けろ",
+  "en": "",
+  "bytes": 18,
+  "sites": [
+   "2490D7:quest18"
+  ]
+ },
+ {
+  "id": "ev:24AE48",
+  "addr": "24AE48",
+  "kind": "quest_desc",
+  "jp": "調査（ちょうさ）に出かけていた[BR]バスターが、キャンプが長期に[BR]なりそうなので[BR]補給物資（ほきゅうぶっし）を[BR]とどけてほしいとのこと[BR]アサド山地のバスターのところまで、[BR]補給物資（ほきゅうぶっし）を[BR]とどけてほしい",
+  "en": "",
+  "bytes": 214,
+  "sites": [
+   "2490DC:quest0C"
+  ]
+ },
+ {
+  "id": "ev:24AF1E",
+  "addr": "24AF1E",
+  "kind": "quest_title",
+  "jp": "空からの狙撃者",
+  "en": "",
+  "bytes": 16,
+  "sites": [
+   "249112:quest18"
+  ]
+ },
+ {
+  "id": "ev:24AF2E",
+  "addr": "24AF2E",
+  "kind": "quest_desc",
+  "jp": "アサドの里へ向かっていた旅人が、[BR]空からおそってくるモンスターの[BR]被害（ひがい）にあったとのこと。[BR]被害（ひがい）がふえる前に[BR]モンスターをたいじしてくれ",
+  "en": "",
+  "bytes": 156,
+  "sites": [
+   "249117:quest0C"
+  ]
+ },
+ {
+  "id": "ev:24AFCA",
+  "addr": "24AFCA",
+  "kind": "quest_title",
+  "jp": "灯台の火",
+  "en": "",
+  "bytes": 10,
+  "sites": [
+   "24914D:quest18"
+  ]
+ },
+ {
+  "id": "ev:24AFD4",
+  "addr": "24AFD4",
+  "kind": "quest_desc",
+  "jp": "レドウ大河（たいが）を[BR]行き来する船が目印としている[BR]「レドウ灯台（とうだい）」の光が[BR]消えてしまった[BR]どうやらモンスターに[BR]うばわれてしまったらしい。[BR]これがないと船の運航（うんこう）ができないので光を取りもどしてくれ",
+  "en": "",
+  "bytes": 222,
+  "sites": [
+   "249152:quest0C"
+  ]
+ },
+ {
+  "id": "ev:24B0B2",
+  "addr": "24B0B2",
+  "kind": "quest_title",
+  "jp": "お母さんを助けて",
+  "en": "",
+  "bytes": 18,
+  "sites": [
+   "24918F:quest18"
+  ]
+ },
+ {
+  "id": "ev:24B0C4",
+  "addr": "24B0C4",
+  "kind": "quest_desc",
+  "jp": "トロワナに住む少年「コウ」からの[BR]依頼（いらい）。[BR]母親の病気をなおすためにひつような[BR]「アメリ草」を取ってくる。[BR]「アメリ草」はエトリア山地のおくに[BR]生えているらしい",
+  "en": "",
+  "bytes": 170,
+  "sites": [
+   "249194:quest0C"
+  ]
+ },
+ {
+  "id": "ev:24B16E",
+  "addr": "24B16E",
+  "kind": "quest_title",
+  "jp": "遺跡と財宝",
+  "en": "",
+  "bytes": 12,
+  "sites": [
+   "2491C3:quest18"
+  ]
+ },
+ {
+  "id": "ev:24B17A",
+  "addr": "24B17A",
+  "kind": "quest_desc",
+  "jp": "とある遺跡（いせき）に古代の[BR]財宝（ざいほう）がねむっているとの[BR]ウワサが流れている。[BR]これを信じた者たちが遺跡（いせき）に向かわないともかぎらないので[BR]調査（ちょうさ）してきて欲しい。[BR]トロワナの鑑定士（かんていし）を[BR]たずねるように",
+  "en": "",
+  "bytes": 238,
+  "sites": [
+   "2491C8:quest0C"
+  ]
+ },
+ {
+  "id": "ev:24B268",
+  "addr": "24B268",
+  "kind": "quest_title",
+  "jp": "星宿の扉",
+  "en": "",
+  "bytes": 10,
+  "sites": [
+   "2491FE:quest18"
+  ]
+ },
+ {
+  "id": "ev:24B272",
+  "addr": "24B272",
+  "kind": "quest_desc",
+  "jp": "森の遺跡（いせき）のおくにある[BR]しかけ扉（とびら）を[BR]調査（ちょうさ）する",
+  "en": "",
+  "bytes": 76,
+  "sites": [
+   "249203:quest0C"
+  ]
+ },
+ {
+  "id": "ev:24B2BE",
+  "addr": "24B2BE",
+  "kind": "quest_title",
+  "jp": "謎の玉",
+  "en": "",
+  "bytes": 8,
+  "sites": [
+   "249239:quest18"
+  ]
+ },
+ {
+  "id": "ev:24B2C6",
+  "addr": "24B2C6",
+  "kind": "quest_desc",
+  "jp": "森の遺跡（いせき）にあった[BR]しかけ扉（とびら）のおくで[BR]手に入れたなぞのオーブの[BR]正体は？",
+  "en": "",
+  "bytes": 92,
+  "sites": [
+   "24923E:quest0C"
+  ]
+ },
+ {
+  "id": "ev:24B322",
+  "addr": "24B322",
+  "kind": "quest_title",
+  "jp": "群がり犬",
+  "en": "",
+  "bytes": 10,
+  "sites": [
+   "249274:quest18"
+  ]
+ },
+ {
+  "id": "ev:24B32C",
+  "addr": "24B32C",
+  "kind": "quest_desc",
+  "jp": "アサド山地で[BR]「群がり犬（むらがりいぬ）」と[BR]よばれるモンスターによる[BR]被害（ひがい）が相次いでいる。[BR]これをたいじしてほしい",
+  "en": "",
+  "bytes": 128,
+  "sites": [
+   "249279:quest0C"
+  ]
+ },
+ {
+  "id": "ev:24B3AC",
+  "addr": "24B3AC",
+  "kind": "quest_title",
+  "jp": "密通者を暴け",
+  "en": "",
+  "bytes": 14,
+  "sites": [
+   "2492AF:quest18"
+  ]
+ },
+ {
+  "id": "ev:24B3BA",
+  "addr": "24B3BA",
+  "kind": "quest_desc",
+  "jp": "テルセロンの鑑定小屋（ハウス）からの依頼（いらい）。[BR]里のたくわえをモンスターに[BR]送っている者がいるらしい。[BR]これを調査（ちょうさ）して[BR]つきとめて欲しい",
+  "en": "",
+  "bytes": 156,
+  "sites": [
+   "2492B4:quest0C"
+  ]
+ },
+ {
+  "id": "ev:24B456",
+  "addr": "24B456",
+  "kind": "quest_title",
+  "jp": "奇病サソリ熱",
+  "en": "",
+  "bytes": 14,
+  "sites": [
+   "2492EA:quest18"
+  ]
+ },
+ {
+  "id": "ev:24B464",
+  "addr": "24B464",
+  "kind": "quest_desc",
+  "jp": "ウノロムの里で奇病（きびょう）が[BR]発生したとのほうこくが入った。[BR]くわしくはウノロムの里の[BR]鑑定小屋（ハウス）で[BR]話を聞くように",
+  "en": "",
+  "bytes": 130,
+  "sites": [
+   "2492EF:quest0C"
+  ]
+ },
+ {
+  "id": "ev:24B4E6",
+  "addr": "24B4E6",
+  "kind": "quest_title",
+  "jp": "毒霧の立ち込める山",
+  "en": "",
+  "bytes": 20,
+  "sites": [
+   "249325:quest18"
+  ]
+ },
+ {
+  "id": "ev:24B4FA",
+  "addr": "24B4FA",
+  "kind": "quest_desc",
+  "jp": "エトリア山地で動物たちがたくさん[BR]死んでいるらしい。[BR]調査（ちょうさ）したところ、[BR]明け方に立ち込める霧（きり）が[BR]あやしいとのこと。[BR]くわしく調査（ちょうさ）して、この霧（きり）をなんとかしてほしい",
+  "en": "",
+  "bytes": 202,
+  "sites": [
+   "24932A:quest0C"
+  ]
+ },
+ {
+  "id": "ev:24B5C4",
+  "addr": "24B5C4",
+  "kind": "quest_title",
+  "jp": "湖畔でピクニック",
+  "en": "",
+  "bytes": 18,
+  "sites": [
+   "249360:quest18"
+  ]
+ },
+ {
+  "id": "ev:24B5D6",
+  "addr": "24B5D6",
+  "kind": "quest_desc",
+  "jp": "エトリアに住む夫婦（ふうふ）からの[BR]依頼（いらい）。[BR]どうやらこどもたちが湖畔の遺跡（こはんのいせき）にピクニック気分で遊びに行ってしまったらしい。[BR]くわしくはエトリアのシン夫婦（ふうふ）から話を聞くように",
+  "en": "",
+  "bytes": 208,
+  "sites": [
+   "249365:quest0C"
+  ]
+ },
+ {
+  "id": "ev:24B6A6",
+  "addr": "24B6A6",
+  "kind": "quest_title",
+  "jp": "偵察任務",
+  "en": "",
+  "bytes": 10,
+  "sites": [
+   "24939B:quest18"
+  ]
+ },
+ {
+  "id": "ev:24B6B0",
+  "addr": "24B6B0",
+  "kind": "quest_desc",
+  "jp": "トロワナの森の偵察（ていさつ）を[BR]おねがいしたい。[BR]くわしくはトロワナの[BR]鑑定小屋（ハウス）で[BR]話を聞くこと",
+  "en": "",
+  "bytes": 110,
+  "sites": [
+   "2493A0:quest0C"
+  ]
+ },
+ {
+  "id": "ev:24B71E",
+  "addr": "24B71E",
+  "kind": "quest_title",
+  "jp": "黒煙を払え",
+  "en": "",
+  "bytes": 12,
+  "sites": [
+   "2493DD:quest18"
+  ]
+ },
+ {
+  "id": "ev:24B72A",
+  "addr": "24B72A",
+  "kind": "quest_desc",
+  "jp": "先日のトロワナの森偵察（ていさつ）のほうこくにより、森に黒煙（こくえん）を吐くモンスターが増殖（ぞうしょく）していることがわかった。[BR]なんとかこれらのモンスターの数を[BR]へらしたい[BR]トロワナの鑑定小屋（ハウス）[BR]で話を聞くこと",
+  "en": "",
+  "bytes": 226,
+  "sites": [
+   "2493E2:quest0C"
+  ]
+ },
+ {
+  "id": "ev:24B80C",
+  "addr": "24B80C",
+  "kind": "quest_title",
+  "jp": "暴かれた墓",
+  "en": "",
+  "bytes": 12,
+  "sites": [
+   "24941F:quest18"
+  ]
+ },
+ {
+  "id": "ev:24B818",
+  "addr": "24B818",
+  "kind": "quest_desc",
+  "jp": "トロワナにある墓地（ぼち）が[BR]あらされたというほうこくが入った。[BR]しかもどうやら盗掘（とうくつ）のためではないようだ・・・。[BR]トロワナの鑑定小屋（ハウス）[BR]で話を聞くこと",
+  "en": "",
+  "bytes": 172,
+  "sites": [
+   "249424:quest0C"
+  ]
+ },
+ {
+  "id": "ev:24B8C4",
+  "addr": "24B8C4",
+  "kind": "quest_title",
+  "jp": "死と共に目覚める呪い",
+  "en": "",
+  "bytes": 22,
+  "sites": [
+   "24945A:quest18"
+  ]
+ },
+ {
+  "id": "ev:24B8DA",
+  "addr": "24B8DA",
+  "kind": "quest_desc",
+  "jp": "トロワナの墓地（ぼち）があらされた[BR]事について、[BR]新たなほうこくが入った。[BR]なぞの付着物（ふちゃくぶつ）の[BR]鑑定（かんてい）がすんだらしい。[BR]トロワナの鑑定小屋（ハウス）[BR]にて、話を聞くこと",
+  "en": "",
+  "bytes": 192,
+  "sites": [
+   "24945F:quest0C"
+  ]
+ },
+ {
+  "id": "ev:24B99A",
+  "addr": "24B99A",
+  "kind": "quest_title",
+  "jp": "腐薬虫",
+  "en": "",
+  "bytes": 8,
+  "sites": [
+   "249495:quest18"
+  ]
+ },
+ {
+  "id": "ev:24B9A2",
+  "addr": "24B9A2",
+  "kind": "quest_desc",
+  "jp": "主のいなくなったムガイン城（じょう）に何者かが出入りしている。[BR]ヴァンデルかもしれないので、[BR]これをしらべてほしい",
+  "en": "",
+  "bytes": 116,
+  "sites": [
+   "24949A:quest0C"
+  ]
+ },
+ {
+  "id": "ev:24BA16",
+  "addr": "24BA16",
+  "kind": "quest_title",
+  "jp": "謎のオーブ",
+  "en": "",
+  "bytes": 12,
+  "sites": [
+   "2494D0:quest18"
+  ]
+ },
+ {
+  "id": "ev:24BA22",
+  "addr": "24BA22",
+  "kind": "quest_desc",
+  "jp": "先日、森の遺跡（いせき）から[BR]発見されたなぞの物体「オーブ」・・・その調査（ちょうさ）は、パトレスの[BR]鑑定小屋（ハウス）を中心に[BR]行われていたが、バスターの力を[BR]かりたいとの申し出があった。[BR]パトレスの鑑定小屋（ハウス）[BR]で話を聞くこと",
+  "en": "",
+  "bytes": 238,
+  "sites": [
+   "2494D5:quest0C"
+  ]
+ },
+ {
+  "id": "ev:24BB10",
+  "addr": "24BB10",
+  "kind": "quest_title",
+  "jp": "生け捕り大作戦",
+  "en": "",
+  "bytes": 16,
+  "sites": [
+   "249504:quest18"
+  ]
+ },
+ {
+  "id": "ev:24BB20",
+  "addr": "24BB20",
+  "kind": "quest_desc",
+  "jp": "パトレスの鑑定小屋（ハウス）[BR]からの依頼（いらい）で、モンスターを生けどりにしてほしい。[BR]ガブリ貝、つららこうもり、[BR]海のブロウガンナー、ジャーマウス、[BR]砂（すな）ふくろう、ペンバリーの６種集め終わったらパトレスの[BR]鑑定小屋（ハウス）へ向かうこと",
+  "en": "",
+  "bytes": 248,
+  "sites": [
+   "249509:quest0C"
+  ]
+ },
+ {
+  "id": "ev:24BC18",
+  "addr": "24BC18",
+  "kind": "quest_title",
+  "jp": "生け捕り大作戦",
+  "en": "",
+  "bytes": 16,
+  "sites": [
+   "249538:quest18"
+  ]
+ },
+ {
+  "id": "ev:24BC28",
+  "addr": "24BC28",
+  "kind": "quest_desc",
+  "jp": "パトレスの鑑定小屋（ハウス）[BR]からの依頼（いらい）で、モンスターを生けどりにしてほしい。[BR]ガブリ貝、つららこうもり、[BR]海のブロウガンナー、ジャーマウス、[BR]砂（すな）ふくろう、ペンバリーの６種まずは「ガブリ貝」をつかまえること",
+  "en": "",
+  "bytes": 226,
+  "sites": [
+   "24953D:quest0C"
+  ]
+ },
+ {
+  "id": "ev:24BD0A",
+  "addr": "24BD0A",
+  "kind": "quest_title",
+  "jp": "生け捕り大作戦",
+  "en": "",
+  "bytes": 16,
+  "sites": [
+   "249577:quest18"
+  ]
+ },
+ {
+  "id": "ev:24BD1A",
+  "addr": "24BD1A",
+  "kind": "quest_desc",
+  "jp": "パトレスの鑑定小屋（ハウス）[BR]からの依頼（いらい）で、モンスターを生けどりにしてほしい。[BR]ガブリ貝、つららこうもり、[BR]海のブロウガンナー、ジャーマウス、[BR]砂（すな）ふくろう、ペンバリーの６種次は「つららこうもり」を[BR]つかまえること",
+  "en": "",
+  "bytes": 232,
+  "sites": [
+   "24957C:quest0C"
+  ]
+ },
+ {
+  "id": "ev:24BE02",
+  "addr": "24BE02",
+  "kind": "quest_title",
+  "jp": "生け捕り大作戦",
+  "en": "",
+  "bytes": 16,
+  "sites": [
+   "2495B6:quest18"
+  ]
+ },
+ {
+  "id": "ev:24BE12",
+  "addr": "24BE12",
+  "kind": "quest_desc",
+  "jp": "パトレスの鑑定小屋（ハウス）[BR]からの依頼（いらい）で、モンスターを生けどりにしてほしい。[BR]ガブリ貝、つららこうもり、[BR]海のブロウガンナー、ジャーマウス、[BR]砂（すな）ふくろう、ペンバリーの６種次は「海のブロウガンナー」を[BR]つかまえること",
+  "en": "",
+  "bytes": 236,
+  "sites": [
+   "2495BB:quest0C"
+  ]
+ },
+ {
+  "id": "ev:24BEFE",
+  "addr": "24BEFE",
+  "kind": "quest_title",
+  "jp": "生け捕り大作戦",
+  "en": "",
+  "bytes": 16,
+  "sites": [
+   "2495F5:quest18"
+  ]
+ },
+ {
+  "id": "ev:24BF0E",
+  "addr": "24BF0E",
+  "kind": "quest_desc",
+  "jp": "パトレスの鑑定小屋（ハウス）[BR]からの依頼（いらい）で、モンスターを生けどりにしてほしい。[BR]ガブリ貝、つららこうもり、[BR]海のブロウガンナー、ジャーマウス、[BR]砂（すな）ふくろう、ペンバリーの６種次は「砂（すな）ふくろう」を[BR]つかまえること",
+  "en": "",
+  "bytes": 236,
+  "sites": [
+   "2495FA:quest0C"
+  ]
+ },
+ {
+  "id": "ev:24BFFA",
+  "addr": "24BFFA",
+  "kind": "quest_title",
+  "jp": "生け捕り大作戦",
+  "en": "",
+  "bytes": 16,
+  "sites": [
+   "249634:quest18"
+  ]
+ },
+ {
+  "id": "ev:24C00A",
+  "addr": "24C00A",
+  "kind": "quest_desc",
+  "jp": "パトレスの鑑定小屋（ハウス）[BR]からの依頼（いらい）で、モンスターを生けどりにしてほしい。[BR]ガブリ貝、つららこうもり、[BR]海のブロウガンナー、ジャーマウス、[BR]砂（すな）ふくろう、ペンバリーの６種次は「ペンバリー」をつかまえること",
+  "en": "",
+  "bytes": 226,
+  "sites": [
+   "249639:quest0C"
+  ]
+ },
+ {
+  "id": "ev:24C0EC",
+  "addr": "24C0EC",
+  "kind": "quest_title",
+  "jp": "生け捕り大作戦",
+  "en": "",
+  "bytes": 16,
+  "sites": [
+   "249673:quest18"
+  ]
+ },
+ {
+  "id": "ev:24C0FC",
+  "addr": "24C0FC",
+  "kind": "quest_desc",
+  "jp": "パトレスの鑑定小屋（ハウス）[BR]からの依頼（いらい）で、モンスターを生けどりにしてほしい。[BR]ガブリ貝、つららこうもり、[BR]海のブロウガンナー、ジャーマウス、[BR]砂（すな）ふくろう、ペンバリーの６種次は「ジャーマウス」をつかまえること",
+  "en": "",
+  "bytes": 228,
+  "sites": [
+   "249678:quest0C"
+  ]
+ },
+ {
+  "id": "ev:24C1E0",
+  "addr": "24C1E0",
+  "kind": "quest_title",
+  "jp": "孤高の狼",
+  "en": "",
+  "bytes": 10,
+  "sites": [
+   "2496B2:quest18"
+  ]
+ },
+ {
+  "id": "ev:24C1EA",
+  "addr": "24C1EA",
+  "kind": "quest_desc",
+  "jp": "パトレス山地に、大型（おおがた）の[BR]狼（おおかみ）モンスターがあらわれたほうこくによると、どうやら月夜にだけあらわれるという[BR]「七星餓狼（しちせいがろう）」らしいこれをたいじしてほしい",
+  "en": "",
+  "bytes": 186,
+  "sites": [
+   "2496B7:quest0C"
+  ]
+ },
+ {
+  "id": "ev:24C2A4",
+  "addr": "24C2A4",
+  "kind": "quest_title",
+  "jp": "バスター探索",
+  "en": "",
+  "bytes": 14,
+  "sites": [
+   "2496ED:quest18"
+  ]
+ },
+ {
+  "id": "ev:24C2B2",
+  "addr": "24C2B2",
+  "kind": "quest_desc",
+  "jp": "廃坑（はいこう）に向かった[BR]バスターからのれんらくが[BR]とだえてしまった。[BR]そのバスターをさがしてくれ",
+  "en": "",
+  "bytes": 102,
+  "sites": [
+   "2496F2:quest0C"
+  ]
+ },
+ {
+  "id": "ev:24C318",
+  "addr": "24C318",
+  "kind": "quest_title",
+  "jp": "目覚めれば銀世界",
+  "en": "",
+  "bytes": 18,
+  "sites": [
+   "249728:quest18"
+  ]
+ },
+ {
+  "id": "ev:24C32A",
+  "addr": "24C32A",
+  "kind": "quest_desc",
+  "jp": "デュオラ地方がとつぜん[BR]こごえるような寒さに[BR]なってしまったとのほうこくが[BR]入った。[BR]デュオラの鑑定小屋（ハウス）[BR]で話を聞くこと",
+  "en": "",
+  "bytes": 132,
+  "sites": [
+   "24972D:quest0C"
+  ]
+ },
+ {
+  "id": "ev:24C3AE",
+  "addr": "24C3AE",
+  "kind": "quest_title",
+  "jp": "トロワナに迫る影",
+  "en": "",
+  "bytes": 18,
+  "sites": [
+   "249763:quest18"
+  ]
+ },
+ {
+  "id": "ev:24C3C0",
+  "addr": "24C3C0",
+  "kind": "quest_desc",
+  "jp": "ヴァンデルと思われる不審（ふしん）な人かげがトロワナの近くで[BR]もくげきされた。[BR]その調査（ちょうさ）を頼みたい。[BR]トロワナの鑑定小屋（ハウス）[BR]で話を聞くこと",
+  "en": "",
+  "bytes": 160,
+  "sites": [
+   "249768:quest0C"
+  ]
+ },
+ {
+  "id": "ev:24C460",
+  "addr": "24C460",
+  "kind": "quest_title",
+  "jp": "橋をかけろ！",
+  "en": "",
+  "bytes": 14,
+  "sites": [
+   "2497A5:quest18"
+  ]
+ },
+ {
+  "id": "ev:24C46E",
+  "addr": "24C46E",
+  "kind": "quest_desc",
+  "jp": "アサド山地にデュオラ平原と[BR]エトリア山地をむすぶ橋をかける[BR]計画があがった。[BR]だが、空をとぶモンスターが多く、[BR]作業が思うように進まないという。[BR]モンスターのたいじをおねがいしたい",
+  "en": "",
+  "bytes": 182,
+  "sites": [
+   "2497AA:quest0C"
+  ]
+ },
+ {
+  "id": "ev:24C524",
+  "addr": "24C524",
+  "kind": "quest_title",
+  "jp": "ヴァンデル調査員",
+  "en": "",
+  "bytes": 18,
+  "sites": [
+   "2497E0:quest18"
+  ]
+ },
+ {
+  "id": "ev:24C536",
+  "addr": "24C536",
+  "kind": "quest_desc",
+  "jp": "キッスをてつだって、[BR]トロワナ王国からの依頼（いらい）を[BR]こなす。[BR]ムスリー荒野（こうや）にある[BR]遺跡（いせき）を調べる",
+  "en": "",
+  "bytes": 122,
+  "sites": [
+   "2497E5:quest0C"
+  ]
+ },
+ {
+  "id": "ev:24C5B0",
+  "addr": "24C5B0",
+  "kind": "quest_title",
+  "jp": "脱出",
+  "en": "",
+  "bytes": 6,
+  "sites": [
+   "249822:quest18"
+  ]
+ },
+ {
+  "id": "ev:24C5B6",
+  "addr": "24C5B6",
+  "kind": "quest_desc",
+  "jp": "とじこめられてしまった[BR]荒野の遺跡（こうやのいせき）から[BR]脱出（だっしゅつ）する",
+  "en": "",
+  "bytes": 82,
+  "sites": [
+   "249827:quest0C"
+  ]
+ },
+ {
+  "id": "ev:24C608",
+  "addr": "24C608",
+  "kind": "quest_title",
+  "jp": "奪われた財宝の行方",
+  "en": "",
+  "bytes": 20,
+  "sites": [
+   "24985D:quest18"
+  ]
+ },
+ {
+  "id": "ev:24C61C",
+  "addr": "24C61C",
+  "kind": "quest_desc",
+  "jp": "先日のテルセロンのたくわえが[BR]ヴァンデルに流れていたけんで、[BR]どうやらたくわえといっしょに[BR]とある商人の財宝（ざいほう）も[BR]うばわれていたらしい。[BR]テルセロンに住む商人キャビンを[BR]たずね、話しを聞くこと",
+  "en": "",
+  "bytes": 204,
+  "sites": [
+   "249862:quest0C"
+  ]
+ },
+ {
+  "id": "ev:24C6E8",
+  "addr": "24C6E8",
+  "kind": "quest_title",
+  "jp": "遺跡の強盗団",
+  "en": "",
+  "bytes": 14,
+  "sites": [
+   "249898:quest18"
+  ]
+ },
+ {
+  "id": "ev:24C6F6",
+  "addr": "24C6F6",
+  "kind": "quest_desc",
+  "jp": "このところ、行商人をおそう[BR]強盗団（ごうとうだん）が[BR]出没（しゅつぼつ）している。[BR]強盗団（ごうとうだん）は[BR]荒野の遺跡（こうやのいせき）を[BR]ねじろにしていると思われる。[BR]強盗団（ごうとうだん）を[BR]たいじしてほしい。",
+  "en": "",
+  "bytes": 218,
+  "sites": [
+   "24989D:quest0C"
+  ]
+ },
+ {
+  "id": "ev:24C7D0",
+  "addr": "24C7D0",
+  "kind": "quest_title",
+  "jp": "ぶよぶよしたもの",
+  "en": "",
+  "bytes": 18,
+  "sites": [
+   "2498D3:quest18"
+  ]
+ },
+ {
+  "id": "ev:24C7E2",
+  "addr": "24C7E2",
+  "kind": "quest_desc",
+  "jp": "ムスリーの里で、なにやら[BR]ぶよぶよしたものが発見された。[BR]ムスリーの鑑定小屋（ハウス）[BR]で話を聞くように",
+  "en": "",
+  "bytes": 106,
+  "sites": [
+   "2498D8:quest0C"
+  ]
+ },
+ {
+  "id": "ev:24C84C",
+  "addr": "24C84C",
+  "kind": "quest_title",
+  "jp": "謎かけの魔物",
+  "en": "",
+  "bytes": 14,
+  "sites": [
+   "24990E:quest18"
+  ]
+ },
+ {
+  "id": "ev:24C85A",
+  "addr": "24C85A",
+  "kind": "quest_desc",
+  "jp": "先日、アサド山地に橋がかかったが、[BR]その橋に「山の隠者（いんじゃ）」[BR]というモンスターがいすわってしまったこのモンスター、ふしぎなことに人を[BR]おそうことはないのだが、なぞかけに[BR]答えないと橋をわたらせないという。[BR]なんとかこのモンスターを[BR]排除（はいじょ）できないか",
+  "en": "",
+  "bytes": 268,
+  "sites": [
+   "249913:quest0C"
+  ]
+ },
+ {
+  "id": "ev:24C966",
+  "addr": "24C966",
+  "kind": "quest_title",
+  "jp": "謎かけの魔物",
+  "en": "",
+  "bytes": 14,
+  "sites": [
+   "249949:quest18"
+  ]
+ },
+ {
+  "id": "ev:24C974",
+  "addr": "24C974",
+  "kind": "quest_desc",
+  "jp": "アサド山地の橋にいすわった[BR]「山の隠者（いんじゃ）」の謎かけ[BR]「高き頂（ただき）にたたずむ者。[BR]その頂点（ちょうてん）」[BR]その答えをもとめるため、[BR]テルセロンの里の「なぞなぞ名人」を[BR]訪問（ほうもん）する",
+  "en": "",
+  "bytes": 206,
+  "sites": [
+   "24994E:quest0C"
+  ]
+ },
+ {
+  "id": "ev:24CA42",
+  "addr": "24CA42",
+  "kind": "quest_title",
+  "jp": "謎かけの魔物",
+  "en": "",
+  "bytes": 14,
+  "sites": [
+   "249984:quest18"
+  ]
+ },
+ {
+  "id": "ev:24CA50",
+  "addr": "24CA50",
+  "kind": "quest_desc",
+  "jp": "アサド山地の橋にいすわった[BR]「山の隠者（いんじゃ）」の謎かけ[BR]「大地に腰（こし）をすえ[BR]輝き（かがやき）をさえぎる者。[BR]その極み（きわみ）」。[BR]その答えをもとめるため、[BR]テルセロンの里の「なぞなぞ名人」を[BR]訪問（ほうもん）する",
+  "en": "",
+  "bytes": 228,
+  "sites": [
+   "249989:quest0C"
+  ]
+ },
+ {
+  "id": "ev:24CB34",
+  "addr": "24CB34",
+  "kind": "quest_title",
+  "jp": "謎かけの魔物",
+  "en": "",
+  "bytes": 14,
+  "sites": [
+   "2499BF:quest18"
+  ]
+ },
+ {
+  "id": "ev:24CB42",
+  "addr": "24CB42",
+  "kind": "quest_desc",
+  "jp": "アサド山地の橋にいすわった[BR]「山の隠者（いんじゃ）」の謎かけ[BR]「吹（ふ）き抜（ぬ）けとどまらざる[BR]者。その優劣（ゆうれつ）」。[BR]その答えをもとめるため、[BR]テルセロンの里の「なぞなぞ名人」を[BR]訪問（ほうもん）する",
+  "en": "",
+  "bytes": 212,
+  "sites": [
+   "2499C4:quest0C"
+  ]
+ },
+ {
+  "id": "ev:24CC16",
+  "addr": "24CC16",
+  "kind": "quest_title",
+  "jp": "ツチギンチャク増殖！",
+  "en": "",
+  "bytes": 22,
+  "sites": [
+   "2499FA:quest18"
+  ]
+ },
+ {
+  "id": "ev:24CC2C",
+  "addr": "24CC2C",
+  "kind": "quest_desc",
+  "jp": "大変なことになった。[BR]ムスリーの里が壊滅（かいめつ）して[BR]しまったとのしらせが入った。[BR]すぐにムスリーへ向かってほしい",
+  "en": "",
+  "bytes": 120,
+  "sites": [
+   "2499FF:quest0C"
+  ]
+ },
+ {
+  "id": "ev:24CCA4",
+  "addr": "24CCA4",
+  "kind": "quest_title",
+  "jp": "ムスリーに潜む悪",
+  "en": "",
+  "bytes": 18,
+  "sites": [
+   "249A35:quest18"
+  ]
+ },
+ {
+  "id": "ev:24CCB6",
+  "addr": "24CCB6",
+  "kind": "quest_desc",
+  "jp": "ムスリーに滞在（たいざい）している[BR]バスターが、何やらさわぎを[BR]起こしているらしい。[BR]バスターの力を自らの私欲（しよく）のために使う事はゆるされない。[BR]すぐに調査（ちょうさ）をしてほしい",
+  "en": "",
+  "bytes": 188,
+  "sites": [
+   "249A3A:quest0C"
+  ]
+ },
+ {
+  "id": "ev:24CD72",
+  "addr": "24CD72",
+  "kind": "quest_title",
+  "jp": "組織化した魔物",
+  "en": "",
+  "bytes": 16,
+  "sites": [
+   "249A70:quest18"
+  ]
+ },
+ {
+  "id": "ev:24CD82",
+  "addr": "24CD82",
+  "kind": "quest_desc",
+  "jp": "さいきん、主をうしなって[BR]野良（のら）と化しているモンスターが集まって組織化（そしきか）するようになってきてしまった。[BR]中でも、ハウンドナイトからの[BR]被害（ひがい）が多い。[BR]これをたいじしてくれ",
+  "en": "",
+  "bytes": 196,
+  "sites": [
+   "249A75:quest0C"
+  ]
+ },
+ {
+  "id": "ev:24CE46",
+  "addr": "24CE46",
+  "kind": "quest_title",
+  "jp": "トリアーク復興",
+  "en": "",
+  "bytes": 16,
+  "sites": [
+   "249AAB:quest18"
+  ]
+ },
+ {
+  "id": "ev:24CE56",
+  "addr": "24CE56",
+  "kind": "quest_desc",
+  "jp": "前にモンスターによりほろぼされた[BR]「トリアーク」を復興（ふっこう）することになった。[BR]そのためにはまず、[BR]トリアークにのこっているモンスターを一掃（いっそう）しなければならない",
+  "en": "",
+  "bytes": 178,
+  "sites": [
+   "249AB0:quest0C"
+  ]
+ },
+ {
+  "id": "ev:24CF08",
+  "addr": "24CF08",
+  "kind": "quest_title",
+  "jp": "資材確保",
+  "en": "",
+  "bytes": 10,
+  "sites": [
+   "249AE6:quest18"
+  ]
+ },
+ {
+  "id": "ev:24CF12",
+  "addr": "24CF12",
+  "kind": "quest_desc",
+  "jp": "サドラム復興（ふっこう）のために[BR]資材（しざい）を集めてほしい。[BR]廃坑（はいこう）で取れる、[BR]「ヨー鉱石（こうせき）」を[BR]取ってきてくれ[BR]サドラムの鑑定小屋（ハウス）[BR]で話を聞くように",
+  "en": "",
+  "bytes": 186,
+  "sites": [
+   "249AEB:quest0C"
+  ]
+ },
+ {
+  "id": "ev:24CFCC",
+  "addr": "24CFCC",
+  "kind": "quest_title",
+  "jp": "黒に負けない命",
+  "en": "",
+  "bytes": 16,
+  "sites": [
+   "249B21:quest18"
+  ]
+ },
+ {
+  "id": "ev:24CFDC",
+  "addr": "24CFDC",
+  "kind": "quest_desc",
+  "jp": "黒の地平での植物の育ちが悪くなる中、この環境（かんきょう）にたえ、[BR]育つ植物もあるらしい。[BR]そういった植物を[BR]バスター協会（きょうかい）で[BR]研究したい。[BR]サンプルを持ち帰ってくれ",
+  "en": "",
+  "bytes": 180,
+  "sites": [
+   "249B26:quest0C"
+  ]
+ },
+ {
+  "id": "ev:24D090",
+  "addr": "24D090",
+  "kind": "quest_title",
+  "jp": "壁清掃",
+  "en": "",
+  "bytes": 8,
+  "sites": [
+   "249B55:quest18"
+  ]
+ },
+ {
+  "id": "ev:24D098",
+  "addr": "24D098",
+  "kind": "quest_desc",
+  "jp": "里を守ってくれている「門」と、[BR]里を囲む「カベ」。[BR]それらをきれいに掃除（そうじ）して[BR]きよめようという事になった。[BR]そのために清聖水（せいせいすい）を[BR]取ってきてほしい",
+  "en": "",
+  "bytes": 172,
+  "sites": [
+   "249B5A:quest0C"
+  ]
+ },
+ {
+  "id": "ev:24D144",
+  "addr": "24D144",
+  "kind": "quest_title",
+  "jp": "紅い巨人",
+  "en": "",
+  "bytes": 10,
+  "sites": [
+   "249B90:quest18"
+  ]
+ },
+ {
+  "id": "ev:24D14E",
+  "addr": "24D14E",
+  "kind": "quest_desc",
+  "jp": "トリアークは、前にモンスターに[BR]ほろぼされた里だ。[BR]里をほろぼしたモンスターは、[BR]紅い（あかい）身体を持つ[BR]巨人（きょじん）だという・・・。[BR]トリアークを取りもどすためにも、[BR]巨人（きょじん）をたおしてほしい",
+  "en": "",
+  "bytes": 210,
+  "sites": [
+   "249B95:quest0C"
+  ]
+ },
+ {
+  "id": "ev:24D220",
+  "addr": "24D220",
+  "kind": "quest_title",
+  "jp": "がけ崩れ！？",
+  "en": "",
+  "bytes": 14,
+  "sites": [
+   "249BCB:quest18"
+  ]
+ },
+ {
+  "id": "ev:24D22E",
+  "addr": "24D22E",
+  "kind": "quest_desc",
+  "jp": "パトレス山地でガケくずれが起きた。[BR]急いで助けにきてほしいとのこと",
+  "en": "",
+  "bytes": 68,
+  "sites": [
+   "249BD0:quest0C"
+  ]
+ },
+ {
+  "id": "ev:24D272",
+  "addr": "24D272",
+  "kind": "quest_title",
+  "jp": "誘拐事件",
+  "en": "",
+  "bytes": 10,
+  "sites": [
+   "249C06:quest18"
+  ]
+ },
+ {
+  "id": "ev:24D27C",
+  "addr": "24D27C",
+  "kind": "quest_desc",
+  "jp": "エトリア山地で商隊（しょうたい）が[BR]モンスターの襲撃（しゅうげき）を[BR]受けた。[BR]運よくにげのびた人のほうこくでは、[BR]モンスターは人間を殺さずに、[BR]どこかへつれ去ったらしい。[BR]さらわれた人をすくい出してほしい",
+  "en": "",
+  "bytes": 208,
+  "sites": [
+   "249C0B:quest0C"
+  ]
+ },
+ {
+  "id": "ev:24D34C",
+  "addr": "24D34C",
+  "kind": "quest_title",
+  "jp": "サドラム陥落",
+  "en": "",
+  "bytes": 14,
+  "sites": [
+   "249C41:quest18"
+  ]
+ },
+ {
+  "id": "ev:24D35A",
+  "addr": "24D35A",
+  "kind": "quest_desc",
+  "jp": "復興（ふっこう）を目指していた[BR]サドラムが、[BR]ふたたびモンスターにおそわれたとの[BR]ほうこくが入った。[BR]すぐ応援（おうえん）に向かってくれ",
+  "en": "",
+  "bytes": 138,
+  "sites": [
+   "249C46:quest0C"
+  ]
+ },
+ {
+  "id": "ev:24D3E4",
+  "addr": "24D3E4",
+  "kind": "quest_title",
+  "jp": "サドラム難民",
+  "en": "",
+  "bytes": 14,
+  "sites": [
+   "249C7C:quest18"
+  ]
+ },
+ {
+  "id": "ev:24D3F2",
+  "addr": "24D3F2",
+  "kind": "quest_desc",
+  "jp": "サドラムに移住（いじゅう）する[BR]予定だった人々が、[BR]先日の襲撃（しゅうげき）で[BR]難民（なんみん）となってしまった。[BR]かれらをトロワナで保護（ほご）する[BR]事になったので、[BR]その護衛（ごえい）をたのみたい",
+  "en": "",
+  "bytes": 202,
+  "sites": [
+   "249C81:quest0C"
+  ]
+ },
+ {
+  "id": "ev:24D4BC",
+  "addr": "24D4BC",
+  "kind": "quest_title",
+  "jp": "強襲！　グリニデ城",
+  "en": "",
+  "bytes": 20,
+  "sites": [
+   "249CBE:quest18"
+  ]
+ },
+ {
+  "id": "ev:24D4D0",
+  "addr": "24D4D0",
+  "kind": "quest_desc",
+  "jp": "グリニデ城（じょう）の[BR]中枢（ちゅうすう）をたたくため、[BR]グリニデ城（じょう）へ[BR]突入（とつにゅう）せよ",
+  "en": "",
+  "bytes": 106,
+  "sites": [
+   "249CC3:quest0C"
+  ]
+ },
+ {
+  "id": "ev:24D53A",
+  "addr": "24D53A",
+  "kind": "quest_title",
+  "jp": "悲しみのダンゴール",
+  "en": "",
+  "bytes": 20,
+  "sites": [
+   "249CF2:quest18"
+  ]
+ },
+ {
+  "id": "ev:24D54E",
+  "addr": "24D54E",
+  "kind": "quest_desc",
+  "jp": "グリニデ城（じょう）の[BR]中枢（ちゅうすう）をたたくため、[BR]グリニデ城（じょう）の[BR]上層（じょうそう）へ[BR]突入（とつにゅう）せよ",
+  "en": "",
+  "bytes": 128,
+  "sites": [
+   "249CF7:quest0C"
+  ]
+ },
+ {
+  "id": "ev:24D5CE",
+  "addr": "24D5CE",
+  "kind": "quest_title",
+  "jp": "捕われの人々",
+  "en": "",
+  "bytes": 14,
+  "sites": [
+   "249D26:quest18"
+  ]
+ },
+ {
+  "id": "ev:24D5DC",
+  "addr": "24D5DC",
+  "kind": "quest_desc",
+  "jp": "グリニデ城（じょう）の[BR]中枢（ちゅうすう）をたたくため、[BR]グリニデ城（じょう）の[BR]下層（かそう）へ[BR]突入（とつにゅう）せよ",
+  "en": "",
+  "bytes": 124,
+  "sites": [
+   "249D2B:quest0C"
+  ]
+ },
+ {
+  "id": "ev:24D658",
+  "addr": "24D658",
+  "kind": "quest_title",
+  "jp": "モンスター工場破壊",
+  "en": "",
+  "bytes": 20,
+  "sites": [
+   "249D5A:quest18"
+  ]
+ },
+ {
+  "id": "ev:24D66C",
+  "addr": "24D66C",
+  "kind": "quest_desc",
+  "jp": "グリニデ城（じょう）の[BR]中枢（ちゅうすう）をたたくため、[BR]グリニデ城（じょう）の[BR]下層（かそう）へ[BR]突入（とつにゅう）。[BR]モンスター工場をさがし出し[BR]破壊（はかい）せよ",
+  "en": "",
+  "bytes": 170,
+  "sites": [
+   "249D5F:quest0C"
+  ]
+ },
+ {
+  "id": "ev:24D716",
+  "addr": "24D716",
+  "kind": "quest_title",
+  "jp": "中枢部を叩け",
+  "en": "",
+  "bytes": 14,
+  "sites": [
+   "249D8E:quest18"
+  ]
+ },
+ {
+  "id": "ev:24D724",
+  "addr": "24D724",
+  "kind": "quest_desc",
+  "jp": "グリニデ城（じょう）の[BR]中枢部（ちゅうすうぶ）を[BR]破壊（はかい）せよ",
+  "en": "",
+  "bytes": 70,
+  "sites": [
+   "249D93:quest0C"
+  ]
+ },
+ {
+  "id": "ev:24D76A",
+  "addr": "24D76A",
+  "kind": "quest_title",
+  "jp": "キッスを探せ！",
+  "en": "",
+  "bytes": 16,
+  "sites": [
+   "249DC2:quest18"
+  ]
+ },
+ {
+  "id": "ev:24D77A",
+  "addr": "24D77A",
+  "kind": "quest_desc",
+  "jp": "グリニデ城（じょう）の[BR]中枢部（ちゅうすうぶ）を[BR]破壊（はかい）した直後[BR]さらわれてしまったキッスを[BR]さがしだせ",
+  "en": "",
+  "bytes": 114,
+  "sites": [
+   "249DC7:quest0C"
+  ]
+ },
+ {
+  "id": "ev:24DA70",
+  "addr": "24DA70",
+  "kind": "quest_title",
+  "jp": "魔物討伐",
+  "en": "",
+  "bytes": 10,
+  "sites": [
+   "24D94C:quest18"
+  ]
+ },
+ {
+  "id": "ev:24DA7A",
+  "addr": "24DA7A",
+  "kind": "quest_desc",
+  "jp": "テルセロン山地に出没する[BR][FFC4]を[FFC5]匹倒してほしい",
+  "en": "",
+  "bytes": 48,
+  "sites": [
+   "24D951:quest0C"
+  ]
+ },
+ {
+  "id": "ev:24DAAA",
+  "addr": "24DAAA",
+  "kind": "quest_title",
+  "jp": "魔物大量発生",
+  "en": "",
+  "bytes": 14,
+  "sites": [
+   "24D968:quest18"
+  ]
+ },
+ {
+  "id": "ev:24DAB8",
+  "addr": "24DAB8",
+  "kind": "quest_desc",
+  "jp": "テルセロン山地に[BR][FFC4]が大量発生した[BR][FFC5]匹以上倒してほしい",
+  "en": "",
+  "bytes": 58,
+  "sites": [
+   "24D96D:quest0C"
+  ]
+ },
+ {
+  "id": "ev:24DAF2",
+  "addr": "24DAF2",
+  "kind": "quest_title",
+  "jp": "魔物退治",
+  "en": "",
+  "bytes": 10,
+  "sites": [
+   "24D984:quest18"
+  ]
+ },
+ {
+  "id": "ev:24DAFC",
+  "addr": "24DAFC",
+  "kind": "quest_desc",
+  "jp": "テルセロン山地に[BR][FFC4]が出没するので[BR]これを[FFC5]匹倒してほしい",
+  "en": "",
+  "bytes": 60,
+  "sites": [
+   "24D989:quest0C"
+  ]
+ },
+ {
+  "id": "ev:24DB38",
+  "addr": "24DB38",
+  "kind": "quest_title",
+  "jp": "魔物を倒せ！",
+  "en": "",
+  "bytes": 14,
+  "sites": [
+   "24D9A0:quest18"
+  ]
+ },
+ {
+  "id": "ev:24DB46",
+  "addr": "24DB46",
+  "kind": "quest_desc",
+  "jp": "テルセロン山地にいる[BR][FFC4]を[FFC5]匹倒してほしい",
+  "en": "",
+  "bytes": 44,
+  "sites": [
+   "24D9A5:quest0C"
+  ]
+ },
+ {
+  "id": "ev:24DB72",
+  "addr": "24DB72",
+  "kind": "quest_title",
+  "jp": "荷物搬送",
+  "en": "",
+  "bytes": 10,
+  "sites": [
+   "24DA03:quest18"
+  ]
+ },
+ {
+  "id": "ev:24DB7C",
+  "addr": "24DB7C",
+  "kind": "quest_desc",
+  "jp": "トリアーク平原で調査しているバスターに荷物を届けて欲しい",
+  "en": "",
+  "bytes": 58,
+  "sites": [
+   "24DA08:quest0C"
+  ]
+ },
+ {
+  "id": "ev:24DBB6",
+  "addr": "24DBB6",
+  "kind": "quest_title",
+  "jp": "支援物資配達",
+  "en": "",
+  "bytes": 14,
+  "sites": [
+   "24DA1F:quest18"
+  ]
+ },
+ {
+  "id": "ev:24DBC4",
+  "addr": "24DBC4",
+  "kind": "quest_desc",
+  "jp": "トリアーク平原を冒険中のバスターに支援物資を配達してほしい",
+  "en": "",
+  "bytes": 60,
+  "sites": [
+   "24DA24:quest0C"
+  ]
+ },
+ {
+  "id": "ev:24DE90",
+  "addr": "24DE90",
+  "kind": "quest_title",
+  "jp": "魔物討伐",
+  "en": "",
+  "bytes": 10,
+  "sites": [
+   "24DD6C:quest18"
+  ]
+ },
+ {
+  "id": "ev:24DE9A",
+  "addr": "24DE9A",
+  "kind": "quest_desc",
+  "jp": "エトリア山地に出没する[BR][FFC4]を[FFC5]匹倒してほしい",
+  "en": "",
+  "bytes": 46,
+  "sites": [
+   "24DD71:quest0C"
+  ]
+ },
+ {
+  "id": "ev:24DEC8",
+  "addr": "24DEC8",
+  "kind": "quest_title",
+  "jp": "魔物大量発生",
+  "en": "",
+  "bytes": 14,
+  "sites": [
+   "24DD88:quest18"
+  ]
+ },
+ {
+  "id": "ev:24DED6",
+  "addr": "24DED6",
+  "kind": "quest_desc",
+  "jp": "エトリア山地に[BR][FFC4]が大量発生した[BR][FFC5]匹以上倒してほしい",
+  "en": "",
+  "bytes": 56,
+  "sites": [
+   "24DD8D:quest0C"
+  ]
+ },
+ {
+  "id": "ev:24DF0E",
+  "addr": "24DF0E",
+  "kind": "quest_title",
+  "jp": "魔物退治",
+  "en": "",
+  "bytes": 10,
+  "sites": [
+   "24DDA4:quest18"
+  ]
+ },
+ {
+  "id": "ev:24DF18",
+  "addr": "24DF18",
+  "kind": "quest_desc",
+  "jp": "エトリア山地に[BR][FFC4]が出没するので[BR]これを[FFC5]匹倒してほしい",
+  "en": "",
+  "bytes": 58,
+  "sites": [
+   "24DDA9:quest0C"
+  ]
+ },
+ {
+  "id": "ev:24DF52",
+  "addr": "24DF52",
+  "kind": "quest_title",
+  "jp": "魔物を倒せ！",
+  "en": "",
+  "bytes": 14,
+  "sites": [
+   "24DDC0:quest18"
+  ]
+ },
+ {
+  "id": "ev:24DF60",
+  "addr": "24DF60",
+  "kind": "quest_desc",
+  "jp": "エトリア山地にいる[BR][FFC4]を[FFC5]匹倒してほしい",
+  "en": "",
+  "bytes": 42,
+  "sites": [
+   "24DDC5:quest0C"
+  ]
+ },
+ {
+  "id": "ev:24DF8A",
+  "addr": "24DF8A",
+  "kind": "quest_title",
+  "jp": "荷物搬送",
+  "en": "",
+  "bytes": 10,
+  "sites": [
+   "24DE23:quest18"
+  ]
+ },
+ {
+  "id": "ev:24DF94",
+  "addr": "24DF94",
+  "kind": "quest_desc",
+  "jp": "ムスリー荒野で調査しているバスターに荷物を届けて欲しい",
+  "en": "",
+  "bytes": 56,
+  "sites": [
+   "24DE28:quest0C"
+  ]
+ },
+ {
+  "id": "ev:24DFCC",
+  "addr": "24DFCC",
+  "kind": "quest_title",
+  "jp": "支援物資配達",
+  "en": "",
+  "bytes": 14,
+  "sites": [
+   "24DE3F:quest18"
+  ]
+ },
+ {
+  "id": "ev:24DFDA",
+  "addr": "24DFDA",
+  "kind": "quest_desc",
+  "jp": "ムスリー荒野を冒険中のバスターに支援物資を配達してほしい",
+  "en": "",
+  "bytes": 58,
+  "sites": [
+   "24DE44:quest0C"
+  ]
+ },
+ {
+  "id": "ev:24E380",
+  "addr": "24E380",
+  "kind": "quest_title",
+  "jp": "魔物討伐",
+  "en": "",
+  "bytes": 10,
+  "sites": [
+   "24E180:quest18"
+  ]
+ },
+ {
+  "id": "ev:24E38A",
+  "addr": "24E38A",
+  "kind": "quest_desc",
+  "jp": "トロワナの森に出没する[BR][FFC4]を[FFC5]匹倒してほしい",
+  "en": "",
+  "bytes": 46,
+  "sites": [
+   "24E185:quest0C"
+  ]
+ },
+ {
+  "id": "ev:24E3B8",
+  "addr": "24E3B8",
+  "kind": "quest_title",
+  "jp": "魔物大量発生",
+  "en": "",
+  "bytes": 14,
+  "sites": [
+   "24E19C:quest18"
+  ]
+ },
+ {
+  "id": "ev:24E3C6",
+  "addr": "24E3C6",
+  "kind": "quest_desc",
+  "jp": "トロワナの森に[BR][FFC4]が大量発生した[BR][FFC5]匹以上倒してほしい",
+  "en": "",
+  "bytes": 56,
+  "sites": [
+   "24E1A1:quest0C"
+  ]
+ },
+ {
+  "id": "ev:24E3FE",
+  "addr": "24E3FE",
+  "kind": "quest_title",
+  "jp": "魔物退治",
+  "en": "",
+  "bytes": 10,
+  "sites": [
+   "24E1B8:quest18"
+  ]
+ },
+ {
+  "id": "ev:24E408",
+  "addr": "24E408",
+  "kind": "quest_desc",
+  "jp": "トロワナの森に[BR][FFC4]が出没するので[BR]これを[FFC5]匹倒してほしい",
+  "en": "",
+  "bytes": 58,
+  "sites": [
+   "24E1BD:quest0C"
+  ]
+ },
+ {
+  "id": "ev:24E442",
+  "addr": "24E442",
+  "kind": "quest_title",
+  "jp": "魔物を倒せ！",
+  "en": "",
+  "bytes": 14,
+  "sites": [
+   "24E1D4:quest18"
+  ]
+ },
+ {
+  "id": "ev:24E450",
+  "addr": "24E450",
+  "kind": "quest_desc",
+  "jp": "トロワナの森にいる[BR][FFC4]を[FFC5]匹倒してほしい",
+  "en": "",
+  "bytes": 42,
+  "sites": [
+   "24E1D9:quest0C"
+  ]
+ },
+ {
+  "id": "ev:24E47A",
+  "addr": "24E47A",
+  "kind": "quest_title",
+  "jp": "荷物搬送",
+  "en": "",
+  "bytes": 10,
+  "sites": [
+   "24E237:quest18"
+  ]
+ },
+ {
+  "id": "ev:24E484",
+  "addr": "24E484",
+  "kind": "quest_desc",
+  "jp": "トロワナの森で調査しているバスターに荷物を届けて欲しい",
+  "en": "",
+  "bytes": 56,
+  "sites": [
+   "24E23C:quest0C"
+  ]
+ },
+ {
+  "id": "ev:24E4BC",
+  "addr": "24E4BC",
+  "kind": "quest_title",
+  "jp": "支援物資配達",
+  "en": "",
+  "bytes": 14,
+  "sites": [
+   "24E253:quest18"
+  ]
+ },
+ {
+  "id": "ev:24E4CA",
+  "addr": "24E4CA",
+  "kind": "quest_desc",
+  "jp": "トロワナの森を冒険中のバスターに支援物資を配達してほしい",
+  "en": "",
+  "bytes": 58,
+  "sites": [
+   "24E258:quest0C"
+  ]
+ },
+ {
+  "id": "ev:24E504",
+  "addr": "24E504",
+  "kind": "quest_title",
+  "jp": "ハーブを探して",
+  "en": "",
+  "bytes": 16,
+  "sites": [
+   "24E2DB:quest18"
+  ]
+ },
+ {
+  "id": "ev:24E514",
+  "addr": "24E514",
+  "kind": "quest_desc",
+  "jp": "薬を作るのに必要なハーブが[BR]たりなくなったので[BR]森の遺跡のどこかに[BR]自生している[BR]ハーブを探してほしい",
+  "en": "",
+  "bytes": 104,
+  "sites": [
+   "24E2E0:quest0C"
+  ]
+ },
+ {
+  "id": "ev:24E57C",
+  "addr": "24E57C",
+  "kind": "quest_title",
+  "jp": "赤い花を求めて",
+  "en": "",
+  "bytes": 16,
+  "sites": [
+   "24E310:quest18"
+  ]
+ },
+ {
+  "id": "ev:24E58C",
+  "addr": "24E58C",
+  "kind": "quest_desc",
+  "jp": "暗いところにしかさかない[BR]めずらしい赤い花がある[BR]森の遺跡のどこかに[BR]自生している[BR]探しだしてほしい",
+  "en": "",
+  "bytes": 102,
+  "sites": [
+   "24E315:quest0C"
+  ]
+ },
+ {
+  "id": "ev:24E5F2",
+  "addr": "24E5F2",
+  "kind": "quest_title",
+  "jp": "すずなり花",
+  "en": "",
+  "bytes": 12,
+  "sites": [
+   "24E345:quest18"
+  ]
+ },
+ {
+  "id": "ev:24E5FE",
+  "addr": "24E5FE",
+  "kind": "quest_desc",
+  "jp": "研究（けんきゅう）のために[BR]森の遺跡のどこかに[BR]自生している[BR]すずなり花を探してほしい",
+  "en": "",
+  "bytes": 88,
+  "sites": [
+   "24E34A:quest0C"
+  ]
+ },
+ {
+  "id": "ev:24EA10",
+  "addr": "24EA10",
+  "kind": "quest_title",
+  "jp": "魔物討伐",
+  "en": "",
+  "bytes": 10,
+  "sites": [
+   "24E7BC:quest18"
+  ]
+ },
+ {
+  "id": "ev:24EA1A",
+  "addr": "24EA1A",
+  "kind": "quest_desc",
+  "jp": "アンクルス平原に出没する[BR][FFC4]を[FFC5]匹倒してほしい",
+  "en": "",
+  "bytes": 48,
+  "sites": [
+   "24E7C1:quest0C"
+  ]
+ },
+ {
+  "id": "ev:24EA4A",
+  "addr": "24EA4A",
+  "kind": "quest_title",
+  "jp": "魔物大量発生",
+  "en": "",
+  "bytes": 14,
+  "sites": [
+   "24E7D8:quest18"
+  ]
+ },
+ {
+  "id": "ev:24EA58",
+  "addr": "24EA58",
+  "kind": "quest_desc",
+  "jp": "アンクルス平原に[BR][FFC4]が大量発生した[BR][FFC5]匹以上倒してほしい",
+  "en": "",
+  "bytes": 58,
+  "sites": [
+   "24E7DD:quest0C"
+  ]
+ },
+ {
+  "id": "ev:24EA92",
+  "addr": "24EA92",
+  "kind": "quest_title",
+  "jp": "魔物退治",
+  "en": "",
+  "bytes": 10,
+  "sites": [
+   "24E7F4:quest18"
+  ]
+ },
+ {
+  "id": "ev:24EA9C",
+  "addr": "24EA9C",
+  "kind": "quest_desc",
+  "jp": "アンクルス平原に[BR][FFC4]が出没するので[BR]これを[FFC5]匹倒してほしい",
+  "en": "",
+  "bytes": 60,
+  "sites": [
+   "24E7F9:quest0C"
+  ]
+ },
+ {
+  "id": "ev:24EAD8",
+  "addr": "24EAD8",
+  "kind": "quest_title",
+  "jp": "魔物を倒せ！",
+  "en": "",
+  "bytes": 14,
+  "sites": [
+   "24E810:quest18"
+  ]
+ },
+ {
+  "id": "ev:24EAE6",
+  "addr": "24EAE6",
+  "kind": "quest_desc",
+  "jp": "アンクルス平原にいる[BR][FFC4]を[FFC5]匹倒してほしい",
+  "en": "",
+  "bytes": 44,
+  "sites": [
+   "24E815:quest0C"
+  ]
+ },
+ {
+  "id": "ev:24EB12",
+  "addr": "24EB12",
+  "kind": "quest_title",
+  "jp": "荷物搬送",
+  "en": "",
+  "bytes": 10,
+  "sites": [
+   "24E873:quest18"
+  ]
+ },
+ {
+  "id": "ev:24EB1C",
+  "addr": "24EB1C",
+  "kind": "quest_desc",
+  "jp": "アンクルス平原で調査しているバスターに荷物を届けて欲しい",
+  "en": "",
+  "bytes": 58,
+  "sites": [
+   "24E878:quest0C"
+  ]
+ },
+ {
+  "id": "ev:24EB56",
+  "addr": "24EB56",
+  "kind": "quest_title",
+  "jp": "支援物資配達",
+  "en": "",
+  "bytes": 14,
+  "sites": [
+   "24E88F:quest18"
+  ]
+ },
+ {
+  "id": "ev:24EB64",
+  "addr": "24EB64",
+  "kind": "quest_desc",
+  "jp": "アンクルス平原を冒険中のバスターに支援物資を配達してほしい",
+  "en": "",
+  "bytes": 60,
+  "sites": [
+   "24E894:quest0C"
+  ]
+ },
+ {
+  "id": "ev:24EBA0",
+  "addr": "24EBA0",
+  "kind": "quest_title",
+  "jp": "ハーブを探して",
+  "en": "",
+  "bytes": 16,
+  "sites": [
+   "24E917:quest18"
+  ]
+ },
+ {
+  "id": "ev:24EBB0",
+  "addr": "24EBB0",
+  "kind": "quest_desc",
+  "jp": "薬を作るのに必要なハーブが[BR]たりなくなったので[BR]ムガインの死人沼のどこかに[BR]自生している[BR]ハーブを探してほしい",
+  "en": "",
+  "bytes": 112,
+  "sites": [
+   "24E91C:quest0C"
+  ]
+ },
+ {
+  "id": "ev:24EC20",
+  "addr": "24EC20",
+  "kind": "quest_title",
+  "jp": "赤い花を求めて",
+  "en": "",
+  "bytes": 16,
+  "sites": [
+   "24E94C:quest18"
+  ]
+ },
+ {
+  "id": "ev:24EC30",
+  "addr": "24EC30",
+  "kind": "quest_desc",
+  "jp": "暗いところにしかさかない[BR]めずらしい赤い花がある[BR]ムガインの死人沼のどこかに[BR]自生しているので[BR]探しだしてほしい",
+  "en": "",
+  "bytes": 114,
+  "sites": [
+   "24E951:quest0C"
+  ]
+ },
+ {
+  "id": "ev:24ECA2",
+  "addr": "24ECA2",
+  "kind": "quest_title",
+  "jp": "すずなり花",
+  "en": "",
+  "bytes": 12,
+  "sites": [
+   "24E981:quest18"
+  ]
+ },
+ {
+  "id": "ev:24ECAE",
+  "addr": "24ECAE",
+  "kind": "quest_desc",
+  "jp": "研究（けんきゅう）のために[BR]ムガインの死人沼のどこかに[BR]自生している[BR]すずなり花を探してほしい",
+  "en": "",
+  "bytes": 96,
+  "sites": [
+   "24E986:quest0C"
+  ]
+ },
+ {
+  "id": "ev:24EF10",
+  "addr": "24EF10",
+  "kind": "quest_title",
+  "jp": "魔物討伐",
+  "en": "",
+  "bytes": 10,
+  "sites": [
+   "24EE6C:quest18"
+  ]
+ },
+ {
+  "id": "ev:24EF1A",
+  "addr": "24EF1A",
+  "kind": "quest_desc",
+  "jp": "ワンダラ山地に出没する[BR][FFC4]を[FFC5]匹倒してほしい",
+  "en": "",
+  "bytes": 46,
+  "sites": [
+   "24EE71:quest0C"
+  ]
+ },
+ {
+  "id": "ev:24EF48",
+  "addr": "24EF48",
+  "kind": "quest_title",
+  "jp": "魔物大量発生",
+  "en": "",
+  "bytes": 14,
+  "sites": [
+   "24EE88:quest18"
+  ]
+ },
+ {
+  "id": "ev:24EF56",
+  "addr": "24EF56",
+  "kind": "quest_desc",
+  "jp": "ワンダラ山地に[BR][FFC4]が大量発生した[BR][FFC5]匹以上倒してほしい",
+  "en": "",
+  "bytes": 56,
+  "sites": [
+   "24EE8D:quest0C"
+  ]
+ },
+ {
+  "id": "ev:24EF8E",
+  "addr": "24EF8E",
+  "kind": "quest_title",
+  "jp": "魔物退治",
+  "en": "",
+  "bytes": 10,
+  "sites": [
+   "24EEA4:quest18"
+  ]
+ },
+ {
+  "id": "ev:24EF98",
+  "addr": "24EF98",
+  "kind": "quest_desc",
+  "jp": "ワンダラ山地に[BR][FFC4]が出没するので[BR]これを[FFC5]匹倒してほしい",
+  "en": "",
+  "bytes": 58,
+  "sites": [
+   "24EEA9:quest0C"
+  ]
+ },
+ {
+  "id": "ev:24EFD2",
+  "addr": "24EFD2",
+  "kind": "quest_title",
+  "jp": "魔物を倒せ！",
+  "en": "",
+  "bytes": 14,
+  "sites": [
+   "24EEC0:quest18"
+  ]
+ },
+ {
+  "id": "ev:24EFE0",
+  "addr": "24EFE0",
+  "kind": "quest_desc",
+  "jp": "ワンダラ山地にいる[BR][FFC4]を[FFC5]匹倒してほしい",
+  "en": "",
+  "bytes": 42,
+  "sites": [
+   "24EEC5:quest0C"
+  ]
+ }
+]

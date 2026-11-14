@@ -1,0 +1,314 @@
+[
+ {
+  "id": "areas:000:name",
+  "addr": "10C908",
+  "kind": "name",
+  "jp": "アンクルスの里",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "areas:001:name",
+  "addr": "10C934",
+  "kind": "name",
+  "jp": "インスアの里",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "areas:002:name",
+  "addr": "10C960",
+  "kind": "name",
+  "jp": "ウノロムの里",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "areas:003:name",
+  "addr": "10C98C",
+  "kind": "name",
+  "jp": "プリモーレの里",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "areas:004:name",
+  "addr": "10C9B8",
+  "kind": "name",
+  "jp": "エルファストの里",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "areas:005:name",
+  "addr": "10C9E4",
+  "kind": "name",
+  "jp": "ワンダラの里",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "areas:006:name",
+  "addr": "10CA10",
+  "kind": "name",
+  "jp": "レドウの港町",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "areas:007:name",
+  "addr": "10CA3C",
+  "kind": "name",
+  "jp": "レドウ大河の渡し場",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "areas:008:name",
+  "addr": "10CA68",
+  "kind": "name",
+  "jp": "デュオラの里",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "areas:009:name",
+  "addr": "10CA94",
+  "kind": "name",
+  "jp": "トロワナ王国",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "areas:010:name",
+  "addr": "10CAC0",
+  "kind": "name",
+  "jp": "ムスリーの里",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "areas:011:name",
+  "addr": "10CAEC",
+  "kind": "name",
+  "jp": "サドラムの里",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "areas:012:name",
+  "addr": "10CB18",
+  "kind": "name",
+  "jp": "エトリアの里",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "areas:013:name",
+  "addr": "10CB44",
+  "kind": "name",
+  "jp": "パトレスの里",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "areas:014:name",
+  "addr": "10CB70",
+  "kind": "name",
+  "jp": "テルセロンの里",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "areas:015:name",
+  "addr": "10CB9C",
+  "kind": "name",
+  "jp": "トリアークの里",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "areas:016:name",
+  "addr": "10CBC8",
+  "kind": "name",
+  "jp": "アサドの里",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "areas:017:name",
+  "addr": "10CBF4",
+  "kind": "name",
+  "jp": "アンクルス平原",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "areas:018:name",
+  "addr": "10CC20",
+  "kind": "name",
+  "jp": "ワンダラ山地",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "areas:019:name",
+  "addr": "10CC4C",
+  "kind": "name",
+  "jp": "デュオラ平原",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "areas:020:name",
+  "addr": "10CC78",
+  "kind": "name",
+  "jp": "アサド山地",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "areas:021:name",
+  "addr": "10CCA4",
+  "kind": "name",
+  "jp": "テルセロン山地",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "areas:022:name",
+  "addr": "10CCD0",
+  "kind": "name",
+  "jp": "トロワナの森",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "areas:023:name",
+  "addr": "10CCFC",
+  "kind": "name",
+  "jp": "エトリア山地",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "areas:024:name",
+  "addr": "10CD28",
+  "kind": "name",
+  "jp": "ムスリー荒野",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "areas:025:name",
+  "addr": "10CD54",
+  "kind": "name",
+  "jp": "ムスリー山地",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "areas:026:name",
+  "addr": "10CD80",
+  "kind": "name",
+  "jp": "パトレス山地",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "areas:027:name",
+  "addr": "10CDAC",
+  "kind": "name",
+  "jp": "トリアーク平原",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "areas:028:name",
+  "addr": "10CDD8",
+  "kind": "name",
+  "jp": "ムガインの死人沼",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "areas:029:name",
+  "addr": "10CE04",
+  "kind": "name",
+  "jp": "ムガインの城",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "areas:030:name",
+  "addr": "10CE30",
+  "kind": "name",
+  "jp": "洞窟",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "areas:031:name",
+  "addr": "10CE5C",
+  "kind": "name",
+  "jp": "海岸の遺跡",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "areas:032:name",
+  "addr": "10CE88",
+  "kind": "name",
+  "jp": "湖畔の遺跡",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "areas:033:name",
+  "addr": "10CEB4",
+  "kind": "name",
+  "jp": "森の遺跡",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "areas:034:name",
+  "addr": "10CEE0",
+  "kind": "name",
+  "jp": "地底湖",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "areas:035:name",
+  "addr": "10CF0C",
+  "kind": "name",
+  "jp": "荒野の遺跡",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "areas:036:name",
+  "addr": "10CF38",
+  "kind": "name",
+  "jp": "廃坑",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "areas:037:name",
+  "addr": "10CF64",
+  "kind": "name",
+  "jp": "グリニデ城",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "areas:038:name",
+  "addr": "10CF90",
+  "kind": "name",
+  "jp": "魔物の塔",
+  "en": "",
+  "max": 20
+ }
+]

@@ -51,8 +51,8 @@ def encode(text):
 
 
 if __name__ == "__main__":
-    raw = bytes.fromhex("2901 0200 70ff 0100 feff 0000")  # お、[BR] <0001> <unknown FFFE>
+    raw = bytes.fromhex("2901 0200 70ff 0100 feff be00 0000")  # お、[BR] 　 [FFFE] <unassigned 00BE>
     s, end = decode(raw, 0)
-    assert s == "お、[BR][00][01][FF][FE]" and end == len(raw), s
+    assert s == "お、[BR]　[FFFE][00][BE]" and end == len(raw), s
     assert encode(s) == raw
     print("selftest ok")

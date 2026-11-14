@@ -1,0 +1,338 @@
+[
+ {
+  "id": "bosses:000:name",
+  "addr": "0DF458",
+  "kind": "name",
+  "jp": "ムガイン",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "bosses:000:kana",
+  "addr": "0DF46E",
+  "kind": "kana",
+  "jp": "ムガイン",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "bosses:000:desc",
+  "addr": "0DF484",
+  "kind": "desc",
+  "jp": "説明",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "bosses:001:name",
+  "addr": "0DF600",
+  "kind": "name",
+  "jp": "グリニデ",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "bosses:001:kana",
+  "addr": "0DF616",
+  "kind": "kana",
+  "jp": "グリニデ",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "bosses:001:desc",
+  "addr": "0DF62C",
+  "kind": "desc",
+  "jp": "説明",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "bosses:002:name",
+  "addr": "0DF7A8",
+  "kind": "name",
+  "jp": "グリニデ変身後",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "bosses:002:kana",
+  "addr": "0DF7BE",
+  "kind": "kana",
+  "jp": "グリニデ",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "bosses:002:desc",
+  "addr": "0DF7D4",
+  "kind": "desc",
+  "jp": "説明",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "bosses:003:name",
+  "addr": "0DF950",
+  "kind": "name",
+  "jp": "ベンチュラ",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "bosses:003:kana",
+  "addr": "0DF966",
+  "kind": "kana",
+  "jp": "ベンチュラ",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "bosses:003:desc",
+  "addr": "0DF97C",
+  "kind": "desc",
+  "jp": "説明",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "bosses:004:name",
+  "addr": "0DFAF8",
+  "kind": "name",
+  "jp": "ロズゴート",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "bosses:004:kana",
+  "addr": "0DFB0E",
+  "kind": "kana",
+  "jp": "ロズゴート",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "bosses:004:desc",
+  "addr": "0DFB24",
+  "kind": "desc",
+  "jp": "説明",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "bosses:005:name",
+  "addr": "0DFCA0",
+  "kind": "name",
+  "jp": "フラウスキー",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "bosses:005:kana",
+  "addr": "0DFCB6",
+  "kind": "kana",
+  "jp": "フラウスキー",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "bosses:005:desc",
+  "addr": "0DFCCC",
+  "kind": "desc",
+  "jp": "説明",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "bosses:006:name",
+  "addr": "0DFE48",
+  "kind": "name",
+  "jp": "キャンバル",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "bosses:006:kana",
+  "addr": "0DFE5E",
+  "kind": "kana",
+  "jp": "キャンバル",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "bosses:006:desc",
+  "addr": "0DFE74",
+  "kind": "desc",
+  "jp": "説明",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "bosses:007:name",
+  "addr": "0DFFF0",
+  "kind": "name",
+  "jp": "ピルゴア",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "bosses:007:kana",
+  "addr": "0E0006",
+  "kind": "kana",
+  "jp": "ピルゴア",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "bosses:007:desc",
+  "addr": "0E001C",
+  "kind": "desc",
+  "jp": "説明",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "bosses:008:name",
+  "addr": "0E0198",
+  "kind": "name",
+  "jp": "ブランドゥ",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "bosses:008:kana",
+  "addr": "0E01AE",
+  "kind": "kana",
+  "jp": "ブランドゥ",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "bosses:008:desc",
+  "addr": "0E01C4",
+  "kind": "desc",
+  "jp": "説明",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "bosses:009:name",
+  "addr": "0E0340",
+  "kind": "name",
+  "jp": "ライリー",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "bosses:009:kana",
+  "addr": "0E0356",
+  "kind": "kana",
+  "jp": "ライリー",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "bosses:009:desc",
+  "addr": "0E036C",
+  "kind": "desc",
+  "jp": "説明",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "bosses:010:name",
+  "addr": "0E04E8",
+  "kind": "name",
+  "jp": "シャデリコ",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "bosses:010:kana",
+  "addr": "0E04FE",
+  "kind": "kana",
+  "jp": "シャデリコ",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "bosses:010:desc",
+  "addr": "0E0514",
+  "kind": "desc",
+  "jp": "説明",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "bosses:011:name",
+  "addr": "0E0690",
+  "kind": "name",
+  "jp": "レボーク",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "bosses:011:kana",
+  "addr": "0E06A6",
+  "kind": "kana",
+  "jp": "レボーク",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "bosses:011:desc",
+  "addr": "0E06BC",
+  "kind": "desc",
+  "jp": "説明",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "bosses:012:name",
+  "addr": "0E0838",
+  "kind": "name",
+  "jp": "スレッド",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "bosses:012:kana",
+  "addr": "0E084E",
+  "kind": "kana",
+  "jp": "スレッド",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "bosses:012:desc",
+  "addr": "0E0864",
+  "kind": "desc",
+  "jp": "説明",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "bosses:013:name",
+  "addr": "0E09E0",
+  "kind": "name",
+  "jp": "ゴラン",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "bosses:013:kana",
+  "addr": "0E09F6",
+  "kind": "kana",
+  "jp": "ゴラン",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "bosses:013:desc",
+  "addr": "0E0A0C",
+  "kind": "desc",
+  "jp": "説明",
+  "en": "",
+  "max": 72
+ }
+]
