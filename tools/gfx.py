@@ -317,12 +317,17 @@ def icon(rom, k, name):
 # G4 ならびかえ badge after "SELECT:" (toolbox, sell lists): raw tiles 0x0830EEA0-0x0830EF3F (40x8, BG2) = kana
 # outlined in 4 over a pink bar (rows 3-7, its rounded ends at x 0-2 and 36-39 kept). 5-row caps like SELECT/PAGE.
 SORT_AT = 0x30EEA0
+# The two sort keys just before it, same 40x8 layout: しゅるい (by kind) 0x30ED60, なまえ (by name) 0x30EE00
+BADGES = ((0x30ED60, "TYPE"), (0x30EE00, "NAME"), (SORT_AT, "SORT"))
 CAPS5 = {"S": ".#### #.... .###. ....# ####.", "O": ".###. #...# #...# #...# .###.",
-         "R": "####. #...# ####. #..#. #...#", "T": "##### ..#.. ..#.. ..#.. ..#.."}
+         "R": "####. #...# ####. #..#. #...#", "T": "##### ..#.. ..#.. ..#.. ..#..",
+         "Y": "#...# .#.#. ..#.. ..#.. ..#..", "P": "####. #...# ####. #.... #....",
+         "E": "##### #.... ####. #.... #####", "N": "#...# ##..# #.#.# #..## #...#",
+         "A": ".###. #...# ##### #...# #...#", "M": "#...# ##.## #.#.# #...# #...#"}
 
 
-def sort_badge(rom, text="SORT"):
-    tiles = tiles_get(rom, SORT_AT, 5)
+def sort_badge(rom, at=SORT_AT, text="SORT"):
+    tiles = tiles_get(rom, at, 5)
     img = [[tiles[x // 8][y * 8 + x % 8] for x in range(40)] for y in range(8)]
     bar = [img[y][1] for y in range(8)]  # bar colour per row (0 above it)
     for y in range(8):
@@ -392,7 +397,7 @@ def patches(rom):
         out.append((off, raw_strip(rom, off, cols, rows, text, style, font, *where), f"gfx raw {off:X} {text}"))
     for k, name in enumerate(ICONS):
         out.append((ICONS_AT + k * 128, icon(rom, k, name), f"gfx quest icon {k} {name}"))
-    out.append((SORT_AT, sort_badge(rom), "gfx SORT badge"))
+    out += [(at, sort_badge(rom, at, text), f"gfx {text} badge") for at, text in BADGES]
     import logo  # G2 title logo (its own generator: TrueType lettering, per-cell palette banks)
     return out + logo.patches(rom)
 
@@ -408,7 +413,7 @@ def regions():
         out += [(t + 4, t + 4 + n, f"gfx tiles {table:X}"), (m + 4, m + 4 + 2 * w * h, f"gfx map {table:X}")]
     out += [(off, off + cols * rows * 32, f"gfx raw {text}") for off, cols, rows, text, *_ in RAW]
     out.append((ICONS_AT, ICONS_AT + len(ICONS) * 128, "gfx quest-type icons"))
-    out.append((SORT_AT, SORT_AT + 5 * 32, "gfx SORT badge"))
+    out += [(at, at + 5 * 32, f"gfx {text} badge") for at, text in BADGES]
     import logo
     return out + logo.regions(rom)
 

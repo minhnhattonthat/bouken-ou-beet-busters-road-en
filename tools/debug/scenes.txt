@@ -32,6 +32,8 @@ shop_weapon      264  t2b3,40    176CD0  40_-;6_a;60_-;6_a;60_-
 shop_armor       267  t323,40    176CE1  40_-;6_a;60_-;6_a;60_-
 shop_items       265  t2b3,40    17714E  40_-;6_a;60_-;6_a;60_-;6_a;60_-
 shop_sell        264  t2b3,40    176CD0  40_-;6_a;60_-;6_down;12_-;6_a;80_-  GIVE=3001-3028,4001-4011,1010-1019,2001-2010
+# SELECT in a sell list: the sort-key badges (しゅるい/なまえ = TYPE/NAME, gfx.BADGES)
+shop_sort        264  t2b3,40    176CD0  40_-;6_a;60_-;6_down;12_-;6_a;80_-;6_select;60_-;6_select;60_-  GIVE=3001-3028,4001-4011,1010-1019,2001-2010
 inn              298  t17c,40    17DA83  40_-;6_a;60_-
 inn_stay         298  t17c,40    17DA83  40_-;6_a;60_-;6_a;300_-;6_a;60_-
 ticket_shop      55   t156,40    17B8AA  40_-;6_a;40_-
