@@ -26,7 +26,10 @@ Result: **all Japanese graphics text is uncompressed**, in two banks; the LZ arc
 
 | # | Screen | Reached | Element | Source |
 |---|---|---|---|---|
-| G1 | Copyright | cold boot f480 | (c) lines in Japanese (三条陸・稲田浩司/集英社 ...) | not yet located (raw bank or runtime font) |
+| G1 | Copyright | cold boot f480 | (c) lines in Japanese (三条陸・稲田浩司/集英社 ...) | **Done (session 12)**: triple 0x34504 (tiles 0xDDC6D8, u32 header = byte length; map 0xDDD5BC 30x20) |
+| G2b | Title menu | title + Start with a save | はじめから ロード 中断から | **Done (session 12)**: 64x16 strips, triples 0x34840/0x34848/0x34850, written in place (game lays them out) |
+| G7b | Divine Attack page | `skills_tengeki` | TYPE 攻撃 弱体 回復 強化, RANGE 単体 自分 範囲 全体 | **Done (session 12)**: 48x16 raw strips 0x30FF20 / 0x30D8E0 + k*0x180 |
+| G16 | Quest-type icons, SORT badge, tactics grid, quest page 2, book/status labels | quest_board, shop_sell, menu_tactics, quest_log, book_full, menu_status | 討配護収他 icons, ならびかえ, 攻撃 武器 天撃 回復・防御, 依頼者 依頼場所 報酬 期限, 属性 昇格値 出現場所 | **Done (session 12)**: icons raw 0x30D1E0 (10 x 0x80), badge raw 0x30EEA0, screens 36C98 / 38454 / 4D838 / 4D504 / 3C26C (`gfx.REDRAWS`) |
 | G2 | Title | cold boot f600 | logo 冒険王ビィト バスターズロード | large stylized title fragments at `0x30A400+C600` and `0xDEF000-0xDF1C00` (raw); find which by vramfind on the title dump `work/qa/vboot/ppu_000600` |
 | G3 | Field menu | Start from field (`work/states/bedroom_freeroam.mss`) | ステータス 道具 装備 特技 クエスト 隊列 作戦 図鑑 オプション 中断 | **Done (session 11)**: BG3, two screen copies (tile block u32 len*2 + 4bpp tiles; map u16 w,h + entries) `0xDE216C`/`0xDE2C70` (ends 中断) and `0xDE14E8`/`0xDE1FEC` (ends セーブ, "Save"; session 12 fixed the earlier "Quit"), pointer triples (tiles, map, palette) at `0x3AA14`/`0x3AA9C`. `tools/gfx.py` G3: left-aligned labels, tilemap reallocated so Tactics/Options/Suspend spill into col 6 (highlight covers it). `0x30F560` was a lookalike. |
 | G4 | Toolbox (道具). **Tabs done (session 11)**: 8 raw 48x16 tabs (6x2 tiles row-major) at `0x30A720 + k*0x180` (literal 0x3EE6C), `gfx.RAW`. **Left**: ならびかえ after SELECT: = 4 raw tiles `0x30EEC0-0x30EF3F` on BG2 (32x8, kana over a bar graphic in indices B-D; needs a 5-row caps font: "SORT"); `SELECT:` itself is English in screen 3DECC | menu > 道具 | tab その他 (and other tabs), `SELECT: ならびかえ`, `PAGE` | raw bank `0xDDA400-0xE03000` (guess) |

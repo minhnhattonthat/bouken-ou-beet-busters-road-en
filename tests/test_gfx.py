@@ -27,9 +27,10 @@ def test_dedupe_keeps_image():
 def test_redraw_only_touches_rects(table):
     rom = ROM.read_bytes()
     t, m, _ = gfx.triple(rom, table)
-    before = gfx.Screen(rom, t, m).image()
+    before = gfx.screen(rom, table).image()
     s = gfx.redraw(rom, table, gfx.load_font())
-    assert len(s.data()) == struct.unpack_from("<I", rom, t)[0] // 2  # same block size, in place
+    hdr = struct.unpack_from("<I", rom, t)[0]
+    assert len(s.data()) == (hdr if table in gfx.BYTELEN else hdr // 2)  # same block size, in place
     if table in gfx.INPLACE:
         assert s.map == struct.unpack_from(f"<{s.w * s.h}H", rom, m + 4)
     rects = [r for r, *_ in gfx.REDRAWS[table]]

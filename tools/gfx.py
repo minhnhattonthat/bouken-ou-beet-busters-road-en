@@ -33,9 +33,9 @@ class Screen:
     """Tile block (u32 header: byte length * 2, then 4bpp tiles) + tilemap (u16 w, u16 h, w*h GBA entries,
     tile ids relative to the block)."""
 
-    def __init__(self, rom, tiles_at, map_at):
+    def __init__(self, rom, tiles_at, map_at, div=2):
         self.tiles_at, self.map_at = tiles_at, map_at
-        n = struct.unpack_from("<I", rom, tiles_at)[0] // 2 // 32
+        n = struct.unpack_from("<I", rom, tiles_at)[0] // div // 32
         self.tiles = tiles_get(rom, tiles_at + 4, n)
         self.w, self.h = struct.unpack_from("<HH", rom, map_at)
         self.map = struct.unpack_from(f"<{self.w * self.h}H", rom, map_at + 4)
@@ -192,6 +192,7 @@ LABEL = dict(HEAD, fill=FILL_D, bg=8)  # plain labels on the screens' cream back
 TAB_HAB = dict(HEAD, bg=7)  # 出現場所 tab of the monster book
 QUEST = dict(STYLE, edge=15, shadow=None)  # quest log page 2 labels: outline 15 (the JP drop shadow costs 4 tiles more than are free)
 TACT = dict(LABEL, bg=10)  # tactics grid labels in blue rounded boxes
+COPY = dict(fill=(1,) * 10, edge=2, shadow=None, bg=0)  # copyright: white, blue outline, on black
 TITLE = dict(fill=(8, 8, 8, 8, 8, 7, 7, 6, 6, 6), edge=2, shadow=None, bg=1)  # title menu items (palette bank 14)
 
 
@@ -248,6 +249,10 @@ REDRAWS = {
                                                                         (4, "Deadline"))],
     # tactics grid: 攻撃 武器 天撃 回復・防御 in widened boxes
     0x36C98: [label for _, label in TACTICS],
+    # G1 copyright (cold boot f480): the two Japanese lines become three; "© BANDAI 2004" (y=90) stays
+    0x34504: [((8, 44, 232, 17), "© Riku Sanjo, Koji Inada / Shueisha,", COPY, 6),
+              ((8, 61, 232, 12), "TV Tokyo, dentsu, Toei Animation,", COPY, 1, 18),
+              ((8, 73, 232, 15), "Beet Production Committee", COPY, 1, 18)],
     # G13 screen headers
     0x45324: [(head(46), "Sell", HEAD, 1)],
     0x45B88: [(head(62), "Buy Weapons", HEAD, 1)],
@@ -268,6 +273,14 @@ TAB_FLAT = dict(TAB, edge=None)  # 天撃 / 才牙 tabs are drawn without an out
 RAW = [(0x30A720 + k * 0x180, 6, 2, t, s) for k, (t, s) in enumerate([
     ("Weapons", TAB), ("Armor", TAB), ("Valuables", TAB), ("Other", TAB), ("Goods", TAB), ("Items", TAB),
     ("Divine", TAB_FLAT), ("Saiga", TAB_FLAT)])]
+# G7 Divine Attack page (TENGEKI) TYPE and RANGE values: 48x16 strips, a 16-px icon then the word; (rect, top) =
+# where the word goes. TYPE 攻撃 弱体 回復 強化 at 0x0830FF20 + k * 0x180 (icon to x=17: 28 px of text, so
+# 弱体 = "Debuff", "Weaken" is 30), RANGE 単体 自分 範囲 全体 at 0x0830D8E0 + k * 0x180.
+VAL = dict(TAB, fill=FILL_D)
+RAW += [(0x30FF20 + k * 0x180, 6, 2, t, VAL, ((18, 0, 30, 16), 4, None))
+        for k, t in enumerate(["Attack", "Debuff", "Heal", "Buff"])]
+RAW += [(0x30D8E0 + k * 0x180, 6, 2, t, VAL, ((17, 0, 31, 16), 4, 19))
+        for k, t in enumerate(["Single", "Self", "Area", "All"])]
 
 
 # Quest-type icons (quest board, quest log title row): 16x16 raw, tiles TL TR BL BR, at 0x0830D1E0 + k * 0x80:
@@ -325,12 +338,12 @@ def sort_badge(rom, text="SORT"):
     return tiles_put([list(block(img, tx, 0)) for tx in range(5)])
 
 
-def raw_strip(rom, off, cols, rows, text, style, font):
+def raw_strip(rom, off, cols, rows, text, style, font, where=None):
+    """Draw text centred in the strip, or in where = (rect, cap top, x as for draw)."""
     tiles = tiles_get(rom, off, cols * rows)
     img = [[tiles[(y // 8) * cols + x // 8][(y % 8) * 8 + x % 8] for x in range(cols * 8)] for y in range(rows * 8)]
-    w = cols * 8
-    x = (w - text_width(font, text)) // 2
-    draw(img, (0, 0, w, rows * 8), text, font, style, x=x, top=2)
+    rect, top, x = where or ((0, 0, cols * 8, rows * 8), 2, "c")
+    draw(img, rect, text, font, style, x=x, top=top)
     return tiles_put([list(block(img, tx, ty)) for ty in range(rows) for tx in range(cols)])
 
 
@@ -338,9 +351,17 @@ def triple(rom, table):
     return tuple(struct.unpack_from("<I", rom, table + 4 * k)[0] - 0x08000000 for k in range(3))
 
 
-def redraw(rom, table, font):
+# Tile blocks whose u32 header is the plain byte length (not length * 2): the copyright screen's loader
+BYTELEN = {0x34504}
+
+
+def screen(rom, table):
     t, m, _ = triple(rom, table)
-    s = Screen(rom, t, m)
+    return Screen(rom, t, m, 1 if table in BYTELEN else 2)
+
+
+def redraw(rom, table, font):
+    s = screen(rom, table)
     before = s.image()
     after = [row[:] for row in before]
     rects = [r for r, *_ in REDRAWS[table]]
@@ -367,8 +388,8 @@ def patches(rom):
         s = redraw(rom, table, font)
         out.append((s.tiles_at + 4, s.data(), f"gfx tiles {table:X}"))
         out.append((s.map_at + 4, struct.pack(f"<{len(s.map)}H", *s.map), f"gfx map {table:X}"))
-    for off, cols, rows, text, style in RAW:
-        out.append((off, raw_strip(rom, off, cols, rows, text, style, font), f"gfx raw {off:X} {text}"))
+    for off, cols, rows, text, style, *where in RAW:
+        out.append((off, raw_strip(rom, off, cols, rows, text, style, font, *where), f"gfx raw {off:X} {text}"))
     for k, name in enumerate(ICONS):
         out.append((ICONS_AT + k * 128, icon(rom, k, name), f"gfx quest icon {k} {name}"))
     out.append((SORT_AT, sort_badge(rom), "gfx SORT badge"))
@@ -381,10 +402,10 @@ def regions():
     out = []
     for table in REDRAWS:
         t, m, _ = triple(rom, table)
-        n = struct.unpack_from("<I", rom, t)[0] // 2
+        n = len(screen(rom, table).tiles) * 32
         w, h = struct.unpack_from("<HH", rom, m)
         out += [(t + 4, t + 4 + n, f"gfx tiles {table:X}"), (m + 4, m + 4 + 2 * w * h, f"gfx map {table:X}")]
-    out += [(off, off + cols * rows * 32, f"gfx raw {text}") for off, cols, rows, text, _ in RAW]
+    out += [(off, off + cols * rows * 32, f"gfx raw {text}") for off, cols, rows, text, *_ in RAW]
     out.append((ICONS_AT, ICONS_AT + len(ICONS) * 128, "gfx quest-type icons"))
     out.append((SORT_AT, SORT_AT + 5 * 32, "gfx SORT badge"))
     return out
@@ -414,8 +435,8 @@ def palette(rom, at):
 
 def screen_dump(rom, table, out, rect=None):
     """Render the screen named by a pointer triple (tiles, map, palette) at `table`; print map entries in rect."""
-    t, m, p = (struct.unpack_from("<I", rom, table + 4 * k)[0] - 0x08000000 for k in range(3))
-    s = Screen(rom, t, m)
+    t, m, p = triple(rom, table)
+    s = screen(rom, table)
     save_png(s.image(), out, palette(rom, p))
     print(f"tiles {t:X} ({len(s.tiles)}), map {m:X} {s.w}x{s.h}, palette {p:X} -> {out}")
     if rect:
@@ -442,7 +463,7 @@ def main(argv):
         t, m, p = triple(rom, table)
         for tag, buf in (("jp", rom), ("en", bytes(new))):
             pal = palette(rom, p) if 0 <= p < len(rom) else None  # 34850 has no palette word
-            save_png(Screen(buf, t, m).image(), out / f"{table:06X}_{tag}.png", pal, zoom=2)
+            save_png(screen(buf, table).image(), out / f"{table:06X}_{tag}.png", pal, zoom=2)
     print(out)
 
 
