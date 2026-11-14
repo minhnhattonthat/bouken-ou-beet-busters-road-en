@@ -5061,13 +5061,14 @@
   "addr": "2057D8",
   "kind": "msg",
   "jp": "ロズゴート！！[WAIT]",
-  "en": "",
+  "en": "Rozzgoat!![WAIT]",
   "bytes": 18,
   "sites": [
    "20421A:op7A+2",
    "20421A:op7A+2",
    "20421A:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:2057EA",
@@ -6345,7 +6346,7 @@
   "addr": "2060EC",
   "kind": "msg",
   "jp": "あ・・・・・・[WAIT]",
-  "en": "",
+  "en": "Oh……[WAIT]",
   "bytes": 18,
   "sites": [
    "204614:op7A+2",
@@ -6358,7 +6359,8 @@
    "204614:op7A+2",
    "204614:op7A+2",
    "204614:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:2060FE",
@@ -13298,7 +13300,7 @@
   "addr": "208948",
   "kind": "msg",
   "jp": "せーのっ！！！[WAIT]",
-  "en": "",
+  "en": "Heave-ho!!![WAIT]",
   "bytes": 18,
   "sites": [
    "2053ED:op7A+2",
@@ -13319,7 +13321,8 @@
    "2053ED:op7A+2",
    "2053ED:op7A+2",
    "2053ED:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:20895A",
@@ -16679,13 +16682,14 @@
   "addr": "20A9D4",
   "kind": "msg",
   "jp": "そうね・・・[WAIT]",
-  "en": "",
+  "en": "Okay…[WAIT]",
   "bytes": 16,
   "sites": [
    "20975C:op7A+2",
    "20975C:op7A+2",
    "20975C:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:20A9E4",

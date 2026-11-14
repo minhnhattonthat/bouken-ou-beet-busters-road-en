@@ -13120,12 +13120,13 @@
   "addr": "22ADFC",
   "kind": "msg",
   "jp": "・・・まったくだな[WAIT]",
-  "en": "",
+  "en": "…No kidding.[WAIT]",
   "bytes": 22,
   "sites": [
    "22A373:op7A+2",
    "22A373:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:22B380",
@@ -19715,7 +19716,7 @@
   "addr": "22EDCA",
   "kind": "msg",
   "jp": "ダンゴール・・・って？[WAIT]",
-  "en": "",
+  "en": "Dangol…? Who's that?[WAIT]",
   "bytes": 26,
   "sites": [
    "22DE79:op7A+2",
@@ -19738,7 +19739,8 @@
    "22DE79:op7A+2",
    "22DE79:op7A+2",
    "22DE79:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:22EDE4",
@@ -19776,7 +19778,7 @@
   "addr": "22EDEC",
   "kind": "msg",
   "jp": "ああ[PAGE]ミルファは知らないんだっけか・・・[BR]グリニデの配下の、ダンゴムシみたいな[BR]モンスターだ[WAIT]",
-  "en": "",
+  "en": "Oh, right.[PAGE]Milfa, you don't know about him, huh…[BR]He's one of Grineed's flunkies, a[BR]monster that looks like a pill bug.[WAIT]",
   "bytes": 96,
   "sites": [
    "22DE8F:op7A+2",
@@ -19799,7 +19801,8 @@
    "22DE8F:op7A+2",
    "22DE8F:op7A+2",
    "22DE8F:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:22EE4C",
@@ -19837,7 +19840,7 @@
   "addr": "22EE56",
   "kind": "msg",
   "jp": "・・・グリニデが育て上げた・・・[BR]おつきのモンスターってワケね[WAIT]",
-  "en": "",
+  "en": "…So he's a pet monster that Grineed[BR]raised himself, huh?[WAIT]",
   "bytes": 66,
   "sites": [
    "22DEA5:op7A+2",
@@ -19860,7 +19863,8 @@
    "22DEA5:op7A+2",
    "22DEA5:op7A+2",
    "22DEA5:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:22EE98",
@@ -19899,7 +19903,7 @@
   "addr": "22EEA0",
   "kind": "msg",
   "jp": "それで、つれて行かれた人は・・・[BR]どうなったの・・・？[WAIT]",
-  "en": "",
+  "en": "And the people who were taken away…[BR]What happened to them…?[WAIT]",
   "bytes": 58,
   "sites": [
    "22DEBB:op7A+2",
@@ -19923,7 +19927,8 @@
    "22DEBB:op7A+2",
    "22DEBB:op7A+2",
    "22DEBB:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:22EEDA",
@@ -19962,7 +19967,7 @@
   "addr": "22EEE0",
   "kind": "msg",
   "jp": "・・・・・・だれ一人として・・・[BR]帰ってはきませんでした・・・[WAIT]",
-  "en": "",
+  "en": "……Not a single one of them… ever came[BR]back…[WAIT]",
   "bytes": 66,
   "sites": [
    "22DEC8:op52+5",
@@ -19986,7 +19991,8 @@
    "22DEC8:op52+5",
    "22DEC8:op52+5",
    "22DEC8:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:22EF22",
@@ -20090,7 +20096,7 @@
   "addr": "22EF46",
   "kind": "msg",
   "jp": "・・・ビィト・・・[WAIT]",
-  "en": "",
+  "en": "…Beet…[WAIT]",
   "bytes": 22,
   "sites": [
    "22DEFB:op7A+2",
@@ -20115,7 +20121,8 @@
    "22DEFB:op7A+2",
    "22DEFB:op7A+2",
    "22DEFB:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:22EF5C",
@@ -20155,7 +20162,7 @@
   "addr": "22EF64",
   "kind": "msg",
   "jp": "ダンゴールってことは・・・[BR]グリニデの仕業・・・てことだよな・・[WAIT]",
-  "en": "",
+  "en": "If Dangol's behind it… then it's[BR]Grineed's doing… right..?[WAIT]",
   "bytes": 68,
   "sites": [
    "22DF11:op7A+2",
@@ -20180,7 +20187,8 @@
    "22DF11:op7A+2",
    "22DF11:op7A+2",
    "22DF11:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:22EFA8",
@@ -20220,7 +20228,7 @@
   "addr": "22EFB0",
   "kind": "msg",
   "jp": "そう、なるわね・・・[WAIT]",
-  "en": "",
+  "en": "Yes, that's how it looks…[WAIT]",
   "bytes": 24,
   "sites": [
    "22DF27:op7A+2",
@@ -20245,7 +20253,8 @@
    "22DF27:op7A+2",
    "22DF27:op7A+2",
    "22DF27:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:22EFC8",
@@ -20352,7 +20361,7 @@
   "addr": "22EFEA",
   "kind": "msg",
   "jp": "深緑の智将（しんりょくのちしょう）と[BR]よばれ、[PAGE]この黒の地平に君臨（くんりん）する[BR]ヴァンデル・・・ね[WAIT]",
-  "en": "",
+  "en": "The one they call the Verdant[BR]Strategist,[PAGE]the Vandel who reigns over this Black[BR]Horizon… huh?[WAIT]",
   "bytes": 106,
   "sites": [
    "22DF65:op7A+2",
@@ -20378,7 +20387,8 @@
    "22DF65:op7A+2",
    "22DF65:op7A+2",
    "22DF65:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:22F054",
@@ -20420,7 +20430,7 @@
   "addr": "22F05C",
   "kind": "msg",
   "jp": "・・・とにかくビィト、[BR]この誘拐事件（ゆうかいじけん）の[BR]ウラには、[PAGE]グリニデがからんでる、ってことは[BR]まちがいなさそうだし・・・[BR]いったん、みんなをつれてもどろうよ[WAIT]",
-  "en": "",
+  "en": "…Anyway, Beet, it looks pretty certain[BR]that Grineed is mixed up in these[BR]kidnappings…[PAGE]So let's take everyone back for now.[WAIT]",
   "bytes": 170,
   "sites": [
    "22DF7B:op7A+2",
@@ -20447,7 +20457,8 @@
    "22DF7B:op7A+2",
    "22DF7B:op7A+2",
    "22DF7B:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:22F106",
@@ -20489,7 +20500,7 @@
   "addr": "22F10E",
   "kind": "msg",
   "jp": "そうね・・・それがいいわ[WAIT]",
-  "en": "",
+  "en": "Right… That's the best thing to do.[WAIT]",
   "bytes": 28,
   "sites": [
    "22DF91:op7A+2",
@@ -20516,7 +20527,8 @@
    "22DF91:op7A+2",
    "22DF91:op7A+2",
    "22DF91:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:22F12A",
@@ -20558,7 +20570,7 @@
   "addr": "22F132",
   "kind": "msg",
   "jp": "ああ・・・わかった[WAIT]",
-  "en": "",
+  "en": "Yeah… Got it.[WAIT]",
   "bytes": 22,
   "sites": [
    "22DFA7:op7A+2",
@@ -20585,7 +20597,8 @@
    "22DFA7:op7A+2",
    "22DFA7:op7A+2",
    "22DFA7:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:22F148",
@@ -20627,7 +20640,7 @@
   "addr": "22F150",
   "kind": "msg",
   "jp": "・・・・・・[BR]グリニデ・・・[BR]今度はいったい何をたくらんでるんだ！[WAIT]",
-  "en": "",
+  "en": "…… Grineed… What the heck are you[BR]scheming this time?![WAIT]",
   "bytes": 70,
   "sites": [
    "22DFBD:op7A+2",
@@ -20654,7 +20667,8 @@
    "22DFBD:op7A+2",
    "22DFBD:op7A+2",
    "22DFBD:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:22F196",
@@ -20698,7 +20712,7 @@
   "addr": "22F19E",
   "kind": "msg",
   "jp": "つかまってた人、[BR]なんとか助け出したんだけど・・・[PAGE]この誘拐事件（ゆうかいじけん）の[BR]ウラには・・・[PAGE]どうやらグリニデがからんでる[BR]らしいんだ[WAIT]",
-  "en": "",
+  "en": "We managed to rescue the people who[BR]were caught, but…[PAGE]behind these kidnappings…[PAGE]looks like Grineed's mixed up in it.[WAIT]",
   "bytes": 146,
   "sites": [
    "22E021:op7A+2",
@@ -20727,7 +20741,8 @@
    "22E021:op7A+2",
    "22E021:op7A+2",
    "22E021:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:22F230",
@@ -20771,7 +20786,7 @@
   "addr": "22F238",
   "kind": "msg",
   "jp": "なんとっ！　グリニデじゃとおっ！！[WAIT]",
-  "en": "",
+  "en": "What's that?! Grineed, you say?!![WAIT]",
   "bytes": 38,
   "sites": [
    "22E037:op7A+2",
@@ -20800,7 +20815,8 @@
    "22E037:op7A+2",
    "22E037:op7A+2",
    "22E037:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:22F25E",
@@ -20844,7 +20860,7 @@
   "addr": "22F266",
   "kind": "msg",
   "jp": "ああ・・・何かたくらんでやがるんだ・・！[WAIT]",
-  "en": "",
+  "en": "Yeah… He's up to something, all[BR]right..![WAIT]",
   "bytes": 44,
   "sites": [
    "22E04D:op7A+2",
@@ -20873,7 +20889,8 @@
    "22E04D:op7A+2",
    "22E04D:op7A+2",
    "22E04D:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:22F292",
@@ -20917,7 +20934,7 @@
   "addr": "22F29A",
   "kind": "msg",
   "jp": "むむむ・・・[WAIT]",
-  "en": "",
+  "en": "Hmmmm…[WAIT]",
   "bytes": 16,
   "sites": [
    "22E063:op7A+2",
@@ -20946,7 +20963,8 @@
    "22E063:op7A+2",
    "22E063:op7A+2",
    "22E063:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:22F2AA",
@@ -20990,7 +21008,7 @@
   "addr": "22F2B2",
   "kind": "msg",
   "jp": "助け出された人たちの様子は、[BR]どうなんですか？[WAIT]",
-  "en": "",
+  "en": "How are the people we rescued doing?[WAIT]",
   "bytes": 50,
   "sites": [
    "22E079:op7A+2",
@@ -21019,7 +21037,8 @@
    "22E079:op7A+2",
    "22E079:op7A+2",
    "22E079:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:22F2E4",
@@ -21063,7 +21082,7 @@
   "addr": "22F2EC",
   "kind": "msg",
   "jp": "かなり精神的（せいしんてきに）に[BR]まいってるみたいじゃの[PAGE]何か今回の事について聞ければ[BR]いいんじゃが・・・[BR]今はそうもいくまい[WAIT]",
-  "en": "",
+  "en": "They seem badly shaken in spirit, I'd[BR]say.[PAGE]I wish we could ask them about all[BR]this… but that won't do just now, eh.[WAIT]",
   "bytes": 130,
   "sites": [
    "22E08F:op7A+2",
@@ -21092,7 +21111,8 @@
    "22E08F:op7A+2",
    "22E08F:op7A+2",
    "22E08F:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:22F36E",
@@ -21136,7 +21156,7 @@
   "addr": "22F378",
   "kind": "msg",
   "jp": "・・・でしょうね・・・[WAIT]",
-  "en": "",
+  "en": "…I figured as much…[WAIT]",
   "bytes": 26,
   "sites": [
    "22E0AE:op7A+2",
@@ -21165,7 +21185,8 @@
    "22E0AE:op7A+2",
    "22E0AE:op7A+2",
    "22E0AE:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:22F392",
@@ -21286,7 +21307,7 @@
   "addr": "22F3B2",
   "kind": "msg",
   "jp": "とにかくじゃ、[BR]助け出した人たちは[PAGE]バスター協会（きょうかい）が[BR]きちんとあずかるから、[BR]心配しなくてよいぞ[WAIT]",
-  "en": "",
+  "en": "Anyway, the people you rescued[PAGE]will be properly looked after by the[BR]Buster Association, so don't you[BR]worry.[WAIT]",
   "bytes": 112,
   "sites": [
    "22E0DA:op7A+2",
@@ -21316,7 +21337,8 @@
    "22E0DA:op7A+2",
    "22E0DA:op7A+2",
    "22E0DA:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:22F422",
@@ -21361,7 +21383,7 @@
   "addr": "22F42A",
   "kind": "msg",
   "jp": "そっか・・・じゃあこっちは・・・[WAIT]",
-  "en": "",
+  "en": "Okay… Then for our part…[WAIT]",
   "bytes": 36,
   "sites": [
    "22E0F0:op7A+2",
@@ -21391,7 +21413,8 @@
    "22E0F0:op7A+2",
    "22E0F0:op7A+2",
    "22E0F0:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:22F44E",
@@ -21436,7 +21459,7 @@
   "addr": "22F456",
   "kind": "msg",
   "jp": "・・・グリニデが[BR]何をたくらんでいるのか・・・[BR]調べないとね！[WAIT]",
-  "en": "",
+  "en": "…We need to find out what Grineed is[BR]scheming![WAIT]",
   "bytes": 66,
   "sites": [
    "22E106:op7A+2",
@@ -21466,7 +21489,8 @@
    "22E106:op7A+2",
    "22E106:op7A+2",
    "22E106:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:22F498",
@@ -21511,7 +21535,7 @@
   "addr": "22F4A0",
   "kind": "msg",
   "jp": "ああ・・・[BR]ぜったいヤツの勝手にはさせないぞ！[WAIT]",
-  "en": "",
+  "en": "Yeah… I'm not letting that guy do[BR]whatever he wants![WAIT]",
   "bytes": 50,
   "sites": [
    "22E11C:op7A+2",
@@ -21541,7 +21565,8 @@
    "22E11C:op7A+2",
    "22E11C:op7A+2",
    "22E11C:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:22F620",
@@ -21560,11 +21585,12 @@
   "addr": "22F62C",
   "kind": "msg",
   "jp": "グリニデ様・・・！[PAGE]実験用（じっけんよう）の[BR]素材（そざい）を集めてまいりました[BR]いつでもお使いになれます[WAIT]",
-  "en": "",
+  "en": "Grineed-sama…![PAGE]I have gathered the materials for your[BR]experiments, sire! They are ready for[BR]your use at any time![WAIT]",
   "bytes": 110,
   "sites": [
    "22F513:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:22F69A",
@@ -21583,11 +21609,12 @@
   "addr": "22F6A4",
   "kind": "msg",
   "jp": "そうか、ごくろう・・・[BR]ではさっそく、[BR]実験（じっけん）をはじめるとするか[PAGE]・・・ダンゴール、[BR]いくつか見つくろっておいてくれ[WAIT]",
-  "en": "",
+  "en": "I see. Well done… Then let us begin[BR]the experiment at once.[PAGE]…Dangol, pick out a few for me.[WAIT]",
   "bytes": 130,
   "sites": [
    "22F529:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:22F726",
@@ -21606,11 +21633,12 @@
   "addr": "22F732",
   "kind": "msg",
   "jp": "ははっ！[BR]わかりましたでございますっ！！[WAIT]",
-  "en": "",
+  "en": "Yes, sire! Understood, most certainly,[BR]sire!![WAIT]",
   "bytes": 44,
   "sites": [
    "22F53F:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:22F75E",
@@ -21629,11 +21657,12 @@
   "addr": "22F768",
   "kind": "msg",
   "jp": "この実験（じっけん）がせいこうすれば[BR]またワタシの評価（ひょうか）が[BR]上がるというものだな・・・[PAGE]知的（ちてき）なヴァンデルとしての[BR]評価（ひょうか）がな・・・！[BR]クククッ・・・[WAIT]",
-  "en": "",
+  "en": "If this experiment succeeds, my[BR]reputation will rise yet again…[PAGE]My reputation as an intellectual[BR]Vandel…! Hmm hmm hmm…[WAIT]",
   "bytes": 182,
   "sites": [
    "22F55D:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:22F81E",
@@ -21652,11 +21681,12 @@
   "addr": "22F828",
   "kind": "msg",
   "jp": "しかし、いまいましいのは・・・[BR]あのバスターどもだな[PAGE]このワタシの・・・[BR]崇高（すうこう）なプランを[BR]たびたびじゃまするとは・・・[PAGE]目ざわりな事この上・・・ない・・・！[WAIT]",
-  "en": "",
+  "en": "What is galling, however… is those[BR]Busters.[PAGE]To get in the way of my… sublime plan,[BR]time and again…[PAGE]Nothing could be more of an… eyesore…![WAIT]",
   "bytes": 172,
   "sites": [
    "22F573:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:22F8D4",
@@ -21675,11 +21705,12 @@
   "addr": "22F8E0",
   "kind": "msg",
   "jp": "グリニデ様！[BR]じゅんびが[BR]できましたでございま・・・[WAIT]",
-  "en": "",
+  "en": "Grineed-sama! Everything is ready, si…[WAIT]",
   "bytes": 56,
   "sites": [
    "22F591:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:22F918",
@@ -21722,11 +21753,12 @@
   "addr": "22F93C",
   "kind": "msg",
   "jp": "・・・フゥ・・・・・・[BR]そうか・・・分かった[WAIT]",
-  "en": "",
+  "en": "…Phew…… I see… Very well.[WAIT]",
   "bytes": 48,
   "sites": [
    "22F5BD:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:22F96C",
@@ -21745,11 +21777,12 @@
   "addr": "22F978",
   "kind": "msg",
   "jp": "は・・・はいっ！！[BR]・・・素材（そざい）は・・・[BR]あちらなどではいかがでしょうか？[WAIT]",
-  "en": "",
+  "en": "Y-yes, sire!! …As for the materials…[BR]might those over there do, sire?[WAIT]",
   "bytes": 86,
   "sites": [
    "22F5D3:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:22F9CE",
@@ -21768,11 +21801,12 @@
   "addr": "22F9D6",
   "kind": "msg",
   "jp": "あ・・・ああっ・・・[WAIT]",
-  "en": "",
+  "en": "Ah… aaah…[WAIT]",
   "bytes": 24,
   "sites": [
    "22F5E0:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:22F9EE",
@@ -21791,11 +21825,12 @@
   "addr": "22F9F6",
   "kind": "msg",
   "jp": "た・・・助け・・・て・・・[WAIT]",
-  "en": "",
+  "en": "H-help… me…[WAIT]",
   "bytes": 30,
   "sites": [
    "22F5EB:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:22FA14",
@@ -21814,10 +21849,11 @@
   "addr": "22FA1E",
   "kind": "msg",
   "jp": "・・・ふむ、よかろう・・・[BR]では、はじめようか・・・！[WAIT]",
-  "en": "",
+  "en": "…Hm, they will do… Now then, shall we[BR]begin…![WAIT]",
   "bytes": 58,
   "sites": [
    "22F5FF:op7A+2"
-  ]
+  ],
+  "status": "done"
  }
 ]

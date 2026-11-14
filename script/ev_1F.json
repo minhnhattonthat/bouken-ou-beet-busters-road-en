@@ -912,13 +912,14 @@
   "addr": "1F1206",
   "kind": "msg",
   "jp": "ええっ！？[WAIT]",
-  "en": "",
+  "en": "Whaaat?![WAIT]",
   "bytes": 14,
   "sites": [
    "1F068D:op7A+2",
    "1F068D:op7A+2",
    "1F068D:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F1214",
@@ -4677,14 +4678,15 @@
   "addr": "1F403C",
   "kind": "msg",
   "jp": "うむ[WAIT]",
-  "en": "",
+  "en": "Mm-hm.[WAIT]",
   "bytes": 8,
   "sites": [
    "1F389F:op7A+2",
    "1F389F:op7A+2",
    "1F389F:op7A+2",
    "1F389F:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F4044",
@@ -18099,14 +18101,15 @@
   "addr": "1FEC48",
   "kind": "msg",
   "jp": "ええ・・・[WAIT]",
-  "en": "",
+  "en": "Okay…[WAIT]",
   "bytes": 14,
   "sites": [
    "1FE1D5:op7A+2",
    "1FE1D5:op7A+2",
    "1FE1D5:op7A+2",
    "1FE1D5:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FEC56",
@@ -18658,13 +18661,14 @@
   "addr": "1FF07E",
   "kind": "msg",
   "jp": "うむ[WAIT]",
-  "en": "",
+  "en": "Mm-hm.[WAIT]",
   "bytes": 8,
   "sites": [
    "1FE475:op7A+2",
    "1FE475:op7A+2",
    "1FE475:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FF086",

@@ -2024,7 +2024,7 @@
   "addr": "1B2782",
   "kind": "msg",
   "jp": "もうっ、何やってんのよ！[BR]それじゃぁただ手が燃えてるだけ[BR]じゃない！[PAGE]もっとちゃんと[BR]大気を練って・・・！！[WAIT]",
-  "en": "Honestly, what are you doing?! All[BR]you're doing is setting your hand on[BR]fire![PAGE]Knead the air properly, like you mean[BR]it…!![WAIT]",
+  "en": "Honestly, what are you doing?! All[BR]you're doing is setting your hand on[BR]fire![PAGE]Draw in the air's power properly, like[BR]you mean it…!![WAIT]",
   "bytes": 112,
   "sites": [
    "1B21D7:op7A+2"
@@ -2192,7 +2192,7 @@
   "addr": "1B2A1E",
   "kind": "msg",
   "jp": "・・・らしいって・・・[BR]（ダメ・・・！　コイツ[BR]規格外（きかくがい）すぎる・・・！）[PAGE]・・・もういいわ！！[BR]ワタシが２発うつからっ！[PAGE]２発目を練ってる間にこうげきして[BR]きたら、あんたがふせいで！！[WAIT]",
-  "en": "…\"That's what they say\"… (Hopeless…![BR]This guy's way too off the charts…!)[PAGE]…Fine, forget it!! I'll fire both[BR]shots myself![PAGE]If it attacks while I'm charging the[BR]second one, you block it!![WAIT]",
+  "en": "…\"That's what they say\"… (Hopeless…![BR]This guy's way too off the charts…!)[PAGE]…Fine, forget it!! I'll fire both[BR]shots myself![PAGE]If it attacks while I'm drawing in the[BR]air's power for the second one, you[BR]block it!![WAIT]",
   "bytes": 200,
   "sites": [
    "1B2297:op7A+2"

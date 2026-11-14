@@ -16,11 +16,12 @@
   "addr": "2300B8",
   "kind": "msg",
   "jp": "サドラムが・・・！！[WAIT]",
-  "en": "",
+  "en": "Sadram is…!![WAIT]",
   "bytes": 24,
   "sites": [
    "22FA70:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:2300D0",
@@ -88,12 +89,13 @@
   "addr": "230110",
   "kind": "msg",
   "jp": "ああ、すぐに出発だ！[BR]サドラムに向かうぞっ！！[WAIT]",
-  "en": "",
+  "en": "Yeah, we're heading out right now! To[BR]Sadram!![WAIT]",
   "bytes": 50,
   "sites": [
    "22FABB:op7A+2",
    "22FABB:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:230142",
@@ -113,12 +115,13 @@
   "addr": "23014C",
   "kind": "msg",
   "jp": "いっこくをあらそうわ・・・[BR]急ぎましょう！！[WAIT]",
-  "en": "",
+  "en": "There's not a moment to lose… Let's[BR]hurry!![WAIT]",
   "bytes": 48,
   "sites": [
    "22FADA:op7A+2",
    "22FADA:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23017C",
@@ -139,13 +142,14 @@
   "addr": "230184",
   "kind": "msg",
   "jp": "・・・これって・・・[WAIT]",
-  "en": "",
+  "en": "…This is…[WAIT]",
   "bytes": 24,
   "sites": [
    "22FB52:op7A+2",
    "22FB52:op7A+2",
    "22FB52:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23019C",
@@ -166,13 +170,14 @@
   "addr": "2301A4",
   "kind": "msg",
   "jp": "ひどい・・・！！[WAIT]",
-  "en": "",
+  "en": "How awful…!![WAIT]",
   "bytes": 20,
   "sites": [
    "22FB68:op7A+2",
    "22FB68:op7A+2",
    "22FB68:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:2301B8",
@@ -221,13 +226,14 @@
   "addr": "2301DC",
   "kind": "msg",
   "jp": "あんなに、みんなでがんばって[BR]いたのに・・・[WAIT]",
-  "en": "",
+  "en": "And after everyone worked so hard…[WAIT]",
   "bytes": 48,
   "sites": [
    "22FB9D:op7A+2",
    "22FB9D:op7A+2",
    "22FB9D:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23020C",
@@ -249,14 +255,15 @@
   "addr": "230216",
   "kind": "msg",
   "jp": "・・・ゆるせん・・・っ！[WAIT]",
-  "en": "",
+  "en": "…Unforgivable…![WAIT]",
   "bytes": 28,
   "sites": [
    "22FBBC:op7A+2",
    "22FBBC:op7A+2",
    "22FBBC:op7A+2",
    "22FBBC:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:230232",
@@ -279,7 +286,7 @@
   "addr": "23023A",
   "kind": "msg",
   "jp": "！？　ビィト、あそこ・・・っ！[WAIT]",
-  "en": "",
+  "en": "?! Beet, over there…![WAIT]",
   "bytes": 34,
   "sites": [
    "22FBD2:op7A+2",
@@ -287,7 +294,8 @@
    "22FBD2:op7A+2",
    "22FBD2:op7A+2",
    "22FBD2:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23025C",
@@ -310,7 +318,7 @@
   "addr": "230264",
   "kind": "msg",
   "jp": "なんだ・・・人間どうしで・・・[BR]たたかってる！？[WAIT]",
-  "en": "",
+  "en": "What the…? Humans… fighting each[BR]other?![WAIT]",
   "bytes": 52,
   "sites": [
    "22FC12:op7A+2",
@@ -318,7 +326,8 @@
    "22FC12:op7A+2",
    "22FC12:op7A+2",
    "22FC12:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:230298",
@@ -341,7 +350,7 @@
   "addr": "2302A0",
   "kind": "msg",
   "jp": "・・・ちがうわビィト・・よく見て！[BR]あの右の人間は・・・[BR]ドローマンよっ！[WAIT]",
-  "en": "",
+  "en": "…No, Beet… look closely! The one on[BR]the right… is a Drawman![WAIT]",
   "bytes": 78,
   "sites": [
    "22FC28:op7A+2",
@@ -349,7 +358,8 @@
    "22FC28:op7A+2",
    "22FC28:op7A+2",
    "22FC28:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:2302EE",
@@ -372,7 +382,7 @@
   "addr": "2302F6",
   "kind": "msg",
   "jp": "な、なんだってっ！！[WAIT]",
-  "en": "",
+  "en": "Wh-what did you say?!![WAIT]",
   "bytes": 24,
   "sites": [
    "22FC3E:op7A+2",
@@ -380,7 +390,8 @@
    "22FC3E:op7A+2",
    "22FC3E:op7A+2",
    "22FC3E:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23030E",
@@ -434,7 +445,7 @@
   "addr": "23032C",
   "kind": "msg",
   "jp": "くっ！[BR]みんな、ドローマンをやるぞ！！[WAIT]",
-  "en": "",
+  "en": "Ngh! Everyone, take out the Drawmen!![WAIT]",
   "bytes": 42,
   "sites": [
    "22FC8F:op7A+2",
@@ -442,7 +453,8 @@
    "22FC8F:op7A+2",
    "22FC8F:op7A+2",
    "22FC8F:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:230356",
@@ -498,7 +510,7 @@
   "addr": "230372",
   "kind": "msg",
   "jp": "・・・なんで、ドローマンが・・・[WAIT]",
-  "en": "",
+  "en": "…But why are there Drawmen here…[WAIT]",
   "bytes": 36,
   "sites": [
    "22FCF7:op7A+2",
@@ -508,7 +520,8 @@
    "22FCF7:op7A+2",
    "22FCF7:op7A+2",
    "22FCF7:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:230396",
@@ -570,7 +583,7 @@
   "addr": "2303BA",
   "kind": "msg",
   "jp": "どういうこと・・・なのかしら・・・[WAIT]",
-  "en": "",
+  "en": "What is going on here… I wonder…[WAIT]",
   "bytes": 38,
   "sites": [
    "22FD35:op7A+2",
@@ -581,7 +594,8 @@
    "22FD35:op7A+2",
    "22FD35:op7A+2",
    "22FD35:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:2303E0",
@@ -608,7 +622,7 @@
   "addr": "2303E8",
   "kind": "msg",
   "jp": "くっ・・・・[WAIT]",
-  "en": "",
+  "en": "Ngh….[WAIT]",
   "bytes": 16,
   "sites": [
    "22FD4B:op7A+2",
@@ -620,7 +634,8 @@
    "22FD4B:op7A+2",
    "22FD4B:op7A+2",
    "22FD4B:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:2303F8",
@@ -686,7 +701,7 @@
   "addr": "23041A",
   "kind": "msg",
   "jp": "くっそおおっ！　出てこいっ！！！[BR]これもグリニデの仕業かッ！！！！[WAIT]",
-  "en": "",
+  "en": "Daaammit! Come on out!!! Is this[BR]Grineed's doing too?!!!![WAIT]",
   "bytes": 70,
   "sites": [
    "22FD77:op7A+2",
@@ -698,7 +713,8 @@
    "22FD77:op7A+2",
    "22FD77:op7A+2",
    "22FD77:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:230460",
@@ -805,7 +821,7 @@
   "addr": "23049A",
   "kind": "msg",
   "jp": "・・・グリニデ様の名前を聞いたら、[BR]お答えしなければなりませんね・・・[WAIT]",
-  "en": "",
+  "en": "…When I hear Grineed-sama's name, I[BR]simply must answer, mustn't I…[WAIT]",
   "bytes": 74,
   "sites": [
    "22FDB0:op52+5",
@@ -817,7 +833,8 @@
    "22FDB0:op52+5",
    "22FDB0:op52+5",
    "22FDB0:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:2304E4",
@@ -846,7 +863,7 @@
   "addr": "2304EC",
   "kind": "msg",
   "jp": "おっ、おまえは・・・[WAIT]",
-  "en": "",
+  "en": "Y-you're…[WAIT]",
   "bytes": 24,
   "sites": [
    "22FE05:op7A+2",
@@ -860,7 +877,8 @@
    "22FE05:op7A+2",
    "22FE05:op7A+2",
    "22FE05:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:230504",
@@ -889,7 +907,7 @@
   "addr": "23050E",
   "kind": "msg",
   "jp": "ワタシはグリニデ様が[BR]直々に育てて下さった[BR]自慢（じまん）のモンスター・・・[PAGE]ヘルガーだ！[PAGE]他の配下のザコモンスターどもとは[BR]ひと味ちがいますよ！[WAIT]",
-  "en": "",
+  "en": "I am the pride and joy of[BR]Grineed-sama, a monster he raised[BR]personally…[PAGE]Helgar![PAGE]I am a cut above all those other[BR]small-fry monsters in his service![WAIT]",
   "bytes": 150,
   "sites": [
    "22FE12:op52+5",
@@ -903,7 +921,8 @@
    "22FE12:op52+5",
    "22FE12:op52+5",
    "22FE12:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:2305A4",
@@ -932,7 +951,7 @@
   "addr": "2305AC",
   "kind": "msg",
   "jp": "やっぱり・・・[BR]グリニデがからんでいるのね！[WAIT]",
-  "en": "",
+  "en": "I knew it… Grineed IS behind this![WAIT]",
   "bytes": 48,
   "sites": [
    "22FE26:op7A+2",
@@ -946,7 +965,8 @@
    "22FE26:op7A+2",
    "22FE26:op7A+2",
    "22FE26:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:2305DC",
@@ -975,7 +995,7 @@
   "addr": "2305E6",
   "kind": "msg",
   "jp": "・・・・・・・グリニデ・・・！[WAIT]",
-  "en": "",
+  "en": "…….Grineed…![WAIT]",
   "bytes": 34,
   "sites": [
    "22FE45:op7A+2",
@@ -989,7 +1009,8 @@
    "22FE45:op7A+2",
    "22FE45:op7A+2",
    "22FE45:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:230608",
@@ -1019,7 +1040,7 @@
   "addr": "230612",
   "kind": "msg",
   "jp": "・・・どっかのバスターが[BR]地底湖（ちていこ）につかまえておいた[BR]実験用（じっけんよう）の人間を[PAGE]にがしてしまったらしくてねぇ・・・[BR]こまっていたところに、[BR]このサドラムの里が[PAGE]グリニデ様の目についた・・・[BR]というところでしょうか・・・！[WAIT]",
-  "en": "",
+  "en": "…It seems some Buster let go of the[BR]humans we had caught for our[BR]experiments, at the Underground Lake…[PAGE]And just as we were in a bind, this[BR]village of Sadram[PAGE]caught Grineed-sama's eye… That's[BR]about the size of it…![WAIT]",
   "bytes": 240,
   "sites": [
    "22FE52:op52+5",
@@ -1034,7 +1055,8 @@
    "22FE52:op52+5",
    "22FE52:op52+5",
    "22FE52:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:230702",
@@ -1064,7 +1086,7 @@
   "addr": "23070A",
   "kind": "msg",
   "jp": "じっ・・・実験用（じっけんよう）の[BR]人間だってえっ！？[WAIT]",
-  "en": "",
+  "en": "H… humans for experiments?![WAIT]",
   "bytes": 58,
   "sites": [
    "22FE66:op7A+2",
@@ -1079,7 +1101,8 @@
    "22FE66:op7A+2",
    "22FE66:op7A+2",
    "22FE66:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:230744",
@@ -1155,7 +1178,7 @@
   "addr": "230764",
   "kind": "msg",
   "jp": "・・・まぁ、せっかくですので・・・[BR]その実験（じっけん）によって[BR]うみ出された・・・[PAGE]この美しく仕上がったドローマスターを[BR]この里にしのびこませてみたのですが、[BR]これが見事！！[WAIT]",
-  "en": "",
+  "en": "…Well, since we had the chance…[PAGE]I slipped these beautifully finished[BR]Drawmasters, born of those[BR]experiments, into the village, and the[PAGE]result was splendid!![WAIT]",
   "bytes": 180,
   "sites": [
    "22FE89:op52+5",
@@ -1170,7 +1193,8 @@
    "22FE89:op52+5",
    "22FE89:op52+5",
    "22FE89:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:230818",
@@ -1200,7 +1224,7 @@
   "addr": "230822",
   "kind": "msg",
   "jp": "・・・なに！？[WAIT]",
-  "en": "",
+  "en": "…What?![WAIT]",
   "bytes": 18,
   "sites": [
    "22FEA6:op7A+2",
@@ -1215,7 +1239,8 @@
    "22FEA6:op7A+2",
    "22FEA6:op7A+2",
    "22FEA6:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:230834",
@@ -1246,7 +1271,7 @@
   "addr": "23083C",
   "kind": "msg",
   "jp": "何が見事・・・なんだよッ！！[WAIT]",
-  "en": "",
+  "en": "What's so splendid about it?!![WAIT]",
   "bytes": 32,
   "sites": [
    "22FEBC:op7A+2",
@@ -1262,7 +1287,8 @@
    "22FEBC:op7A+2",
    "22FEBC:op7A+2",
    "22FEBC:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23085C",
@@ -1293,7 +1319,7 @@
   "addr": "230866",
   "kind": "msg",
   "jp": "里の人間どもは、だれ一人として・・・[BR]ドローマスターを見ぬくことは[BR]できませんでしたよぉっ！[PAGE]あとは里の中から[BR]ちょっとあばれさせれば・・・[BR]この通りですっ！！[WAIT]",
-  "en": "",
+  "en": "Not one single villager saw through[BR]the Drawmasters![PAGE]After that, all I had to do was let[BR]them run a little wild inside the[BR]village… and here you have it!![WAIT]",
   "bytes": 164,
   "sites": [
    "22FEC9:op52+5",
@@ -1309,7 +1335,8 @@
    "22FEC9:op52+5",
    "22FEC9:op52+5",
    "22FEC9:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23090A",
@@ -1340,7 +1367,7 @@
   "addr": "230912",
   "kind": "msg",
   "jp": "・・・な、なんてことを・・・・・・！[WAIT]",
-  "en": "",
+  "en": "…H-how could you…![WAIT]",
   "bytes": 40,
   "sites": [
    "22FEDD:op7A+2",
@@ -1356,7 +1383,8 @@
    "22FEDD:op7A+2",
    "22FEDD:op7A+2",
    "22FEDD:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23093A",
@@ -1387,7 +1415,7 @@
   "addr": "230944",
   "kind": "msg",
   "jp": "そんな・・・ひどすぎね・・・！！！[WAIT]",
-  "en": "",
+  "en": "No… That's just too cruel…!!![WAIT]",
   "bytes": 38,
   "sites": [
    "22FEFC:op7A+2",
@@ -1403,7 +1431,8 @@
    "22FEFC:op7A+2",
    "22FEFC:op7A+2",
    "22FEFC:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23096A",
@@ -1435,7 +1464,7 @@
   "addr": "230972",
   "kind": "msg",
   "jp": "てめぇ・・・それとグリニデ・・・[BR]おまえたちは[BR]ぜったいにゆるさないッ！！[WAIT]",
-  "en": "",
+  "en": "You jerk… You and Grineed… I'm never[BR]gonna forgive either of you!![WAIT]",
   "bytes": 78,
   "sites": [
    "22FF12:op7A+2",
@@ -1452,7 +1481,8 @@
    "22FF12:op7A+2",
    "22FF12:op7A+2",
    "22FF12:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:2309C0",
@@ -1484,7 +1514,7 @@
   "addr": "2309CA",
   "kind": "msg",
   "jp": "フム・・・では仕方ありません[PAGE]このドローマスターさんたちのお相手を[BR]していただきましょう！！[WAIT]",
-  "en": "",
+  "en": "Hmm… Then it can't be helped.[PAGE]I'll have you play with these[BR]Drawmasters here!![WAIT]",
   "bytes": 96,
   "sites": [
    "22FF1F:op52+5",
@@ -1501,7 +1531,8 @@
    "22FF1F:op52+5",
    "22FF1F:op52+5",
    "22FF1F:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:230A2A",
@@ -1533,7 +1564,7 @@
   "addr": "230A32",
   "kind": "msg",
   "jp": "いくぞッ！！！！[WAIT]",
-  "en": "",
+  "en": "Let's go!!!![WAIT]",
   "bytes": 20,
   "sites": [
    "22FF33:op7A+2",
@@ -1550,7 +1581,8 @@
    "22FF33:op7A+2",
    "22FF33:op7A+2",
    "22FF33:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:230A46",
@@ -1582,7 +1614,7 @@
   "addr": "230A50",
   "kind": "msg",
   "jp": "ああああっ！[BR]グリニデ様からおかりした[BR]ドローマスターがっ！！[WAIT]",
-  "en": "",
+  "en": "Aaaaah! The Drawmasters I borrowed[BR]from Grineed-sama!![WAIT]",
   "bytes": 66,
   "sites": [
    "22FF47:op52+5",
@@ -1599,7 +1631,8 @@
    "22FF47:op52+5",
    "22FF47:op52+5",
    "22FF47:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:230A92",
@@ -1631,7 +1664,7 @@
   "addr": "230A9A",
   "kind": "msg",
   "jp": "・・・おい・・・グリニデはどこだっ！[BR]ここにいるのかっ！！[WAIT]",
-  "en": "",
+  "en": "…Hey… Where's Grineed?! Is he here?!![WAIT]",
   "bytes": 62,
   "sites": [
    "22FF5B:op7A+2",
@@ -1648,7 +1681,8 @@
    "22FF5B:op7A+2",
    "22FF5B:op7A+2",
    "22FF5B:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:230AD8",
@@ -1680,7 +1714,7 @@
   "addr": "230AE2",
   "kind": "msg",
   "jp": "ざ・・・ざんねんながら・・・[BR]わが主、グリニデ様はここには[BR]おりません[PAGE]今ごろは・・・お城（しろ）で[BR]お休みになられてることでしょう・・・[WAIT]",
-  "en": "",
+  "en": "R… regrettably… my master,[BR]Grineed-sama, is not here.[PAGE]Right about now… he's surely resting[BR]at his castle…[WAIT]",
   "bytes": 142,
   "sites": [
    "22FF68:op52+5",
@@ -1697,7 +1731,8 @@
    "22FF68:op52+5",
    "22FF68:op52+5",
    "22FF68:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:230B70",
@@ -1729,7 +1764,7 @@
   "addr": "230B78",
   "kind": "msg",
   "jp": "・・・グリニデ城（じょう）・・・か！[WAIT]",
-  "en": "",
+  "en": "…Grineed Castle… huh![WAIT]",
   "bytes": 40,
   "sites": [
    "22FF7C:op7A+2",
@@ -1746,7 +1781,8 @@
    "22FF7C:op7A+2",
    "22FF7C:op7A+2",
    "22FF7C:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:230BA0",
@@ -1778,7 +1814,7 @@
   "addr": "230BAA",
   "kind": "msg",
   "jp": "で・・・ではそういうことで・・・[BR]ワタシはここで退散（たいさん）させて[BR]いただきます・・・ッ！！[WAIT]",
-  "en": "",
+  "en": "W… well then, that's that… I'll be[BR]taking my leave now…!![WAIT]",
   "bytes": 100,
   "sites": [
    "22FF89:op52+5",
@@ -1795,7 +1831,8 @@
    "22FF89:op52+5",
    "22FF89:op52+5",
    "22FF89:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:230C0E",
@@ -1827,7 +1864,7 @@
   "addr": "230C16",
   "kind": "msg",
   "jp": "そうは・・・いかないよっ！！！[WAIT]",
-  "en": "",
+  "en": "Oh no… you don't!!![WAIT]",
   "bytes": 34,
   "sites": [
    "22FFB9:op7A+2",
@@ -1844,7 +1881,8 @@
    "22FFB9:op7A+2",
    "22FFB9:op7A+2",
    "22FFB9:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:230C38",
@@ -1876,7 +1914,7 @@
   "addr": "230C40",
   "kind": "msg",
   "jp": "うおぉおおおおっ！！！[WAIT]",
-  "en": "",
+  "en": "Raaaaaaah!!![WAIT]",
   "bytes": 26,
   "sites": [
    "22FFE3:op7A+2",
@@ -1893,7 +1931,8 @@
    "22FFE3:op7A+2",
    "22FFE3:op7A+2",
    "22FFE3:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:230C5A",
@@ -1925,7 +1964,7 @@
   "addr": "230C64",
   "kind": "msg",
   "jp": "・・・・・・かっ・・・ぐはっ・・・[BR]・・・グ・・・グリニデ・・・様・・・[BR]もうしわ・・・け・・・[WAIT]",
-  "en": "",
+  "en": "……Gah… ghaah… …G… Grineed… -sama… I'm[BR]so… sor…ry…[WAIT]",
   "bytes": 100,
   "sites": [
    "22FFFB:op52+5",
@@ -1942,7 +1981,8 @@
    "22FFFB:op52+5",
    "22FFFB:op52+5",
    "22FFFB:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:230CC8",
@@ -1974,7 +2014,7 @@
   "addr": "230CD0",
   "kind": "msg",
   "jp": "やったわね、ビィト！[BR]・・・・・・ビィト・・・？[WAIT]",
-  "en": "",
+  "en": "We did it, Beet! ……Beet…?[WAIT]",
   "bytes": 52,
   "sites": [
    "230015:op7A+2",
@@ -1991,7 +2031,8 @@
    "230015:op7A+2",
    "230015:op7A+2",
    "230015:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:230D04",
@@ -2124,7 +2165,7 @@
   "addr": "230D3E",
   "kind": "msg",
   "jp": "せっかく復興（ふっこう）してきた[BR]サドラムを・・・[BR]・・・グリ・・・ニデ・・・ッ！！[WAIT]",
-  "en": "",
+  "en": "Sadram was finally getting back on its[BR]feet… …Gri… need…!![WAIT]",
   "bytes": 88,
   "sites": [
    "230060:op7A+2",
@@ -2142,7 +2183,8 @@
    "230060:op7A+2",
    "230060:op7A+2",
    "230060:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:230D96",
@@ -2175,7 +2217,7 @@
   "addr": "230D9E",
   "kind": "msg",
   "jp": "ビィト・・・今は・・・[BR]ほうこくに戻りましょ・・・[PAGE]生きのこってる人もいるみたいだから[BR]その人たちの事もたのまないと・・・[WAIT]",
-  "en": "",
+  "en": "Beet… For now… let's go back and[BR]report…[PAGE]It looks like some people survived, so[BR]we need to ask someone to look after[BR]them too…[WAIT]",
   "bytes": 126,
   "sites": [
    "230076:op7A+2",
@@ -2193,7 +2235,8 @@
    "230076:op7A+2",
    "230076:op7A+2",
    "230076:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:230E1C",
@@ -2226,7 +2269,7 @@
   "addr": "230E24",
   "kind": "msg",
   "jp": "・・・くそっ・・・[BR]くっそおおおおおッ！！！！[WAIT]",
-  "en": "",
+  "en": "…Dammit… Daaammiiit!!!![WAIT]",
   "bytes": 50,
   "sites": [
    "23008C:op7A+2",
@@ -2244,7 +2287,8 @@
    "23008C:op7A+2",
    "23008C:op7A+2",
    "23008C:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:231A10",
@@ -2263,11 +2307,12 @@
   "addr": "231A18",
   "kind": "msg",
   "jp": "なぁ・・・[BR]サドラム復興（ふっこう）の話は・・・[BR]けっきょくどうなったんだ？[WAIT]",
-  "en": "",
+  "en": "Hey… So what ended up happening with[BR]rebuilding Sadram?[WAIT]",
   "bytes": 80,
   "sites": [
    "230E70:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:231A68",
@@ -2286,11 +2331,12 @@
   "addr": "231A70",
   "kind": "msg",
   "jp": "・・・うむ[BR]さすがにあれほどひどく[BR]おそわれたとあっては・・・[PAGE]またすぐに・・・というわけにも[BR]いかんようじゃの・・・[WAIT]",
-  "en": "",
+  "en": "…Hmm. After being attacked that[BR]brutally…[PAGE]it seems it won't happen again anytime[BR]soon, I'm afraid…[WAIT]",
   "bytes": 122,
   "sites": [
    "230E7D:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:231AEA",
@@ -2309,11 +2355,12 @@
   "addr": "231AF2",
   "kind": "msg",
   "jp": "そっか・・・[WAIT]",
-  "en": "",
+  "en": "I see…[WAIT]",
   "bytes": 16,
   "sites": [
    "230E91:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:231B02",
@@ -2356,11 +2403,12 @@
   "addr": "231B22",
   "kind": "msg",
   "jp": "それで、依頼（いらい）の事[BR]なんですけど・・・[WAIT]",
-  "en": "",
+  "en": "So, about the request…[WAIT]",
   "bytes": 50,
   "sites": [
    "230EBD:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:231B54",
@@ -2379,11 +2427,12 @@
   "addr": "231B5C",
   "kind": "msg",
   "jp": "うむ・・・[PAGE]移住（いじゅう）する予定だった人々は[BR]いま、サドラムで荷作りをしている[BR]はずじゃ[PAGE]きみたちには、かれらをトロワナまで[BR]護衛（ごえい）してもらいたいのじゃ[WAIT]",
-  "en": "",
+  "en": "Hmm…[PAGE]The people who were going to move away[BR]should be in Sadram packing up right[BR]now.[PAGE]I'd like you to escort them all the[BR]way to Trowana, eh.[WAIT]",
   "bytes": 168,
   "sites": [
    "230ECA:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:231C04",
@@ -2402,11 +2451,12 @@
   "addr": "231C0C",
   "kind": "msg",
   "jp": "わかったわ・・・[WAIT]",
-  "en": "",
+  "en": "Understood…[WAIT]",
   "bytes": 20,
   "sites": [
    "230EDE:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:231C20",
@@ -2425,11 +2475,12 @@
   "addr": "231C28",
   "kind": "msg",
   "jp": "・・・行こう！[BR]急がないと、また襲撃（しゅうげき）[BR]されるかもしれない[WAIT]",
-  "en": "",
+  "en": "…Let's go! If we don't hurry, they[BR]might get attacked again.[WAIT]",
   "bytes": 74,
   "sites": [
    "230EF4:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:231C72",
@@ -2472,11 +2523,12 @@
   "addr": "231C92",
   "kind": "msg",
   "jp": "そうね、[BR]行って元気付けてあげないとね・・・！[WAIT]",
-  "en": "",
+  "en": "Right, we've got to go and cheer them[BR]up…![WAIT]",
   "bytes": 50,
   "sites": [
    "230F29:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:231CC4",
@@ -2496,12 +2548,13 @@
   "addr": "231CCC",
   "kind": "msg",
   "jp": "よろしくたのむ[WAIT]",
-  "en": "",
+  "en": "I'm counting on you.[WAIT]",
   "bytes": 18,
   "sites": [
    "230F36:op52+5",
    "230F36:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:231CDE",
@@ -2548,13 +2601,14 @@
   "addr": "231CFE",
   "kind": "msg",
   "jp": "おおっ！[BR]バスターさんがきてくれたぞ[WAIT]",
-  "en": "",
+  "en": "Oh! The Busters have come![WAIT]",
   "bytes": 40,
   "sites": [
    "230FF3:op52+5",
    "230FF3:op52+5",
    "230FF3:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:231D26",
@@ -2575,13 +2629,14 @@
   "addr": "231D2E",
   "kind": "msg",
   "jp": "お待たせしました・・・みなさん[WAIT]",
-  "en": "",
+  "en": "Sorry to keep you waiting… everyone.[WAIT]",
   "bytes": 34,
   "sites": [
    "231007:op7A+2",
    "231007:op7A+2",
    "231007:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:231D50",
@@ -2602,13 +2657,14 @@
   "addr": "231D58",
   "kind": "msg",
   "jp": "護衛（ごえい）にきたぜ！[BR]トロワナまででいいんだよな？[WAIT]",
-  "en": "",
+  "en": "We're here to escort you! It's just to[BR]Trowana, right?[WAIT]",
   "bytes": 58,
   "sites": [
    "23101D:op7A+2",
    "23101D:op7A+2",
    "23101D:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:231D92",
@@ -2629,13 +2685,14 @@
   "addr": "231D9E",
   "kind": "msg",
   "jp": "ああ、よろしくたのむよ[WAIT]",
-  "en": "",
+  "en": "Yeah, we're counting on you.[WAIT]",
   "bytes": 26,
   "sites": [
    "23102A:op52+5",
    "23102A:op52+5",
    "23102A:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:231DB8",
@@ -2656,13 +2713,14 @@
   "addr": "231DC4",
   "kind": "msg",
   "jp": "・・・しかし、[BR]せっかくここまで持ち直したのに・・・[WAIT]",
-  "en": "",
+  "en": "…Even so, after we finally got the[BR]place back on its feet…[WAIT]",
   "bytes": 56,
   "sites": [
    "231035:op52+5",
    "231035:op52+5",
    "231035:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:231DFC",
@@ -2683,13 +2741,14 @@
   "addr": "231E08",
   "kind": "msg",
   "jp": "がんばったのに・・・ね・・・・・・[WAIT]",
-  "en": "",
+  "en": "And we worked so hard… too……[WAIT]",
   "bytes": 38,
   "sites": [
    "231040:op52+5",
    "231040:op52+5",
    "231040:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:231E2E",
@@ -2710,13 +2769,14 @@
   "addr": "231E3A",
   "kind": "msg",
   "jp": "ちくしょう・・・[WAIT]",
-  "en": "",
+  "en": "Damn it all…[WAIT]",
   "bytes": 20,
   "sites": [
    "23104B:op52+5",
    "23104B:op52+5",
    "23104B:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:231E4E",
@@ -2765,13 +2825,14 @@
   "addr": "231E70",
   "kind": "msg",
   "jp": "・・・ほら、元気出して！[BR]生きていればまたやり直せるわ・・・！[WAIT]",
-  "en": "",
+  "en": "…Come on, chin up! As long as you're[BR]alive, you can always start over…![WAIT]",
   "bytes": 66,
   "sites": [
    "23107E:op7A+2",
    "23107E:op7A+2",
    "23107E:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:231EB2",
@@ -2793,14 +2854,15 @@
   "addr": "231EBA",
   "kind": "msg",
   "jp": "・・・今はつらいでしょうけれど・・・[BR]元気出してください・・・・・・[WAIT]",
-  "en": "",
+  "en": "…I know it's hard right now, but…[BR]please keep your spirits up……[WAIT]",
   "bytes": 72,
   "sites": [
    "231094:op7A+2",
    "231094:op7A+2",
    "231094:op7A+2",
    "231094:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:231F02",
@@ -2822,14 +2884,15 @@
   "addr": "231F0E",
   "kind": "msg",
   "jp": "ああ・・・ありがとう[WAIT]",
-  "en": "",
+  "en": "Yeah… thank you.[WAIT]",
   "bytes": 24,
   "sites": [
    "2310A1:op52+5",
    "2310A1:op52+5",
    "2310A1:op52+5",
    "2310A1:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:231F26",
@@ -2851,14 +2914,15 @@
   "addr": "231F30",
   "kind": "msg",
   "jp": "・・・行くか[WAIT]",
-  "en": "",
+  "en": "…Let's go.[WAIT]",
   "bytes": 16,
   "sites": [
    "2310BE:op7A+2",
    "2310BE:op7A+2",
    "2310BE:op7A+2",
    "2310BE:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:231F40",
@@ -2881,7 +2945,7 @@
   "addr": "231F48",
   "kind": "msg",
   "jp": "じゃ、トロワナに向かって出発しようぜ[WAIT]",
-  "en": "",
+  "en": "Okay, let's head out for Trowana![WAIT]",
   "bytes": 40,
   "sites": [
    "2310D4:op7A+2",
@@ -2889,7 +2953,8 @@
    "2310D4:op7A+2",
    "2310D4:op7A+2",
    "2310D4:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:231F70",
@@ -2908,11 +2973,12 @@
   "addr": "231F7C",
   "kind": "msg",
   "jp": "助かったよ、ありがとう[WAIT]",
-  "en": "",
+  "en": "You saved us. Thank you.[WAIT]",
   "bytes": 26,
   "sites": [
    "231128:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:231F96",
@@ -2931,11 +2997,12 @@
   "addr": "231FA2",
   "kind": "msg",
   "jp": "すまないなぁ[WAIT]",
-  "en": "",
+  "en": "Sorry for the trouble.[WAIT]",
   "bytes": 16,
   "sites": [
    "231185:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:231FB2",
@@ -2954,11 +3021,12 @@
   "addr": "231FBE",
   "kind": "msg",
   "jp": "本当にありがとうねぇ[WAIT]",
-  "en": "",
+  "en": "Thank you so very much, dear.[WAIT]",
   "bytes": 24,
   "sites": [
    "2311E2:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:231FD6",
@@ -2977,11 +3045,12 @@
   "addr": "231FE2",
   "kind": "msg",
   "jp": "うわぁああああっ！！[WAIT]",
-  "en": "",
+  "en": "Waaaaaaah!![WAIT]",
   "bytes": 24,
   "sites": [
    "23125F:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:231FFA",
@@ -3024,11 +3093,12 @@
   "addr": "232016",
   "kind": "msg",
   "jp": "ビィト、後ろっ！！！[WAIT]",
-  "en": "",
+  "en": "Beet, behind you!!![WAIT]",
   "bytes": 24,
   "sites": [
    "231290:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23202E",
@@ -3047,11 +3117,12 @@
   "addr": "232036",
   "kind": "msg",
   "jp": "・・・くそっ！！[WAIT]",
-  "en": "",
+  "en": "…Dammit!![WAIT]",
   "bytes": 20,
   "sites": [
    "2312A6:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23204A",
@@ -3070,11 +3141,12 @@
   "addr": "232052",
   "kind": "msg",
   "jp": "おいっ、だいじょうぶかっ！！[WAIT]",
-  "en": "",
+  "en": "Hey, you okay?!![WAIT]",
   "bytes": 32,
   "sites": [
    "2312D0:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:232072",
@@ -3093,11 +3165,12 @@
   "addr": "23207E",
   "kind": "msg",
   "jp": "・・・ああ、なんとか・・・[BR]ありがとう[WAIT]",
-  "en": "",
+  "en": "…Yeah, somehow… Thank you.[WAIT]",
   "bytes": 42,
   "sites": [
    "2312DD:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:2320A8",
@@ -3116,11 +3189,12 @@
   "addr": "2320B0",
   "kind": "msg",
   "jp": "・・・あぶなかったね[WAIT]",
-  "en": "",
+  "en": "…That was close.[WAIT]",
   "bytes": 24,
   "sites": [
    "2312F1:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:2320C8",
@@ -3139,11 +3213,12 @@
   "addr": "2320D2",
   "kind": "msg",
   "jp": "ゆだんできん[WAIT]",
-  "en": "",
+  "en": "Can't let our guard down.[WAIT]",
   "bytes": 16,
   "sites": [
    "231310:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:2320E2",
@@ -3163,12 +3238,13 @@
   "addr": "2320EC",
   "kind": "msg",
   "jp": "・・・気を引きしめていくわよ[WAIT]",
-  "en": "",
+  "en": "…Let's stay on our toes, okay?[WAIT]",
   "bytes": 32,
   "sites": [
    "23132F:op7A+2",
    "23132F:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23210C",
@@ -3189,13 +3265,14 @@
   "addr": "232114",
   "kind": "msg",
   "jp": "ええ・・・[BR]先へ、進みましょう[WAIT]",
-  "en": "",
+  "en": "Yes… Let's keep moving.[WAIT]",
   "bytes": 34,
   "sites": [
    "231345:op7A+2",
    "231345:op7A+2",
    "231345:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:232136",
@@ -3216,13 +3293,14 @@
   "addr": "23213E",
   "kind": "msg",
   "jp": "・・・よし、行こう！[BR]早くみんなをトロワナに送りとどけて[BR]グリニデをなんとかしないとな！[WAIT]",
-  "en": "",
+  "en": "…Okay, let's go! We gotta get everyone[BR]to Trowana fast and do something about[BR]Grineed![WAIT]",
   "bytes": 92,
   "sites": [
    "23135B:op7A+2",
    "23135B:op7A+2",
    "23135B:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23219A",
@@ -3271,13 +3349,14 @@
   "addr": "2321BE",
   "kind": "msg",
   "jp": "・・・そうね、急ぎましょう！[WAIT]",
-  "en": "",
+  "en": "…Right, let's hurry![WAIT]",
   "bytes": 32,
   "sites": [
    "231390:op7A+2",
    "231390:op7A+2",
    "231390:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:2321DE",
@@ -3326,11 +3405,12 @@
   "addr": "2321FC",
   "kind": "msg",
   "jp": "きゃああっ！！[WAIT]",
-  "en": "",
+  "en": "Eeeek!![WAIT]",
   "bytes": 18,
   "sites": [
    "2313F2:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23220E",
@@ -3349,11 +3429,12 @@
   "addr": "232216",
   "kind": "msg",
   "jp": "ビィト！　はさまれてるっ！！[WAIT]",
-  "en": "",
+  "en": "Beet! We're surrounded on both sides!![WAIT]",
   "bytes": 32,
   "sites": [
    "231406:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:232236",
@@ -3372,11 +3453,12 @@
   "addr": "23223E",
   "kind": "msg",
   "jp": "くそっ、こっちからだっ！！[WAIT]",
-  "en": "",
+  "en": "Dammit, this side first!![WAIT]",
   "bytes": 30,
   "sites": [
    "23141C:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23225C",
@@ -3395,11 +3477,12 @@
   "addr": "232264",
   "kind": "msg",
   "jp": "・・・次、そっちの・・・っ！！[WAIT]",
-  "en": "",
+  "en": "…Next, the ones over there…!![WAIT]",
   "bytes": 34,
   "sites": [
    "231449:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:232286",
@@ -3442,11 +3525,12 @@
   "addr": "2322B8",
   "kind": "msg",
   "jp": "あっああああ・・・っ！！[WAIT]",
-  "en": "",
+  "en": "Ah, aaah…!![WAIT]",
   "bytes": 28,
   "sites": [
    "231469:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:2322D4",
@@ -3465,11 +3549,12 @@
   "addr": "2322DC",
   "kind": "msg",
   "jp": "くそっ！[BR]間に合えっ！！！[WAIT]",
-  "en": "",
+  "en": "Dammit! Make it in time!!![WAIT]",
   "bytes": 30,
   "sites": [
    "23147D:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:2322FA",
@@ -3512,11 +3597,12 @@
   "addr": "232328",
   "kind": "msg",
   "jp": "・・・はぁはぁ・・・だいじょうぶか？[WAIT]",
-  "en": "",
+  "en": "…Huff, huff… You okay?[WAIT]",
   "bytes": 40,
   "sites": [
    "2314B5:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:232350",
@@ -3535,11 +3621,12 @@
   "addr": "23235C",
   "kind": "msg",
   "jp": "・・・え、ええ・・・なんとか[WAIT]",
-  "en": "",
+  "en": "…Y-yes… somehow.[WAIT]",
   "bytes": 32,
   "sites": [
    "2314C2:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23237C",
@@ -3558,11 +3645,12 @@
   "addr": "232384",
   "kind": "msg",
   "jp": "・・・よかった・・・！[WAIT]",
-  "en": "",
+  "en": "…Thank goodness…![WAIT]",
   "bytes": 26,
   "sites": [
    "2314D6:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23239E",
@@ -3581,11 +3669,12 @@
   "addr": "2323A8",
   "kind": "msg",
   "jp": "・・・だが、あぶなかった[WAIT]",
-  "en": "",
+  "en": "…But that was close.[WAIT]",
   "bytes": 28,
   "sites": [
    "2314F5:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:2323C4",
@@ -3605,12 +3694,13 @@
   "addr": "2323CE",
   "kind": "msg",
   "jp": "ふぅ・・・[BR]ひやあせが出ちゃうわね・・・！[WAIT]",
-  "en": "",
+  "en": "Phew… That gave me a cold sweat, you[BR]know…![WAIT]",
   "bytes": 46,
   "sites": [
    "231514:op7A+2",
    "231514:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:2323FC",
@@ -3631,13 +3721,14 @@
   "addr": "232404",
   "kind": "msg",
   "jp": "とにかく、トロワナはもう目の前だし[BR]・・・中に入ろう[WAIT]",
-  "en": "",
+  "en": "Anyway, Trowana's right in front of[BR]us… Let's go inside.[WAIT]",
   "bytes": 56,
   "sites": [
    "23152A:op7A+2",
    "23152A:op7A+2",
    "23152A:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23243C",
@@ -3658,13 +3749,14 @@
   "addr": "232444",
   "kind": "msg",
   "jp": "行こう！[WAIT]",
-  "en": "",
+  "en": "Let's go![WAIT]",
   "bytes": 12,
   "sites": [
    "231540:op7A+2",
    "231540:op7A+2",
    "231540:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:232450",
@@ -3687,7 +3779,7 @@
   "addr": "23245C",
   "kind": "msg",
   "jp": "ありがとうございました・・・[BR]なんとかトロワナまでこれました[WAIT]",
-  "en": "",
+  "en": "Thank you so much… We somehow made it[BR]to Trowana.[WAIT]",
   "bytes": 64,
   "sites": [
    "2315EE:op52+5",
@@ -3695,7 +3787,8 @@
    "2315EE:op52+5",
    "2315EE:op52+5",
    "2315EE:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23249C",
@@ -3718,7 +3811,7 @@
   "addr": "2324A4",
   "kind": "msg",
   "jp": "よかったわね・・・[BR]・・・何度かあぶなかったけど・・・[WAIT]",
-  "en": "",
+  "en": "I'm so glad… Even if it got dangerous[BR]a few times…[WAIT]",
   "bytes": 58,
   "sites": [
    "231602:op7A+2",
@@ -3726,7 +3819,8 @@
    "231602:op7A+2",
    "231602:op7A+2",
    "231602:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:2324DE",
@@ -3781,7 +3875,7 @@
   "addr": "2324FE",
   "kind": "msg",
   "jp": "ほんと、よく守れたね・・・！[WAIT]",
-  "en": "",
+  "en": "Really, we did a good job protecting[BR]them…![WAIT]",
   "bytes": 32,
   "sites": [
    "23162E:op7A+2",
@@ -3789,7 +3883,8 @@
    "23162E:op7A+2",
    "23162E:op7A+2",
    "23162E:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23251E",
@@ -3812,7 +3907,7 @@
   "addr": "23252A",
   "kind": "msg",
   "jp": "本当にありがとうございます・・・[PAGE]しかし、サドラムがおそわれた時に[BR]モンスターが言っていた事は[BR]本当でしょうか？[PAGE]グリニデが・・・人間を使って[BR]モンスターの実験（じっけん）を[BR]しているなんて・・・[WAIT]",
-  "en": "",
+  "en": "Thank you so very much…[PAGE]But what the monster said when Sadram[BR]was attacked… is it true?[PAGE]That Grineed is… using humans for his[BR]monster experiments…[WAIT]",
   "bytes": 200,
   "sites": [
    "23163B:op52+5",
@@ -3820,7 +3915,8 @@
    "23163B:op52+5",
    "23163B:op52+5",
    "23163B:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:2325F2",
@@ -3876,7 +3972,7 @@
   "addr": "232616",
   "kind": "msg",
   "jp": "ひどい・・・話よね、それ[WAIT]",
-  "en": "",
+  "en": "That's… a horrible story, isn't it?[WAIT]",
   "bytes": 28,
   "sites": [
    "231677:op7A+2",
@@ -3885,7 +3981,8 @@
    "231677:op7A+2",
    "231677:op7A+2",
    "231677:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:232632",
@@ -3910,7 +4007,7 @@
   "addr": "23263E",
   "kind": "msg",
   "jp": "それにグリニデは、虫モンスターや[BR]配下の強力なモンスターを使って[PAGE]どんどん勢力（せいりょく）を[BR]広げているみたいですし・・・・[WAIT]",
-  "en": "",
+  "en": "And it seems Grineed is spreading his[BR]power more and more, using bug[BR]monsters and the powerful monsters[PAGE]under him….[WAIT]",
   "bytes": 130,
   "sites": [
    "231684:op52+5",
@@ -3920,7 +4017,8 @@
    "231684:op52+5",
    "231684:op52+5",
    "231684:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:2326C0",
@@ -3981,7 +4079,7 @@
   "addr": "2326E4",
   "kind": "msg",
   "jp": "わたしたちはこれから・・・[BR]どうなってしまうのでしょうか？[PAGE]何にきぼうを持って生きてゆけば[BR]良いのでしょう・・・[WAIT]",
-  "en": "",
+  "en": "What's going to become of us now…?[PAGE]What hope are we supposed to live[BR]for…?[WAIT]",
   "bytes": 116,
   "sites": [
    "2316A5:op52+5",
@@ -3991,7 +4089,8 @@
    "2316A5:op52+5",
    "2316A5:op52+5",
    "2316A5:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:232758",
@@ -4016,7 +4115,7 @@
   "addr": "232760",
   "kind": "msg",
   "jp": "・・・う、うん・・・・・・・[WAIT]",
-  "en": "",
+  "en": "…Y-yeah…….[WAIT]",
   "bytes": 32,
   "sites": [
    "2316B9:op7A+2",
@@ -4026,7 +4125,8 @@
    "2316B9:op7A+2",
    "2316B9:op7A+2",
    "2316B9:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:232780",
@@ -4123,7 +4223,7 @@
   "addr": "2327B8",
   "kind": "msg",
   "jp": "・・・？[BR]どうしたのビィト、[BR]考え込んじゃって・・・[WAIT]",
-  "en": "",
+  "en": "…? What's wrong, Beet? You're thinking[BR]awfully hard…[WAIT]",
   "bytes": 56,
   "sites": [
    "2316FB:op7A+2",
@@ -4133,7 +4233,8 @@
    "2316FB:op7A+2",
    "2316FB:op7A+2",
    "2316FB:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:2327F0",
@@ -4158,7 +4259,7 @@
   "addr": "2327F8",
   "kind": "msg",
   "jp": "・・・・・・[BR]グリニデ城（じょう）・・・[BR]ぶっこわしに行くかっ！！！[WAIT]",
-  "en": "",
+  "en": "…… Grineed Castle… Let's go smash it[BR]to pieces!!![WAIT]",
   "bytes": 72,
   "sites": [
    "231711:op7A+2",
@@ -4168,7 +4269,8 @@
    "231711:op7A+2",
    "231711:op7A+2",
    "231711:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:232840",
@@ -4229,7 +4331,7 @@
   "addr": "23285E",
   "kind": "msg",
   "jp": "・・・マジ！？[WAIT]",
-  "en": "",
+  "en": "…Seriously?![WAIT]",
   "bytes": 18,
   "sites": [
    "231746:op7A+2",
@@ -4239,7 +4341,8 @@
    "231746:op7A+2",
    "231746:op7A+2",
    "231746:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:232870",
@@ -4304,7 +4407,7 @@
   "addr": "232890",
   "kind": "msg",
   "jp": "本気・・・なの、ビィト？[WAIT]",
-  "en": "",
+  "en": "You mean it… Beet?[WAIT]",
   "bytes": 28,
   "sites": [
    "23177B:op7A+2",
@@ -4316,7 +4419,8 @@
    "23177B:op7A+2",
    "23177B:op7A+2",
    "23177B:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:2328AC",
@@ -4343,7 +4447,7 @@
   "addr": "2328B4",
   "kind": "msg",
   "jp": "ああ！[PAGE]グリニデの奴につかまってる人もいるし[BR]実験（じっけん）に使うなんて[BR]ぜったいにゆるせないしな！！[PAGE]それに、城（しろ）をこわせば・・・[BR]さすがにしばらく悪さはできないだろ[WAIT]",
-  "en": "",
+  "en": "Yeah![PAGE]Grineed's got people locked up, and[BR]using them for experiments… there's no[BR]way I'm forgiving that!![PAGE]Besides, if we wreck his castle… even[BR]he won't be able to cause trouble for[BR]a while.[WAIT]",
   "bytes": 180,
   "sites": [
    "231791:op7A+2",
@@ -4355,7 +4459,8 @@
    "231791:op7A+2",
    "231791:op7A+2",
    "231791:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:232968",
@@ -4382,7 +4487,7 @@
   "addr": "232970",
   "kind": "msg",
   "jp": "それは・・・そうだろうけど・・・・[WAIT]",
-  "en": "",
+  "en": "Well… I guess that's true, but….[WAIT]",
   "bytes": 38,
   "sites": [
    "2317A7:op7A+2",
@@ -4394,7 +4499,8 @@
    "2317A7:op7A+2",
    "2317A7:op7A+2",
    "2317A7:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:232996",
@@ -4421,7 +4527,7 @@
   "addr": "23299E",
   "kind": "msg",
   "jp": "まさか・・・[BR]グリニデと正面からたたかうつもり？[BR]ビィト・・・！？[WAIT]",
-  "en": "",
+  "en": "Don't tell me… you're planning to[BR]fight Grineed head-on? Beet…?![WAIT]",
   "bytes": 70,
   "sites": [
    "2317BD:op7A+2",
@@ -4433,7 +4539,8 @@
    "2317BD:op7A+2",
    "2317BD:op7A+2",
    "2317BD:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:2329E4",
@@ -4460,7 +4567,7 @@
   "addr": "2329EE",
   "kind": "msg",
   "jp": "ムチャだぞ・・・それは・・・！[WAIT]",
-  "en": "",
+  "en": "That's reckless… and you know it…![WAIT]",
   "bytes": 34,
   "sites": [
    "2317DC:op7A+2",
@@ -4472,7 +4579,8 @@
    "2317DC:op7A+2",
    "2317DC:op7A+2",
    "2317DC:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:232A10",
@@ -4500,7 +4608,7 @@
   "addr": "232A18",
   "kind": "msg",
   "jp": "いや、さすがにそこまでは考えてないよ[PAGE]とにかく、そのつかまってる人や[BR]モンスター実験場（じっけんじょう）[BR]なんかをさがせればさぁ・・・[WAIT]",
-  "en": "",
+  "en": "Nah, I'm not thinking THAT far ahead.[PAGE]Anyway, if we can just find those[BR]prisoners and the Monster Lab and[BR]stuff…[WAIT]",
   "bytes": 138,
   "sites": [
    "2317F2:op7A+2",
@@ -4513,7 +4621,8 @@
    "2317F2:op7A+2",
    "2317F2:op7A+2",
    "2317F2:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:232AA2",
@@ -4541,7 +4650,7 @@
   "addr": "232AAA",
   "kind": "msg",
   "jp": "・・・ビィト[BR]グリニデ城（じょう）には[BR]中枢部（ちゅうすうぶ）があって・・・[PAGE]そこを破壊（はかい）すれば[BR]城（しろ）は役立たずに[BR]なるはずだよ・・・！[WAIT]",
-  "en": "",
+  "en": "…Beet, Grineed Castle has a core…[PAGE]If we destroy it, the castle should[BR]become useless…![WAIT]",
   "bytes": 154,
   "sites": [
    "231808:op7A+2",
@@ -4554,7 +4663,8 @@
    "231808:op7A+2",
    "231808:op7A+2",
    "231808:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:232B44",
@@ -4582,7 +4692,7 @@
   "addr": "232B4C",
   "kind": "msg",
   "jp": "キッス・・・おまえ！[WAIT]",
-  "en": "",
+  "en": "Kissu… you…![WAIT]",
   "bytes": 24,
   "sites": [
    "23181E:op7A+2",
@@ -4595,7 +4705,8 @@
    "23181E:op7A+2",
    "23181E:op7A+2",
    "23181E:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:232B64",
@@ -4623,7 +4734,7 @@
   "addr": "232B6C",
   "kind": "msg",
   "jp": "ぼくは、グリニデ城（じょう）に[BR]いたからね・・・[BR]構造（こうぞう）も、少しはわかるよ[WAIT]",
-  "en": "",
+  "en": "I used to live in Grineed Castle,[BR]after all… I know a little about how[BR]it's built.[WAIT]",
   "bytes": 88,
   "sites": [
    "231834:op7A+2",
@@ -4636,7 +4747,8 @@
    "231834:op7A+2",
    "231834:op7A+2",
    "231834:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:232BC4",
@@ -4664,7 +4776,7 @@
   "addr": "232BCC",
   "kind": "msg",
   "jp": "さっすがキッス！！[WAIT]",
-  "en": "",
+  "en": "That's Kissu for ya!![WAIT]",
   "bytes": 22,
   "sites": [
    "23184A:op7A+2",
@@ -4677,7 +4789,8 @@
    "23184A:op7A+2",
    "23184A:op7A+2",
    "23184A:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:232BE2",
@@ -4705,7 +4818,7 @@
   "addr": "232BEC",
   "kind": "msg",
   "jp": "・・・グリニデは・・・どうするの？[WAIT]",
-  "en": "",
+  "en": "…And what about Grineed…?[WAIT]",
   "bytes": 38,
   "sites": [
    "231869:op7A+2",
@@ -4718,7 +4831,8 @@
    "231869:op7A+2",
    "231869:op7A+2",
    "231869:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:232C12",
@@ -4747,7 +4861,7 @@
   "addr": "232C1A",
   "kind": "msg",
   "jp": "うん・・・でもグリニデとはち合わせ[BR]しないともかぎらないよ・・・[WAIT]",
-  "en": "",
+  "en": "Yeah… There's no telling we won't run[BR]right into Grineed, though…[WAIT]",
   "bytes": 68,
   "sites": [
    "23187F:op7A+2",
@@ -4761,7 +4875,8 @@
    "23187F:op7A+2",
    "23187F:op7A+2",
    "23187F:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:232C5E",
@@ -4790,7 +4905,7 @@
   "addr": "232C66",
   "kind": "msg",
   "jp": "それでも行くしかないだろっ！[PAGE]つかまってる人を助け出して、[BR]城（しろ）の中枢部（ちゅうすうぶ）を[BR]破壊（はかい）するんだ！！[WAIT]",
-  "en": "",
+  "en": "We've still gotta go, no matter what![PAGE]We rescue the prisoners, and we[BR]destroy the castle's core!![WAIT]",
   "bytes": 128,
   "sites": [
    "231895:op7A+2",
@@ -4804,7 +4919,8 @@
    "231895:op7A+2",
    "231895:op7A+2",
    "231895:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:232CE6",
@@ -4833,7 +4949,7 @@
   "addr": "232CEE",
   "kind": "msg",
   "jp": "・・・そうね！[WAIT]",
-  "en": "",
+  "en": "…Right![WAIT]",
   "bytes": 18,
   "sites": [
    "2318AB:op7A+2",
@@ -4847,7 +4963,8 @@
    "2318AB:op7A+2",
    "2318AB:op7A+2",
    "2318AB:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:232D00",
@@ -4876,7 +4993,7 @@
   "addr": "232D08",
   "kind": "msg",
   "jp": "うん、わかったよ！[WAIT]",
-  "en": "",
+  "en": "Yeah, got it![WAIT]",
   "bytes": 22,
   "sites": [
    "2318C1:op7A+2",
@@ -4890,7 +5007,8 @@
    "2318C1:op7A+2",
    "2318C1:op7A+2",
    "2318C1:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:232D1E",
@@ -4919,7 +5037,7 @@
   "addr": "232D28",
   "kind": "msg",
   "jp": "・・・ウム[WAIT]",
-  "en": "",
+  "en": "…Mm.[WAIT]",
   "bytes": 14,
   "sites": [
    "2318E0:op7A+2",
@@ -4933,7 +5051,8 @@
    "2318E0:op7A+2",
    "2318E0:op7A+2",
    "2318E0:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:232D36",
@@ -5010,7 +5129,7 @@
   "addr": "232D56",
   "kind": "msg",
   "jp": "よーしっ！[BR]じゃあみんな・・・グリニデに[BR]ひと泡ふかせてやろうぜっ！！[WAIT]",
-  "en": "",
+  "en": "Alriiight! Okay, everyone… let's give[BR]Grineed the shock of his life!![WAIT]",
   "bytes": 74,
   "sites": [
    "231915:op7A+2",
@@ -5026,7 +5145,8 @@
    "231915:op7A+2",
    "231915:op7A+2",
    "231915:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:232DA0",
@@ -5057,7 +5177,7 @@
   "addr": "232DAC",
   "kind": "msg",
   "jp": "みなさん、どうかごぶじで・・・[BR]仲間（なかま）のこと・・・[BR]おねがいします・・・！[WAIT]",
-  "en": "",
+  "en": "Please, all of you, stay safe… And our[BR]friends… we're counting on you…![WAIT]",
   "bytes": 86,
   "sites": [
    "231922:op52+5",
@@ -5073,7 +5193,8 @@
    "231922:op52+5",
    "231922:op52+5",
    "231922:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:232E02",
@@ -5104,7 +5225,7 @@
   "addr": "232E0A",
   "kind": "msg",
   "jp": "おうっ！[BR]まかせとけって！！[WAIT]",
-  "en": "",
+  "en": "You bet! Just leave it to us!![WAIT]",
   "bytes": 32,
   "sites": [
    "231936:op7A+2",
@@ -5120,7 +5241,8 @@
    "231936:op7A+2",
    "231936:op7A+2",
    "231936:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:232E2A",
@@ -5151,7 +5273,7 @@
   "addr": "232E32",
   "kind": "msg",
   "jp": "・・・あ、あのさビィト・・・[BR]グリニデ城（じょう）の場所の事[BR]なんだけど・・・[WAIT]",
-  "en": "",
+  "en": "…Um, hey, Beet… About where Grineed[BR]Castle is…[WAIT]",
   "bytes": 82,
   "sites": [
    "23194C:op7A+2",
@@ -5167,7 +5289,8 @@
    "23194C:op7A+2",
    "23194C:op7A+2",
    "23194C:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:232E84",
@@ -5198,7 +5321,7 @@
   "addr": "232E8C",
   "kind": "msg",
   "jp": "・・・あ、そうだな・・・[BR]キッスはグリニデ城（じょう）が[BR]どこにあるか、知ってるんだっけか[WAIT]",
-  "en": "",
+  "en": "…Oh, right… Kissu, you know where[BR]Grineed Castle is, don't you?[WAIT]",
   "bytes": 94,
   "sites": [
    "231962:op7A+2",
@@ -5214,7 +5337,8 @@
    "231962:op7A+2",
    "231962:op7A+2",
    "231962:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:232EEA",
@@ -5245,7 +5369,7 @@
   "addr": "232EF2",
   "kind": "msg",
   "jp": "うん・・・でもね[BR]いつもぼくらはモンスターを使って[BR]移動したりしてたから、[PAGE]人間が歩いて行こうとすると、[BR]ふつうの道を行くしかないと思う・・・[WAIT]",
-  "en": "",
+  "en": "Yeah… but, see, we always got around[BR]using monsters,[PAGE]so if a human wants to go on foot, I[BR]think the only way is the regular[BR]road…[WAIT]",
   "bytes": 146,
   "sites": [
    "231978:op7A+2",
@@ -5261,7 +5385,8 @@
    "231978:op7A+2",
    "231978:op7A+2",
    "231978:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:232F84",
@@ -5340,7 +5465,7 @@
   "addr": "232FA6",
   "kind": "msg",
   "jp": "たしか、グリニデ城（じょう）に[BR]通じる道は・・・[PAGE]監視（かんし）のバスターが[BR]いたはずだけど・・・[PAGE]おそらくそのまま行っても、[BR]通してもらえないんじゃないかな？[WAIT]",
-  "en": "",
+  "en": "If I remember right, on the road[BR]leading to Grineed Castle…[PAGE]there should be Busters keeping watch…[PAGE]If we just walk up, I doubt they'll[BR]let us through, you know?[WAIT]",
   "bytes": 164,
   "sites": [
    "2319A4:op7A+2",
@@ -5356,7 +5481,8 @@
    "2319A4:op7A+2",
    "2319A4:op7A+2",
    "2319A4:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23304A",
@@ -5387,7 +5513,7 @@
   "addr": "233052",
   "kind": "msg",
   "jp": "んじゃ、どうするよ・・・[BR]ムリやりにでもとっぱするか？[WAIT]",
-  "en": "",
+  "en": "So, what do we do… Bust our way[BR]through by force?[WAIT]",
   "bytes": 58,
   "sites": [
    "2319BA:op7A+2",
@@ -5403,7 +5529,8 @@
    "2319BA:op7A+2",
    "2319BA:op7A+2",
    "2319BA:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23308C",
@@ -5434,7 +5561,7 @@
   "addr": "233094",
   "kind": "msg",
   "jp": "バカねぇ！[BR]そんなことしてどうするのよ！[PAGE]とにかく、鑑定小屋（ハウス）で[BR]相談してみるのがいいと思うけど[WAIT]",
-  "en": "",
+  "en": "Don't be an idiot! What good would[BR]that do?![PAGE]Anyway, I think we should go talk it[BR]over at the Appraisal House.[WAIT]",
   "bytes": 108,
   "sites": [
    "2319D0:op7A+2",
@@ -5450,7 +5577,8 @@
    "2319D0:op7A+2",
    "2319D0:op7A+2",
    "2319D0:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:233100",
@@ -5481,7 +5609,7 @@
   "addr": "233108",
   "kind": "msg",
   "jp": "そうだね、それがいいと思う[WAIT]",
-  "en": "",
+  "en": "Yeah, I think that's a good idea.[WAIT]",
   "bytes": 30,
   "sites": [
    "2319E6:op7A+2",
@@ -5497,7 +5625,8 @@
    "2319E6:op7A+2",
    "2319E6:op7A+2",
    "2319E6:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:233126",
@@ -5528,7 +5657,7 @@
   "addr": "23312E",
   "kind": "msg",
   "jp": "よし、じゃあ[PAGE]鑑定小屋（ハウス）で[BR]聞いてみるか！[WAIT]",
-  "en": "",
+  "en": "Alright, then[PAGE]let's go ask at the Appraisal House![WAIT]",
   "bytes": 54,
   "sites": [
    "2319FC:op7A+2",
@@ -5544,18 +5673,20 @@
    "2319FC:op7A+2",
    "2319FC:op7A+2",
    "2319FC:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:233CE0",
   "addr": "233CE0",
   "kind": "banner",
   "jp": "ビィト戦士団",
-  "en": "",
+  "en": "Beet Warriors",
   "bytes": 14,
   "sites": [
    "233176:op6F+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:233CEE",
@@ -5576,13 +5707,14 @@
   "addr": "233CF6",
   "kind": "msg",
   "jp": "ちょっと・・・[BR]教えて欲しいんだけど・・・[WAIT]",
-  "en": "",
+  "en": "Hey… there's something I want you to[BR]tell me…[WAIT]",
   "bytes": 46,
   "sites": [
    "2331D7:op7A+2",
    "2331D7:op7A+2",
    "2331D7:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:233D24",
@@ -5603,13 +5735,14 @@
   "addr": "233D2C",
   "kind": "msg",
   "jp": "ん？　・・・なんじゃね？[WAIT]",
-  "en": "",
+  "en": "Hm? …What is it, eh?[WAIT]",
   "bytes": 28,
   "sites": [
    "2331ED:op7A+2",
    "2331ED:op7A+2",
    "2331ED:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:233D48",
@@ -5630,13 +5763,14 @@
   "addr": "233D50",
   "kind": "msg",
   "jp": "「グリニデ城（じょう）」って・・・[BR]どうやって行けばいいんだ？[WAIT]",
-  "en": "",
+  "en": "How do we get to \"Grineed Castle\"?[WAIT]",
   "bytes": 66,
   "sites": [
    "233203:op7A+2",
    "233203:op7A+2",
    "233203:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:233D92",
@@ -5657,13 +5791,14 @@
   "addr": "233D9A",
   "kind": "msg",
   "jp": "！？[BR]お、おまえたち・・・[BR]それを知ってどうする気じゃ？[WAIT]",
-  "en": "",
+  "en": "?! Y-you lot… What do you mean to do[BR]once you know, eh?[WAIT]",
   "bytes": 60,
   "sites": [
    "233219:op7A+2",
    "233219:op7A+2",
    "233219:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:233DD6",
@@ -5684,13 +5819,14 @@
   "addr": "233DDE",
   "kind": "msg",
   "jp": "・・・グリニデに、[BR]ひとあわふかしてやろうと思ってさ！[WAIT]",
-  "en": "",
+  "en": "…We're gonna give Grineed the shock of[BR]his life![WAIT]",
   "bytes": 58,
   "sites": [
    "23322F:op7A+2",
    "23322F:op7A+2",
    "23322F:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:233E18",
@@ -5711,13 +5847,14 @@
   "addr": "233E20",
   "kind": "msg",
   "jp": "グリニデ城（じょう）に[BR]さらわれてる人もいるんです・・・[BR]助けにいかないと！[WAIT]",
-  "en": "",
+  "en": "There are people being held in Grineed[BR]Castle… We have to go save them![WAIT]",
   "bytes": 80,
   "sites": [
    "233245:op7A+2",
    "233245:op7A+2",
    "233245:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:233E70",
@@ -5738,13 +5875,14 @@
   "addr": "233E78",
   "kind": "msg",
   "jp": "それに・・・[BR]モンスターの実験場（じっけんじょう）[BR]もあるっていうし・・・[PAGE]なんとかしないといけない！[WAIT]",
-  "en": "",
+  "en": "And besides… they say the Monster Lab[BR]is there too…[PAGE]We have to do something about it![WAIT]",
   "bytes": 106,
   "sites": [
    "23325B:op7A+2",
    "23325B:op7A+2",
    "23325B:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:233EE2",
@@ -5765,13 +5903,14 @@
   "addr": "233EEA",
   "kind": "msg",
   "jp": "・・・な、なんと・・・！[PAGE]本気かね・・・？[BR]あのグリニデ城（じょう）に[BR]乗りこむなど・・・・・・[WAIT]",
-  "en": "",
+  "en": "…Wh-why, I never…![PAGE]Are you serious…? Storming into that[BR]Grineed Castle……[WAIT]",
   "bytes": 100,
   "sites": [
    "233271:op7A+2",
    "233271:op7A+2",
    "233271:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:233F4E",
@@ -5792,13 +5931,14 @@
   "addr": "233F56",
   "kind": "msg",
   "jp": "ああ・・・！[WAIT]",
-  "en": "",
+  "en": "Yeah…![WAIT]",
   "bytes": 16,
   "sites": [
    "233287:op7A+2",
    "233287:op7A+2",
    "233287:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:233F66",
@@ -5819,13 +5959,14 @@
   "addr": "233F6E",
   "kind": "msg",
   "jp": "もちろん、本気よ[WAIT]",
-  "en": "",
+  "en": "Of course we're serious.[WAIT]",
   "bytes": 20,
   "sites": [
    "23329D:op7A+2",
    "23329D:op7A+2",
    "23329D:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:233F82",
@@ -5846,13 +5987,14 @@
   "addr": "233F8A",
   "kind": "msg",
   "jp": "ぼくたち・・・決めたんだ・・・！[WAIT]",
-  "en": "",
+  "en": "We've… made up our minds…![WAIT]",
   "bytes": 36,
   "sites": [
    "2332B3:op7A+2",
    "2332B3:op7A+2",
    "2332B3:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:233FAE",
@@ -5873,13 +6015,14 @@
   "addr": "233FB8",
   "kind": "msg",
   "jp": "冗談（じょうだん）でこんな事は言えん[WAIT]",
-  "en": "",
+  "en": "I wouldn't joke about a thing like[BR]this.[WAIT]",
   "bytes": 40,
   "sites": [
    "2332D2:op7A+2",
    "2332D2:op7A+2",
    "2332D2:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:233FE0",
@@ -5901,14 +6044,15 @@
   "addr": "233FEA",
   "kind": "msg",
   "jp": "行き方、教えてくれる・・・わよね？[WAIT]",
-  "en": "",
+  "en": "You'll tell us the way… won't you, hm?[WAIT]",
   "bytes": 38,
   "sites": [
    "2332F1:op7A+2",
    "2332F1:op7A+2",
    "2332F1:op7A+2",
    "2332F1:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:234010",
@@ -5931,7 +6075,7 @@
   "addr": "234018",
   "kind": "msg",
   "jp": "・・・・・・・[BR]わかった。教えよう・・・・[WAIT]",
-  "en": "",
+  "en": "……. Very well. I'll tell you….[WAIT]",
   "bytes": 46,
   "sites": [
    "233307:op7A+2",
@@ -5939,7 +6083,8 @@
    "233307:op7A+2",
    "233307:op7A+2",
    "233307:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:234046",
@@ -5962,7 +6107,7 @@
   "addr": "23404E",
   "kind": "msg",
   "jp": "・・・ありがてぇ！　どうすればいい？[WAIT]",
-  "en": "",
+  "en": "…Thanks a ton! What do we do?[WAIT]",
   "bytes": 40,
   "sites": [
    "23331D:op7A+2",
@@ -5970,7 +6115,8 @@
    "23331D:op7A+2",
    "23331D:op7A+2",
    "23331D:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:234076",
@@ -5993,7 +6139,7 @@
   "addr": "23407E",
   "kind": "msg",
   "jp": "・・・ムスリーじゃ[BR]ムスリー山地の奥地（おくち）に、[BR]グリニデ城（じょう）の入り口はある[PAGE]だが、門番とも言うべきモンスターが[BR]いるのはもちろん、[PAGE]そのグリニデ城（じょう）の門自体も[BR]かなり強固（きょうこ）だと聞く・・・[WAIT]",
-  "en": "",
+  "en": "…Musley, that's where. Deep in the[BR]Musley Mountains lies the entrance to[BR]Grineed Castle.[PAGE]But there's a monster you might call[BR]its gatekeeper, of course,[PAGE]and I hear the gate of Grineed Castle[BR]itself is mighty sturdy, too…[WAIT]",
   "bytes": 222,
   "sites": [
    "233333:op7A+2",
@@ -6001,7 +6147,8 @@
    "233333:op7A+2",
    "233333:op7A+2",
    "233333:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23415C",
@@ -6024,7 +6171,7 @@
   "addr": "234164",
   "kind": "msg",
   "jp": "ふむ・・・[BR]やっぱ、ひと筋縄（すじなわ）じゃ[BR]いかなそうだなあ・・・！[WAIT]",
-  "en": "",
+  "en": "Hmm… Figures it ain't gonna be easy…![WAIT]",
   "bytes": 74,
   "sites": [
    "233349:op7A+2",
@@ -6032,7 +6179,8 @@
    "233349:op7A+2",
    "233349:op7A+2",
    "233349:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:2341AE",
@@ -6055,7 +6203,7 @@
   "addr": "2341B8",
   "kind": "msg",
   "jp": "さすがに・・・[BR]てきの総本山（そうほんざん）だからな[WAIT]",
-  "en": "",
+  "en": "Well… it is the enemy's headquarters.[WAIT]",
   "bytes": 56,
   "sites": [
    "233368:op7A+2",
@@ -6063,7 +6211,8 @@
    "233368:op7A+2",
    "233368:op7A+2",
    "233368:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:2341F0",
@@ -6087,7 +6236,7 @@
   "addr": "2341F8",
   "kind": "msg",
   "jp": "でも・・・やるんでしょ、ビィト？[WAIT]",
-  "en": "",
+  "en": "But… you're doing it anyway, aren't[BR]you, Beet?[WAIT]",
   "bytes": 36,
   "sites": [
    "23337E:op7A+2",
@@ -6096,7 +6245,8 @@
    "23337E:op7A+2",
    "23337E:op7A+2",
    "23337E:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23421C",
@@ -6120,7 +6270,7 @@
   "addr": "234224",
   "kind": "msg",
   "jp": "ああ・・・やるっ！[WAIT]",
-  "en": "",
+  "en": "Yeah… I'm doing it![WAIT]",
   "bytes": 22,
   "sites": [
    "233394:op7A+2",
@@ -6129,7 +6279,8 @@
    "233394:op7A+2",
    "233394:op7A+2",
    "233394:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23423A",
@@ -6153,7 +6304,7 @@
   "addr": "234242",
   "kind": "msg",
   "jp": "門はまぁ、なんとかなるとして・・・[BR]問題は門番だね[PAGE]いったいどんなモンスターが[BR]配置（はいち）されてるのか・・・[WAIT]",
-  "en": "",
+  "en": "We'll manage the gate somehow… The[BR]problem is the gatekeeper.[PAGE]I wonder what kind of monster they've[BR]put there…[WAIT]",
   "bytes": 116,
   "sites": [
    "2333AA:op7A+2",
@@ -6162,7 +6313,8 @@
    "2333AA:op7A+2",
    "2333AA:op7A+2",
    "2333AA:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:2342B6",
@@ -6186,7 +6338,7 @@
   "addr": "2342C0",
   "kind": "msg",
   "jp": "どんなモンスターがいても・・・[BR]やっつけるのにはかわりないでしょ？[WAIT]",
-  "en": "",
+  "en": "Whatever monster's there… we're[BR]beating it either way, right?[WAIT]",
   "bytes": 70,
   "sites": [
    "2333C9:op7A+2",
@@ -6195,7 +6347,8 @@
    "2333C9:op7A+2",
    "2333C9:op7A+2",
    "2333C9:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:234306",
@@ -6220,7 +6373,7 @@
   "addr": "23430E",
   "kind": "msg",
   "jp": "それにグリニデ城（じょう）は[BR]まさに本拠地（ほんきょち）じゃ！[BR]中では何が起こるかわからんぞ・・・[WAIT]",
-  "en": "",
+  "en": "And Grineed Castle is his very[BR]stronghold, mind you! There's no[BR]telling what'll happen inside…[WAIT]",
   "bytes": 102,
   "sites": [
    "2333DF:op7A+2",
@@ -6230,7 +6383,8 @@
    "2333DF:op7A+2",
    "2333DF:op7A+2",
    "2333DF:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:234374",
@@ -6255,7 +6409,7 @@
   "addr": "23437C",
   "kind": "msg",
   "jp": "・・・だいじょうぶさ！[PAGE]なんたってオレは・・・[BR]「暗黒の世紀（あんこくのせいき）を[BR]終わらせる男」だからなっ！！[WAIT]",
-  "en": "",
+  "en": "…We'll be fine![PAGE]After all, I'm… \"the man who'll end[BR]the Dark Century\"!![WAIT]",
   "bytes": 116,
   "sites": [
    "2333F5:op7A+2",
@@ -6265,7 +6419,8 @@
    "2333F5:op7A+2",
    "2333F5:op7A+2",
    "2333F5:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:2343F0",
@@ -6290,7 +6445,7 @@
   "addr": "2343F8",
   "kind": "msg",
   "jp": "・・・ふむ、そうじゃったの[WAIT]",
-  "en": "",
+  "en": "…Hmm, so you are, eh.[WAIT]",
   "bytes": 30,
   "sites": [
    "23340B:op7A+2",
@@ -6300,7 +6455,8 @@
    "23340B:op7A+2",
    "23340B:op7A+2",
    "23340B:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:234416",
@@ -6325,7 +6481,7 @@
   "addr": "23441E",
   "kind": "msg",
   "jp": "それに、ポアラやキッス・・・[BR]仲間（なかま）のみんながいる！[BR]ぜったいだいじょうぶだ！！[WAIT]",
-  "en": "",
+  "en": "Plus, I've got Poala and Kissu… all my[BR]friends! We'll be totally fine!![WAIT]",
   "bytes": 92,
   "sites": [
    "233421:op7A+2",
@@ -6335,7 +6491,8 @@
    "233421:op7A+2",
    "233421:op7A+2",
    "233421:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23447A",
@@ -6360,7 +6517,7 @@
   "addr": "234482",
   "kind": "msg",
   "jp": "・・・ムスリー山地から[BR]グリニデ城（じょう）へとつづく道には[BR]監視（かんし）のバスターが[PAGE]派遣（はけん）されておる[PAGE]監視（かんし）のバスターには[BR]これを見せれば、[BR]通してくれるじゃろう[WAIT]",
-  "en": "",
+  "en": "…On the road from the Musley Mountains[BR]to Grineed Castle,[PAGE]Busters have been sent to keep watch.[PAGE]Show this to the watch Busters, and[BR]they should let you through.[WAIT]",
   "bytes": 188,
   "sites": [
    "233437:op7A+2",
@@ -6370,14 +6527,15 @@
    "233437:op7A+2",
    "233437:op7A+2",
    "233437:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23453E",
   "addr": "23453E",
   "kind": "msg",
   "jp": "「通行許可証[BR]（つうこうきょかしょう）」を[BR]手に入れた[WAIT]",
-  "en": "",
+  "en": "Got the \"Travel Pass\"![WAIT]",
   "bytes": 58,
   "sites": [
    "233440:op3B+1",
@@ -6387,7 +6545,8 @@
    "233440:op3B+1",
    "233440:op3B+1",
    "233440:op3B+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:234578",
@@ -6413,7 +6572,7 @@
   "addr": "234580",
   "kind": "msg",
   "jp": "・・・ありがとう[WAIT]",
-  "en": "",
+  "en": "…Thank you.[WAIT]",
   "bytes": 20,
   "sites": [
    "233454:op7A+2",
@@ -6424,7 +6583,8 @@
    "233454:op7A+2",
    "233454:op7A+2",
    "233454:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:234594",
@@ -6450,7 +6610,7 @@
   "addr": "23459C",
   "kind": "msg",
   "jp": "よし！・・・行ってくるぜ！！[WAIT]",
-  "en": "",
+  "en": "Alright! …We're off!![WAIT]",
   "bytes": 32,
   "sites": [
    "23346A:op7A+2",
@@ -6461,7 +6621,8 @@
    "23346A:op7A+2",
    "23346A:op7A+2",
    "23346A:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:2345BC",
@@ -6487,7 +6648,7 @@
   "addr": "2345C4",
   "kind": "msg",
   "jp": "・・・ムチャは、するんじゃないぞ・・・[WAIT]",
-  "en": "",
+  "en": "…Now don't you go doing anything[BR]reckless…[WAIT]",
   "bytes": 42,
   "sites": [
    "233480:op7A+2",
@@ -6498,7 +6659,8 @@
    "233480:op7A+2",
    "233480:op7A+2",
    "233480:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:2345EE",
@@ -6524,7 +6686,7 @@
   "addr": "2345F6",
   "kind": "msg",
   "jp": "へへっ！　大丈夫だって！！[BR]じゃあなっ！！[WAIT]",
-  "en": "",
+  "en": "Heh heh! We'll be fine! See ya!![WAIT]",
   "bytes": 46,
   "sites": [
    "233496:op7A+2",
@@ -6535,7 +6697,8 @@
    "233496:op7A+2",
    "233496:op7A+2",
    "233496:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:234624",
@@ -6556,13 +6719,14 @@
   "addr": "23462E",
   "kind": "msg",
   "jp": "おい、そこのバスター！[BR]この先はキケンだ[PAGE]通行禁止（つうこうきんし）だ！[WAIT]",
-  "en": "",
+  "en": "Hey, you Busters there! It's dangerous[BR]ahead.[PAGE]No one gets through![WAIT]",
   "bytes": 76,
   "sites": [
    "233507:op52+5",
    "233507:op52+5",
    "233507:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23467A",
@@ -6583,13 +6747,14 @@
   "addr": "234682",
   "kind": "msg",
   "jp": "ああ、知ってるさ[BR]「グリニデ城（じょう）」が[BR]あるんだろ？[PAGE]オレたち・・・[BR]そこに用があるんだ・・・！[WAIT]",
-  "en": "",
+  "en": "Yeah, we know. \"Grineed Castle\" is up[BR]ahead, right?[PAGE]We… have business there…![WAIT]",
   "bytes": 106,
   "sites": [
    "23351B:op7A+2",
    "23351B:op7A+2",
    "23351B:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:2346EC",
@@ -6610,13 +6775,14 @@
   "addr": "2346F6",
   "kind": "msg",
   "jp": "な、なんだって！？[BR]グリニデ城に・・・！！[WAIT]",
-  "en": "",
+  "en": "Wh-what did you say?! At Grineed[BR]Castle…?!![WAIT]",
   "bytes": 46,
   "sites": [
    "233528:op52+5",
    "233528:op52+5",
    "233528:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:234724",
@@ -6637,26 +6803,28 @@
   "addr": "23472C",
   "kind": "msg",
   "jp": "ええ、そうよ・・・[PAGE]鑑定小屋（ハウス）からの[BR]許可証（きょかしょう）も[BR]持ってるわ・・・！[WAIT]",
-  "en": "",
+  "en": "Yes, that's right…[PAGE]And we have a pass from the Appraisal[BR]House, too…![WAIT]",
   "bytes": 94,
   "sites": [
    "23353C:op7A+2",
    "23353C:op7A+2",
    "23353C:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23478A",
   "addr": "23478A",
   "kind": "msg",
   "jp": "ポアラは[PAGE]「通行許可証[BR]（つうこうきょかしょう）」を[BR]見せた[WAIT]",
-  "en": "",
+  "en": "Poala[PAGE]showed the \"Travel Pass\".[WAIT]",
   "bytes": 64,
   "sites": [
    "233545:op3B+1",
    "233545:op3B+1",
    "233545:op3B+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:2347CA",
@@ -6677,13 +6845,14 @@
   "addr": "2347D4",
   "kind": "msg",
   "jp": "・・・・・・本気の、ようだな・・・[WAIT]",
-  "en": "",
+  "en": "……Looks like you're serious…[WAIT]",
   "bytes": 38,
   "sites": [
    "233550:op52+5",
    "233550:op52+5",
    "233550:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:2347FA",
@@ -6704,13 +6873,14 @@
   "addr": "234802",
   "kind": "msg",
   "jp": "もちろんだぜっ！[WAIT]",
-  "en": "",
+  "en": "You bet we are![WAIT]",
   "bytes": 20,
   "sites": [
    "233564:op7A+2",
    "233564:op7A+2",
    "233564:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:234816",
@@ -6759,13 +6929,14 @@
   "addr": "234830",
   "kind": "msg",
   "jp": "・・・ちょっと、怖いけどね・・・[BR]あはははっ！[WAIT]",
-  "en": "",
+  "en": "…Though I'm a little scared… Ah ha ha[BR]ha![WAIT]",
   "bytes": 50,
   "sites": [
    "233590:op7A+2",
    "233590:op7A+2",
    "233590:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:234862",
@@ -6786,13 +6957,14 @@
   "addr": "23486A",
   "kind": "msg",
   "jp": "通してもらうぜ・・・！[WAIT]",
-  "en": "",
+  "en": "We're coming through…![WAIT]",
   "bytes": 26,
   "sites": [
    "2335A6:op7A+2",
    "2335A6:op7A+2",
    "2335A6:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:234884",
@@ -6813,13 +6985,14 @@
   "addr": "23488E",
   "kind": "msg",
   "jp": "わかった。通行を許可（きょか）しよう[WAIT]",
-  "en": "",
+  "en": "Very well. You may pass.[WAIT]",
   "bytes": 40,
   "sites": [
    "2335B3:op52+5",
    "2335B3:op52+5",
    "2335B3:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:2348B6",
@@ -6896,13 +7069,14 @@
   "addr": "23490E",
   "kind": "msg",
   "jp": "あそこが・・・[BR]グリニデ城（じょう）か！！[WAIT]",
-  "en": "",
+  "en": "So that's… Grineed Castle!![WAIT]",
   "bytes": 46,
   "sites": [
    "23366D:op7A+2",
    "23366D:op7A+2",
    "23366D:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23493C",
@@ -6923,13 +7097,14 @@
   "addr": "234944",
   "kind": "msg",
   "jp": "そうみたい・・・ね・・・！[WAIT]",
-  "en": "",
+  "en": "Looks like it… is…![WAIT]",
   "bytes": 30,
   "sites": [
    "233683:op7A+2",
    "233683:op7A+2",
    "233683:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:234962",
@@ -6950,13 +7125,14 @@
   "addr": "23496A",
   "kind": "msg",
   "jp": "・・・やっぱり[BR]門番がいるね・・・やる？[WAIT]",
-  "en": "",
+  "en": "…Sure enough, there's a gatekeeper…[BR]Shall we?[WAIT]",
   "bytes": 44,
   "sites": [
    "2336A1:op7A+2",
    "2336A1:op7A+2",
    "2336A1:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:234996",
@@ -6977,13 +7153,14 @@
   "addr": "2349A0",
   "kind": "msg",
   "jp": "・・・やるしかないな[WAIT]",
-  "en": "",
+  "en": "…We've got no choice.[WAIT]",
   "bytes": 24,
   "sites": [
    "2336C0:op7A+2",
    "2336C0:op7A+2",
    "2336C0:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:2349B8",
@@ -7005,14 +7182,15 @@
   "addr": "2349C2",
   "kind": "msg",
   "jp": "どの道・・・[BR]門を突破（とっぱ）しないと[BR]入れないんだし・・・[PAGE]派手（はで）にいっちゃう？[WAIT]",
-  "en": "",
+  "en": "Either way… we can't get in without[BR]breaking through the gate…[PAGE]So, shall we go out with a bang?[WAIT]",
   "bytes": 94,
   "sites": [
    "2336DF:op7A+2",
    "2336DF:op7A+2",
    "2336DF:op7A+2",
    "2336DF:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:234A20",
@@ -7035,7 +7213,7 @@
   "addr": "234A28",
   "kind": "msg",
   "jp": "よしっ！[BR]行くぜみんなっ！！！[WAIT]",
-  "en": "",
+  "en": "Alright! Let's go, everyone!!![WAIT]",
   "bytes": 34,
   "sites": [
    "2336F5:op7A+2",
@@ -7043,7 +7221,8 @@
    "2336F5:op7A+2",
    "2336F5:op7A+2",
    "2336F5:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:234A4A",
@@ -7068,7 +7247,7 @@
   "addr": "234A52",
   "kind": "msg",
   "jp": "よし・・・後はこの門を・・・[WAIT]",
-  "en": "",
+  "en": "Okay… Now all that's left is this[BR]gate…[WAIT]",
   "bytes": 32,
   "sites": [
    "23374B:op7A+2",
@@ -7078,7 +7257,8 @@
    "23374B:op7A+2",
    "23374B:op7A+2",
    "23374B:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:234A72",
@@ -7104,7 +7284,7 @@
   "addr": "234A7A",
   "kind": "msg",
   "jp": "こじ開けるだけねっ！！[WAIT]",
-  "en": "",
+  "en": "We just have to pry it open!![WAIT]",
   "bytes": 26,
   "sites": [
    "233761:op7A+2",
@@ -7115,7 +7295,8 @@
    "233761:op7A+2",
    "233761:op7A+2",
    "233761:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:234A94",
@@ -7141,7 +7322,7 @@
   "addr": "234A9C",
   "kind": "msg",
   "jp": "すっごい[BR]頑丈（がんじょう）そうだけど・・・[WAIT]",
-  "en": "",
+  "en": "It looks super sturdy, though…[WAIT]",
   "bytes": 48,
   "sites": [
    "233777:op7A+2",
@@ -7152,7 +7333,8 @@
    "233777:op7A+2",
    "233777:op7A+2",
    "233777:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:234ACC",
@@ -7178,7 +7360,7 @@
   "addr": "234AD6",
   "kind": "msg",
   "jp": "・・・とりあえず、おしてみるぅ？[WAIT]",
-  "en": "",
+  "en": "…How about we just try pushing it?[WAIT]",
   "bytes": 36,
   "sites": [
    "233796:op7A+2",
@@ -7189,7 +7371,8 @@
    "233796:op7A+2",
    "233796:op7A+2",
    "233796:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:234AFA",
@@ -7216,7 +7399,7 @@
   "addr": "234B04",
   "kind": "msg",
   "jp": "・・・ふつうに開くとは思えんがな[WAIT]",
-  "en": "",
+  "en": "…I doubt it'll open the normal way.[WAIT]",
   "bytes": 36,
   "sites": [
    "2337B5:op7A+2",
@@ -7228,7 +7411,8 @@
    "2337B5:op7A+2",
    "2337B5:op7A+2",
    "2337B5:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:234B28",
@@ -7256,7 +7440,7 @@
   "addr": "234B30",
   "kind": "msg",
   "jp": "とりあえず、みんなで押してみようぜ！[WAIT]",
-  "en": "",
+  "en": "For now, let's all try pushing it![WAIT]",
   "bytes": 40,
   "sites": [
    "2337CB:op7A+2",
@@ -7269,7 +7453,8 @@
    "2337CB:op7A+2",
    "2337CB:op7A+2",
    "2337CB:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:234B58",
@@ -7341,7 +7526,7 @@
   "addr": "234B72",
   "kind": "msg",
   "jp": "せえーのおっ！！！[WAIT]",
-  "en": "",
+  "en": "Heeeave hooo!!![WAIT]",
   "bytes": 22,
   "sites": [
    "233826:op7A+2",
@@ -7356,7 +7541,8 @@
    "233826:op7A+2",
    "233826:op7A+2",
    "233826:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:234B88",
@@ -7390,7 +7576,7 @@
   "addr": "234B90",
   "kind": "msg",
   "jp": "うわっ、びくともしねーな・・・！[WAIT]",
-  "en": "",
+  "en": "Whoa, it won't budge an inch…![WAIT]",
   "bytes": 36,
   "sites": [
    "233894:op7A+2",
@@ -7409,7 +7595,8 @@
    "233894:op7A+2",
    "233894:op7A+2",
    "233894:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:234BB4",
@@ -7443,7 +7630,7 @@
   "addr": "234BBC",
   "kind": "msg",
   "jp": "そうね・・・[WAIT]",
-  "en": "",
+  "en": "Okay…[WAIT]",
   "bytes": 16,
   "sites": [
    "2338AA:op7A+2",
@@ -7462,7 +7649,8 @@
    "2338AA:op7A+2",
    "2338AA:op7A+2",
    "2338AA:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:234BCC",
@@ -7496,7 +7684,7 @@
   "addr": "234BD4",
   "kind": "msg",
   "jp": "・・・んー、これさ[BR]門が重いとかカギがかかってる[BR]とかっていうよりは・・・[PAGE]冥力（めいりょく）で封印（ふういん）[BR]されてるような・・・[BR]そういう感じがするよ・・・[WAIT]",
-  "en": "",
+  "en": "…Hmm, you know, rather than the gate[BR]being heavy or locked…[PAGE]it feels like it's sealed… with Dark[BR]Power or something…[WAIT]",
   "bytes": 166,
   "sites": [
    "2338C0:op7A+2",
@@ -7515,7 +7703,8 @@
    "2338C0:op7A+2",
    "2338C0:op7A+2",
    "2338C0:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:234C7A",
@@ -7549,7 +7738,7 @@
   "addr": "234C84",
   "kind": "msg",
   "jp": "そうね・・・[BR]冥力（めいりょく）で[BR]とじられているみたい[WAIT]",
-  "en": "",
+  "en": "You're right… It looks like it's shut[BR]with Dark Power.[WAIT]",
   "bytes": 60,
   "sites": [
    "2338DF:op7A+2",
@@ -7568,7 +7757,8 @@
    "2338DF:op7A+2",
    "2338DF:op7A+2",
    "2338DF:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:234CC0",
@@ -7603,7 +7793,7 @@
   "addr": "234CC8",
   "kind": "msg",
   "jp": "そっか・・・[BR]じゃあ、こっちかなっ！！！[WAIT]",
-  "en": "",
+  "en": "I see… Then how about THIS!!![WAIT]",
   "bytes": 44,
   "sites": [
    "2338F5:op7A+2",
@@ -7623,7 +7813,8 @@
    "2338F5:op7A+2",
    "2338F5:op7A+2",
    "2338F5:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:234CF4",
@@ -7658,7 +7849,7 @@
   "addr": "234CFC",
   "kind": "msg",
   "jp": "んで・・・こうだっ！！[WAIT]",
-  "en": "",
+  "en": "And then… like THIS!![WAIT]",
   "bytes": 26,
   "sites": [
    "233922:op7A+2",
@@ -7678,7 +7869,8 @@
    "233922:op7A+2",
    "233922:op7A+2",
    "233922:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:234D16",
@@ -7713,7 +7905,7 @@
   "addr": "234D1E",
   "kind": "msg",
   "jp": "いっけぇえええええっ！！！！[WAIT]",
-  "en": "",
+  "en": "Here goooooes!!!![WAIT]",
   "bytes": 32,
   "sites": [
    "233938:op7A+2",
@@ -7733,7 +7925,8 @@
    "233938:op7A+2",
    "233938:op7A+2",
    "233938:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:234D3E",
@@ -7771,7 +7964,7 @@
   "addr": "234D46",
   "kind": "msg",
   "jp": "やったっ！！[WAIT]",
-  "en": "",
+  "en": "We did it!![WAIT]",
   "bytes": 16,
   "sites": [
    "2339AE:op7A+2",
@@ -7794,7 +7987,8 @@
    "2339AE:op7A+2",
    "2339AE:op7A+2",
    "2339AE:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:234D56",
@@ -7832,7 +8026,7 @@
   "addr": "234D5E",
   "kind": "msg",
   "jp": "すごいっ！[WAIT]",
-  "en": "",
+  "en": "Amazing![WAIT]",
   "bytes": 14,
   "sites": [
    "2339C4:op7A+2",
@@ -7855,7 +8049,8 @@
    "2339C4:op7A+2",
    "2339C4:op7A+2",
    "2339C4:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:234D6C",
@@ -7893,7 +8088,7 @@
   "addr": "234D76",
   "kind": "msg",
   "jp": "さっすがぁっ！！！[WAIT]",
-  "en": "",
+  "en": "That's our boy!!![WAIT]",
   "bytes": 22,
   "sites": [
    "2339E3:op7A+2",
@@ -7916,7 +8111,8 @@
    "2339E3:op7A+2",
    "2339E3:op7A+2",
    "2339E3:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:234D8C",
@@ -7955,7 +8151,7 @@
   "addr": "234D94",
   "kind": "msg",
   "jp": "・・・いよいよ・・・[BR]グリニデ城（じょう）ね・・・！[WAIT]",
-  "en": "",
+  "en": "…So this is it… Grineed Castle…![WAIT]",
   "bytes": 56,
   "sites": [
    "2339F9:op7A+2",
@@ -7979,7 +8175,8 @@
    "2339F9:op7A+2",
    "2339F9:op7A+2",
    "2339F9:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:234DCC",
@@ -8211,7 +8408,7 @@
   "addr": "234E28",
   "kind": "msg",
   "jp": "みんな、[BR]こういうときこそリラックスよ！[WAIT]",
-  "en": "",
+  "en": "Everyone, at a time like this, relax,[BR]okay~![WAIT]",
   "bytes": 44,
   "sites": [
    "233A63:op7A+2",
@@ -8236,7 +8433,8 @@
    "233A63:op7A+2",
    "233A63:op7A+2",
    "233A63:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:234E54",
@@ -8277,7 +8475,7 @@
   "addr": "234E5C",
   "kind": "msg",
   "jp": "よしっ！[BR]行くぜっ！！！[WAIT]",
-  "en": "",
+  "en": "Alright! Let's go!!![WAIT]",
   "bytes": 28,
   "sites": [
    "233A79:op7A+2",
@@ -8303,7 +8501,8 @@
    "233A79:op7A+2",
    "233A79:op7A+2",
    "233A79:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:234E78",
@@ -8346,7 +8545,7 @@
   "addr": "234E80",
   "kind": "msg",
   "jp": "さすがに・・・広そうだな・・・[WAIT]",
-  "en": "",
+  "en": "Man… it sure looks big in here…[WAIT]",
   "bytes": 34,
   "sites": [
    "233ADD:op7A+2",
@@ -8374,7 +8573,8 @@
    "233ADD:op7A+2",
    "233ADD:op7A+2",
    "233ADD:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:234EA2",
@@ -8417,7 +8617,7 @@
   "addr": "234EAA",
   "kind": "msg",
   "jp": "そうね・・・[BR]つかまってる人はどこにいるのかしら[WAIT]",
-  "en": "",
+  "en": "Yes… I wonder where the prisoners are…[WAIT]",
   "bytes": 52,
   "sites": [
    "233AF3:op7A+2",
@@ -8445,7 +8645,8 @@
    "233AF3:op7A+2",
    "233AF3:op7A+2",
    "233AF3:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:234EDE",
@@ -8488,7 +8689,7 @@
   "addr": "234EE6",
   "kind": "msg",
   "jp": "キッスは・・・[BR]どっか心あたりないのか？[WAIT]",
-  "en": "",
+  "en": "Kissu… got any idea where to look?[WAIT]",
   "bytes": 44,
   "sites": [
    "233B09:op7A+2",
@@ -8516,7 +8717,8 @@
    "233B09:op7A+2",
    "233B09:op7A+2",
    "233B09:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:234F12",
@@ -8559,7 +8761,7 @@
   "addr": "234F1A",
   "kind": "msg",
   "jp": "・・・うん[BR]それはぼくも知らないんだ・・・[BR]実験場（じっけんじょう）の場所もね[PAGE]・・・きっと極秘（ごくひ）で[BR]行われていたんだと思う[WAIT]",
-  "en": "",
+  "en": "…No. I don't know that either… Or[BR]where the lab is.[PAGE]…I bet it was all done in total[BR]secrecy.[WAIT]",
   "bytes": 136,
   "sites": [
    "233B1F:op7A+2",
@@ -8587,7 +8789,8 @@
    "233B1F:op7A+2",
    "233B1F:op7A+2",
    "233B1F:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:234FA2",
@@ -8630,7 +8833,7 @@
   "addr": "234FAC",
   "kind": "msg",
   "jp": "ならば・・・[BR]城（しろ）の構造（こうぞう）も[BR]つかまないといけないな[WAIT]",
-  "en": "",
+  "en": "Then… we'll have to figure out the[BR]castle's layout, too.[WAIT]",
   "bytes": 72,
   "sites": [
    "233B3E:op7A+2",
@@ -8659,7 +8862,8 @@
    "233B3E:op7A+2",
    "233B3E:op7A+2",
    "233B3E:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:234FF4",
@@ -8704,7 +8908,7 @@
   "addr": "234FFE",
   "kind": "msg",
   "jp": "まぁ・・・しらみつぶしに行く？[WAIT]",
-  "en": "",
+  "en": "Well… shall we comb through every[BR]inch?[WAIT]",
   "bytes": 34,
   "sites": [
    "233B5D:op7A+2",
@@ -8734,7 +8938,8 @@
    "233B5D:op7A+2",
    "233B5D:op7A+2",
    "233B5D:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:235020",
@@ -8780,7 +8985,7 @@
   "addr": "235028",
   "kind": "msg",
   "jp": "どうもこうもねぇな・・・[BR]かたっぱしから行くぜっ！！[WAIT]",
-  "en": "",
+  "en": "Ain't no other way… We're hitting[BR]every room, one after another!![WAIT]",
   "bytes": 56,
   "sites": [
    "233B73:op7A+2",
@@ -8811,7 +9016,8 @@
    "233B73:op7A+2",
    "233B73:op7A+2",
    "233B73:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:235060",
@@ -8857,7 +9063,7 @@
   "addr": "235068",
   "kind": "msg",
   "jp": "はぁ・・・[BR]きっとそう言うと思ったわ・・・[BR]いいわ！　いきましょう！！[WAIT]",
-  "en": "",
+  "en": "Sigh… I just knew you'd say that…[BR]Fine! Let's go!![WAIT]",
   "bytes": 74,
   "sites": [
    "233B89:op7A+2",
@@ -8888,7 +9094,8 @@
    "233B89:op7A+2",
    "233B89:op7A+2",
    "233B89:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:2350B2",
@@ -9014,7 +9221,7 @@
   "addr": "2350CE",
   "kind": "msg",
   "jp": "階段（かいだん）があるな・・・[WAIT]",
-  "en": "",
+  "en": "There's stairs…[WAIT]",
   "bytes": 34,
   "sites": [
    "233C03:op7A+2",
@@ -9047,7 +9254,8 @@
    "233C03:op7A+2",
    "233C03:op7A+2",
    "233C03:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:2350F0",
@@ -9095,7 +9303,7 @@
   "addr": "2350F8",
   "kind": "msg",
   "jp": "上と下にいけそうね[WAIT]",
-  "en": "",
+  "en": "Looks like we can go up or down.[WAIT]",
   "bytes": 22,
   "sites": [
    "233C19:op7A+2",
@@ -9128,7 +9336,8 @@
    "233C19:op7A+2",
    "233C19:op7A+2",
    "233C19:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23510E",
@@ -9176,7 +9385,7 @@
   "addr": "235116",
   "kind": "msg",
   "jp": "どっちから攻めるか・・・決めないとね[BR]・・・ビィト！[WAIT]",
-  "en": "",
+  "en": "We need to decide which way to attack[BR]first… Beet![WAIT]",
   "bytes": 56,
   "sites": [
    "233C2F:op7A+2",
@@ -9209,7 +9418,8 @@
    "233C2F:op7A+2",
    "233C2F:op7A+2",
    "233C2F:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23514E",
@@ -9257,7 +9467,7 @@
   "addr": "235156",
   "kind": "msg",
   "jp": "・・・うーん[BR]よしっ！[BR]上から行こうっ！！[WAIT]",
-  "en": "",
+  "en": "…Hmmm… Okay! Let's go up!![WAIT]",
   "bytes": 46,
   "sites": [
    "233C45:op7A+2",
@@ -9290,7 +9500,8 @@
    "233C45:op7A+2",
    "233C45:op7A+2",
    "233C45:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:235184",
@@ -9338,7 +9549,7 @@
   "addr": "23518C",
   "kind": "msg",
   "jp": "いいわ、上から行きましょう・・・！[WAIT]",
-  "en": "",
+  "en": "Fine, let's go up…![WAIT]",
   "bytes": 38,
   "sites": [
    "233C5B:op7A+2",
@@ -9371,7 +9582,8 @@
    "233C5B:op7A+2",
    "233C5B:op7A+2",
    "233C5B:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:2351B2",
@@ -9460,24 +9672,26 @@
   "addr": "235A70",
   "kind": "banner",
   "jp": "ビィト戦士団",
-  "en": "",
+  "en": "Beet Warriors",
   "bytes": 14,
   "sites": [
    "2351E6:op6F+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:235A7E",
   "addr": "235A7E",
   "kind": "msg",
   "jp": "ゴゴゴゴ・・・！[WAIT]",
-  "en": "",
+  "en": "*rumble rumble*…![WAIT]",
   "bytes": 20,
   "sites": [
    "235238:op3B+1",
    "235238:op3B+1",
    "235238:op3B+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:235A92",
@@ -9532,7 +9746,7 @@
   "addr": "235AAE",
   "kind": "msg",
   "jp": "ふさがった・・・・[WAIT]",
-  "en": "",
+  "en": "It's blocked….[WAIT]",
   "bytes": 22,
   "sites": [
    "2352D7:op7A+2",
@@ -9540,7 +9754,8 @@
    "2352D7:op7A+2",
    "2352D7:op7A+2",
    "2352D7:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:235AC4",
@@ -9563,7 +9778,7 @@
   "addr": "235ACE",
   "kind": "msg",
   "jp": "ワナ・・・か・・・？[WAIT]",
-  "en": "",
+  "en": "A trap… is it…?[WAIT]",
   "bytes": 24,
   "sites": [
    "2352F6:op7A+2",
@@ -9571,7 +9786,8 @@
    "2352F6:op7A+2",
    "2352F6:op7A+2",
    "2352F6:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:235AE6",
@@ -9595,7 +9811,7 @@
   "addr": "235AF0",
   "kind": "msg",
   "jp": "まぁ・・・もどれないなら[BR]こっちから当たるしかないわね[WAIT]",
-  "en": "",
+  "en": "Well… if we can't go back, we just[BR]have to push on this way.[WAIT]",
   "bytes": 58,
   "sites": [
    "235315:op7A+2",
@@ -9604,7 +9820,8 @@
    "235315:op7A+2",
    "235315:op7A+2",
    "235315:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:235B2A",
@@ -9629,7 +9846,7 @@
   "addr": "235B32",
   "kind": "msg",
   "jp": "とにかく[BR]もっと先へ行ってみよう！[WAIT]",
-  "en": "",
+  "en": "Anyway, let's keep going![WAIT]",
   "bytes": 38,
   "sites": [
    "23532B:op7A+2",
@@ -9639,7 +9856,8 @@
    "23532B:op7A+2",
    "23532B:op7A+2",
    "23532B:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:235B58",
@@ -9664,7 +9882,7 @@
   "addr": "235B60",
   "kind": "msg",
   "jp": "ええ、そうね[WAIT]",
-  "en": "",
+  "en": "Yes, let's.[WAIT]",
   "bytes": 16,
   "sites": [
    "235341:op7A+2",
@@ -9674,7 +9892,8 @@
    "235341:op7A+2",
    "235341:op7A+2",
    "235341:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:235B70",
@@ -9740,11 +9959,12 @@
   "addr": "235BA4",
   "kind": "msg",
   "jp": "おっ、おまえはっ！！[WAIT]",
-  "en": "",
+  "en": "Y-you're…!![WAIT]",
   "bytes": 24,
   "sites": [
    "2353CB:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:235BBC",
@@ -9763,11 +9983,12 @@
   "addr": "235BC4",
   "kind": "msg",
   "jp": "ダ、ダンゴールっ！！[WAIT]",
-  "en": "",
+  "en": "D-Dangol!![WAIT]",
   "bytes": 24,
   "sites": [
    "2353E1:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:235BDC",
@@ -9788,13 +10009,14 @@
   "addr": "235BE8",
   "kind": "msg",
   "jp": "・・・あ、あなた方のせいだっ！[BR]あなた方がわが主を[BR]おこらせなければこんな事にはっ！！[WAIT]",
-  "en": "",
+  "en": "…Th-this is all your fault! If you[BR]people hadn't angered my master, none[BR]of this would have happened!![WAIT]",
   "bytes": 90,
   "sites": [
    "235450:op7A+2",
    "235450:op7A+2",
    "235450:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:235C42",
@@ -9815,13 +10037,14 @@
   "addr": "235C4A",
   "kind": "msg",
   "jp": "わが主って・・・グリニデの事かっ！！[WAIT]",
-  "en": "",
+  "en": "Your master… You mean Grineed?!![WAIT]",
   "bytes": 40,
   "sites": [
    "235466:op7A+2",
    "235466:op7A+2",
    "235466:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:235C72",
@@ -9842,13 +10065,14 @@
   "addr": "235C7E",
   "kind": "msg",
   "jp": "そうですともっ！！[PAGE]グリニデ様の大いなるお考えを・・・[BR]次から次へと手当たりしだいに[BR]じゃまばかり！！[WAIT]",
-  "en": "",
+  "en": "Most certainly I do!![PAGE]Grineed-sama's grand designs… you've[BR]gotten in the way of every single one,[BR]one after another!![WAIT]",
   "bytes": 106,
   "sites": [
    "23547C:op7A+2",
    "23547C:op7A+2",
    "23547C:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:235CE8",
@@ -9869,13 +10093,14 @@
   "addr": "235CF0",
   "kind": "msg",
   "jp": "グリニデ・・・！！[WAIT]",
-  "en": "",
+  "en": "Grineed…!![WAIT]",
   "bytes": 22,
   "sites": [
    "235492:op7A+2",
    "235492:op7A+2",
    "235492:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:235D06",
@@ -9896,13 +10121,14 @@
   "addr": "235D12",
   "kind": "msg",
   "jp": "しかもキッスどの！[PAGE]寛大（かんだい）なるグリニデ様は[BR]人間であるあなたをさべつする事なく[PAGE]仲間に（なかま）くわえて下さって[BR]いたというのにっ・・・！[WAIT]",
-  "en": "",
+  "en": "And you as well, Kissu-dono![PAGE]Our generous Grineed-sama took you[BR]into our ranks without any prejudice,[BR]even though you are human…[PAGE]and yet…![WAIT]",
   "bytes": 152,
   "sites": [
    "2354A8:op7A+2",
    "2354A8:op7A+2",
    "2354A8:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:235DAA",
@@ -9951,13 +10177,14 @@
   "addr": "235DC6",
   "kind": "msg",
   "jp": "それをうらぎり[BR]ロズゴートどのたちまでも[BR]手にかけるとはっ・・・[PAGE]あなたはいったい、[BR]どういうつもりなのですかぁっ！[WAIT]",
-  "en": "",
+  "en": "And you betrayed him, and even laid[BR]hands on Rozzgoat-dono and the others…[PAGE]What on earth do you think you are[BR]doing, sir?![WAIT]",
   "bytes": 120,
   "sites": [
    "2354D4:op7A+2",
    "2354D4:op7A+2",
    "2354D4:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:235E3E",
@@ -9978,13 +10205,14 @@
   "addr": "235E46",
   "kind": "msg",
   "jp": "ちょっと待てよ・・・！[WAIT]",
-  "en": "",
+  "en": "Hold on a sec…![WAIT]",
   "bytes": 26,
   "sites": [
    "2354EA:op7A+2",
    "2354EA:op7A+2",
    "2354EA:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:235E60",
@@ -10033,13 +10261,14 @@
   "addr": "235E82",
   "kind": "msg",
   "jp": "おめぇ・・・[BR]何勝手な事言ってんだ・・・！！[WAIT]",
-  "en": "",
+  "en": "You… What're you spouting off[BR]about…?!![WAIT]",
   "bytes": 48,
   "sites": [
    "235516:op7A+2",
    "235516:op7A+2",
    "235516:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:235EB2",
@@ -10060,13 +10289,14 @@
   "addr": "235EBA",
   "kind": "msg",
   "jp": "そうよ！[BR]今までさんざん人間を[BR]くるしめてきたくせに・・・[PAGE]都合が悪い時だけ[BR]被害者（ひがいしゃ）みたいな[BR]顔して・・・[WAIT]",
-  "en": "",
+  "en": "That's right! You've made humans[BR]suffer again and again, and yet…[PAGE]only when things go badly for you do[BR]you act like the victim…[WAIT]",
   "bytes": 124,
   "sites": [
    "23552C:op7A+2",
    "23552C:op7A+2",
    "23552C:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:235F36",
@@ -10087,13 +10317,14 @@
   "addr": "235F40",
   "kind": "msg",
   "jp": "・・・まぁ、[BR]ヴァンデルの理屈（りくつ）・・・[BR]なんてのは、[PAGE]そんなものだろうけどね・・・！[WAIT]",
-  "en": "",
+  "en": "…Well, I suppose Vandel logic…[PAGE]is like that anyway…![WAIT]",
   "bytes": 96,
   "sites": [
    "23554B:op7A+2",
    "23554B:op7A+2",
    "23554B:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:235FA0",
@@ -10146,7 +10377,7 @@
   "addr": "235FC2",
   "kind": "msg",
   "jp": "・・・ぼくはもう、グリニデ閣下・・・[PAGE]いや、グリニデのところには[BR]戻らないよ・・・！[WAIT]",
-  "en": "",
+  "en": "…I'm not going back to His Excellency…[PAGE]No, to Grineed… ever again…![WAIT]",
   "bytes": 88,
   "sites": [
    "235580:op7A+2",
@@ -10154,7 +10385,8 @@
    "235580:op7A+2",
    "235580:op7A+2",
    "235580:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23601A",
@@ -10177,7 +10409,7 @@
   "addr": "236026",
   "kind": "msg",
   "jp": "・・・キッスどの・・・！[WAIT]",
-  "en": "",
+  "en": "…Kissu-dono…![WAIT]",
   "bytes": 28,
   "sites": [
    "235596:op7A+2",
@@ -10185,7 +10417,8 @@
    "235596:op7A+2",
    "235596:op7A+2",
    "235596:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:236042",
@@ -10272,7 +10505,7 @@
   "addr": "23607E",
   "kind": "msg",
   "jp": "・・・キッス！！[BR]お前が気にすることじゃあねぇよ！[WAIT]",
-  "en": "",
+  "en": "…Kissu!! It ain't something you need[BR]to worry about![WAIT]",
   "bytes": 54,
   "sites": [
    "2355D8:op7A+2",
@@ -10280,7 +10513,8 @@
    "2355D8:op7A+2",
    "2355D8:op7A+2",
    "2355D8:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:2360B4",
@@ -10303,7 +10537,7 @@
   "addr": "2360BE",
   "kind": "msg",
   "jp": "（・・・しっかりしてね[BR]ハンサム君！）[WAIT]",
-  "en": "",
+  "en": "(…Hang in there, Handsome-kun!)[WAIT]",
   "bytes": 42,
   "sites": [
    "2355F7:op7A+2",
@@ -10311,7 +10545,8 @@
    "2355F7:op7A+2",
    "2355F7:op7A+2",
    "2355F7:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:2360E8",
@@ -10403,7 +10638,7 @@
   "addr": "236128",
   "kind": "msg",
   "jp": "・・・・・・え～い、[BR]まどろっこしいですねっ！！[PAGE]もういいのです！[BR]よ～～～っく、わかりましたっ！！[PAGE]やはり人間はおろかな生き物です・・・[BR]グリニデ様の大いなるお心も[BR]理解（りかい）できないのですっ！！[WAIT]",
-  "en": "",
+  "en": "……Oh, enough already! This is so[BR]tiresome!![PAGE]That is quite enough! I understand[BR]perfectly weeeell now!![PAGE]Humans truly are foolish creatures,[BR]indeed… They cannot comprehend[BR]Grineed-sama's great heart!![WAIT]",
   "bytes": 206,
   "sites": [
    "235642:op7A+2",
@@ -10413,7 +10648,8 @@
    "235642:op7A+2",
    "235642:op7A+2",
    "235642:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:2361F6",
@@ -10474,7 +10710,7 @@
   "addr": "236212",
   "kind": "msg",
   "jp": "しかもこの先には、[BR]城（しろ）の中枢（ちゅうすう）への[BR]通路があるのです！！[PAGE]これいじょう行かせるわけには[BR]いきませんからねっ！！[WAIT]",
-  "en": "",
+  "en": "What's more, beyond this point lies[BR]the passage to the castle's core,[BR]sire!![PAGE]I cannot let you go any further, most[BR]certainly not!![WAIT]",
   "bytes": 134,
   "sites": [
    "23566E:op7A+2",
@@ -10484,7 +10720,8 @@
    "23566E:op7A+2",
    "23566E:op7A+2",
    "23566E:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:236298",
@@ -10509,7 +10746,7 @@
   "addr": "2362A0",
   "kind": "msg",
   "jp": "中枢（ちゅうすう）！！[WAIT]",
-  "en": "",
+  "en": "The core!![WAIT]",
   "bytes": 26,
   "sites": [
    "235684:op7A+2",
@@ -10519,7 +10756,8 @@
    "235684:op7A+2",
    "235684:op7A+2",
    "235684:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:2362BA",
@@ -10581,7 +10819,7 @@
   "addr": "2362DE",
   "kind": "msg",
   "jp": "とにかく・・・[PAGE]あなたたちには、[BR]グリニデ様のいかりと失望（しつぼう）[BR]を思い知っていただきます！！[WAIT]",
-  "en": "",
+  "en": "In any case…[PAGE]you shall be made to feel[BR]Grineed-sama's anger and[BR]disappointment, indeed!![WAIT]",
   "bytes": 104,
   "sites": [
    "2356B9:op7A+2",
@@ -10592,7 +10830,8 @@
    "2356B9:op7A+2",
    "2356B9:op7A+2",
    "2356B9:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:236346",
@@ -10618,7 +10857,7 @@
   "addr": "23634E",
   "kind": "msg",
   "jp": "・・・だまって聞いてれば[BR]言いたいことを言いやがって・・・[PAGE]こっちだってぜったいおまえを[BR]ゆるさないぜっ！　ダンゴールっ！[WAIT]",
-  "en": "",
+  "en": "…I've been listening, and you just[BR]keep saying whatever you want…[PAGE]Well, I'm never gonna forgive YOU[BR]either! Dangol![WAIT]",
   "bytes": 126,
   "sites": [
    "2356CF:op7A+2",
@@ -10629,7 +10868,8 @@
    "2356CF:op7A+2",
    "2356CF:op7A+2",
    "2356CF:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:2363CC",
@@ -10655,7 +10895,7 @@
   "addr": "2363D8",
   "kind": "msg",
   "jp": "それではこのダンゴール・・・[BR]全力でまいりますっ！！[BR]勝負ですっ！[WAIT]",
-  "en": "",
+  "en": "Then I, Dangol… shall come at you with[BR]all my might, sire!! Have at you![WAIT]",
   "bytes": 70,
   "sites": [
    "2356E5:op7A+2",
@@ -10666,7 +10906,8 @@
    "2356E5:op7A+2",
    "2356E5:op7A+2",
    "2356E5:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23641E",
@@ -10692,7 +10933,7 @@
   "addr": "236426",
   "kind": "msg",
   "jp": "いくぞっ！！[WAIT]",
-  "en": "",
+  "en": "Here I come!![WAIT]",
   "bytes": 16,
   "sites": [
    "235703:op7A+2",
@@ -10703,7 +10944,8 @@
    "235703:op7A+2",
    "235703:op7A+2",
    "235703:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:236436",
@@ -10729,7 +10971,7 @@
   "addr": "236442",
   "kind": "msg",
   "jp": "そ、そんなバカな・・・[BR]グ・・・グリニデ様・・・・・・[WAIT]",
-  "en": "",
+  "en": "N-no, this can't be… G… Grineed-sama……[WAIT]",
   "bytes": 58,
   "sites": [
    "23571E:op7A+2",
@@ -10740,7 +10982,8 @@
    "23571E:op7A+2",
    "23571E:op7A+2",
    "23571E:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23647C",
@@ -10766,7 +11009,7 @@
   "addr": "236484",
   "kind": "msg",
   "jp": "・・・これで[BR]グリニデに仕える者たちは[BR]全員たおした・・・って事だな[WAIT]",
-  "en": "",
+  "en": "…That means we've beaten everyone who[BR]serves Grineed… huh.[WAIT]",
   "bytes": 72,
   "sites": [
    "23573F:op7A+2",
@@ -10777,7 +11020,8 @@
    "23573F:op7A+2",
    "23573F:op7A+2",
    "23573F:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:2364CC",
@@ -10803,7 +11047,7 @@
   "addr": "2364D4",
   "kind": "msg",
   "jp": "ええ、そうなるわね・・・[WAIT]",
-  "en": "",
+  "en": "Yes, I suppose it does…[WAIT]",
   "bytes": 28,
   "sites": [
    "235755:op7A+2",
@@ -10814,7 +11058,8 @@
    "235755:op7A+2",
    "235755:op7A+2",
    "235755:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:2364F0",
@@ -10878,7 +11123,7 @@
   "addr": "236510",
   "kind": "msg",
   "jp": "・・・ん、どうしたキッス・・・？[WAIT]",
-  "en": "",
+  "en": "…Hm? What's up, Kissu…?[WAIT]",
   "bytes": 36,
   "sites": [
    "235781:op7A+2",
@@ -10889,7 +11134,8 @@
    "235781:op7A+2",
    "235781:op7A+2",
    "235781:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:236534",
@@ -10953,7 +11199,7 @@
   "addr": "236556",
   "kind": "msg",
   "jp": "う、ううん・・・なんでもないよ・・・[PAGE]それよりダンゴールが、この先に[BR]「城（しろ）の中枢（ちゅうすう）への[BR]通路がある」って言ってたよね？[WAIT]",
-  "en": "",
+  "en": "N-no… it's nothing…[PAGE]More importantly, Dangol said there's[BR]\"the passage to the castle's core\" up[BR]ahead, right?[WAIT]",
   "bytes": 142,
   "sites": [
    "2357AD:op7A+2",
@@ -10964,7 +11210,8 @@
    "2357AD:op7A+2",
    "2357AD:op7A+2",
    "2357AD:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:2365E4",
@@ -10990,7 +11237,7 @@
   "addr": "2365EC",
   "kind": "msg",
   "jp": "ああ！　言ってたな・・・！！[BR]よし、じゃあ中枢（ちゅうすう）を[BR]ぶっこわしに行こうぜっ！！[WAIT]",
-  "en": "",
+  "en": "Yeah! He sure did…!! Alright, let's go[BR]smash that core to bits!![WAIT]",
   "bytes": 94,
   "sites": [
    "2357C3:op7A+2",
@@ -11001,7 +11248,8 @@
    "2357C3:op7A+2",
    "2357C3:op7A+2",
    "2357C3:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23664A",
@@ -11027,7 +11275,7 @@
   "addr": "236652",
   "kind": "msg",
   "jp": "ええ、行きましょう！！[WAIT]",
-  "en": "",
+  "en": "Yes, let's go!![WAIT]",
   "bytes": 26,
   "sites": [
    "2357D9:op7A+2",
@@ -11038,7 +11286,8 @@
    "2357D9:op7A+2",
    "2357D9:op7A+2",
    "2357D9:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23666C",
@@ -11097,13 +11346,14 @@
   "addr": "236686",
   "kind": "msg",
   "jp": "これが・・・[PAGE]ダンゴールの言ってた、[BR]中枢（ちゅうすう）へ通じる[BR]とびらかしら？[WAIT]",
-  "en": "",
+  "en": "Is this…[PAGE]the door to the core that Dangol was[BR]talking about?[WAIT]",
   "bytes": 84,
   "sites": [
    "2358A6:op7A+2",
    "2358A6:op7A+2",
    "2358A6:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:2366DA",
@@ -11124,13 +11374,14 @@
   "addr": "2366E2",
   "kind": "msg",
   "jp": "・・・開かないね[WAIT]",
-  "en": "",
+  "en": "…It won't open.[WAIT]",
   "bytes": 20,
   "sites": [
    "2358BC:op7A+2",
    "2358BC:op7A+2",
    "2358BC:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:2366F6",
@@ -11151,13 +11402,14 @@
   "addr": "2366FE",
   "kind": "msg",
   "jp": "じゃ、ちょっとぶっ飛ばしてみるかっ！[WAIT]",
-  "en": "",
+  "en": "Then how about I blast it open![WAIT]",
   "bytes": 40,
   "sites": [
    "2358D2:op7A+2",
    "2358D2:op7A+2",
    "2358D2:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:236726",
@@ -11178,13 +11430,14 @@
   "addr": "23672E",
   "kind": "msg",
   "jp": "いっけええーーっ！！！[WAIT]",
-  "en": "",
+  "en": "Here goooes!!![WAIT]",
   "bytes": 26,
   "sites": [
    "2358FF:op7A+2",
    "2358FF:op7A+2",
    "2358FF:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:236748",
@@ -11205,13 +11458,14 @@
   "addr": "236750",
   "kind": "msg",
   "jp": "うおっ！　かたいっ・・・！！[WAIT]",
-  "en": "",
+  "en": "Whoa! It's hard…!![WAIT]",
   "bytes": 32,
   "sites": [
    "235920:op7A+2",
    "235920:op7A+2",
    "235920:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:236770",
@@ -11232,13 +11486,14 @@
   "addr": "236778",
   "kind": "msg",
   "jp": "うーん・・・[BR]ビィトにこわせないんなら、[BR]どうする事もできないわね[WAIT]",
-  "en": "",
+  "en": "Hmm… If even you can't break it, Beet,[BR]there's nothing we can do.[WAIT]",
   "bytes": 70,
   "sites": [
    "235936:op7A+2",
    "235936:op7A+2",
    "235936:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:2367BE",
@@ -11259,13 +11514,14 @@
   "addr": "2367C6",
   "kind": "msg",
   "jp": "これ・・・多分だけど、[BR]特殊（とくしゅ）な力で[BR]封じ（ふうじ）られてるよ[WAIT]",
-  "en": "",
+  "en": "This is just a guess, but… it's sealed[BR]with some special power.[WAIT]",
   "bytes": 76,
   "sites": [
    "23594C:op7A+2",
    "23594C:op7A+2",
    "23594C:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:236812",
@@ -11286,13 +11542,14 @@
   "addr": "23681C",
   "kind": "msg",
   "jp": "そうね・・・[WAIT]",
-  "en": "",
+  "en": "Okay…[WAIT]",
   "bytes": 16,
   "sites": [
    "23596B:op7A+2",
    "23596B:op7A+2",
    "23596B:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23682C",
@@ -11314,14 +11571,15 @@
   "addr": "236834",
   "kind": "msg",
   "jp": "どうすりゃいいんだ・・・？[WAIT]",
-  "en": "",
+  "en": "So what are we supposed to do…?[WAIT]",
   "bytes": 30,
   "sites": [
    "235988:op7A+2",
    "235988:op7A+2",
    "235988:op7A+2",
    "235988:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:236852",
@@ -11343,28 +11601,30 @@
   "addr": "23685A",
   "kind": "msg",
   "jp": "そりゃあ[BR]このトビラをとじてる特殊（とくしゅ）[BR]な何かをたおすか、[PAGE]こわしたりするしかないね・・・[WAIT]",
-  "en": "",
+  "en": "Well, we'd have to defeat whatever[BR]special thing is keeping this door[BR]shut,[PAGE]or destroy it…[WAIT]",
   "bytes": 102,
   "sites": [
    "23599E:op7A+2",
    "23599E:op7A+2",
    "23599E:op7A+2",
    "23599E:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:2368C0",
   "addr": "2368C0",
   "kind": "msg",
   "jp": "ゴゴゴゴ・・・！[WAIT]",
-  "en": "",
+  "en": "*rumble rumble*…![WAIT]",
   "bytes": 20,
   "sites": [
    "2359A7:op3B+1",
    "2359A7:op3B+1",
    "2359A7:op3B+1",
    "2359A7:op3B+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:2368D4",
@@ -11386,14 +11646,15 @@
   "addr": "2368DC",
   "kind": "msg",
   "jp": "ん、なんだこのゆれ・・・[WAIT]",
-  "en": "",
+  "en": "Huh? What's this shaking…[WAIT]",
   "bytes": 28,
   "sites": [
    "2359BB:op7A+2",
    "2359BB:op7A+2",
    "2359BB:op7A+2",
    "2359BB:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:2368F8",
@@ -11415,14 +11676,15 @@
   "addr": "236900",
   "kind": "msg",
   "jp": "もと来た通路の方からだね・・・[WAIT]",
-  "en": "",
+  "en": "It's coming from the passage we came[BR]through…[WAIT]",
   "bytes": 34,
   "sites": [
    "2359D1:op7A+2",
    "2359D1:op7A+2",
    "2359D1:op7A+2",
    "2359D1:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:236922",
@@ -11444,14 +11706,15 @@
   "addr": "23692A",
   "kind": "msg",
   "jp": "まぁ、ここにいてもしょうがないわ[BR]行ってみましょう[WAIT]",
-  "en": "",
+  "en": "Well, there's no point staying here.[BR]Let's go see.[WAIT]",
   "bytes": 54,
   "sites": [
    "2359E7:op7A+2",
    "2359E7:op7A+2",
    "2359E7:op7A+2",
    "2359E7:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:236960",
@@ -11473,14 +11736,15 @@
   "addr": "236968",
   "kind": "msg",
   "jp": "そうだなっ！[WAIT]",
-  "en": "",
+  "en": "Yeah![WAIT]",
   "bytes": 16,
   "sites": [
    "2359FD:op7A+2",
    "2359FD:op7A+2",
    "2359FD:op7A+2",
    "2359FD:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:236978",
@@ -11499,11 +11763,12 @@
   "addr": "236980",
   "kind": "msg",
   "jp": "おっ！[BR]もどれるようになってるぞ・・・[WAIT]",
-  "en": "",
+  "en": "Oh! We can go back now…[WAIT]",
   "bytes": 42,
   "sites": [
    "235A24:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:2369AA",
@@ -11522,11 +11787,12 @@
   "addr": "2369B2",
   "kind": "msg",
   "jp": "行ってみましょう[WAIT]",
-  "en": "",
+  "en": "Let's go see.[WAIT]",
   "bytes": 20,
   "sites": [
    "235A3A:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:2369C6",
@@ -11545,37 +11811,40 @@
   "addr": "2369CE",
   "kind": "msg",
   "jp": "先に上から行くんだったっけ・・・[WAIT]",
-  "en": "",
+  "en": "We were gonna go up first, weren't we…[WAIT]",
   "bytes": 36,
   "sites": [
    "235A5D:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:2371F0",
   "addr": "2371F0",
   "kind": "banner",
   "jp": "ビィト戦士団",
-  "en": "",
+  "en": "Beet Warriors",
   "bytes": 14,
   "sites": [
    "236A52:op6F+5",
    "236A52:op6F+5",
    "236A52:op6F+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:2371FE",
   "addr": "2371FE",
   "kind": "msg",
   "jp": "ゴゴゴゴ・・・！[WAIT]",
-  "en": "",
+  "en": "*rumble rumble*…![WAIT]",
   "bytes": 20,
   "sites": [
    "236A58:op3B+1",
    "236A58:op3B+1",
    "236A58:op3B+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:237212",
@@ -11630,7 +11899,7 @@
   "addr": "23722E",
   "kind": "msg",
   "jp": "またふさがった・・・・[WAIT]",
-  "en": "",
+  "en": "It's blocked again….[WAIT]",
   "bytes": 26,
   "sites": [
    "236AEA:op7A+2",
@@ -11638,7 +11907,8 @@
    "236AEA:op7A+2",
    "236AEA:op7A+2",
    "236AEA:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:237248",
@@ -11661,7 +11931,7 @@
   "addr": "237252",
   "kind": "msg",
   "jp": "・・・クッ！[WAIT]",
-  "en": "",
+  "en": "…Ngh![WAIT]",
   "bytes": 16,
   "sites": [
    "236B09:op7A+2",
@@ -11669,7 +11939,8 @@
    "236B09:op7A+2",
    "236B09:op7A+2",
    "236B09:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:237262",
@@ -11693,7 +11964,7 @@
   "addr": "23726C",
   "kind": "msg",
   "jp": "・・・・・・いやな予感がするわねぇ[WAIT]",
-  "en": "",
+  "en": "……I've got a bad feeling about this.[WAIT]",
   "bytes": 38,
   "sites": [
    "236B28:op7A+2",
@@ -11702,7 +11973,8 @@
    "236B28:op7A+2",
    "236B28:op7A+2",
    "236B28:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:237292",
@@ -11727,7 +11999,7 @@
   "addr": "23729A",
   "kind": "msg",
   "jp": "・・・とにかく、先へ進もう！[WAIT]",
-  "en": "",
+  "en": "…Anyway, let's keep going![WAIT]",
   "bytes": 32,
   "sites": [
    "236B3E:op7A+2",
@@ -11737,7 +12009,8 @@
    "236B3E:op7A+2",
    "236B3E:op7A+2",
    "236B3E:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:2372BA",
@@ -11794,13 +12067,14 @@
   "addr": "2372D4",
   "kind": "msg",
   "jp": "ちょっとビィト・・・あそこ・・・！[WAIT]",
-  "en": "",
+  "en": "Hey, Beet… over there…![WAIT]",
   "bytes": 38,
   "sites": [
    "236BC9:op7A+2",
    "236BC9:op7A+2",
    "236BC9:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:2372FA",
@@ -11821,13 +12095,14 @@
   "addr": "237304",
   "kind": "msg",
   "jp": "牢屋（ろうや）・・・みたいね・・・[WAIT]",
-  "en": "",
+  "en": "Looks like… a jail…[WAIT]",
   "bytes": 38,
   "sites": [
    "236BF0:op7A+2",
    "236BF0:op7A+2",
    "236BF0:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23732A",
@@ -11849,14 +12124,15 @@
   "addr": "237332",
   "kind": "msg",
   "jp": "見張りがいるな・・・[WAIT]",
-  "en": "",
+  "en": "There's a guard…[WAIT]",
   "bytes": 24,
   "sites": [
    "236C06:op7A+2",
    "236C06:op7A+2",
    "236C06:op7A+2",
    "236C06:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23734A",
@@ -11878,14 +12154,15 @@
   "addr": "237354",
   "kind": "msg",
   "jp": "牢屋（ろうや）なら[BR]当然（とうぜん）か・・・[WAIT]",
-  "en": "",
+  "en": "It's a jail. Of course there would be…[WAIT]",
   "bytes": 48,
   "sites": [
    "236C25:op7A+2",
    "236C25:op7A+2",
    "236C25:op7A+2",
    "236C25:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:237384",
@@ -11908,7 +12185,7 @@
   "addr": "23738C",
   "kind": "msg",
   "jp": "ねぇビィト・・・[BR]もしかして、あそこに・・・[WAIT]",
-  "en": "",
+  "en": "Hey, Beet… could it be that in there…[WAIT]",
   "bytes": 48,
   "sites": [
    "236C3B:op7A+2",
@@ -11916,7 +12193,8 @@
    "236C3B:op7A+2",
    "236C3B:op7A+2",
    "236C3B:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:2373BC",
@@ -11939,7 +12217,7 @@
   "addr": "2373C4",
   "kind": "msg",
   "jp": "ああ[PAGE]あの商隊（しょうたい）のみんなが[BR]つかまってるかもしれない・・・！[BR]助けよう・・・！[WAIT]",
-  "en": "",
+  "en": "Yeah.[PAGE]The people from that caravan might be[BR]locked up in there…! Let's save them…![WAIT]",
   "bytes": 94,
   "sites": [
    "236C57:op7A+2",
@@ -11947,7 +12225,8 @@
    "236C57:op7A+2",
    "236C57:op7A+2",
    "236C57:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:237422",
@@ -12001,7 +12280,7 @@
   "addr": "23744A",
   "kind": "msg",
   "jp": "よしっ、いくぞっ！！[WAIT]",
-  "en": "",
+  "en": "Alright, let's go!![WAIT]",
   "bytes": 24,
   "sites": [
    "236C83:op7A+2",
@@ -12009,7 +12288,8 @@
    "236C83:op7A+2",
    "236C83:op7A+2",
    "236C83:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:237462",
@@ -12036,7 +12316,7 @@
   "addr": "23746C",
   "kind": "msg",
   "jp": "・・・だっ、だれか[BR]そこにいるのかっ！？[WAIT]",
-  "en": "",
+  "en": "…Is s-somebody there?![WAIT]",
   "bytes": 44,
   "sites": [
    "236D06:op52+5",
@@ -12048,7 +12328,8 @@
    "236D06:op52+5",
    "236D06:op52+5",
    "236D06:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:237498",
@@ -12075,7 +12356,7 @@
   "addr": "2374A0",
   "kind": "msg",
   "jp": "おっ！　人の声だぜ・・・[BR]おーいっ！　助けにきたぞっ！[WAIT]",
-  "en": "",
+  "en": "Oh! That's someone's voice… Heeey![BR]We've come to rescue you![WAIT]",
   "bytes": 58,
   "sites": [
    "236D1A:op7A+2",
@@ -12087,7 +12368,8 @@
    "236D1A:op7A+2",
    "236D1A:op7A+2",
    "236D1A:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:2374DA",
@@ -12116,7 +12398,7 @@
   "addr": "2374E2",
   "kind": "msg",
   "jp": "ビィト・・・[BR]この牢屋（ろうや）のドア、[BR]どうやって開けるのかしら・・・？[WAIT]",
-  "en": "",
+  "en": "Beet… How do you think we open this[BR]jail door…?[WAIT]",
   "bytes": 78,
   "sites": [
    "236D62:op7A+2",
@@ -12130,14 +12412,15 @@
    "236D62:op7A+2",
    "236D62:op7A+2",
    "236D62:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:237530",
   "addr": "237530",
   "kind": "msg",
   "jp": "・・・ゴゴゴ・・・！！[WAIT]",
-  "en": "",
+  "en": "…*rumble*…!![WAIT]",
   "bytes": 26,
   "sites": [
    "236D6B:op3B+1",
@@ -12151,7 +12434,8 @@
    "236D6B:op3B+1",
    "236D6B:op3B+1",
    "236D6B:op3B+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23754A",
@@ -12182,7 +12466,7 @@
   "addr": "237552",
   "kind": "msg",
   "jp": "うおっ！　開いたぞっ！！[WAIT]",
-  "en": "",
+  "en": "Whoa! It opened!![WAIT]",
   "bytes": 28,
   "sites": [
    "236DCD:op7A+2",
@@ -12198,7 +12482,8 @@
    "236DCD:op7A+2",
    "236DCD:op7A+2",
    "236DCD:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23756E",
@@ -12229,7 +12514,7 @@
   "addr": "237576",
   "kind": "msg",
   "jp": "どうやら・・・[BR]みはりのモンスターの[BR]冥力（めいりょく）と[PAGE]同調して、カギがかかってた[BR]みたいだね・・・！[WAIT]",
-  "en": "",
+  "en": "Looks like… the lock was linked to the[BR]Dark Power[PAGE]of the guard monster…![WAIT]",
   "bytes": 110,
   "sites": [
    "236DE3:op7A+2",
@@ -12245,7 +12530,8 @@
    "236DE3:op7A+2",
    "236DE3:op7A+2",
    "236DE3:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:2375E4",
@@ -12276,7 +12562,7 @@
   "addr": "2375EC",
   "kind": "msg",
   "jp": "もうだいじょうぶですよ・・・！[WAIT]",
-  "en": "",
+  "en": "You're safe now…![WAIT]",
   "bytes": 34,
   "sites": [
    "236E12:op7A+2",
@@ -12292,7 +12578,8 @@
    "236E12:op7A+2",
    "236E12:op7A+2",
    "236E12:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23760E",
@@ -12323,7 +12610,7 @@
   "addr": "237618",
   "kind": "msg",
   "jp": "あ、ありがとうございます・・・！[WAIT]",
-  "en": "",
+  "en": "Th-thank you so much…![WAIT]",
   "bytes": 36,
   "sites": [
    "236E1F:op52+5",
@@ -12339,7 +12626,8 @@
    "236E1F:op52+5",
    "236E1F:op52+5",
    "236E1F:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23763C",
@@ -12370,7 +12658,7 @@
   "addr": "237648",
   "kind": "msg",
   "jp": "まさか・・・生きて出られるとは・・・[WAIT]",
-  "en": "",
+  "en": "I never thought… we'd get out alive…[WAIT]",
   "bytes": 40,
   "sites": [
    "236E2A:op52+5",
@@ -12386,7 +12674,8 @@
    "236E2A:op52+5",
    "236E2A:op52+5",
    "236E2A:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:237670",
@@ -12417,7 +12706,7 @@
   "addr": "23767A",
   "kind": "msg",
   "jp": "・・・この人たちは・・・やはり[WAIT]",
-  "en": "",
+  "en": "…These people are… just as I thought.[WAIT]",
   "bytes": 34,
   "sites": [
    "236E47:op7A+2",
@@ -12433,7 +12722,8 @@
    "236E47:op7A+2",
    "236E47:op7A+2",
    "236E47:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23769C",
@@ -12465,7 +12755,7 @@
   "addr": "2376A4",
   "kind": "msg",
   "jp": "なぁ、ここにいるみんなは、[BR]おそわれた商隊（しょうたい）の[BR]人たちなのか？[WAIT]",
-  "en": "",
+  "en": "Hey, are all of you people from the[BR]caravan that got attacked?[WAIT]",
   "bytes": 78,
   "sites": [
    "236E5D:op7A+2",
@@ -12482,7 +12772,8 @@
    "236E5D:op7A+2",
    "236E5D:op7A+2",
    "236E5D:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:2376F2",
@@ -12514,7 +12805,7 @@
   "addr": "2376FC",
   "kind": "msg",
   "jp": "えっ、ええ！！[BR]そうですそうです！！[BR]商隊（しょうたい）の者です！[WAIT]",
-  "en": "",
+  "en": "Y-yes!! That's right, that's right!![BR]We're from the caravan![WAIT]",
   "bytes": 70,
   "sites": [
    "236E6A:op52+5",
@@ -12531,7 +12822,8 @@
    "236E6A:op52+5",
    "236E6A:op52+5",
    "236E6A:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:237742",
@@ -12563,7 +12855,7 @@
   "addr": "23774A",
   "kind": "msg",
   "jp": "おお！　そりゃよかった！！[WAIT]",
-  "en": "",
+  "en": "Oh! That's great!![WAIT]",
   "bytes": 30,
   "sites": [
    "236E7E:op7A+2",
@@ -12580,7 +12872,8 @@
    "236E7E:op7A+2",
    "236E7E:op7A+2",
    "236E7E:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:237768",
@@ -12612,7 +12905,7 @@
   "addr": "237770",
   "kind": "msg",
   "jp": "つかまっているのは・・・[BR]これで全員かな？[WAIT]",
-  "en": "",
+  "en": "Is this everyone who was captured?[WAIT]",
   "bytes": 46,
   "sites": [
    "236E94:op7A+2",
@@ -12629,7 +12922,8 @@
    "236E94:op7A+2",
    "236E94:op7A+2",
    "236E94:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23779E",
@@ -12661,7 +12955,7 @@
   "addr": "2377AA",
   "kind": "msg",
   "jp": "あっ・・・そ、それが・・・[BR]こっちに・・・まだ・・・・・[WAIT]",
-  "en": "",
+  "en": "Oh… W-well, the thing is… over here…[BR]there are still…..[WAIT]",
   "bytes": 60,
   "sites": [
    "236EA1:op52+5",
@@ -12678,7 +12972,8 @@
    "236EA1:op52+5",
    "236EA1:op52+5",
    "236EA1:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:2377E6",
@@ -12760,7 +13055,7 @@
   "addr": "237806",
   "kind": "msg",
   "jp": "こっちです・・・[WAIT]",
-  "en": "",
+  "en": "This way…[WAIT]",
   "bytes": 20,
   "sites": [
    "236EC2:op52+5",
@@ -12777,7 +13072,8 @@
    "236EC2:op52+5",
    "236EC2:op52+5",
    "236EC2:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23781A",
@@ -12811,7 +13107,7 @@
   "addr": "237824",
   "kind": "msg",
   "jp": "へ・・・へへへ・・・・・・・[WAIT]",
-  "en": "",
+  "en": "Heh… heh heh heh…….[WAIT]",
   "bytes": 32,
   "sites": [
    "236F4D:op52+5",
@@ -12830,7 +13126,8 @@
    "236F4D:op52+5",
    "236F4D:op52+5",
    "236F4D:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:237844",
@@ -12864,7 +13161,7 @@
   "addr": "23784E",
   "kind": "msg",
   "jp": "あ・・・・あは・・・[BR]アハ・・・ア・・・・・・[WAIT]",
-  "en": "",
+  "en": "Ah…. aha… Aha… ah……[WAIT]",
   "bytes": 50,
   "sites": [
    "236F58:op52+5",
@@ -12883,7 +13180,8 @@
    "236F58:op52+5",
    "236F58:op52+5",
    "236F58:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:237880",
@@ -12972,7 +13270,7 @@
   "addr": "23789A",
   "kind": "msg",
   "jp": "こっ、これは・・・っ！？[WAIT]",
-  "en": "",
+  "en": "Wh-what is this…?![WAIT]",
   "bytes": 28,
   "sites": [
    "236F8B:op7A+2",
@@ -12992,7 +13290,8 @@
    "236F8B:op7A+2",
    "236F8B:op7A+2",
    "236F8B:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:2378B6",
@@ -13027,7 +13326,7 @@
   "addr": "2378BE",
   "kind": "msg",
   "jp": "おいっ！　だいじょうぶか・・・？[WAIT]",
-  "en": "",
+  "en": "Hey! Are you okay…?[WAIT]",
   "bytes": 36,
   "sites": [
    "236FA1:op7A+2",
@@ -13047,7 +13346,8 @@
    "236FA1:op7A+2",
    "236FA1:op7A+2",
    "236FA1:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:2378E2",
@@ -13139,7 +13439,7 @@
   "addr": "237904",
   "kind": "msg",
   "jp": "・・・この人たちは・・・[BR]どうなっているんですか・・・？[WAIT]",
-  "en": "",
+  "en": "…What's happened to these people…?[WAIT]",
   "bytes": 60,
   "sites": [
    "236FD6:op7A+2",
@@ -13160,7 +13460,8 @@
    "236FD6:op7A+2",
    "236FD6:op7A+2",
    "236FD6:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:237940",
@@ -13196,7 +13497,7 @@
   "addr": "23794C",
   "kind": "msg",
   "jp": "・・・この人たちは・・・・・・[BR]モンスターの実験台（じっけんだい）に[BR]されて・・・・・・[PAGE]恐怖（きょうふ）と絶望（ぜつぼう）で[BR]正気をうしなってしまったんです・・・[WAIT]",
-  "en": "",
+  "en": "…These people…… were used as test[BR]subjects by the monsters……[PAGE]and the terror and despair drove them[BR]out of their minds…[WAIT]",
   "bytes": 168,
   "sites": [
    "236FE3:op52+5",
@@ -13217,7 +13518,8 @@
    "236FE3:op52+5",
    "236FE3:op52+5",
    "236FE3:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:2379F4",
@@ -13253,7 +13555,7 @@
   "addr": "2379FC",
   "kind": "msg",
   "jp": "・・・実験台（じっけんだい）！？[WAIT]",
-  "en": "",
+  "en": "…Test subjects?![WAIT]",
   "bytes": 36,
   "sites": [
    "236FF7:op7A+2",
@@ -13274,7 +13576,8 @@
    "236FF7:op7A+2",
    "236FF7:op7A+2",
    "236FF7:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:237A20",
@@ -13310,7 +13613,7 @@
   "addr": "237A2C",
   "kind": "msg",
   "jp": "ええ・・・[BR]モンスターが言ってました・・・[PAGE]「おまえらは全員、[BR]ドローマンの変身実験用[BR]（へんしんじっけんよう）だと・・・」[WAIT]",
-  "en": "",
+  "en": "Yes… The monsters said so…[PAGE]\"Every one of you is for our Drawman[BR]transformation experiments…\"[WAIT]",
   "bytes": 128,
   "sites": [
    "237004:op52+5",
@@ -13331,7 +13634,8 @@
    "237004:op52+5",
    "237004:op52+5",
    "237004:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:237AAC",
@@ -13367,7 +13671,7 @@
   "addr": "237AB4",
   "kind": "msg",
   "jp": "ドローマン！！[WAIT]",
-  "en": "",
+  "en": "Drawmen!![WAIT]",
   "bytes": 18,
   "sites": [
    "237018:op7A+2",
@@ -13388,7 +13692,8 @@
    "237018:op7A+2",
    "237018:op7A+2",
    "237018:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:237AC6",
@@ -13424,7 +13729,7 @@
   "addr": "237ACE",
   "kind": "msg",
   "jp": "・・・そっ、そんな・・・っ！？[WAIT]",
-  "en": "",
+  "en": "…N-no… that can't be…?![WAIT]",
   "bytes": 34,
   "sites": [
    "23702E:op7A+2",
@@ -13445,7 +13750,8 @@
    "23702E:op7A+2",
    "23702E:op7A+2",
    "23702E:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:237AF0",
@@ -13481,7 +13787,7 @@
   "addr": "237AF8",
   "kind": "msg",
   "jp": "・・・あの時モンスターが言っていた、[BR]改良（かいりょう）された[BR]ドローマスターって・・・[WAIT]",
-  "en": "",
+  "en": "…The improved Drawmasters that monster[BR]talked about back then…[WAIT]",
   "bytes": 92,
   "sites": [
    "237044:op7A+2",
@@ -13502,7 +13808,8 @@
    "237044:op7A+2",
    "237044:op7A+2",
    "237044:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:237B54",
@@ -13538,7 +13845,7 @@
   "addr": "237B5C",
   "kind": "msg",
   "jp": "・・・まさか、さらった人たちを[BR]実験台（じっけんだい）にして・・・！[WAIT]",
-  "en": "",
+  "en": "…Don't tell me they used the people[BR]they kidnapped as test subjects…![WAIT]",
   "bytes": 72,
   "sites": [
    "23705A:op7A+2",
@@ -13559,7 +13866,8 @@
    "23705A:op7A+2",
    "23705A:op7A+2",
    "23705A:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:237BA4",
@@ -13654,7 +13962,7 @@
   "addr": "237BD8",
   "kind": "msg",
   "jp": "・・・より完璧（かんぺき）な・・・[BR]ドローマンを生み出すために・・・[PAGE]生きた人間を[BR]実験台（じっけんだい）に・・・！！[WAIT]",
-  "en": "",
+  "en": "…To create a more perfect… Drawman…[PAGE]they used living humans as test[BR]subjects…!![WAIT]",
   "bytes": 122,
   "sites": [
    "237098:op7A+2",
@@ -13676,7 +13984,8 @@
    "237098:op7A+2",
    "237098:op7A+2",
    "237098:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:237C52",
@@ -13714,7 +14023,7 @@
   "addr": "237C5A",
   "kind": "msg",
   "jp": "くそっ！！[BR]ぜってぇゆるせねえっ！！！[WAIT]",
-  "en": "",
+  "en": "Dammit!! I'm never, ever gonna forgive[BR]this!!![WAIT]",
   "bytes": 42,
   "sites": [
    "2370AE:op7A+2",
@@ -13737,7 +14046,8 @@
    "2370AE:op7A+2",
    "2370AE:op7A+2",
    "2370AE:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:237C84",
@@ -13775,7 +14085,7 @@
   "addr": "237C90",
   "kind": "msg",
   "jp": "この先に・・・[BR]モンスターの実験場（じっけんじょう）[BR]があるらしくて・・・[PAGE]そこで仲間（なかま）たちは・・・[WAIT]",
-  "en": "",
+  "en": "Up ahead… there's supposedly a Monster[BR]Lab…[PAGE]and our friends there are…[WAIT]",
   "bytes": 112,
   "sites": [
    "2370BB:op52+5",
@@ -13798,7 +14108,8 @@
    "2370BB:op52+5",
    "2370BB:op52+5",
    "2370BB:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:237D00",
@@ -13836,7 +14147,7 @@
   "addr": "237D08",
   "kind": "msg",
   "jp": "モンスターの実験場（じっけんじょう）[BR]・・・！[WAIT]",
-  "en": "",
+  "en": "The Monster Lab…![WAIT]",
   "bytes": 50,
   "sites": [
    "2370CF:op7A+2",
@@ -13859,7 +14170,8 @@
    "2370CF:op7A+2",
    "2370CF:op7A+2",
    "2370CF:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:237D3A",
@@ -13959,7 +14271,7 @@
   "addr": "237D5E",
   "kind": "msg",
   "jp": "へ・・・へへへ・・・・・・・[BR]えへ・・・・・・[WAIT]",
-  "en": "",
+  "en": "Heh… heh heh heh……. Eh heh……[WAIT]",
   "bytes": 50,
   "sites": [
    "2370F2:op52+5",
@@ -13982,7 +14294,8 @@
    "2370F2:op52+5",
    "2370F2:op52+5",
    "2370F2:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:237D90",
@@ -14020,7 +14333,7 @@
   "addr": "237D98",
   "kind": "msg",
   "jp": "・・・・・・くっ！[WAIT]",
-  "en": "",
+  "en": "……Ngh![WAIT]",
   "bytes": 22,
   "sites": [
    "237106:op7A+2",
@@ -14043,7 +14356,8 @@
    "237106:op7A+2",
    "237106:op7A+2",
    "237106:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:237DAE",
@@ -14081,7 +14395,7 @@
   "addr": "237DB6",
   "kind": "msg",
   "jp": "ビィト・・・行こう！[BR]モンスターの実験場（じっけんじょう）[BR]をなんとかしよう！[WAIT]",
-  "en": "",
+  "en": "Beet… let's go! Let's do something[BR]about the Monster Lab![WAIT]",
   "bytes": 82,
   "sites": [
    "23711C:op7A+2",
@@ -14104,7 +14418,8 @@
    "23711C:op7A+2",
    "23711C:op7A+2",
    "23711C:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:237E08",
@@ -14204,7 +14519,7 @@
   "addr": "237E2C",
   "kind": "msg",
   "jp": "そ、それがですね・・・[BR]あなた方が来て下さる少し前に・・・[BR]なにやらその[PAGE]モンスターの実験場（じっけんじょう）[BR]の方から、ものすごい音が[BR]してきてまして・・・[WAIT]",
-  "en": "",
+  "en": "W-well, about that… A little before[BR]you folks came…[PAGE]there were these tremendous noises[BR]coming from the direction of the[BR]Monster Lab…[WAIT]",
   "bytes": 162,
   "sites": [
    "237148:op52+5",
@@ -14228,7 +14543,8 @@
    "237148:op52+5",
    "237148:op52+5",
    "237148:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:237ECE",
@@ -14267,7 +14583,7 @@
   "addr": "237ED6",
   "kind": "msg",
   "jp": "ものすごい・・・音？[WAIT]",
-  "en": "",
+  "en": "Tremendous… noises?[WAIT]",
   "bytes": 24,
   "sites": [
    "23715C:op7A+2",
@@ -14291,7 +14607,8 @@
    "23715C:op7A+2",
    "23715C:op7A+2",
    "23715C:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:237EEE",
@@ -14330,7 +14647,7 @@
   "addr": "237EF8",
   "kind": "msg",
   "jp": "ええ・・・[BR]何かがあばれてるような・・・[BR]そんな音でした[WAIT]",
-  "en": "",
+  "en": "Yes… Like something was going on a[BR]rampage… That kind of noise.[WAIT]",
   "bytes": 60,
   "sites": [
    "237169:op52+5",
@@ -14354,7 +14671,8 @@
    "237169:op52+5",
    "237169:op52+5",
    "237169:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:237F34",
@@ -14393,7 +14711,7 @@
   "addr": "237F3C",
   "kind": "msg",
   "jp": "ふむ・・・とにかくだ！[BR]オレたちは外のモンスターを[BR]たおしながら、その[PAGE]モンスター実験場（じっけんじょう）を[BR]さがしてなんとかする！[PAGE]・・・商隊（しょうたい）のみんなは、[BR]なんとかすきを見てここを[BR]脱出（だっしゅつ）してくれっ！！[WAIT]",
-  "en": "",
+  "en": "Hmm… Anyway! We'll take down the[BR]monsters out there and find that[BR]Monster Lab and deal with it![PAGE]…You caravan folks, watch for a chance[BR]and escape from here!![WAIT]",
   "bytes": 234,
   "sites": [
    "23717D:op7A+2",
@@ -14417,7 +14735,8 @@
    "23717D:op7A+2",
    "23717D:op7A+2",
    "23717D:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:238026",
@@ -14456,7 +14775,7 @@
   "addr": "238030",
   "kind": "msg",
   "jp": "わっ、わかった・・・っ！[WAIT]",
-  "en": "",
+  "en": "G-got it…![WAIT]",
   "bytes": 28,
   "sites": [
    "23718A:op52+5",
@@ -14480,7 +14799,8 @@
    "23718A:op52+5",
    "23718A:op52+5",
    "23718A:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23804C",
@@ -14519,7 +14839,7 @@
   "addr": "238054",
   "kind": "msg",
   "jp": "・・・いくぞ、みんなっ！！[WAIT]",
-  "en": "",
+  "en": "…Let's go, everyone!![WAIT]",
   "bytes": 30,
   "sites": [
    "23719E:op7A+2",
@@ -14543,7 +14863,8 @@
    "23719E:op7A+2",
    "23719E:op7A+2",
    "23719E:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:238072",
@@ -14677,11 +14998,12 @@
   "addr": "2384F0",
   "kind": "banner",
   "jp": "ビィト戦士団",
-  "en": "",
+  "en": "Beet Warriors",
   "bytes": 14,
   "sites": [
    "2380A6:op6F+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:2384FE",
@@ -14702,13 +15024,14 @@
   "addr": "238506",
   "kind": "msg",
   "jp": "・・・な・・・ななっ！[BR]なんだあッ！！？[WAIT]",
-  "en": "",
+  "en": "…Wh… wha-?! What the heck?!![WAIT]",
   "bytes": 44,
   "sites": [
    "238107:op7A+2",
    "238107:op7A+2",
    "238107:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:238532",
@@ -14729,13 +15052,14 @@
   "addr": "23853A",
   "kind": "msg",
   "jp": "ここが・・・[BR]モンスター実験場（じっけんじょう）！[WAIT]",
-  "en": "",
+  "en": "So this is… the Monster Lab![WAIT]",
   "bytes": 54,
   "sites": [
    "238123:op7A+2",
    "238123:op7A+2",
    "238123:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:238570",
@@ -14756,13 +15080,14 @@
   "addr": "238578",
   "kind": "msg",
   "jp": "でも・・・このありさまは・・・[BR]なに？[WAIT]",
-  "en": "",
+  "en": "But… what happened here…?[WAIT]",
   "bytes": 42,
   "sites": [
    "238139:op7A+2",
    "238139:op7A+2",
    "238139:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:2385A2",
@@ -14783,13 +15108,14 @@
   "addr": "2385AA",
   "kind": "msg",
   "jp": "・・・全滅（ぜんめつ）・・・！！？[BR]そこらじゅうメチャクチャだ・・・！[WAIT]",
-  "en": "",
+  "en": "…Completely wiped out…?! This whole[BR]place is a wreck…![WAIT]",
   "bytes": 74,
   "sites": [
    "23814F:op7A+2",
    "23814F:op7A+2",
    "23814F:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:2385F4",
@@ -14810,13 +15136,14 @@
   "addr": "2385FE",
   "kind": "msg",
   "jp": "・・・破壊（はかい）しつくされて[BR]いるな[WAIT]",
-  "en": "",
+  "en": "…It's been utterly destroyed.[WAIT]",
   "bytes": 44,
   "sites": [
    "23816E:op7A+2",
    "23816E:op7A+2",
    "23816E:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23862A",
@@ -14838,14 +15165,15 @@
   "addr": "238634",
   "kind": "msg",
   "jp": "・・・でも、ここでモンスターを[BR]生み出していたのは・・・[BR]たしかみたいね[WAIT]",
-  "en": "",
+  "en": "…But it does seem this is where they[BR]were making monsters…[WAIT]",
   "bytes": 76,
   "sites": [
    "23818D:op7A+2",
    "23818D:op7A+2",
    "23818D:op7A+2",
    "23818D:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:238680",
@@ -14868,7 +15196,7 @@
   "addr": "238688",
   "kind": "msg",
   "jp": "じゃあ何か！？[BR]オレたち、する事なくなっちまったって[BR]事なのか！？[WAIT]",
-  "en": "",
+  "en": "So what, then?! You mean there's[BR]nothing left for us to do?![WAIT]",
   "bytes": 70,
   "sites": [
    "2381A3:op7A+2",
@@ -14876,7 +15204,8 @@
    "2381A3:op7A+2",
    "2381A3:op7A+2",
    "2381A3:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:2386CE",
@@ -14899,7 +15228,7 @@
   "addr": "2386D6",
   "kind": "msg",
   "jp": "そ・・・そうみたい・・・[WAIT]",
-  "en": "",
+  "en": "L-looks like it…[WAIT]",
   "bytes": 28,
   "sites": [
    "2381B9:op7A+2",
@@ -14907,7 +15236,8 @@
    "2381B9:op7A+2",
    "2381B9:op7A+2",
    "2381B9:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:2386F2",
@@ -14930,7 +15260,7 @@
   "addr": "2386FA",
   "kind": "msg",
   "jp": "・・・そういえば、[PAGE]さっきつかまってた人が・・・[BR]こっちからものすごい音がしたって、[BR]言ってたわね[WAIT]",
-  "en": "",
+  "en": "…Now that I think about it,[PAGE]one of the prisoners said there was a[BR]tremendous noise from this direction,[BR]didn't they?[WAIT]",
   "bytes": 102,
   "sites": [
    "2381CF:op7A+2",
@@ -14938,7 +15268,8 @@
    "2381CF:op7A+2",
    "2381CF:op7A+2",
    "2381CF:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:238760",
@@ -14961,7 +15292,7 @@
   "addr": "238768",
   "kind": "msg",
   "jp": "ああ、言ってたな・・・[WAIT]",
-  "en": "",
+  "en": "Yeah, they did…[WAIT]",
   "bytes": 26,
   "sites": [
    "2381E5:op7A+2",
@@ -14969,7 +15300,8 @@
    "2381E5:op7A+2",
    "2381E5:op7A+2",
    "2381E5:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:238782",
@@ -14992,7 +15324,7 @@
   "addr": "23878C",
   "kind": "msg",
   "jp": "やはり、[BR]ここが破壊（はかい）される[BR]音だったのか・・・[WAIT]",
-  "en": "",
+  "en": "So that was… the sound of this place[BR]being destroyed.[WAIT]",
   "bytes": 60,
   "sites": [
    "238204:op7A+2",
@@ -15000,7 +15332,8 @@
    "238204:op7A+2",
    "238204:op7A+2",
    "238204:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:2387C8",
@@ -15024,7 +15357,7 @@
   "addr": "2387D0",
   "kind": "msg",
   "jp": "ワタシたちより一足早く、[BR]だれか他のバスターが来て[BR]こわしちゃったのかしら？[WAIT]",
-  "en": "",
+  "en": "I wonder if some other Buster got here[BR]just ahead of us and wrecked it?[WAIT]",
   "bytes": 80,
   "sites": [
    "23821A:op7A+2",
@@ -15033,7 +15366,8 @@
    "23821A:op7A+2",
    "23821A:op7A+2",
    "23821A:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:238820",
@@ -15057,7 +15391,7 @@
   "addr": "23882A",
   "kind": "msg",
   "jp": "でも・・・このこわされ方は・・・[BR]なんかへんだわ[WAIT]",
-  "en": "",
+  "en": "But… the way it's been wrecked…[BR]something's off.[WAIT]",
   "bytes": 52,
   "sites": [
    "238239:op7A+2",
@@ -15066,7 +15400,8 @@
    "238239:op7A+2",
    "238239:op7A+2",
    "238239:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23885E",
@@ -15091,7 +15426,7 @@
   "addr": "238866",
   "kind": "msg",
   "jp": "・・・これは、[BR]天撃（てんげき）とか[BR]才牙（サイガ）でこわした・・・って[PAGE]感じでもないぜ[WAIT]",
-  "en": "",
+  "en": "…It doesn't look like this was busted[BR]up with Divine Attacks or Saiga,[BR]either…[WAIT]",
   "bytes": 92,
   "sites": [
    "23824F:op7A+2",
@@ -15101,7 +15436,8 @@
    "23824F:op7A+2",
    "23824F:op7A+2",
    "23824F:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:2388C2",
@@ -15126,7 +15462,7 @@
   "addr": "2388CA",
   "kind": "msg",
   "jp": "そうだね・・・[BR]みんなおしつぶされたり、[BR]ひきちぎられたりで・・・[PAGE]まるで、[BR]凶暴（きょうぼう）な野獣（やじゅう）[BR]があばれくるったみたいだ・・・[WAIT]",
-  "en": "",
+  "en": "You're right… Everything's crushed or[BR]torn apart…[PAGE]It's as if some savage wild beast went[BR]berserk…[WAIT]",
   "bytes": 150,
   "sites": [
    "238265:op7A+2",
@@ -15136,7 +15472,8 @@
    "238265:op7A+2",
    "238265:op7A+2",
    "238265:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:238960",
@@ -15233,7 +15570,7 @@
   "addr": "238992",
   "kind": "msg",
   "jp": "・・・それが・・・[BR]「血塗られた獣（ちぬられたけもの）」[BR]・・・！！[WAIT]",
-  "en": "",
+  "en": "…That is… the \"Bloodstained Beast\"…!![WAIT]",
   "bytes": 72,
   "sites": [
    "2382A7:op7A+2",
@@ -15243,7 +15580,8 @@
    "2382A7:op7A+2",
    "2382A7:op7A+2",
    "2382A7:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:2389DA",
@@ -15268,7 +15606,7 @@
   "addr": "2389E2",
   "kind": "msg",
   "jp": "まさか・・・これって・・・[WAIT]",
-  "en": "",
+  "en": "Don't tell me… this is…[WAIT]",
   "bytes": 30,
   "sites": [
    "2382BD:op7A+2",
@@ -15278,7 +15616,8 @@
    "2382BD:op7A+2",
    "2382BD:op7A+2",
    "2382BD:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:238A00",
@@ -15339,7 +15678,7 @@
   "addr": "238A22",
   "kind": "msg",
   "jp": "・・・あっ！　ビィト上っ！！[WAIT]",
-  "en": "",
+  "en": "…Ah! Beet, above you!![WAIT]",
   "bytes": 32,
   "sites": [
    "2382EF:op7A+2",
@@ -15349,7 +15688,8 @@
    "2382EF:op7A+2",
    "2382EF:op7A+2",
    "2382EF:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:238A42",
@@ -15410,7 +15750,7 @@
   "addr": "238A60",
   "kind": "msg",
   "jp": "うおっ！！[BR]こ、こいつはっ・・・！！[WAIT]",
-  "en": "",
+  "en": "Whoa!! Wh-what is this thing…!![WAIT]",
   "bytes": 40,
   "sites": [
    "238329:op7A+2",
@@ -15420,7 +15760,8 @@
    "238329:op7A+2",
    "238329:op7A+2",
    "238329:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:238A88",
@@ -15445,7 +15786,7 @@
   "addr": "238A90",
   "kind": "msg",
   "jp": "こんなモンスター・・・[BR]見たことも聞いたことも無いよ・・・！[WAIT]",
-  "en": "",
+  "en": "I've never seen or even heard of a[BR]monster like this…![WAIT]",
   "bytes": 64,
   "sites": [
    "23833F:op7A+2",
@@ -15455,7 +15796,8 @@
    "23833F:op7A+2",
    "23833F:op7A+2",
    "23833F:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:238AD0",
@@ -15480,7 +15822,7 @@
   "addr": "238AD8",
   "kind": "msg",
   "jp": "実験場（じっけんじょう）が[BR]こわされて・・・[PAGE]作りかけのモンスターが[BR]生きのこってたんだわ・・・！！[WAIT]",
-  "en": "",
+  "en": "The lab got destroyed…[PAGE]and the half-finished monsters[BR]survived…!![WAIT]",
   "bytes": 104,
   "sites": [
    "238355:op7A+2",
@@ -15490,7 +15832,8 @@
    "238355:op7A+2",
    "238355:op7A+2",
    "238355:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:238B40",
@@ -15515,7 +15858,7 @@
   "addr": "238B48",
   "kind": "msg",
   "jp": "モンスターの実験場（じっけんじょう）[BR]・・・って言うだけあるな・・・！！[WAIT]",
-  "en": "",
+  "en": "No wonder they call it a Monster[BR]Lab…!![WAIT]",
   "bytes": 76,
   "sites": [
    "238384:op7A+2",
@@ -15525,7 +15868,8 @@
    "238384:op7A+2",
    "238384:op7A+2",
    "238384:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:238B94",
@@ -15550,7 +15894,7 @@
   "addr": "238B9C",
   "kind": "msg",
   "jp": "とにかく・・・[BR]こいつらを何とかしないとね・・・っ！[WAIT]",
-  "en": "",
+  "en": "Anyway… we have to do something about[BR]these things…![WAIT]",
   "bytes": 56,
   "sites": [
    "23839A:op7A+2",
@@ -15560,7 +15904,8 @@
    "23839A:op7A+2",
    "23839A:op7A+2",
    "23839A:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:238BD4",
@@ -15585,7 +15930,7 @@
   "addr": "238BDC",
   "kind": "msg",
   "jp": "やるぞっ！！[WAIT]",
-  "en": "",
+  "en": "Let's do this!![WAIT]",
   "bytes": 16,
   "sites": [
    "2383B0:op7A+2",
@@ -15595,7 +15940,8 @@
    "2383B0:op7A+2",
    "2383B0:op7A+2",
    "2383B0:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:238BEC",
@@ -15620,7 +15966,7 @@
   "addr": "238BF4",
   "kind": "msg",
   "jp": "・・・ふうっ！[WAIT]",
-  "en": "",
+  "en": "…Phew![WAIT]",
   "bytes": 18,
   "sites": [
    "2383D7:op7A+2",
@@ -15630,7 +15976,8 @@
    "2383D7:op7A+2",
    "2383D7:op7A+2",
    "2383D7:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:238C06",
@@ -15655,7 +16002,7 @@
   "addr": "238C0E",
   "kind": "msg",
   "jp": "よしっ！[WAIT]",
-  "en": "",
+  "en": "Alright![WAIT]",
   "bytes": 12,
   "sites": [
    "2383ED:op7A+2",
@@ -15665,7 +16012,8 @@
    "2383ED:op7A+2",
    "2383ED:op7A+2",
    "2383ED:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:238C1A",
@@ -15690,7 +16038,7 @@
   "addr": "238C22",
   "kind": "msg",
   "jp": "やったわね・・・！[WAIT]",
-  "en": "",
+  "en": "We did it…![WAIT]",
   "bytes": 22,
   "sites": [
    "238403:op7A+2",
@@ -15700,7 +16048,8 @@
    "238403:op7A+2",
    "238403:op7A+2",
    "238403:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:238C38",
@@ -15725,7 +16074,7 @@
   "addr": "238C40",
   "kind": "msg",
   "jp": "でもビィト[BR]実験場（じっけんじょう）は[BR]これでかたづいたけれど・・・[PAGE]まだこの城（しろ）の[BR]中枢部（ちゅうすうぶ）がのこってるよ[WAIT]",
-  "en": "",
+  "en": "But Beet, the lab's taken care of,[BR]but…[PAGE]there's still the core of this castle.[WAIT]",
   "bytes": 132,
   "sites": [
    "238419:op7A+2",
@@ -15735,7 +16084,8 @@
    "238419:op7A+2",
    "238419:op7A+2",
    "238419:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:238CC4",
@@ -15760,7 +16110,7 @@
   "addr": "238CCE",
   "kind": "msg",
   "jp": "・・・そうね・・・[BR]そっちもなんとかしないとね[WAIT]",
-  "en": "",
+  "en": "…Right… We have to deal with that too.[WAIT]",
   "bytes": 50,
   "sites": [
    "238438:op7A+2",
@@ -15770,7 +16120,8 @@
    "238438:op7A+2",
    "238438:op7A+2",
    "238438:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:238D00",
@@ -15835,7 +16186,7 @@
   "addr": "238D20",
   "kind": "msg",
   "jp": "そうだな、[BR]なんとか中枢（ちゅうすう）を[BR]ぶっこわして・・・[PAGE]こっからオサラバしないとなッ！！[WAIT]",
-  "en": "",
+  "en": "Yeah, we gotta smash that core[BR]somehow…[PAGE]and then get the heck outta here!![WAIT]",
   "bytes": 98,
   "sites": [
    "23846D:op7A+2",
@@ -15847,7 +16198,8 @@
    "23846D:op7A+2",
    "23846D:op7A+2",
    "23846D:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:238D82",
@@ -15874,7 +16226,7 @@
   "addr": "238D8A",
   "kind": "msg",
   "jp": "・・・ねぇ、[BR]さっきの中枢部（ちゅうすうぶ）の[BR]とびらって・・・[PAGE]開くようになってないかしら？[BR]これだけの爆発（ばくはつ）が[BR]あったんだから・・・[WAIT]",
-  "en": "",
+  "en": "…Hey, the door to the core from[BR]before…[PAGE]Do you think it might open now? After[BR]an explosion like that…[WAIT]",
   "bytes": 150,
   "sites": [
    "238483:op7A+2",
@@ -15886,7 +16238,8 @@
    "238483:op7A+2",
    "238483:op7A+2",
    "238483:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:238E20",
@@ -15913,7 +16266,7 @@
   "addr": "238E28",
   "kind": "msg",
   "jp": "そんな調子のいい話は[BR]ないと思うけど・・・[PAGE]でも、中枢部（ちゅうすうぶ）は[BR]なんとかしないといけないし・・・[BR]行ってみるしかないね[WAIT]",
-  "en": "",
+  "en": "I don't think we'll get that lucky,[BR]but…[PAGE]we have to deal with the core anyway…[BR]so we'll just have to go see.[WAIT]",
   "bytes": 134,
   "sites": [
    "238499:op7A+2",
@@ -15925,7 +16278,8 @@
    "238499:op7A+2",
    "238499:op7A+2",
    "238499:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:238EAE",
@@ -15952,7 +16306,7 @@
   "addr": "238EB6",
   "kind": "msg",
   "jp": "・・・よしっ！[BR]中枢部（ちゅうすうぶ）のとびらを[BR]もう一度あたってみよう！[WAIT]",
-  "en": "",
+  "en": "…Alright! Let's try the door to the[BR]core one more time![WAIT]",
   "bytes": 78,
   "sites": [
    "2384AF:op7A+2",
@@ -15964,7 +16318,8 @@
    "2384AF:op7A+2",
    "2384AF:op7A+2",
    "2384AF:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:238F04",
@@ -15991,7 +16346,7 @@
   "addr": "238F0C",
   "kind": "msg",
   "jp": "わかったわ！[WAIT]",
-  "en": "",
+  "en": "Got it![WAIT]",
   "bytes": 16,
   "sites": [
    "2384C5:op7A+2",
@@ -16003,18 +16358,20 @@
    "2384C5:op7A+2",
    "2384C5:op7A+2",
    "2384C5:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:239D10",
   "addr": "239D10",
   "kind": "banner",
   "jp": "ビィト戦士団",
-  "en": "",
+  "en": "Beet Warriors",
   "bytes": 14,
   "sites": [
    "238F25:op6F+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:239D1E",
@@ -16035,13 +16392,14 @@
   "addr": "239D26",
   "kind": "msg",
   "jp": "うおっ！　開いてるぜっ！！[WAIT]",
-  "en": "",
+  "en": "Whoa! It's open!![WAIT]",
   "bytes": 30,
   "sites": [
    "238F86:op7A+2",
    "238F86:op7A+2",
    "238F86:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:239D44",
@@ -16062,13 +16420,14 @@
   "addr": "239D4C",
   "kind": "msg",
   "jp": "ほんとだね・・・でも・・・[WAIT]",
-  "en": "",
+  "en": "You're right… but…[WAIT]",
   "bytes": 30,
   "sites": [
    "238F9C:op7A+2",
    "238F9C:op7A+2",
    "238F9C:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:239D6A",
@@ -16089,13 +16448,14 @@
   "addr": "239D74",
   "kind": "msg",
   "jp": "・・・ワナかもしれんな・・・[BR]都合よすぎる・・・[WAIT]",
-  "en": "",
+  "en": "…Could be a trap… Too convenient…[WAIT]",
   "bytes": 52,
   "sites": [
    "238FBB:op7A+2",
    "238FBB:op7A+2",
    "238FBB:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:239DA8",
@@ -16117,14 +16477,15 @@
   "addr": "239DB0",
   "kind": "msg",
   "jp": "そうね・・・罠かもしれないわね・・・[WAIT]",
-  "en": "",
+  "en": "Yes… It might be a trap…[WAIT]",
   "bytes": 40,
   "sites": [
    "238FD1:op7A+2",
    "238FD1:op7A+2",
    "238FD1:op7A+2",
    "238FD1:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:239DD8",
@@ -16146,14 +16507,15 @@
   "addr": "239DE0",
   "kind": "msg",
   "jp": "ワナでもなんでもかまわねぇだろ・・・[BR]こっからしか中枢部（ちゅうすうぶ）に[BR]行けないみたいだしな！[WAIT]",
-  "en": "",
+  "en": "Trap or not, who cares… Looks like[BR]this is the only way to the core![WAIT]",
   "bytes": 102,
   "sites": [
    "238FE7:op7A+2",
    "238FE7:op7A+2",
    "238FE7:op7A+2",
    "238FE7:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:239E46",
@@ -16175,14 +16537,15 @@
   "addr": "239E50",
   "kind": "msg",
   "jp": "そうだな・・・ここまで来たら・・・[BR]行くしかないな[WAIT]",
-  "en": "",
+  "en": "Right… We've come this far… We've got[BR]no choice but to go.[WAIT]",
   "bytes": 54,
   "sites": [
    "239006:op7A+2",
    "239006:op7A+2",
    "239006:op7A+2",
    "239006:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:239E86",
@@ -16205,7 +16568,7 @@
   "addr": "239E8E",
   "kind": "msg",
   "jp": "うん・・・[BR]かくごはできてるしね・・・！[WAIT]",
-  "en": "",
+  "en": "Yeah… I'm ready for this…![WAIT]",
   "bytes": 44,
   "sites": [
    "23901C:op7A+2",
@@ -16213,7 +16576,8 @@
    "23901C:op7A+2",
    "23901C:op7A+2",
    "23901C:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:239EBA",
@@ -16236,7 +16600,7 @@
   "addr": "239EC2",
   "kind": "msg",
   "jp": "ええ・・・行きましょう、ビィト！[WAIT]",
-  "en": "",
+  "en": "Yes… Let's go, Beet![WAIT]",
   "bytes": 36,
   "sites": [
    "239032:op7A+2",
@@ -16244,7 +16608,8 @@
    "239032:op7A+2",
    "239032:op7A+2",
    "239032:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:239EE6",
@@ -16267,7 +16632,7 @@
   "addr": "239EEE",
   "kind": "msg",
   "jp": "よし、行くぞっ！！[WAIT]",
-  "en": "",
+  "en": "Alright, let's go!![WAIT]",
   "bytes": 22,
   "sites": [
    "239048:op7A+2",
@@ -16275,7 +16640,8 @@
    "239048:op7A+2",
    "239048:op7A+2",
    "239048:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:239F04",
@@ -16296,13 +16662,14 @@
   "addr": "239F0C",
   "kind": "msg",
   "jp": "ここが中枢部（ちゅうすうぶ）・・・！[WAIT]",
-  "en": "",
+  "en": "So this is the core…![WAIT]",
   "bytes": 40,
   "sites": [
    "2390BD:op7A+2",
    "2390BD:op7A+2",
    "2390BD:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:239F34",
@@ -16323,13 +16690,14 @@
   "addr": "239F3C",
   "kind": "msg",
   "jp": "まるで・・・[BR]樹木（じゅもく）の化け物ね・・・！[WAIT]",
-  "en": "",
+  "en": "It's like… a monster made of trees…![WAIT]",
   "bytes": 52,
   "sites": [
    "2390D9:op7A+2",
    "2390D9:op7A+2",
    "2390D9:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:239F70",
@@ -16350,13 +16718,14 @@
   "addr": "239F78",
   "kind": "msg",
   "jp": "ここを破壊（はかい）すれば・・・[BR]この城（しろ）の機能（きのう）は[BR]停止（ていし）するはずだよ・・・[WAIT]",
-  "en": "",
+  "en": "If we destroy this… the castle's[BR]functions should stop…[WAIT]",
   "bytes": 104,
   "sites": [
    "2390EF:op7A+2",
    "2390EF:op7A+2",
    "2390EF:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:239FE0",
@@ -16377,13 +16746,14 @@
   "addr": "239FE8",
   "kind": "msg",
   "jp": "よし・・・っ！[WAIT]",
-  "en": "",
+  "en": "Alright…![WAIT]",
   "bytes": 18,
   "sites": [
    "239105:op7A+2",
    "239105:op7A+2",
    "239105:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:239FFA",
@@ -16404,13 +16774,14 @@
   "addr": "23A002",
   "kind": "msg",
   "jp": "・・・！？　待ってビィトっ！！[WAIT]",
-  "en": "",
+  "en": "…?! Wait, Beet!![WAIT]",
   "bytes": 34,
   "sites": [
    "239126:op7A+2",
    "239126:op7A+2",
    "239126:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23A024",
@@ -16431,13 +16802,14 @@
   "addr": "23A034",
   "kind": "msg",
   "jp": "ギシャァアアアッ！！[WAIT]",
-  "en": "",
+  "en": "Gishaaaaah!![WAIT]",
   "bytes": 24,
   "sites": [
    "239133:op52+5",
    "239133:op52+5",
    "239133:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23A04C",
@@ -16458,13 +16830,14 @@
   "addr": "23A054",
   "kind": "msg",
   "jp": "・・・へへ[BR]やっぱりそうかんたんには・・・[BR]やらせてくれないか・・・っ！[PAGE]みんな、いくぞっ！！[WAIT]",
-  "en": "",
+  "en": "…Heh heh. Figures it wasn't gonna let[BR]us do it that easy…![PAGE]Everyone, let's go!![WAIT]",
   "bytes": 98,
   "sites": [
    "23916B:op7A+2",
    "23916B:op7A+2",
    "23916B:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23A0B6",
@@ -16513,13 +16886,14 @@
   "addr": "23A0D2",
   "kind": "msg",
   "jp": "これで・・・[BR]あとは中枢部（ちゅうすうぶ）だっ！[BR]・・・みんな！[WAIT]",
-  "en": "",
+  "en": "That's that… Now for the core![BR]…Everyone![WAIT]",
   "bytes": 68,
   "sites": [
    "2391A8:op7A+2",
    "2391A8:op7A+2",
    "2391A8:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23A116",
@@ -16540,13 +16914,14 @@
   "addr": "23A11E",
   "kind": "msg",
   "jp": "いっくわよぉ・・・っ！！[WAIT]",
-  "en": "",
+  "en": "Here we gooo…!![WAIT]",
   "bytes": 28,
   "sites": [
    "2391BE:op7A+2",
    "2391BE:op7A+2",
    "2391BE:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23A13A",
@@ -16595,13 +16970,14 @@
   "addr": "23A156",
   "kind": "msg",
   "jp": "・・・せぇえのっ！！！[WAIT]",
-  "en": "",
+  "en": "…Heeeave hooo!!![WAIT]",
   "bytes": 26,
   "sites": [
    "2391EA:op7A+2",
    "2391EA:op7A+2",
    "2391EA:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23A170",
@@ -16628,7 +17004,7 @@
   "addr": "23A178",
   "kind": "msg",
   "jp": "・・・ふうっ！[WAIT]",
-  "en": "",
+  "en": "…Phew![WAIT]",
   "bytes": 18,
   "sites": [
    "2392D9:op7A+2",
@@ -16640,7 +17016,8 @@
    "2392D9:op7A+2",
    "2392D9:op7A+2",
    "2392D9:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23A18A",
@@ -16667,7 +17044,7 @@
   "addr": "23A192",
   "kind": "msg",
   "jp": "よしっ！[WAIT]",
-  "en": "",
+  "en": "Alright![WAIT]",
   "bytes": 12,
   "sites": [
    "2392EF:op7A+2",
@@ -16679,7 +17056,8 @@
    "2392EF:op7A+2",
    "2392EF:op7A+2",
    "2392EF:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23A19E",
@@ -16706,7 +17084,7 @@
   "addr": "23A1A6",
   "kind": "msg",
   "jp": "やったわね・・・！[WAIT]",
-  "en": "",
+  "en": "We did it…![WAIT]",
   "bytes": 22,
   "sites": [
    "239305:op7A+2",
@@ -16718,7 +17096,8 @@
    "239305:op7A+2",
    "239305:op7A+2",
    "239305:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23A1BC",
@@ -16745,7 +17124,7 @@
   "addr": "23A1C6",
   "kind": "msg",
   "jp": "・・・・ん、おかしい！[WAIT]",
-  "en": "",
+  "en": "….Hm, something's wrong![WAIT]",
   "bytes": 26,
   "sites": [
    "239324:op7A+2",
@@ -16757,7 +17136,8 @@
    "239324:op7A+2",
    "239324:op7A+2",
    "239324:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23A1E0",
@@ -16826,7 +17206,7 @@
   "addr": "23A200",
   "kind": "msg",
   "jp": "ビィト見てっ！[BR]中枢部（ちゅうすうぶ）がっ！！！[WAIT]",
-  "en": "",
+  "en": "Beet, look! The core!!![WAIT]",
   "bytes": 52,
   "sites": [
    "239350:op7A+2",
@@ -16839,7 +17219,8 @@
    "239350:op7A+2",
    "239350:op7A+2",
    "239350:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23A234",
@@ -16910,7 +17291,7 @@
   "addr": "23A254",
   "kind": "msg",
   "jp": "再生（さいせい）・・・した・・・！？[WAIT]",
-  "en": "",
+  "en": "It… regenerated…?![WAIT]",
   "bytes": 40,
   "sites": [
    "2393D4:op7A+2",
@@ -16925,7 +17306,8 @@
    "2393D4:op7A+2",
    "2393D4:op7A+2",
    "2393D4:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23A27C",
@@ -16956,7 +17338,7 @@
   "addr": "23A284",
   "kind": "msg",
   "jp": "な・・・！？[BR]どうして・・・こわしたはずなのにっ！！[WAIT]",
-  "en": "",
+  "en": "Wh…?! How… We destroyed it!![WAIT]",
   "bytes": 56,
   "sites": [
    "2393EA:op7A+2",
@@ -16972,7 +17354,8 @@
    "2393EA:op7A+2",
    "2393EA:op7A+2",
    "2393EA:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23A2BC",
@@ -17003,7 +17386,7 @@
   "addr": "23A2C4",
   "kind": "msg",
   "jp": "ど、どうなってんだ・・・！[WAIT]",
-  "en": "",
+  "en": "Wh-what's going on…![WAIT]",
   "bytes": 30,
   "sites": [
    "239400:op7A+2",
@@ -17019,7 +17402,8 @@
    "239400:op7A+2",
    "239400:op7A+2",
    "239400:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23A2E2",
@@ -17050,7 +17434,7 @@
   "addr": "23A2EA",
   "kind": "msg",
   "jp": "ものすごい[BR]再生能力（さいせいのうりょく）だよ[BR]ビィト・・・[PAGE]この城（しろ）自体が・・・[BR]まるで生きてるみたいだ・・・！[WAIT]",
-  "en": "",
+  "en": "It's got an incredible power to[BR]regenerate, Beet…[PAGE]It's like this castle itself… is[BR]alive…![WAIT]",
   "bytes": 124,
   "sites": [
    "239416:op7A+2",
@@ -17066,7 +17450,8 @@
    "239416:op7A+2",
    "239416:op7A+2",
    "239416:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23A366",
@@ -17097,7 +17482,7 @@
   "addr": "23A36E",
   "kind": "msg",
   "jp": "くそっ！！[WAIT]",
-  "en": "",
+  "en": "Dammit!![WAIT]",
   "bytes": 14,
   "sites": [
    "239432:op7A+2",
@@ -17113,7 +17498,8 @@
    "239432:op7A+2",
    "239432:op7A+2",
    "239432:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23A37C",
@@ -17144,7 +17530,7 @@
   "addr": "23A384",
   "kind": "msg",
   "jp": "・・・だめかっ！[WAIT]",
-  "en": "",
+  "en": "…No good![WAIT]",
   "bytes": 20,
   "sites": [
    "23946A:op7A+2",
@@ -17160,7 +17546,8 @@
    "23946A:op7A+2",
    "23946A:op7A+2",
    "23946A:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23A398",
@@ -17191,7 +17578,7 @@
   "addr": "23A3A0",
   "kind": "msg",
   "jp": "どうするのっ！？[WAIT]",
-  "en": "",
+  "en": "What do we do?![WAIT]",
   "bytes": 20,
   "sites": [
    "239487:op7A+2",
@@ -17207,7 +17594,8 @@
    "239487:op7A+2",
    "239487:op7A+2",
    "239487:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23A3B4",
@@ -17238,7 +17626,7 @@
   "addr": "23A3BC",
   "kind": "msg",
   "jp": "・・・これだけすごい[BR]再生能力（さいせいのうりょく）を[PAGE]持ってるんじゃ・・・[BR]今のぼくたちじゃあ・・・[WAIT]",
-  "en": "",
+  "en": "…If it can regenerate this well…[PAGE]then the way we are now…[WAIT]",
   "bytes": 106,
   "sites": [
    "23949D:op7A+2",
@@ -17254,7 +17642,8 @@
    "23949D:op7A+2",
    "23949D:op7A+2",
    "23949D:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23A426",
@@ -17285,7 +17674,7 @@
   "addr": "23A42E",
   "kind": "msg",
   "jp": "そんな・・・ここまできてっ！！[BR]ねぇ、ビィトっ！！[WAIT]",
-  "en": "",
+  "en": "No way… not after coming this far!![BR]Beet, come on!![WAIT]",
   "bytes": 54,
   "sites": [
    "2394B3:op7A+2",
@@ -17301,7 +17690,8 @@
    "2394B3:op7A+2",
    "2394B3:op7A+2",
    "2394B3:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23A464",
@@ -17332,7 +17722,7 @@
   "addr": "23A46C",
   "kind": "msg",
   "jp": "くそっ・・・[BR]なんとかならないのかよっ！！[WAIT]",
-  "en": "",
+  "en": "Dammit… Isn't there anything we can[BR]do?![WAIT]",
   "bytes": 46,
   "sites": [
    "2394C9:op7A+2",
@@ -17348,7 +17738,8 @@
    "2394C9:op7A+2",
    "2394C9:op7A+2",
    "2394C9:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23A49A",
@@ -17428,7 +17819,7 @@
   "addr": "23A4BE",
   "kind": "msg",
   "jp": "・・・何か・・・[BR]何か手はないのかしら・・・っ！[WAIT]",
-  "en": "",
+  "en": "…Isn't there… isn't there some way, I[BR]wonder…![WAIT]",
   "bytes": 52,
   "sites": [
    "239507:op7A+2",
@@ -17445,7 +17836,8 @@
    "239507:op7A+2",
    "239507:op7A+2",
    "239507:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23A4F2",
@@ -17478,7 +17870,7 @@
   "addr": "23A4FC",
   "kind": "msg",
   "jp": "・・・ほほう、[BR]どうやらこまってるみてぇだな[BR]ビィトっ！！[WAIT]",
-  "en": "",
+  "en": "…Well, well, looks like you're in a[BR]bit of a jam, Beet!![WAIT]",
   "bytes": 62,
   "sites": [
    "239514:op52+5",
@@ -17496,7 +17888,8 @@
    "239514:op52+5",
    "239514:op52+5",
    "239514:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23A53A",
@@ -17583,7 +17976,7 @@
   "addr": "23A556",
   "kind": "msg",
   "jp": "だれっ？[WAIT]",
-  "en": "",
+  "en": "Who's there?[WAIT]",
   "bytes": 12,
   "sites": [
    "239567:op7A+2",
@@ -17603,7 +17996,8 @@
    "239567:op7A+2",
    "239567:op7A+2",
    "239567:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23A562",
@@ -17638,7 +18032,7 @@
   "addr": "23A56A",
   "kind": "msg",
   "jp": "お・・・おまえはっ！！[WAIT]",
-  "en": "",
+  "en": "Y… you're…!![WAIT]",
   "bytes": 26,
   "sites": [
    "239590:op7A+2",
@@ -17658,7 +18052,8 @@
    "239590:op7A+2",
    "239590:op7A+2",
    "239590:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23A584",
@@ -17693,7 +18088,7 @@
   "addr": "23A58C",
   "kind": "msg",
   "jp": "強盗団（ごうとうだん）、[BR]「暁の斧（あかつきのおの）」の・・・[BR]ガゼッタ！！[WAIT]",
-  "en": "",
+  "en": "Gazetta… of the \"Dawn Axe\" bandits!![WAIT]",
   "bytes": 80,
   "sites": [
    "2395A6:op7A+2",
@@ -17713,7 +18108,8 @@
    "2395A6:op7A+2",
    "2395A6:op7A+2",
    "2395A6:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23A5DC",
@@ -17748,7 +18144,7 @@
   "addr": "23A5E6",
   "kind": "msg",
   "jp": "おいおい[BR]もう強盗団（ごうとうだん）は[BR]やめてくれよ・・・[PAGE]もう悪い事からは[BR]足を洗ったんだからよ！[WAIT]",
-  "en": "",
+  "en": "Hey, hey, quit callin' us bandits…[PAGE]I already washed my hands of the bad[BR]stuff, y'know![WAIT]",
   "bytes": 104,
   "sites": [
    "2395B3:op52+5",
@@ -17768,7 +18164,8 @@
    "2395B3:op52+5",
    "2395B3:op52+5",
    "2395B3:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23A64E",
@@ -17803,7 +18200,7 @@
   "addr": "23A656",
   "kind": "msg",
   "jp": "あっ、そ・・・そうだったね・・・[WAIT]",
-  "en": "",
+  "en": "Oh, r… right, you did…[WAIT]",
   "bytes": 36,
   "sites": [
    "2395C7:op7A+2",
@@ -17823,7 +18220,8 @@
    "2395C7:op7A+2",
    "2395C7:op7A+2",
    "2395C7:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23A67A",
@@ -17858,7 +18256,7 @@
   "addr": "23A682",
   "kind": "msg",
   "jp": "それはそうと・・・[BR]おまえ、何でこんなところまで・・・？[WAIT]",
-  "en": "",
+  "en": "Anyway… what are you doing all the way[BR]out here…?[WAIT]",
   "bytes": 60,
   "sites": [
    "2395DD:op7A+2",
@@ -17878,7 +18276,8 @@
    "2395DD:op7A+2",
    "2395DD:op7A+2",
    "2395DD:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23A6BE",
@@ -17913,7 +18312,7 @@
   "addr": "23A6C6",
   "kind": "msg",
   "jp": "よく・・・[BR]ここまでこれたわねぇ・・・！[WAIT]",
-  "en": "",
+  "en": "I can't believe… you made it all this[BR]way…![WAIT]",
   "bytes": 44,
   "sites": [
    "2395F3:op7A+2",
@@ -17933,7 +18332,8 @@
    "2395F3:op7A+2",
    "2395F3:op7A+2",
    "2395F3:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23A6F2",
@@ -17968,7 +18368,7 @@
   "addr": "23A6FC",
   "kind": "msg",
   "jp": "おいおい・・・！[BR]オレは死に物ぐるいでおまえたちに[BR]とどけ物を持ってきたんだぜ？[PAGE]そんな言い方はひどいじゃねぇか！[WAIT]",
-  "en": "",
+  "en": "Hey, hey…! I risked my neck bringin'[BR]you guys a delivery, y'know?[PAGE]That ain't a nice way to talk![WAIT]",
   "bytes": 118,
   "sites": [
    "239600:op52+5",
@@ -17988,7 +18388,8 @@
    "239600:op52+5",
    "239600:op52+5",
    "239600:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23A772",
@@ -18023,7 +18424,7 @@
   "addr": "23A77A",
   "kind": "msg",
   "jp": "とどけ物・・・？[WAIT]",
-  "en": "",
+  "en": "A delivery…?[WAIT]",
   "bytes": 20,
   "sites": [
    "239614:op7A+2",
@@ -18043,7 +18444,8 @@
    "239614:op7A+2",
    "239614:op7A+2",
    "239614:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23A78E",
@@ -18078,7 +18480,7 @@
   "addr": "23A798",
   "kind": "msg",
   "jp": "ああ・・・これだぜっ！！[WAIT]",
-  "en": "",
+  "en": "Yeah… This here!![WAIT]",
   "bytes": 28,
   "sites": [
    "239621:op52+5",
@@ -18098,7 +18500,8 @@
    "239621:op52+5",
    "239621:op52+5",
    "239621:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23A7B4",
@@ -18133,7 +18536,7 @@
   "addr": "23A7BC",
   "kind": "msg",
   "jp": "そっ・・・それはっ！？[WAIT]",
-  "en": "",
+  "en": "Th… that's…?![WAIT]",
   "bytes": 26,
   "sites": [
    "239635:op7A+2",
@@ -18153,7 +18556,8 @@
    "239635:op7A+2",
    "239635:op7A+2",
    "239635:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23A7D6",
@@ -18188,7 +18592,7 @@
   "addr": "23A7DE",
   "kind": "msg",
   "jp": "あのときの・・・[BR]森の遺跡（いせき）で見つけた[BR]オーブなの！？[WAIT]",
-  "en": "",
+  "en": "Is that… the Orb we found back then,[BR]in the Forest Ruins?![WAIT]",
   "bytes": 66,
   "sites": [
    "23964B:op7A+2",
@@ -18208,7 +18612,8 @@
    "23964B:op7A+2",
    "23964B:op7A+2",
    "23964B:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23A820",
@@ -18243,7 +18648,7 @@
   "addr": "23A82A",
   "kind": "msg",
   "jp": "ああ、そうだ[BR]「フォレストオーブ」ってぇ[BR]シロモノらしい[PAGE]「これがビィトたちにひつようになる」[BR]って、鑑定士（かんていし）の[BR]おっさんが言うんでな、[PAGE]オレが運んできた・・・ってぇワケだ[WAIT]",
-  "en": "",
+  "en": "Yep, that's it. Seems the thing's[BR]called the \"Forest Orb.\"[PAGE]The old Appraiser said, \"Beet and the[BR]others are gonna need this,\"[PAGE]so I hauled it over here… that's the[BR]deal.[WAIT]",
   "bytes": 188,
   "sites": [
    "239658:op52+5",
@@ -18263,7 +18668,8 @@
    "239658:op52+5",
    "239658:op52+5",
    "239658:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23A8E6",
@@ -18298,7 +18704,7 @@
   "addr": "23A8EE",
   "kind": "msg",
   "jp": "・・・これが、[BR]オレたちにひつよう・・・・・・[WAIT]",
-  "en": "",
+  "en": "…We're gonna need this……[WAIT]",
   "bytes": 50,
   "sites": [
    "23966C:op7A+2",
@@ -18318,7 +18724,8 @@
    "23966C:op7A+2",
    "23966C:op7A+2",
    "23966C:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23A920",
@@ -18353,7 +18760,7 @@
   "addr": "23A928",
   "kind": "msg",
   "jp": "・・・ああっそうか！[WAIT]",
-  "en": "",
+  "en": "…Oh, I get it![WAIT]",
   "bytes": 24,
   "sites": [
    "239682:op7A+2",
@@ -18373,7 +18780,8 @@
    "239682:op7A+2",
    "239682:op7A+2",
    "239682:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23A940",
@@ -18408,7 +18816,7 @@
   "addr": "23A948",
   "kind": "msg",
   "jp": "うおっ！　なんだキッスいきなりっ！[WAIT]",
-  "en": "",
+  "en": "Whoa! What's with you all of a sudden,[BR]Kissu?![WAIT]",
   "bytes": 38,
   "sites": [
    "239698:op7A+2",
@@ -18428,7 +18836,8 @@
    "239698:op7A+2",
    "239698:op7A+2",
    "239698:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23A96E",
@@ -18463,7 +18872,7 @@
   "addr": "23A976",
   "kind": "msg",
   "jp": "このフォレストオーブを使えば・・・・[BR]きっとこの中枢部（ちゅうすうぶ）を[BR]破壊（はかい）できるはずだよ[PAGE]ビィト！[WAIT]",
-  "en": "",
+  "en": "If we use this Forest Orb…. we should[BR]be able to destroy this core.[PAGE]Beet![WAIT]",
   "bytes": 116,
   "sites": [
    "2396AE:op7A+2",
@@ -18483,7 +18892,8 @@
    "2396AE:op7A+2",
    "2396AE:op7A+2",
    "2396AE:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23A9EA",
@@ -18518,7 +18928,7 @@
   "addr": "23A9F2",
   "kind": "msg",
   "jp": "ええっ！？[WAIT]",
-  "en": "",
+  "en": "Whaaat?![WAIT]",
   "bytes": 14,
   "sites": [
    "2396C4:op7A+2",
@@ -18538,7 +18948,8 @@
    "2396C4:op7A+2",
    "2396C4:op7A+2",
    "2396C4:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23AA00",
@@ -18573,7 +18984,7 @@
   "addr": "23AA08",
   "kind": "msg",
   "jp": "本当なの、キッス？[WAIT]",
-  "en": "",
+  "en": "Is that true, Kissu?[WAIT]",
   "bytes": 22,
   "sites": [
    "2396DA:op7A+2",
@@ -18593,7 +19004,8 @@
    "2396DA:op7A+2",
    "2396DA:op7A+2",
    "2396DA:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23AA1E",
@@ -18628,7 +19040,7 @@
   "addr": "23AA26",
   "kind": "msg",
   "jp": "うん[BR]このオーブの実験（じっけん）を[BR]していた時を思い出してみてよ・・・[PAGE]たしかこれ、天力に作用して・・・[BR]樹木系（じゅもくけい）のモンスターの[BR]エネルギーを吸収（きゅうしゅう）する[PAGE]はずだよね？[WAIT]？",
-  "en": "",
+  "en": "Yeah. Try to remember when we were[BR]testing this Orb…[PAGE]I'm pretty sure it acts on Divine[BR]Power… and absorbs the energy of[BR]tree-type monsters,[PAGE]right?",
   "bytes": 202,
   "sites": [
    "2396F0:op7A+2",
@@ -18648,7 +19060,8 @@
    "2396F0:op7A+2",
    "2396F0:op7A+2",
    "2396F0:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23AAF0",
@@ -18683,7 +19096,7 @@
   "addr": "23AAFA",
   "kind": "msg",
   "jp": "おお[BR]たしかに鑑定士（かんていし）の[BR]おっさんもそう言ってたぜ！[PAGE]それに[PAGE]「与える天力の力が大きければ[BR]大きいほど、その力も強くなる」[BR]ってな[WAIT]",
-  "en": "",
+  "en": "Oh, yeah, the old Appraiser said so[BR]too![PAGE]And also,[PAGE]\"The more Divine Power you give it,[BR]the stronger its power gets,\" he said.[WAIT]",
   "bytes": 146,
   "sites": [
    "2396FD:op52+5",
@@ -18703,7 +19116,8 @@
    "2396FD:op52+5",
    "2396FD:op52+5",
    "2396FD:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23AB8C",
@@ -18738,7 +19152,7 @@
   "addr": "23AB94",
   "kind": "msg",
   "jp": "・・・そっか、つまり・・・！[WAIT]",
-  "en": "",
+  "en": "…I get it, so…![WAIT]",
   "bytes": 32,
   "sites": [
    "239711:op7A+2",
@@ -18758,7 +19172,8 @@
    "239711:op7A+2",
    "239711:op7A+2",
    "239711:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23ABB4",
@@ -18793,7 +19208,7 @@
   "addr": "23ABBC",
   "kind": "msg",
   "jp": "・・・このオーブに[BR]ありったけの天力をぶつければ・・・[WAIT]",
-  "en": "",
+  "en": "…If we hit this Orb with every bit of[BR]Divine Power we've got…[WAIT]",
   "bytes": 58,
   "sites": [
    "239727:op7A+2",
@@ -18813,7 +19228,8 @@
    "239727:op7A+2",
    "239727:op7A+2",
    "239727:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23ABF6",
@@ -18848,7 +19264,7 @@
   "addr": "23ABFE",
   "kind": "msg",
   "jp": "あの中枢部（ちゅうすうぶ）の[BR]再生能力（さいせいのうりょく）を[BR]おさえる事ができるかもしれない・・・[PAGE]ってことかっ！！[WAIT]",
-  "en": "",
+  "en": "We might be able to hold down that[BR]core's power to regenerate…[PAGE]is that it?!![WAIT]",
   "bytes": 122,
   "sites": [
    "23973D:op7A+2",
@@ -18868,7 +19284,8 @@
    "23973D:op7A+2",
    "23973D:op7A+2",
    "23973D:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23AC78",
@@ -18903,7 +19320,7 @@
   "addr": "23AC82",
   "kind": "msg",
   "jp": "・・・フム[WAIT]",
-  "en": "",
+  "en": "…Hm.[WAIT]",
   "bytes": 14,
   "sites": [
    "23975C:op7A+2",
@@ -18923,7 +19340,8 @@
    "23975C:op7A+2",
    "23975C:op7A+2",
    "23975C:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23AC90",
@@ -18959,7 +19377,7 @@
   "addr": "23AC9A",
   "kind": "msg",
   "jp": "えっ！？・・・[BR]いまいちワケわかんないんですけどぉ？[WAIT]",
-  "en": "",
+  "en": "Huh?! …I don't really get it, though~?[WAIT]",
   "bytes": 56,
   "sites": [
    "23977B:op7A+2",
@@ -18980,7 +19398,8 @@
    "23977B:op7A+2",
    "23977B:op7A+2",
    "23977B:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23ACD2",
@@ -19016,7 +19435,7 @@
   "addr": "23ACDA",
   "kind": "msg",
   "jp": "ミルファ、詳しい話は後でするわ[BR]今はあのオーブに・・・[BR]思いっきり天力をぶつける事を考えて！[WAIT]",
-  "en": "",
+  "en": "Milfa, I'll explain the details later.[BR]Right now, just think about hitting[BR]that Orb with all the Divine Power[PAGE]you've got![WAIT]",
   "bytes": 96,
   "sites": [
    "239791:op7A+2",
@@ -19037,7 +19456,8 @@
    "239791:op7A+2",
    "239791:op7A+2",
    "239791:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23AD3A",
@@ -19073,7 +19493,7 @@
   "addr": "23AD44",
   "kind": "msg",
   "jp": "・・・わかったわ、ポアラ[WAIT]",
-  "en": "",
+  "en": "…Got it, Poala.[WAIT]",
   "bytes": 28,
   "sites": [
    "2397A7:op7A+2",
@@ -19094,7 +19514,8 @@
    "2397A7:op7A+2",
    "2397A7:op7A+2",
    "2397A7:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23AD60",
@@ -19131,7 +19552,7 @@
   "addr": "23AD68",
   "kind": "msg",
   "jp": "ガゼッタ、そのオーブを・・・[BR]その中枢部（ちゅうすうぶ）のとこに[BR]おいてくれないか[WAIT]",
-  "en": "",
+  "en": "Gazetta, could you put that Orb… over[BR]there by the core?[WAIT]",
   "bytes": 86,
   "sites": [
    "2397BD:op7A+2",
@@ -19153,7 +19574,8 @@
    "2397BD:op7A+2",
    "2397BD:op7A+2",
    "2397BD:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23ADBE",
@@ -19190,7 +19612,7 @@
   "addr": "23ADC8",
   "kind": "msg",
   "jp": "・・・お、こうか？[WAIT]",
-  "en": "",
+  "en": "…Oh, like this?[WAIT]",
   "bytes": 22,
   "sites": [
    "2397CA:op52+5",
@@ -19212,7 +19634,8 @@
    "2397CA:op52+5",
    "2397CA:op52+5",
    "2397CA:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23ADDE",
@@ -19249,7 +19672,7 @@
   "addr": "23ADE8",
   "kind": "msg",
   "jp": "これでいいか？[WAIT]",
-  "en": "",
+  "en": "This good?[WAIT]",
   "bytes": 18,
   "sites": [
    "2397FD:op52+5",
@@ -19271,7 +19694,8 @@
    "2397FD:op52+5",
    "2397FD:op52+5",
    "2397FD:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23ADFA",
@@ -19308,7 +19732,7 @@
   "addr": "23AE02",
   "kind": "msg",
   "jp": "ああ・・・[BR]あとは危ないから[BR]下がっててくれ！[WAIT]",
-  "en": "",
+  "en": "Yeah… It's dangerous now, so stay[BR]back![WAIT]",
   "bytes": 50,
   "sites": [
    "239811:op7A+2",
@@ -19330,7 +19754,8 @@
    "239811:op7A+2",
    "239811:op7A+2",
    "239811:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23AE34",
@@ -19367,7 +19792,7 @@
   "addr": "23AE3C",
   "kind": "msg",
   "jp": "みんな、今度はあのオーブめがけて[WAIT]",
-  "en": "",
+  "en": "Everyone, this time aim for that Orb[WAIT]",
   "bytes": 36,
   "sites": [
    "239838:op7A+2",
@@ -19389,7 +19814,8 @@
    "239838:op7A+2",
    "239838:op7A+2",
    "239838:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23AE60",
@@ -19426,7 +19852,7 @@
   "addr": "23AE68",
   "kind": "msg",
   "jp": "うん、わかってるよビィト！[WAIT]",
-  "en": "",
+  "en": "Yeah, I know, Beet![WAIT]",
   "bytes": 30,
   "sites": [
    "23984E:op7A+2",
@@ -19448,7 +19874,8 @@
    "23984E:op7A+2",
    "23984E:op7A+2",
    "23984E:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23AE86",
@@ -19485,7 +19912,7 @@
   "addr": "23AE8E",
   "kind": "msg",
   "jp": "いいわよ、ビィト！！[WAIT]",
-  "en": "",
+  "en": "Ready when you are, Beet!![WAIT]",
   "bytes": 24,
   "sites": [
    "239864:op7A+2",
@@ -19507,7 +19934,8 @@
    "239864:op7A+2",
    "239864:op7A+2",
    "239864:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23AEA6",
@@ -19544,7 +19972,7 @@
   "addr": "23AEAE",
   "kind": "msg",
   "jp": "うおぉおおおっ！！[WAIT]",
-  "en": "",
+  "en": "Raaaaaah!![WAIT]",
   "bytes": 22,
   "sites": [
    "23987A:op7A+2",
@@ -19566,7 +19994,8 @@
    "23987A:op7A+2",
    "23987A:op7A+2",
    "23987A:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23AEC4",
@@ -19605,7 +20034,7 @@
   "addr": "23AECC",
   "kind": "msg",
   "jp": "・・・せぇえのっ！！！[WAIT]",
-  "en": "",
+  "en": "…Heeeave hooo!!![WAIT]",
   "bytes": 26,
   "sites": [
    "2398E5:op7A+2",
@@ -19629,7 +20058,8 @@
    "2398E5:op7A+2",
    "2398E5:op7A+2",
    "2398E5:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23AEE6",
@@ -19670,7 +20100,7 @@
   "addr": "23AEEE",
   "kind": "msg",
   "jp": "・・・どうだっ！！[WAIT]",
-  "en": "",
+  "en": "…How's that!![WAIT]",
   "bytes": 22,
   "sites": [
    "23992C:op7A+2",
@@ -19696,7 +20126,8 @@
    "23992C:op7A+2",
    "23992C:op7A+2",
    "23992C:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23AF04",
@@ -19737,7 +20168,7 @@
   "addr": "23AF0C",
   "kind": "msg",
   "jp": "よしっ！　今度は・・・[BR]中枢部（ちゅうすうぶ）本体だっ！！！[BR]いくぞっ！！[WAIT]",
-  "en": "",
+  "en": "Alright! Next… the core itself!!![BR]Let's go!![WAIT]",
   "bytes": 78,
   "sites": [
    "239942:op7A+2",
@@ -19763,7 +20194,8 @@
    "239942:op7A+2",
    "239942:op7A+2",
    "239942:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23AF5A",
@@ -19806,7 +20238,7 @@
   "addr": "23AF62",
   "kind": "msg",
   "jp": "・・・いっくよぉおおっ！！[WAIT]",
-  "en": "",
+  "en": "…Here we goooo!![WAIT]",
   "bytes": 30,
   "sites": [
    "239999:op7A+2",
@@ -19834,7 +20266,8 @@
    "239999:op7A+2",
    "239999:op7A+2",
    "239999:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23AF80",
@@ -19877,7 +20310,7 @@
   "addr": "23AF88",
   "kind": "msg",
   "jp": "うおぉおおおっ！！！[WAIT]",
-  "en": "",
+  "en": "Raaaaaah!!![WAIT]",
   "bytes": 24,
   "sites": [
    "2399AF:op7A+2",
@@ -19905,7 +20338,8 @@
    "2399AF:op7A+2",
    "2399AF:op7A+2",
    "2399AF:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23AFA0",
@@ -20032,7 +20466,7 @@
   "addr": "23AFCE",
   "kind": "msg",
   "jp": "やったかっ！？[WAIT]",
-  "en": "",
+  "en": "Did we get it?![WAIT]",
   "bytes": 18,
   "sites": [
    "239A6A:op7A+2",
@@ -20064,7 +20498,8 @@
    "239A6A:op7A+2",
    "239A6A:op7A+2",
    "239A6A:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23AFE0",
@@ -20111,7 +20546,7 @@
   "addr": "23AFE8",
   "kind": "msg",
   "jp": "再生（さいせい）しない・・・[BR]やった！！[WAIT]",
-  "en": "",
+  "en": "It's not regenerating… We did it!![WAIT]",
   "bytes": 44,
   "sites": [
    "239A80:op7A+2",
@@ -20143,7 +20578,8 @@
    "239A80:op7A+2",
    "239A80:op7A+2",
    "239A80:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23B014",
@@ -20190,7 +20626,7 @@
   "addr": "23B01C",
   "kind": "msg",
   "jp": "せいこうねっ！[WAIT]",
-  "en": "",
+  "en": "It worked![WAIT]",
   "bytes": 18,
   "sites": [
    "239A96:op7A+2",
@@ -20222,7 +20658,8 @@
    "239A96:op7A+2",
    "239A96:op7A+2",
    "239A96:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23B02E",
@@ -20269,7 +20706,7 @@
   "addr": "23B038",
   "kind": "msg",
   "jp": "・・・ようやくか！[WAIT]",
-  "en": "",
+  "en": "…Finally![WAIT]",
   "bytes": 22,
   "sites": [
    "239AB5:op7A+2",
@@ -20301,7 +20738,8 @@
    "239AB5:op7A+2",
    "239AB5:op7A+2",
    "239AB5:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23B04E",
@@ -20349,7 +20787,7 @@
   "addr": "23B058",
   "kind": "msg",
   "jp": "やったわね！[WAIT]",
-  "en": "",
+  "en": "We did it![WAIT]",
   "bytes": 16,
   "sites": [
    "239AD4:op7A+2",
@@ -20382,7 +20820,8 @@
    "239AD4:op7A+2",
    "239AD4:op7A+2",
    "239AD4:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23B068",
@@ -20431,7 +20870,7 @@
   "addr": "23B072",
   "kind": "msg",
   "jp": "おおっ！？[BR]なんだかよくわからねぇけど・・・[PAGE]ここはオレさまのおかげ・・・[BR]ってことかぁ！？[WAIT]",
-  "en": "",
+  "en": "Whoa?! I dunno what just happened,[BR]but…[PAGE]this is all thanks to the great[BR]Gazetta… right?![WAIT]",
   "bytes": 96,
   "sites": [
    "239AE1:op52+5",
@@ -20465,7 +20904,8 @@
    "239AE1:op52+5",
    "239AE1:op52+5",
    "239AE1:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23B0D2",
@@ -20514,7 +20954,7 @@
   "addr": "23B0DA",
   "kind": "msg",
   "jp": "ああ、そうだな・・・[PAGE]ガゼッタがあのオーブを[BR]持ってきてくれなかったら・・・[BR]ダメだったかもしれねぇ・・・っ！[WAIT]",
-  "en": "",
+  "en": "Yeah, that's right…[PAGE]If you hadn't brought that Orb,[BR]Gazetta… we might've been done for…![WAIT]",
   "bytes": 114,
   "sites": [
    "239AF5:op7A+2",
@@ -20548,7 +20988,8 @@
    "239AF5:op7A+2",
    "239AF5:op7A+2",
    "239AF5:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23B14C",
@@ -20597,7 +21038,7 @@
   "addr": "23B154",
   "kind": "msg",
   "jp": "ほんと、ありがとう！[WAIT]",
-  "en": "",
+  "en": "Really, thank you![WAIT]",
   "bytes": 24,
   "sites": [
    "239B0B:op7A+2",
@@ -20631,7 +21072,8 @@
    "239B0B:op7A+2",
    "239B0B:op7A+2",
    "239B0B:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23B16C",
@@ -20680,7 +21122,7 @@
   "addr": "23B174",
   "kind": "msg",
   "jp": "うん、助かったよ・・・！[WAIT]",
-  "en": "",
+  "en": "Yeah, you saved us…![WAIT]",
   "bytes": 28,
   "sites": [
    "239B21:op7A+2",
@@ -20714,7 +21156,8 @@
    "239B21:op7A+2",
    "239B21:op7A+2",
    "239B21:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23B190",
@@ -20763,7 +21206,7 @@
   "addr": "23B19A",
   "kind": "msg",
   "jp": "おっしゃあ！[PAGE]「ビィト戦士団（せんしだん）に[BR]オーブをとどけろ」の依頼（いらい）[BR]達成（たっせい）だぜ！！[WAIT]",
-  "en": "",
+  "en": "Alll right![PAGE]The \"deliver the Orb to the Beet[BR]Warriors\" job… is done!![WAIT]",
   "bytes": 110,
   "sites": [
    "239B2E:op52+5",
@@ -20797,7 +21240,8 @@
    "239B2E:op52+5",
    "239B2E:op52+5",
    "239B2E:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23B208",
@@ -21098,7 +21542,7 @@
   "addr": "23B256",
   "kind": "msg",
   "jp": "う、うわあああぁっ！！[WAIT]",
-  "en": "",
+  "en": "Wh-whoaaaaa!![WAIT]",
   "bytes": 26,
   "sites": [
    "239B87:op7A+2",
@@ -21132,7 +21576,8 @@
    "239B87:op7A+2",
    "239B87:op7A+2",
    "239B87:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23B270",
@@ -21181,7 +21626,7 @@
   "addr": "23B278",
   "kind": "msg",
   "jp": "キ、キッス！！[WAIT]",
-  "en": "",
+  "en": "K-Kissu!![WAIT]",
   "bytes": 18,
   "sites": [
    "239BA5:op7A+2",
@@ -21215,7 +21660,8 @@
    "239BA5:op7A+2",
    "239BA5:op7A+2",
    "239BA5:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23B28A",
@@ -21264,7 +21710,7 @@
   "addr": "23B292",
   "kind": "msg",
   "jp": "なに！？　どうしたのっ！！？[WAIT]",
-  "en": "",
+  "en": "What?! What happened?!![WAIT]",
   "bytes": 32,
   "sites": [
    "239BBB:op7A+2",
@@ -21298,7 +21744,8 @@
    "239BBB:op7A+2",
    "239BBB:op7A+2",
    "239BBB:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23B2B2",
@@ -21347,7 +21794,7 @@
   "addr": "23B2BC",
   "kind": "msg",
   "jp": "ワナか・・・っ！[WAIT]",
-  "en": "",
+  "en": "A trap…![WAIT]",
   "bytes": 20,
   "sites": [
    "239BDA:op7A+2",
@@ -21381,7 +21828,8 @@
    "239BDA:op7A+2",
    "239BDA:op7A+2",
    "239BDA:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23B2D0",
@@ -21431,7 +21879,7 @@
   "addr": "23B2DA",
   "kind": "msg",
   "jp": "あなに・・・落ちたわね・・・[WAIT]",
-  "en": "",
+  "en": "He fell… down a hole…[WAIT]",
   "bytes": 32,
   "sites": [
    "239BF9:op7A+2",
@@ -21466,7 +21914,8 @@
    "239BF9:op7A+2",
    "239BF9:op7A+2",
    "239BF9:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23B2FA",
@@ -21517,7 +21966,7 @@
   "addr": "23B302",
   "kind": "msg",
   "jp": "くっ・・・キッスどこへ・・・！[WAIT]",
-  "en": "",
+  "en": "Ngh… Kissu, where'd you go…![WAIT]",
   "bytes": 34,
   "sites": [
    "239C0F:op7A+2",
@@ -21553,7 +22002,8 @@
    "239C0F:op7A+2",
    "239C0F:op7A+2",
    "239C0F:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23B324",
@@ -21604,7 +22054,7 @@
   "addr": "23B32C",
   "kind": "msg",
   "jp": "さがしましょう！！[WAIT]",
-  "en": "",
+  "en": "Let's look for him!![WAIT]",
   "bytes": 22,
   "sites": [
    "239C25:op7A+2",
@@ -21640,7 +22090,8 @@
    "239C25:op7A+2",
    "239C25:op7A+2",
    "239C25:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23B342",
@@ -21691,7 +22142,7 @@
   "addr": "23B34A",
   "kind": "msg",
   "jp": "あなに落ちた・・・ってことは・・・[WAIT]",
-  "en": "",
+  "en": "If he fell down a hole… then…[WAIT]",
   "bytes": 38,
   "sites": [
    "239C3B:op7A+2",
@@ -21727,7 +22178,8 @@
    "239C3B:op7A+2",
    "239C3B:op7A+2",
    "239C3B:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23B370",
@@ -21778,7 +22230,7 @@
   "addr": "23B378",
   "kind": "msg",
   "jp": "・・・さっき牢屋（ろうや）があった[BR]地下室の方かもしれないわ・・・！[WAIT]",
-  "en": "",
+  "en": "…He might be over by the basement,[BR]where the jail was earlier…![WAIT]",
   "bytes": 72,
   "sites": [
    "239C51:op7A+2",
@@ -21814,7 +22266,8 @@
    "239C51:op7A+2",
    "239C51:op7A+2",
    "239C51:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23B3C0",
@@ -21865,7 +22318,7 @@
   "addr": "23B3C8",
   "kind": "msg",
   "jp": "よしっ、助けに！[BR]・・・っと、ガゼッタ！[BR]ありがとなマジ助かったぜ！！[WAIT]",
-  "en": "",
+  "en": "Alright, let's go save him! …Oh, and[BR]Gazetta! Thanks, man, you seriously[BR]saved us!![WAIT]",
   "bytes": 74,
   "sites": [
    "239C67:op7A+2",
@@ -21901,7 +22354,8 @@
    "239C67:op7A+2",
    "239C67:op7A+2",
    "239C67:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23B412",
@@ -21952,7 +22406,7 @@
   "addr": "23B41A",
   "kind": "msg",
   "jp": "うん、ありがとうね！[BR]ワタシたち、キッスをさがしに行くわ！[BR]・・・気をつけて！！[WAIT]",
-  "en": "",
+  "en": "Yeah, thank you! We're going to look[BR]for Kissu! …Take care!![WAIT]",
   "bytes": 84,
   "sites": [
    "239C7D:op7A+2",
@@ -21988,7 +22442,8 @@
    "239C7D:op7A+2",
    "239C7D:op7A+2",
    "239C7D:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23B46E",
@@ -22039,7 +22494,7 @@
   "addr": "23B478",
   "kind": "msg",
   "jp": "おう！　そっちこそやられんなよっ！！[BR]あとはたのんだぜぇ・・・[BR]ビィト戦士団（せんしだん）っ！！[WAIT]",
-  "en": "",
+  "en": "Sure thing! Don't you guys go gettin'[BR]beat!! The rest is up to you… Beet[BR]Warriors!![WAIT]",
   "bytes": 100,
   "sites": [
    "239C8A:op52+5",
@@ -22075,7 +22530,8 @@
    "239C8A:op52+5",
    "239C8A:op52+5",
    "239C8A:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23B4DC",
@@ -22126,7 +22582,7 @@
   "addr": "23B4E6",
   "kind": "msg",
   "jp": "あなた・・・見どころあるわよ！[BR]がんばってね！！[WAIT]",
-  "en": "",
+  "en": "You know… you've got potential! Keep[BR]it up!![WAIT]",
   "bytes": 52,
   "sites": [
    "239CA7:op7A+2",
@@ -22162,7 +22618,8 @@
    "239CA7:op7A+2",
    "239CA7:op7A+2",
    "239CA7:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23B51A",
@@ -22214,7 +22671,7 @@
   "addr": "23B524",
   "kind": "msg",
   "jp": "・・・フン、礼は言わないが・・・[BR]だが、助かった[WAIT]",
-  "en": "",
+  "en": "…Hmph. I won't thank you, but… still,[BR]you helped.[WAIT]",
   "bytes": 52,
   "sites": [
    "239CC6:op7A+2",
@@ -22251,7 +22708,8 @@
    "239CC6:op7A+2",
    "239CC6:op7A+2",
    "239CC6:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23B558",
@@ -22304,7 +22762,7 @@
   "addr": "23B560",
   "kind": "msg",
   "jp": "じゃあな、ガゼッタ！[BR]また会おうぜッ！！[WAIT]",
-  "en": "",
+  "en": "See ya, Gazetta! Let's meet again!![WAIT]",
   "bytes": 44,
   "sites": [
    "239CDC:op7A+2",
@@ -22342,14 +22800,15 @@
    "239CDC:op7A+2",
    "239CDC:op7A+2",
    "239CDC:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23B58C",
   "addr": "23B58C",
   "kind": "banner",
   "jp": "ビィト戦士団",
-  "en": "",
+  "en": "Beet Warriors",
   "bytes": 14,
   "sites": [
    "239CED:op6F+5",
@@ -22387,7 +22846,8 @@
    "239CED:op6F+5",
    "239CED:op6F+5",
    "239CED:op6F+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23C180",
@@ -22408,13 +22868,14 @@
   "addr": "23C188",
   "kind": "msg",
   "jp": "あそこ・・・[BR]みはりがいるな・・・！[WAIT]",
-  "en": "",
+  "en": "Over there… there's a guard…![WAIT]",
   "bytes": 40,
   "sites": [
    "23B5FA:op7A+2",
    "23B5FA:op7A+2",
    "23B5FA:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23C1B0",
@@ -22435,13 +22896,14 @@
   "addr": "23C1B8",
   "kind": "msg",
   "jp": "あやしいわね・・・！[WAIT]",
-  "en": "",
+  "en": "Looks suspicious…![WAIT]",
   "bytes": 24,
   "sites": [
    "23B61D:op7A+2",
    "23B61D:op7A+2",
    "23B61D:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23C1D0",
@@ -22462,13 +22924,14 @@
   "addr": "23C1DA",
   "kind": "msg",
   "jp": "キッスくんは・・・あそこかもね[WAIT]",
-  "en": "",
+  "en": "Kissu-kun might be in there…[WAIT]",
   "bytes": 34,
   "sites": [
    "23B63C:op7A+2",
    "23B63C:op7A+2",
    "23B63C:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23C1FC",
@@ -22490,14 +22953,15 @@
   "addr": "23C204",
   "kind": "msg",
   "jp": "とにかく、みはりをたおそう・・・[BR]いくぞっ！！[WAIT]",
-  "en": "",
+  "en": "Anyway, let's take out the guard…[BR]Let's go!![WAIT]",
   "bytes": 50,
   "sites": [
    "23B652:op7A+2",
    "23B652:op7A+2",
    "23B652:op7A+2",
    "23B652:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23C236",
@@ -22523,7 +22987,7 @@
   "addr": "23C23E",
   "kind": "msg",
   "jp": "よしっ、たおしたぞ！！[WAIT]",
-  "en": "",
+  "en": "Alright, we beat it!![WAIT]",
   "bytes": 26,
   "sites": [
    "23B6C4:op7A+2",
@@ -22534,7 +22998,8 @@
    "23B6C4:op7A+2",
    "23B6C4:op7A+2",
    "23B6C4:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23C258",
@@ -22563,7 +23028,7 @@
   "addr": "23C260",
   "kind": "msg",
   "jp": "ビ、ビィト・・・っ！[BR]・・・ビィト・・・ビ・・・[WAIT]",
-  "en": "",
+  "en": "B-Beet…! …Beet… B…[WAIT]",
   "bytes": 52,
   "sites": [
    "23B736:op7A+2",
@@ -22577,7 +23042,8 @@
    "23B736:op7A+2",
    "23B736:op7A+2",
    "23B736:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23C294",
@@ -22672,7 +23138,7 @@
   "addr": "23C2F4",
   "kind": "msg",
   "jp": "だいじょうぶ、キッス・・・？[WAIT]",
-  "en": "",
+  "en": "Are you okay, Kissu…?[WAIT]",
   "bytes": 32,
   "sites": [
    "23B77C:op7A+2",
@@ -22687,7 +23153,8 @@
    "23B77C:op7A+2",
    "23B77C:op7A+2",
    "23B77C:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23C314",
@@ -22717,7 +23184,7 @@
   "addr": "23C31C",
   "kind": "msg",
   "jp": "は・・・ははは・・・[BR]だ・・・だいじょうぶ・・・[BR]でもない・・・かな・・・[PAGE]は、はは・・・っ[WAIT]",
-  "en": "",
+  "en": "Ha… ha ha ha… I'm… I'm okay… Or maybe…[BR]not…[PAGE]Ha, ha ha…[WAIT]",
   "bytes": 96,
   "sites": [
    "23B792:op7A+2",
@@ -22732,7 +23199,8 @@
    "23B792:op7A+2",
    "23B792:op7A+2",
    "23B792:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23C37C",
@@ -22762,7 +23230,7 @@
   "addr": "23C384",
   "kind": "msg",
   "jp": "かな？[WAIT]",
-  "en": "",
+  "en": "\"Maybe\"?[WAIT]",
   "bytes": 10,
   "sites": [
    "23B7A8:op7A+2",
@@ -22777,7 +23245,8 @@
    "23B7A8:op7A+2",
    "23B7A8:op7A+2",
    "23B7A8:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23C38E",
@@ -22807,7 +23276,7 @@
   "addr": "23C396",
   "kind": "msg",
   "jp": "実はビィト・・・こ・・・ここに・・・[WAIT]",
-  "en": "",
+  "en": "The thing is, Beet… h… here…[WAIT]",
   "bytes": 40,
   "sites": [
    "23B7BE:op7A+2",
@@ -22822,7 +23291,8 @@
    "23B7BE:op7A+2",
    "23B7BE:op7A+2",
    "23B7BE:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23C3BE",
@@ -22897,7 +23367,7 @@
   "addr": "23C3DE",
   "kind": "msg",
   "jp": "・・・入ってもらいなさい[BR]どうやら、[BR]全員そろっているようじゃないか・・・[WAIT]",
-  "en": "",
+  "en": "…Have them come in. It seems everyone[BR]is here, wouldn't you say…[WAIT]",
   "bytes": 78,
   "sites": [
    "23B7E1:op52+5",
@@ -22912,7 +23382,8 @@
    "23B7E1:op52+5",
    "23B7E1:op52+5",
    "23B7E1:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23C42C",
@@ -22944,7 +23415,7 @@
   "addr": "23C434",
   "kind": "msg",
   "jp": "ビクッ！！[WAIT]",
-  "en": "",
+  "en": "*flinch*!![WAIT]",
   "bytes": 14,
   "sites": [
    "23B823:op7A+2",
@@ -22961,7 +23432,8 @@
    "23B823:op7A+2",
    "23B823:op7A+2",
    "23B823:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23C442",
@@ -22993,7 +23465,7 @@
   "addr": "23C44A",
   "kind": "msg",
   "jp": "だ・・・だれかいるの？[WAIT]",
-  "en": "",
+  "en": "W… who's there?[WAIT]",
   "bytes": 26,
   "sites": [
    "23B84E:op7A+2",
@@ -23010,7 +23482,8 @@
    "23B84E:op7A+2",
    "23B84E:op7A+2",
    "23B84E:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23C464",
@@ -23100,7 +23573,7 @@
   "addr": "23C484",
   "kind": "msg",
   "jp": "おまえはっ！！[WAIT]",
-  "en": "",
+  "en": "You!![WAIT]",
   "bytes": 18,
   "sites": [
    "23B96A:op7A+2",
@@ -23125,7 +23598,8 @@
    "23B96A:op7A+2",
    "23B96A:op7A+2",
    "23B96A:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23C496",
@@ -23165,7 +23639,7 @@
   "addr": "23C4A0",
   "kind": "msg",
   "jp": "・・・ようこそ、わが城（しろ）へ[BR]バスターの諸君（しょくん）！[BR]ワタシがこの城（しろ）の主、[PAGE]深緑の智将（しんりょくのちしょう）[BR]グリニデだ・・・！！[WAIT]",
-  "en": "",
+  "en": "…Welcome to my castle, gentlemen of[BR]the Busters! I am the master of this[BR]castle,[PAGE]the Verdant Strategist, Grineed…!![WAIT]",
   "bytes": 154,
   "sites": [
    "23B984:op7A+2",
@@ -23190,7 +23664,8 @@
    "23B984:op7A+2",
    "23B984:op7A+2",
    "23B984:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23C53A",
@@ -23230,7 +23705,7 @@
   "addr": "23C544",
   "kind": "msg",
   "jp": "グリニデ・・・！！[WAIT]",
-  "en": "",
+  "en": "Grineed…!![WAIT]",
   "bytes": 22,
   "sites": [
    "23B9A3:op7A+2",
@@ -23255,7 +23730,8 @@
    "23B9A3:op7A+2",
    "23B9A3:op7A+2",
    "23B9A3:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23C55A",
@@ -23296,7 +23772,7 @@
   "addr": "23C564",
   "kind": "msg",
   "jp": "チッ・・・！[WAIT]",
-  "en": "",
+  "en": "Tch…![WAIT]",
   "bytes": 16,
   "sites": [
    "23B9C2:op7A+2",
@@ -23322,7 +23798,8 @@
    "23B9C2:op7A+2",
    "23B9C2:op7A+2",
    "23B9C2:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23C574",
@@ -23364,7 +23841,7 @@
   "addr": "23C57E",
   "kind": "msg",
   "jp": "まぁ、そんなにみがまえなくても[BR]よいではないか・・・[BR]お茶でも出そう・・・[PAGE]いまワタシは、そこのキッス君と[BR]話し合いをしていたところ[BR]だったのでな・・・[WAIT]",
-  "en": "",
+  "en": "Now, now, no need to be so on guard,[BR]wouldn't you say… I'll even serve you[BR]some tea…[PAGE]You see, I was just in the middle of a[BR]little talk with Kissu-kun there…[WAIT]",
   "bytes": 156,
   "sites": [
    "23B9D8:op7A+2",
@@ -23391,7 +23868,8 @@
    "23B9D8:op7A+2",
    "23B9D8:op7A+2",
    "23B9D8:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23C61A",
@@ -23433,7 +23911,7 @@
   "addr": "23C622",
   "kind": "msg",
   "jp": "話し合い・・・だって？[WAIT]",
-  "en": "",
+  "en": "A talk… you say?[WAIT]",
   "bytes": 26,
   "sites": [
    "23B9EE:op7A+2",
@@ -23460,7 +23938,8 @@
    "23B9EE:op7A+2",
    "23B9EE:op7A+2",
    "23B9EE:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23C63C",
@@ -23502,7 +23981,7 @@
   "addr": "23C644",
   "kind": "msg",
   "jp": "・・・グリニデと話し合いなんて・・・[BR]いったいどんな・・・？[WAIT]",
-  "en": "",
+  "en": "…A talk with Grineed… What kind of[BR]talk…?[WAIT]",
   "bytes": 64,
   "sites": [
    "23BA04:op7A+2",
@@ -23529,7 +24008,8 @@
    "23BA04:op7A+2",
    "23BA04:op7A+2",
    "23BA04:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23C684",
@@ -23571,7 +24051,7 @@
   "addr": "23C68E",
   "kind": "msg",
   "jp": "・・・気になるわね・・・[WAIT]",
-  "en": "",
+  "en": "…I'd sure like to know…[WAIT]",
   "bytes": 28,
   "sites": [
    "23BA23:op7A+2",
@@ -23598,7 +24078,8 @@
    "23BA23:op7A+2",
    "23BA23:op7A+2",
    "23BA23:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23C6AA",
@@ -23641,7 +24122,7 @@
   "addr": "23C6B2",
   "kind": "msg",
   "jp": "うん・・・[BR]実は閣下（かっか）は・・・[PAGE]ぼくに・・・配下にもどるように・・・[BR]言ってきたんだ・・・・[WAIT]",
-  "en": "",
+  "en": "Yeah… The truth is, His Excellency…[PAGE]told me… to come back and serve him[BR]again….[WAIT]",
   "bytes": 104,
   "sites": [
    "23BA39:op7A+2",
@@ -23669,7 +24150,8 @@
    "23BA39:op7A+2",
    "23BA39:op7A+2",
    "23BA39:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23C71A",
@@ -23856,7 +24338,7 @@
   "addr": "23C74E",
   "kind": "msg",
   "jp": "いいきかいだから、[BR]お仲間（なかま）にも[BR]聞いてもらおうではないか・・・[PAGE]・・・ワタシはねキッス君、[BR]キミのその頭脳（ずのう）を[BR]高く評価（ひょうか）しているのだよ[PAGE]それを人間の・・・[BR]しかもバスターなんかに使うには、[BR]たからの持ちぐされだと[PAGE]いうものだ・・・[WAIT]",
-  "en": "",
+  "en": "This is a fine opportunity, so let's[BR]have your friends hear it too…[PAGE]…You see, Kissu-kun, I think very[BR]highly of that brain of yours.[PAGE]To use it for humans… and for Busters,[BR]of all things… would be a waste of a[BR]treasure,[PAGE]wouldn't you say…[WAIT]",
   "bytes": 264,
   "sites": [
    "23BA85:op7A+2",
@@ -23884,7 +24366,8 @@
    "23BA85:op7A+2",
    "23BA85:op7A+2",
    "23BA85:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23C856",
@@ -23999,7 +24482,7 @@
   "addr": "23C870",
   "kind": "msg",
   "jp": "・・・なんだと！[WAIT]",
-  "en": "",
+  "en": "…What did you say?![WAIT]",
   "bytes": 20,
   "sites": [
    "23BABF:op7A+2",
@@ -24027,7 +24510,8 @@
    "23BABF:op7A+2",
    "23BABF:op7A+2",
    "23BABF:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23C884",
@@ -24145,7 +24629,7 @@
   "addr": "23C8A8",
   "kind": "msg",
   "jp": "いいかねキッス君・・・[BR]ワタシは、キミのそのすばらしい[BR]頭脳（ずのう）を手放したくないのだよ[PAGE]ベンチュラがねつを上げていた[BR]腐薬虫（ふやくちゅう）の事や、[BR]様々な遺跡（いせき）にある[PAGE]古代魔文字（こだいまもじ）の[BR]解読（かいどく）・・・[PAGE]とくに古代魔文字（こだいまもじ）の[BR]解読（かいどく）は、[BR]このワタシの大偉業（だいいぎょう）[PAGE]である・・・[PAGE]モンスター実験場（じっけんじょう）に[BR]多大な貢献（こうけん）を[BR]してくれたよ・・・[PAGE]これらのどれをとっても、[BR]君なしでは実現（じつげん）[BR]できなかったものだ・・・[WAIT]",
-  "en": "",
+  "en": "Listen well, Kissu-kun… I have no wish[BR]to let go of that splendid brain of[BR]yours.[PAGE]The Rot Bugs Ventura was so worked up[BR]about, the decoding of the ancient[BR]Vandel script[PAGE]found in the various ruins…[PAGE]Above all, the decoding of the ancient[BR]Vandel script is a great achievement[BR]of mine…[PAGE]Indeed…[PAGE]And you made a tremendous contribution[BR]to the Monster Lab…[PAGE]Not a single one of these could have[BR]been done without you…[WAIT]",
   "bytes": 512,
   "sites": [
    "23BAF0:op7A+2",
@@ -24174,7 +24658,8 @@
    "23BAF0:op7A+2",
    "23BAF0:op7A+2",
    "23BAF0:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23CAA8",
@@ -24218,7 +24703,7 @@
   "addr": "23CAB0",
   "kind": "msg",
   "jp": "・・・えっ・・・！！[BR]そんな・・・ぼくが・・・[PAGE]モンスター実験場（じっけんじょう）の[BR]・・・手助けを・・・していた・・・[BR]なんて・・・・・・[WAIT]",
-  "en": "",
+  "en": "…Wha…!! No… I was…[PAGE]helping… the Monster Lab… No way……[WAIT]",
   "bytes": 144,
   "sites": [
    "23BB06:op7A+2",
@@ -24247,7 +24732,8 @@
    "23BB06:op7A+2",
    "23BB06:op7A+2",
    "23BB06:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23CB40",
@@ -24291,7 +24777,7 @@
   "addr": "23CB4A",
   "kind": "msg",
   "jp": "ヴァンデルにはもっと知性（ちせい）が[BR]ひつようだ・・・[BR]キッス君、わかるだろう・・・？[PAGE]さあ、どうするかね・・・[BR]答えたまえ！！[WAIT]",
-  "en": "",
+  "en": "Vandels need more intellect…[BR]Kissu-kun, you understand that, don't[BR]you…?[PAGE]Now, what will it be…? Answer me!![WAIT]",
   "bytes": 132,
   "sites": [
    "23BB1C:op7A+2",
@@ -24320,7 +24806,8 @@
    "23BB1C:op7A+2",
    "23BB1C:op7A+2",
    "23BB1C:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23CBCE",
@@ -24364,7 +24851,7 @@
   "addr": "23CBD6",
   "kind": "msg",
   "jp": "・・・・・・か・・・[BR]閣下（かっか）・・・！！[WAIT]",
-  "en": "",
+  "en": "……Y… Your Excellency…!![WAIT]",
   "bytes": 50,
   "sites": [
    "23BB32:op7A+2",
@@ -24393,7 +24880,8 @@
    "23BB32:op7A+2",
    "23BB32:op7A+2",
    "23BB32:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23CC08",
@@ -24437,7 +24925,7 @@
   "addr": "23CC12",
   "kind": "msg",
   "jp": "なぁに、[BR]このワタシは紳士的（しんしてき）な[BR]ヴァンデルだ・・・[PAGE]キミたちの暴挙（ぼうきょ）に・・・[BR]あれほど激昂（げっこう）していたにも[BR]かかわらず・・・[WAIT]",
-  "en": "",
+  "en": "Why, I am a gentlemanly Vandel, my[BR]dear boy…[PAGE]Even though I was so enraged by your[BR]reckless deeds…[WAIT]",
   "bytes": 160,
   "sites": [
    "23BB48:op7A+2",
@@ -24466,7 +24954,8 @@
    "23BB48:op7A+2",
    "23BB48:op7A+2",
    "23BB48:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23CCB2",
@@ -24520,7 +25009,7 @@
   "addr": "23CCBC",
   "kind": "msg",
   "jp": "そう、この大事な・・・[BR]モンスター実験場（じっけんじょう）を[BR]自らはかいしつくすような事を[PAGE]してしまったこのワタシが・・・[BR]いま、冷静（れいせい）にキミと[BR]こうして話し合いができる・・・[WAIT]",
-  "en": "",
+  "en": "Yes… even I, who went so far as to[BR]utterly destroy my own precious[BR]Monster Lab…[PAGE]can now sit here and talk with you[BR]calmly, like this…[WAIT]",
   "bytes": 190,
   "sites": [
    "23BC03:op7A+2",
@@ -24559,7 +25048,8 @@
    "23BC03:op7A+2",
    "23BC03:op7A+2",
    "23BC03:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23CD7A",
@@ -24613,7 +25103,7 @@
   "addr": "23CD82",
   "kind": "msg",
   "jp": "モンスター実験場（じっけんじょう）を[BR]自分ではかいした、だってぇ・・・！[WAIT]",
-  "en": "",
+  "en": "He destroyed the Monster Lab[BR]himself…?![WAIT]",
   "bytes": 76,
   "sites": [
    "23BC1E:op7A+2",
@@ -24652,7 +25142,8 @@
    "23BC1E:op7A+2",
    "23BC1E:op7A+2",
    "23BC1E:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23CDCE",
@@ -24892,7 +25383,7 @@
   "addr": "23CE0C",
   "kind": "msg",
   "jp": "まぁ、それほど気に病む事はない・・・[BR]モンスター実験場（じっけんじょう）も[BR]・・・キッス君、キミがいれば[PAGE]また作り直すことができる[PAGE]それだけキミには価値（かち）が[BR]あるのだよ・・・[PAGE]失いたくはない・・・[PAGE]そのギリギリの判断（はんだん）が、[BR]今のワタシのうでを止めている事を、[BR]キミはわかっているはずだ・・・[WAIT]",
-  "en": "",
+  "en": "Well, there's no need to fret so much[BR]about it… As for the Monster Lab…[BR]Kissu-kun, as long as I have you,[PAGE]I can build it all over again.[PAGE]That is how much you are worth…[PAGE]I would hate to lose you…[PAGE]You must understand that it is that[BR]very fine judgment that is holding my[BR]arm back right now…[WAIT]",
   "bytes": 310,
   "sites": [
    "23BC65:op7A+2",
@@ -24931,7 +25422,8 @@
    "23BC65:op7A+2",
    "23BC65:op7A+2",
    "23BC65:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23CF42",
@@ -25079,7 +25571,7 @@
   "addr": "23CF64",
   "kind": "msg",
   "jp": "猛省（もうせい）して、[BR]わが元へもどって来たまえ・・・！[WAIT]",
-  "en": "",
+  "en": "Repent deeply, and come back to my[BR]side…![WAIT]",
   "bytes": 60,
   "sites": [
    "23BC96:op7A+2",
@@ -25118,7 +25610,8 @@
    "23BC96:op7A+2",
    "23BC96:op7A+2",
    "23BC96:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23CFA0",
@@ -25172,7 +25665,7 @@
   "addr": "23CFA8",
   "kind": "msg",
   "jp": "・・・！！[BR]（や、やばいよ閣下（かっか）・・・[BR]爆発寸前（ばくはつすんぜん）だ・・・[PAGE]・・・う・・・うそでも「イエス」って[BR]言っといた方がいいのか・・・[BR]この場はっ・・・！！）[WAIT]",
-  "en": "",
+  "en": "…!! (Uh-oh, His Excellency is… about[BR]to explode…[PAGE]…Sh-should I just say \"yes,\" even if[BR]it's a lie… just for now…!!)[WAIT]",
   "bytes": 180,
   "sites": [
    "23BCB1:op7A+2",
@@ -25211,7 +25704,8 @@
    "23BCB1:op7A+2",
    "23BCB1:op7A+2",
    "23BCB1:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23D05C",
@@ -25265,7 +25759,7 @@
   "addr": "23D066",
   "kind": "msg",
   "jp": "そうすれば・・・、[BR]ワタシは慈悲深く（じひぶかく）それを[BR]受け入れるだろうね・・・クールに！[PAGE]だが、キミの今までの[BR]うらぎりにも等しい行為（こうい）に[BR]目をつむるのもむずかしい・・・[WAIT]",
-  "en": "",
+  "en": "If you do… I would mercifully take you[BR]back… nice and Cool![PAGE]But it is also hard to turn a blind[BR]eye to everything you have done so[BR]far, which is no better than betrayal…[WAIT]",
   "bytes": 186,
   "sites": [
    "23BCC7:op7A+2",
@@ -25304,7 +25798,8 @@
    "23BCC7:op7A+2",
    "23BCC7:op7A+2",
    "23BCC7:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23D120",
@@ -25358,7 +25853,7 @@
   "addr": "23D128",
   "kind": "msg",
   "jp": "・・・ゴクッ！[WAIT]",
-  "en": "",
+  "en": "…*gulp*![WAIT]",
   "bytes": 18,
   "sites": [
    "23BCDD:op7A+2",
@@ -25397,7 +25892,8 @@
    "23BCDD:op7A+2",
    "23BCDD:op7A+2",
    "23BCDD:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:23D13A",
