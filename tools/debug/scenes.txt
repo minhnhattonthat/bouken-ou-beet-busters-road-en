@@ -1,0 +1,92 @@
+# Debug-tool scene list, read by tools/debug/warp.lua (docs/re/events.md). One scene per line:
+#   name  map  pos  script  route
+# map:    map index 0-319 (tools/maps.py, entries: tools/evdis.py maps), or - for no warp (route runs from power-on)
+# pos:    x,y,dir (hex tiles, opcode 50) or ttile,dir (t + hex tile index, opcode 4F); dir 10 down 20 left 40 right 80 up
+# script: hex ROM address of an event script to call after the warp (tools/evdis.py), b<group> for a forced battle
+#         against that enemy group (hex), or -
+# route:  presses after the scene is up, FRAMES_BUTTONS steps joined by ; (e.g. 30_-;6_start), or -
+# The game has no chapters: the story moves area to area, so there is one area_* scene per area (map table area byte).
+
+# --- boot (no warp) ---
+copyright        -    -          -       480_-
+title            -    -          -       700_-
+prologue         -    -          -       600_-;6_start;1600_-
+opening          -    -          -       600_-;6_start;150_-;6_start;400_-
+
+# --- field menu and every sub-screen (from the first village; START opens the menu) ---
+menu             16   1a,d,80    -       30_-;6_start;60_-
+menu_status      16   1a,d,80    -       30_-;6_start;60_-;6_a;80_-;6_a;80_-
+menu_items       16   1a,d,80    -       30_-;6_start;60_-;6_down;12_-;6_a;80_-;6_a;80_-
+menu_equip       16   1a,d,80    -       30_-;6_start;60_-;6_down;12_-;6_down;12_-;6_a;80_-;6_a;80_-
+menu_skills      16   1a,d,80    -       30_-;6_start;60_-;6_down;12_-;6_down;12_-;6_down;12_-;6_a;80_-;6_a;80_-
+menu_quests      16   1a,d,80    -       30_-;6_start;60_-;6_down;12_-;6_down;12_-;6_down;12_-;6_down;12_-;6_a;80_-;6_a;80_-
+menu_formation   16   1a,d,80    -       30_-;6_start;60_-;6_up;12_-;6_up;12_-;6_up;12_-;6_up;12_-;6_up;12_-;6_a;80_-;6_a;80_-
+menu_tactics     16   1a,d,80    -       30_-;6_start;60_-;6_up;12_-;6_up;12_-;6_up;12_-;6_up;12_-;6_a;80_-;6_a;80_-
+menu_book        16   1a,d,80    -       30_-;6_start;60_-;6_up;12_-;6_up;12_-;6_up;12_-;6_a;80_-;6_a;80_-
+menu_options     16   1a,d,80    -       30_-;6_start;60_-;6_up;12_-;6_up;12_-;6_a;80_-;6_a;80_-
+menu_suspend     16   1a,d,80    -       30_-;6_start;60_-;6_up;12_-;6_a;80_-
+
+# --- towns: shops, inn, appraisal house (the Buster association's quest board, training, shop) ---
+shop_weapon      264  t2b3,40    176CD0  40_-;6_a;60_-;6_a;60_-
+shop_armor       267  t323,40    176CE1  40_-;6_a;60_-;6_a;60_-
+shop_items       265  t2b3,40    17714E  40_-;6_a;60_-;6_a;60_-;6_a;60_-
+inn              298  t17c,40    17DA83  40_-;6_a;60_-
+inn_stay         298  t17c,40    17DA83  40_-;6_a;60_-;6_a;300_-;6_a;60_-
+ticket_shop      55   t156,40    17B8AA  40_-;6_a;40_-
+# appraisal house menu: 網膜鑑定 (level up) / クエストを受ける / クエスト報告 / 道具の購入 / 閉じる
+appraiser        289  t25d,40    179AC5  40_-;6_a;60_-
+appraiser_retina 289  t25d,40    179AC5  40_-;6_a;60_-;6_a;90_-
+appraiser_quests 289  t25d,40    179AC5  40_-;6_a;60_-;6_down;12_-;6_a;90_-;6_a;60_-
+appraiser_report 289  t25d,40    179AC5  40_-;6_a;60_-;6_down;12_-;6_down;12_-;6_a;90_-
+appraiser_shop   289  t25d,40    179AC5  40_-;6_a;60_-;6_down;12_-;6_down;12_-;6_down;12_-;6_a;90_-;6_a;60_-
+recruit          270  t400,40    176CF2  40_-;6_a;60_-;6_a;60_-
+
+# --- battle (action battles on the field map; idle = defeat = GAME OVER) ---
+battle           0    t77c,20    b78     30_left;30_right;120_-
+game_over        0    t77c,20    b78     30_left;30_right;900_-
+encounter        0    t77c,20    -       60_left;60_right;60_left;60_right;60_left;60_right;60_left;60_right;60_left;60_right;60_up;60_down;60_up;60_down;60_left;60_right;60_left;60_right;60_left;60_right;30_-
+
+# --- ending ---
+ending           314  t1e12,40   1A61D0  240_-
+credits          314  t1e12,40   1A881B  60_-
+
+# --- one scene per area (first map of the area with a known entry) ---
+area00_ankurusu_village   6    t70c,10    -  -
+area01_insua              173  t1fd,80    -  -
+area02_unoromu            216  t12b,80    -  -
+area03_primore            205  t589,80    -  -
+area04_erufasuto          196  t324,10    -  -
+area05_wandara            184  t31a,80    -  -
+area06_redou_port         25   tcee,80    -  -
+area07_redou_ferry        224  t773,80    -  -
+area08_duora              229  tcc5,80    -  -
+area09_toroana            67   tfcd,20    -  -
+area10_musuri             249  te37,80    -  -
+area11_sadoramu           243  t144,80    -  -
+area12_etoria             272  t748,10    -  -
+area13_patoresu           282  t283,80    -  -
+area14_teruseron          291  t784,10    -  -
+area15_toriaku            303  t36d,20    -  -
+area16_asado              304  t1a9,80    -  -
+area17_ankurusu_plain     0    t77c,20    -  -
+area18_wandara_mts        93   t647,20    -  -
+area19_duora_plain        97   t1b06,40   -  -
+area20_asado_mts          103  t1dde,20   -  -
+area21_teruseron_mts      112  t1e39,20   -  -
+area22_toroana_forest     115  t1ebe,40   -  -
+area23_etoria_mts         106  t10e2,10   -  -
+area24_musuri_wilds       120  t124a,10   -  -
+area25_musuri_mts         123  t11f0,10   -  -
+area26_patoresu_mts       130  t1ecb,40   -  -
+area27_toriaku_plain      133  t381,20    -  -
+area28_mugain_swamp       63   t1592,10   -  -
+area29_mugain_castle      20   te72,80    -  -
+area30_cave               127  t167d,20   -  -
+area31_coast_ruins        136  tc50,10    -  -
+area32_lake_ruins         139  te12,10    -  -
+area33_forest_ruins       142  t1b1,80    -  -
+area34_underground_lake   149  t1ee9,40   -  -
+area35_wilds_ruins        109  18,29,40   -  -
+area36_mine               145  t1e9d,40   -  -
+area37_grinide_castle     314  t1e12,40   -  -
+area38_monster_tower      153  t19d7,80   -  -
