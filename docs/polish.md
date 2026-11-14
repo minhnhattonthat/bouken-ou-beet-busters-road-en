@@ -240,3 +240,29 @@ Minor review findings; tick when applied or rejected (phase 9: none unticked).
 - [ ] ev:249E66 - 実戦！　才牙を振るえ "Real combat! Wield your Saiga" - "Saiga in Real Combat" loses the imperative punch - suggested EN: "Wield Your Saiga!" (17)
 - [ ] ev:24CFCC - 黒に負けない命 "life that won't lose to the black" - "Life Beats the Black" reads like a slogan with a missing word - suggested EN: "Life Defying Black" (18) or "Stronger Than Black" (19)
 - [ ] ev:24B8C4 - 死と共に目覚める呪い "a curse that wakes with death" - "Death's Waking Curse" is a little opaque - suggested EN: "The Curse That Wakes" (20)
+
+## r16
+- [ ] rank:001:name - 新米戦士団 - "Rookie Warriors", but 新米 is "Greenhorn" elsewhere (armor:001 Greenhorn Jacket, Appraiser dialogue ev:19F3F8/19FB34/19FCB4 "greenhorn"), and "Rookie" is used for ルーキー (armor:003). Locked by glossary at 16 ("Greenhorn Warriors" = 18), so this is noted only. No change unless the field gets wider.
+- [ ] loot:011:name - ボロボロの袋 - "Tattered Bag", while the dialogue says "beat-up old bag" (ev:20A98A, 20AB46). Readable as is. A polish pass could align them: either name "Beat-up Bag" or dialogue "tattered bag".
+- [ ] loot:038:desc - 赤色の花 - "A flower of red color." is stilted. - suggested EN: A red-colored flower.
+
+## r17
+- [ ] monsters:069:name - 闇の天狼, dark "heavenly wolf" = Sirius, the Wolf Star; it belongs to a star-wolf series with 北斗狼 Big Dipper Wolf and 七星餓狼 Seven-Star Wolf - "Dark Sky Wolf" loses the star - Dark Sirius Wolf
+- [ ] moves:002:desc - 槍が伸び直線上の全敵を攻撃, the lance extends and hits every foe in a straight line - "hits a line" drops the "all foes" - Extends, hits all in a line
+- [ ] moves:006:desc - 落下し周囲に衝撃波を出す, drops down and sends out a shockwave all around - "shocking all around" sounds like electricity - Drop sends shockwaves around
+- [ ] moves:018:desc - 鉄球を回転させ水柱で攻撃, spins the iron ball and hits with pillars of water - "blasts water" is vague - Ball spins up water pillars
+- [ ] tenmon:042:name - 天撃の光陰, 光陰 = light and shadow (also "time", as in 光陰矢の如し) - "Light Shadow" reads like a typo - Shadowlight (fits 12)
+
+## r18
+- [ ] weapons:035-044 (and ev:172A72 / 172AB4 / 17D362 / 17D3A4) - グレイブ, desc 槍斧 halberd - "Grave" is the table
+- [ ] weapons:085-094 - 槌 "Mallet" next to バトルハンマー / マスターハンマー "Hammer" in the same series (descs of
+- [ ] weapons:166 - グリニデ変身後 - "Grineed Transformed" vs bosses:002 "Transformed Grineed" - suggested EN:
+- [ ] ui:DDA872 - ヤリ spear - "Pike" vs the weapon tables' 槍 "Spear" and wtypes Spear (unused string) - suggested EN:
+- [ ] ui:DDA8B2 - 渦 - "Whirl" vs loot:027 "Whirlpool Chalice" (unused string, 4-letter room? if it fits) - suggested
+- [ ] ui:DDAC9C - 天撃習得 "Divine Attack learned" - the label "Divine Attack" drops the "learned" its siblings carry
+- [ ] ui:DDAADA - ＳＥ sound effects - "Sound" beside "Music" reads as the overall volume - suggested EN: Effects (7, fits
+- [ ] voices:008 (Badu) - くぅ！ - "Kuh!" is not an English grunt - suggested EN: Ngh!
+- [ ] voices:008 (Badu) - 死なないていどにがんばるか。 "I'll work just hard enough not to die" (a slacker's joke) -
+- [ ] voices:014 (Rozzgoat) - お見せしよう、我が冥力の極致 "I'll show you the pinnacle of my Dark Power" - "peak"
+- [ ] voices:012 (Grineed transformed) - 感謝して殺されろよッ！！！ "Be grateful while I kill you!" - "as you die" is
+- [ ] voices:010 (Mugine) - 動くと正確に切れんだろーがあっ！ "Quit moving, I can't cut you precisely, dammit!" (his

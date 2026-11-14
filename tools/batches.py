@@ -37,7 +37,9 @@ FREE = {"[BR]", "[PAGE]"}  # layout codes: the wrap places them
 VARIABLE = r"\[FF[0-9A-F]{2}\]"  # numbers / names the game draws
 TRAIL = re.compile(r"(?:\[(?:WAIT|PAGE)\])+$")
 # honorific after a katakana name -> the EN suffix (D1: kept)
-GLOSSARY_WAIVE = {"ui:DDAC62": "天撃"}  # D9: 8-letter skill-slot picker says "Divine" (Divine Attack can't fit)
+GLOSSARY_WAIVE = {"ui:DDAC62": ("天撃",),  # D9: 8-letter skill-slot picker says "Divine" (Divine Attack can't fit)
+                  "maps:063:name": ("ムガイン",), "areas:028:name": ("ムガイン",),  # 18 letters: "Dead Swamp" (glossary)
+                  "loot:019:name": ("ムスリー", "ムスリー荒野")}  # 20 letters: "Wasteland Plant" (the only 荒野 area)
 HONORIFICS = {"さん": "-san", "くん": "-kun", "ちゃん": "-chan"}  # 様 not enforced: self-styled ベンチュラ様 = "the great Ventura"
 NOT_NAMES = {"ヨメ", "バスター", "オバ", "オジ", "ジイ", "バア"}  # katakana nouns, not names, before さん etc.
 DERIVED = ("kana", "menu")  # copy the record's English name
@@ -169,7 +171,7 @@ def problems(e, en, terms):
     jp_plain = re.sub(r"（[^）]*）", "", TOKEN.sub("", jp))  # furigana readings aren't terms (災害（サイガい）)
     for jps, ens, avoid in terms:
         eid = e.get("id", "")
-        if GLOSSARY_WAIVE.get(eid) in jps or (jps[0] == "天撃" and re.fullmatch(r"tenmon:\d+:name", eid)):
+        if jps[0] in GLOSSARY_WAIVE.get(eid, ()) or (jps[0] == "天撃" and re.fullmatch(r"tenmon:\d+:name", eid)):
             continue
         if any(has_term(jp_plain, j) for j in jps) and not any(x.lower() in en.lower() for x in ens):
             out.append(f"glossary: {jps[0]} -> {' / '.join(ens)}")
@@ -184,8 +186,22 @@ def problems(e, en, terms):
     return out + lint
 
 
+def uid(e, count):
+    """The entry's id, or id@addr when the id is shared (tbl_voices: 11 shout slots per record share one id)."""
+    return e["id"] if count[e["id"]] == 1 else f"{e['id']}@{e['addr']}"
+
+
 def index():
-    return {e["id"]: e for _, _, entries in docs() for e in entries}
+    ents = [e for _, _, entries in docs() for e in entries]
+    count = Counter(e["id"] for e in ents)
+    return {uid(e, count): e for e in ents}
+
+
+def resolve(entries, row):
+    """uid of a batch .tsv row (id, speaker, form, limit, JP): a shared id resolves by its JP."""
+    if row[0] in entries:
+        return row[0]
+    return next(u for u, e in entries.items() if e["id"] == row[0] and e["jp"] == row[4])
 
 
 def read_tsv(path):
@@ -239,7 +255,8 @@ def split(size):
     TL.mkdir(parents=True, exist_ok=True)
     (ROOT / "build").mkdir(exist_ok=True)
     ent = index()
-    taken = {key(ent[r[0]]) for p in existing() for r in read_tsv(p) if r[0] in ent}
+    taken = {key(ent[resolve(ent, r)]) for p in existing() for r in read_tsv(p)
+             if r[0] in ent or any(e["id"] == r[0] for e in ent.values())}
     n = max((int(p.stem[1:]) for p in existing()), default=0)
     reps = {}
     for _, _, entries in docs():
@@ -281,7 +298,8 @@ def write_terms(name, batch, terms):
 
 
 def check_batch(batch, entries, terms):
-    want = [r[0] for r in read_tsv(TL / f"{batch}.tsv")]
+    src = read_tsv(TL / f"{batch}.tsv")
+    want = [r[0] for r in src]
     out = TL / f"{batch}.out.tsv"
     if not out.exists():
         return [f"{out} missing"], {}
@@ -292,27 +310,30 @@ def check_batch(batch, entries, terms):
         dup = sorted(i for i, c in Counter(got).items() if c > 1)
         bad.append(f"ids differ: missing {sorted(set(want) - set(got))[:8]} extra {sorted(set(got) - set(want))[:8]} "
                    f"duplicate {dup[:8]} (order must match too)")
-    for eid, en in rows:
-        if eid in entries:
-            bad += [f"{eid}: {p}: {en!r}" for p in problems(entries[eid], en, terms)]
-    return bad, dict(rows)
+        return bad, {}
+    new = {}
+    for r, (eid, en) in zip(src, rows):  # rows pair by position: a shared id (voices) differs by its JP
+        u = resolve(entries, r)
+        new[u] = en
+        bad += [f"{u}: {p}: {en!r}" for p in problems(entries[u], en, terms)]
+    return bad, new
 
 
 def fan_out(new, entries):
     """id -> wrapped English for every entry sharing a key with a translated one, plus derived fields."""
     by_key = {}
-    for e in entries.values():
-        by_key.setdefault(key(e), []).append(e)
+    for u, e in entries.items():
+        by_key.setdefault(key(e), []).append(u)
     out = {}
     for eid, en in new.items():
-        for e in by_key[key(entries[eid])]:
-            out[e["id"]] = wrap(e, en)
-    for e in entries.values():
+        for u in by_key[key(entries[eid])]:
+            out[u] = wrap(entries[u], en)
+    for u, e in entries.items():
         if derived(e):
             t, i, _ = e["id"].split(":")
             name = out.get(f"{t}:{i}:name") or entries.get(f"{t}:{i}:name", {}).get("en")
             if name:
-                out[e["id"]] = name
+                out[u] = name
     return out
 
 
@@ -325,11 +346,13 @@ def merge(new, overwrite):
             if entries[eid].get("en") and entries[eid]["en"] != en:
                 sys.exit(f"{eid} would lose {entries[eid]['en']!r}: pass --overwrite if that is meant")
     changed = 0
+    count = Counter(e["id"] for e in entries.values())
     for path, doc, ents in docs():
         touched = False
         for e in ents:
-            if e["id"] in final and e.get("en") != final[e["id"]]:
-                e["en"], e["status"] = final[e["id"]], "done"
+            u = uid(e, count)
+            if u in final and e.get("en") != final[u]:
+                e["en"], e["status"] = final[u], "done"
                 touched = True
                 changed += 1
         if touched:
@@ -353,12 +376,12 @@ def story():
 def pairs(names, outpath):
     """Reviewer pairs file: every entry of the batches as `>> id | speaker | JP` / `   EN`, +-2 context lines."""
     entries, spk = index(), speakers()
-    order = [e["id"] for _, _, ents in docs() for e in ents if e["kind"] != "name" or source(e) != "ev"]
+    order = [u for u, e in entries.items() if e["kind"] != "name" or source(e) != "ev"]
     pos = {i: k for k, i in enumerate(order)}
     out = []
     for b in names:
         out.append(f"## {b}")
-        ids = [r[0] for r in read_tsv(TL / f"{b}.tsv")]
+        ids = [resolve(entries, r) for r in read_tsv(TL / f"{b}.tsv")]
         k = pos.get(ids[0])  # batches are in script order: context only before the first entry
         ctx = order[max(0, k - 2):k] if k is not None else []
         for c in ctx + ids:
@@ -381,7 +404,7 @@ def main(argv):
     if cmd == "terms":  # refresh build/terms_bNNN.txt after a glossary change
         ent, terms = index(), glossary()
         for p in existing():
-            write_terms(p.stem, [ent[r[0]] for r in read_tsv(p)], terms)
+            write_terms(p.stem, [ent[resolve(ent, r)] for r in read_tsv(p)], terms)
         return print(f"terms for {len(existing())} batches")
     if cmd == "pairs":
         return pairs(args[:-1], args[-1])

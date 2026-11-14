@@ -293,12 +293,12 @@ Generic tags, used as the name box (24 letters). In dialogue the same words take
 | 究極の戦士団 | Supreme Warriors | 16 | rank | |
 | 奇跡の戦士団 | Miracle Warriors | 16 | rank | |
 | 伝説の戦士団 | Legend Warriors | 16 | rank | |
-| サソリのシッポ | Scorpion Tail | 20 | loot | |
+| サソリのシッポ | Scorpion Tail / scorpion's tail | 20 | loot | |
 | 黒煙モンスター | black-smoke monster | | | |
 | 毒霧 | poison mist | | | |
 | 商隊 | caravan | | | |
 | 中枢 | core | | | |
-| 実験台 | test subjects | | | |
+| 実験台 | test subject | | | |
 | 門番 | gatekeeper | | | |
 | 海のブロウガンナー | Sea Blowgunner | | | |
 | 凶暴 | ferocious / savage / vicious | | of monsters | |
@@ -311,7 +311,7 @@ Generic tags, used as the name box (24 letters). In dialogue the same words take
 | 鑑定士さん | Mister Appraiser | | | |
 | 天撃の気流 | Air Current | 12 | Divine Attack; tenmon:026 must match | |
 | モンスターの名人 | Monster Masters | | | |
-| 強盗団 | bandit gang / bandits / Bandit Gang | | | |
+| 強盗団 | bandit gang / bandit | | speaker tags "Bandit 1" | |
 | 初代大公 | the First Grand Duke | | | |
 | トロワナの警備隊 | the Trowana Guard | | | |
 | 謎かけ | conundrum | | = ナゾかけ | |
@@ -334,7 +334,7 @@ Reference for the record tables (b066-b084, 2026-11-14); the table English is th
 | 見習い, 新米, ルーキー, 中級, ベテラン, 上級, 強者, 達人級 | Trainee, Greenhorn, Rookie, Mid-Level, Veteran, Advanced, Mighty, master-class | armor ranks (新米 = Rookie only in the team-rank names) |
 | ジャケット, シャツ, シールド, バングル, マント, バンダナ, グローブ | Jacket, Shirt, Shield, Bangle, Mantle, Bandana, Gloves | armor types |
 | 槌, ハンマー, 斧, 大剣, 槍斧, グレイブ, カフス, ナックル, クロー | Mallet, Hammer, Axe, Claymore, Halberd, Grave, Cuffs, Knuckles, Claw | weapon types |
-| 片手剣, 両手剣, 槍, 銃, 弓, 鉄球, 盾, 拳, 爪, 打撃 | One-Handed Sword, Two-Handed Sword, Spear, Gun, Bow, Iron Ball, Shield, Fist, Claw, Strike | wtypes |
+| 片手剣, 両手剣, 槍, 槌, 銃, 弓, 鉄球, 盾, 拳, 爪, 打撃 | One-Handed Sword, Two-Handed Sword, Spear, Mallet, Gun, Bow, Flail, Shield, Fist, Claw, Strike | wtypes (鉄球 type = the 鎖球 Flail series; Saiga moves keep "Iron Ball") |
 | 〜の導士, 岩石〜, 氷の〜, 毒〜, 猛毒〜 | <X> Sage, Rock <X>, Frost <X>, Poison <X>, Venom <X> | monsters |
 | 〜ほか (habitat) | <place> & more | |
 | 小 / 中 / 大 / 巨大 (tenmon desc) | Weak / Mid / Big / Huge | 26-letter descs; 上位 upper; 雷 thunder, 氷 ice |

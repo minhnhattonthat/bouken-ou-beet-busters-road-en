@@ -517,7 +517,7 @@
   "addr": "0A5560",
   "kind": "name",
   "jp": "ムスリー荒野の植物",
-  "en": "Musley Wasteland",
+  "en": "Wasteland Plant",
   "max": 20,
   "status": "done"
  },
@@ -526,7 +526,7 @@
   "addr": "0A5574",
   "kind": "kana",
   "jp": "むすりーこうやの",
-  "en": "Musley Wasteland",
+  "en": "Wasteland Plant",
   "max": 20,
   "status": "done"
  },

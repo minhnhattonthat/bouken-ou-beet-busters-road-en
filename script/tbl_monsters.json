@@ -400,7 +400,7 @@
   "addr": "0D7D20",
   "kind": "habitat",
   "jp": "ムガインの死人沼",
-  "en": "Mugine Dead Swamp",
+  "en": "Mugine's Dead Swamp",
   "max": 72,
   "status": "done"
  },
@@ -562,7 +562,7 @@
   "addr": "0D8248",
   "kind": "habitat",
   "jp": "ムガインの死人沼",
-  "en": "Mugine Dead Swamp",
+  "en": "Mugine's Dead Swamp",
   "max": 72,
   "status": "done"
  },
@@ -589,7 +589,7 @@
   "addr": "0D8324",
   "kind": "habitat",
   "jp": "ムガインの死人沼",
-  "en": "Mugine Dead Swamp",
+  "en": "Mugine's Dead Swamp",
   "max": 72,
   "status": "done"
  },
@@ -859,7 +859,7 @@
   "addr": "0D8BBC",
   "kind": "habitat",
   "jp": "ムガインの死人沼ほか",
-  "en": "Mugine Dead Swamp & more",
+  "en": "Mugine's Dead Swamp & more",
   "max": 72,
   "status": "done"
  },
@@ -1075,7 +1075,7 @@
   "addr": "0D929C",
   "kind": "habitat",
   "jp": "ムガインの死人沼ほか",
-  "en": "Mugine Dead Swamp & more",
+  "en": "Mugine's Dead Swamp & more",
   "max": 72,
   "status": "done"
  },
@@ -1804,7 +1804,7 @@
   "addr": "0DA9D0",
   "kind": "habitat",
   "jp": "ムガインの死人沼ほか",
-  "en": "Mugine Dead Swamp & more",
+  "en": "Mugine's Dead Swamp & more",
   "max": 72,
   "status": "done"
  },
