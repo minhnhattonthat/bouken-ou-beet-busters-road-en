@@ -226,7 +226,7 @@ Generic tags, used as the name box (24 letters). In dialogue the same words take
 | 標高札 | elevation sign | | riddle 1 | elevation marker |
 | アイアンライノス | Iron Rhino | 20 | | |
 | カネック | Kaneck | 20 | eats money | |
-| ドローマン | Drawman | 20 | plural Drawmen | |
+| ドローマン | Drawman / Drawmen | 20 | | |
 | ドローマスター | Drawmaster | 20 | | |
 | 罪人たいまつ | Sinner Torch | 20 | | |
 | 樹氷たいまつ | Rime Torch | 20 | | |
@@ -249,6 +249,21 @@ Generic tags, used as the name box (24 letters). In dialogue the same words take
 | 火山の翼竜 | Volcano Wyvern | 20 | boss | |
 | トリュプス | Triplus | | Ventura's parasite | |
 | ハウンドナイト | Hound Knight | 20 | | |
+| 中甲虫 | Medium Beetle | 20 | | |
+| 腐薬 | Rot Drug | | Ventura's plague | |
+| トラキラの葉 | Torakira Leaf | 20 | item | Trakira Leaf |
+| トラキア | Trachia | | herb | |
+| 解毒薬 / 解毒剤 | Antidote | 20 | item | |
+| 気付け剤 | Smelling Salts | 20 | item | |
+| 栄養剤 | Tonic | 20 | item | |
+| ウッドシールド | Wood Shield | 20 | | |
+| ヌシ | Lake Lord / lord | | Underground Lake boss | |
+| なぞの門 | Mysterious Gate | | | |
+| 聖堂 | sanctuary | | | |
+| 灼熱の冥獄炎 | Blazing Dark Inferno | | Beltorze's Upper Dark Attack | |
+| ファントムストローク | Phantom Stroke | | Beltorze's attack | |
+| 陛下 | Majesty | | "Your Majesty" | |
+| 白砂輸送隊 | White Sand | | White Sand transport team | |
 | 初心者戦士団 | Novice Warriors | 16 | rank | |
 | 新米戦士団 | Rookie Warriors | 16 | rank | |
 | 無名の戦士団 | Unknown Warriors | 16 | rank | |

@@ -108,11 +108,12 @@
   "addr": "1A022E",
   "kind": "msg",
   "jp": "ふむふむ・・・[WAIT]",
-  "en": "",
+  "en": "Mm-hmm, mm-hmm…[WAIT]",
   "bytes": 18,
   "sites": [
    "19FECE:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1A0240",
@@ -1165,11 +1166,12 @@
   "addr": "1A186E",
   "kind": "msg",
   "jp": "ブーン・・・[BR]ブーン・・・・・[WAIT]",
-  "en": "",
+  "en": "Bzzzz…[BR]Bzzzzz…..[WAIT]",
   "bytes": 34,
   "sites": [
    "1A085B:op3B+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1A1890",
@@ -4742,11 +4744,12 @@
   "addr": "1A53BE",
   "kind": "msg",
   "jp": "・・・・・・・[WAIT]",
-  "en": "",
+  "en": "…….[WAIT]",
   "bytes": 18,
   "sites": [
    "1A42A3:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1A53D0",
@@ -5006,11 +5009,12 @@
   "addr": "1A56CA",
   "kind": "msg",
   "jp": "えっ！？[WAIT]",
-  "en": "",
+  "en": "Huh?![WAIT]",
   "bytes": 12,
   "sites": [
    "1A43B3:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1A56D6",
@@ -6925,7 +6929,7 @@
   "addr": "1A733C",
   "kind": "msg",
   "jp": "・・・！！[WAIT]",
-  "en": "",
+  "en": "…!![WAIT]",
   "bytes": 14,
   "sites": [
    "1A6721:op7A+2",
@@ -6947,7 +6951,8 @@
    "1A6721:op7A+2",
    "1A6721:op7A+2",
    "1A6721:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1A734A",
@@ -9411,13 +9416,14 @@
   "addr": "1A89B8",
   "kind": "msg",
   "jp": "・・・！！[WAIT]",
-  "en": "",
+  "en": "…!![WAIT]",
   "bytes": 14,
   "sites": [
    "1A7D2B:op7A+2",
    "1A7D2B:op7A+2",
    "1A7D2B:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1A89C6",
@@ -11507,7 +11513,7 @@
   "addr": "1A967E",
   "kind": "msg",
   "jp": "・・・フン！[WAIT]",
-  "en": "",
+  "en": "…Hmph![WAIT]",
   "bytes": 16,
   "sites": [
    "1A8356:op7A+2",
@@ -11525,7 +11531,8 @@
    "1A8356:op7A+2",
    "1A8356:op7A+2",
    "1A8356:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1A968E",
@@ -14349,11 +14356,12 @@
   "addr": "1ABDA6",
   "kind": "msg",
   "jp": "・・・！！[WAIT]",
-  "en": "",
+  "en": "…!![WAIT]",
   "bytes": 14,
   "sites": [
    "1AAB08:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1ABDB4",
@@ -14429,11 +14437,12 @@
   "addr": "1AC784",
   "kind": "msg",
   "jp": "ふぅ・・・やっぱおばちゃんの[BR]スープはうまいなぁ・・・！[BR]・・・なぁっ！　ポアラッ！[WAIT]",
-  "en": "",
+  "en": "Phew… Auntie's soup is the best, I[BR]swear…! …Right, Poala?![WAIT]",
   "bytes": 88,
   "sites": [
    "1ABE76:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1AC7DC",
@@ -14452,11 +14461,12 @@
   "addr": "1AC7E4",
   "kind": "msg",
   "jp": "・・・すーすー・・・[WAIT]",
-  "en": "",
+  "en": "…Zzz… zzz…[WAIT]",
   "bytes": 24,
   "sites": [
    "1ABE8C:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1AC7FC",
@@ -14475,11 +14485,12 @@
   "addr": "1AC804",
   "kind": "msg",
   "jp": "・・・・・・・・[WAIT]",
-  "en": "",
+  "en": "……..[WAIT]",
   "bytes": 20,
   "sites": [
    "1ABEA2:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1AC818",
@@ -14498,11 +14509,12 @@
   "addr": "1AC820",
   "kind": "msg",
   "jp": "よお、おじちゃん！[BR]久しぶりっ！[WAIT]",
-  "en": "",
+  "en": "Hey, Uncle! Long time no see![WAIT]",
   "bytes": 36,
   "sites": [
    "1ABEDF:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1AC844",
@@ -14521,11 +14533,12 @@
   "addr": "1AC850",
   "kind": "msg",
   "jp": "・・・ビィト・・・ビィトか？[BR]元気そうじゃないか！[WAIT]",
-  "en": "",
+  "en": "…Beet… Is that you, Beet? Well, don't[BR]you look healthy![WAIT]",
   "bytes": 54,
   "sites": [
    "1ABEF5:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1AC886",
@@ -14544,11 +14557,12 @@
   "addr": "1AC88E",
   "kind": "msg",
   "jp": "まぁね[BR]・・・あ、ポアラはつかれて[BR]ねちゃったみたいだ[WAIT]",
-  "en": "",
+  "en": "Yeah, pretty much. …Oh, looks like[BR]Poala got tired and dozed off.[WAIT]",
   "bytes": 58,
   "sites": [
    "1ABF0B:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1AC8C8",
@@ -14567,11 +14581,12 @@
   "addr": "1AC8D4",
   "kind": "msg",
   "jp": "あらら、ポアラったら・・・[WAIT]",
-  "en": "",
+  "en": "Oh my, that Poala…[WAIT]",
   "bytes": 30,
   "sites": [
    "1ABF21:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1AC8F2",
@@ -14590,11 +14605,12 @@
   "addr": "1AC8FA",
   "kind": "msg",
   "jp": "人前でバッタリねちまうのは、[BR]オレのとくいわざのはず[BR]なんだけどね・・・[WAIT]",
-  "en": "",
+  "en": "Conking out in front of everybody is[BR]supposed to be MY special move,[BR]y'know…[WAIT]",
   "bytes": 76,
   "sites": [
    "1ABF37:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1AC946",
@@ -14613,11 +14629,12 @@
   "addr": "1AC952",
   "kind": "msg",
   "jp": "きっと、ビィトの顔見て安心したのよ[WAIT]",
-  "en": "",
+  "en": "I'm sure seeing your face put her at[BR]ease, Beet.[WAIT]",
   "bytes": 38,
   "sites": [
    "1ABF4D:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1AC978",
@@ -14636,11 +14653,12 @@
   "addr": "1AC984",
   "kind": "msg",
   "jp": "この３年・・・おとさたなしのビィトを[BR]だれよりも気にかけていたからな・・・[WAIT]",
-  "en": "",
+  "en": "These three years, with never a word[BR]from you, Beet… no one worried about[BR]you more than she did…[WAIT]",
   "bytes": 78,
   "sites": [
    "1ABF63:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1AC9D2",
@@ -14682,11 +14700,12 @@
   "addr": "1AC9F6",
   "kind": "msg",
   "jp": "みんな心配していたんだ・・・[PAGE]ビィトもたまには[BR]れんらくくらい入れ・・・[BR]うっ・・ううっ・・・つつ・・・[WAIT]",
-  "en": "",
+  "en": "We were all worried about you…[PAGE]You could at least drop us a line now[BR]and then, Beet… Ugh… ngh… ow…[WAIT]",
   "bytes": 108,
   "sites": [
    "1ABF8F:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1ACA62",
@@ -14705,11 +14724,12 @@
   "addr": "1ACA6A",
   "kind": "msg",
   "jp": "・・・！！[BR]おじちゃんどうしたんだよ、[BR]そのうで！？[WAIT]",
-  "en": "",
+  "en": "…!! Uncle, what happened to your arm?![WAIT]",
   "bytes": 56,
   "sites": [
    "1ABFA5:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1ACAA2",
@@ -14728,11 +14748,12 @@
   "addr": "1ACAAE",
   "kind": "msg",
   "jp": "ああ、このうでな・・・[BR]ムガインの死人沼（しびとぬま）の[BR]せいで、[PAGE]里中に数えきれないほどの[BR]黒い沼（ぬま）ができて[BR]しまってな・・・[PAGE]そこには泥トカゲ（どろとかげ）が[BR]住みついてるんだ[BR]ヘタしてかまれりゃこうなる・・・！[WAIT]",
-  "en": "",
+  "en": "Ah, this arm… Thanks to Mugine's Dead[BR]Swamp,[PAGE]black swamps sprang up all over the[BR]village, more than anyone can count…[PAGE]Mud Lizards have settled in them. One[BR]bad bite, and this is what you get…![WAIT]",
   "bytes": 226,
   "sites": [
    "1ABFBB:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1ACB90",
@@ -14751,11 +14772,12 @@
   "addr": "1ACB9C",
   "kind": "msg",
   "jp": "これでもずいぶんよくなったんだよ[BR]さいしょの一年なんか[BR]全くうでが動かなかったのよ・・・[WAIT]",
-  "en": "",
+  "en": "It's gotten a lot better than it was,[BR]you know. That whole first year, he[BR]couldn't move his arm at all…[WAIT]",
   "bytes": 92,
   "sites": [
    "1ABFD1:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1ACBF8",
@@ -14774,11 +14796,12 @@
   "addr": "1ACC04",
   "kind": "msg",
   "jp": "それを見てポアラが・・・[PAGE]「ワタシがバスターになって、[BR]父さんや里のみんなの[BR]カタキをとってやるわ！」[PAGE]・・・って言ってな[BR]あいつは、バスターになったんだ[WAIT]",
-  "en": "",
+  "en": "When Poala saw that…[PAGE]\"I'll become a Buster and get revenge[BR]for Dad and everyone in the village!\"[PAGE]…is what she said. And that's how she[BR]became a Buster.[WAIT]",
   "bytes": 158,
   "sites": [
    "1ABFE7:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1ACCA2",
@@ -14797,11 +14820,12 @@
   "addr": "1ACCAA",
   "kind": "msg",
   "jp": "そうか、そうだったのか・・・[BR]ぜんぜん知らなかった・・・[WAIT]",
-  "en": "",
+  "en": "I see… so that's what happened… I had[BR]no idea…[WAIT]",
   "bytes": 60,
   "sites": [
    "1ABFFD:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1ACCE6",
@@ -14820,11 +14844,12 @@
   "addr": "1ACCEE",
   "kind": "msg",
   "jp": "・・・・・・・[WAIT]",
-  "en": "",
+  "en": "…….[WAIT]",
   "bytes": 18,
   "sites": [
    "1AC013:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1ACD00",
@@ -14843,11 +14868,12 @@
   "addr": "1ACD08",
   "kind": "msg",
   "jp": "・・・・・・ちょっと出てくる[BR]ポアラ、[BR]ゆっくりねかせといてやってくれ[WAIT]",
-  "en": "",
+  "en": "……I'm heading out for a bit. Let Poala[BR]sleep as long as she wants.[WAIT]",
   "bytes": 74,
   "sites": [
    "1AC02E:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1ACD52",
@@ -14866,11 +14892,12 @@
   "addr": "1ACD5E",
   "kind": "msg",
   "jp": "どこへ行くんだい[BR]いっしょにたたかってたんだろ？[BR]おまえだって休んだ方が・・・[WAIT]",
-  "en": "",
+  "en": "Where are you going? You were fighting[BR]right beside her, weren't you? You[BR]ought to rest too…[WAIT]",
   "bytes": 82,
   "sites": [
    "1AC054:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1ACDB0",
@@ -14889,11 +14916,12 @@
   "addr": "1ACDB8",
   "kind": "msg",
   "jp": "だいじょうぶ！[PAGE]みんながねてる間に、[BR]オレがちょっとだけいい明日に[BR]しておくよ！[WAIT]",
-  "en": "",
+  "en": "I'm fine![PAGE]While everybody's asleep, I'll make[BR]tomorrow just a little bit better![WAIT]",
   "bytes": 84,
   "sites": [
    "1AC06A:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1ACE0C",
@@ -14958,11 +14986,12 @@
   "addr": "1ACE44",
   "kind": "msg",
   "jp": "よしっ！[PAGE]黒い沼（ぬま）をまわって、[BR]泥トカゲ（どろとかげ）を[BR]全部たおしてやるぜっ！！[WAIT]",
-  "en": "",
+  "en": "Alright![PAGE]I'll make the rounds of the black[BR]swamps and take down every last Mud[BR]Lizard!![WAIT]",
   "bytes": 92,
   "sites": [
    "1AC0C8:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1ACEA0",
@@ -14981,11 +15010,12 @@
   "addr": "1ACEA8",
   "kind": "msg",
   "jp": "ふぅ～、ざっとこんなもんかな！[WAIT]",
-  "en": "",
+  "en": "Phewww, guess that about does it![WAIT]",
   "bytes": 34,
   "sites": [
    "1AC0FD:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1ACECA",
@@ -15004,11 +15034,12 @@
   "addr": "1ACED2",
   "kind": "msg",
   "jp": "・・・えっ！？　えっ！？[BR]これって・・・[BR]全部泥トカゲ（どろとかげ）！？[WAIT]",
-  "en": "",
+  "en": "…Huh?! Huh?! Are these… all Mud[BR]Lizards?![WAIT]",
   "bytes": 76,
   "sites": [
    "1AC113:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1ACF1E",
@@ -15027,11 +15058,12 @@
   "addr": "1ACF26",
   "kind": "msg",
   "jp": "ああ、ポアラ目ェさめたのか？[BR]とりあえず[PAGE]アンクルス平原の黒い沼（ぬま）の[BR]泥トカゲ（どろとかげ）、[BR]たおしておいたぞ[WAIT]",
-  "en": "",
+  "en": "Oh, Poala, you're awake? Anyway,[PAGE]I took care of the Mud Lizards in the[BR]black swamps on the Anklus Plains.[WAIT]",
   "bytes": 122,
   "sites": [
    "1AC140:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1ACFA0",
@@ -15050,11 +15082,12 @@
   "addr": "1ACFA8",
   "kind": "msg",
   "jp": "ええええええええええ！？[WAIT]",
-  "en": "",
+  "en": "Whaaaaaaaaaaat?![WAIT]",
   "bytes": 28,
   "sites": [
    "1AC156:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1ACFC4",
@@ -15073,11 +15106,12 @@
   "addr": "1ACFCC",
   "kind": "msg",
   "jp": "・・・・・・？[WAIT]",
-  "en": "",
+  "en": "……?[WAIT]",
   "bytes": 18,
   "sites": [
    "1AC16C:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1ACFDE",
@@ -15096,11 +15130,12 @@
   "addr": "1ACFE6",
   "kind": "msg",
   "jp": "・・・すごい！[BR]すごいビィトすごいっ！！[PAGE]これでもう、里にどんなヴァンデルが[BR]来てもだいじょうぶだねっ！！[WAIT]",
-  "en": "",
+  "en": "…Amazing! You're amazing, Beet![BR]Amazing!![PAGE]Now the village will be safe, no[BR]matter what Vandel shows up!![WAIT]",
   "bytes": 110,
   "sites": [
    "1AC182:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1AD054",
@@ -15142,11 +15177,12 @@
   "addr": "1AD06C",
   "kind": "msg",
   "jp": "この里には、ビィトがいるんだよね！！[WAIT]",
-  "en": "",
+  "en": "Because this village has you, Beet!![WAIT]",
   "bytes": 40,
   "sites": [
    "1AC1AE:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1AD094",
@@ -15165,11 +15201,12 @@
   "addr": "1AD09C",
   "kind": "msg",
   "jp": "・・・ああ、[BR]そのことなんだけど・・・[WAIT]",
-  "en": "",
+  "en": "…Yeah, about that…[WAIT]",
   "bytes": 42,
   "sites": [
    "1AC1C4:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1AD0C6",
@@ -15188,11 +15225,12 @@
   "addr": "1AD0CE",
   "kind": "msg",
   "jp": "？[WAIT]",
-  "en": "",
+  "en": "?[WAIT]",
   "bytes": 6,
   "sites": [
    "1AC1DA:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1AD0D4",
@@ -15211,11 +15249,12 @@
   "addr": "1AD0DC",
   "kind": "msg",
   "jp": "・・・まぁ、[BR]おじちゃん、おばちゃんにも[BR]話があるから、家まで戻ろうぜ[WAIT]",
-  "en": "",
+  "en": "…Well, I've got something to tell[BR]Uncle and Auntie too, so let's head[BR]back to the house.[WAIT]",
   "bytes": 74,
   "sites": [
    "1AC1F0:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1AD126",
@@ -15257,11 +15296,12 @@
   "addr": "1AD146",
   "kind": "msg",
   "jp": "おじちゃん、おばちゃん・・・[BR]それにポアラ・・・[WAIT]",
-  "en": "",
+  "en": "Uncle, Auntie… and Poala…[WAIT]",
   "bytes": 52,
   "sites": [
    "1AC251:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1AD17A",
@@ -15349,11 +15389,12 @@
   "addr": "1AD1D2",
   "kind": "msg",
   "jp": "・・・おれ、そろそろ行くよ[WAIT]",
-  "en": "",
+  "en": "…I'm gonna get going soon.[WAIT]",
   "bytes": 30,
   "sites": [
    "1AC2A9:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1AD1F0",
@@ -15372,11 +15413,12 @@
   "addr": "1AD1F8",
   "kind": "msg",
   "jp": "・・・・え[WAIT]",
-  "en": "",
+  "en": "….Huh?[WAIT]",
   "bytes": 14,
   "sites": [
    "1AC2CB:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1AD206",
@@ -15395,11 +15437,12 @@
   "addr": "1AD212",
   "kind": "msg",
   "jp": "・・・行くって、[BR]いったいどこへ・・・？[WAIT]",
-  "en": "",
+  "en": "…Going? Going where…?[WAIT]",
   "bytes": 44,
   "sites": [
    "1AC2E1:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1AD23E",
@@ -15418,11 +15461,12 @@
   "addr": "1AD246",
   "kind": "msg",
   "jp": "これまで[BR]外の世界でしゅぎょうしてきたけど[BR]いよいよこれからが本番だ[PAGE]今より強くなるには、[BR]もっともっと遠い[BR]外の世界に行かなきゃならねぇんだ[WAIT]",
-  "en": "",
+  "en": "I've been training out in the world[BR]all this time, but now the real thing[BR]starts.[PAGE]If I wanna get stronger than I am now,[BR]I gotta go way, way farther out into[BR]the world.[WAIT]",
   "bytes": 146,
   "sites": [
    "1AC2FE:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1AD2D8",
@@ -15487,11 +15531,12 @@
   "addr": "1AD314",
   "kind": "msg",
   "jp": "そこには[BR]とんでもなく強いヴァンデルが[BR]ウヨウヨいるんだ・・・[PAGE]この世界を闇（やみ）にかえてる[BR]張本人（ちょうほんにん）たちがね[PAGE]そいつら全部をやっつけに行く・・・[BR]それを言いに[BR]ちょっと里に立ちよっただけなんだ[WAIT]",
-  "en": "",
+  "en": "Out there, there's crazy-strong[BR]Vandels crawling all over the place…[PAGE]The ones who're turning this world[BR]dark, the guys behind it all.[PAGE]I'm gonna go beat every last one of[BR]'em… I just stopped by the village for[BR]a bit to tell you that.[WAIT]",
   "bytes": 216,
   "sites": [
    "1AC340:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1AD3EC",
@@ -15510,11 +15555,12 @@
   "addr": "1AD3F8",
   "kind": "msg",
   "jp": "・・・止めても・・・[BR]ムダなんだろうねェ・・・[PAGE]おまえは昔から[BR]一度言い出したらきかないから・・・[WAIT]",
-  "en": "",
+  "en": "…There's no use… trying to stop you,[BR]is there, dear…[PAGE]Ever since you were little, once you[BR]say something, you never listen…[WAIT]",
   "bytes": 102,
   "sites": [
    "1AC367:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1AD45E",
@@ -15533,11 +15579,12 @@
   "addr": "1AD46A",
   "kind": "msg",
   "jp": "そうだな・・・[BR]「世界一強いバスターになる！」って[BR]何度聞かされた事か・・・[WAIT]",
-  "en": "",
+  "en": "That's right… \"I'm gonna be the[BR]strongest Buster in the world!\" How[BR]many times did we hear that one…[WAIT]",
   "bytes": 80,
   "sites": [
    "1AC38E:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1AD4BA",
@@ -15556,11 +15603,12 @@
   "addr": "1AD4C2",
   "kind": "msg",
   "jp": "へへっ・・・[WAIT]",
-  "en": "",
+  "en": "Heh heh…[WAIT]",
   "bytes": 16,
   "sites": [
    "1AC3A4:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1AD4D2",
@@ -15579,11 +15627,12 @@
   "addr": "1AD4DE",
   "kind": "msg",
   "jp": "・・・がんばってこい！[BR]まぁ、これがさいごのわかれって[BR]ワケでもねぇしな[WAIT]",
-  "en": "",
+  "en": "…Go give it your all! Well, it's not[BR]like this is goodbye forever.[WAIT]",
   "bytes": 76,
   "sites": [
    "1AC3BA:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1AD52A",
@@ -15602,11 +15651,12 @@
   "addr": "1AD536",
   "kind": "msg",
   "jp": "そうよ・・・いつでも顔見せに[BR]帰ってきておくれ[BR]・・・ここは、あなたの家なんだからね[WAIT]",
-  "en": "",
+  "en": "That's right… Come back and show us[BR]your face anytime. …This is your home[BR]too, you know.[WAIT]",
   "bytes": 88,
   "sites": [
    "1AC3D0:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1AD58E",
@@ -15648,11 +15698,12 @@
   "addr": "1AD5AE",
   "kind": "msg",
   "jp": "ちょ、ちょっと！！[BR]何言ってるのよ！！！[PAGE]父さんも母さんもっ・・・[BR]こんなバカの言うことを[BR]うのみにしてっ！！[PAGE]・・・ビィト！！[BR]あんた本気で言ってたの！？[WAIT]",
-  "en": "",
+  "en": "H-hold on!! What are you saying?!![PAGE]Dad, Mom, you too…! Swallowing every[BR]word this idiot says!![PAGE]…Beet!! Did you actually mean that?![WAIT]",
   "bytes": 160,
   "sites": [
    "1AC3FC:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1AD64E",
@@ -15671,11 +15722,12 @@
   "addr": "1AD656",
   "kind": "msg",
   "jp": "おれはいつだって本気だぜ・・・ポアラ[WAIT]",
-  "en": "",
+  "en": "I always mean it… Poala.[WAIT]",
   "bytes": 40,
   "sites": [
    "1AC412:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1AD67E",
@@ -15694,11 +15746,12 @@
   "addr": "1AD686",
   "kind": "msg",
   "jp": "・・・！[WAIT]",
-  "en": "",
+  "en": "…![WAIT]",
   "bytes": 12,
   "sites": [
    "1AC428:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1AD692",
@@ -15717,11 +15770,12 @@
   "addr": "1AD69A",
   "kind": "msg",
   "jp": "・・・しんじられない・・・！[BR]なにが「正義（せいぎ）のバスター」よ[BR]こどもみたいな事言って・・・[PAGE]みんな・・・[BR]みんな自分のくらしを守るのが[BR]せいいっぱいだって言うのにっ・・・！[WAIT]",
-  "en": "",
+  "en": "…Unbelievable…! \"A Buster of justice\"?[BR]Give me a break! Talking like a little[BR]kid…[PAGE]Everyone… everyone is struggling just[BR]to protect their own lives, and you…![WAIT]",
   "bytes": 182,
   "sites": [
    "1AC446:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1AD750",
@@ -15740,11 +15794,12 @@
   "addr": "1AD758",
   "kind": "msg",
   "jp": "・・・いっしょに・・・[BR]この里を守るために帰ってきてくれたと[BR]思ってたのに・・・！[PAGE]ちょっとばかり強くなったからって[BR]図に乗って・・・！！[WAIT]",
-  "en": "",
+  "en": "…I thought… you'd come back to protect[BR]this village together with me…![PAGE]Just because you got a little[BR]stronger, you've let it go to your[BR]head…!![WAIT]",
   "bytes": 142,
   "sites": [
    "1AC45C:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1AD7E6",
@@ -15763,11 +15818,12 @@
   "addr": "1AD7EE",
   "kind": "msg",
   "jp": "・・・・・・・[BR]ポアラ・・・、[PAGE]自分いがいの人たちのくらしも守れる[BR]バスターなら・・・[BR]ちゃんといただろ？[WAIT]",
-  "en": "",
+  "en": "……. Poala…[PAGE]There WERE Busters who could protect[BR]other people's lives too, not just[BR]their own… weren't there?[WAIT]",
   "bytes": 110,
   "sites": [
    "1AC472:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1AD85C",
@@ -15786,11 +15842,12 @@
   "addr": "1AD864",
   "kind": "msg",
   "jp": "・・・・・・・[WAIT]",
-  "en": "",
+  "en": "…….[WAIT]",
   "bytes": 18,
   "sites": [
    "1AC488:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1AD876",
@@ -15809,11 +15866,12 @@
   "addr": "1AD87E",
   "kind": "msg",
   "jp": "ほら、このテーブルに・・・・・・[BR]いつも５人でこしかけてたじゃねーか[WAIT]",
-  "en": "",
+  "en": "Look, right at this table…… the five[BR]of 'em always used to sit here, didn't[BR]they?[WAIT]",
   "bytes": 72,
   "sites": [
    "1AC4B2:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1AD8C6",
@@ -15832,11 +15890,12 @@
   "addr": "1AD8CE",
   "kind": "msg",
   "jp": "・・・！[BR]ゼノン・・・戦士団（せんしだん）！[WAIT]",
-  "en": "",
+  "en": "…! The Zenon… Warriors![WAIT]",
   "bytes": 48,
   "sites": [
    "1AC502:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1AD8FE",
@@ -15855,11 +15914,12 @@
   "addr": "1AD906",
   "kind": "msg",
   "jp": "・・・だからおれは[BR]正義（せいぎ）をしんじられるんだ[BR]・・・りくつじゃなく、ああなりたい！[WAIT]",
-  "en": "",
+  "en": "…That's why I can believe in justice.[BR]…It ain't about logic -- I wanna be[BR]like them![WAIT]",
   "bytes": 94,
   "sites": [
    "1AC52A:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1AD964",
@@ -15878,11 +15938,12 @@
   "addr": "1AD96C",
   "kind": "msg",
   "jp": "ビィト・・・・[BR]・・・・・・[BR]・・・・・・[PAGE]バカァッ！！！[WAIT]",
-  "en": "",
+  "en": "Beet…. …… ……[PAGE]Idiooot!!![WAIT]",
   "bytes": 62,
   "sites": [
    "1AC540:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1AD9AA",
@@ -15901,11 +15962,12 @@
   "addr": "1AD9B6",
   "kind": "msg",
   "jp": "ポアラ・・・！！[WAIT]",
-  "en": "",
+  "en": "Poala…!![WAIT]",
   "bytes": 20,
   "sites": [
    "1AC566:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1AD9CA",
@@ -15947,11 +16009,12 @@
   "addr": "1AD9EE",
   "kind": "msg",
   "jp": "・・・・・・[BR]じゃ・・・オレ行くよ・・・！[WAIT]",
-  "en": "",
+  "en": "…… Well… I'm off…![WAIT]",
   "bytes": 46,
   "sites": [
    "1AC592:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1ADA1C",
@@ -15993,11 +16056,12 @@
   "addr": "1ADA44",
   "kind": "msg",
   "jp": "・・・気をつけてな[WAIT]",
-  "en": "",
+  "en": "…Take care of yourself.[WAIT]",
   "bytes": 22,
   "sites": [
    "1AC5BE:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1ADF80",
@@ -16027,11 +16091,12 @@
   "addr": "1ADF8E",
   "kind": "msg",
   "jp": "・・・待てビィト！[BR]ヴァンデルが一人、[BR]待ちかまえている[WAIT]",
-  "en": "",
+  "en": "…Wait, Beet! A Vandel lies in wait out[BR]there.[WAIT]",
   "bytes": 60,
   "sites": [
    "1ADA7E:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1ADFCA",
@@ -16050,11 +16115,12 @@
   "addr": "1ADFD2",
   "kind": "msg",
   "jp": "ヴァンデルって・・・[PAGE]もしかして、[BR]デブなドロのかたまりみたいな[BR]ヤツか？[WAIT]",
-  "en": "",
+  "en": "A Vandel…[PAGE]Don't tell me -- a fat guy who looks[BR]like a big lump of mud?[WAIT]",
   "bytes": 78,
   "sites": [
    "1ADA94:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1AE020",
@@ -16073,11 +16139,12 @@
   "addr": "1AE024",
   "kind": "msg",
   "jp": "・・・そうだ[WAIT]",
-  "en": "",
+  "en": "…That is so.[WAIT]",
   "bytes": 16,
   "sites": [
    "1ADAAA:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1AE034",
@@ -16096,11 +16163,12 @@
   "addr": "1AE03C",
   "kind": "msg",
   "jp": "それだったら問題ないぜ[BR]開けてくれ！[WAIT]",
-  "en": "",
+  "en": "Then no problem! Open up![WAIT]",
   "bytes": 40,
   "sites": [
    "1ADAC0:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1AE064",
@@ -16119,11 +16187,12 @@
   "addr": "1AE068",
   "kind": "msg",
   "jp": "そうか・・・、[BR]気をつけろ[WAIT]",
-  "en": "",
+  "en": "I see… Be careful.[WAIT]",
   "bytes": 30,
   "sites": [
    "1ADAD6:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1AE086",
@@ -16142,11 +16211,12 @@
   "addr": "1AE08E",
   "kind": "msg",
   "jp": "やっぱおまえか・・・[BR]ムガイン！！[WAIT]",
-  "en": "",
+  "en": "Knew it was you… Mugine!![WAIT]",
   "bytes": 38,
   "sites": [
    "1ADB13:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1AE0B4",
@@ -16165,11 +16235,12 @@
   "addr": "1AE0BE",
   "kind": "msg",
   "jp": "・・・これがさいごの勝負ですよ、[BR]ボウヤ・・・！！[WAIT]",
-  "en": "",
+  "en": "…This is our final match, sonny…!![WAIT]",
   "bytes": 54,
   "sites": [
    "1ADB29:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1AE0F4",
@@ -16188,11 +16259,12 @@
   "addr": "1AE0FC",
   "kind": "msg",
   "jp": "そのつもりだぜ[PAGE]おまえがいちゃ、[BR]いくら里をキレイにしてもまた[BR]よごされるからな・・・！[WAIT]",
-  "en": "",
+  "en": "That's the plan![PAGE]With you around, no matter how much I[BR]clean up the village, it'll just get[BR]dirty again…![WAIT]",
   "bytes": 92,
   "sites": [
    "1ADB3F:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1AE158",
@@ -16211,11 +16283,12 @@
   "addr": "1AE162",
   "kind": "msg",
   "jp": "・・・ワタシにもいちおう、[BR]ヴァンデルのプライドというものが[BR]ありましてねェ・・・[PAGE]キミのそんざいだけは、[BR]さくじょしておかないと・・・！！[WAIT]",
-  "en": "",
+  "en": "…Even I have a thing called Vandel[BR]pride, you see…[PAGE]Your existence, at least, must be[BR]deleted…!![WAIT]",
   "bytes": 144,
   "sites": [
    "1ADB55:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1AE1F2",
@@ -16234,11 +16307,12 @@
   "addr": "1AE1FA",
   "kind": "msg",
   "jp": "う、うわっ！！！[WAIT]",
-  "en": "",
+  "en": "Wh-whoa!!![WAIT]",
   "bytes": 20,
   "sites": [
    "1ADB76:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1AE20E",
@@ -16257,11 +16331,12 @@
   "addr": "1AE218",
   "kind": "msg",
   "jp": "ククク・・・[PAGE]いかに才牙（サイガ）が強力でも、[BR]手が使えなければ[BR]あつかえないのでは・・・！？[WAIT]",
-  "en": "",
+  "en": "Heh heh heh…[PAGE]However powerful your Saiga may be,[BR]you can't wield them without your[BR]hands, can you…?![WAIT]",
   "bytes": 98,
   "sites": [
    "1ADB8C:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1AE27A",
@@ -16280,11 +16355,12 @@
   "addr": "1AE282",
   "kind": "msg",
   "jp": "や・・・やべっ！！[BR]くっそおっ！！[WAIT]",
-  "en": "",
+  "en": "Uh-oh…!! Dammit!![WAIT]",
   "bytes": 38,
   "sites": [
    "1ADBA2:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1AE2A8",
@@ -16303,22 +16379,24 @@
   "addr": "1AE2B2",
   "kind": "msg",
   "jp": "・・・ジタバタしないで、[BR]おとなしくやられなさいっ！[PAGE]６１対３９の比率（ひりつ）で・・・[BR]胴体（どうたい）を真ッ二つにして[BR]やりますからねェェッ！！！[WAIT]",
-  "en": "",
+  "en": "…Stop squirming and be a good boy and[BR]die![PAGE]I shall slice your body clean in two…[BR]at a ratio of 61 to 39!!![WAIT]",
   "bytes": 154,
   "sites": [
    "1ADBC3:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1AE34C",
   "addr": "1AE34C",
   "kind": "msg",
   "jp": "待ちなさいっ！！[WAIT]",
-  "en": "",
+  "en": "Hold it right there!![WAIT]",
   "bytes": 20,
   "sites": [
    "1ADBCC:op3B+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1AE360",
@@ -16360,11 +16438,12 @@
   "addr": "1AE37C",
   "kind": "msg",
   "jp": "！！！[BR]ポアラ！！！[WAIT]",
-  "en": "",
+  "en": "!!! Poala!!![WAIT]",
   "bytes": 24,
   "sites": [
    "1ADC09:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1AE394",
@@ -16383,11 +16462,12 @@
   "addr": "1AE39E",
   "kind": "msg",
   "jp": "こむすめっ！！[BR]おまえもいっしょに死にに来たか！！[WAIT]",
-  "en": "",
+  "en": "Little girl!! Have you come to die[BR]alongside him?![WAIT]",
   "bytes": 54,
   "sites": [
    "1ADC1F:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1AE3D4",
@@ -16406,11 +16486,12 @@
   "addr": "1AE3DC",
   "kind": "msg",
   "jp": "死ぬのはそっちよ！[BR]・・・天撃（てんげき）のおッ・・・[BR]雹弾（ひょうだん）！！！[WAIT]",
-  "en": "",
+  "en": "You're the one who's dying! …Divine[BR]Attack…!! Hail Shot!!![WAIT]",
   "bytes": 84,
   "sites": [
    "1ADC35:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1AE430",
@@ -16429,11 +16510,12 @@
   "addr": "1AE43A",
   "kind": "msg",
   "jp": "ムッ！？[WAIT]",
-  "en": "",
+  "en": "Hm?![WAIT]",
   "bytes": 12,
   "sites": [
    "1ADC56:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1AE446",
@@ -16452,11 +16534,12 @@
   "addr": "1AE44E",
   "kind": "msg",
   "jp": "うわっ！！[WAIT]",
-  "en": "",
+  "en": "Whoa!![WAIT]",
   "bytes": 14,
   "sites": [
    "1ADC74:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1AE45C",
@@ -16475,11 +16558,12 @@
   "addr": "1AE466",
   "kind": "msg",
   "jp": "ハハハッ！[BR]苦しまぎれの天撃（てんげき）も[BR]はずれたなァ！！[WAIT]",
-  "en": "",
+  "en": "Ha ha ha! Your desperate Divine Attack[BR]missed, too!![WAIT]",
   "bytes": 64,
   "sites": [
    "1ADC8A:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1AE4A6",
@@ -16498,11 +16582,12 @@
   "addr": "1AE4AE",
   "kind": "msg",
   "jp": "ビィト！！！[BR]それならくだけるはずよ！！[WAIT]",
-  "en": "",
+  "en": "Beet!!! Now you should be able to[BR]break it!![WAIT]",
   "bytes": 44,
   "sites": [
    "1ADCA0:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1AE4DA",
@@ -16521,11 +16606,12 @@
   "addr": "1AE4E2",
   "kind": "msg",
   "jp": "・・・そうかっ！！[WAIT]",
-  "en": "",
+  "en": "…I get it!![WAIT]",
   "bytes": 22,
   "sites": [
    "1ADCB6:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1AE4F8",
@@ -16567,11 +16653,12 @@
   "addr": "1AE512",
   "kind": "msg",
   "jp": "うおおおおおおッ！！！[WAIT]",
-  "en": "",
+  "en": "Raaaaaaaah!!![WAIT]",
   "bytes": 26,
   "sites": [
    "1ADCE2:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1AE52C",
@@ -16590,11 +16677,12 @@
   "addr": "1AE536",
   "kind": "msg",
   "jp": "お、おのれぇえ！[BR]二人まとめて、ころしてあげますっ！！[WAIT]",
-  "en": "",
+  "en": "Wh-why, you…! I'll kill the two of you[BR]together!![WAIT]",
   "bytes": 58,
   "sites": [
    "1ADD03:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1AE570",
@@ -16613,11 +16701,12 @@
   "addr": "1AE578",
   "kind": "msg",
   "jp": "・・・ビィトッ！！[WAIT]",
-  "en": "",
+  "en": "…Beet!![WAIT]",
   "bytes": 22,
   "sites": [
    "1ADD1F:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1AE58E",
@@ -16636,11 +16725,12 @@
   "addr": "1AE596",
   "kind": "msg",
   "jp": "おうっ！[BR]いくぞッ！！[WAIT]",
-  "en": "",
+  "en": "Yeah! Let's go!![WAIT]",
   "bytes": 26,
   "sites": [
    "1ADD35:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1AE5B0",
@@ -16659,11 +16749,12 @@
   "addr": "1AE5BA",
   "kind": "msg",
   "jp": "バッ・・・バカなぁッ・・・！！！[BR]しっ・・・しんじられん！[PAGE]こんなガキの[BR]・・・どこにこんな力が・・・[WAIT]",
-  "en": "",
+  "en": "N-no… impossible…!!! I-I can't believe[BR]it![PAGE]Where does a brat like this… get such[BR]power…[WAIT]",
   "bytes": 106,
   "sites": [
    "1ADD5A:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1AE624",
@@ -16705,11 +16796,12 @@
   "addr": "1AE646",
   "kind": "msg",
   "jp": "け・・・計算外にも・・・[BR]ほどが・・・[BR]あ・・・る・・・っ・・・ウ・・・！[WAIT]",
-  "en": "",
+  "en": "Th-this is… beyond my calcu… lations…[BR]by… far… ugh…![WAIT]",
   "bytes": 78,
   "sites": [
    "1ADD86:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1AE694",
@@ -16728,11 +16820,12 @@
   "addr": "1AE69C",
   "kind": "msg",
   "jp": "ふぅ・・・・！[BR]あぶねー[BR]あぶねー、[PAGE]もうちょっとで[BR]殺されるとこだったぜ・・・[BR]ありがとうな、ポア・・・[WAIT]",
-  "en": "",
+  "en": "Phew…! That was close, way too close.[PAGE]I almost got killed there… Thanks,[BR]Poa…[WAIT]",
   "bytes": 110,
   "sites": [
    "1ADDAB:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1AE70A",
@@ -16751,11 +16844,12 @@
   "addr": "1AE712",
   "kind": "msg",
   "jp": "・・・・・・なにやってんのよ、[BR]あんたは！！[WAIT]",
-  "en": "",
+  "en": "……What do you think you're doing?!![WAIT]",
   "bytes": 48,
   "sites": [
    "1ADDC9:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1AE742",
@@ -16774,11 +16868,12 @@
   "addr": "1AE74A",
   "kind": "msg",
   "jp": "へっ！？[WAIT]",
-  "en": "",
+  "en": "Huh?![WAIT]",
   "bytes": 12,
   "sites": [
    "1ADDE1:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1AE756",
@@ -16797,11 +16892,12 @@
   "addr": "1AE75E",
   "kind": "msg",
   "jp": "遠くの世界にはもっと強いヴァンデルが[BR]ウヨウヨいるとか言っときながら・・・[BR]なんで出発早々大ピンチなワケ！？[WAIT]",
-  "en": "",
+  "en": "You went on about crazy-strong Vandels[BR]crawling all over the far-off world…[BR]so why are you in big trouble the[PAGE]second you set out?![WAIT]",
   "bytes": 112,
   "sites": [
    "1ADDF7:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1AE7CE",
@@ -16820,11 +16916,12 @@
   "addr": "1AE7D6",
   "kind": "msg",
   "jp": "いやっ・・・その・・・[WAIT]",
-  "en": "",
+  "en": "W-well… um…[WAIT]",
   "bytes": 26,
   "sites": [
    "1ADE0D:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1AE7F0",
@@ -16843,11 +16940,12 @@
   "addr": "1AE7F8",
   "kind": "msg",
   "jp": "よくも[BR]「暗黒の世紀（あんこくのせいき）を[BR]終わらせる男」なんて言えたわね！[PAGE]そんなんじゃ、[BR]一人で死にに行くようなものじゃない！！[WAIT]",
-  "en": "",
+  "en": "And you had the nerve to call yourself[BR]\"the man who'll end the Dark Century\"![PAGE]At this rate, you'd just be going off[BR]to die alone!![WAIT]",
   "bytes": 136,
   "sites": [
    "1ADE23:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1AE880",
@@ -16866,11 +16964,12 @@
   "addr": "1AE888",
   "kind": "msg",
   "jp": "それは・・・[WAIT]",
-  "en": "",
+  "en": "Well…[WAIT]",
   "bytes": 16,
   "sites": [
    "1ADE39:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1AE898",
@@ -16889,11 +16988,12 @@
   "addr": "1AE8A0",
   "kind": "msg",
   "jp": "・・・どうせ[BR]ワタシが止めても行くんでしょ？[PAGE]いいわよ！[BR]どこへでも行きなさいよ！[WAIT]",
-  "en": "",
+  "en": "…You're going no matter how much I try[BR]to stop you, right?[PAGE]Fine! Go wherever you want![WAIT]",
   "bytes": 86,
   "sites": [
    "1ADE4F:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1AE8F6",
@@ -16935,11 +17035,12 @@
   "addr": "1AE916",
   "kind": "msg",
   "jp": "その代わり・・・[BR]ワタシもいっしょに行くから！[WAIT]",
-  "en": "",
+  "en": "But in exchange… I'm going with you![WAIT]",
   "bytes": 50,
   "sites": [
    "1ADE7B:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1AE948",
@@ -16958,11 +17059,12 @@
   "addr": "1AE950",
   "kind": "msg",
   "jp": "えっ！？[WAIT]",
-  "en": "",
+  "en": "Huh?![WAIT]",
   "bytes": 12,
   "sites": [
    "1ADE91:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1AE95C",
@@ -16981,11 +17083,12 @@
   "addr": "1AE964",
   "kind": "msg",
   "jp": "「ビィト戦士団（せんしだん）」の[BR]Ｎｏ．２としてね！！[WAIT]",
-  "en": "",
+  "en": "As No. 2 of the \"Beet Warriors\"!![WAIT]",
   "bytes": 58,
   "sites": [
    "1ADEA7:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1AE99E",
@@ -17004,11 +17107,12 @@
   "addr": "1AE9A6",
   "kind": "msg",
   "jp": "ナンバーツーって・・・[BR]ポアラ・・・おまえ本気なのか！？[PAGE]これから先、ヴァンデルと山ほど[BR]たたかわなきゃならない・・・[PAGE]・・・何年かかるかも[BR]わからないんだぞ！！[WAIT]",
-  "en": "",
+  "en": "No. 2…? Poala… are you serious?![PAGE]From here on, we're gonna have to[BR]fight a whole mountain of Vandels…[PAGE]…There's no telling how many years[BR]it'll take!![WAIT]",
   "bytes": 166,
   "sites": [
    "1ADEBD:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1AEA4C",
@@ -17027,11 +17131,12 @@
   "addr": "1AEA54",
   "kind": "msg",
   "jp": "自分の心配の方が先でしょ！[PAGE]だいたいさっきだって・・・[BR]ワタシが助けなきゃ[BR]ムガインにやられてたんじゃない！！[WAIT]",
-  "en": "",
+  "en": "Worry about yourself first![PAGE]I mean, just now… if I hadn't saved[BR]you, Mugine would've finished you[BR]off!![WAIT]",
   "bytes": 114,
   "sites": [
    "1ADED3:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1AEAC6",
@@ -17050,11 +17155,12 @@
   "addr": "1AEACE",
   "kind": "msg",
   "jp": "・・・・・・・[WAIT]",
-  "en": "",
+  "en": "…….[WAIT]",
   "bytes": 18,
   "sites": [
    "1ADEE9:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1AEAE0",
@@ -17073,11 +17179,12 @@
   "addr": "1AEAE8",
   "kind": "msg",
   "jp": "まぁいいわ・・・[BR]もうワタシ決めたの！[BR]りくつじゃないわ、行きたいんだから！！[WAIT]",
-  "en": "",
+  "en": "Well, whatever… I've made up my mind![BR]It isn't about logic -- I want to go,[BR]so I'm going!![WAIT]",
   "bytes": 82,
   "sites": [
    "1ADEFF:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1AEB3A",
@@ -17096,11 +17203,12 @@
   "addr": "1AEB42",
   "kind": "msg",
   "jp": "・・・ハハッ[BR]それを言われちゃ[BR]もんくのいいようがねえな・・・！[WAIT]",
-  "en": "",
+  "en": "…Ha ha! You say it like that, and I[BR]can't really argue…![WAIT]",
   "bytes": 68,
   "sites": [
    "1ADF15:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1AEB86",
@@ -17119,11 +17227,12 @@
   "addr": "1AEB8E",
   "kind": "msg",
   "jp": "フフッ[WAIT]",
-  "en": "",
+  "en": "Hee hee.[WAIT]",
   "bytes": 10,
   "sites": [
    "1ADF2B:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1AEB98",
@@ -17142,11 +17251,12 @@
   "addr": "1AEBA0",
   "kind": "msg",
   "jp": "「ビィト戦士団（せんしだん）」か！[BR]悪くねえな・・・！！[PAGE]・・・よしっ！[BR]気合入れて行くぜっ！！！[WAIT]",
-  "en": "",
+  "en": "The \"Beet Warriors,\" huh! Not bad…!![PAGE]…Alright! Let's go, full throttle!!![WAIT]",
   "bytes": 102,
   "sites": [
    "1ADF41:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1AEC06",
@@ -17165,11 +17275,12 @@
   "addr": "1AEC0E",
   "kind": "msg",
   "jp": "とりあえず、ワタシが[BR]外の世界になれるために、[BR]アンクルス平原をまわってみましょう[PAGE]さしあたって、[BR]ここから北へ進んでみましょう[WAIT]",
-  "en": "",
+  "en": "For now, so I can get used to the[BR]outside world, let's make the rounds[BR]of the Anklus Plains.[PAGE]To start with, let's try heading north[BR]from here.[WAIT]",
   "bytes": 132,
   "sites": [
    "1ADF57:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1AEF10",
@@ -17199,11 +17310,12 @@
   "addr": "1AEF22",
   "kind": "msg",
   "jp": "よし、[PAGE]今日はとりあえず色々あって[BR]ポアラもつかれてるだろうし・・・[BR]ここらで休むか！[WAIT]",
-  "en": "",
+  "en": "Okay,[PAGE]a lot happened today, and Poala's[BR]probably tired too… Let's rest around[BR]here![WAIT]",
   "bytes": 90,
   "sites": [
    "1AECDB:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1AEF7C",
@@ -17222,11 +17334,12 @@
   "addr": "1AEF84",
   "kind": "msg",
   "jp": "・・・え！？[BR]ここらって・・・えええ？[BR]まさか・・・野宿っ！？[WAIT]",
-  "en": "",
+  "en": "…Huh?! Around here…? Whaaat? Don't[BR]tell me… we're sleeping outside?![WAIT]",
   "bytes": 66,
   "sites": [
    "1AECF1:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1AEFC6",
@@ -17245,11 +17358,12 @@
   "addr": "1AEFCE",
   "kind": "msg",
   "jp": "ん？・・・ああそうだよ[BR]オレはいつもそうだから、[BR]だいじょうぶ！！[WAIT]",
-  "en": "",
+  "en": "Hm? …Yeah, that's right. I always do[BR]it, so it's fine!![WAIT]",
   "bytes": 70,
   "sites": [
    "1AED07:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1AF014",
@@ -17268,11 +17382,12 @@
   "addr": "1AF01C",
   "kind": "msg",
   "jp": "ちょ、ちょっと待ってよ！[BR]せめてどっかの里で・・・[WAIT]",
-  "en": "",
+  "en": "H-hold on a minute! At least find some[BR]village…[WAIT]",
   "bytes": 54,
   "sites": [
    "1AED1D:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1AF052",
@@ -17291,11 +17406,12 @@
   "addr": "1AF05A",
   "kind": "msg",
   "jp": "だいじょうぶだって！[BR]・・・お、ちょうどこの大木が[BR]いい感じだな！[PAGE]ポアラ、そこでねむりなよ[WAIT]",
-  "en": "",
+  "en": "It's fine, I'm tellin' ya! …Oh, this[BR]big tree looks just right![PAGE]Poala, you sleep there.[WAIT]",
   "bytes": 96,
   "sites": [
    "1AED33:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1AF0BA",
@@ -17314,11 +17430,12 @@
   "addr": "1AF0C2",
   "kind": "msg",
   "jp": "ちょっとぉ、マジなのぉ！？[WAIT]",
-  "en": "",
+  "en": "Hey, are you SERIOUS?![WAIT]",
   "bytes": 30,
   "sites": [
    "1AED49:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1AF0E0",
@@ -17337,11 +17454,12 @@
   "addr": "1AF0E8",
   "kind": "msg",
   "jp": "じゃ、そういうことで・・・[BR]オレはちょっと修行（しゅぎょう）[BR]してっからさ！[PAGE]・・・お休み！[WAIT]",
-  "en": "",
+  "en": "Okay, so that's settled… I'm gonna go[BR]train for a bit![PAGE]…Night![WAIT]",
   "bytes": 96,
   "sites": [
    "1AED5F:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1AF148",
@@ -17383,11 +17501,12 @@
   "addr": "1AF168",
   "kind": "msg",
   "jp": "・・・・・・はぁ[WAIT]",
-  "en": "",
+  "en": "……Sigh.[WAIT]",
   "bytes": 20,
   "sites": [
    "1AED8B:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1AF17C",
@@ -17406,11 +17525,12 @@
   "addr": "1AF184",
   "kind": "msg",
   "jp": "さぁて[PAGE]じゃポアラがねてる間に・・・[BR]ちょっとそこらのモンスターでも[BR]たいじすっか！！[WAIT]",
-  "en": "",
+  "en": "Alrighty,[PAGE]while Poala's asleep… think I'll go[BR]take out some of the monsters around[BR]here!![WAIT]",
   "bytes": 90,
   "sites": [
    "1AEDC3:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1AF1DE",
@@ -17429,11 +17549,12 @@
   "addr": "1AF1E6",
   "kind": "msg",
   "jp": "よーし、次！[WAIT]",
-  "en": "",
+  "en": "Okay, next![WAIT]",
   "bytes": 16,
   "sites": [
    "1AEDE1:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1AF1F6",
@@ -17452,11 +17573,12 @@
   "addr": "1AF1FE",
   "kind": "msg",
   "jp": "まだまだ！[WAIT]",
-  "en": "",
+  "en": "Not done yet![WAIT]",
   "bytes": 14,
   "sites": [
    "1AEDFF:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1AF20C",
@@ -17475,11 +17597,12 @@
   "addr": "1AF214",
   "kind": "msg",
   "jp": "よし、もう時間だし・・・[BR]このくらいにしておくか！[WAIT]",
-  "en": "",
+  "en": "Okay, it's about time… guess I'll call[BR]it here![WAIT]",
   "bytes": 54,
   "sites": [
    "1AEE2F:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1AF24A",
@@ -17498,11 +17621,12 @@
   "addr": "1AF252",
   "kind": "msg",
   "jp": "・・・さっ、[BR]そろそろポアラを起こすか・・・[WAIT]",
-  "en": "",
+  "en": "…Well, time to wake Poala up…[WAIT]",
   "bytes": 48,
   "sites": [
    "1AEE45:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1AF282",
@@ -17521,11 +17645,12 @@
   "addr": "1AF28A",
   "kind": "msg",
   "jp": "おはようポアラ！[BR]よくねむれっ・・・・・・[WAIT]",
-  "en": "",
+  "en": "Mornin', Poala! Did you sleep we……[WAIT]",
   "bytes": 46,
   "sites": [
    "1AEE7C:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1AF2B8",
@@ -17567,11 +17692,12 @@
   "addr": "1AF2D8",
   "kind": "msg",
   "jp": "・・・ね、[BR]ね、ねむれなかったみてぇだな・・・[WAIT]",
-  "en": "",
+  "en": "…L-looks like… you d-didn't get much[BR]sleep, huh…[WAIT]",
   "bytes": 50,
   "sites": [
    "1AEEA8:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1AF30A",
@@ -17590,11 +17716,12 @@
   "addr": "1AF312",
   "kind": "msg",
   "jp": "おかげ様で！[PAGE]この[BR]「暗黒の世紀（あんこくのせいき）」に[BR]なかなか出来ない体験（たいけん）を[PAGE]させてもらったわよ・・・[WAIT]",
-  "en": "",
+  "en": "Thanks to you![PAGE]You've given me an experience that's[BR]hard to come by…[PAGE]even in this \"Dark Century\"…[WAIT]",
   "bytes": 122,
   "sites": [
    "1AEEBE:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1AF38C",
@@ -17613,11 +17740,12 @@
   "addr": "1AF394",
   "kind": "msg",
   "jp": "まぁ・・・そう言わずにさぁ・・・[BR]野宿もなれればそのうち[BR]楽しくなるって・・・[WAIT]",
-  "en": "",
+  "en": "Aw… don't be like that… Once you get[BR]used to camping out, it's actually[BR]fun…[WAIT]",
   "bytes": 82,
   "sites": [
    "1AEED4:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1AF3E6",
@@ -17636,22 +17764,24 @@
   "addr": "1AF3EE",
   "kind": "msg",
   "jp": "なれたくなんかないわよっ！！[PAGE]（・・・んもう・・・本物よ、こいつっ[BR]て本物の冒険者（ぼうけんしゃ）・・・[BR]もうあらゆる意味で！！）[WAIT]",
-  "en": "",
+  "en": "I do NOT want to get used to it!![PAGE](…Ugh, honestly… This guy's the real[BR]deal. A real adventurer… in every[BR]sense of the word!!)[WAIT]",
   "bytes": 134,
   "sites": [
    "1AEEEA:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1AF830",
   "addr": "1AF830",
   "kind": "banner",
   "jp": "ポアラ",
-  "en": "",
+  "en": "Poala",
   "bytes": 8,
   "sites": [
    "1AF48B:op6F+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1AF838",
@@ -17670,11 +17800,12 @@
   "addr": "1AF840",
   "kind": "msg",
   "jp": "・・・ポアラ？[WAIT]",
-  "en": "",
+  "en": "…Poala?[WAIT]",
   "bytes": 18,
   "sites": [
    "1AF4AB:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1AF852",
@@ -17693,11 +17824,12 @@
   "addr": "1AF85A",
   "kind": "msg",
   "jp": "（もうっ・・・もうっ！！・・・）[WAIT]",
-  "en": "",
+  "en": "(Ugh… UGH!!…)[WAIT]",
   "bytes": 36,
   "sites": [
    "1AF4C1:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1AF87E",
@@ -17716,11 +17848,12 @@
   "addr": "1AF886",
   "kind": "msg",
   "jp": "なぁ、ポアラっ！！[WAIT]",
-  "en": "",
+  "en": "Hey, Poala!![WAIT]",
   "bytes": 22,
   "sites": [
    "1AF4D7:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1AF89C",
@@ -17739,11 +17872,12 @@
   "addr": "1AF8A4",
   "kind": "msg",
   "jp": "・・・んもう、なにぃっ！？[WAIT]",
-  "en": "",
+  "en": "…Ugh, WHAT?![WAIT]",
   "bytes": 30,
   "sites": [
    "1AF4ED:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1AF8C2",
@@ -17762,11 +17896,12 @@
   "addr": "1AF8CA",
   "kind": "msg",
   "jp": "ポアラ、そこっ！[BR]おまえの荷物・・・[WAIT]",
-  "en": "",
+  "en": "Poala, over there! Your bags…[WAIT]",
   "bytes": 40,
   "sites": [
    "1AF503:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1AF8F2",
@@ -17785,11 +17920,12 @@
   "addr": "1AF8FA",
   "kind": "msg",
   "jp": "えっ？　荷物・・・？？[WAIT]",
-  "en": "",
+  "en": "Huh? My bags…??[WAIT]",
   "bytes": 26,
   "sites": [
    "1AF519:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1AF914",
@@ -17808,11 +17944,12 @@
   "addr": "1AF91E",
   "kind": "msg",
   "jp": "ポリポリパリポリ・・・・・[WAIT]",
-  "en": "",
+  "en": "Crunch munch crunch munch…..[WAIT]",
   "bytes": 30,
   "sites": [
    "1AF52D:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1AF93C",
@@ -17831,11 +17968,12 @@
   "addr": "1AF944",
   "kind": "msg",
   "jp": "・・・・・・あああああっ！！！[WAIT]",
-  "en": "",
+  "en": "……Aaaaaah!!![WAIT]",
   "bytes": 34,
   "sites": [
    "1AF546:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1AF966",
@@ -17854,11 +17992,12 @@
   "addr": "1AF970",
   "kind": "msg",
   "jp": "パリポリポリ・・・？[WAIT]",
-  "en": "",
+  "en": "Munch crunch crunch…?[WAIT]",
   "bytes": 24,
   "sites": [
    "1AF553:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1AF988",
@@ -17877,11 +18016,12 @@
   "addr": "1AF990",
   "kind": "msg",
   "jp": "あんたら何やってんのよぉっ！[BR]ただでさえ野宿にねぶそくで[BR]イライラしてるってーのにっ！！[WAIT]",
-  "en": "",
+  "en": "What do you think you're doing?! I'm[BR]already cranky enough from sleeping[BR]outside with no sleep!![WAIT]",
   "bytes": 92,
   "sites": [
    "1AF567:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1AF9EC",
@@ -17900,11 +18040,12 @@
   "addr": "1AF9F4",
   "kind": "msg",
   "jp": "お、おおいポアラ・・・[WAIT]",
-  "en": "",
+  "en": "H-hey, Poala…[WAIT]",
   "bytes": 26,
   "sites": [
    "1AF57D:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1AFA0E",
@@ -17923,11 +18064,12 @@
   "addr": "1AFA16",
   "kind": "msg",
   "jp": "あんたも何ボーっと見てんのよっ！[BR]さっさとやっつけるわよっ！！[WAIT]",
-  "en": "",
+  "en": "And what are YOU just standing there[BR]gawking for?! Let's finish them off,[BR]now!![WAIT]",
   "bytes": 66,
   "sites": [
    "1AF593:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1AFA58",
@@ -17946,11 +18088,12 @@
   "addr": "1AFA60",
   "kind": "msg",
   "jp": "はぁっ、はぁっ・・・[PAGE]悪いけど、[BR]あんたらカネックにやる金なんか[BR]１ＭＧ（マギー）も無いわよ！[PAGE]こちとら、バカなあいぼうのせいで・・・[BR]もう！！[WAIT]",
-  "en": "",
+  "en": "Huff, huff…[PAGE]Sorry, but I don't have a single MG of[BR]Magi to give you Kanecks![PAGE]I'm already in this mess thanks to my[BR]idiot partner… Honestly!![WAIT]",
   "bytes": 148,
   "sites": [
    "1AF5D2:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1AFAF4",
@@ -17969,11 +18112,12 @@
   "addr": "1AFAFC",
   "kind": "msg",
   "jp": "バカって・・・・・・[WAIT]",
-  "en": "",
+  "en": "Idiot……[WAIT]",
   "bytes": 24,
   "sites": [
    "1AF5E8:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1AFB14",
@@ -17992,11 +18136,12 @@
   "addr": "1AFB1C",
   "kind": "msg",
   "jp": "まぁ・・・引き返すよりも次の里を[BR]目指した方が早いわ！[PAGE]・・・さぁ！[BR]そうと決まればとっとと[BR]出発するわよ！！[WAIT]",
-  "en": "",
+  "en": "Well… it'll be faster to head for the[BR]next village than to turn back![PAGE]…Come on! If that's settled, let's get[BR]moving already!![WAIT]",
   "bytes": 114,
   "sites": [
    "1AF605:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1AFB8E",
@@ -18015,11 +18160,12 @@
   "addr": "1AFB96",
   "kind": "msg",
   "jp": "オッケー！！　しっかし、[BR]ポアラのアタマの切りかえの早さって[BR]すげーな・・・そんけいするよ！[WAIT]",
-  "en": "",
+  "en": "Okay!! But man, the way you switch[BR]gears so fast, Poala… that's amazing.[BR]I respect that![WAIT]",
   "bytes": 96,
   "sites": [
    "1AF61B:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1AFBF6",
@@ -18038,11 +18184,12 @@
   "addr": "1AFBFE",
   "kind": "msg",
   "jp": "（なんじゃそりゃ、[BR]ほめてるつもり・・・！？）[PAGE]・・・って、そういえば、この辺[BR]もっと草とか岩とかがあったハズよね？[BR]なんか平らになっちゃってるけど・・・[WAIT]",
-  "en": "",
+  "en": "(What the heck? Is that supposed to be[BR]a compliment…?!)[PAGE]…Wait, now that I think about it,[BR]wasn't there more grass and rocks[BR]around here? It's all flattened out[PAGE]now…[WAIT]",
   "bytes": 158,
   "sites": [
    "1AF631:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1AFC9C",
@@ -18061,11 +18208,12 @@
   "addr": "1AFCA4",
   "kind": "msg",
   "jp": "・・・ああ、夜のうちにモンスターと[BR]たたかってたからな[BR]ちょっと気合入りすぎたかもな！[WAIT]",
-  "en": "",
+  "en": "…Oh, yeah, I was fighting monsters all[BR]night. Maybe I got a little too fired[BR]up![WAIT]",
   "bytes": 90,
   "sites": [
    "1AF663:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1AFCFE",
@@ -18084,11 +18232,12 @@
   "addr": "1AFD06",
   "kind": "msg",
   "jp": "ええ！？[BR]ひとがねてる間にブッ通しで[BR]ずっとしゅぎょうしてたの？[WAIT]",
-  "en": "",
+  "en": "What?! You trained nonstop the whole[BR]time I was asleep?[WAIT]",
   "bytes": 68,
   "sites": [
    "1AF679:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1AFD4A",
@@ -18107,11 +18256,12 @@
   "addr": "1AFD52",
   "kind": "msg",
   "jp": "・・・ちょっとふり回すだけの[BR]つもりだったんだけどな・・・！[WAIT]",
-  "en": "",
+  "en": "…I was only planning to swing it[BR]around for a bit, though…![WAIT]",
   "bytes": 64,
   "sites": [
    "1AF68F:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1AFD92",
@@ -18130,11 +18280,12 @@
   "addr": "1AFD9A",
   "kind": "msg",
   "jp": "強くなるのがはやいわけよね・・・[BR]あんた・・・！[WAIT]",
-  "en": "",
+  "en": "No wonder you got strong so fast…[BR]you…![WAIT]",
   "bytes": 52,
   "sites": [
    "1AF6A5:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1AFDCE",
@@ -18153,11 +18304,12 @@
   "addr": "1AFDD6",
   "kind": "msg",
   "jp": "・・・いっつもライオには[BR]助けられっぱなしだからな・・・[PAGE]おれ自身もちょっとは強くなって[BR]おかないと・・・！[WAIT]",
-  "en": "",
+  "en": "…Laio's always the one bailing me out,[BR]after all…[PAGE]I gotta get a little stronger myself,[BR]too…![WAIT]",
   "bytes": 112,
   "sites": [
    "1AF6BB:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1AFE46",
@@ -18176,11 +18328,12 @@
   "addr": "1AFE4E",
   "kind": "msg",
   "jp": "ライオ・・・！？[WAIT]",
-  "en": "",
+  "en": "Laio…?![WAIT]",
   "bytes": 20,
   "sites": [
    "1AF6D1:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1AFE62",
@@ -18199,11 +18352,12 @@
   "addr": "1AFE6A",
   "kind": "msg",
   "jp": "・・・ああ[BR]オレのとくいな槍（やり）・・・[BR]バーニングランスは・・・[PAGE]ライオの才牙（サイガ）なんだ[WAIT]",
-  "en": "",
+  "en": "…Yeah. My favorite spear… the Burning[BR]Lance…[PAGE]is Laio's Saiga.[WAIT]",
   "bytes": 102,
   "sites": [
    "1AF6E7:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1AFED0",
@@ -18222,11 +18376,12 @@
   "addr": "1AFED8",
   "kind": "msg",
   "jp": "・・・！！　それじゃあ、[BR]「５人から生命をもらった」って[BR]言うのは・・・[WAIT]",
-  "en": "",
+  "en": "…!! Then when you said \"the five of[BR]them gave me their lives\"…[WAIT]",
   "bytes": 76,
   "sites": [
    "1AF6FD:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1AFF24",
@@ -18245,11 +18400,12 @@
   "addr": "1AFF2C",
   "kind": "msg",
   "jp": "そうだよ[BR]生命をすくわれたって意味だけじゃない[PAGE]・・・本当に生命そのものを[BR]もらったんだ・・・[WAIT]",
-  "en": "",
+  "en": "That's right. It doesn't just mean[BR]they saved my life.[PAGE]…They really gave me their very lives…[WAIT]",
   "bytes": 98,
   "sites": [
    "1AF713:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1AFF8E",
@@ -18268,10 +18424,11 @@
   "addr": "1AFF96",
   "kind": "msg",
   "jp": "あの時・・・[PAGE]ゼノンたち５人は、[BR]５つの才牙（サイガ）に自分たちの[BR]生命力をこめてオレにあたえてくれた[PAGE]だから、おれの中には[BR]いつもみんながいる・・・！！[WAIT]",
-  "en": "",
+  "en": "Back then…[PAGE]Zenon and the other four put their[BR]life force into five Saiga and gave[BR]them to me.[PAGE]So they're always here inside me, all[BR]of 'em…!![WAIT]",
   "bytes": 158,
   "sites": [
    "1AF729:op7A+2"
-  ]
+  ],
+  "status": "done"
  }
 ]

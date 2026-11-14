@@ -30,7 +30,7 @@
   "addr": "190022",
   "kind": "msg",
   "jp": "・・・中央に・・・何かあるな・・・[WAIT]",
-  "en": "",
+  "en": "…There's… something in the middle…[WAIT]",
   "bytes": 38,
   "sites": [
    "18F76D:op7A+2",
@@ -48,7 +48,8 @@
    "18F76D:op7A+2",
    "18F76D:op7A+2",
    "18F76D:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:190048",
@@ -81,7 +82,7 @@
   "addr": "190050",
   "kind": "msg",
   "jp": "なんだろう・・・これ・・・？[WAIT]",
-  "en": "",
+  "en": "What's this… thing…?[WAIT]",
   "bytes": 32,
   "sites": [
    "18F799:op7A+2",
@@ -99,7 +100,8 @@
    "18F799:op7A+2",
    "18F799:op7A+2",
    "18F799:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:190070",
@@ -132,7 +134,7 @@
   "addr": "190078",
   "kind": "msg",
   "jp": "うおっ！[WAIT]",
-  "en": "",
+  "en": "Whoa![WAIT]",
   "bytes": 12,
   "sites": [
    "18F7AF:op7A+2",
@@ -150,7 +152,8 @@
    "18F7AF:op7A+2",
    "18F7AF:op7A+2",
    "18F7AF:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:190084",
@@ -183,7 +186,7 @@
   "addr": "19008C",
   "kind": "msg",
   "jp": "光ったっ！！[WAIT]",
-  "en": "",
+  "en": "It's glowing!![WAIT]",
   "bytes": 16,
   "sites": [
    "18F7C5:op7A+2",
@@ -201,7 +204,8 @@
    "18F7C5:op7A+2",
    "18F7C5:op7A+2",
    "18F7C5:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:19009C",
@@ -285,7 +289,7 @@
   "addr": "1900BC",
   "kind": "msg",
   "jp": "・・・なんじ・・・[BR]封印（ふういん）されし門を開き・・・[BR]かの地へと旅立たんとのぞむ者か？[WAIT]",
-  "en": "",
+  "en": "…You… Are you one who would open the[BR]sealed gate… and set out for that[BR]land?[WAIT]",
   "bytes": 94,
   "sites": [
    "18F7E8:op52+5",
@@ -303,7 +307,8 @@
    "18F7E8:op52+5",
    "18F7E8:op52+5",
    "18F7E8:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:19011A",
@@ -336,7 +341,7 @@
   "addr": "190122",
   "kind": "msg",
   "jp": "なにっ！？[WAIT]",
-  "en": "",
+  "en": "What?![WAIT]",
   "bytes": 14,
   "sites": [
    "18F7FC:op7A+2",
@@ -354,7 +359,8 @@
    "18F7FC:op7A+2",
    "18F7FC:op7A+2",
    "18F7FC:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:190130",
@@ -387,7 +393,7 @@
   "addr": "19013A",
   "kind": "msg",
   "jp": "なっ、なんなのこれぇっ！！[WAIT]",
-  "en": "",
+  "en": "Wh-what IS this?!![WAIT]",
   "bytes": 30,
   "sites": [
    "18F81B:op7A+2",
@@ -405,7 +411,8 @@
    "18F81B:op7A+2",
    "18F81B:op7A+2",
    "18F81B:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:190158",
@@ -439,7 +446,7 @@
   "addr": "190160",
   "kind": "msg",
   "jp": "声が・・・なんだろう・・・頭の中に！[WAIT]",
-  "en": "",
+  "en": "A voice… What is this… It's inside my[BR]head![WAIT]",
   "bytes": 40,
   "sites": [
    "18F831:op7A+2",
@@ -458,7 +465,8 @@
    "18F831:op7A+2",
    "18F831:op7A+2",
    "18F831:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:190188",
@@ -492,7 +500,7 @@
   "addr": "190192",
   "kind": "msg",
   "jp": "・・・・・・くっ[WAIT]",
-  "en": "",
+  "en": "……Ngh.[WAIT]",
   "bytes": 20,
   "sites": [
    "18F850:op7A+2",
@@ -511,7 +519,8 @@
    "18F850:op7A+2",
    "18F850:op7A+2",
    "18F850:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1901A6",
@@ -546,7 +555,7 @@
   "addr": "1901AE",
   "kind": "msg",
   "jp": "・・・おっ・・・おまえは何者だっ！！[WAIT]",
-  "en": "",
+  "en": "…Wh-who are you?!![WAIT]",
   "bytes": 40,
   "sites": [
    "18F866:op7A+2",
@@ -566,7 +575,8 @@
    "18F866:op7A+2",
    "18F866:op7A+2",
    "18F866:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1901D6",
@@ -601,7 +611,7 @@
   "addr": "1901DE",
   "kind": "msg",
   "jp": "ここは・・・古代よりふうじられし[BR]かの地へといたる道しるべ・・・[PAGE]さぁ・・・なんじがもし[BR]かの地へと旅立たんとのぞむ者ならば[BR]・・・この世にはびこりし[PAGE]力ある１０の魔（ま）をやぶり・・・[BR]杯（さかずき）にその証（あかし）を[BR]みたすがよい・・・！[WAIT]",
-  "en": "",
+  "en": "This place… is a signpost on the road[BR]to that land, sealed away since[BR]ancient times…[PAGE]Now… if you are one who would set out[BR]for that land…[PAGE]defeat the ten mighty evils that[BR]infest this world… and fill the[BR]chalices with the proof…![WAIT]",
   "bytes": 248,
   "sites": [
    "18F873:op52+5",
@@ -621,7 +631,8 @@
    "18F873:op52+5",
    "18F873:op52+5",
    "18F873:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1902D6",
@@ -656,7 +667,7 @@
   "addr": "1902DE",
   "kind": "msg",
   "jp": "・・・かの地・・・道しるべ・・・？[BR]いったいなんだよそりゃあっ！！[WAIT]",
-  "en": "",
+  "en": "…That land… a signpost…? What the[BR]heck's that supposed to mean?!![WAIT]",
   "bytes": 70,
   "sites": [
    "18F887:op7A+2",
@@ -676,7 +687,8 @@
    "18F887:op7A+2",
    "18F887:op7A+2",
    "18F887:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:190324",
@@ -711,7 +723,7 @@
   "addr": "19032C",
   "kind": "msg",
   "jp": "力ある１０の魔（ま）をやぶり・・・[BR]杯（さかずき）にその証（あかし）を[BR]みたすがよい・・・！[WAIT]",
-  "en": "",
+  "en": "Defeat the ten mighty evils… and fill[BR]the chalices with the proof…![WAIT]",
   "bytes": 96,
   "sites": [
    "18F894:op52+5",
@@ -731,7 +743,8 @@
    "18F894:op52+5",
    "18F894:op52+5",
    "18F894:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:19038C",
@@ -766,7 +779,7 @@
   "addr": "190394",
   "kind": "msg",
   "jp": "はぁっ・・・はぁっ・・・・・・・[WAIT]",
-  "en": "",
+  "en": "Huff… huff…….[WAIT]",
   "bytes": 36,
   "sites": [
    "18F8A8:op7A+2",
@@ -786,7 +799,8 @@
    "18F8A8:op7A+2",
    "18F8A8:op7A+2",
    "18F8A8:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1903B8",
@@ -821,7 +835,7 @@
   "addr": "1903C0",
   "kind": "msg",
   "jp": "な・・・なんだったの・・・[BR]いまの・・・！[WAIT]",
-  "en": "",
+  "en": "Wh… what was that… just now…![WAIT]",
   "bytes": 46,
   "sites": [
    "18F8BE:op7A+2",
@@ -841,7 +855,8 @@
    "18F8BE:op7A+2",
    "18F8BE:op7A+2",
    "18F8BE:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1903EE",
@@ -876,7 +891,7 @@
   "addr": "1903F8",
   "kind": "msg",
   "jp": "頭の中に直に聞こえるような・・・[BR]そんな声だったわ・・・[WAIT]",
-  "en": "",
+  "en": "It was a voice that… sounded like it[BR]was right inside my head…[WAIT]",
   "bytes": 60,
   "sites": [
    "18F8DD:op7A+2",
@@ -896,7 +911,8 @@
    "18F8DD:op7A+2",
    "18F8DD:op7A+2",
    "18F8DD:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:190434",
@@ -932,7 +948,7 @@
   "addr": "19043C",
   "kind": "msg",
   "jp": "古代人・・・の遺産（いさん）・・・[BR]かもしれないね・・・これ・・・[WAIT]",
-  "en": "",
+  "en": "This might be… something the ancients[BR]left behind…[WAIT]",
   "bytes": 70,
   "sites": [
    "18F8F3:op7A+2",
@@ -953,7 +969,8 @@
    "18F8F3:op7A+2",
    "18F8F3:op7A+2",
    "18F8F3:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:190482",
@@ -989,7 +1006,7 @@
   "addr": "19048C",
   "kind": "msg",
   "jp": "・・・そう・・・だろうな・・・[BR]これだけ大がかりとは・・・[WAIT]",
-  "en": "",
+  "en": "…Probably… so… Something on this[BR]scale…[WAIT]",
   "bytes": 62,
   "sites": [
    "18F912:op7A+2",
@@ -1010,7 +1027,8 @@
    "18F912:op7A+2",
    "18F912:op7A+2",
    "18F912:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1904CA",
@@ -1047,7 +1065,7 @@
   "addr": "1904D2",
   "kind": "msg",
   "jp": "でもあの声・・・[BR]何か言っていたわよね？[PAGE]・・・かの地へと旅立たんと[BR]のぞむ者ならば、[PAGE]１０の魔（ま）をやぶり・・・[BR]なんとかって・・・[WAIT]",
-  "en": "",
+  "en": "But that voice… it said something,[BR]didn't it?[PAGE]…If you are one who would set out for[BR]that land,[PAGE]defeat the ten evils… and something…[WAIT]",
   "bytes": 140,
   "sites": [
    "18F928:op7A+2",
@@ -1069,7 +1087,8 @@
    "18F928:op7A+2",
    "18F928:op7A+2",
    "18F928:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:19055E",
@@ -1106,7 +1125,7 @@
   "addr": "190568",
   "kind": "msg",
   "jp": "えっ・ええ・・・言っていたわね・・・[WAIT]",
-  "en": "",
+  "en": "Y-yeah… it did say that…[WAIT]",
   "bytes": 40,
   "sites": [
    "18F947:op7A+2",
@@ -1128,7 +1147,8 @@
    "18F947:op7A+2",
    "18F947:op7A+2",
    "18F947:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:190590",
@@ -1166,7 +1186,7 @@
   "addr": "190598",
   "kind": "msg",
   "jp": "・・・・・・[PAGE]「なんじがもし、[BR]かの地へと旅立たんとのぞむ者ならば、[BR]この世にはびこりし[PAGE]力ある１０の魔（ま）をやぶり・・・[BR]杯（さかずき）にその証（あかし）を[BR]みたすがよい・・・！」[WAIT]",
-  "en": "",
+  "en": "……[PAGE]\"If you are one who would set out for[BR]that land… defeat the ten mighty evils[BR]that infest this world…[PAGE]and fill the chalices with the[BR]proof…!\"[WAIT]",
   "bytes": 188,
   "sites": [
    "18F95D:op7A+2",
@@ -1189,7 +1209,8 @@
    "18F95D:op7A+2",
    "18F95D:op7A+2",
    "18F95D:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:190654",
@@ -1227,7 +1248,7 @@
   "addr": "19065C",
   "kind": "msg",
   "jp": "そうそう！[BR]それだよキッス！！[WAIT]",
-  "en": "",
+  "en": "Yeah, yeah! That's it, Kissu!![WAIT]",
   "bytes": 34,
   "sites": [
    "18F973:op7A+2",
@@ -1250,7 +1271,8 @@
    "18F973:op7A+2",
    "18F973:op7A+2",
    "18F973:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:19067E",
@@ -1288,7 +1310,7 @@
   "addr": "190686",
   "kind": "msg",
   "jp": "いったいどういうことかしら・・・[WAIT]",
-  "en": "",
+  "en": "What could it mean, I wonder…[WAIT]",
   "bytes": 36,
   "sites": [
    "18F989:op7A+2",
@@ -1311,7 +1333,8 @@
    "18F989:op7A+2",
    "18F989:op7A+2",
    "18F989:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1906AA",
@@ -1349,7 +1372,7 @@
   "addr": "1906B2",
   "kind": "msg",
   "jp": "・・・杯（さかずき）っていうのは、[BR]この台座（だいざ）に乗ってる・・・[BR]１０個のグラスの事だと思う・・・[WAIT]",
-  "en": "",
+  "en": "…I think the \"chalices\" are… these ten[BR]glasses sitting on this pedestal…[WAIT]",
   "bytes": 108,
   "sites": [
    "18F99F:op7A+2",
@@ -1372,7 +1395,8 @@
    "18F99F:op7A+2",
    "18F99F:op7A+2",
    "18F99F:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:19071E",
@@ -1410,7 +1434,7 @@
   "addr": "190726",
   "kind": "msg",
   "jp": "・・・これ・・・か？[WAIT]",
-  "en": "",
+  "en": "…These… things?[WAIT]",
   "bytes": 24,
   "sites": [
    "18F9B5:op7A+2",
@@ -1433,7 +1457,8 @@
    "18F9B5:op7A+2",
    "18F9B5:op7A+2",
    "18F9B5:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:19073E",
@@ -1471,7 +1496,7 @@
   "addr": "190746",
   "kind": "msg",
   "jp": "うわっ！！[WAIT]",
-  "en": "",
+  "en": "Whoa!![WAIT]",
   "bytes": 14,
   "sites": [
    "18F9DD:op7A+2",
@@ -1494,7 +1519,8 @@
    "18F9DD:op7A+2",
    "18F9DD:op7A+2",
    "18F9DD:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:190754",
@@ -1532,7 +1558,7 @@
   "addr": "19075C",
   "kind": "msg",
   "jp": "これは・・・ひょっとすると・・・[WAIT]",
-  "en": "",
+  "en": "This might… just be…[WAIT]",
   "bytes": 36,
   "sites": [
    "18F9F3:op7A+2",
@@ -1555,7 +1581,8 @@
    "18F9F3:op7A+2",
    "18F9F3:op7A+2",
    "18F9F3:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:190780",
@@ -1593,7 +1620,7 @@
   "addr": "190788",
   "kind": "msg",
   "jp": "・・・・・・・[BR]ビィト、その杯（さかずき）を[BR]もどしてみてよ[WAIT]",
-  "en": "",
+  "en": "……. Beet, try putting that chalice[BR]back.[WAIT]",
   "bytes": 64,
   "sites": [
    "18FA15:op7A+2",
@@ -1616,7 +1643,8 @@
    "18FA15:op7A+2",
    "18FA15:op7A+2",
    "18FA15:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1907C8",
@@ -1654,7 +1682,7 @@
   "addr": "1907D0",
   "kind": "msg",
   "jp": "お・・・おうっ・・・！[WAIT]",
-  "en": "",
+  "en": "O… okay…![WAIT]",
   "bytes": 26,
   "sites": [
    "18FA2B:op7A+2",
@@ -1677,7 +1705,8 @@
    "18FA2B:op7A+2",
    "18FA2B:op7A+2",
    "18FA2B:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1907EA",
@@ -1715,7 +1744,7 @@
   "addr": "1907F2",
   "kind": "msg",
   "jp": "光が消えた・・・[WAIT]",
-  "en": "",
+  "en": "The light went out…[WAIT]",
   "bytes": 20,
   "sites": [
    "18FA41:op7A+2",
@@ -1738,7 +1767,8 @@
    "18FA41:op7A+2",
    "18FA41:op7A+2",
    "18FA41:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:190806",
@@ -1837,7 +1867,7 @@
   "addr": "190826",
   "kind": "msg",
   "jp": "・・・なるほどね・・・[WAIT]",
-  "en": "",
+  "en": "…I see…[WAIT]",
   "bytes": 26,
   "sites": [
    "18FA6D:op7A+2",
@@ -1860,7 +1890,8 @@
    "18FA6D:op7A+2",
    "18FA6D:op7A+2",
    "18FA6D:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:190840",
@@ -1898,7 +1929,7 @@
   "addr": "190848",
   "kind": "msg",
   "jp": "お、おいおい・・・キッス、[BR]なに一人でなっとくしてるんだよぉっ！？[WAIT]",
-  "en": "",
+  "en": "H-hey, come on… Kissu, what're you[BR]nodding to yourself about?![WAIT]",
   "bytes": 70,
   "sites": [
    "18FA83:op7A+2",
@@ -1921,7 +1952,8 @@
    "18FA83:op7A+2",
    "18FA83:op7A+2",
    "18FA83:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:19088E",
@@ -1959,7 +1991,7 @@
   "addr": "190896",
   "kind": "msg",
   "jp": "ビィト・・・[BR]どうやらこの杯（さかずき）は、[BR]１つずつしか持てないみたいだよ[PAGE]・・・それにくわえて、[BR]あの声の言っていたこと・・・[PAGE]この杯（さかずき）をみたす方法を[BR]言っていたよね・・・？[WAIT]",
-  "en": "",
+  "en": "Beet… it looks like you can only hold[BR]these chalices one at a time.[PAGE]…And on top of that, what that voice[BR]said…[PAGE]It told us how to fill the chalices…[BR]remember?[WAIT]",
   "bytes": 192,
   "sites": [
    "18FA99:op7A+2",
@@ -1982,7 +2014,8 @@
    "18FA99:op7A+2",
    "18FA99:op7A+2",
    "18FA99:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:190956",
@@ -2020,7 +2053,7 @@
   "addr": "19095E",
   "kind": "msg",
   "jp": "ん？　ああ・・・[BR]１０の魔（ま）をなんとかってやつか？[WAIT]",
-  "en": "",
+  "en": "Hm? Oh, yeah… That whole \"ten evils\"[BR]thing?[WAIT]",
   "bytes": 58,
   "sites": [
    "18FAAF:op7A+2",
@@ -2043,7 +2076,8 @@
    "18FAAF:op7A+2",
    "18FAAF:op7A+2",
    "18FAAF:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:190998",
@@ -2081,7 +2115,7 @@
   "addr": "1909A2",
   "kind": "msg",
   "jp": "１０の魔（ま）・・・[WAIT]",
-  "en": "",
+  "en": "The ten evils…[WAIT]",
   "bytes": 24,
   "sites": [
    "18FACE:op7A+2",
@@ -2104,7 +2138,8 @@
    "18FACE:op7A+2",
    "18FACE:op7A+2",
    "18FACE:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1909BA",
@@ -2143,7 +2178,7 @@
   "addr": "1909C2",
   "kind": "msg",
   "jp": "あっ！[BR]それって・・・もしかして・・！[WAIT]",
-  "en": "",
+  "en": "Oh! You mean… could it be…![WAIT]",
   "bytes": 42,
   "sites": [
    "18FAE4:op7A+2",
@@ -2167,7 +2202,8 @@
    "18FAE4:op7A+2",
    "18FAE4:op7A+2",
    "18FAE4:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1909EC",
@@ -2206,7 +2242,7 @@
   "addr": "1909F4",
   "kind": "msg",
   "jp": "１０の魔って・・・[PAGE]おそらく[BR]「モンスターの属性（ぞくせい）」を[BR]表しているのだと思うんだ・・・[WAIT]",
-  "en": "",
+  "en": "The ten evils…[PAGE]I think they probably stand for[BR]\"monster attributes\"…[WAIT]",
   "bytes": 100,
   "sites": [
    "18FAFA:op7A+2",
@@ -2230,7 +2266,8 @@
    "18FAFA:op7A+2",
    "18FAFA:op7A+2",
    "18FAFA:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:190A58",
@@ -2269,7 +2306,7 @@
   "addr": "190A62",
   "kind": "msg",
   "jp": "・・・なるほどね[WAIT]",
-  "en": "",
+  "en": "…I see.[WAIT]",
   "bytes": 20,
   "sites": [
    "18FB19:op7A+2",
@@ -2293,7 +2330,8 @@
    "18FB19:op7A+2",
    "18FB19:op7A+2",
    "18FB19:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:190A76",
@@ -2333,7 +2371,7 @@
   "addr": "190A7E",
   "kind": "msg",
   "jp": "・・・ってぇことは、[PAGE]杯（さかずき）をみたすには・・・[BR]この杯（さかずき）を持って[BR]モンスターをたおすのか？[WAIT]",
-  "en": "",
+  "en": "…So that means,[PAGE]to fill a chalice… we carry it with us[BR]and beat monsters?[WAIT]",
   "bytes": 112,
   "sites": [
    "18FB2F:op7A+2",
@@ -2358,7 +2396,8 @@
    "18FB2F:op7A+2",
    "18FB2F:op7A+2",
    "18FB2F:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:190AEE",
@@ -2398,7 +2437,7 @@
   "addr": "190AF6",
   "kind": "msg",
   "jp": "うん・・・そうなるだろうね・・・[PAGE]そしておそらくは・・・[PAGE]そうとう強いモンスターじゃないと[BR]だめなんじゃないかな・・・[WAIT]",
-  "en": "",
+  "en": "Yeah… I think that's how it works…[PAGE]And most likely…[PAGE]they'd have to be really strong[BR]monsters, I bet…[WAIT]",
   "bytes": 122,
   "sites": [
    "18FB45:op7A+2",
@@ -2423,7 +2462,8 @@
    "18FB45:op7A+2",
    "18FB45:op7A+2",
    "18FB45:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:190B70",
@@ -2463,7 +2503,7 @@
   "addr": "190B78",
   "kind": "msg",
   "jp": "そうね・・・[BR]わざわざ「力ある」、とかって[BR]言ってるもんね・・・[WAIT]",
-  "en": "",
+  "en": "Right… It did go out of its way to say[BR]\"mighty\"…[WAIT]",
   "bytes": 68,
   "sites": [
    "18FB5B:op7A+2",
@@ -2488,7 +2528,8 @@
    "18FB5B:op7A+2",
    "18FB5B:op7A+2",
    "18FB5B:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:190BBC",
@@ -2528,7 +2569,7 @@
   "addr": "190BC4",
   "kind": "msg",
   "jp": "・・・どうするビィト？[BR]なんか・・・[BR]あぶなそうな気もするけど・・・[WAIT]",
-  "en": "",
+  "en": "…What do we do, Beet? I kind of… get[BR]the feeling this could be dangerous…[WAIT]",
   "bytes": 72,
   "sites": [
    "18FB71:op7A+2",
@@ -2553,7 +2594,8 @@
    "18FB71:op7A+2",
    "18FB71:op7A+2",
    "18FB71:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:190C0C",
@@ -2593,7 +2635,7 @@
   "addr": "190C14",
   "kind": "msg",
   "jp": "なぁに言ってんの！[BR]ここまで来てひけるわけ[BR]ないじゃない！！[WAIT]",
-  "en": "",
+  "en": "What are you talking about?! We can't[BR]back out after coming all this way!![WAIT]",
   "bytes": 64,
   "sites": [
    "18FB87:op7A+2",
@@ -2618,7 +2660,8 @@
    "18FB87:op7A+2",
    "18FB87:op7A+2",
    "18FB87:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:190C54",
@@ -2658,7 +2701,7 @@
   "addr": "190C5C",
   "kind": "msg",
   "jp": "そうだな・・・[BR]なにが起こるかわからないけど・・・[BR]こんなモンのこしてるんだ・・・[PAGE]この先に何があるのか・・・[BR]オレたちで見てやろうぜっ！！[WAIT]",
-  "en": "",
+  "en": "Yeah… No telling what'll happen… but[BR]somebody left a thing like this here…[PAGE]Let's go see what's waiting up ahead…[BR]with our own eyes!![WAIT]",
   "bytes": 144,
   "sites": [
    "18FB9D:op7A+2",
@@ -2683,7 +2726,8 @@
    "18FB9D:op7A+2",
    "18FB9D:op7A+2",
    "18FB9D:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:190CEC",
@@ -2723,7 +2767,7 @@
   "addr": "190CF6",
   "kind": "msg",
   "jp": "ふふっ！[BR]じゃあ、おつきあいしますかっ！[WAIT]",
-  "en": "",
+  "en": "Hee hee! Then I guess I'll tag along![WAIT]",
   "bytes": 44,
   "sites": [
    "18FBBC:op7A+2",
@@ -2748,7 +2792,8 @@
    "18FBBC:op7A+2",
    "18FBBC:op7A+2",
    "18FBBC:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:190D22",
@@ -2789,7 +2834,7 @@
   "addr": "190D2C",
   "kind": "msg",
   "jp": "・・・うむ、いくか[WAIT]",
-  "en": "",
+  "en": "…Mm. Let's go.[WAIT]",
   "bytes": 22,
   "sites": [
    "18FBDB:op7A+2",
@@ -2815,96 +2860,105 @@
    "18FBDB:op7A+2",
    "18FBDB:op7A+2",
    "18FBDB:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:192070",
   "addr": "192070",
   "kind": "msg",
   "jp": "古代文字で[BR]「樹（じゅ）」とえがかれている[BR]杯（さかずき）だ[WAIT]",
-  "en": "",
+  "en": "It's a chalice with \"Tree\" drawn on it[BR]in ancient script.[WAIT]",
   "bytes": 64,
   "sites": [
    "190D52:op3B+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1920B0",
   "addr": "1920B0",
   "kind": "msg",
   "jp": "古代文字で[BR]「絶（ぜつ）」とえがかれている[BR]杯（さかずき）だ[WAIT]",
-  "en": "",
+  "en": "It's a chalice with \"Peril\" drawn on[BR]it in ancient script.[WAIT]",
   "bytes": 64,
   "sites": [
    "190EBB:op3B+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1920F0",
   "addr": "1920F0",
   "kind": "msg",
   "jp": "絶の杯（ぜつさかずき）を[BR]持っていきますか？[WAIT]",
-  "en": "",
+  "en": "Take the Peril Chalice?[WAIT]",
   "bytes": 48,
   "sites": [
    "191024:op3B+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:192120",
   "addr": "192120",
   "kind": "choice",
   "jp": "持っていく",
-  "en": "",
+  "en": "Take it",
   "bytes": 12,
   "sites": [
    "19102A:op1D+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:19212C",
   "addr": "19212C",
   "kind": "choice",
   "jp": "やめておく",
-  "en": "",
+  "en": "Leave it",
   "bytes": 12,
   "sites": [
    "19102E:op1D+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:192138",
   "addr": "192138",
   "kind": "banner",
   "jp": "？？？？",
-  "en": "",
+  "en": "????",
   "bytes": 10,
   "sites": [
    "191041:op6F+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:192142",
   "addr": "192142",
   "kind": "msg",
   "jp": "絶の杯（ぜつのさかずき）を[BR]手に入れた[WAIT]",
-  "en": "",
+  "en": "You got the Peril Chalice.[WAIT]",
   "bytes": 42,
   "sites": [
    "191047:op3B+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:19216C",
   "addr": "19216C",
   "kind": "msg",
   "jp": "杯（さかずき）をあきらめた[WAIT]",
-  "en": "",
+  "en": "You left the chalice.[WAIT]",
   "bytes": 30,
   "sites": [
    "191061:op3B+1",
    "191061:op3B+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:19218A",
@@ -2923,78 +2977,85 @@
   "addr": "192192",
   "kind": "msg",
   "jp": "お・・・[BR]絶の杯（ぜつのさかずき）が・・・っ！[WAIT]",
-  "en": "",
+  "en": "Oh… the Peril Chalice is…![WAIT]",
   "bytes": 50,
   "sites": [
    "19107B:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1921C4",
   "addr": "1921C4",
   "kind": "msg",
   "jp": "樹の杯（じゅのさかずき）を[BR]持っていきますか？[WAIT]",
-  "en": "",
+  "en": "Take the Tree Chalice?[WAIT]",
   "bytes": 50,
   "sites": [
    "19108A:op3B+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1921F6",
   "addr": "1921F6",
   "kind": "choice",
   "jp": "持っていく",
-  "en": "",
+  "en": "Take it",
   "bytes": 12,
   "sites": [
    "191090:op1D+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:192202",
   "addr": "192202",
   "kind": "choice",
   "jp": "やめておく",
-  "en": "",
+  "en": "Leave it",
   "bytes": 12,
   "sites": [
    "191094:op1D+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:19220E",
   "addr": "19220E",
   "kind": "banner",
   "jp": "？？？？",
-  "en": "",
+  "en": "????",
   "bytes": 10,
   "sites": [
    "1910A7:op6F+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:192218",
   "addr": "192218",
   "kind": "msg",
   "jp": "樹の杯（じゅのさかずき）を[BR]手に入れた[WAIT]",
-  "en": "",
+  "en": "You got the Tree Chalice.[WAIT]",
   "bytes": 42,
   "sites": [
    "1910AD:op3B+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:192242",
   "addr": "192242",
   "kind": "msg",
   "jp": "杯（さかずき）をあきらめた[WAIT]",
-  "en": "",
+  "en": "You left the chalice.[WAIT]",
   "bytes": 30,
   "sites": [
    "1910C7:op3B+1",
    "1910C7:op3B+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:192260",
@@ -3013,89 +3074,97 @@
   "addr": "192268",
   "kind": "msg",
   "jp": "お・・・[BR]樹の杯（じゅのさかずき）が・・・っ！[WAIT]",
-  "en": "",
+  "en": "Oh… the Tree Chalice is…![WAIT]",
   "bytes": 50,
   "sites": [
    "1910E1:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:19229A",
   "addr": "19229A",
   "kind": "msg",
   "jp": "古代文字で[BR]「沼（ぬま）」とえがかれている[BR]杯（さかずき）だ[WAIT]",
-  "en": "",
+  "en": "It's a chalice with \"Swamp\" drawn on[BR]it in ancient script.[WAIT]",
   "bytes": 64,
   "sites": [
    "1910F0:op3B+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1922DA",
   "addr": "1922DA",
   "kind": "msg",
   "jp": "沼の杯（ぬまのさかずき）を[BR]持っていきますか？[WAIT]",
-  "en": "",
+  "en": "Take the Swamp Chalice?[WAIT]",
   "bytes": 50,
   "sites": [
    "191259:op3B+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:19230C",
   "addr": "19230C",
   "kind": "choice",
   "jp": "持っていく",
-  "en": "",
+  "en": "Take it",
   "bytes": 12,
   "sites": [
    "19125F:op1D+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:192318",
   "addr": "192318",
   "kind": "choice",
   "jp": "やめておく",
-  "en": "",
+  "en": "Leave it",
   "bytes": 12,
   "sites": [
    "191263:op1D+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:192324",
   "addr": "192324",
   "kind": "banner",
   "jp": "？？？？",
-  "en": "",
+  "en": "????",
   "bytes": 10,
   "sites": [
    "191276:op6F+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:19232E",
   "addr": "19232E",
   "kind": "msg",
   "jp": "沼の杯（ぬまのさかずき）を[BR]手に入れた[WAIT]",
-  "en": "",
+  "en": "You got the Swamp Chalice.[WAIT]",
   "bytes": 42,
   "sites": [
    "19127C:op3B+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:192358",
   "addr": "192358",
   "kind": "msg",
   "jp": "杯（さかずき）をあきらめた[WAIT]",
-  "en": "",
+  "en": "You left the chalice.[WAIT]",
   "bytes": 30,
   "sites": [
    "191296:op3B+1",
    "191296:op3B+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:192376",
@@ -3114,89 +3183,97 @@
   "addr": "19237E",
   "kind": "msg",
   "jp": "お・・・[BR]沼の杯（ぬまのさかずき）が・・・っ！[WAIT]",
-  "en": "",
+  "en": "Oh… the Swamp Chalice is…![WAIT]",
   "bytes": 50,
   "sites": [
    "1912B0:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1923B0",
   "addr": "1923B0",
   "kind": "msg",
   "jp": "古代文字で[BR]「窟（くつ）」とえがかれている[BR]杯（さかずき）だ[WAIT]",
-  "en": "",
+  "en": "It's a chalice with \"Cave\" drawn on it[BR]in ancient script.[WAIT]",
   "bytes": 64,
   "sites": [
    "1912BF:op3B+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1923F0",
   "addr": "1923F0",
   "kind": "msg",
   "jp": "窟の杯（くつさかずき）を[BR]持っていきますか？[WAIT]",
-  "en": "",
+  "en": "Take the Cave Chalice?[WAIT]",
   "bytes": 48,
   "sites": [
    "191428:op3B+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:192420",
   "addr": "192420",
   "kind": "choice",
   "jp": "持っていく",
-  "en": "",
+  "en": "Take it",
   "bytes": 12,
   "sites": [
    "19142E:op1D+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:19242C",
   "addr": "19242C",
   "kind": "choice",
   "jp": "やめておく",
-  "en": "",
+  "en": "Leave it",
   "bytes": 12,
   "sites": [
    "191432:op1D+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:192438",
   "addr": "192438",
   "kind": "banner",
   "jp": "？？？？",
-  "en": "",
+  "en": "????",
   "bytes": 10,
   "sites": [
    "191445:op6F+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:192442",
   "addr": "192442",
   "kind": "msg",
   "jp": "窟の杯（くつのさかずき）を[BR]手に入れた[WAIT]",
-  "en": "",
+  "en": "You got the Cave Chalice.[WAIT]",
   "bytes": 42,
   "sites": [
    "19144B:op3B+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:19246C",
   "addr": "19246C",
   "kind": "msg",
   "jp": "杯（さかずき）をあきらめた[WAIT]",
-  "en": "",
+  "en": "You left the chalice.[WAIT]",
   "bytes": 30,
   "sites": [
    "191465:op3B+1",
    "191465:op3B+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:19248A",
@@ -3215,89 +3292,97 @@
   "addr": "192492",
   "kind": "msg",
   "jp": "お・・・[BR]窟の杯（くつのさかずき）が・・・っ！[WAIT]",
-  "en": "",
+  "en": "Oh… the Cave Chalice is…![WAIT]",
   "bytes": 50,
   "sites": [
    "19147F:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1924C4",
   "addr": "1924C4",
   "kind": "msg",
   "jp": "古代文字で[BR]「渦（うず）」とえがかれている[BR]杯（さかずき）だ[WAIT]",
-  "en": "",
+  "en": "It's a chalice with \"Whirlpool\" drawn[BR]on it in ancient script.[WAIT]",
   "bytes": 64,
   "sites": [
    "19148E:op3B+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:192504",
   "addr": "192504",
   "kind": "msg",
   "jp": "渦の杯（うずのさかずき）を[BR]持っていきますか？[WAIT]",
-  "en": "",
+  "en": "Take the Whirlpool Chalice?[WAIT]",
   "bytes": 50,
   "sites": [
    "1915F7:op3B+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:192536",
   "addr": "192536",
   "kind": "choice",
   "jp": "持っていく",
-  "en": "",
+  "en": "Take it",
   "bytes": 12,
   "sites": [
    "1915FD:op1D+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:192542",
   "addr": "192542",
   "kind": "choice",
   "jp": "やめておく",
-  "en": "",
+  "en": "Leave it",
   "bytes": 12,
   "sites": [
    "191601:op1D+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:19254E",
   "addr": "19254E",
   "kind": "banner",
   "jp": "？？？？",
-  "en": "",
+  "en": "????",
   "bytes": 10,
   "sites": [
    "191614:op6F+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:192558",
   "addr": "192558",
   "kind": "msg",
   "jp": "渦の杯（うずのさかずき）を[BR]手に入れた[WAIT]",
-  "en": "",
+  "en": "You got the Whirlpool Chalice.[WAIT]",
   "bytes": 42,
   "sites": [
    "19161A:op3B+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:192582",
   "addr": "192582",
   "kind": "msg",
   "jp": "杯（さかずき）をあきらめた[WAIT]",
-  "en": "",
+  "en": "You left the chalice.[WAIT]",
   "bytes": 30,
   "sites": [
    "191634:op3B+1",
    "191634:op3B+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1925A0",
@@ -3316,89 +3401,97 @@
   "addr": "1925A8",
   "kind": "msg",
   "jp": "お・・・[BR]渦の杯（うずのさかずき）が・・・っ！[WAIT]",
-  "en": "",
+  "en": "Oh… the Whirlpool Chalice is…![WAIT]",
   "bytes": 50,
   "sites": [
    "19164E:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1925DA",
   "addr": "1925DA",
   "kind": "msg",
   "jp": "古代文字で[BR]「砂（すな）」とえがかれている[BR]杯（さかずき）だ[WAIT]",
-  "en": "",
+  "en": "It's a chalice with \"Sand\" drawn on it[BR]in ancient script.[WAIT]",
   "bytes": 64,
   "sites": [
    "19165D:op3B+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:19261A",
   "addr": "19261A",
   "kind": "msg",
   "jp": "砂の杯（すなのさかずき）を[BR]持っていきますか？[WAIT]",
-  "en": "",
+  "en": "Take the Sand Chalice?[WAIT]",
   "bytes": 50,
   "sites": [
    "1917C6:op3B+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:19264C",
   "addr": "19264C",
   "kind": "choice",
   "jp": "持っていく",
-  "en": "",
+  "en": "Take it",
   "bytes": 12,
   "sites": [
    "1917CC:op1D+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:192658",
   "addr": "192658",
   "kind": "choice",
   "jp": "やめておく",
-  "en": "",
+  "en": "Leave it",
   "bytes": 12,
   "sites": [
    "1917D0:op1D+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:192664",
   "addr": "192664",
   "kind": "banner",
   "jp": "？？？？",
-  "en": "",
+  "en": "????",
   "bytes": 10,
   "sites": [
    "1917E3:op6F+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:19266E",
   "addr": "19266E",
   "kind": "msg",
   "jp": "砂の杯（すなのさかずき）を[BR]手に入れた[WAIT]",
-  "en": "",
+  "en": "You got the Sand Chalice.[WAIT]",
   "bytes": 42,
   "sites": [
    "1917E9:op3B+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:192698",
   "addr": "192698",
   "kind": "msg",
   "jp": "杯（さかずき）をあきらめた[WAIT]",
-  "en": "",
+  "en": "You left the chalice.[WAIT]",
   "bytes": 30,
   "sites": [
    "191803:op3B+1",
    "191803:op3B+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1926B6",
@@ -3417,89 +3510,97 @@
   "addr": "1926BE",
   "kind": "msg",
   "jp": "お・・・[BR]砂の杯（すなのさかずき）が・・・っ！[WAIT]",
-  "en": "",
+  "en": "Oh… the Sand Chalice is…![WAIT]",
   "bytes": 50,
   "sites": [
    "19181D:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1926F0",
   "addr": "1926F0",
   "kind": "msg",
   "jp": "古代文字で[BR]「地（ち）」とえがかれている[BR]杯（さかずき）だ[WAIT]",
-  "en": "",
+  "en": "It's a chalice with \"Earth\" drawn on[BR]it in ancient script.[WAIT]",
   "bytes": 62,
   "sites": [
    "19182C:op3B+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:19272E",
   "addr": "19272E",
   "kind": "msg",
   "jp": "地の杯（ちのさかずき）を[BR]持っていきますか？[WAIT]",
-  "en": "",
+  "en": "Take the Earth Chalice?[WAIT]",
   "bytes": 48,
   "sites": [
    "191995:op3B+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:19275E",
   "addr": "19275E",
   "kind": "choice",
   "jp": "持っていく",
-  "en": "",
+  "en": "Take it",
   "bytes": 12,
   "sites": [
    "19199B:op1D+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:19276A",
   "addr": "19276A",
   "kind": "choice",
   "jp": "やめておく",
-  "en": "",
+  "en": "Leave it",
   "bytes": 12,
   "sites": [
    "19199F:op1D+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:192776",
   "addr": "192776",
   "kind": "banner",
   "jp": "？？？？",
-  "en": "",
+  "en": "????",
   "bytes": 10,
   "sites": [
    "1919B2:op6F+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:192780",
   "addr": "192780",
   "kind": "msg",
   "jp": "地の杯（ちのさかずき）を[BR]手に入れた[WAIT]",
-  "en": "",
+  "en": "You got the Earth Chalice.[WAIT]",
   "bytes": 40,
   "sites": [
    "1919B8:op3B+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1927A8",
   "addr": "1927A8",
   "kind": "msg",
   "jp": "杯（さかずき）をあきらめた[WAIT]",
-  "en": "",
+  "en": "You left the chalice.[WAIT]",
   "bytes": 30,
   "sites": [
    "1919D2:op3B+1",
    "1919D2:op3B+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1927C6",
@@ -3518,89 +3619,97 @@
   "addr": "1927CE",
   "kind": "msg",
   "jp": "お・・・[BR]地の杯（ちのさかずき）が・・・っ！[WAIT]",
-  "en": "",
+  "en": "Oh… the Earth Chalice is…![WAIT]",
   "bytes": 48,
   "sites": [
    "1919EC:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1927FE",
   "addr": "1927FE",
   "kind": "msg",
   "jp": "古代文字で[BR]「鉱（こう）」とえがかれている[BR]杯（さかずき）だ[WAIT]",
-  "en": "",
+  "en": "It's a chalice with \"Ore\" drawn on it[BR]in ancient script.[WAIT]",
   "bytes": 64,
   "sites": [
    "1919FB:op3B+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:19283E",
   "addr": "19283E",
   "kind": "msg",
   "jp": "鉱の杯（こうのさかずき）を[BR]持っていきますか？[WAIT]",
-  "en": "",
+  "en": "Take the Ore Chalice?[WAIT]",
   "bytes": 50,
   "sites": [
    "191B64:op3B+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:192870",
   "addr": "192870",
   "kind": "choice",
   "jp": "持っていく",
-  "en": "",
+  "en": "Take it",
   "bytes": 12,
   "sites": [
    "191B6A:op1D+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:19287C",
   "addr": "19287C",
   "kind": "choice",
   "jp": "やめておく",
-  "en": "",
+  "en": "Leave it",
   "bytes": 12,
   "sites": [
    "191B6E:op1D+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:192888",
   "addr": "192888",
   "kind": "banner",
   "jp": "？？？？",
-  "en": "",
+  "en": "????",
   "bytes": 10,
   "sites": [
    "191B81:op6F+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:192892",
   "addr": "192892",
   "kind": "msg",
   "jp": "鉱の杯（こうのさかずき）を[BR]手に入れた[WAIT]",
-  "en": "",
+  "en": "You got the Ore Chalice.[WAIT]",
   "bytes": 42,
   "sites": [
    "191B87:op3B+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1928BC",
   "addr": "1928BC",
   "kind": "msg",
   "jp": "杯（さかずき）をあきらめた[WAIT]",
-  "en": "",
+  "en": "You left the chalice.[WAIT]",
   "bytes": 30,
   "sites": [
    "191BA1:op3B+1",
    "191BA1:op3B+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1928DA",
@@ -3619,89 +3728,97 @@
   "addr": "1928E2",
   "kind": "msg",
   "jp": "お・・・[BR]鉱の杯（こうのさかずき）が・・・っ！[WAIT]",
-  "en": "",
+  "en": "Oh… the Ore Chalice is…![WAIT]",
   "bytes": 50,
   "sites": [
    "191BBB:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:192914",
   "addr": "192914",
   "kind": "msg",
   "jp": "古代文字で[BR]「極（きょく）」とえがかれている[BR]杯（さかずき）だ[WAIT]",
-  "en": "",
+  "en": "It's a chalice with \"Polar\" drawn on[BR]it in ancient script.[WAIT]",
   "bytes": 66,
   "sites": [
    "191BCA:op3B+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:192956",
   "addr": "192956",
   "kind": "msg",
   "jp": "極の杯（きょくのさかずき）を[BR]持っていきますか？[WAIT]",
-  "en": "",
+  "en": "Take the Polar Chalice?[WAIT]",
   "bytes": 52,
   "sites": [
    "191D33:op3B+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:19298A",
   "addr": "19298A",
   "kind": "choice",
   "jp": "持っていく",
-  "en": "",
+  "en": "Take it",
   "bytes": 12,
   "sites": [
    "191D39:op1D+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:192996",
   "addr": "192996",
   "kind": "choice",
   "jp": "やめておく",
-  "en": "",
+  "en": "Leave it",
   "bytes": 12,
   "sites": [
    "191D3D:op1D+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1929A2",
   "addr": "1929A2",
   "kind": "banner",
   "jp": "？？？？",
-  "en": "",
+  "en": "????",
   "bytes": 10,
   "sites": [
    "191D50:op6F+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1929AC",
   "addr": "1929AC",
   "kind": "msg",
   "jp": "極の杯（きょくのさかずき）を[BR]手に入れた[WAIT]",
-  "en": "",
+  "en": "You got the Polar Chalice.[WAIT]",
   "bytes": 44,
   "sites": [
    "191D56:op3B+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1929D8",
   "addr": "1929D8",
   "kind": "msg",
   "jp": "杯（さかずき）をあきらめた[WAIT]",
-  "en": "",
+  "en": "You left the chalice.[WAIT]",
   "bytes": 30,
   "sites": [
    "191D70:op3B+1",
    "191D70:op3B+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1929F6",
@@ -3720,89 +3837,97 @@
   "addr": "1929FE",
   "kind": "msg",
   "jp": "お・・・[BR]極の杯（きょくのさかずき）がっ！[WAIT]",
-  "en": "",
+  "en": "Oh… the Polar Chalice is…![WAIT]",
   "bytes": 46,
   "sites": [
    "191D8A:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:192A2C",
   "addr": "192A2C",
   "kind": "msg",
   "jp": "古代文字で[BR]「骨（ほね）」とえがかれている[BR]杯（さかずき）だ[WAIT]",
-  "en": "",
+  "en": "It's a chalice with \"Bone\" drawn on it[BR]in ancient script.[WAIT]",
   "bytes": 64,
   "sites": [
    "191D99:op3B+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:192A6C",
   "addr": "192A6C",
   "kind": "msg",
   "jp": "骨の杯（ほねのさかずき）を[BR]持っていきますか？[WAIT]",
-  "en": "",
+  "en": "Take the Bone Chalice?[WAIT]",
   "bytes": 50,
   "sites": [
    "191F02:op3B+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:192A9E",
   "addr": "192A9E",
   "kind": "choice",
   "jp": "持っていく",
-  "en": "",
+  "en": "Take it",
   "bytes": 12,
   "sites": [
    "191F08:op1D+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:192AAA",
   "addr": "192AAA",
   "kind": "choice",
   "jp": "やめておく",
-  "en": "",
+  "en": "Leave it",
   "bytes": 12,
   "sites": [
    "191F0C:op1D+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:192AB6",
   "addr": "192AB6",
   "kind": "banner",
   "jp": "？？？？",
-  "en": "",
+  "en": "????",
   "bytes": 10,
   "sites": [
    "191F1F:op6F+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:192AC0",
   "addr": "192AC0",
   "kind": "msg",
   "jp": "骨の杯（ほねのさかずき）を[BR]手に入れた[WAIT]",
-  "en": "",
+  "en": "You got the Bone Chalice.[WAIT]",
   "bytes": 42,
   "sites": [
    "191F25:op3B+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:192AEA",
   "addr": "192AEA",
   "kind": "msg",
   "jp": "杯（さかずき）をあきらめた[WAIT]",
-  "en": "",
+  "en": "You left the chalice.[WAIT]",
   "bytes": 30,
   "sites": [
    "191F3F:op3B+1",
    "191F3F:op3B+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:192B08",
@@ -3821,11 +3946,12 @@
   "addr": "192B10",
   "kind": "msg",
   "jp": "お・・・[BR]骨の杯（ほねのさかずき）が・・・っ！[WAIT]",
-  "en": "",
+  "en": "Oh… the Bone Chalice is…![WAIT]",
   "bytes": 50,
   "sites": [
    "191F59:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:192B42",
@@ -3845,12 +3971,13 @@
   "addr": "192B4A",
   "kind": "msg",
   "jp": "・・・他の杯（さかずき）も[BR]みたすがよい・・・[WAIT]",
-  "en": "",
+  "en": "…Fill the other chalices as well…[WAIT]",
   "bytes": 50,
   "sites": [
    "191FC0:op52+5",
    "191FC0:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:192B7C",
@@ -3869,11 +3996,12 @@
   "addr": "192B84",
   "kind": "msg",
   "jp": "・・・みたされているね・・・！[WAIT]",
-  "en": "",
+  "en": "…It's been filled…![WAIT]",
   "bytes": 34,
   "sites": [
    "191FD5:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:192BA6",
@@ -3892,22 +4020,24 @@
   "addr": "192BAE",
   "kind": "msg",
   "jp": "よし、杯（さかずき）をおきに[PAGE]もどろうぜ！[WAIT]",
-  "en": "",
+  "en": "Alright, let's go back[PAGE]and set the chalice down![WAIT]",
   "bytes": 46,
   "sites": [
    "191FEB:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:192BDC",
   "addr": "192BDC",
   "kind": "msg",
   "jp": "すでに杯（さかずき）は[BR]みたされている[WAIT]",
-  "en": "",
+  "en": "The chalice has already been filled.[WAIT]",
   "bytes": 42,
   "sites": [
    "191FF5:op3B+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:192C06",
@@ -3926,11 +4056,12 @@
   "addr": "192C0E",
   "kind": "msg",
   "jp": "おおっ！！[WAIT]",
-  "en": "",
+  "en": "Whoaaa!![WAIT]",
   "bytes": 14,
   "sites": [
    "19200A:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:192C1C",
@@ -3949,11 +4080,12 @@
   "addr": "192C24",
   "kind": "msg",
   "jp": "全ての杯（さかずき）はみたされた[PAGE]魔（ま）でみたされた杯（さかずき）は[BR]その浄化（じょうか）をもとめ・・・[BR]かの地への道を開くであろう[WAIT]",
-  "en": "",
+  "en": "All the chalices have been filled.[PAGE]The chalices filled with evil seek[BR]their purification… and shall open the[BR]way to that land.[WAIT]",
   "bytes": 138,
   "sites": [
    "192017:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:192CAE",
@@ -3972,11 +4104,12 @@
   "addr": "192CB6",
   "kind": "msg",
   "jp": "かの地への・・・道・・・！？[WAIT]",
-  "en": "",
+  "en": "The way… to that land…?![WAIT]",
   "bytes": 32,
   "sites": [
    "19202B:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:192CD6",
@@ -3995,11 +4128,12 @@
   "addr": "192CDE",
   "kind": "msg",
   "jp": "なんじら、力強き者たちなり・・・[BR]杯（さかずき）の光にふれ[BR]いざ進まれん、開かれし道を・・・！[WAIT]",
-  "en": "",
+  "en": "You are mighty ones indeed… Touch the[BR]light of the chalices, and go forth[BR]upon the opened way…![WAIT]",
   "bytes": 98,
   "sites": [
    "192038:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:192D40",
@@ -4018,22 +4152,24 @@
   "addr": "192D4A",
   "kind": "msg",
   "jp": "一度持った杯（さかずき）は[BR]その杯（さかずき）をみたすまでは[BR]もどすことはあいならん[WAIT]",
-  "en": "",
+  "en": "A chalice once taken up may not be[BR]returned until it has been filled.[WAIT]",
   "bytes": 88,
   "sites": [
    "192049:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:192DA2",
   "addr": "192DA2",
   "kind": "msg",
   "jp": "すでにほかの[BR]杯（さかずき）を持っているので[BR]持つことはできない[WAIT]",
-  "en": "",
+  "en": "You are already holding another[BR]chalice, so you cannot take this one.[WAIT]",
   "bytes": 68,
   "sites": [
    "192051:op3B+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:192DE6",
@@ -4052,297 +4188,324 @@
   "addr": "192DEE",
   "kind": "msg",
   "jp": "杯（さかずき）はみたされた・・・[WAIT]",
-  "en": "",
+  "en": "The chalice has been filled…[WAIT]",
   "bytes": 36,
   "sites": [
    "19205D:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:195830",
   "addr": "195830",
   "kind": "draw",
   "jp": "「暗黒の世紀（あんこくのせいき）」",
-  "en": "",
+  "en": "\"The Dark Century\"",
   "bytes": 36,
   "sites": [
    "193478:op85+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:195854",
   "addr": "195854",
   "kind": "draw",
   "jp": "　　　　それは平和な時代に",
-  "en": "",
+  "en": "Into a time of peace",
   "bytes": 28,
   "sites": [
    "1934A0:op85+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:195870",
   "addr": "195870",
   "kind": "draw",
   "jp": "　　　とつじょとしておとずれた",
-  "en": "",
+  "en": "there suddenly came",
   "bytes": 32,
   "sites": [
    "1934AC:op85+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:195890",
   "addr": "195890",
   "kind": "draw",
   "jp": "　　　恐怖（きょうふ）の時代",
-  "en": "",
+  "en": "an age of terror.",
   "bytes": 30,
   "sites": [
    "1934B8:op85+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1958AE",
   "addr": "1958AE",
   "kind": "draw",
   "jp": "　　それまで　いずことも知れぬ",
-  "en": "",
+  "en": "Until then, they had lurked",
   "bytes": 32,
   "sites": [
    "1934D1:op85+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1958CE",
   "addr": "1958CE",
   "kind": "draw",
   "jp": "　　　闇（やみ）にひそんでいた",
-  "en": "",
+  "en": "in a darkness no one knew,",
   "bytes": 32,
   "sites": [
    "1934DD:op85+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1958EE",
   "addr": "1958EE",
   "kind": "draw",
   "jp": "　脅威の存在（きょういのそんざい）",
-  "en": "",
+  "en": "a dreadful menace:",
   "bytes": 36,
   "sites": [
    "1934E9:op85+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:195912",
   "addr": "195912",
   "kind": "draw",
   "jp": "　　　　　「ヴァンデル」",
-  "en": "",
+  "en": "\"Vandels.\"",
   "bytes": 26,
   "sites": [
    "193502:op85+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:19592C",
   "addr": "19592C",
   "kind": "draw",
   "jp": "　　とよばれる魔人（まじん）が",
-  "en": "",
+  "en": "When these demon Vandels",
   "bytes": 32,
   "sites": [
    "19350E:op85+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:19594C",
   "addr": "19594C",
   "kind": "draw",
   "jp": "　　地上にあらわれたことにより",
-  "en": "",
+  "en": "appeared upon the land,",
   "bytes": 32,
   "sites": [
    "19351A:op85+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:19596C",
   "addr": "19596C",
   "kind": "draw",
   "jp": "　　　　　人々のくらしは",
-  "en": "",
+  "en": "people's daily lives",
   "bytes": 26,
   "sites": [
    "193533:op85+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:195986",
   "addr": "195986",
   "kind": "draw",
   "jp": "恐怖（きょうふ）とのたたかいとなった",
-  "en": "",
+  "en": "became a battle against fear.",
   "bytes": 38,
   "sites": [
    "19353F:op85+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1959AC",
   "addr": "1959AC",
   "kind": "draw",
   "jp": "　　ヴァンデルは増殖（ぞうしょく）",
-  "en": "",
+  "en": "The Vandels bred",
   "bytes": 36,
   "sites": [
    "1935EC:op85+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1959D0",
   "addr": "1959D0",
   "kind": "draw",
   "jp": "　させた多数のモンスターを引きつれ",
-  "en": "",
+  "en": "hordes of monsters, led them out,",
   "bytes": 36,
   "sites": [
    "1935F8:op85+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1959F4",
   "addr": "1959F4",
   "kind": "draw",
   "jp": "　　　またたく間に人間の国々を",
-  "en": "",
+  "en": "and in the blink of an eye",
   "bytes": 32,
   "sites": [
    "193604:op85+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:195A14",
   "addr": "195A14",
   "kind": "draw",
   "jp": "　　蹂躙（じゅうりん）しはじめた",
-  "en": "",
+  "en": "began to trample human kingdoms.",
   "bytes": 34,
   "sites": [
    "193610:op85+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:195A36",
   "addr": "195A36",
   "kind": "draw",
   "jp": "　　だが　その脅威（きょうい）に",
-  "en": "",
+  "en": "But against that menace,",
   "bytes": 34,
   "sites": [
    "19362B:op85+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:195A58",
   "addr": "195A58",
   "kind": "draw",
   "jp": "　　立ち向かう者たちがあらわれた",
-  "en": "",
+  "en": "there rose those who fought back.",
   "bytes": 34,
   "sites": [
    "193637:op85+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:195A7A",
   "addr": "195A7A",
   "kind": "draw",
   "jp": "　　　　おのおのが　どくじの",
-  "en": "",
+  "en": "Each honed a fighting art",
   "bytes": 30,
   "sites": [
    "193652:op85+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:195A98",
   "addr": "195A98",
   "kind": "draw",
   "jp": "戦闘技術（せんとうぎじゅつ）をみがき",
-  "en": "",
+  "en": "all their own;",
   "bytes": 38,
   "sites": [
    "19365E:op85+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:195ABE",
   "addr": "195ABE",
   "kind": "draw",
   "jp": "　　　　モンスターをたおし",
-  "en": "",
+  "en": "they cut down monsters",
   "bytes": 28,
   "sites": [
    "19366A:op85+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:195ADA",
   "addr": "195ADA",
   "kind": "draw",
   "jp": "　　ヴァンデルを追いつめる！！！",
-  "en": "",
+  "en": "and ran the Vandels to ground!!!",
   "bytes": 34,
   "sites": [
    "193676:op85+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:195AFC",
   "addr": "195AFC",
   "kind": "draw",
   "jp": "それが魔（ま）をかる漆黒（しっこく）",
-  "en": "",
+  "en": "They were the jet-black",
   "bytes": 38,
   "sites": [
    "19368F:op85+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:195B22",
   "addr": "195B22",
   "kind": "draw",
   "jp": "　　のプロフェッショナル・・・",
-  "en": "",
+  "en": "professionals who hunt demons…",
   "bytes": 32,
   "sites": [
    "19369B:op85+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:195B42",
   "addr": "195B42",
   "kind": "draw",
   "jp": "　　　「ヴァンデルバスター」と",
-  "en": "",
+  "en": "\"Vandel Busters\"",
   "bytes": 32,
   "sites": [
    "1936C2:op85+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:195B62",
   "addr": "195B62",
   "kind": "draw",
   "jp": "　　　　よばれる者たちだった",
-  "en": "",
+  "en": "is what they were called.",
   "bytes": 30,
   "sites": [
    "1936CE:op85+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:195B80",
@@ -4361,11 +4524,12 @@
   "addr": "195B88",
   "kind": "msg",
   "jp": "本当に・・・いいんだね、[BR]ビィト・・・！[WAIT]",
-  "en": "",
+  "en": "You're really… sure about this, Beet…?[WAIT]",
   "bytes": 44,
   "sites": [
    "19370E:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:195BB4",
@@ -4407,11 +4571,12 @@
   "addr": "195BD4",
   "kind": "msg",
   "jp": "何度も言うけど、[BR]こいつを一度押しちまったら[BR]もうカタギとは言えない・・・[PAGE]それでも、いいんだね？[WAIT]",
-  "en": "",
+  "en": "I've told you over and over, my boy:[BR]once I press this on you, there's no[BR]going back to a plain, ordinary life…[PAGE]You still want it, eh?[WAIT]",
   "bytes": 102,
   "sites": [
    "19373A:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:195C3A",
@@ -4430,11 +4595,12 @@
   "addr": "195C42",
   "kind": "msg",
   "jp": "・・・・・・ゴクッ[BR]おっ・・・おうッ！[BR]もちろんだぜ・・・[PAGE]おれはもう、とっくに心を[BR]きめてんだ！！[PAGE]今日こそ・・・[BR]ヴァンデルバスターに[BR]なるってなっ！！！[WAIT]",
-  "en": "",
+  "en": "……*gulp* Y-yeah! You bet…[PAGE]I made up my mind ages ago!![PAGE]Today's the day… I become a Vandel[BR]Buster!!![WAIT]",
   "bytes": 162,
   "sites": [
    "193750:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:195CE4",
@@ -4453,11 +4619,12 @@
   "addr": "195CEC",
   "kind": "msg",
   "jp": "・・・・・・[BR]そうかい・・・[BR]じゃ、いくよ・・・・・・[WAIT]",
-  "en": "",
+  "en": "…… Is that so… Then here goes……[WAIT]",
   "bytes": 58,
   "sites": [
    "193766:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:195D26",
@@ -4476,11 +4643,12 @@
   "addr": "195D2E",
   "kind": "msg",
   "jp": "ぎぃやあああああーーーーっ！！！[WAIT]",
-  "en": "",
+  "en": "GYAAAAAAAAAHHHH!!![WAIT]",
   "bytes": 36,
   "sites": [
    "193781:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:195D52",
@@ -4499,11 +4667,12 @@
   "addr": "195D5A",
   "kind": "msg",
   "jp": "・・・いたかったろ？[WAIT]",
-  "en": "",
+  "en": "…That hurt, didn't it?[WAIT]",
   "bytes": 24,
   "sites": [
    "193797:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:195D72",
@@ -4522,11 +4691,12 @@
   "addr": "195D7A",
   "kind": "msg",
   "jp": "・・・・ぜんっぜんっ！！[PAGE]・・・それどころか、むしろ[BR]「一人前の男になったあ！」って[BR]カンジですがすがしいぐらいだぜっ！！[WAIT]",
-  "en": "",
+  "en": "….Nope! Not one bit!![PAGE]…If anything, it feels awesome! Like,[BR]'Now I'm a real man!' -- that kinda[BR]feeling!![WAIT]",
   "bytes": 126,
   "sites": [
    "1937AD:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:195DF8",
@@ -4568,11 +4738,12 @@
   "addr": "195E18",
   "kind": "msg",
   "jp": "・・・へ、へへへっ・・・[WAIT]",
-  "en": "",
+  "en": "…Heh, heh heh…[WAIT]",
   "bytes": 28,
   "sites": [
    "1937D9:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:195E34",
@@ -4591,11 +4762,12 @@
   "addr": "195E3C",
   "kind": "msg",
   "jp": "ぐあっ！！[WAIT]",
-  "en": "",
+  "en": "Gwaah!![WAIT]",
   "bytes": 14,
   "sites": [
    "1937EF:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:195E4A",
@@ -4614,11 +4786,12 @@
   "addr": "195E52",
   "kind": "msg",
   "jp": "（・・・なにやってんだか・・・）[WAIT]",
-  "en": "",
+  "en": "(…Honestly, this boy…)[WAIT]",
   "bytes": 36,
   "sites": [
    "193805:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:195E76",
@@ -4637,59 +4810,64 @@
   "addr": "195E7E",
   "kind": "msg",
   "jp": "・・・よっよしっ・・・！！[BR]早速あいつらに見せてやる・・・！！[WAIT]",
-  "en": "",
+  "en": "…O-okay…!! Time to go show those[BR]guys…!![WAIT]",
   "bytes": 66,
   "sites": [
    "19381B:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:195EC0",
   "addr": "195EC0",
   "kind": "msg",
   "jp": "しっ・・・しんじられんっ！[BR]３０体いじょうはいたおおがたの[BR]モンスターを・・・[PAGE]・・・あっという間にっ！！[WAIT]",
-  "en": "",
+  "en": "I-I can't believe it! More than thirty[BR]huge monsters…[PAGE]…gone in a flash!![WAIT]",
   "bytes": 110,
   "sites": [
    "19392F:op3B+1",
    "19392F:op3B+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:195F2E",
   "addr": "195F2E",
   "kind": "msg",
   "jp": "ゼノン戦士団（せんしだん）・・・[BR]大陸（たいりく）一のバスターぞろいと[BR]言われるわけだぜっ・・・！！[WAIT]",
-  "en": "",
+  "en": "The Zenon Warriors… No wonder they say[BR]they're the best Busters on the[BR]continent…!![WAIT]",
   "bytes": 104,
   "sites": [
    "193936:op3B+1",
    "193936:op3B+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:195F96",
   "addr": "195F96",
   "kind": "msg",
   "jp": "ああ・・・やとってるこっちが[BR]ビビっちまうよ・・・[WAIT]",
-  "en": "",
+  "en": "Yeah… We're the ones who hired 'em,[BR]and they still give me the jitters…[WAIT]",
   "bytes": 54,
   "sites": [
    "19393D:op3B+1",
    "19393D:op3B+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:195FCC",
   "addr": "195FCC",
   "kind": "msg",
   "jp": "ちょっと・・・[BR]近よりがたいカンジすらするよな・・・[WAIT]",
-  "en": "",
+  "en": "They're kinda… hard to even walk up[BR]to, y'know…[WAIT]",
   "bytes": 56,
   "sites": [
    "193944:op3B+1",
    "193944:op3B+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:196004",
@@ -4709,12 +4887,13 @@
   "addr": "19600C",
   "kind": "msg",
   "jp": "・・・こんなていどでビビられても[BR]こまるんだがな[WAIT]",
-  "en": "",
+  "en": "…If small fry like that spooks ya, we[BR]got a problem.[WAIT]",
   "bytes": 52,
   "sites": [
    "193958:op7A+2",
    "193958:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:196040",
@@ -4734,12 +4913,13 @@
   "addr": "196048",
   "kind": "msg",
   "jp": "モンスターなどは、しょせんヤツらが[BR]たわむれに生み出した使いまに[BR]すぎないのですからね・・・[WAIT]",
-  "en": "",
+  "en": "After all, monsters are merely[BR]familiars that they spawn on a whim…[WAIT]",
   "bytes": 96,
   "sites": [
    "19396E:op7A+2",
    "19396E:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1960A8",
@@ -4759,12 +4939,13 @@
   "addr": "1960B4",
   "kind": "msg",
   "jp": "それをあやつっているヤツを[BR]たおさねば・・・！[WAIT]",
-  "en": "",
+  "en": "We must bring down the ones who[BR]control them…![WAIT]",
   "bytes": 50,
   "sites": [
    "193984:op7A+2",
    "193984:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1960E6",
@@ -4809,12 +4990,13 @@
   "addr": "19610A",
   "kind": "msg",
   "jp": "・・・そうだな[BR]・・・オレたちバスターの[BR]本当のてきは・・・[PAGE]ヤツら・・・[BR]ヴァンデルなのだから・・・・・・！[WAIT]",
-  "en": "",
+  "en": "…Right. Because the true enemy of us[BR]Busters…[PAGE]is them… the Vandels……![WAIT]",
   "bytes": 114,
   "sites": [
    "1939B0:op7A+2",
    "1939B0:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:19617C",
@@ -5181,12 +5363,13 @@
   "addr": "1964F0",
   "kind": "msg",
   "jp": "・・・！[WAIT]",
-  "en": "",
+  "en": "…![WAIT]",
   "bytes": 12,
   "sites": [
    "193B37:op7A+2",
    "193B37:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1964FC",
@@ -5915,13 +6098,14 @@
   "addr": "196C8E",
   "kind": "msg",
   "jp": "・・・！[WAIT]",
-  "en": "",
+  "en": "…![WAIT]",
   "bytes": 12,
   "sites": [
    "193ECF:op7A+2",
    "193ECF:op7A+2",
    "193ECF:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:196C9A",
@@ -6158,13 +6342,14 @@
   "addr": "196DF2",
   "kind": "msg",
   "jp": "えっ！？[WAIT]",
-  "en": "",
+  "en": "Huh?![WAIT]",
   "bytes": 12,
   "sites": [
    "19402C:op7A+2",
    "19402C:op7A+2",
    "19402C:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:196DFE",
@@ -8329,7 +8514,7 @@
   "addr": "198070",
   "kind": "msg",
   "jp": "・・・！！[WAIT]",
-  "en": "",
+  "en": "…!![WAIT]",
   "bytes": 14,
   "sites": [
    "194B88:op7A+2",
@@ -8337,7 +8522,8 @@
    "194B88:op7A+2",
    "194B88:op7A+2",
    "194B88:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:19807E",
@@ -8927,7 +9113,7 @@
   "addr": "19844E",
   "kind": "msg",
   "jp": "・・・！！[WAIT]",
-  "en": "",
+  "en": "…!![WAIT]",
   "bytes": 14,
   "sites": [
    "194FEE:op7A+2",
@@ -8936,7 +9122,8 @@
    "194FEE:op7A+2",
    "194FEE:op7A+2",
    "194FEE:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:19845C",
@@ -10098,7 +10285,7 @@
   "addr": "198CE8",
   "kind": "msg",
   "jp": "・・・！[WAIT]",
-  "en": "",
+  "en": "…![WAIT]",
   "bytes": 12,
   "sites": [
    "195396:op7A+2",
@@ -10107,7 +10294,8 @@
    "195396:op7A+2",
    "195396:op7A+2",
    "195396:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:198CF4",
@@ -12140,11 +12328,12 @@
   "addr": "19A6A6",
   "kind": "msg",
   "jp": "おうっ！[WAIT]",
-  "en": "",
+  "en": "Yeah![WAIT]",
   "bytes": 12,
   "sites": [
    "19996E:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:19A6B2",
@@ -12278,11 +12467,12 @@
   "addr": "19AAB0",
   "kind": "msg",
   "jp": "おうっ！[WAIT]",
-  "en": "",
+  "en": "Yeah![WAIT]",
   "bytes": 12,
   "sites": [
    "1999D1:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:19AABC",
@@ -12324,11 +12514,12 @@
   "addr": "19AB6E",
   "kind": "msg",
   "jp": "わかったぜ！[WAIT]",
-  "en": "",
+  "en": "Got it![WAIT]",
   "bytes": 16,
   "sites": [
    "1999F2:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:19AB7E",
@@ -12511,12 +12702,13 @@
   "addr": "19AD70",
   "kind": "msg",
   "jp": "・・・・・・・[WAIT]",
-  "en": "",
+  "en": "…….[WAIT]",
   "bytes": 18,
   "sites": [
    "199A80:op7A+2",
    "199A80:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:19AD82",
@@ -15115,12 +15307,13 @@
   "addr": "19E2A4",
   "kind": "msg",
   "jp": "おうっ！[WAIT]",
-  "en": "",
+  "en": "Yeah![WAIT]",
   "bytes": 12,
   "sites": [
    "19BD96:op7A+2",
    "19BD96:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:19E2B0",

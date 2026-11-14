@@ -62,7 +62,14 @@ Run `python -X utf8 tools/batches.py check <batch>` from the repo root and fix e
 Never edit `glossary.md`. For a recurring name or term not in it, pick a form, use it consistently, and report it.
 
 ## Notes from earlier batches
-- (none yet)
+- じーさん / ばーさん / ヨメさん / バスターさん are not name + honorific: "Gramps", "Granny", "wife", "Busters".
+- Self-styled 様 (オレ様, ベンチュラ様 about himself) = "the great Ventura", not "-sama"; 様 from a servant to a master
+  stays "-sama" (Dangol: "Grineed-sama").
+- "buddy" is reserved for Beet's insult that triggers Grineed in the ending; don't use it elsewhere.
+- Stretched shouts that hold a term (天撃のォッ) keep the glossary term: "Divine Attaaack!" fails the check, write
+  "Divine Attack...!!" or "Divine... Attack!!".
+- Untagged lines: infer the speaker from voice markers (じゃ Appraiser, オレ/ぜ Beet, わ/ね Poala, terse Slade) and
+  report the guess as UNSURE only when it changes the meaning.
 
 ## Report (reply with only this)
 Files written and entry count; then any lines: `NEW TERM: jp -> en`, `UNSURE: id - note`, `LONG: id - note`.

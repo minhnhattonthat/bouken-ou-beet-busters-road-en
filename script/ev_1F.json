@@ -2421,7 +2421,7 @@
   "addr": "1F1FC8",
   "kind": "msg",
   "jp": "おうっ！[WAIT]",
-  "en": "",
+  "en": "Yeah![WAIT]",
   "bytes": 12,
   "sites": [
    "1F0C5D:op7A+2",
@@ -2430,7 +2430,8 @@
    "1F0C5D:op7A+2",
    "1F0C5D:op7A+2",
    "1F0C5D:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F2520",
@@ -4248,14 +4249,15 @@
   "addr": "1F3C22",
   "kind": "msg",
   "jp": "・・・・・・・[WAIT]",
-  "en": "",
+  "en": "…….[WAIT]",
   "bytes": 18,
   "sites": [
    "1F3747:op7A+2",
    "1F3747:op7A+2",
    "1F3747:op7A+2",
    "1F3747:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F3C34",
@@ -4683,14 +4685,15 @@
   "addr": "1F404C",
   "kind": "msg",
   "jp": "では、しつれいします[WAIT]",
-  "en": "",
+  "en": "Well then, excuse us.[WAIT]",
   "bytes": 24,
   "sites": [
    "1F38B5:op7A+2",
    "1F38B5:op7A+2",
    "1F38B5:op7A+2",
    "1F38B5:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F4770",
@@ -6017,11 +6020,12 @@
   "addr": "1F52CE",
   "kind": "msg",
   "jp": "・・・うむ[WAIT]",
-  "en": "",
+  "en": "…Mm.[WAIT]",
   "bytes": 14,
   "sites": [
    "1F4632:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F52DC",
@@ -6099,14 +6103,15 @@
   "addr": "1F532E",
   "kind": "msg",
   "jp": "・・・そうだな[WAIT]",
-  "en": "",
+  "en": "…Right.[WAIT]",
   "bytes": 18,
   "sites": [
    "1F46DC:op7A+2",
    "1F46DC:op7A+2",
    "1F46DC:op7A+2",
    "1F46DC:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F5340",
@@ -6326,11 +6331,12 @@
   "addr": "1F5E6A",
   "kind": "msg",
   "jp": "ふむふむ・・・[WAIT]",
-  "en": "",
+  "en": "Mm-hmm, mm-hmm…[WAIT]",
   "bytes": 18,
   "sites": [
    "1F5541:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F5E7C",
@@ -6395,11 +6401,12 @@
   "addr": "1F5F88",
   "kind": "msg",
   "jp": "なるほどね・・・[WAIT]",
-  "en": "",
+  "en": "I see…[WAIT]",
   "bytes": 20,
   "sites": [
    "1F5578:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F5F9C",
@@ -8191,7 +8198,7 @@
   "addr": "1F6EA6",
   "kind": "msg",
   "jp": "うわっ！[WAIT]",
-  "en": "",
+  "en": "Whoa![WAIT]",
   "bytes": 12,
   "sites": [
    "1F5BC5:op7A+2",
@@ -8202,7 +8209,8 @@
    "1F5BC5:op7A+2",
    "1F5BC5:op7A+2",
    "1F5BC5:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F6EB2",
@@ -9185,12 +9193,13 @@
   "addr": "1F8022",
   "kind": "msg",
   "jp": "・・・！！[WAIT]",
-  "en": "",
+  "en": "…!![WAIT]",
   "bytes": 14,
   "sites": [
    "1F72C5:op7A+2",
    "1F72C5:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F8030",
@@ -10150,14 +10159,15 @@
   "addr": "1F88B2",
   "kind": "msg",
   "jp": "えっ！？[WAIT]",
-  "en": "",
+  "en": "Huh?![WAIT]",
   "bytes": 12,
   "sites": [
    "1F770B:op7A+2",
    "1F770B:op7A+2",
    "1F770B:op7A+2",
    "1F770B:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F88BE",
@@ -10460,7 +10470,7 @@
   "addr": "1F8A7C",
   "kind": "msg",
   "jp": "おうっ！[WAIT]",
-  "en": "",
+  "en": "Yeah![WAIT]",
   "bytes": 12,
   "sites": [
    "1F77EB:op7A+2",
@@ -10469,7 +10479,8 @@
    "1F77EB:op7A+2",
    "1F77EB:op7A+2",
    "1F77EB:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F8A88",
@@ -11226,7 +11237,7 @@
   "addr": "1F8F36",
   "kind": "msg",
   "jp": "ビィト・・・[WAIT]",
-  "en": "",
+  "en": "Beet…[WAIT]",
   "bytes": 16,
   "sites": [
    "1F7A35:op7A+2",
@@ -11237,7 +11248,8 @@
    "1F7A35:op7A+2",
    "1F7A35:op7A+2",
    "1F7A35:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F8F46",
@@ -11492,7 +11504,7 @@
   "addr": "1F90E2",
   "kind": "msg",
   "jp": "・・・うむ[WAIT]",
-  "en": "",
+  "en": "…Mm.[WAIT]",
   "bytes": 14,
   "sites": [
    "1F7AE1:op7A+2",
@@ -11504,7 +11516,8 @@
    "1F7AE1:op7A+2",
    "1F7AE1:op7A+2",
    "1F7AE1:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F90F0",
@@ -11590,12 +11603,13 @@
   "addr": "1F9C6E",
   "kind": "msg",
   "jp": "ふむふむ・・・[WAIT]",
-  "en": "",
+  "en": "Mm-hmm, mm-hmm…[WAIT]",
   "bytes": 18,
   "sites": [
    "1F91AA:op7A+2",
    "1F91AA:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F9C80",
@@ -12041,7 +12055,7 @@
   "addr": "1FA038",
   "kind": "msg",
   "jp": "・・・うむ[WAIT]",
-  "en": "",
+  "en": "…Mm.[WAIT]",
   "bytes": 14,
   "sites": [
    "1F932E:op7A+2",
@@ -12049,7 +12063,8 @@
    "1F932E:op7A+2",
    "1F932E:op7A+2",
    "1F932E:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FA046",
@@ -12168,12 +12183,13 @@
   "addr": "1FA10A",
   "kind": "msg",
   "jp": "・・・！！[WAIT]",
-  "en": "",
+  "en": "…!![WAIT]",
   "bytes": 14,
   "sites": [
    "1F93CF:op7A+2",
    "1F93CF:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FA118",
@@ -12748,7 +12764,7 @@
   "addr": "1FA6CE",
   "kind": "msg",
   "jp": "・・・！[WAIT]",
-  "en": "",
+  "en": "…![WAIT]",
   "bytes": 12,
   "sites": [
    "1F95C6:op7A+2",
@@ -12756,7 +12772,8 @@
    "1F95C6:op7A+2",
    "1F95C6:op7A+2",
    "1F95C6:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FA6DA",
@@ -14371,7 +14388,7 @@
   "addr": "1FB5D6",
   "kind": "msg",
   "jp": "おうっ！[WAIT]",
-  "en": "",
+  "en": "Yeah![WAIT]",
   "bytes": 12,
   "sites": [
    "1F9AB9:op7A+2",
@@ -14381,7 +14398,8 @@
    "1F9AB9:op7A+2",
    "1F9AB9:op7A+2",
    "1F9AB9:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FB5E2",
@@ -15127,11 +15145,12 @@
   "addr": "1FC2AA",
   "kind": "msg",
   "jp": "・・・えっ！？[WAIT]",
-  "en": "",
+  "en": "…Huh?![WAIT]",
   "bytes": 18,
   "sites": [
    "1FBA01:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FC2BC",
@@ -15242,11 +15261,12 @@
   "addr": "1FC3F2",
   "kind": "msg",
   "jp": "えっ！？[WAIT]",
-  "en": "",
+  "en": "Huh?![WAIT]",
   "bytes": 12,
   "sites": [
    "1FBA76:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FC3FE",
@@ -16866,7 +16886,7 @@
   "addr": "1FDB16",
   "kind": "msg",
   "jp": "へへへっ・・・！[WAIT]",
-  "en": "",
+  "en": "Heh heh heh…![WAIT]",
   "bytes": 20,
   "sites": [
    "1FCDA1:op7A+2",
@@ -16874,7 +16894,8 @@
    "1FCDA1:op7A+2",
    "1FCDA1:op7A+2",
    "1FCDA1:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FDB2A",
@@ -17334,7 +17355,7 @@
   "addr": "1FDEB2",
   "kind": "msg",
   "jp": "あははははっ！！[WAIT]",
-  "en": "",
+  "en": "Ahahahaha!![WAIT]",
   "bytes": 20,
   "sites": [
    "1FCEC8:op7A+2",
@@ -17343,7 +17364,8 @@
    "1FCEC8:op7A+2",
    "1FCEC8:op7A+2",
    "1FCEC8:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FDEC6",
@@ -17927,14 +17949,15 @@
   "addr": "1FEB9A",
   "kind": "msg",
   "jp": "ふむふむ・・・[WAIT]",
-  "en": "",
+  "en": "Mm-hmm, mm-hmm…[WAIT]",
   "bytes": 18,
   "sites": [
    "1FE193:op7A+2",
    "1FE193:op7A+2",
    "1FE193:op7A+2",
    "1FE193:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FEBAC",
@@ -18664,11 +18687,12 @@
   "addr": "1FF1B4",
   "kind": "msg",
   "jp": "・・・！！[WAIT]",
-  "en": "",
+  "en": "…!![WAIT]",
   "bytes": 14,
   "sites": [
    "1FE542:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FF1C2",
@@ -19331,11 +19355,12 @@
   "addr": "1FFAD0",
   "kind": "msg",
   "jp": "・・・！！[WAIT]",
-  "en": "",
+  "en": "…!![WAIT]",
   "bytes": 14,
   "sites": [
    "1FF6B0:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FFADE",

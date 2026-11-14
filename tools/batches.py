@@ -37,7 +37,8 @@ FREE = {"[BR]", "[PAGE]"}  # layout codes: the wrap places them
 VARIABLE = r"\[FF[0-9A-F]{2}\]"  # numbers / names the game draws
 TRAIL = re.compile(r"(?:\[(?:WAIT|PAGE)\])+$")
 # honorific after a katakana name -> the EN suffix (D1: kept)
-HONORIFICS = {"さん": "-san", "くん": "-kun", "ちゃん": "-chan", "様": "-sama", "さま": "-sama"}
+HONORIFICS = {"さん": "-san", "くん": "-kun", "ちゃん": "-chan"}  # 様 not enforced: self-styled ベンチュラ様 = "the great Ventura"
+NOT_NAMES = {"ヨメ", "バスター", "オバ", "オジ", "ジイ", "バア"}  # katakana nouns, not names, before さん etc.
 DERIVED = ("kana", "menu")  # copy the record's English name
 
 
@@ -94,7 +95,8 @@ def wrap(e, en):
         for box in re.split(r"\[PAGE\]", text):
             lines = []
             for part in re.split(r"\[BR\]", box):
-                lines += wrap_line(part.strip(), w) if w else [part]
+                p = part.rstrip() if e["kind"] == "draw" else part.strip()  # credits indent with spaces
+                lines += [p] if not w or limits.line_letters(p) <= w else wrap_line(p.strip(), w)
             boxes.append(lines)
         if e["kind"] == "msg":  # refill boxes of n lines; explicit [PAGE] starts a new one
             boxes = [b[i:i + n] for b in boxes for i in range(0, max(len(b), 1), n)]
@@ -169,7 +171,9 @@ def problems(e, en, terms):
             out.append(f"glossary: {jps[0]} -> {' / '.join(ens)}")
         out += [f"glossary Avoid: {a}" for a in avoid if re.search(rf"\b{re.escape(a)}\b", en)]
     for jp_form, en_form in HONORIFICS.items():
-        if re.search(f"[ァ-ヺー]{jp_form}", jp_plain) and en_form.lower() not in en.lower():
+        # a katakana name before the honorific (not じーさん "Gramps", ヨメさん "wife", バスターさん "Busters")
+        runs = re.findall(f"([ァ-ヺー]*[ァ-ヺ]){jp_form}", jp_plain)
+        if any(r not in NOT_NAMES for r in runs) and en_form.lower() not in en.lower():
             out.append(f"honorific {jp_form} needs {en_form}")
     final = wrap(e, en)
     lint = test_lint.lint({**e, "en": final})
