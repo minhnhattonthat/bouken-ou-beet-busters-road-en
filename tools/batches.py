@@ -37,6 +37,7 @@ FREE = {"[BR]", "[PAGE]"}  # layout codes: the wrap places them
 VARIABLE = r"\[FF[0-9A-F]{2}\]"  # numbers / names the game draws
 TRAIL = re.compile(r"(?:\[(?:WAIT|PAGE)\])+$")
 # honorific after a katakana name -> the EN suffix (D1: kept)
+GLOSSARY_WAIVE = {"ui:DDAC62": "天撃"}  # D9: 8-letter skill-slot picker says "Divine" (Divine Attack can't fit)
 HONORIFICS = {"さん": "-san", "くん": "-kun", "ちゃん": "-chan"}  # 様 not enforced: self-styled ベンチュラ様 = "the great Ventura"
 NOT_NAMES = {"ヨメ", "バスター", "オバ", "オジ", "ジイ", "バア"}  # katakana nouns, not names, before さん etc.
 DERIVED = ("kana", "menu")  # copy the record's English name
@@ -167,6 +168,9 @@ def problems(e, en, terms):
         out.append('ordinal suffix after a variable (write "No. [FF01]")')
     jp_plain = re.sub(r"（[^）]*）", "", TOKEN.sub("", jp))  # furigana readings aren't terms (災害（サイガい）)
     for jps, ens, avoid in terms:
+        eid = e.get("id", "")
+        if GLOSSARY_WAIVE.get(eid) in jps or (jps[0] == "天撃" and re.fullmatch(r"tenmon:\d+:name", eid)):
+            continue
         if any(has_term(jp_plain, j) for j in jps) and not any(x.lower() in en.lower() for x in ens):
             out.append(f"glossary: {jps[0]} -> {' / '.join(ens)}")
         out += [f"glossary Avoid: {a}" for a in avoid if re.search(rf"\b{re.escape(a)}\b", en)]

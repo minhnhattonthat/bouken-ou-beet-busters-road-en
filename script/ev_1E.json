@@ -13751,7 +13751,7 @@
   "addr": "1E9936",
   "kind": "msg",
   "jp": "・・・依頼（いらい）をわすれたか[BR]ビィト[WAIT]",
-  "en": "…Forget the request, Beet?[WAIT]",
+  "en": "…Did you forget the request, Beet?[WAIT]",
   "bytes": 44,
   "sites": [
    "1E7D12:op7A+2",

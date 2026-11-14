@@ -17492,7 +17492,7 @@
   "addr": "1FDB36",
   "kind": "msg",
   "jp": "う～む、ワシは橋かけの名人じゃが[BR]・・・そうじゃの、おまえさんたちは[BR]「モンスターの名人」じゃの！[WAIT]",
-  "en": "Hmmm, I'm a Master of bridges… but[BR]then, you lot, why, you're \"Masters of[BR]Monsters,\" eh![WAIT]",
+  "en": "Hmmm, I'm the Bridge Master… but you[BR]lot, why, you're \"Monster Masters,\"[BR]eh![WAIT]",
   "bytes": 102,
   "sites": [
    "1FCDAE:op52+5",
@@ -17524,7 +17524,7 @@
   "addr": "1FDBA4",
   "kind": "msg",
   "jp": "「モンスターの名人」かぁ・・・！[WAIT]",
-  "en": "\"Masters of Monsters,\" huh…![WAIT]",
+  "en": "\"Monster Masters,\" huh…![WAIT]",
   "bytes": 36,
   "sites": [
    "1FCDC2:op7A+2",
@@ -17652,7 +17652,7 @@
   "addr": "1FDC4A",
   "kind": "msg",
   "jp": "うむ、後はこちらの仕事じゃの・・・[BR]モンスターの名人に負けないように、[BR]しっかりとした橋を[PAGE]かけないといかんな！！[WAIT]",
-  "en": "Mm. The rest is our job… I'll have to[BR]build a sturdy bridge[PAGE]that won't lose to the Masters of[BR]Monsters!![WAIT]",
+  "en": "Mm. The rest is our job… I'll have to[BR]build a sturdy bridge[PAGE]that won't lose to the Monster[BR]Masters!![WAIT]",
   "bytes": 118,
   "sites": [
    "1FCE11:op52+5",
@@ -18116,7 +18116,7 @@
   "addr": "1FDF78",
   "kind": "msg",
   "jp": "ああ、まかせておけ・・・！[BR]また会おう・・・[BR]モンスターの名人たちよ！！[WAIT]",
-  "en": "Aye, leave it to me…! Until we meet[BR]again… Masters of Monsters!![WAIT]",
+  "en": "Aye, leave it to me…! Until we meet[BR]again… Monster Masters!![WAIT]",
   "bytes": 76,
   "sites": [
    "1FCF36:op52+5",

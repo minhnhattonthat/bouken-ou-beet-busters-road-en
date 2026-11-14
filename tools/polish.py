@@ -29,7 +29,7 @@ def main():
         items = minors(rep.read_text(encoding="utf-8"))
         text += f"\n## {rep.stem}\n" + "".join(i + "\n" for i in items)
         print(rep.stem, len(items))
-    POLISH.write_text(text, encoding="utf-8")
+    POLISH.write_text(text, encoding="utf-8", newline="\n")
 
 
 assert minors("#### Minor\n- a - b\n- None\n#### Assessment\n- x") == ["- [ ] a - b"]

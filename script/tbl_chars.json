@@ -4,71 +4,80 @@
   "addr": "0A3EB0",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
-  "max": 16
+  "en": "Beet",
+  "max": 16,
+  "status": "done"
  },
  {
   "id": "chars:001:name",
   "addr": "0A3F10",
   "kind": "name",
   "jp": "ポアラ",
-  "en": "",
-  "max": 16
+  "en": "Poala",
+  "max": 16,
+  "status": "done"
  },
  {
   "id": "chars:002:name",
   "addr": "0A3F70",
   "kind": "name",
   "jp": "キッス",
-  "en": "",
-  "max": 16
+  "en": "Kissu",
+  "max": 16,
+  "status": "done"
  },
  {
   "id": "chars:003:name",
   "addr": "0A3FD0",
   "kind": "name",
   "jp": "スレッド",
-  "en": "",
-  "max": 16
+  "en": "Slade",
+  "max": 16,
+  "status": "done"
  },
  {
   "id": "chars:004:name",
   "addr": "0A4030",
   "kind": "name",
   "jp": "ミルファ",
-  "en": "",
-  "max": 16
+  "en": "Milfa",
+  "max": 16,
+  "status": "done"
  },
  {
   "id": "chars:005:name",
   "addr": "0A4090",
   "kind": "name",
   "jp": "ゴラン",
-  "en": "",
-  "max": 16
+  "en": "Goran",
+  "max": 16,
+  "status": "done"
  },
  {
   "id": "chars:006:name",
   "addr": "0A40F0",
   "kind": "name",
   "jp": "シバ",
-  "en": "",
-  "max": 16
+  "en": "Shiba",
+  "max": 16,
+  "status": "done"
  },
  {
   "id": "chars:007:name",
   "addr": "0A4150",
   "kind": "name",
   "jp": "グレスト",
-  "en": "",
-  "max": 16
+  "en": "Grest",
+  "max": 16,
+  "status": "done"
  },
  {
   "id": "chars:008:name",
   "addr": "0A41B0",
   "kind": "name",
   "jp": "バドゥ",
-  "en": "",
-  "max": 16
+  "en": "Badu",
+  "max": 16,
+  "status": "done"
  }
 ]

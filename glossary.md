@@ -153,7 +153,7 @@ Generic tags, used as the name box (24 letters). In dialogue the same words take
 | 湖畔の遺跡 | Lakeside Ruins | 18 | | |
 | 森の遺跡 | Forest Ruins | 18 | | |
 | 荒野の遺跡 | Wasteland Ruins | 18 | | |
-| 地底湖 | Underground Lake | 18 | | |
+| 地底湖 | Underground Lake / Lake | 18 | "Lake" only in 20-letter quest titles (Lurker in the Lake, The Lake Gate) | |
 | 廃坑 | Abandoned Mine / abandoned mine | 18 | | |
 | グリニデ城 | Grineed Castle | 18 | | |
 | 魔物の塔 | Monster Tower | 18 | floors 1F-20F | |
@@ -301,7 +301,7 @@ Generic tags, used as the name box (24 letters). In dialogue the same words take
 | 実験台 | test subjects | | | |
 | 門番 | gatekeeper | | | |
 | 海のブロウガンナー | Sea Blowgunner | | | |
-| 凶暴 | ferocious | | of monsters | |
+| 凶暴 | ferocious / savage / vicious | | of monsters | |
 | トロワナの門 | Gate of Trowana | | | |
 | 毒鱗粉 | poison scales | | | |
 | 紅い巨人 | Crimson Giant | | | |
@@ -311,7 +311,7 @@ Generic tags, used as the name box (24 letters). In dialogue the same words take
 | 鑑定士さん | Mister Appraiser | | | |
 | 天撃の気流 | Air Current | 12 | Divine Attack; tenmon:026 must match | |
 | モンスターの名人 | Monster Masters | | | |
-| 強盗団 | bandit gang | | | |
+| 強盗団 | bandit gang / bandits / Bandit Gang | | | |
 | 初代大公 | the First Grand Duke | | | |
 | トロワナの警備隊 | the Trowana Guard | | | |
 | 謎かけ | conundrum | | = ナゾかけ | |
@@ -323,6 +323,24 @@ Generic tags, used as the name box (24 letters). In dialogue the same words take
 | レッドヴァンソード | Red Van Sword | 20 | | |
 | 分離体 | split-off bodies | | | |
 | 期待の新戦力 | hot new recruit | | | |
+
+## Table series words (no check)
+Reference for the record tables (b066-b084, 2026-11-14); the table English is the source of truth.
+| JP | EN | notes |
+|---|---|---|
+| 銅 / カッパー, 青銅 / ブロンズ, 鉄 / アイアン, 鋼 / スティール, 銀 / シルバー | Copper, Bronze, Iron, Steel, Silver | weapons/armor materials |
+| レアメタル, ハイメタル, Ｂメタル | Rare Metal, High Metal, B-Metal | names; descriptions lower case; Ｂメタル = ベカトルテ鋼 Becatorte steel |
+| 複合特殊鋼材 / 不明な非常に強い金属 | special composite steel / unknown ultra-tough metal | descriptions |
+| 見習い, 新米, ルーキー, 中級, ベテラン, 上級, 強者, 達人級 | Trainee, Greenhorn, Rookie, Mid-Level, Veteran, Advanced, Mighty, master-class | armor ranks (新米 = Rookie only in the team-rank names) |
+| ジャケット, シャツ, シールド, バングル, マント, バンダナ, グローブ | Jacket, Shirt, Shield, Bangle, Mantle, Bandana, Gloves | armor types |
+| 槌, ハンマー, 斧, 大剣, 槍斧, グレイブ, カフス, ナックル, クロー | Mallet, Hammer, Axe, Claymore, Halberd, Grave, Cuffs, Knuckles, Claw | weapon types |
+| 片手剣, 両手剣, 槍, 銃, 弓, 鉄球, 盾, 拳, 爪, 打撃 | One-Handed Sword, Two-Handed Sword, Spear, Gun, Bow, Iron Ball, Shield, Fist, Claw, Strike | wtypes |
+| 〜の導士, 岩石〜, 氷の〜, 毒〜, 猛毒〜 | <X> Sage, Rock <X>, Frost <X>, Poison <X>, Venom <X> | monsters |
+| 〜ほか (habitat) | <place> & more | |
+| 小 / 中 / 大 / 巨大 (tenmon desc) | Weak / Mid / Big / Huge | 26-letter descs; 上位 upper; 雷 thunder, 氷 ice |
+| 討伐 / 収集 / 配達 / 護衛 / その他; 完了報告; あきらめる | Hunt / Collect / Deliver / Escort / Other; Report; Give Up | quest UI |
+| 中断データ; 鍛える; 泊まる | suspend data; Forge; Stay | UI |
+| キャンバル, ピルゴア, ブランドゥ, ライリー, レボーク | Cambal, Pilgore, Brandu, Riley, Rebork | unused bosses |
 
 ## Decisions from earlier batches
 - recon (2026-11-14): spellings chosen between recon reports: work/tl/recon/glossary_draft.md "Conflicts resolved".

@@ -4,5343 +4,6011 @@
   "addr": "0A7F44",
   "kind": "name",
   "jp": "クラウンシールド",
-  "en": "",
-  "max": 20
+  "en": "Crown Shield",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:000:kana",
   "addr": "0A7F58",
   "kind": "kana",
   "jp": "くらうんしーるど",
-  "en": "",
-  "max": 20
+  "en": "Crown Shield",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:000:desc",
   "addr": "0A7F6C",
   "kind": "desc",
   "jp": "クラウンシールド",
-  "en": "",
-  "max": 72
+  "en": "Crown Shield",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:000:menu",
   "addr": "0A7FB8",
   "kind": "menu",
   "jp": "クラウンシールド",
-  "en": "",
-  "max": 20
+  "en": "Crown Shield",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:001:name",
   "addr": "0A8024",
   "kind": "name",
   "jp": "ウッドシールド",
-  "en": "",
-  "max": 20
+  "en": "Wood Shield",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:001:kana",
   "addr": "0A8038",
   "kind": "kana",
   "jp": "うっどしーるど",
-  "en": "",
-  "max": 20
+  "en": "Wood Shield",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:001:desc",
   "addr": "0A804C",
   "kind": "desc",
   "jp": "木製のシールド",
-  "en": "",
-  "max": 72
+  "en": "Shield made of wood",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:001:menu",
   "addr": "0A8098",
   "kind": "menu",
   "jp": "ウッドシールド",
-  "en": "",
-  "max": 20
+  "en": "Wood Shield",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:002:name",
   "addr": "0A8104",
   "kind": "name",
   "jp": "ブロンズシールド",
-  "en": "",
-  "max": 20
+  "en": "Bronze Shield",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:002:kana",
   "addr": "0A8118",
   "kind": "kana",
   "jp": "ぶろんずしーるど",
-  "en": "",
-  "max": 20
+  "en": "Bronze Shield",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:002:desc",
   "addr": "0A812C",
   "kind": "desc",
   "jp": "青銅製のシールド",
-  "en": "",
-  "max": 72
+  "en": "Shield made of bronze",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:002:menu",
   "addr": "0A8178",
   "kind": "menu",
   "jp": "ブロンズシールド",
-  "en": "",
-  "max": 20
+  "en": "Bronze Shield",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:003:name",
   "addr": "0A81E4",
   "kind": "name",
   "jp": "カッパーシールド",
-  "en": "",
-  "max": 20
+  "en": "Copper Shield",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:003:kana",
   "addr": "0A81F8",
   "kind": "kana",
   "jp": "かっぱーしーるど",
-  "en": "",
-  "max": 20
+  "en": "Copper Shield",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:003:desc",
   "addr": "0A820C",
   "kind": "desc",
   "jp": "銅製のシールド",
-  "en": "",
-  "max": 72
+  "en": "Shield made of copper",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:003:menu",
   "addr": "0A8258",
   "kind": "menu",
   "jp": "カッパーシールド",
-  "en": "",
-  "max": 20
+  "en": "Copper Shield",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:004:name",
   "addr": "0A82C4",
   "kind": "name",
   "jp": "アイアンシールド",
-  "en": "",
-  "max": 20
+  "en": "Iron Shield",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:004:kana",
   "addr": "0A82D8",
   "kind": "kana",
   "jp": "あいあんしーるど",
-  "en": "",
-  "max": 20
+  "en": "Iron Shield",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:004:desc",
   "addr": "0A82EC",
   "kind": "desc",
   "jp": "鉄製のシールド",
-  "en": "",
-  "max": 72
+  "en": "Shield made of iron",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:004:menu",
   "addr": "0A8338",
   "kind": "menu",
   "jp": "アイアンシールド",
-  "en": "",
-  "max": 20
+  "en": "Iron Shield",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:005:name",
   "addr": "0A83A4",
   "kind": "name",
   "jp": "スティールシールド",
-  "en": "",
-  "max": 20
+  "en": "Steel Shield",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:005:kana",
   "addr": "0A83B8",
   "kind": "kana",
   "jp": "すてぃーるしーるど",
-  "en": "",
-  "max": 20
+  "en": "Steel Shield",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:005:desc",
   "addr": "0A83CC",
   "kind": "desc",
   "jp": "鋼鉄製のシールド",
-  "en": "",
-  "max": 72
+  "en": "Shield made of steel",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:005:menu",
   "addr": "0A8418",
   "kind": "menu",
   "jp": "スティールシールド",
-  "en": "",
-  "max": 20
+  "en": "Steel Shield",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:006:name",
   "addr": "0A8484",
   "kind": "name",
   "jp": "シルバーシールド",
-  "en": "",
-  "max": 20
+  "en": "Silver Shield",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:006:kana",
   "addr": "0A8498",
   "kind": "kana",
   "jp": "しるばーしーるど",
-  "en": "",
-  "max": 20
+  "en": "Silver Shield",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:006:desc",
   "addr": "0A84AC",
   "kind": "desc",
   "jp": "銀製のシールド",
-  "en": "",
-  "max": 72
+  "en": "Shield made of silver",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:006:menu",
   "addr": "0A84F8",
   "kind": "menu",
   "jp": "シルバーシールド",
-  "en": "",
-  "max": 20
+  "en": "Silver Shield",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:007:name",
   "addr": "0A8564",
   "kind": "name",
   "jp": "レアメタルシールド",
-  "en": "",
-  "max": 20
+  "en": "Rare Metal Shield",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:007:kana",
   "addr": "0A8578",
   "kind": "kana",
   "jp": "れあめたるしーるど",
-  "en": "",
-  "max": 20
+  "en": "Rare Metal Shield",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:007:desc",
   "addr": "0A858C",
   "kind": "desc",
   "jp": "レアメタル製のシールド",
-  "en": "",
-  "max": 72
+  "en": "Shield made of rare metal",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:007:menu",
   "addr": "0A85D8",
   "kind": "menu",
   "jp": "レアメタルシールド",
-  "en": "",
-  "max": 20
+  "en": "Rare Metal Shield",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:008:name",
   "addr": "0A8644",
   "kind": "name",
   "jp": "ハイメタルシールド",
-  "en": "",
-  "max": 20
+  "en": "High Metal Shield",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:008:kana",
   "addr": "0A8658",
   "kind": "kana",
   "jp": "はいめたるしーるど",
-  "en": "",
-  "max": 20
+  "en": "High Metal Shield",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:008:desc",
   "addr": "0A866C",
   "kind": "desc",
   "jp": "ハイメタル製のシールド",
-  "en": "",
-  "max": 72
+  "en": "Shield made of high metal",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:008:menu",
   "addr": "0A86B8",
   "kind": "menu",
   "jp": "ハイメタルシールド",
-  "en": "",
-  "max": 20
+  "en": "High Metal Shield",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:009:name",
   "addr": "0A8724",
   "kind": "name",
   "jp": "レジェンドシールド",
-  "en": "",
-  "max": 20
+  "en": "Legend Shield",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:009:kana",
   "addr": "0A8738",
   "kind": "kana",
   "jp": "れじぇんどしーるど",
-  "en": "",
-  "max": 20
+  "en": "Legend Shield",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:009:desc",
   "addr": "0A874C",
   "kind": "desc",
   "jp": "伝説に登場するほど強いシールド",
-  "en": "",
-  "max": 72
+  "en": "A shield of legendary strength",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:009:menu",
   "addr": "0A8798",
   "kind": "menu",
   "jp": "Ｇメタルシールド",
-  "en": "",
-  "max": 20
+  "en": "Legend Shield",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:010:name",
   "addr": "0A8804",
   "kind": "name",
   "jp": "アトスシールド",
-  "en": "",
-  "max": 20
+  "en": "Athos Shield",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:010:kana",
   "addr": "0A8818",
   "kind": "kana",
   "jp": "あとすしーるど",
-  "en": "",
-  "max": 20
+  "en": "Athos Shield",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:010:desc",
   "addr": "0A882C",
   "kind": "desc",
   "jp": "エルファストの防具屋アトスが作った盾",
-  "en": "",
-  "max": 72
+  "en": "Made by Athos the Armorer of Elfast",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:010:menu",
   "addr": "0A8878",
   "kind": "menu",
   "jp": "アトスシールド",
-  "en": "",
-  "max": 20
+  "en": "Athos Shield",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:011:name",
   "addr": "0A88E4",
   "kind": "name",
   "jp": "光り",
-  "en": "",
-  "max": 20
+  "en": "Light",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:011:kana",
   "addr": "0A88F8",
   "kind": "kana",
   "jp": "なし",
-  "en": "",
-  "max": 20
+  "en": "Light",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:011:desc",
   "addr": "0A890C",
   "kind": "desc",
   "jp": "なし",
-  "en": "",
-  "max": 72
+  "en": "None",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:011:menu",
   "addr": "0A8958",
   "kind": "menu",
   "jp": "なし",
-  "en": "",
-  "max": 20
+  "en": "Light",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:012:name",
   "addr": "0A89C4",
   "kind": "name",
   "jp": "詠唱光り",
-  "en": "",
-  "max": 20
+  "en": "Chant Light",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:012:kana",
   "addr": "0A89D8",
   "kind": "kana",
   "jp": "なし",
-  "en": "",
-  "max": 20
+  "en": "Chant Light",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:012:desc",
   "addr": "0A89EC",
   "kind": "desc",
   "jp": "なし",
-  "en": "",
-  "max": 72
+  "en": "None",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:012:menu",
   "addr": "0A8A38",
   "kind": "menu",
   "jp": "なし",
-  "en": "",
-  "max": 20
+  "en": "Chant Light",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:013:name",
   "addr": "0A8AA4",
   "kind": "name",
   "jp": "天撃",
-  "en": "",
-  "max": 20
+  "en": "Divine Attack",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:013:kana",
   "addr": "0A8AB8",
   "kind": "kana",
   "jp": "なし",
-  "en": "",
-  "max": 20
+  "en": "Divine Attack",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:013:desc",
   "addr": "0A8ACC",
   "kind": "desc",
   "jp": "なし",
-  "en": "",
-  "max": 72
+  "en": "None",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:013:menu",
   "addr": "0A8B18",
   "kind": "menu",
   "jp": "なし",
-  "en": "",
-  "max": 20
+  "en": "Divine Attack",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:014:name",
   "addr": "0A8B84",
   "kind": "name",
   "jp": "エフェクト予備",
-  "en": "",
-  "max": 20
+  "en": "Spare Effect",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:014:kana",
   "addr": "0A8B98",
   "kind": "kana",
   "jp": "なし",
-  "en": "",
-  "max": 20
+  "en": "Spare Effect",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:014:desc",
   "addr": "0A8BAC",
   "kind": "desc",
   "jp": "なし",
-  "en": "",
-  "max": 72
+  "en": "None",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:014:menu",
   "addr": "0A8BF8",
   "kind": "menu",
   "jp": "なし",
-  "en": "",
-  "max": 20
+  "en": "Spare Effect",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:015:name",
   "addr": "0A8C64",
   "kind": "name",
   "jp": "バーニングランス",
-  "en": "",
-  "max": 20
+  "en": "Burning Lance",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:015:kana",
   "addr": "0A8C78",
   "kind": "kana",
   "jp": "ばーにんぐらんす",
-  "en": "",
-  "max": 20
+  "en": "Burning Lance",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:015:desc",
   "addr": "0A8C8C",
   "kind": "desc",
   "jp": "バーニングランス",
-  "en": "",
-  "max": 72
+  "en": "Burning Lance",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:015:menu",
   "addr": "0A8CD8",
   "kind": "menu",
   "jp": "バーニングランス",
-  "en": "",
-  "max": 20
+  "en": "Burning Lance",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:016:name",
   "addr": "0A8D44",
   "kind": "name",
   "jp": "エクセリオンブレード",
-  "en": "",
-  "max": 20
+  "en": "Excellion Blade",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:016:kana",
   "addr": "0A8D58",
   "kind": "kana",
   "jp": "えくせりおんぶれーど",
-  "en": "",
-  "max": 20
+  "en": "Excellion Blade",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:016:desc",
   "addr": "0A8D6C",
   "kind": "desc",
   "jp": "エクセリオンブレード",
-  "en": "",
-  "max": 72
+  "en": "Excellion Blade",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:016:menu",
   "addr": "0A8DB8",
   "kind": "menu",
   "jp": "エクセリオンブレード",
-  "en": "",
-  "max": 20
+  "en": "Excellion Blade",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:017:name",
   "addr": "0A8E24",
   "kind": "name",
   "jp": "ボルティックアックス",
-  "en": "",
-  "max": 20
+  "en": "Boltic Axe",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:017:kana",
   "addr": "0A8E38",
   "kind": "kana",
   "jp": "ぼるてぃっくあっくす",
-  "en": "",
-  "max": 20
+  "en": "Boltic Axe",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:017:desc",
   "addr": "0A8E4C",
   "kind": "desc",
   "jp": "ボルティックアックス",
-  "en": "",
-  "max": 72
+  "en": "Boltic Axe",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:017:menu",
   "addr": "0A8E98",
   "kind": "menu",
   "jp": "ボルティックアックス",
-  "en": "",
-  "max": 20
+  "en": "Boltic Axe",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:018:name",
   "addr": "0A8F04",
   "kind": "name",
   "jp": "サイクロンガンナー",
-  "en": "",
-  "max": 20
+  "en": "Cyclone Gunner",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:018:kana",
   "addr": "0A8F18",
   "kind": "kana",
   "jp": "さいくろんがんなー",
-  "en": "",
-  "max": 20
+  "en": "Cyclone Gunner",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:018:desc",
   "addr": "0A8F2C",
   "kind": "desc",
   "jp": "サイクロンガンナー",
-  "en": "",
-  "max": 72
+  "en": "Cyclone Gunner",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:018:menu",
   "addr": "0A8F78",
   "kind": "menu",
   "jp": "サイクロンガンナー",
-  "en": "",
-  "max": 20
+  "en": "Cyclone Gunner",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:019:name",
   "addr": "0A8FE4",
   "kind": "name",
   "jp": "サイクロンガンナー",
-  "en": "",
-  "max": 20
+  "en": "Cyclone Gunner",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:019:kana",
   "addr": "0A8FF8",
   "kind": "kana",
   "jp": "さいくろんがんなー",
-  "en": "",
-  "max": 20
+  "en": "Cyclone Gunner",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:019:desc",
   "addr": "0A900C",
   "kind": "desc",
   "jp": "サイクロンガンナー",
-  "en": "",
-  "max": 72
+  "en": "Cyclone Gunner",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:019:menu",
   "addr": "0A9058",
   "kind": "menu",
   "jp": "サイクロンガンナー",
-  "en": "",
-  "max": 20
+  "en": "Cyclone Gunner",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:020:name",
   "addr": "0A90C4",
   "kind": "name",
   "jp": "クラウンシールド",
-  "en": "",
-  "max": 20
+  "en": "Crown Shield",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:020:kana",
   "addr": "0A90D8",
   "kind": "kana",
   "jp": "くらうんしーるど",
-  "en": "",
-  "max": 20
+  "en": "Crown Shield",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:020:desc",
   "addr": "0A90EC",
   "kind": "desc",
   "jp": "クラウンシールド",
-  "en": "",
-  "max": 72
+  "en": "Crown Shield",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:020:menu",
   "addr": "0A9138",
   "kind": "menu",
   "jp": "クラウンシールド",
-  "en": "",
-  "max": 20
+  "en": "Crown Shield",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:021:name",
   "addr": "0A91A4",
   "kind": "name",
   "jp": "サイレントグレイブ",
-  "en": "",
-  "max": 20
+  "en": "Silent Grave",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:021:kana",
   "addr": "0A91B8",
   "kind": "kana",
   "jp": "さいれんとぐれいぶ",
-  "en": "",
-  "max": 20
+  "en": "Silent Grave",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:021:desc",
   "addr": "0A91CC",
   "kind": "desc",
   "jp": "なし",
-  "en": "",
-  "max": 72
+  "en": "None",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:021:menu",
   "addr": "0A9218",
   "kind": "menu",
   "jp": "サイレントグレイブ",
-  "en": "",
-  "max": 20
+  "en": "Silent Grave",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:022:name",
   "addr": "0A9284",
   "kind": "name",
   "jp": "ライボルトグラスパー",
-  "en": "",
-  "max": 20
+  "en": "Lightbolt Grasper",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:022:kana",
   "addr": "0A9298",
   "kind": "kana",
   "jp": "らいぼるとぐらすぱー",
-  "en": "",
-  "max": 20
+  "en": "Lightbolt Grasper",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:022:desc",
   "addr": "0A92AC",
   "kind": "desc",
   "jp": "なし",
-  "en": "",
-  "max": 72
+  "en": "None",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:022:menu",
   "addr": "0A92F8",
   "kind": "menu",
   "jp": "ライボルトグラスパー",
-  "en": "",
-  "max": 20
+  "en": "Lightbolt Grasper",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:023:name",
   "addr": "0A9364",
   "kind": "name",
   "jp": "レッドヴァンソード",
-  "en": "",
-  "max": 20
+  "en": "Red Van Sword",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:023:kana",
   "addr": "0A9378",
   "kind": "kana",
   "jp": "れっどう゛ぁんそーど",
-  "en": "",
-  "max": 20
+  "en": "Red Van Sword",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:023:desc",
   "addr": "0A938C",
   "kind": "desc",
   "jp": "なし",
-  "en": "",
-  "max": 72
+  "en": "None",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:023:menu",
   "addr": "0A93D8",
   "kind": "menu",
   "jp": "レッドヴァンソード",
-  "en": "",
-  "max": 20
+  "en": "Red Van Sword",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:024:name",
   "addr": "0A9444",
   "kind": "name",
   "jp": "クリスタルブロッカー",
-  "en": "",
-  "max": 20
+  "en": "Crystal Blocker",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:024:kana",
   "addr": "0A9458",
   "kind": "kana",
   "jp": "くりすたるぶろっかー",
-  "en": "",
-  "max": 20
+  "en": "Crystal Blocker",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:024:desc",
   "addr": "0A946C",
   "kind": "desc",
   "jp": "なし",
-  "en": "",
-  "max": 72
+  "en": "None",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:024:menu",
   "addr": "0A94B8",
   "kind": "menu",
   "jp": "クリスタルブロッカー",
-  "en": "",
-  "max": 20
+  "en": "Crystal Blocker",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:025:name",
   "addr": "0A9524",
   "kind": "name",
   "jp": "青銅の槍",
-  "en": "",
-  "max": 20
+  "en": "Bronze Spear",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:025:kana",
   "addr": "0A9538",
   "kind": "kana",
   "jp": "せいどうのやり",
-  "en": "",
-  "max": 20
+  "en": "Bronze Spear",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:025:desc",
   "addr": "0A954C",
   "kind": "desc",
   "jp": "青銅でできた槍",
-  "en": "",
-  "max": 72
+  "en": "Spear made of bronze",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:025:menu",
   "addr": "0A9598",
   "kind": "menu",
   "jp": "せいどうのヤリ",
-  "en": "",
-  "max": 20
+  "en": "Bronze Spear",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:026:name",
   "addr": "0A9604",
   "kind": "name",
   "jp": "銅の槍",
-  "en": "",
-  "max": 20
+  "en": "Copper Spear",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:026:kana",
   "addr": "0A9618",
   "kind": "kana",
   "jp": "どうのやり",
-  "en": "",
-  "max": 20
+  "en": "Copper Spear",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:026:desc",
   "addr": "0A962C",
   "kind": "desc",
   "jp": "銅でできた槍",
-  "en": "",
-  "max": 72
+  "en": "Spear made of copper",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:026:menu",
   "addr": "0A9678",
   "kind": "menu",
   "jp": "どうのヤリ",
-  "en": "",
-  "max": 20
+  "en": "Copper Spear",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:027:name",
   "addr": "0A96E4",
   "kind": "name",
   "jp": "鉄の槍",
-  "en": "",
-  "max": 20
+  "en": "Iron Spear",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:027:kana",
   "addr": "0A96F8",
   "kind": "kana",
   "jp": "てつのやり",
-  "en": "",
-  "max": 20
+  "en": "Iron Spear",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:027:desc",
   "addr": "0A970C",
   "kind": "desc",
   "jp": "鉄でできた槍",
-  "en": "",
-  "max": 72
+  "en": "Spear made of iron",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:027:menu",
   "addr": "0A9758",
   "kind": "menu",
   "jp": "てつのヤリ",
-  "en": "",
-  "max": 20
+  "en": "Iron Spear",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:028:name",
   "addr": "0A97C4",
   "kind": "name",
   "jp": "鋼の槍",
-  "en": "",
-  "max": 20
+  "en": "Steel Spear",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:028:kana",
   "addr": "0A97D8",
   "kind": "kana",
   "jp": "はがねのやり",
-  "en": "",
-  "max": 20
+  "en": "Steel Spear",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:028:desc",
   "addr": "0A97EC",
   "kind": "desc",
   "jp": "鋼でできた槍",
-  "en": "",
-  "max": 72
+  "en": "Spear made of steel",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:028:menu",
   "addr": "0A9838",
   "kind": "menu",
   "jp": "はがねのヤリ",
-  "en": "",
-  "max": 20
+  "en": "Steel Spear",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:029:name",
   "addr": "0A98A4",
   "kind": "name",
   "jp": "銀の槍",
-  "en": "",
-  "max": 20
+  "en": "Silver Spear",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:029:kana",
   "addr": "0A98B8",
   "kind": "kana",
   "jp": "ぎんのやり",
-  "en": "",
-  "max": 20
+  "en": "Silver Spear",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:029:desc",
   "addr": "0A98CC",
   "kind": "desc",
   "jp": "銀でできた槍",
-  "en": "",
-  "max": 72
+  "en": "Spear made of silver",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:029:menu",
   "addr": "0A9918",
   "kind": "menu",
   "jp": "ぎんのヤリ",
-  "en": "",
-  "max": 20
+  "en": "Silver Spear",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:030:name",
   "addr": "0A9984",
   "kind": "name",
   "jp": "レアメタルの槍",
-  "en": "",
-  "max": 20
+  "en": "Rare Metal Spear",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:030:kana",
   "addr": "0A9998",
   "kind": "kana",
   "jp": "れあめたるのやり",
-  "en": "",
-  "max": 20
+  "en": "Rare Metal Spear",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:030:desc",
   "addr": "0A99AC",
   "kind": "desc",
   "jp": "レアメタルでできた槍",
-  "en": "",
-  "max": 72
+  "en": "Spear made of rare metal",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:030:menu",
   "addr": "0A99F8",
   "kind": "menu",
   "jp": "レアメタルのヤリ",
-  "en": "",
-  "max": 20
+  "en": "Rare Metal Spear",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:031:name",
   "addr": "0A9A64",
   "kind": "name",
   "jp": "ハイメタルの槍",
-  "en": "",
-  "max": 20
+  "en": "High Metal Spear",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:031:kana",
   "addr": "0A9A78",
   "kind": "kana",
   "jp": "はいめたるのやり",
-  "en": "",
-  "max": 20
+  "en": "High Metal Spear",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:031:desc",
   "addr": "0A9A8C",
   "kind": "desc",
   "jp": "ハイメタルでできた槍",
-  "en": "",
-  "max": 72
+  "en": "Spear made of high metal",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:031:menu",
   "addr": "0A9AD8",
   "kind": "menu",
   "jp": "ハイメタルのヤリ",
-  "en": "",
-  "max": 20
+  "en": "High Metal Spear",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:032:name",
   "addr": "0A9B44",
   "kind": "name",
   "jp": "Ｂメタルの槍",
-  "en": "",
-  "max": 20
+  "en": "B-Metal Spear",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:032:kana",
   "addr": "0A9B58",
   "kind": "kana",
   "jp": "びーめたるのやり",
-  "en": "",
-  "max": 20
+  "en": "B-Metal Spear",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:032:desc",
   "addr": "0A9B6C",
   "kind": "desc",
   "jp": "ベカトルテ鋼でできた槍",
-  "en": "",
-  "max": 72
+  "en": "Spear made of Becatorte steel",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:032:menu",
   "addr": "0A9BB8",
   "kind": "menu",
   "jp": "Ｂメタルのヤリ",
-  "en": "",
-  "max": 20
+  "en": "B-Metal Spear",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:033:name",
   "addr": "0A9C24",
   "kind": "name",
   "jp": "バトルスピア",
-  "en": "",
-  "max": 20
+  "en": "Battle Spear",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:033:kana",
   "addr": "0A9C38",
   "kind": "kana",
   "jp": "ばとるすぴあ",
-  "en": "",
-  "max": 20
+  "en": "Battle Spear",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:033:desc",
   "addr": "0A9C4C",
   "kind": "desc",
   "jp": "複合特殊鋼材でできた槍",
-  "en": "",
-  "max": 72
+  "en": "Spear of special composite steel",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:033:menu",
   "addr": "0A9C98",
   "kind": "menu",
   "jp": "バトルスピア",
-  "en": "",
-  "max": 20
+  "en": "Battle Spear",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:034:name",
   "addr": "0A9D04",
   "kind": "name",
   "jp": "マスタースピア",
-  "en": "",
-  "max": 20
+  "en": "Master Spear",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:034:kana",
   "addr": "0A9D18",
   "kind": "kana",
   "jp": "ますたーすぴあ",
-  "en": "",
-  "max": 20
+  "en": "Master Spear",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:034:desc",
   "addr": "0A9D2C",
   "kind": "desc",
   "jp": "不明な非常に強い金属でできた槍",
-  "en": "",
-  "max": 72
+  "en": "Spear of unknown ultra-tough metal",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:034:menu",
   "addr": "0A9D78",
   "kind": "menu",
   "jp": "マスタースピア",
-  "en": "",
-  "max": 20
+  "en": "Master Spear",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:035:name",
   "addr": "0A9DE4",
   "kind": "name",
   "jp": "ブロンズグレイブ",
-  "en": "",
-  "max": 20
+  "en": "Bronze Grave",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:035:kana",
   "addr": "0A9DF8",
   "kind": "kana",
   "jp": "ぶろんずぐれいぶ",
-  "en": "",
-  "max": 20
+  "en": "Bronze Grave",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:035:desc",
   "addr": "0A9E0C",
   "kind": "desc",
   "jp": "青銅でできた槍斧",
-  "en": "",
-  "max": 72
+  "en": "Halberd made of bronze",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:035:menu",
   "addr": "0A9E58",
   "kind": "menu",
   "jp": "ブロンズグレイヴ",
-  "en": "",
-  "max": 20
+  "en": "Bronze Grave",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:036:name",
   "addr": "0A9EC4",
   "kind": "name",
   "jp": "カッパーグレイブ",
-  "en": "",
-  "max": 20
+  "en": "Copper Grave",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:036:kana",
   "addr": "0A9ED8",
   "kind": "kana",
   "jp": "かっぱーぐれいぶ",
-  "en": "",
-  "max": 20
+  "en": "Copper Grave",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:036:desc",
   "addr": "0A9EEC",
   "kind": "desc",
   "jp": "銅でできた槍斧",
-  "en": "",
-  "max": 72
+  "en": "Halberd made of copper",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:036:menu",
   "addr": "0A9F38",
   "kind": "menu",
   "jp": "カッパーグレイヴ",
-  "en": "",
-  "max": 20
+  "en": "Copper Grave",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:037:name",
   "addr": "0A9FA4",
   "kind": "name",
   "jp": "アイアングレイブ",
-  "en": "",
-  "max": 20
+  "en": "Iron Grave",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:037:kana",
   "addr": "0A9FB8",
   "kind": "kana",
   "jp": "あいあんぐれいぶ",
-  "en": "",
-  "max": 20
+  "en": "Iron Grave",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:037:desc",
   "addr": "0A9FCC",
   "kind": "desc",
   "jp": "鉄でできた槍斧",
-  "en": "",
-  "max": 72
+  "en": "Halberd made of iron",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:037:menu",
   "addr": "0AA018",
   "kind": "menu",
   "jp": "アイアングレイヴ",
-  "en": "",
-  "max": 20
+  "en": "Iron Grave",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:038:name",
   "addr": "0AA084",
   "kind": "name",
   "jp": "スティールグレイブ",
-  "en": "",
-  "max": 20
+  "en": "Steel Grave",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:038:kana",
   "addr": "0AA098",
   "kind": "kana",
   "jp": "すてぃーるぐれいぶ",
-  "en": "",
-  "max": 20
+  "en": "Steel Grave",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:038:desc",
   "addr": "0AA0AC",
   "kind": "desc",
   "jp": "鋼でできた槍斧",
-  "en": "",
-  "max": 72
+  "en": "Halberd made of steel",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:038:menu",
   "addr": "0AA0F8",
   "kind": "menu",
   "jp": "スティールグレイヴ",
-  "en": "",
-  "max": 20
+  "en": "Steel Grave",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:039:name",
   "addr": "0AA164",
   "kind": "name",
   "jp": "シルバーグレイブ",
-  "en": "",
-  "max": 20
+  "en": "Silver Grave",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:039:kana",
   "addr": "0AA178",
   "kind": "kana",
   "jp": "しるばーぐれいぶ",
-  "en": "",
-  "max": 20
+  "en": "Silver Grave",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:039:desc",
   "addr": "0AA18C",
   "kind": "desc",
   "jp": "銀でできた槍斧",
-  "en": "",
-  "max": 72
+  "en": "Halberd made of silver",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:039:menu",
   "addr": "0AA1D8",
   "kind": "menu",
   "jp": "シルバーグレイヴ",
-  "en": "",
-  "max": 20
+  "en": "Silver Grave",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:040:name",
   "addr": "0AA244",
   "kind": "name",
   "jp": "レアメタルグレイブ",
-  "en": "",
-  "max": 20
+  "en": "Rare Metal Grave",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:040:kana",
   "addr": "0AA258",
   "kind": "kana",
   "jp": "れあめたるぐれいぶ",
-  "en": "",
-  "max": 20
+  "en": "Rare Metal Grave",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:040:desc",
   "addr": "0AA26C",
   "kind": "desc",
   "jp": "レアメタルでできた槍斧",
-  "en": "",
-  "max": 72
+  "en": "Halberd made of rare metal",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:040:menu",
   "addr": "0AA2B8",
   "kind": "menu",
   "jp": "レアメタルグレイヴ",
-  "en": "",
-  "max": 20
+  "en": "Rare Metal Grave",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:041:name",
   "addr": "0AA324",
   "kind": "name",
   "jp": "ハイメタルグレイブ",
-  "en": "",
-  "max": 20
+  "en": "High Metal Grave",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:041:kana",
   "addr": "0AA338",
   "kind": "kana",
   "jp": "はいめたるぐれいぶ",
-  "en": "",
-  "max": 20
+  "en": "High Metal Grave",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:041:desc",
   "addr": "0AA34C",
   "kind": "desc",
   "jp": "ハイメタルでできた槍斧",
-  "en": "",
-  "max": 72
+  "en": "Halberd made of high metal",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:041:menu",
   "addr": "0AA398",
   "kind": "menu",
   "jp": "ハイメタルグレイヴ",
-  "en": "",
-  "max": 20
+  "en": "High Metal Grave",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:042:name",
   "addr": "0AA404",
   "kind": "name",
   "jp": "Ｂメタルグレイブ",
-  "en": "",
-  "max": 20
+  "en": "B-Metal Grave",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:042:kana",
   "addr": "0AA418",
   "kind": "kana",
   "jp": "びーめたるぐれいぶ",
-  "en": "",
-  "max": 20
+  "en": "B-Metal Grave",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:042:desc",
   "addr": "0AA42C",
   "kind": "desc",
   "jp": "ベカトルテ鋼でできた槍斧",
-  "en": "",
-  "max": 72
+  "en": "Halberd made of Becatorte steel",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:042:menu",
   "addr": "0AA478",
   "kind": "menu",
   "jp": "Ｂメタルグレイヴ",
-  "en": "",
-  "max": 20
+  "en": "B-Metal Grave",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:043:name",
   "addr": "0AA4E4",
   "kind": "name",
   "jp": "バトルグレイブ",
-  "en": "",
-  "max": 20
+  "en": "Battle Grave",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:043:kana",
   "addr": "0AA4F8",
   "kind": "kana",
   "jp": "ばとるぐれいぶ",
-  "en": "",
-  "max": 20
+  "en": "Battle Grave",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:043:desc",
   "addr": "0AA50C",
   "kind": "desc",
   "jp": "複合特殊鋼材でできた槍斧",
-  "en": "",
-  "max": 72
+  "en": "Halberd of special composite steel",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:043:menu",
   "addr": "0AA558",
   "kind": "menu",
   "jp": "バトルグレイヴ",
-  "en": "",
-  "max": 20
+  "en": "Battle Grave",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:044:name",
   "addr": "0AA5C4",
   "kind": "name",
   "jp": "マスターグレイブ",
-  "en": "",
-  "max": 20
+  "en": "Master Grave",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:044:kana",
   "addr": "0AA5D8",
   "kind": "kana",
   "jp": "ますたーぐれいぶ",
-  "en": "",
-  "max": 20
+  "en": "Master Grave",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:044:desc",
   "addr": "0AA5EC",
   "kind": "desc",
   "jp": "不明な非常に強い金属でできた槍斧",
-  "en": "",
-  "max": 72
+  "en": "Halberd of unknown ultra-tough metal",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:044:menu",
   "addr": "0AA638",
   "kind": "menu",
   "jp": "マスターグレイヴ",
-  "en": "",
-  "max": 20
+  "en": "Master Grave",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:045:name",
   "addr": "0AA6A4",
   "kind": "name",
   "jp": "青銅の剣",
-  "en": "",
-  "max": 20
+  "en": "Bronze Sword",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:045:kana",
   "addr": "0AA6B8",
   "kind": "kana",
   "jp": "せいどうのけん",
-  "en": "",
-  "max": 20
+  "en": "Bronze Sword",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:045:desc",
   "addr": "0AA6CC",
   "kind": "desc",
   "jp": "青銅でできた片手剣",
-  "en": "",
-  "max": 72
+  "en": "One-handed sword made of bronze",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:045:menu",
   "addr": "0AA718",
   "kind": "menu",
   "jp": "せいどうのけん",
-  "en": "",
-  "max": 20
+  "en": "Bronze Sword",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:046:name",
   "addr": "0AA784",
   "kind": "name",
   "jp": "銅の剣",
-  "en": "",
-  "max": 20
+  "en": "Copper Sword",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:046:kana",
   "addr": "0AA798",
   "kind": "kana",
   "jp": "どうのけん",
-  "en": "",
-  "max": 20
+  "en": "Copper Sword",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:046:desc",
   "addr": "0AA7AC",
   "kind": "desc",
   "jp": "銅でできた片手剣",
-  "en": "",
-  "max": 72
+  "en": "One-handed sword made of copper",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:046:menu",
   "addr": "0AA7F8",
   "kind": "menu",
   "jp": "どうのけん",
-  "en": "",
-  "max": 20
+  "en": "Copper Sword",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:047:name",
   "addr": "0AA864",
   "kind": "name",
   "jp": "鉄の剣",
-  "en": "",
-  "max": 20
+  "en": "Iron Sword",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:047:kana",
   "addr": "0AA878",
   "kind": "kana",
   "jp": "てつのけん",
-  "en": "",
-  "max": 20
+  "en": "Iron Sword",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:047:desc",
   "addr": "0AA88C",
   "kind": "desc",
   "jp": "鉄でできた片手剣",
-  "en": "",
-  "max": 72
+  "en": "One-handed sword made of iron",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:047:menu",
   "addr": "0AA8D8",
   "kind": "menu",
   "jp": "てつのけん",
-  "en": "",
-  "max": 20
+  "en": "Iron Sword",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:048:name",
   "addr": "0AA944",
   "kind": "name",
   "jp": "鋼の剣",
-  "en": "",
-  "max": 20
+  "en": "Steel Sword",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:048:kana",
   "addr": "0AA958",
   "kind": "kana",
   "jp": "はがねのけん",
-  "en": "",
-  "max": 20
+  "en": "Steel Sword",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:048:desc",
   "addr": "0AA96C",
   "kind": "desc",
   "jp": "鋼でできた片手剣",
-  "en": "",
-  "max": 72
+  "en": "One-handed sword made of steel",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:048:menu",
   "addr": "0AA9B8",
   "kind": "menu",
   "jp": "はがねのけん",
-  "en": "",
-  "max": 20
+  "en": "Steel Sword",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:049:name",
   "addr": "0AAA24",
   "kind": "name",
   "jp": "銀の剣",
-  "en": "",
-  "max": 20
+  "en": "Silver Sword",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:049:kana",
   "addr": "0AAA38",
   "kind": "kana",
   "jp": "ぎんのけん",
-  "en": "",
-  "max": 20
+  "en": "Silver Sword",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:049:desc",
   "addr": "0AAA4C",
   "kind": "desc",
   "jp": "銀でできた片手剣",
-  "en": "",
-  "max": 72
+  "en": "One-handed sword made of silver",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:049:menu",
   "addr": "0AAA98",
   "kind": "menu",
   "jp": "ぎんのけん",
-  "en": "",
-  "max": 20
+  "en": "Silver Sword",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:050:name",
   "addr": "0AAB04",
   "kind": "name",
   "jp": "レアメタルの剣",
-  "en": "",
-  "max": 20
+  "en": "Rare Metal Sword",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:050:kana",
   "addr": "0AAB18",
   "kind": "kana",
   "jp": "れあめたるのけん",
-  "en": "",
-  "max": 20
+  "en": "Rare Metal Sword",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:050:desc",
   "addr": "0AAB2C",
   "kind": "desc",
   "jp": "レアメタルでできた片手剣",
-  "en": "",
-  "max": 72
+  "en": "One-handed sword made of rare metal",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:050:menu",
   "addr": "0AAB78",
   "kind": "menu",
   "jp": "レアメタルのけん",
-  "en": "",
-  "max": 20
+  "en": "Rare Metal Sword",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:051:name",
   "addr": "0AABE4",
   "kind": "name",
   "jp": "ハイメタルの剣",
-  "en": "",
-  "max": 20
+  "en": "High Metal Sword",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:051:kana",
   "addr": "0AABF8",
   "kind": "kana",
   "jp": "はいめたるのけん",
-  "en": "",
-  "max": 20
+  "en": "High Metal Sword",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:051:desc",
   "addr": "0AAC0C",
   "kind": "desc",
   "jp": "ハイメタルでできた片手剣",
-  "en": "",
-  "max": 72
+  "en": "One-handed sword made of high metal",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:051:menu",
   "addr": "0AAC58",
   "kind": "menu",
   "jp": "ハイメタルのけん",
-  "en": "",
-  "max": 20
+  "en": "High Metal Sword",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:052:name",
   "addr": "0AACC4",
   "kind": "name",
   "jp": "Ｂメタルの剣",
-  "en": "",
-  "max": 20
+  "en": "B-Metal Sword",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:052:kana",
   "addr": "0AACD8",
   "kind": "kana",
   "jp": "びーめたるのけん",
-  "en": "",
-  "max": 20
+  "en": "B-Metal Sword",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:052:desc",
   "addr": "0AACEC",
   "kind": "desc",
   "jp": "ベカトルテ鋼でできた片手剣",
-  "en": "",
-  "max": 72
+  "en": "One-handed sword of Becatorte steel",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:052:menu",
   "addr": "0AAD38",
   "kind": "menu",
   "jp": "Ｂメタルのけん",
-  "en": "",
-  "max": 20
+  "en": "B-Metal Sword",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:053:name",
   "addr": "0AADA4",
   "kind": "name",
   "jp": "バトルソード",
-  "en": "",
-  "max": 20
+  "en": "Battle Sword",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:053:kana",
   "addr": "0AADB8",
   "kind": "kana",
   "jp": "ばとるそーど",
-  "en": "",
-  "max": 20
+  "en": "Battle Sword",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:053:desc",
   "addr": "0AADCC",
   "kind": "desc",
   "jp": "複合特殊鋼材でできた片手剣",
-  "en": "",
-  "max": 72
+  "en": "Made of special composite steel",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:053:menu",
   "addr": "0AAE18",
   "kind": "menu",
   "jp": "バトルソード",
-  "en": "",
-  "max": 20
+  "en": "Battle Sword",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:054:name",
   "addr": "0AAE84",
   "kind": "name",
   "jp": "マスターソード",
-  "en": "",
-  "max": 20
+  "en": "Master Sword",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:054:kana",
   "addr": "0AAE98",
   "kind": "kana",
   "jp": "ますたーそーど",
-  "en": "",
-  "max": 20
+  "en": "Master Sword",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:054:desc",
   "addr": "0AAEAC",
   "kind": "desc",
   "jp": "不明な非常に強い金属でできた片手剣",
-  "en": "",
-  "max": 72
+  "en": "Made of unknown ultra-tough metal",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:054:menu",
   "addr": "0AAEF8",
   "kind": "menu",
   "jp": "マスターソード",
-  "en": "",
-  "max": 20
+  "en": "Master Sword",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:055:name",
   "addr": "0AAF64",
   "kind": "name",
   "jp": "青銅の投剣",
-  "en": "",
-  "max": 20
+  "en": "Bronze Dagger",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:055:kana",
   "addr": "0AAF78",
   "kind": "kana",
   "jp": "せいどうのとうけん",
-  "en": "",
-  "max": 20
+  "en": "Bronze Dagger",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:055:desc",
   "addr": "0AAF8C",
   "kind": "desc",
   "jp": "青銅でできた投剣",
-  "en": "",
-  "max": 72
+  "en": "Dagger made of bronze",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:055:menu",
   "addr": "0AAFD8",
   "kind": "menu",
   "jp": "せいどうのとうけん",
-  "en": "",
-  "max": 20
+  "en": "Bronze Dagger",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:056:name",
   "addr": "0AB044",
   "kind": "name",
   "jp": "銅の投剣",
-  "en": "",
-  "max": 20
+  "en": "Copper Dagger",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:056:kana",
   "addr": "0AB058",
   "kind": "kana",
   "jp": "どうのとうけん",
-  "en": "",
-  "max": 20
+  "en": "Copper Dagger",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:056:desc",
   "addr": "0AB06C",
   "kind": "desc",
   "jp": "銅でできた投剣",
-  "en": "",
-  "max": 72
+  "en": "Dagger made of copper",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:056:menu",
   "addr": "0AB0B8",
   "kind": "menu",
   "jp": "どうのとうけん",
-  "en": "",
-  "max": 20
+  "en": "Copper Dagger",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:057:name",
   "addr": "0AB124",
   "kind": "name",
   "jp": "鉄の投剣",
-  "en": "",
-  "max": 20
+  "en": "Iron Dagger",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:057:kana",
   "addr": "0AB138",
   "kind": "kana",
   "jp": "てつのとうけん",
-  "en": "",
-  "max": 20
+  "en": "Iron Dagger",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:057:desc",
   "addr": "0AB14C",
   "kind": "desc",
   "jp": "鉄でできた投剣",
-  "en": "",
-  "max": 72
+  "en": "Dagger made of iron",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:057:menu",
   "addr": "0AB198",
   "kind": "menu",
   "jp": "てつのとうけん",
-  "en": "",
-  "max": 20
+  "en": "Iron Dagger",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:058:name",
   "addr": "0AB204",
   "kind": "name",
   "jp": "鋼の投剣",
-  "en": "",
-  "max": 20
+  "en": "Steel Dagger",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:058:kana",
   "addr": "0AB218",
   "kind": "kana",
   "jp": "はがねのとうけん",
-  "en": "",
-  "max": 20
+  "en": "Steel Dagger",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:058:desc",
   "addr": "0AB22C",
   "kind": "desc",
   "jp": "鋼でできた投剣",
-  "en": "",
-  "max": 72
+  "en": "Dagger made of steel",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:058:menu",
   "addr": "0AB278",
   "kind": "menu",
   "jp": "はがねのとうけん",
-  "en": "",
-  "max": 20
+  "en": "Steel Dagger",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:059:name",
   "addr": "0AB2E4",
   "kind": "name",
   "jp": "銀の投剣",
-  "en": "",
-  "max": 20
+  "en": "Silver Dagger",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:059:kana",
   "addr": "0AB2F8",
   "kind": "kana",
   "jp": "ぎんのとうけん",
-  "en": "",
-  "max": 20
+  "en": "Silver Dagger",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:059:desc",
   "addr": "0AB30C",
   "kind": "desc",
   "jp": "銀でできた投剣",
-  "en": "",
-  "max": 72
+  "en": "Dagger made of silver",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:059:menu",
   "addr": "0AB358",
   "kind": "menu",
   "jp": "ぎんのとうけん",
-  "en": "",
-  "max": 20
+  "en": "Silver Dagger",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:060:name",
   "addr": "0AB3C4",
   "kind": "name",
   "jp": "レアメタルの投剣",
-  "en": "",
-  "max": 20
+  "en": "Rare Metal Dagger",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:060:kana",
   "addr": "0AB3D8",
   "kind": "kana",
   "jp": "れあめたるのとうけん",
-  "en": "",
-  "max": 20
+  "en": "Rare Metal Dagger",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:060:desc",
   "addr": "0AB3EC",
   "kind": "desc",
   "jp": "レアメタルでできた投剣",
-  "en": "",
-  "max": 72
+  "en": "Dagger made of rare metal",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:060:menu",
   "addr": "0AB438",
   "kind": "menu",
   "jp": "レアメタルのとうけん",
-  "en": "",
-  "max": 20
+  "en": "Rare Metal Dagger",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:061:name",
   "addr": "0AB4A4",
   "kind": "name",
   "jp": "ハイメタルの投剣",
-  "en": "",
-  "max": 20
+  "en": "High Metal Dagger",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:061:kana",
   "addr": "0AB4B8",
   "kind": "kana",
   "jp": "はいめたるのとうけん",
-  "en": "",
-  "max": 20
+  "en": "High Metal Dagger",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:061:desc",
   "addr": "0AB4CC",
   "kind": "desc",
   "jp": "ハイメタルでできた投剣",
-  "en": "",
-  "max": 72
+  "en": "Dagger made of high metal",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:061:menu",
   "addr": "0AB518",
   "kind": "menu",
   "jp": "ハイメタルのとうけん",
-  "en": "",
-  "max": 20
+  "en": "High Metal Dagger",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:062:name",
   "addr": "0AB584",
   "kind": "name",
   "jp": "Ｂメタルの投剣",
-  "en": "",
-  "max": 20
+  "en": "B-Metal Dagger",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:062:kana",
   "addr": "0AB598",
   "kind": "kana",
   "jp": "びーめたるのとうけん",
-  "en": "",
-  "max": 20
+  "en": "B-Metal Dagger",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:062:desc",
   "addr": "0AB5AC",
   "kind": "desc",
   "jp": "ベカトルテ鋼でできた投剣",
-  "en": "",
-  "max": 72
+  "en": "Dagger made of Becatorte steel",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:062:menu",
   "addr": "0AB5F8",
   "kind": "menu",
   "jp": "Ｂメタルのとうけん",
-  "en": "",
-  "max": 20
+  "en": "B-Metal Dagger",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:063:name",
   "addr": "0AB664",
   "kind": "name",
   "jp": "バトルナイフ",
-  "en": "",
-  "max": 20
+  "en": "Battle Knife",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:063:kana",
   "addr": "0AB678",
   "kind": "kana",
   "jp": "ばとるないふ",
-  "en": "",
-  "max": 20
+  "en": "Battle Knife",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:063:desc",
   "addr": "0AB68C",
   "kind": "desc",
   "jp": "複合特殊鋼材でできた投剣",
-  "en": "",
-  "max": 72
+  "en": "Dagger of special composite steel",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:063:menu",
   "addr": "0AB6D8",
   "kind": "menu",
   "jp": "バトルナイフ",
-  "en": "",
-  "max": 20
+  "en": "Battle Knife",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:064:name",
   "addr": "0AB744",
   "kind": "name",
   "jp": "マスターナイフ",
-  "en": "",
-  "max": 20
+  "en": "Master Knife",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:064:kana",
   "addr": "0AB758",
   "kind": "kana",
   "jp": "ますたーないふ",
-  "en": "",
-  "max": 20
+  "en": "Master Knife",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:064:desc",
   "addr": "0AB76C",
   "kind": "desc",
   "jp": "不明な非常に強い金属でできた投剣",
-  "en": "",
-  "max": 72
+  "en": "Dagger of unknown ultra-tough metal",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:064:menu",
   "addr": "0AB7B8",
   "kind": "menu",
   "jp": "マスターナイフ",
-  "en": "",
-  "max": 20
+  "en": "Master Knife",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:065:name",
   "addr": "0AB824",
   "kind": "name",
   "jp": "青銅の大剣",
-  "en": "",
-  "max": 20
+  "en": "Bronze Claymore",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:065:kana",
   "addr": "0AB838",
   "kind": "kana",
   "jp": "せいどうのたいけん",
-  "en": "",
-  "max": 20
+  "en": "Bronze Claymore",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:065:desc",
   "addr": "0AB84C",
   "kind": "desc",
   "jp": "青銅でできた両手剣",
-  "en": "",
-  "max": 72
+  "en": "Two-handed sword made of bronze",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:065:menu",
   "addr": "0AB898",
   "kind": "menu",
   "jp": "せいどうのたいけん",
-  "en": "",
-  "max": 20
+  "en": "Bronze Claymore",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:066:name",
   "addr": "0AB904",
   "kind": "name",
   "jp": "銅の大剣",
-  "en": "",
-  "max": 20
+  "en": "Copper Claymore",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:066:kana",
   "addr": "0AB918",
   "kind": "kana",
   "jp": "どうのたいけん",
-  "en": "",
-  "max": 20
+  "en": "Copper Claymore",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:066:desc",
   "addr": "0AB92C",
   "kind": "desc",
   "jp": "銅でできた両手剣",
-  "en": "",
-  "max": 72
+  "en": "Two-handed sword made of copper",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:066:menu",
   "addr": "0AB978",
   "kind": "menu",
   "jp": "どうのたいけん",
-  "en": "",
-  "max": 20
+  "en": "Copper Claymore",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:067:name",
   "addr": "0AB9E4",
   "kind": "name",
   "jp": "鉄の大剣",
-  "en": "",
-  "max": 20
+  "en": "Iron Claymore",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:067:kana",
   "addr": "0AB9F8",
   "kind": "kana",
   "jp": "てつのたいけん",
-  "en": "",
-  "max": 20
+  "en": "Iron Claymore",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:067:desc",
   "addr": "0ABA0C",
   "kind": "desc",
   "jp": "鉄でできた両手剣",
-  "en": "",
-  "max": 72
+  "en": "Two-handed sword made of iron",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:067:menu",
   "addr": "0ABA58",
   "kind": "menu",
   "jp": "てつのたいけん",
-  "en": "",
-  "max": 20
+  "en": "Iron Claymore",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:068:name",
   "addr": "0ABAC4",
   "kind": "name",
   "jp": "鋼の大剣",
-  "en": "",
-  "max": 20
+  "en": "Steel Claymore",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:068:kana",
   "addr": "0ABAD8",
   "kind": "kana",
   "jp": "はがねのたいけん",
-  "en": "",
-  "max": 20
+  "en": "Steel Claymore",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:068:desc",
   "addr": "0ABAEC",
   "kind": "desc",
   "jp": "鋼でできた両手剣",
-  "en": "",
-  "max": 72
+  "en": "Two-handed sword made of steel",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:068:menu",
   "addr": "0ABB38",
   "kind": "menu",
   "jp": "はがねのたいけん",
-  "en": "",
-  "max": 20
+  "en": "Steel Claymore",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:069:name",
   "addr": "0ABBA4",
   "kind": "name",
   "jp": "銀の大剣",
-  "en": "",
-  "max": 20
+  "en": "Silver Claymore",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:069:kana",
   "addr": "0ABBB8",
   "kind": "kana",
   "jp": "ぎんのたいけん",
-  "en": "",
-  "max": 20
+  "en": "Silver Claymore",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:069:desc",
   "addr": "0ABBCC",
   "kind": "desc",
   "jp": "銀でできた両手剣",
-  "en": "",
-  "max": 72
+  "en": "Two-handed sword made of silver",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:069:menu",
   "addr": "0ABC18",
   "kind": "menu",
   "jp": "ぎんのたいけん",
-  "en": "",
-  "max": 20
+  "en": "Silver Claymore",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:070:name",
   "addr": "0ABC84",
   "kind": "name",
   "jp": "レアメタルの大剣",
-  "en": "",
-  "max": 20
+  "en": "Rare Metal Claymore",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:070:kana",
   "addr": "0ABC98",
   "kind": "kana",
   "jp": "れあめたるのたいけん",
-  "en": "",
-  "max": 20
+  "en": "Rare Metal Claymore",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:070:desc",
   "addr": "0ABCAC",
   "kind": "desc",
   "jp": "レアメタルでできた両手剣",
-  "en": "",
-  "max": 72
+  "en": "Two-handed sword made of rare metal",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:070:menu",
   "addr": "0ABCF8",
   "kind": "menu",
   "jp": "レアメタルのたいけん",
-  "en": "",
-  "max": 20
+  "en": "Rare Metal Claymore",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:071:name",
   "addr": "0ABD64",
   "kind": "name",
   "jp": "ハイメタルの大剣",
-  "en": "",
-  "max": 20
+  "en": "High Metal Claymore",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:071:kana",
   "addr": "0ABD78",
   "kind": "kana",
   "jp": "はいめたるのたいけん",
-  "en": "",
-  "max": 20
+  "en": "High Metal Claymore",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:071:desc",
   "addr": "0ABD8C",
   "kind": "desc",
   "jp": "ハイメタルでできた両手剣",
-  "en": "",
-  "max": 72
+  "en": "Two-handed sword made of high metal",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:071:menu",
   "addr": "0ABDD8",
   "kind": "menu",
   "jp": "ハイメタルのたいけん",
-  "en": "",
-  "max": 20
+  "en": "High Metal Claymore",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:072:name",
   "addr": "0ABE44",
   "kind": "name",
   "jp": "Ｂメタルの大剣",
-  "en": "",
-  "max": 20
+  "en": "B-Metal Claymore",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:072:kana",
   "addr": "0ABE58",
   "kind": "kana",
   "jp": "びーめたるのたいけん",
-  "en": "",
-  "max": 20
+  "en": "B-Metal Claymore",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:072:desc",
   "addr": "0ABE6C",
   "kind": "desc",
   "jp": "ベカトルテ鋼でできた両手剣",
-  "en": "",
-  "max": 72
+  "en": "Two-handed sword of Becatorte steel",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:072:menu",
   "addr": "0ABEB8",
   "kind": "menu",
   "jp": "Ｂメタルのたいけん",
-  "en": "",
-  "max": 20
+  "en": "B-Metal Claymore",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:073:name",
   "addr": "0ABF24",
   "kind": "name",
   "jp": "バトルブレイド",
-  "en": "",
-  "max": 20
+  "en": "Battle Blade",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:073:kana",
   "addr": "0ABF38",
   "kind": "kana",
   "jp": "ばとるぶれいど",
-  "en": "",
-  "max": 20
+  "en": "Battle Blade",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:073:desc",
   "addr": "0ABF4C",
   "kind": "desc",
   "jp": "複合特殊鋼材でできた両手剣",
-  "en": "",
-  "max": 72
+  "en": "Made of special composite steel",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:073:menu",
   "addr": "0ABF98",
   "kind": "menu",
   "jp": "バトルブレイド",
-  "en": "",
-  "max": 20
+  "en": "Battle Blade",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:074:name",
   "addr": "0AC004",
   "kind": "name",
   "jp": "マスターブレイド",
-  "en": "",
-  "max": 20
+  "en": "Master Blade",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:074:kana",
   "addr": "0AC018",
   "kind": "kana",
   "jp": "ますたーぶれいど",
-  "en": "",
-  "max": 20
+  "en": "Master Blade",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:074:desc",
   "addr": "0AC02C",
   "kind": "desc",
   "jp": "不明な非常に強い金属でできた両手剣",
-  "en": "",
-  "max": 72
+  "en": "Made of unknown ultra-tough metal",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:074:menu",
   "addr": "0AC078",
   "kind": "menu",
   "jp": "マスターブレイド",
-  "en": "",
-  "max": 20
+  "en": "Master Blade",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:075:name",
   "addr": "0AC0E4",
   "kind": "name",
   "jp": "青銅の斧",
-  "en": "",
-  "max": 20
+  "en": "Bronze Axe",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:075:kana",
   "addr": "0AC0F8",
   "kind": "kana",
   "jp": "せいどうのおの",
-  "en": "",
-  "max": 20
+  "en": "Bronze Axe",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:075:desc",
   "addr": "0AC10C",
   "kind": "desc",
   "jp": "青銅でできた斧",
-  "en": "",
-  "max": 72
+  "en": "Axe made of bronze",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:075:menu",
   "addr": "0AC158",
   "kind": "menu",
   "jp": "せいどうのオノ",
-  "en": "",
-  "max": 20
+  "en": "Bronze Axe",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:076:name",
   "addr": "0AC1C4",
   "kind": "name",
   "jp": "銅の斧",
-  "en": "",
-  "max": 20
+  "en": "Copper Axe",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:076:kana",
   "addr": "0AC1D8",
   "kind": "kana",
   "jp": "どうのおの",
-  "en": "",
-  "max": 20
+  "en": "Copper Axe",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:076:desc",
   "addr": "0AC1EC",
   "kind": "desc",
   "jp": "銅でできた斧",
-  "en": "",
-  "max": 72
+  "en": "Axe made of copper",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:076:menu",
   "addr": "0AC238",
   "kind": "menu",
   "jp": "どうのオノ",
-  "en": "",
-  "max": 20
+  "en": "Copper Axe",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:077:name",
   "addr": "0AC2A4",
   "kind": "name",
   "jp": "鉄の斧",
-  "en": "",
-  "max": 20
+  "en": "Iron Axe",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:077:kana",
   "addr": "0AC2B8",
   "kind": "kana",
   "jp": "てつのおの",
-  "en": "",
-  "max": 20
+  "en": "Iron Axe",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:077:desc",
   "addr": "0AC2CC",
   "kind": "desc",
   "jp": "鉄でできた斧",
-  "en": "",
-  "max": 72
+  "en": "Axe made of iron",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:077:menu",
   "addr": "0AC318",
   "kind": "menu",
   "jp": "てつのオノ",
-  "en": "",
-  "max": 20
+  "en": "Iron Axe",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:078:name",
   "addr": "0AC384",
   "kind": "name",
   "jp": "鋼の斧",
-  "en": "",
-  "max": 20
+  "en": "Steel Axe",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:078:kana",
   "addr": "0AC398",
   "kind": "kana",
   "jp": "はがねのおの",
-  "en": "",
-  "max": 20
+  "en": "Steel Axe",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:078:desc",
   "addr": "0AC3AC",
   "kind": "desc",
   "jp": "鋼でできた斧",
-  "en": "",
-  "max": 72
+  "en": "Axe made of steel",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:078:menu",
   "addr": "0AC3F8",
   "kind": "menu",
   "jp": "はがねのオノ",
-  "en": "",
-  "max": 20
+  "en": "Steel Axe",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:079:name",
   "addr": "0AC464",
   "kind": "name",
   "jp": "銀の斧",
-  "en": "",
-  "max": 20
+  "en": "Silver Axe",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:079:kana",
   "addr": "0AC478",
   "kind": "kana",
   "jp": "ぎんのおの",
-  "en": "",
-  "max": 20
+  "en": "Silver Axe",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:079:desc",
   "addr": "0AC48C",
   "kind": "desc",
   "jp": "銀でできた斧",
-  "en": "",
-  "max": 72
+  "en": "Axe made of silver",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:079:menu",
   "addr": "0AC4D8",
   "kind": "menu",
   "jp": "ぎんのオノ",
-  "en": "",
-  "max": 20
+  "en": "Silver Axe",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:080:name",
   "addr": "0AC544",
   "kind": "name",
   "jp": "レアメタルの斧",
-  "en": "",
-  "max": 20
+  "en": "Rare Metal Axe",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:080:kana",
   "addr": "0AC558",
   "kind": "kana",
   "jp": "れあめたるのおの",
-  "en": "",
-  "max": 20
+  "en": "Rare Metal Axe",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:080:desc",
   "addr": "0AC56C",
   "kind": "desc",
   "jp": "レアメタルでできた斧",
-  "en": "",
-  "max": 72
+  "en": "Axe made of rare metal",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:080:menu",
   "addr": "0AC5B8",
   "kind": "menu",
   "jp": "レアメタルのオノ",
-  "en": "",
-  "max": 20
+  "en": "Rare Metal Axe",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:081:name",
   "addr": "0AC624",
   "kind": "name",
   "jp": "ハイメタルの斧",
-  "en": "",
-  "max": 20
+  "en": "High Metal Axe",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:081:kana",
   "addr": "0AC638",
   "kind": "kana",
   "jp": "はいめたるのおの",
-  "en": "",
-  "max": 20
+  "en": "High Metal Axe",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:081:desc",
   "addr": "0AC64C",
   "kind": "desc",
   "jp": "ハイメタルでできた斧",
-  "en": "",
-  "max": 72
+  "en": "Axe made of high metal",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:081:menu",
   "addr": "0AC698",
   "kind": "menu",
   "jp": "ハイメタルのオノ",
-  "en": "",
-  "max": 20
+  "en": "High Metal Axe",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:082:name",
   "addr": "0AC704",
   "kind": "name",
   "jp": "Ｂメタルの斧",
-  "en": "",
-  "max": 20
+  "en": "B-Metal Axe",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:082:kana",
   "addr": "0AC718",
   "kind": "kana",
   "jp": "びーめたるのおの",
-  "en": "",
-  "max": 20
+  "en": "B-Metal Axe",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:082:desc",
   "addr": "0AC72C",
   "kind": "desc",
   "jp": "ベカトルテ鋼でできた斧",
-  "en": "",
-  "max": 72
+  "en": "Axe made of Becatorte steel",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:082:menu",
   "addr": "0AC778",
   "kind": "menu",
   "jp": "Ｂメタルのオノ",
-  "en": "",
-  "max": 20
+  "en": "B-Metal Axe",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:083:name",
   "addr": "0AC7E4",
   "kind": "name",
   "jp": "バトルアックス",
-  "en": "",
-  "max": 20
+  "en": "Battle Axe",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:083:kana",
   "addr": "0AC7F8",
   "kind": "kana",
   "jp": "ばとるあっくす",
-  "en": "",
-  "max": 20
+  "en": "Battle Axe",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:083:desc",
   "addr": "0AC80C",
   "kind": "desc",
   "jp": "複合特殊鋼材でできた斧",
-  "en": "",
-  "max": 72
+  "en": "Axe of special composite steel",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:083:menu",
   "addr": "0AC858",
   "kind": "menu",
   "jp": "バトルアックス",
-  "en": "",
-  "max": 20
+  "en": "Battle Axe",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:084:name",
   "addr": "0AC8C4",
   "kind": "name",
   "jp": "マスターアックス",
-  "en": "",
-  "max": 20
+  "en": "Master Axe",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:084:kana",
   "addr": "0AC8D8",
   "kind": "kana",
   "jp": "ますたーあっくす",
-  "en": "",
-  "max": 20
+  "en": "Master Axe",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:084:desc",
   "addr": "0AC8EC",
   "kind": "desc",
   "jp": "不明な非常に強い金属でできた斧",
-  "en": "",
-  "max": 72
+  "en": "Axe of unknown ultra-tough metal",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:084:menu",
   "addr": "0AC938",
   "kind": "menu",
   "jp": "マスターアックス",
-  "en": "",
-  "max": 20
+  "en": "Master Axe",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:085:name",
   "addr": "0AC9A4",
   "kind": "name",
   "jp": "青銅の槌",
-  "en": "",
-  "max": 20
+  "en": "Bronze Mallet",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:085:kana",
   "addr": "0AC9B8",
   "kind": "kana",
   "jp": "せいどうのつち",
-  "en": "",
-  "max": 20
+  "en": "Bronze Mallet",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:085:desc",
   "addr": "0AC9CC",
   "kind": "desc",
   "jp": "青銅でできた槌",
-  "en": "",
-  "max": 72
+  "en": "Mallet made of bronze",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:085:menu",
   "addr": "0ACA18",
   "kind": "menu",
   "jp": "せいどうのツチ",
-  "en": "",
-  "max": 20
+  "en": "Bronze Mallet",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:086:name",
   "addr": "0ACA84",
   "kind": "name",
   "jp": "銅の槌",
-  "en": "",
-  "max": 20
+  "en": "Copper Mallet",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:086:kana",
   "addr": "0ACA98",
   "kind": "kana",
   "jp": "どうのつち",
-  "en": "",
-  "max": 20
+  "en": "Copper Mallet",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:086:desc",
   "addr": "0ACAAC",
   "kind": "desc",
   "jp": "銅でできた槌",
-  "en": "",
-  "max": 72
+  "en": "Mallet made of copper",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:086:menu",
   "addr": "0ACAF8",
   "kind": "menu",
   "jp": "どうのツチ",
-  "en": "",
-  "max": 20
+  "en": "Copper Mallet",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:087:name",
   "addr": "0ACB64",
   "kind": "name",
   "jp": "鉄の槌",
-  "en": "",
-  "max": 20
+  "en": "Iron Mallet",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:087:kana",
   "addr": "0ACB78",
   "kind": "kana",
   "jp": "てつのつち",
-  "en": "",
-  "max": 20
+  "en": "Iron Mallet",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:087:desc",
   "addr": "0ACB8C",
   "kind": "desc",
   "jp": "鉄でできた槌",
-  "en": "",
-  "max": 72
+  "en": "Mallet made of iron",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:087:menu",
   "addr": "0ACBD8",
   "kind": "menu",
   "jp": "てつのツチ",
-  "en": "",
-  "max": 20
+  "en": "Iron Mallet",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:088:name",
   "addr": "0ACC44",
   "kind": "name",
   "jp": "鋼の槌",
-  "en": "",
-  "max": 20
+  "en": "Steel Mallet",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:088:kana",
   "addr": "0ACC58",
   "kind": "kana",
   "jp": "はがねのつち",
-  "en": "",
-  "max": 20
+  "en": "Steel Mallet",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:088:desc",
   "addr": "0ACC6C",
   "kind": "desc",
   "jp": "鋼でできた槌",
-  "en": "",
-  "max": 72
+  "en": "Mallet made of steel",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:088:menu",
   "addr": "0ACCB8",
   "kind": "menu",
   "jp": "はがねのツチ",
-  "en": "",
-  "max": 20
+  "en": "Steel Mallet",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:089:name",
   "addr": "0ACD24",
   "kind": "name",
   "jp": "銀の槌",
-  "en": "",
-  "max": 20
+  "en": "Silver Mallet",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:089:kana",
   "addr": "0ACD38",
   "kind": "kana",
   "jp": "ぎんのつち",
-  "en": "",
-  "max": 20
+  "en": "Silver Mallet",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:089:desc",
   "addr": "0ACD4C",
   "kind": "desc",
   "jp": "銀でできた槌",
-  "en": "",
-  "max": 72
+  "en": "Mallet made of silver",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:089:menu",
   "addr": "0ACD98",
   "kind": "menu",
   "jp": "ぎんのツチ",
-  "en": "",
-  "max": 20
+  "en": "Silver Mallet",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:090:name",
   "addr": "0ACE04",
   "kind": "name",
   "jp": "レアメタルの槌",
-  "en": "",
-  "max": 20
+  "en": "Rare Metal Mallet",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:090:kana",
   "addr": "0ACE18",
   "kind": "kana",
   "jp": "れあめたるのつち",
-  "en": "",
-  "max": 20
+  "en": "Rare Metal Mallet",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:090:desc",
   "addr": "0ACE2C",
   "kind": "desc",
   "jp": "レアメタルでできた槌",
-  "en": "",
-  "max": 72
+  "en": "Mallet made of rare metal",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:090:menu",
   "addr": "0ACE78",
   "kind": "menu",
   "jp": "レアメタルのツチ",
-  "en": "",
-  "max": 20
+  "en": "Rare Metal Mallet",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:091:name",
   "addr": "0ACEE4",
   "kind": "name",
   "jp": "ハイメタルの槌",
-  "en": "",
-  "max": 20
+  "en": "High Metal Mallet",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:091:kana",
   "addr": "0ACEF8",
   "kind": "kana",
   "jp": "はいめたるのつち",
-  "en": "",
-  "max": 20
+  "en": "High Metal Mallet",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:091:desc",
   "addr": "0ACF0C",
   "kind": "desc",
   "jp": "ハイメタルでできた槌",
-  "en": "",
-  "max": 72
+  "en": "Mallet made of high metal",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:091:menu",
   "addr": "0ACF58",
   "kind": "menu",
   "jp": "ハイメタルのツチ",
-  "en": "",
-  "max": 20
+  "en": "High Metal Mallet",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:092:name",
   "addr": "0ACFC4",
   "kind": "name",
   "jp": "Ｂメタルの槌",
-  "en": "",
-  "max": 20
+  "en": "B-Metal Mallet",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:092:kana",
   "addr": "0ACFD8",
   "kind": "kana",
   "jp": "びーめたるのつち",
-  "en": "",
-  "max": 20
+  "en": "B-Metal Mallet",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:092:desc",
   "addr": "0ACFEC",
   "kind": "desc",
   "jp": "ベカトルテ鋼でできた槌",
-  "en": "",
-  "max": 72
+  "en": "Mallet made of Becatorte steel",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:092:menu",
   "addr": "0AD038",
   "kind": "menu",
   "jp": "Ｂメタルのツチ",
-  "en": "",
-  "max": 20
+  "en": "B-Metal Mallet",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:093:name",
   "addr": "0AD0A4",
   "kind": "name",
   "jp": "バトルハンマー",
-  "en": "",
-  "max": 20
+  "en": "Battle Hammer",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:093:kana",
   "addr": "0AD0B8",
   "kind": "kana",
   "jp": "ばとるはんまー",
-  "en": "",
-  "max": 20
+  "en": "Battle Hammer",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:093:desc",
   "addr": "0AD0CC",
   "kind": "desc",
   "jp": "複合特殊鋼材でできた槌",
-  "en": "",
-  "max": 72
+  "en": "Mallet of special composite steel",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:093:menu",
   "addr": "0AD118",
   "kind": "menu",
   "jp": "バトルハンマー",
-  "en": "",
-  "max": 20
+  "en": "Battle Hammer",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:094:name",
   "addr": "0AD184",
   "kind": "name",
   "jp": "マスターハンマー",
-  "en": "",
-  "max": 20
+  "en": "Master Hammer",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:094:kana",
   "addr": "0AD198",
   "kind": "kana",
   "jp": "ますたーはんまー",
-  "en": "",
-  "max": 20
+  "en": "Master Hammer",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:094:desc",
   "addr": "0AD1AC",
   "kind": "desc",
   "jp": "不明な非常に強い金属でできた槌",
-  "en": "",
-  "max": 72
+  "en": "Mallet of unknown ultra-tough metal",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:094:menu",
   "addr": "0AD1F8",
   "kind": "menu",
   "jp": "マスターハンマー",
-  "en": "",
-  "max": 20
+  "en": "Master Hammer",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:095:name",
   "addr": "0AD264",
   "kind": "name",
   "jp": "ブロンズボウ",
-  "en": "",
-  "max": 20
+  "en": "Bronze Bow",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:095:kana",
   "addr": "0AD278",
   "kind": "kana",
   "jp": "ぶろんずぼう",
-  "en": "",
-  "max": 20
+  "en": "Bronze Bow",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:095:desc",
   "addr": "0AD28C",
   "kind": "desc",
   "jp": "青銅で強化した合成弓",
-  "en": "",
-  "max": 72
+  "en": "Bow reinforced with bronze",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:095:menu",
   "addr": "0AD2D8",
   "kind": "menu",
   "jp": "ブロンズボウ",
-  "en": "",
-  "max": 20
+  "en": "Bronze Bow",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:096:name",
   "addr": "0AD344",
   "kind": "name",
   "jp": "カッパーボウ",
-  "en": "",
-  "max": 20
+  "en": "Copper Bow",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:096:kana",
   "addr": "0AD358",
   "kind": "kana",
   "jp": "かっぱーぼう",
-  "en": "",
-  "max": 20
+  "en": "Copper Bow",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:096:desc",
   "addr": "0AD36C",
   "kind": "desc",
   "jp": "銅で強化した合成弓",
-  "en": "",
-  "max": 72
+  "en": "Bow reinforced with copper",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:096:menu",
   "addr": "0AD3B8",
   "kind": "menu",
   "jp": "カッパーボウ",
-  "en": "",
-  "max": 20
+  "en": "Copper Bow",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:097:name",
   "addr": "0AD424",
   "kind": "name",
   "jp": "アイアンボウ",
-  "en": "",
-  "max": 20
+  "en": "Iron Bow",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:097:kana",
   "addr": "0AD438",
   "kind": "kana",
   "jp": "あいあんぼう",
-  "en": "",
-  "max": 20
+  "en": "Iron Bow",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:097:desc",
   "addr": "0AD44C",
   "kind": "desc",
   "jp": "鉄で強化した合成弓",
-  "en": "",
-  "max": 72
+  "en": "Bow reinforced with iron",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:097:menu",
   "addr": "0AD498",
   "kind": "menu",
   "jp": "アイアンボウ",
-  "en": "",
-  "max": 20
+  "en": "Iron Bow",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:098:name",
   "addr": "0AD504",
   "kind": "name",
   "jp": "スティールボウ",
-  "en": "",
-  "max": 20
+  "en": "Steel Bow",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:098:kana",
   "addr": "0AD518",
   "kind": "kana",
   "jp": "すてぃーるぼう",
-  "en": "",
-  "max": 20
+  "en": "Steel Bow",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:098:desc",
   "addr": "0AD52C",
   "kind": "desc",
   "jp": "鋼で強化した合成弓",
-  "en": "",
-  "max": 72
+  "en": "Bow reinforced with steel",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:098:menu",
   "addr": "0AD578",
   "kind": "menu",
   "jp": "スティールボウ",
-  "en": "",
-  "max": 20
+  "en": "Steel Bow",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:099:name",
   "addr": "0AD5E4",
   "kind": "name",
   "jp": "シルバーボウ",
-  "en": "",
-  "max": 20
+  "en": "Silver Bow",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:099:kana",
   "addr": "0AD5F8",
   "kind": "kana",
   "jp": "しるばーぼう",
-  "en": "",
-  "max": 20
+  "en": "Silver Bow",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:099:desc",
   "addr": "0AD60C",
   "kind": "desc",
   "jp": "銀で強化した合成弓",
-  "en": "",
-  "max": 72
+  "en": "Bow reinforced with silver",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:099:menu",
   "addr": "0AD658",
   "kind": "menu",
   "jp": "シルバーボウ",
-  "en": "",
-  "max": 20
+  "en": "Silver Bow",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:100:name",
   "addr": "0AD6C4",
   "kind": "name",
   "jp": "レアメタルボウ",
-  "en": "",
-  "max": 20
+  "en": "Rare Metal Bow",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:100:kana",
   "addr": "0AD6D8",
   "kind": "kana",
   "jp": "れあめたるぼう",
-  "en": "",
-  "max": 20
+  "en": "Rare Metal Bow",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:100:desc",
   "addr": "0AD6EC",
   "kind": "desc",
   "jp": "レアメタルで強化した合成弓",
-  "en": "",
-  "max": 72
+  "en": "Bow reinforced with rare metal",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:100:menu",
   "addr": "0AD738",
   "kind": "menu",
   "jp": "レアメタルボウ",
-  "en": "",
-  "max": 20
+  "en": "Rare Metal Bow",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:101:name",
   "addr": "0AD7A4",
   "kind": "name",
   "jp": "ハイメタルボウ",
-  "en": "",
-  "max": 20
+  "en": "High Metal Bow",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:101:kana",
   "addr": "0AD7B8",
   "kind": "kana",
   "jp": "はいめたるぼう",
-  "en": "",
-  "max": 20
+  "en": "High Metal Bow",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:101:desc",
   "addr": "0AD7CC",
   "kind": "desc",
   "jp": "ハイメタルで強化した合成弓",
-  "en": "",
-  "max": 72
+  "en": "Bow reinforced with high metal",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:101:menu",
   "addr": "0AD818",
   "kind": "menu",
   "jp": "ハイメタルボウ",
-  "en": "",
-  "max": 20
+  "en": "High Metal Bow",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:102:name",
   "addr": "0AD884",
   "kind": "name",
   "jp": "Ｂメタルボウ",
-  "en": "",
-  "max": 20
+  "en": "B-Metal Bow",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:102:kana",
   "addr": "0AD898",
   "kind": "kana",
   "jp": "Ｂめたるぼう",
-  "en": "",
-  "max": 20
+  "en": "B-Metal Bow",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:102:desc",
   "addr": "0AD8AC",
   "kind": "desc",
   "jp": "ベカトルテ鋼で強化した合成弓",
-  "en": "",
-  "max": 72
+  "en": "Bow reinforced with Becatorte steel",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:102:menu",
   "addr": "0AD8F8",
   "kind": "menu",
   "jp": "Ｂメタルボウ",
-  "en": "",
-  "max": 20
+  "en": "B-Metal Bow",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:103:name",
   "addr": "0AD964",
   "kind": "name",
   "jp": "バトルボウ",
-  "en": "",
-  "max": 20
+  "en": "Battle Bow",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:103:kana",
   "addr": "0AD978",
   "kind": "kana",
   "jp": "ばとるぼう",
-  "en": "",
-  "max": 20
+  "en": "Battle Bow",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:103:desc",
   "addr": "0AD98C",
   "kind": "desc",
   "jp": "複合特殊鋼材で強化した合成弓",
-  "en": "",
-  "max": 72
+  "en": "Bow with special composite steel",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:103:menu",
   "addr": "0AD9D8",
   "kind": "menu",
   "jp": "バトルボウ",
-  "en": "",
-  "max": 20
+  "en": "Battle Bow",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:104:name",
   "addr": "0ADA44",
   "kind": "name",
   "jp": "マスターボウ",
-  "en": "",
-  "max": 20
+  "en": "Master Bow",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:104:kana",
   "addr": "0ADA58",
   "kind": "kana",
   "jp": "ますたーぼう",
-  "en": "",
-  "max": 20
+  "en": "Master Bow",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:104:desc",
   "addr": "0ADA6C",
   "kind": "desc",
   "jp": "不明な非常に強い金属で強化した合成弓",
-  "en": "",
-  "max": 72
+  "en": "Bow with unknown ultra-tough metal",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:104:menu",
   "addr": "0ADAB8",
   "kind": "menu",
   "jp": "マスターボウ",
-  "en": "",
-  "max": 20
+  "en": "Master Bow",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:105:name",
   "addr": "0ADB24",
   "kind": "name",
   "jp": "ブロンズガン",
-  "en": "",
-  "max": 20
+  "en": "Bronze Gun",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:105:kana",
   "addr": "0ADB38",
   "kind": "kana",
   "jp": "ぶろんずがん",
-  "en": "",
-  "max": 20
+  "en": "Bronze Gun",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:105:desc",
   "addr": "0ADB4C",
   "kind": "desc",
   "jp": "青銅でできた銃",
-  "en": "",
-  "max": 72
+  "en": "Gun made of bronze",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:105:menu",
   "addr": "0ADB98",
   "kind": "menu",
   "jp": "ブロンズガン",
-  "en": "",
-  "max": 20
+  "en": "Bronze Gun",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:106:name",
   "addr": "0ADC04",
   "kind": "name",
   "jp": "カッパーガン",
-  "en": "",
-  "max": 20
+  "en": "Copper Gun",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:106:kana",
   "addr": "0ADC18",
   "kind": "kana",
   "jp": "かっぱーがん",
-  "en": "",
-  "max": 20
+  "en": "Copper Gun",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:106:desc",
   "addr": "0ADC2C",
   "kind": "desc",
   "jp": "銅でできた銃",
-  "en": "",
-  "max": 72
+  "en": "Gun made of copper",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:106:menu",
   "addr": "0ADC78",
   "kind": "menu",
   "jp": "カッパーガン",
-  "en": "",
-  "max": 20
+  "en": "Copper Gun",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:107:name",
   "addr": "0ADCE4",
   "kind": "name",
   "jp": "アイアンガン",
-  "en": "",
-  "max": 20
+  "en": "Iron Gun",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:107:kana",
   "addr": "0ADCF8",
   "kind": "kana",
   "jp": "あいあんがん",
-  "en": "",
-  "max": 20
+  "en": "Iron Gun",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:107:desc",
   "addr": "0ADD0C",
   "kind": "desc",
   "jp": "鉄でできた銃",
-  "en": "",
-  "max": 72
+  "en": "Gun made of iron",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:107:menu",
   "addr": "0ADD58",
   "kind": "menu",
   "jp": "アイアンガン",
-  "en": "",
-  "max": 20
+  "en": "Iron Gun",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:108:name",
   "addr": "0ADDC4",
   "kind": "name",
   "jp": "スティールガン",
-  "en": "",
-  "max": 20
+  "en": "Steel Gun",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:108:kana",
   "addr": "0ADDD8",
   "kind": "kana",
   "jp": "すてぃーるがん",
-  "en": "",
-  "max": 20
+  "en": "Steel Gun",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:108:desc",
   "addr": "0ADDEC",
   "kind": "desc",
   "jp": "鋼でできた銃",
-  "en": "",
-  "max": 72
+  "en": "Gun made of steel",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:108:menu",
   "addr": "0ADE38",
   "kind": "menu",
   "jp": "スティールガン",
-  "en": "",
-  "max": 20
+  "en": "Steel Gun",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:109:name",
   "addr": "0ADEA4",
   "kind": "name",
   "jp": "シルバーガン",
-  "en": "",
-  "max": 20
+  "en": "Silver Gun",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:109:kana",
   "addr": "0ADEB8",
   "kind": "kana",
   "jp": "しるばーがん",
-  "en": "",
-  "max": 20
+  "en": "Silver Gun",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:109:desc",
   "addr": "0ADECC",
   "kind": "desc",
   "jp": "銀でできた銃",
-  "en": "",
-  "max": 72
+  "en": "Gun made of silver",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:109:menu",
   "addr": "0ADF18",
   "kind": "menu",
   "jp": "シルバーガン",
-  "en": "",
-  "max": 20
+  "en": "Silver Gun",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:110:name",
   "addr": "0ADF84",
   "kind": "name",
   "jp": "レアメタルガン",
-  "en": "",
-  "max": 20
+  "en": "Rare Metal Gun",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:110:kana",
   "addr": "0ADF98",
   "kind": "kana",
   "jp": "れあめたるがん",
-  "en": "",
-  "max": 20
+  "en": "Rare Metal Gun",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:110:desc",
   "addr": "0ADFAC",
   "kind": "desc",
   "jp": "レアメタルでできた銃",
-  "en": "",
-  "max": 72
+  "en": "Gun made of rare metal",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:110:menu",
   "addr": "0ADFF8",
   "kind": "menu",
   "jp": "レアメタルガン",
-  "en": "",
-  "max": 20
+  "en": "Rare Metal Gun",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:111:name",
   "addr": "0AE064",
   "kind": "name",
   "jp": "ハイメタルガン",
-  "en": "",
-  "max": 20
+  "en": "High Metal Gun",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:111:kana",
   "addr": "0AE078",
   "kind": "kana",
   "jp": "はいめたるがん",
-  "en": "",
-  "max": 20
+  "en": "High Metal Gun",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:111:desc",
   "addr": "0AE08C",
   "kind": "desc",
   "jp": "ハイメタルでできた銃",
-  "en": "",
-  "max": 72
+  "en": "Gun made of high metal",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:111:menu",
   "addr": "0AE0D8",
   "kind": "menu",
   "jp": "ハイメタルガン",
-  "en": "",
-  "max": 20
+  "en": "High Metal Gun",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:112:name",
   "addr": "0AE144",
   "kind": "name",
   "jp": "Ｂメタルガン",
-  "en": "",
-  "max": 20
+  "en": "B-Metal Gun",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:112:kana",
   "addr": "0AE158",
   "kind": "kana",
   "jp": "びーめたるがん",
-  "en": "",
-  "max": 20
+  "en": "B-Metal Gun",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:112:desc",
   "addr": "0AE16C",
   "kind": "desc",
   "jp": "ベカトルテ鋼でできた銃",
-  "en": "",
-  "max": 72
+  "en": "Gun made of Becatorte steel",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:112:menu",
   "addr": "0AE1B8",
   "kind": "menu",
   "jp": "Ｂメタルガン",
-  "en": "",
-  "max": 20
+  "en": "B-Metal Gun",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:113:name",
   "addr": "0AE224",
   "kind": "name",
   "jp": "バトルガン",
-  "en": "",
-  "max": 20
+  "en": "Battle Gun",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:113:kana",
   "addr": "0AE238",
   "kind": "kana",
   "jp": "ばとるがん",
-  "en": "",
-  "max": 20
+  "en": "Battle Gun",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:113:desc",
   "addr": "0AE24C",
   "kind": "desc",
   "jp": "複合特殊鋼材でできた銃",
-  "en": "",
-  "max": 72
+  "en": "Gun of special composite steel",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:113:menu",
   "addr": "0AE298",
   "kind": "menu",
   "jp": "バトルガン",
-  "en": "",
-  "max": 20
+  "en": "Battle Gun",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:114:name",
   "addr": "0AE304",
   "kind": "name",
   "jp": "ガンアームド",
-  "en": "",
-  "max": 20
+  "en": "Gun Armed",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:114:kana",
   "addr": "0AE318",
   "kind": "kana",
   "jp": "がんあーむど",
-  "en": "",
-  "max": 20
+  "en": "Gun Armed",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:114:desc",
   "addr": "0AE32C",
   "kind": "desc",
   "jp": "銃とナックルの長所を持つ武器",
-  "en": "",
-  "max": 72
+  "en": "Has both gun and knuckle strengths",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:114:menu",
   "addr": "0AE378",
   "kind": "menu",
   "jp": "ガンアームド",
-  "en": "",
-  "max": 20
+  "en": "Gun Armed",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:115:name",
   "addr": "0AE3E4",
   "kind": "name",
   "jp": "ブロンズナックル",
-  "en": "",
-  "max": 20
+  "en": "Bronze Knuckles",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:115:kana",
   "addr": "0AE3F8",
   "kind": "kana",
   "jp": "ぶろんずなっくる",
-  "en": "",
-  "max": 20
+  "en": "Bronze Knuckles",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:115:desc",
   "addr": "0AE40C",
   "kind": "desc",
   "jp": "青銅でできたナックル",
-  "en": "",
-  "max": 72
+  "en": "Knuckles made of bronze",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:115:menu",
   "addr": "0AE458",
   "kind": "menu",
   "jp": "ブロンズナックル",
-  "en": "",
-  "max": 20
+  "en": "Bronze Knuckles",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:116:name",
   "addr": "0AE4C4",
   "kind": "name",
   "jp": "カッパーナックル",
-  "en": "",
-  "max": 20
+  "en": "Copper Knuckles",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:116:kana",
   "addr": "0AE4D8",
   "kind": "kana",
   "jp": "かっぱーなっくる",
-  "en": "",
-  "max": 20
+  "en": "Copper Knuckles",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:116:desc",
   "addr": "0AE4EC",
   "kind": "desc",
   "jp": "銅でできたナックル",
-  "en": "",
-  "max": 72
+  "en": "Knuckles made of copper",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:116:menu",
   "addr": "0AE538",
   "kind": "menu",
   "jp": "カッパーナックル",
-  "en": "",
-  "max": 20
+  "en": "Copper Knuckles",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:117:name",
   "addr": "0AE5A4",
   "kind": "name",
   "jp": "アイアンナックル",
-  "en": "",
-  "max": 20
+  "en": "Iron Knuckles",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:117:kana",
   "addr": "0AE5B8",
   "kind": "kana",
   "jp": "あいあんなっくる",
-  "en": "",
-  "max": 20
+  "en": "Iron Knuckles",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:117:desc",
   "addr": "0AE5CC",
   "kind": "desc",
   "jp": "鉄でできたナックル",
-  "en": "",
-  "max": 72
+  "en": "Knuckles made of iron",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:117:menu",
   "addr": "0AE618",
   "kind": "menu",
   "jp": "アイアンナックル",
-  "en": "",
-  "max": 20
+  "en": "Iron Knuckles",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:118:name",
   "addr": "0AE684",
   "kind": "name",
   "jp": "スティールナックル",
-  "en": "",
-  "max": 20
+  "en": "Steel Knuckles",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:118:kana",
   "addr": "0AE698",
   "kind": "kana",
   "jp": "すてぃーるなっくる",
-  "en": "",
-  "max": 20
+  "en": "Steel Knuckles",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:118:desc",
   "addr": "0AE6AC",
   "kind": "desc",
   "jp": "鋼でできたナックル",
-  "en": "",
-  "max": 72
+  "en": "Knuckles made of steel",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:118:menu",
   "addr": "0AE6F8",
   "kind": "menu",
   "jp": "スティールナックル",
-  "en": "",
-  "max": 20
+  "en": "Steel Knuckles",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:119:name",
   "addr": "0AE764",
   "kind": "name",
   "jp": "シルバーナックル",
-  "en": "",
-  "max": 20
+  "en": "Silver Knuckles",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:119:kana",
   "addr": "0AE778",
   "kind": "kana",
   "jp": "しるばーなっくる",
-  "en": "",
-  "max": 20
+  "en": "Silver Knuckles",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:119:desc",
   "addr": "0AE78C",
   "kind": "desc",
   "jp": "銀でできたナックル",
-  "en": "",
-  "max": 72
+  "en": "Knuckles made of silver",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:119:menu",
   "addr": "0AE7D8",
   "kind": "menu",
   "jp": "シルバーナックル",
-  "en": "",
-  "max": 20
+  "en": "Silver Knuckles",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:120:name",
   "addr": "0AE844",
   "kind": "name",
   "jp": "レアメタルナックル",
-  "en": "",
-  "max": 20
+  "en": "Rare Metal Knuckles",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:120:kana",
   "addr": "0AE858",
   "kind": "kana",
   "jp": "れあめたるなっくる",
-  "en": "",
-  "max": 20
+  "en": "Rare Metal Knuckles",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:120:desc",
   "addr": "0AE86C",
   "kind": "desc",
   "jp": "レアメタルでできたナックル",
-  "en": "",
-  "max": 72
+  "en": "Knuckles made of rare metal",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:120:menu",
   "addr": "0AE8B8",
   "kind": "menu",
   "jp": "レアメタルナックル",
-  "en": "",
-  "max": 20
+  "en": "Rare Metal Knuckles",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:121:name",
   "addr": "0AE924",
   "kind": "name",
   "jp": "ハイメタルナックル",
-  "en": "",
-  "max": 20
+  "en": "High Metal Knuckles",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:121:kana",
   "addr": "0AE938",
   "kind": "kana",
   "jp": "はいめたるなっくる",
-  "en": "",
-  "max": 20
+  "en": "High Metal Knuckles",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:121:desc",
   "addr": "0AE94C",
   "kind": "desc",
   "jp": "ハイメタルでできたナックル",
-  "en": "",
-  "max": 72
+  "en": "Knuckles made of high metal",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:121:menu",
   "addr": "0AE998",
   "kind": "menu",
   "jp": "ハイメタルナックル",
-  "en": "",
-  "max": 20
+  "en": "High Metal Knuckles",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:122:name",
   "addr": "0AEA04",
   "kind": "name",
   "jp": "Ｂメタルナックル",
-  "en": "",
-  "max": 20
+  "en": "B-Metal Knuckles",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:122:kana",
   "addr": "0AEA18",
   "kind": "kana",
   "jp": "びーめたるなっくる",
-  "en": "",
-  "max": 20
+  "en": "B-Metal Knuckles",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:122:desc",
   "addr": "0AEA2C",
   "kind": "desc",
   "jp": "ベカトルテ鋼でできたナックル",
-  "en": "",
-  "max": 72
+  "en": "Knuckles made of Becatorte steel",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:122:menu",
   "addr": "0AEA78",
   "kind": "menu",
   "jp": "Ｂメタルナックル",
-  "en": "",
-  "max": 20
+  "en": "B-Metal Knuckles",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:123:name",
   "addr": "0AEAE4",
   "kind": "name",
   "jp": "バトルナックル",
-  "en": "",
-  "max": 20
+  "en": "Battle Knuckles",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:123:kana",
   "addr": "0AEAF8",
   "kind": "kana",
   "jp": "ばとるなっくる",
-  "en": "",
-  "max": 20
+  "en": "Battle Knuckles",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:123:desc",
   "addr": "0AEB0C",
   "kind": "desc",
   "jp": "複合特殊鋼材でできたナックル",
-  "en": "",
-  "max": 72
+  "en": "Knuckles of special composite steel",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:123:menu",
   "addr": "0AEB58",
   "kind": "menu",
   "jp": "バトルナックル",
-  "en": "",
-  "max": 20
+  "en": "Battle Knuckles",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:124:name",
   "addr": "0AEBC4",
   "kind": "name",
   "jp": "ブロンズクロー",
-  "en": "",
-  "max": 20
+  "en": "Bronze Claw",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:124:kana",
   "addr": "0AEBD8",
   "kind": "kana",
   "jp": "ぶろんずくろー",
-  "en": "",
-  "max": 20
+  "en": "Bronze Claw",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:124:desc",
   "addr": "0AEBEC",
   "kind": "desc",
   "jp": "青銅でできた爪",
-  "en": "",
-  "max": 72
+  "en": "Claw made of bronze",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:124:menu",
   "addr": "0AEC38",
   "kind": "menu",
   "jp": "ブロンズクロー",
-  "en": "",
-  "max": 20
+  "en": "Bronze Claw",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:125:name",
   "addr": "0AECA4",
   "kind": "name",
   "jp": "カッパークロー",
-  "en": "",
-  "max": 20
+  "en": "Copper Claw",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:125:kana",
   "addr": "0AECB8",
   "kind": "kana",
   "jp": "かっぱーくろー",
-  "en": "",
-  "max": 20
+  "en": "Copper Claw",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:125:desc",
   "addr": "0AECCC",
   "kind": "desc",
   "jp": "銅でできた爪",
-  "en": "",
-  "max": 72
+  "en": "Claw made of copper",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:125:menu",
   "addr": "0AED18",
   "kind": "menu",
   "jp": "カッパークロー",
-  "en": "",
-  "max": 20
+  "en": "Copper Claw",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:126:name",
   "addr": "0AED84",
   "kind": "name",
   "jp": "アイアンクロー",
-  "en": "",
-  "max": 20
+  "en": "Iron Claw",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:126:kana",
   "addr": "0AED98",
   "kind": "kana",
   "jp": "あいあんくろー",
-  "en": "",
-  "max": 20
+  "en": "Iron Claw",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:126:desc",
   "addr": "0AEDAC",
   "kind": "desc",
   "jp": "鉄でできた爪",
-  "en": "",
-  "max": 72
+  "en": "Claw made of iron",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:126:menu",
   "addr": "0AEDF8",
   "kind": "menu",
   "jp": "アイアンクロー",
-  "en": "",
-  "max": 20
+  "en": "Iron Claw",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:127:name",
   "addr": "0AEE64",
   "kind": "name",
   "jp": "スティールクロー",
-  "en": "",
-  "max": 20
+  "en": "Steel Claw",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:127:kana",
   "addr": "0AEE78",
   "kind": "kana",
   "jp": "すてぃーるくろー",
-  "en": "",
-  "max": 20
+  "en": "Steel Claw",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:127:desc",
   "addr": "0AEE8C",
   "kind": "desc",
   "jp": "鋼でできた爪",
-  "en": "",
-  "max": 72
+  "en": "Claw made of steel",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:127:menu",
   "addr": "0AEED8",
   "kind": "menu",
   "jp": "スティールクロー",
-  "en": "",
-  "max": 20
+  "en": "Steel Claw",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:128:name",
   "addr": "0AEF44",
   "kind": "name",
   "jp": "シルバークロー",
-  "en": "",
-  "max": 20
+  "en": "Silver Claw",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:128:kana",
   "addr": "0AEF58",
   "kind": "kana",
   "jp": "しるばーくろー",
-  "en": "",
-  "max": 20
+  "en": "Silver Claw",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:128:desc",
   "addr": "0AEF6C",
   "kind": "desc",
   "jp": "銀でできた爪",
-  "en": "",
-  "max": 72
+  "en": "Claw made of silver",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:128:menu",
   "addr": "0AEFB8",
   "kind": "menu",
   "jp": "シルバークロー",
-  "en": "",
-  "max": 20
+  "en": "Silver Claw",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:129:name",
   "addr": "0AF024",
   "kind": "name",
   "jp": "レアメタルクロー",
-  "en": "",
-  "max": 20
+  "en": "Rare Metal Claw",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:129:kana",
   "addr": "0AF038",
   "kind": "kana",
   "jp": "れあめたるくろー",
-  "en": "",
-  "max": 20
+  "en": "Rare Metal Claw",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:129:desc",
   "addr": "0AF04C",
   "kind": "desc",
   "jp": "レアメタルでできた爪",
-  "en": "",
-  "max": 72
+  "en": "Claw made of rare metal",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:129:menu",
   "addr": "0AF098",
   "kind": "menu",
   "jp": "レアメタルクロー",
-  "en": "",
-  "max": 20
+  "en": "Rare Metal Claw",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:130:name",
   "addr": "0AF104",
   "kind": "name",
   "jp": "ハイメタルクロー",
-  "en": "",
-  "max": 20
+  "en": "High Metal Claw",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:130:kana",
   "addr": "0AF118",
   "kind": "kana",
   "jp": "はいめたるくろー",
-  "en": "",
-  "max": 20
+  "en": "High Metal Claw",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:130:desc",
   "addr": "0AF12C",
   "kind": "desc",
   "jp": "ハイメタルでできた爪",
-  "en": "",
-  "max": 72
+  "en": "Claw made of high metal",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:130:menu",
   "addr": "0AF178",
   "kind": "menu",
   "jp": "ハイメタルクロー",
-  "en": "",
-  "max": 20
+  "en": "High Metal Claw",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:131:name",
   "addr": "0AF1E4",
   "kind": "name",
   "jp": "Ｂメタルクロー",
-  "en": "",
-  "max": 20
+  "en": "B-Metal Claw",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:131:kana",
   "addr": "0AF1F8",
   "kind": "kana",
   "jp": "びーめたるくろー",
-  "en": "",
-  "max": 20
+  "en": "B-Metal Claw",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:131:desc",
   "addr": "0AF20C",
   "kind": "desc",
   "jp": "ベカトルテ鋼でできた爪",
-  "en": "",
-  "max": 72
+  "en": "Claw made of Becatorte steel",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:131:menu",
   "addr": "0AF258",
   "kind": "menu",
   "jp": "Ｂメタルクロー",
-  "en": "",
-  "max": 20
+  "en": "B-Metal Claw",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:132:name",
   "addr": "0AF2C4",
   "kind": "name",
   "jp": "バトルクロー",
-  "en": "",
-  "max": 20
+  "en": "Battle Claw",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:132:kana",
   "addr": "0AF2D8",
   "kind": "kana",
   "jp": "ばとるくろー",
-  "en": "",
-  "max": 20
+  "en": "Battle Claw",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:132:desc",
   "addr": "0AF2EC",
   "kind": "desc",
   "jp": "複合特殊鋼材でできた爪",
-  "en": "",
-  "max": 72
+  "en": "Claw of special composite steel",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:132:menu",
   "addr": "0AF338",
   "kind": "menu",
   "jp": "バトルクロー",
-  "en": "",
-  "max": 20
+  "en": "Battle Claw",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:133:name",
   "addr": "0AF3A4",
   "kind": "name",
   "jp": "マスタークロー",
-  "en": "",
-  "max": 20
+  "en": "Master Claw",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:133:kana",
   "addr": "0AF3B8",
   "kind": "kana",
   "jp": "ますたーくろー",
-  "en": "",
-  "max": 20
+  "en": "Master Claw",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:133:desc",
   "addr": "0AF3CC",
   "kind": "desc",
   "jp": "不明な非常に強い金属でできた爪",
-  "en": "",
-  "max": 72
+  "en": "Claw of unknown ultra-tough metal",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:133:menu",
   "addr": "0AF418",
   "kind": "menu",
   "jp": "マスタークロー",
-  "en": "",
-  "max": 20
+  "en": "Master Claw",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:134:name",
   "addr": "0AF484",
   "kind": "name",
   "jp": "ブロンズカフス",
-  "en": "",
-  "max": 20
+  "en": "Bronze Cuffs",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:134:kana",
   "addr": "0AF498",
   "kind": "kana",
   "jp": "ぶろんずかふす",
-  "en": "",
-  "max": 20
+  "en": "Bronze Cuffs",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:134:desc",
   "addr": "0AF4AC",
   "kind": "desc",
   "jp": "青銅でできたカフス",
-  "en": "",
-  "max": 72
+  "en": "Cuffs made of bronze",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:134:menu",
   "addr": "0AF4F8",
   "kind": "menu",
   "jp": "ブロンズカフス",
-  "en": "",
-  "max": 20
+  "en": "Bronze Cuffs",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:135:name",
   "addr": "0AF564",
   "kind": "name",
   "jp": "カッパーカフス",
-  "en": "",
-  "max": 20
+  "en": "Copper Cuffs",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:135:kana",
   "addr": "0AF578",
   "kind": "kana",
   "jp": "かっぱーかふす",
-  "en": "",
-  "max": 20
+  "en": "Copper Cuffs",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:135:desc",
   "addr": "0AF58C",
   "kind": "desc",
   "jp": "銅でできたカフス",
-  "en": "",
-  "max": 72
+  "en": "Cuffs made of copper",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:135:menu",
   "addr": "0AF5D8",
   "kind": "menu",
   "jp": "カッパーカフス",
-  "en": "",
-  "max": 20
+  "en": "Copper Cuffs",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:136:name",
   "addr": "0AF644",
   "kind": "name",
   "jp": "アイアンカフス",
-  "en": "",
-  "max": 20
+  "en": "Iron Cuffs",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:136:kana",
   "addr": "0AF658",
   "kind": "kana",
   "jp": "あいあんかふす",
-  "en": "",
-  "max": 20
+  "en": "Iron Cuffs",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:136:desc",
   "addr": "0AF66C",
   "kind": "desc",
   "jp": "鉄でできたカフス",
-  "en": "",
-  "max": 72
+  "en": "Cuffs made of iron",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:136:menu",
   "addr": "0AF6B8",
   "kind": "menu",
   "jp": "アイアンカフス",
-  "en": "",
-  "max": 20
+  "en": "Iron Cuffs",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:137:name",
   "addr": "0AF724",
   "kind": "name",
   "jp": "スティールカフス",
-  "en": "",
-  "max": 20
+  "en": "Steel Cuffs",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:137:kana",
   "addr": "0AF738",
   "kind": "kana",
   "jp": "すてぃーるかふす",
-  "en": "",
-  "max": 20
+  "en": "Steel Cuffs",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:137:desc",
   "addr": "0AF74C",
   "kind": "desc",
   "jp": "鋼でできたカフス",
-  "en": "",
-  "max": 72
+  "en": "Cuffs made of steel",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:137:menu",
   "addr": "0AF798",
   "kind": "menu",
   "jp": "スティールカフス",
-  "en": "",
-  "max": 20
+  "en": "Steel Cuffs",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:138:name",
   "addr": "0AF804",
   "kind": "name",
   "jp": "シルバーカフス",
-  "en": "",
-  "max": 20
+  "en": "Silver Cuffs",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:138:kana",
   "addr": "0AF818",
   "kind": "kana",
   "jp": "しるばーかふす",
-  "en": "",
-  "max": 20
+  "en": "Silver Cuffs",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:138:desc",
   "addr": "0AF82C",
   "kind": "desc",
   "jp": "銀でできたカフス",
-  "en": "",
-  "max": 72
+  "en": "Cuffs made of silver",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:138:menu",
   "addr": "0AF878",
   "kind": "menu",
   "jp": "シルバーカフス",
-  "en": "",
-  "max": 20
+  "en": "Silver Cuffs",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:139:name",
   "addr": "0AF8E4",
   "kind": "name",
   "jp": "レアメタルカフス",
-  "en": "",
-  "max": 20
+  "en": "Rare Metal Cuffs",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:139:kana",
   "addr": "0AF8F8",
   "kind": "kana",
   "jp": "れあめたるかふす",
-  "en": "",
-  "max": 20
+  "en": "Rare Metal Cuffs",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:139:desc",
   "addr": "0AF90C",
   "kind": "desc",
   "jp": "レアメタルでできたカフス",
-  "en": "",
-  "max": 72
+  "en": "Cuffs made of rare metal",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:139:menu",
   "addr": "0AF958",
   "kind": "menu",
   "jp": "レアメタルカフス",
-  "en": "",
-  "max": 20
+  "en": "Rare Metal Cuffs",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:140:name",
   "addr": "0AF9C4",
   "kind": "name",
   "jp": "ハイメタルカフス",
-  "en": "",
-  "max": 20
+  "en": "High Metal Cuffs",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:140:kana",
   "addr": "0AF9D8",
   "kind": "kana",
   "jp": "はいめたるかふす",
-  "en": "",
-  "max": 20
+  "en": "High Metal Cuffs",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:140:desc",
   "addr": "0AF9EC",
   "kind": "desc",
   "jp": "ハイメタルでできたカフス",
-  "en": "",
-  "max": 72
+  "en": "Cuffs made of high metal",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:140:menu",
   "addr": "0AFA38",
   "kind": "menu",
   "jp": "ハイメタルカフス",
-  "en": "",
-  "max": 20
+  "en": "High Metal Cuffs",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:141:name",
   "addr": "0AFAA4",
   "kind": "name",
   "jp": "Ｂメタルカフス",
-  "en": "",
-  "max": 20
+  "en": "B-Metal Cuffs",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:141:kana",
   "addr": "0AFAB8",
   "kind": "kana",
   "jp": "びーめたるかふす",
-  "en": "",
-  "max": 20
+  "en": "B-Metal Cuffs",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:141:desc",
   "addr": "0AFACC",
   "kind": "desc",
   "jp": "ベカトルテ鋼でできたカフス",
-  "en": "",
-  "max": 72
+  "en": "Cuffs made of Becatorte steel",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:141:menu",
   "addr": "0AFB18",
   "kind": "menu",
   "jp": "Ｂメタルカフス",
-  "en": "",
-  "max": 20
+  "en": "B-Metal Cuffs",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:142:name",
   "addr": "0AFB84",
   "kind": "name",
   "jp": "バトルカフス",
-  "en": "",
-  "max": 20
+  "en": "Battle Cuffs",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:142:kana",
   "addr": "0AFB98",
   "kind": "kana",
   "jp": "ばとるかふす",
-  "en": "",
-  "max": 20
+  "en": "Battle Cuffs",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:142:desc",
   "addr": "0AFBAC",
   "kind": "desc",
   "jp": "複合特殊鋼材でできたカフス",
-  "en": "",
-  "max": 72
+  "en": "Cuffs of special composite steel",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:142:menu",
   "addr": "0AFBF8",
   "kind": "menu",
   "jp": "バトルカフス",
-  "en": "",
-  "max": 20
+  "en": "Battle Cuffs",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:143:name",
   "addr": "0AFC64",
   "kind": "name",
   "jp": "マスターカフス",
-  "en": "",
-  "max": 20
+  "en": "Master Cuffs",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:143:kana",
   "addr": "0AFC78",
   "kind": "kana",
   "jp": "ますたーかふす",
-  "en": "",
-  "max": 20
+  "en": "Master Cuffs",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:143:desc",
   "addr": "0AFC8C",
   "kind": "desc",
   "jp": "不明な非常に強い金属でできたカフス",
-  "en": "",
-  "max": 72
+  "en": "Cuffs of unknown ultra-tough metal",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:143:menu",
   "addr": "0AFCD8",
   "kind": "menu",
   "jp": "マスターカフス",
-  "en": "",
-  "max": 20
+  "en": "Master Cuffs",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:144:name",
   "addr": "0AFD44",
   "kind": "name",
   "jp": "青銅の鎖球",
-  "en": "",
-  "max": 20
+  "en": "Bronze Flail",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:144:kana",
   "addr": "0AFD58",
   "kind": "kana",
   "jp": "せいどうのさきゅう",
-  "en": "",
-  "max": 20
+  "en": "Bronze Flail",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:144:desc",
   "addr": "0AFD6C",
   "kind": "desc",
   "jp": "青銅でできた鎖と球",
-  "en": "",
-  "max": 72
+  "en": "Chain and ball made of bronze",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:144:menu",
   "addr": "0AFDB8",
   "kind": "menu",
   "jp": "せいどうのサキュウ",
-  "en": "",
-  "max": 20
+  "en": "Bronze Flail",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:145:name",
   "addr": "0AFE24",
   "kind": "name",
   "jp": "銅の鎖球",
-  "en": "",
-  "max": 20
+  "en": "Copper Flail",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:145:kana",
   "addr": "0AFE38",
   "kind": "kana",
   "jp": "どうのさきゅう",
-  "en": "",
-  "max": 20
+  "en": "Copper Flail",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:145:desc",
   "addr": "0AFE4C",
   "kind": "desc",
   "jp": "銅でできた鎖と球",
-  "en": "",
-  "max": 72
+  "en": "Chain and ball made of copper",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:145:menu",
   "addr": "0AFE98",
   "kind": "menu",
   "jp": "どうのサキュウ",
-  "en": "",
-  "max": 20
+  "en": "Copper Flail",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:146:name",
   "addr": "0AFF04",
   "kind": "name",
   "jp": "鉄の鎖球",
-  "en": "",
-  "max": 20
+  "en": "Iron Flail",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:146:kana",
   "addr": "0AFF18",
   "kind": "kana",
   "jp": "てつのさきゅう",
-  "en": "",
-  "max": 20
+  "en": "Iron Flail",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:146:desc",
   "addr": "0AFF2C",
   "kind": "desc",
   "jp": "鉄でできた鎖と球",
-  "en": "",
-  "max": 72
+  "en": "Chain and ball made of iron",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:146:menu",
   "addr": "0AFF78",
   "kind": "menu",
   "jp": "てつのサキュウ",
-  "en": "",
-  "max": 20
+  "en": "Iron Flail",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:147:name",
   "addr": "0AFFE4",
   "kind": "name",
   "jp": "鋼の鎖球",
-  "en": "",
-  "max": 20
+  "en": "Steel Flail",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:147:kana",
   "addr": "0AFFF8",
   "kind": "kana",
   "jp": "はがねのさきゅう",
-  "en": "",
-  "max": 20
+  "en": "Steel Flail",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:147:desc",
   "addr": "0B000C",
   "kind": "desc",
   "jp": "鋼でできた鎖と球",
-  "en": "",
-  "max": 72
+  "en": "Chain and ball made of steel",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:147:menu",
   "addr": "0B0058",
   "kind": "menu",
   "jp": "はがねのサキュウ",
-  "en": "",
-  "max": 20
+  "en": "Steel Flail",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:148:name",
   "addr": "0B00C4",
   "kind": "name",
   "jp": "銀の鎖球",
-  "en": "",
-  "max": 20
+  "en": "Silver Flail",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:148:kana",
   "addr": "0B00D8",
   "kind": "kana",
   "jp": "ぎんのさきゅう",
-  "en": "",
-  "max": 20
+  "en": "Silver Flail",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:148:desc",
   "addr": "0B00EC",
   "kind": "desc",
   "jp": "銀でできた鎖と球",
-  "en": "",
-  "max": 72
+  "en": "Chain and ball made of silver",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:148:menu",
   "addr": "0B0138",
   "kind": "menu",
   "jp": "ぎんのサキュウ",
-  "en": "",
-  "max": 20
+  "en": "Silver Flail",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:149:name",
   "addr": "0B01A4",
   "kind": "name",
   "jp": "レアメタルの鎖球",
-  "en": "",
-  "max": 20
+  "en": "Rare Metal Flail",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:149:kana",
   "addr": "0B01B8",
   "kind": "kana",
   "jp": "れあめたるのさきゅう",
-  "en": "",
-  "max": 20
+  "en": "Rare Metal Flail",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:149:desc",
   "addr": "0B01CC",
   "kind": "desc",
   "jp": "レアメタルでできた鎖と球",
-  "en": "",
-  "max": 72
+  "en": "Chain and ball made of rare metal",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:149:menu",
   "addr": "0B0218",
   "kind": "menu",
   "jp": "レアメタルのサキュウ",
-  "en": "",
-  "max": 20
+  "en": "Rare Metal Flail",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:150:name",
   "addr": "0B0284",
   "kind": "name",
   "jp": "ハイメタルの鎖球",
-  "en": "",
-  "max": 20
+  "en": "High Metal Flail",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:150:kana",
   "addr": "0B0298",
   "kind": "kana",
   "jp": "はいめたるのさきゅう",
-  "en": "",
-  "max": 20
+  "en": "High Metal Flail",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:150:desc",
   "addr": "0B02AC",
   "kind": "desc",
   "jp": "ハイメタルでできた鎖と球",
-  "en": "",
-  "max": 72
+  "en": "Chain and ball made of high metal",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:150:menu",
   "addr": "0B02F8",
   "kind": "menu",
   "jp": "ハイメタルのサキュウ",
-  "en": "",
-  "max": 20
+  "en": "High Metal Flail",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:151:name",
   "addr": "0B0364",
   "kind": "name",
   "jp": "Ｂメタルの鎖球",
-  "en": "",
-  "max": 20
+  "en": "B-Metal Flail",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:151:kana",
   "addr": "0B0378",
   "kind": "kana",
   "jp": "びーめたるのさきゅう",
-  "en": "",
-  "max": 20
+  "en": "B-Metal Flail",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:151:desc",
   "addr": "0B038C",
   "kind": "desc",
   "jp": "ベカトルテ鋼でできた鎖と球",
-  "en": "",
-  "max": 72
+  "en": "Chain and ball of Becatorte steel",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:151:menu",
   "addr": "0B03D8",
   "kind": "menu",
   "jp": "Ｂメタルのサキュウ",
-  "en": "",
-  "max": 20
+  "en": "B-Metal Flail",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:152:name",
   "addr": "0B0444",
   "kind": "name",
   "jp": "バトルボール",
-  "en": "",
-  "max": 20
+  "en": "Battle Ball",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:152:kana",
   "addr": "0B0458",
   "kind": "kana",
   "jp": "ばとるぼーる",
-  "en": "",
-  "max": 20
+  "en": "Battle Ball",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:152:desc",
   "addr": "0B046C",
   "kind": "desc",
   "jp": "複合特殊鋼材でできた鎖と球",
-  "en": "",
-  "max": 72
+  "en": "Made of special composite steel",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:152:menu",
   "addr": "0B04B8",
   "kind": "menu",
   "jp": "バトルボール",
-  "en": "",
-  "max": 20
+  "en": "Battle Ball",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:153:name",
   "addr": "0B0524",
   "kind": "name",
   "jp": "マスターボール",
-  "en": "",
-  "max": 20
+  "en": "Master Ball",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:153:kana",
   "addr": "0B0538",
   "kind": "kana",
   "jp": "ますたーぼーる",
-  "en": "",
-  "max": 20
+  "en": "Master Ball",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:153:desc",
   "addr": "0B054C",
   "kind": "desc",
   "jp": "不明な非常に強い金属でできた鎖と球",
-  "en": "",
-  "max": 72
+  "en": "Made of unknown ultra-tough metal",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:153:menu",
   "addr": "0B0598",
   "kind": "menu",
   "jp": "マスターボール",
-  "en": "",
-  "max": 20
+  "en": "Master Ball",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:154:name",
   "addr": "0B0604",
   "kind": "name",
   "jp": "フラウスキー銃",
-  "en": "",
-  "max": 20
+  "en": "Frausky's Gun",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:154:kana",
   "addr": "0B0618",
   "kind": "kana",
   "jp": "なし",
-  "en": "",
-  "max": 20
+  "en": "Frausky's Gun",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:154:desc",
   "addr": "0B062C",
   "kind": "desc",
   "jp": "なし",
-  "en": "",
-  "max": 72
+  "en": "None",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:154:menu",
   "addr": "0B0678",
   "kind": "menu",
   "jp": "なし",
-  "en": "",
-  "max": 20
+  "en": "Frausky's Gun",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:155:name",
   "addr": "0B06E4",
   "kind": "name",
   "jp": "ムガイン",
-  "en": "",
-  "max": 20
+  "en": "Mugine",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:155:kana",
   "addr": "0B06F8",
   "kind": "kana",
   "jp": "なし",
-  "en": "",
-  "max": 20
+  "en": "Mugine",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:155:desc",
   "addr": "0B070C",
   "kind": "desc",
   "jp": "なし",
-  "en": "",
-  "max": 72
+  "en": "None",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:155:menu",
   "addr": "0B0758",
   "kind": "menu",
   "jp": "なし",
-  "en": "",
-  "max": 20
+  "en": "Mugine",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:156:name",
   "addr": "0B07C4",
   "kind": "name",
   "jp": "ベルトーゼ",
-  "en": "",
-  "max": 20
+  "en": "Beltorze",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:156:kana",
   "addr": "0B07D8",
   "kind": "kana",
   "jp": "なし",
-  "en": "",
-  "max": 20
+  "en": "Beltorze",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:156:desc",
   "addr": "0B07EC",
   "kind": "desc",
   "jp": "なし",
-  "en": "",
-  "max": 72
+  "en": "None",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:156:menu",
   "addr": "0B0838",
   "kind": "menu",
   "jp": "なし",
-  "en": "",
-  "max": 20
+  "en": "Beltorze",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:157:name",
   "addr": "0B08A4",
   "kind": "name",
   "jp": "キャンバル",
-  "en": "",
-  "max": 20
+  "en": "Cambal",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:157:kana",
   "addr": "0B08B8",
   "kind": "kana",
   "jp": "なし",
-  "en": "",
-  "max": 20
+  "en": "Cambal",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:157:desc",
   "addr": "0B08CC",
   "kind": "desc",
   "jp": "なし",
-  "en": "",
-  "max": 72
+  "en": "None",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:157:menu",
   "addr": "0B0918",
   "kind": "menu",
   "jp": "なし",
-  "en": "",
-  "max": 20
+  "en": "Cambal",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:158:name",
   "addr": "0B0984",
   "kind": "name",
   "jp": "ベンチュラ",
-  "en": "",
-  "max": 20
+  "en": "Ventura",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:158:kana",
   "addr": "0B0998",
   "kind": "kana",
   "jp": "なし",
-  "en": "",
-  "max": 20
+  "en": "Ventura",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:158:desc",
   "addr": "0B09AC",
   "kind": "desc",
   "jp": "なし",
-  "en": "",
-  "max": 72
+  "en": "None",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:158:menu",
   "addr": "0B09F8",
   "kind": "menu",
   "jp": "なし",
-  "en": "",
-  "max": 20
+  "en": "Ventura",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:159:name",
   "addr": "0B0A64",
   "kind": "name",
   "jp": "グリニデ",
-  "en": "",
-  "max": 20
+  "en": "Grineed",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:159:kana",
   "addr": "0B0A78",
   "kind": "kana",
   "jp": "なし",
-  "en": "",
-  "max": 20
+  "en": "Grineed",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:159:desc",
   "addr": "0B0A8C",
   "kind": "desc",
   "jp": "なし",
-  "en": "",
-  "max": 72
+  "en": "None",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:159:menu",
   "addr": "0B0AD8",
   "kind": "menu",
   "jp": "なし",
-  "en": "",
-  "max": 20
+  "en": "Grineed",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:160:name",
   "addr": "0B0B44",
   "kind": "name",
   "jp": "シャデリコ",
-  "en": "",
-  "max": 20
+  "en": "Shaderico",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:160:kana",
   "addr": "0B0B58",
   "kind": "kana",
   "jp": "なし",
-  "en": "",
-  "max": 20
+  "en": "Shaderico",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:160:desc",
   "addr": "0B0B6C",
   "kind": "desc",
   "jp": "なし",
-  "en": "",
-  "max": 72
+  "en": "None",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:160:menu",
   "addr": "0B0BB8",
   "kind": "menu",
   "jp": "なし",
-  "en": "",
-  "max": 20
+  "en": "Shaderico",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:161:name",
   "addr": "0B0C24",
   "kind": "name",
   "jp": "ロズゴート",
-  "en": "",
-  "max": 20
+  "en": "Rozzgoat",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:161:kana",
   "addr": "0B0C38",
   "kind": "kana",
   "jp": "なし",
-  "en": "",
-  "max": 20
+  "en": "Rozzgoat",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:161:desc",
   "addr": "0B0C4C",
   "kind": "desc",
   "jp": "なし",
-  "en": "",
-  "max": 72
+  "en": "None",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:161:menu",
   "addr": "0B0C98",
   "kind": "menu",
   "jp": "なし",
-  "en": "",
-  "max": 20
+  "en": "Rozzgoat",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:162:name",
   "addr": "0B0D04",
   "kind": "name",
   "jp": "ピルゴア",
-  "en": "",
-  "max": 20
+  "en": "Pilgore",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:162:kana",
   "addr": "0B0D18",
   "kind": "kana",
   "jp": "なし",
-  "en": "",
-  "max": 20
+  "en": "Pilgore",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:162:desc",
   "addr": "0B0D2C",
   "kind": "desc",
   "jp": "なし",
-  "en": "",
-  "max": 72
+  "en": "None",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:162:menu",
   "addr": "0B0D78",
   "kind": "menu",
   "jp": "なし",
-  "en": "",
-  "max": 20
+  "en": "Pilgore",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:163:name",
   "addr": "0B0DE4",
   "kind": "name",
   "jp": "ブランドゥ",
-  "en": "",
-  "max": 20
+  "en": "Brandu",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:163:kana",
   "addr": "0B0DF8",
   "kind": "kana",
   "jp": "なし",
-  "en": "",
-  "max": 20
+  "en": "Brandu",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:163:desc",
   "addr": "0B0E0C",
   "kind": "desc",
   "jp": "なし",
-  "en": "",
-  "max": 72
+  "en": "None",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:163:menu",
   "addr": "0B0E58",
   "kind": "menu",
   "jp": "なし",
-  "en": "",
-  "max": 20
+  "en": "Brandu",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:164:name",
   "addr": "0B0EC4",
   "kind": "name",
   "jp": "ライリー",
-  "en": "",
-  "max": 20
+  "en": "Riley",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:164:kana",
   "addr": "0B0ED8",
   "kind": "kana",
   "jp": "なし",
-  "en": "",
-  "max": 20
+  "en": "Riley",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:164:desc",
   "addr": "0B0EEC",
   "kind": "desc",
   "jp": "なし",
-  "en": "",
-  "max": 72
+  "en": "None",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:164:menu",
   "addr": "0B0F38",
   "kind": "menu",
   "jp": "なし",
-  "en": "",
-  "max": 20
+  "en": "Riley",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:165:name",
   "addr": "0B0FA4",
   "kind": "name",
   "jp": "レボーク",
-  "en": "",
-  "max": 20
+  "en": "Rebork",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:165:kana",
   "addr": "0B0FB8",
   "kind": "kana",
   "jp": "なし",
-  "en": "",
-  "max": 20
+  "en": "Rebork",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:165:desc",
   "addr": "0B0FCC",
   "kind": "desc",
   "jp": "なし",
-  "en": "",
-  "max": 72
+  "en": "None",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:165:menu",
   "addr": "0B1018",
   "kind": "menu",
   "jp": "なし",
-  "en": "",
-  "max": 20
+  "en": "Rebork",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:166:name",
   "addr": "0B1084",
   "kind": "name",
   "jp": "グリニデ変身後",
-  "en": "",
-  "max": 20
+  "en": "Grineed Transformed",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:166:kana",
   "addr": "0B1098",
   "kind": "kana",
   "jp": "なし",
-  "en": "",
-  "max": 20
+  "en": "Grineed Transformed",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "weapons:166:desc",
   "addr": "0B10AC",
   "kind": "desc",
   "jp": "なし",
-  "en": "",
-  "max": 72
+  "en": "None",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "weapons:166:menu",
   "addr": "0B10F8",
   "kind": "menu",
   "jp": "なし",
-  "en": "",
-  "max": 20
+  "en": "Grineed Transformed",
+  "max": 20,
+  "status": "done"
  }
 ]

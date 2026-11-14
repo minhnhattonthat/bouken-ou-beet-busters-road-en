@@ -4,1045 +4,1141 @@
   "addr": "06D64C",
   "kind": "ui",
   "jp": "購入しますか？",
-  "en": "",
+  "en": "Buy this?",
   "bytes": 16,
   "refs": [
    "04F060"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ui:06D660",
   "addr": "06D660",
   "kind": "ui",
   "jp": "売却しますか？",
-  "en": "",
+  "en": "Sell this?",
   "bytes": 16,
   "refs": [
    "04F0D8"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ui:06D674",
   "addr": "06D674",
   "kind": "ui",
   "jp": "マギーがたりません",
-  "en": "",
+  "en": "Not enough Magi.",
   "bytes": 20,
   "refs": [
    "04F214"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ui:116FCC",
   "addr": "116FCC",
   "kind": "ui",
   "jp": "網膜鑑定",
-  "en": "",
+  "en": "Retina Appraisal",
   "bytes": 10,
   "refs": [
    "116F84"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ui:116FD6",
   "addr": "116FD6",
   "kind": "ui",
   "jp": "クエストを受ける",
-  "en": "",
+  "en": "Accept Quest",
   "bytes": 18,
   "refs": [
    "116F88"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ui:116FE8",
   "addr": "116FE8",
   "kind": "ui",
   "jp": "クエスト報告",
-  "en": "",
+  "en": "Report Quest",
   "bytes": 14,
   "refs": [
    "116F8C"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ui:116FF6",
   "addr": "116FF6",
   "kind": "ui",
   "jp": "道具の購入",
-  "en": "",
+  "en": "Buy Items",
   "bytes": 12,
   "refs": [
    "116F90"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ui:117002",
   "addr": "117002",
   "kind": "ui",
   "jp": "閉じる",
-  "en": "",
+  "en": "Close",
   "bytes": 8,
   "refs": [
    "116F94"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ui:11700A",
   "addr": "11700A",
   "kind": "ui",
   "jp": "買う",
-  "en": "",
+  "en": "Buy",
   "bytes": 6,
   "refs": [
    "116F98"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ui:117010",
   "addr": "117010",
   "kind": "ui",
   "jp": "売る",
-  "en": "",
+  "en": "Sell",
   "bytes": 6,
   "refs": [
    "116F9C"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ui:117016",
   "addr": "117016",
   "kind": "ui",
   "jp": "鍛える",
-  "en": "",
+  "en": "Forge",
   "bytes": 8,
   "refs": [
    "116FA0"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ui:11701E",
   "addr": "11701E",
   "kind": "ui",
   "jp": "閉じる",
-  "en": "",
+  "en": "Close",
   "bytes": 8,
   "refs": [
    "116FA4"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ui:117026",
   "addr": "117026",
   "kind": "ui",
   "jp": "買う",
-  "en": "",
+  "en": "Buy",
   "bytes": 6,
   "refs": [
    "116FA8"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ui:11702C",
   "addr": "11702C",
   "kind": "ui",
   "jp": "売る",
-  "en": "",
+  "en": "Sell",
   "bytes": 6,
   "refs": [
    "116FAC"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ui:117032",
   "addr": "117032",
   "kind": "ui",
   "jp": "鍛える",
-  "en": "",
+  "en": "Forge",
   "bytes": 8,
   "refs": [
    "116FB0"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ui:11703A",
   "addr": "11703A",
   "kind": "ui",
   "jp": "閉じる",
-  "en": "",
+  "en": "Close",
   "bytes": 8,
   "refs": [
    "116FB4"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ui:117042",
   "addr": "117042",
   "kind": "ui",
   "jp": "買う",
-  "en": "",
+  "en": "Buy",
   "bytes": 6,
   "refs": [
    "116FB8"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ui:117048",
   "addr": "117048",
   "kind": "ui",
   "jp": "売る",
-  "en": "",
+  "en": "Sell",
   "bytes": 6,
   "refs": [
    "116FBC"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ui:11704E",
   "addr": "11704E",
   "kind": "ui",
   "jp": "閉じる",
-  "en": "",
+  "en": "Close",
   "bytes": 8,
   "refs": [
    "116FC0"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ui:117056",
   "addr": "117056",
   "kind": "ui",
   "jp": "泊まる",
-  "en": "",
+  "en": "Stay",
   "bytes": 8,
   "refs": [
    "116FC4"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ui:11705E",
   "addr": "11705E",
   "kind": "ui",
   "jp": "閉じる",
-  "en": "",
+  "en": "Close",
   "bytes": 8,
   "refs": [
    "116FC8"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ui:DDA800",
   "addr": "DDA800",
   "kind": "ui",
   "jp": "バーニングランス",
-  "en": "",
+  "en": "Burning Lance",
   "bytes": 18,
-  "refs": []
+  "refs": [],
+  "status": "done"
  },
  {
   "id": "ui:DDA812",
   "addr": "DDA812",
   "kind": "ui",
   "jp": "クラウンシールド",
-  "en": "",
+  "en": "Crown Shield",
   "bytes": 18,
-  "refs": []
+  "refs": [],
+  "status": "done"
  },
  {
   "id": "ui:DDA824",
   "addr": "DDA824",
   "kind": "ui",
   "jp": "エクセリオンブレード",
-  "en": "",
+  "en": "Excellion Blade",
   "bytes": 22,
-  "refs": []
+  "refs": [],
+  "status": "done"
  },
  {
   "id": "ui:DDA83A",
   "addr": "DDA83A",
   "kind": "ui",
   "jp": "たいれつ",
-  "en": "",
+  "en": "Formation",
   "bytes": 10,
   "refs": [
    "010000"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ui:DDA844",
   "addr": "DDA844",
   "kind": "ui",
   "jp": "どうぐ",
-  "en": "",
+  "en": "Items",
   "bytes": 8,
   "refs": [
    "00FFE8"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ui:DDA84C",
   "addr": "DDA84C",
   "kind": "ui",
   "jp": "さくせん",
-  "en": "",
+  "en": "Tactics",
   "bytes": 10,
   "refs": [
    "00FFF8"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ui:DDA856",
   "addr": "DDA856",
   "kind": "ui",
   "jp": "スキル",
-  "en": "",
+  "en": "Skills",
   "bytes": 8,
   "refs": [
    "00FFF0"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ui:DDA85E",
   "addr": "DDA85E",
   "kind": "ui",
   "jp": "サイクロンガンナー",
-  "en": "",
+  "en": "Cyclone Gunner",
   "bytes": 20,
-  "refs": []
+  "refs": [],
+  "status": "done"
  },
  {
   "id": "ui:DDA872",
   "addr": "DDA872",
   "kind": "ui",
   "jp": "ヤリ",
-  "en": "",
+  "en": "Pike",
   "bytes": 6,
-  "refs": []
+  "refs": [],
+  "status": "done"
  },
  {
   "id": "ui:DDA878",
   "addr": "DDA878",
   "kind": "ui",
   "jp": "ボルティックアックス",
-  "en": "",
+  "en": "Boltic Axe",
   "bytes": 22,
-  "refs": []
+  "refs": [],
+  "status": "done"
  },
  {
   "id": "ui:DDA88E",
   "addr": "DDA88E",
   "kind": "ui",
   "jp": "骨",
-  "en": "",
+  "en": "Bone",
   "bytes": 4,
   "refs": [
    "06CA04"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ui:DDA892",
   "addr": "DDA892",
   "kind": "ui",
   "jp": "窟",
-  "en": "",
+  "en": "Cave",
   "bytes": 4,
   "refs": [
    "06C9E8"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ui:DDA896",
   "addr": "DDA896",
   "kind": "ui",
   "jp": "地",
-  "en": "",
+  "en": "Earth",
   "bytes": 4,
   "refs": [
    "06C9F4"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ui:DDA89A",
   "addr": "DDA89A",
   "kind": "ui",
   "jp": "絶",
-  "en": "",
+  "en": "Peril",
   "bytes": 4,
   "refs": [
    "06CA08"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ui:DDA89E",
   "addr": "DDA89E",
   "kind": "ui",
   "jp": "－",
-  "en": "",
+  "en": "-",
   "bytes": 4,
   "refs": [
    "06C9E0"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ui:DDA8A2",
   "addr": "DDA8A2",
   "kind": "ui",
   "jp": "鉱",
-  "en": "",
+  "en": "Ore",
   "bytes": 4,
   "refs": [
    "06C9F8"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ui:DDA8A6",
   "addr": "DDA8A6",
   "kind": "ui",
   "jp": "極",
-  "en": "",
+  "en": "Polar",
   "bytes": 4,
   "refs": [
    "06CA00"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ui:DDA8AA",
   "addr": "DDA8AA",
   "kind": "ui",
   "jp": "沼",
-  "en": "",
+  "en": "Swamp",
   "bytes": 4,
   "refs": [
    "06C9E4"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ui:DDA8AE",
   "addr": "DDA8AE",
   "kind": "ui",
   "jp": "砂",
-  "en": "",
+  "en": "Sand",
   "bytes": 4,
   "refs": [
    "06C9F0"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ui:DDA8B2",
   "addr": "DDA8B2",
   "kind": "ui",
   "jp": "渦",
-  "en": "",
+  "en": "Whirl",
   "bytes": 4,
   "refs": [
    "06C9EC"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ui:DDA8B6",
   "addr": "DDA8B6",
   "kind": "ui",
   "jp": "樹",
-  "en": "",
+  "en": "Tree",
   "bytes": 4,
   "refs": [
    "06C9FC"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ui:DDA8BA",
   "addr": "DDA8BA",
   "kind": "ui",
   "jp": "モンスター",
-  "en": "",
+  "en": "Monsters",
   "bytes": 12,
   "refs": [
    "03B5C8"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ui:DDA8C6",
   "addr": "DDA8C6",
   "kind": "ui",
   "jp": "ヴァンデル",
-  "en": "",
+  "en": "Vandels",
   "bytes": 12,
   "refs": [
    "03B5CC"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ui:DDA8D2",
   "addr": "DDA8D2",
   "kind": "ui",
   "jp": "今の状態を保存してゲームを中断しますか？",
-  "en": "",
+  "en": "Save your progress and[BR]suspend the game?",
   "bytes": 42,
   "refs": [
    "04E908"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ui:DDA8FC",
   "addr": "DDA8FC",
   "kind": "ui",
   "jp": "中断データを保存中です。[BR]電源を切らないでください。",
-  "en": "",
+  "en": "Saving suspend data. Do not turn[BR]off the power.",
   "bytes": 54,
   "refs": [
    "04E9B4"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ui:DDA932",
   "addr": "DDA932",
   "kind": "ui",
   "jp": "以前の中断データを上書きしますか？",
-  "en": "",
+  "en": "Overwrite the old suspend data?",
   "bytes": 36,
-  "refs": []
+  "refs": [],
+  "status": "done"
  },
  {
   "id": "ui:DDA956",
   "addr": "DDA956",
   "kind": "ui",
   "jp": "中断データを保存しました。[BR]電源を切ってください。",
-  "en": "",
+  "en": "Suspend data saved. Please turn[BR]off the power.",
   "bytes": 52,
   "refs": [
    "04EA44"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ui:DDA98A",
   "addr": "DDA98A",
   "kind": "ui",
   "jp": "保存に失敗しました。",
-  "en": "",
+  "en": "Save failed.",
   "bytes": 22,
   "refs": [
    "04EB28"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ui:DDA9A0",
   "addr": "DDA9A0",
   "kind": "ui",
   "jp": "データがこわれています。[BR]Ａボタンを押してください。[BR]タイトル画面に戻ります。",
-  "en": "",
+  "en": "The data is corrupted.[BR]Press the A Button to go[BR]back to the title screen.",
   "bytes": 80,
   "refs": [
    "04FC20"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ui:DDA9F0",
   "addr": "DDA9F0",
   "kind": "ui",
   "jp": "ゲームデータをセーブしますか？",
-  "en": "",
+  "en": "Save your game data?",
   "bytes": 32,
   "refs": [
    "04E5D8"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ui:DDAA10",
   "addr": "DDAA10",
   "kind": "ui",
   "jp": "ゲームデータをセーブしています。電源を切らないでください。",
-  "en": "",
+  "en": "Saving game data. Do not turn[BR]off the power.",
   "bytes": 60,
   "refs": [
    "04E67C"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ui:DDAA4C",
   "addr": "DDAA4C",
   "kind": "ui",
   "jp": "ゲームデータをセーブしました。",
-  "en": "",
+  "en": "Game data saved.",
   "bytes": 32,
   "refs": [
    "04E744"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ui:DDAA6C",
   "addr": "DDAA6C",
   "kind": "ui",
   "jp": "セーブに失敗しました。",
-  "en": "",
+  "en": "Save failed.",
   "bytes": 24,
   "refs": [
    "04E810"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ui:DDAA84",
   "addr": "DDAA84",
   "kind": "ui",
   "jp": "ローテーションメニュー",
-  "en": "",
+  "en": "Rotation Menu",
   "bytes": 24,
   "refs": [
    "03B4DC"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ui:DDAA9C",
   "addr": "DDAA9C",
   "kind": "ui",
   "jp": "才牙・天撃",
-  "en": "",
+  "en": "Saiga / Divine Attack",
   "bytes": 12,
   "refs": [
    "03B4E0"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ui:DDAAA8",
   "addr": "DDAAA8",
   "kind": "ui",
   "jp": "ＢＧＭ",
-  "en": "",
+  "en": "Music",
   "bytes": 8,
   "refs": [
    "04F63C"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ui:DDAAB0",
   "addr": "DDAAB0",
   "kind": "ui",
   "jp": "はやい",
-  "en": "",
+  "en": "Fast",
   "bytes": 8,
   "refs": [
    "04F870"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ui:DDAAB8",
   "addr": "DDAAB8",
   "kind": "ui",
   "jp": "メッセージ",
-  "en": "",
+  "en": "Text Speed",
   "bytes": 12,
   "refs": [
    "04F638"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ui:DDAAC4",
   "addr": "DDAAC4",
   "kind": "ui",
   "jp": "ふつう",
-  "en": "",
+  "en": "Normal",
   "bytes": 8,
   "refs": [
    "04F874"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ui:DDAACC",
   "addr": "DDAACC",
   "kind": "ui",
   "jp": "ＯＦＦ",
-  "en": "",
+  "en": "Off",
   "bytes": 8,
   "refs": [
    "04F944",
    "04FA10"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ui:DDAAD4",
   "addr": "DDAAD4",
   "kind": "ui",
   "jp": "ＯＮ",
-  "en": "",
+  "en": "On",
   "bytes": 6,
   "refs": [
    "04F940",
    "04FA0C"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ui:DDAADA",
   "addr": "DDAADA",
   "kind": "ui",
   "jp": "ＳＥ",
-  "en": "",
+  "en": "Sound",
   "bytes": 6,
   "refs": [
    "04F640"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ui:DDAAE0",
   "addr": "DDAAE0",
   "kind": "ui",
   "jp": "おそい",
-  "en": "",
+  "en": "Slow",
   "bytes": 8,
   "refs": [
    "04F878"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ui:DDAAE8",
   "addr": "DDAAE8",
   "kind": "ui",
   "jp": "このクエストを受けますか？",
-  "en": "",
+  "en": "Accept this quest?",
   "bytes": 28,
   "refs": [
    "038764"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ui:DDAB04",
   "addr": "DDAB04",
   "kind": "ui",
   "jp": "ヴァンデルバスター協会",
-  "en": "",
+  "en": "Vandel Buster Association",
   "bytes": 24,
   "refs": [
    "02BF78"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ui:DDAB1C",
   "addr": "DDAB1C",
   "kind": "ui",
   "jp": "収集",
-  "en": "",
+  "en": "Collect",
   "bytes": 6,
   "refs": [
    "24F698"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ui:DDAB22",
   "addr": "DDAB22",
   "kind": "ui",
   "jp": "完了報告",
-  "en": "",
+  "en": "Report",
   "bytes": 10,
   "refs": [
    "038B28"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ui:DDAB2C",
   "addr": "DDAB2C",
   "kind": "ui",
   "jp": "このクエストをどうしますか？",
-  "en": "",
+  "en": "What to do with this quest?",
   "bytes": 30,
-  "refs": []
+  "refs": [],
+  "status": "done"
  },
  {
   "id": "ui:DDAB4A",
   "addr": "DDAB4A",
   "kind": "ui",
   "jp": "配達",
-  "en": "",
+  "en": "Deliver",
   "bytes": 6,
   "refs": [
    "24F690"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ui:DDAB50",
   "addr": "DDAB50",
   "kind": "ui",
   "jp": "護衛",
-  "en": "",
+  "en": "Escort",
   "bytes": 6,
   "refs": [
    "24F694"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ui:DDAB56",
   "addr": "DDAB56",
   "kind": "ui",
   "jp": "その他",
-  "en": "",
+  "en": "Other",
   "bytes": 8,
   "refs": [
    "24F69C"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ui:DDAB5E",
   "addr": "DDAB5E",
   "kind": "ui",
   "jp": "あきらめる",
-  "en": "",
+  "en": "Give Up",
   "bytes": 12,
   "refs": [
    "038B2C"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ui:DDAB6A",
   "addr": "DDAB6A",
   "kind": "ui",
   "jp": "このクエストをあきらめるのに[BR][FF01]マギーかかります[BR]本当にあきらめますか？",
-  "en": "",
+  "en": "Giving up this quest will cost[BR][FF01] Magi. Really give up?",
   "bytes": 74,
   "refs": [
    "038F34"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ui:DDABB4",
   "addr": "DDABB4",
   "kind": "ui",
   "jp": "[FF01]日",
-  "en": "",
+  "en": "[FF01]d",
   "bytes": 6,
-  "refs": []
+  "refs": [],
+  "status": "done"
  },
  {
   "id": "ui:DDABBA",
   "addr": "DDABBA",
   "kind": "ui",
   "jp": "期限切れ",
-  "en": "",
+  "en": "Expired",
   "bytes": 10,
-  "refs": []
+  "refs": [],
+  "status": "done"
  },
  {
   "id": "ui:DDABC4",
   "addr": "DDABC4",
   "kind": "ui",
   "jp": "期限なし",
-  "en": "",
+  "en": "No limit",
   "bytes": 10,
   "refs": [
    "038470"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ui:DDABCE",
   "addr": "DDABCE",
   "kind": "ui",
   "jp": "ＭＧ",
-  "en": "",
+  "en": "MG",
   "bytes": 6,
   "refs": [
    "03846C"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ui:DDABD4",
   "addr": "DDABD4",
   "kind": "ui",
   "jp": "現在受けることのできる[BR]クエストはありません",
-  "en": "",
+  "en": "There are no quests you can accept[BR]right now.",
   "bytes": 46,
   "refs": [
    "037D44"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ui:DDAC02",
   "addr": "DDAC02",
   "kind": "ui",
   "jp": "現在受けているクエストは[BR]ありません",
-  "en": "",
+  "en": "You have not accepted any quests.",
   "bytes": 38,
   "refs": [
    "037D94"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ui:DDAC28",
   "addr": "DDAC28",
   "kind": "ui",
   "jp": "このクエストをどうしますか？",
-  "en": "",
+  "en": "What to do with this quest?",
   "bytes": 30,
   "refs": [
    "038B24"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ui:DDAC46",
   "addr": "DDAC46",
   "kind": "ui",
   "jp": "討伐",
-  "en": "",
+  "en": "Hunt",
   "bytes": 6,
   "refs": [
    "24F68C"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ui:DDAC4C",
   "addr": "DDAC4C",
   "kind": "ui",
   "jp": "アイテム",
-  "en": "",
+  "en": "Item",
   "bytes": 10,
   "refs": [
    "049F74"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ui:DDAC56",
   "addr": "DDAC56",
   "kind": "ui",
   "jp": "なし",
-  "en": "",
+  "en": "None",
   "bytes": 6,
   "refs": [
    "035D50"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ui:DDAC5C",
   "addr": "DDAC5C",
   "kind": "ui",
   "jp": "才牙",
-  "en": "",
+  "en": "Saiga",
   "bytes": 6,
   "refs": [
    "049F68"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ui:DDAC62",
   "addr": "DDAC62",
   "kind": "ui",
   "jp": "天撃",
-  "en": "",
+  "en": "Divine",
   "bytes": 6,
   "refs": [
    "049F70"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ui:DDAC68",
   "addr": "DDAC68",
   "kind": "ui",
   "jp": "はずす",
-  "en": "",
+  "en": "Remove",
   "bytes": 8,
   "refs": [
    "049F78"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ui:DDAC70",
   "addr": "DDAC70",
   "kind": "ui",
   "jp": "武器",
-  "en": "",
+  "en": "Weapon",
   "bytes": 6,
   "refs": [
    "049F6C"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ui:DDAC76",
   "addr": "DDAC76",
   "kind": "ui",
   "jp": "攻撃回数上昇",
-  "en": "",
+  "en": "More Attacks",
   "bytes": 14,
   "refs": [
    "06CB3C"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ui:DDAC84",
   "addr": "DDAC84",
   "kind": "ui",
   "jp": "才牙を習得",
-  "en": "",
+  "en": "New Saiga",
   "bytes": 12,
   "refs": [
    "06CB40"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ui:DDAC90",
   "addr": "DDAC90",
   "kind": "ui",
   "jp": "必殺技習得",
-  "en": "",
+  "en": "New Move",
   "bytes": 12,
   "refs": [
    "06CB54"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ui:DDAC9C",
   "addr": "DDAC9C",
   "kind": "ui",
   "jp": "天撃習得",
-  "en": "",
+  "en": "Divine Attack",
   "bytes": 10,
   "refs": [
    "06CB50"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ui:DDACA6",
   "addr": "DDACA6",
   "kind": "ui",
   "jp": "具現化時間短縮",
-  "en": "",
+  "en": "Faster Saiga",
   "bytes": 16,
   "refs": [
    "06CB44"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ui:DDACB6",
   "addr": "DDACB6",
   "kind": "ui",
   "jp": "天撃範囲",
-  "en": "",
+  "en": "Wider Area",
   "bytes": 10,
   "refs": [
    "06CB4C"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ui:DDACC0",
   "addr": "DDACC0",
   "kind": "ui",
   "jp": "天撃射程",
-  "en": "",
+  "en": "Longer Range",
   "bytes": 10,
   "refs": [
    "06CB48"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ui:DDACCA",
   "addr": "DDACCA",
   "kind": "ui",
   "jp": "このマップに移動しますか？",
-  "en": "",
+  "en": "Travel to this map?",
   "bytes": 28,
   "refs": [
    "051BE8"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ui:DDACE6",
   "addr": "DDACE6",
   "kind": "ui",
   "jp": "いいえ",
-  "en": "",
+  "en": "No",
   "bytes": 8,
   "refs": [
    "03876C",
@@ -1050,14 +1146,15 @@
    "04E910",
    "04F0E0",
    "051BF0"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ui:DDACEE",
   "addr": "DDACEE",
   "kind": "ui",
   "jp": "はい",
-  "en": "",
+  "en": "Yes",
   "bytes": 6,
   "refs": [
    "038768",
@@ -1065,6 +1162,7 @@
    "04E90C",
    "04F0DC",
    "051BEC"
-  ]
+  ],
+  "status": "done"
  }
 ]

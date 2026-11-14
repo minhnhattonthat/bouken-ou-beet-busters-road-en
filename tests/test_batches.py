@@ -35,5 +35,12 @@ def test_problems_catch_codes_and_ordinals():
     assert not batches.problems(e, "[FF00] is now level [FF01].", [])
 
 
+def test_glossary_waiver_d9():
+    terms = [(["天撃"], ["Divine Attack"], [])]
+    name = {"id": "tenmon:005:name", "kind": "name", "jp": "天撃の火柱", "max": 12}
+    gloss = lambda e: [p for p in batches.problems(e, "Fire", terms) if p.startswith("glossary")]
+    assert not gloss(name) and gloss(dict(name, id="tenmon:005:desc"))
+
+
 def test_has_term_whole_runs():
     assert batches.has_term("ミンが来た", "ミン") and not batches.has_term("タイミング", "ミン")

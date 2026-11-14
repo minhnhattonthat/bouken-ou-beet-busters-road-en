@@ -10717,7 +10717,7 @@
   "addr": "236212",
   "kind": "msg",
   "jp": "しかもこの先には、[BR]城（しろ）の中枢（ちゅうすう）への[BR]通路があるのです！！[PAGE]これいじょう行かせるわけには[BR]いきませんからねっ！！[WAIT]",
-  "en": "What's more, beyond this point lies[BR]the passage to the castle's core,[BR]sire!![PAGE]I cannot let you go any further, most[BR]certainly not!![WAIT]",
+  "en": "What's more, beyond this point lies[BR]the passage to the castle's core,[BR]indeed!![PAGE]I cannot let you go any further, most[BR]certainly not!![WAIT]",
   "bytes": 134,
   "sites": [
    "23566E:op7A+2",
@@ -10902,7 +10902,7 @@
   "addr": "2363D8",
   "kind": "msg",
   "jp": "それではこのダンゴール・・・[BR]全力でまいりますっ！！[BR]勝負ですっ！[WAIT]",
-  "en": "Then I, Dangol… shall come at you with[BR]all my might, sire!! Have at you![WAIT]",
+  "en": "Then I, Dangol… shall come at you with[BR]all my might, most certainly!! Have at[BR]you![WAIT]",
   "bytes": 70,
   "sites": [
    "2356E5:op7A+2",
@@ -24643,7 +24643,7 @@
   "addr": "23C8A8",
   "kind": "msg",
   "jp": "いいかねキッス君・・・[BR]ワタシは、キミのそのすばらしい[BR]頭脳（ずのう）を手放したくないのだよ[PAGE]ベンチュラがねつを上げていた[BR]腐薬虫（ふやくちゅう）の事や、[BR]様々な遺跡（いせき）にある[PAGE]古代魔文字（こだいまもじ）の[BR]解読（かいどく）・・・[PAGE]とくに古代魔文字（こだいまもじ）の[BR]解読（かいどく）は、[BR]このワタシの大偉業（だいいぎょう）[PAGE]である・・・[PAGE]モンスター実験場（じっけんじょう）に[BR]多大な貢献（こうけん）を[BR]してくれたよ・・・[PAGE]これらのどれをとっても、[BR]君なしでは実現（じつげん）[BR]できなかったものだ・・・[WAIT]",
-  "en": "Listen well, Kissu-kun… I have no wish[BR]to let go of that splendid brain of[BR]yours.[PAGE]The Rot Bugs Ventura was so worked up[BR]about, the decoding of the ancient[BR]Vandel script[PAGE]found in the various ruins…[PAGE]Above all, the decoding of the ancient[BR]Vandel script is a great achievement[BR]of mine…[PAGE]Indeed…[PAGE]And you made a tremendous contribution[BR]to the Monster Lab…[PAGE]Not a single one of these could have[BR]been done without you…[WAIT]",
+  "en": "Listen well, Kissu-kun… I have no wish[BR]to let go of that splendid brain of[BR]yours.[PAGE]The Rot Bugs Ventura was so worked up[BR]about, the decoding of the ancient[BR]Vandel script[PAGE]found in the various ruins…[PAGE]Above all, your decoding of the[BR]ancient Vandel script made a[BR]tremendous contribution to my grand[PAGE]achievement…[PAGE]that is…[PAGE]the Monster Lab…[PAGE]Not a single one of these could have[BR]been done without you…[WAIT]",
   "bytes": 512,
   "sites": [
    "23BAF0:op7A+2",
@@ -25399,7 +25399,7 @@
   "addr": "23CE0C",
   "kind": "msg",
   "jp": "まぁ、それほど気に病む事はない・・・[BR]モンスター実験場（じっけんじょう）も[BR]・・・キッス君、キミがいれば[PAGE]また作り直すことができる[PAGE]それだけキミには価値（かち）が[BR]あるのだよ・・・[PAGE]失いたくはない・・・[PAGE]そのギリギリの判断（はんだん）が、[BR]今のワタシのうでを止めている事を、[BR]キミはわかっているはずだ・・・[WAIT]",
-  "en": "Well, there's no need to fret so much[BR]about it… As for the Monster Lab…[BR]Kissu-kun, as long as I have you,[PAGE]I can build it all over again.[PAGE]That is how much you are worth…[PAGE]I would hate to lose you…[PAGE]You must understand that it is that[BR]very fine judgment that is holding my[BR]arm back right now…[WAIT]",
+  "en": "Well, there's no need to fret so much[BR]about it… As for the Monster Lab…[BR]Kissu-kun, as long as I have you,[PAGE]I can build it all over again.[PAGE]That is how much you are worth…[PAGE]I would hate to lose you…[PAGE]You must understand that only that[BR]razor-thin decision is holding my arm[BR]back right now…[WAIT]",
   "bytes": 310,
   "sites": [
    "23BC65:op7A+2",

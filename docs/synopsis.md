@@ -169,7 +169,7 @@ sunlight on the Black Horizon. Tone: shonen comedy with real grief at the deaths
   Flowers), plus every story quest as a log entry.
 - Riddle Master (Terceron) + Mountain Hermit: three riddles (ch. 10); also Riddle Master tasks in ev_17 (altitude
   signs, trees, wind).
-- Bridge Master (Asad Mountains): flying-monster cull; calls the party "Masters of Monsters"; his bridge is where the
+- Bridge Master (Asad Mountains): flying-monster cull; calls the party "Monster Masters"; his bridge is where the
   Hermit sits.
 - Underground Lake chain (ev_18 18B618-18FFF4, ev_19 190022-192DEE, ev_24 chalice quests): the lake Lord, the
   Mysterious Gate, Orfina's four-word key, the four ruins in order Coast -> Wasteland -> Lakeside -> Forest, the

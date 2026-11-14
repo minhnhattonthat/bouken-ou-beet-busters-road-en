@@ -132,3 +132,111 @@ Minor review findings; tick when applied or rejected (phase 9: none unticked).
 - [ ] ev:19E5E0 - では、いきますよ！ (start of the Saiga practice) - Juno's matching cue 19A4BA is "Here we go." "Here I come" says Horus himself is the opponent. Use it only if he really is. - Here we go, then!
 - [ ] ev:19E69E - 後はいろんなところで経験を重ねて、りっぱな・・・ゼノン戦士団の思いをつげるようなりっぱなバスターに - the self-correction doesn't flow ("The rest is to gain experience… and become a fine… I hope you become a fine Buster"). - …From here on, gain experience in all sorts of places and become a fine… a fine Buster who can carry on the Zenon Warriors' will.
 - [ ] ev:19EC92 - へへっ！・・・って、オレもビックリしたよ "Heh heh! ...Actually, I was surprised too" - "Not that I wasn't surprised too" is a double negative that young readers will stumble on. - Heh heh! …Truth is, I was pretty surprised myself.
+
+## r08
+- [ ] ev:1E0314 - このダンゴールが持ち帰るのです = "I, Dangol, shall take it back!" - "is mine, Dangol's, to bring back, sire" is clumsy, and Dangol's "sire" belongs to Grineed, not to the enemy party - "Why, it's you lot! That Orb... I, Dangol, shall be taking it home, indeed!!"
+- [ ] ev:1E13A8 - 群がり犬ぅ～？ (stretched, sceptical) - the drawn-out tone is gone - "Pack Doooogs...?"
+- [ ] ev:1E18BE - かわいいもの見つけるの早くねぇか = "aren't you quick at spotting cute stuff?" - "Don't you find cute stuff kinda fast" is awkward - "Man, you sure are quick at spotting cute stuff, Poala!"
+- [ ] ev:1E1CBA - かわいそう・・・だったかな = "maybe we were a bit cruel to them / I feel sorry for them" (after killing the parent dog) - "it was a little sad" is vague and blunts the beat that Beet answers next - "......I guess I do feel... a little sorry for them, after all..."
+- [ ] ev:1E2D92 - 不審者がもくげきされて = "a suspicious person was seen carrying sacks out of the village" - the EN splits into a dangling add-on ("out of the village... a suspicious person, eh...") - "......Mm. Just the other day... a suspicious person was seen carrying sacks from the storehouse out of the village, eh..."
+- [ ] ev:1E35D0, ev:1E6966 - ～かしら asked directly to someone - the tacked-on "I wonder" turns a direct question into an odd one - 1E35D0: "That's right... Philip-san, where exactly was that suspicious person climbing?"; 1E6966: "...Oh! Hey, Beet!! Couldn't you get rid of this poison mist the same way you got rid of my poison?"
+- [ ] ev:1E439C - よくそれで星が３つもついてるものだ = "amazing he's got three whole stars like that" - "And with that, he's somehow got three stars" is stiff for Slade's dry jab - "...Amazing a guy like that has three whole stars."
+- [ ] ev:1E919A - またオマエらかよ (Frausky) - "you punks" is Ventura's word; Frausky's drawl calls Beet "kid" - "...and it's you guys again, man..."
+- [ ] ev:1E8FB2 - Tink (3): やっぱりわかんないから一緒にさがして - toddler speech is flattened into adult grammar - "Ummm... I dunno where. Help me look!"
+- [ ] ev:1E9B68 - Tink crying う・・・えっ・・・えぐっ - "*hic*" is the drunk's marker in this project - "Uu... *sniff*... *sob*..."
+- [ ] ev:1E9CBE - ちょっとアレだけどな = "is kind of a letdown / bugs me" - "kinda meh" sounds off for Beet - "Yeah... Letting Frausky get away kinda bugs me, though..."
+- [ ] ev:1EA824 - これで全部のエリアでたたかったんじゃないかな = "I think we've fought in every area now" - "that's every area we've fought in now" is muddled - "Whew... I think we've fought in every area now...?"
+
+## r09
+- [ ] ev:1ED6C0 - 友だちといっしょに "together with my friend" - "we came with a friend" suggests a third person came along - "We heard something weird happened here lately... So... my friend and I came together..."
+- [ ] ev:1ED742 - 人さわがせ "scaring people over nothing" - "nuisance" misses the false-alarm sense - "......Haaaah!! What a scare you gave us!"
+- [ ] ev:1EDBF8 - やっぱ持ち帰った方がいいかな？ (question) - statement form with a question mark reads oddly - "Yes... Should we take some of this rotten flesh back with us?"
+- [ ] ev:1EF260 - 上出来だわ "that's a great result" - "good enough" undersells Poala's upbeat line - "Right... Just knowing it's the eastern villages is a great start!"
+- [ ] ev:1F1112 - おまえたちじゃったのぉ？ - "aren't you, eh?" doubles the question tag - "...Ah, that reminds me. You're the ones who defeated Mugine, eh?"
+- [ ] ev:1F19A0 - 全部ぶっころしてやろうぜ！！行くぞッ！！！ - "Let's ... Let's" back to back - "Yeah! We'll turn the tables on 'em!! ...Let's smash every last one!! Here we go!!!"
+- [ ] ev:1F1BA8 - おまえのたくらみも終わりだな！ベンチュラ！！ - the vocative split by "!" reads like a fragment - "...That's the end of your scheme, Ventura!!"
+- [ ] ev:1F2AC4 - 武器にならないかという考えがあっての - "There's an idea that... that's the thinking, anyway" says it twice - "Oh, right, right. Well, you see, about this Orb... I've had a thought: used the right way, might it become a weapon against monsters and Vandels...?"
+- [ ] ev:1F2E98 - そんなコト言われてもさぁ "you can tell me that, but..." - "Y-you can say that, but" is stiff - "Whoa! ...E-easy for you to say... Right, Poala...?"
+- [ ] ev:1F3026 - いや、それくらいの知識はきほんだぞ - いや corrects Beet ("No,"); "Now, now ... is the basics" is clunky - "No, Beet, that much is just basic knowledge..."
+- [ ] ev:1F4DB2 - Slade 後ろから回り込むか - "Shall we" is too polite for Slade's terse voice - "...We circle around behind it."
+- [ ] ev:1F5448 - ウワサが一人歩きしてる、なんてことはよくあること - "rumors ... happens" reads ungrammatical - "Well... rumors take on a life of their own all the time... Isn't it a good thing it wasn't ferocious?"
+- [ ] ev:1F60E4 - そうじゃな "indeed" - "Just so..." is an odd phrase for young readers - "Quite right..."
+- [ ] ev:1F7DCE - 里の安全も何もあったもんじゃない - "the village can't be safe or anything else" is awkward - "With things like this, the village's safety is out the window, eh, so while we put in a request with the Busters, we did some investigating ourselves, but..."
+- [ ] ev:1F85D2 - Slade 口よりも身体を動かすべきだな - literal and wordy for Slade - "...Less talking, more fighting."
+- [ ] ev:1F8954 / ev:1F8992 - こ・・・こ・・・ is the start of 氷 (ice), echoed by Beet - "th... th..." loses the setup for the next line - Villager "Th-this is bad......, i... i..."; Beet "I...?" (then "A huge ice monster...")
+- [ ] ev:1F8D60 / ev:1F8D92 - 冷害 "frost damage to crops" - "Cold damage" is not a set English phrase - "Frost damage... is what I mean." / "Frost damage...?"
+
+## r10
+- [ ] ev:1FA4E2 - われながらイヤになっちゃう: "I hate that I know him this well" - "even I'm sick of myself" drops the reason for the joke - Ugh, it's almost sad how well I know him!
+- [ ] ev:1FA94C - 相当な・・・ is cut off when Beet grabs him - "is a pretty serious... around here..." reads like a typo - That Vandel Rozzgoat is one of the strongest around here, he's...
+- [ ] ev:1FE95E - 今はトロワナにたのまれて...集めているのさ - the grammar slips ("Right now, Trowana asked me to gather") - Right now, I'm gathering information on Grineed's forces for Trowana.
+- [ ] ev:1FE9BC - めんどくさそうな仕事 - "kind of a pain of a job" is clumsy - ...Huh. Sounds like kind of a pain of a job...... -> ...Huh. That job sounds like a real pain......
+- [ ] ev:20286A - この女にイカレたな: "you've fallen for her" - "gone soft on this girl" is weaker, and it reads as being lenient - Hahaha! Figured it was somethin' like that! ...You've fallen for this girl, eh?
+- [ ] ev:202D0C - グリニデの旦那の配下の一人 - "one of Grineed the boss's men" is clunky - ...Same as us, he's one of the boss's men -- Grineed's...!!
+- [ ] ev:200660 - 主な古代魔文字はあいつが全て記録して - says "all of the main" and then "every bit of it" - I hear he has recorded all the main ancient Vandel script in those ruins...
+- [ ] ev:2059BC - こんな冥撃っ！！: Beet sneering just before he finds he can't move - "A Dark Attack like this?!!" reads as shock - ...A Dark Attack like this is nothing!!
+- [ ] ev:206462 - なんですって: shocked "What?!" - the literal "what did you say" sounds like she didn't hear him - Wh-what...?!
+- [ ] ev:206380 - Kissu's explanation runs on after the page break ("inside a space filled with it, forming...") - What's more, this mist-like poison powder... Inside it, forming Divine Attacks and Saiga gets hard, and I think it stops your body moving freely too...!
+
+## r11
+- [ ] ev:2074F0 - あいつはオレがたおしてみせる / おまえのそうなったすがた見てぇ - "that guy" used for Rozzgoat and, one page later, for Kissu's future self; reads muddled - So I'm gonna take that guy down myself!! 'Cause I really wanna see you get there!!
+- [ ] ev:208BC2 - 調子いいんだから もうっ (you glib flatterer, honestly) - "full of yourself" misses the point: Poala is reacting to Beet's flattery ("That's my Poala!") - Honestly, you and your sweet talk…!!
+- [ ] ev:209DD0 - 解決したのはオレらだっつーの - "dammit" is stronger than っつーの and isn't on Beet's kid-safe list - (Heard of 'em? We're the ones who solved it, y'know…)
+- [ ] ev:20A0C6, ev:20B004 - Cabin's むむむ - "Hmm hmm" / "Hmm hmm hmm…" is word for word Grineed's silky laugh; Cabin is grumbling - Hmmm… / Grrr…
+- [ ] ev:20C0D4 - Slade 夜まで待ってしのびこむか？ - "Shall we…" is too genteel for Slade's terse voice - …Wait till nightfall and sneak in?
+- [ ] ev:20CEE2 - あかつきの、おの～～？ - the ～～ stretch (Beet's incredulous drawl) is dropped - Th-the Dawn… Axxxe?
+- [ ] ev:21096E - あら、あなた・・・おかえりなさい - "Oh, dear…" reads as the dismay phrase "oh dear", not the wife calling her husband - Oh, honey… Welcome home.
+- [ ] ev:212116, ev:2123E0, ev:212568 - Hermit's なんじ / なんじら - the style reference has the Hermit say "ye" / "you mortals"; here it's plain "you" all through (the lines are stiff, but the marker is gone) - …Ye who would cross the bridge, halt. Unless ye answer my conundrum, ye cannot go further. / …None of your attacks can reach me, mortals… / …Very well. Then I ask ye this…
+
+## r12
+- [ ] ev:21B34E - その悪い子ちゃんをキュ～～～って目に合わせなきゃ "I've got to make that naughty boy squeal" (punish him) - "give him a nice big squeeeeeze" can read as a hug, so the threat gets lost - I've gotta make that naughty boy squeeeeeal!
+- [ ] ev:21BEF2 - Poala あん！？, a rough, menacing "Hah?!" that makes Kissu laugh nervously - "Huh?!" sounds like she didn't hear him - Excuse me?!
+- [ ] ev:219122 - Slade ・・・フフン！, an amused snort after the teasing - "Hmph!" sounds dismissive - …Heh.
+- [ ] ev:2182B8 - バスターをやめて "quit being Busters" - "quit Busting" is awkward - …how would you like to quit being Busters and carry the next generation of the riddle world on your shoulders?!
+- [ ] ev:21613C - 一番の大木 - "the biggest great tree of all" is redundant - A tree. And the very biggest one would be the right answer.
+- [ ] ev:21AD68 - トロワナにはおよばなくても "even if not up to Trowana's" - "It was no match for" is stronger than the JP - It wasn't quite up to Trowana's, but Musley's Gate was outstanding in both hardness and barrier power…
+- [ ] ev:2195EA - 「人間の想い」とやらのナゾ - the scornful とやら ("this so-called") is dropped - I shall now solve this mystery of so-called "human feelings"…
+- [ ] ev:21982C - おれにも、ポアラにも・・・みんな - "me, Poala… everybody's got" doesn't hold together as a sentence - Yeah… me, Poala, everybody… we've all got our own "feelings" deep in our hearts, ones that are ours alone…
+- [ ] ev:219012 - ここにも気持ちいい風がふくようにさっ - "So a nice wind blows here too!!" is a fragment - So a nice wind can blow here too!!
+- [ ] ev:2202D2 - 平たく言うと、カッパライじゃな - "Put plainly, snatch-and-grab." has no verb - Put plainly, it's snatch-and-grab thievery, you see. And what's more, the culprit is…
+- [ ] ev:2209E8 - Dangol's apology trails off with こんな事には・・・っ！ - tacking "indeed!" onto the cut-off clause reads oddly - …Had I only made more thorough arrangements, sire, this never would have…!
+
+## r13
+- [ ] ev:220FFC - same JP as ev:220B3C (only BR/PAGE differ) - the punctuation differs ("Wouldn't you agree? / Dan... gol..." vs "Wouldn't you agree, Dan... gol...?"). Shared lines should match. - Sometimes, failure is also part of the secret to success... you see. Wouldn't you agree, Dan... gol...?
+- [ ] ev:221B08 - Milfa: ・・・ってコ・ト！ (a teasing, spelled-out "that's the thing!") - "That's the sto-ry!" reads oddly. - ...That he served under a Vandel! Am I ri-ight?
+- [ ] ev:2236B4 - Appraiser: なんでも多くのハウンドナイトをしたがえているらしいぞ (apparently one of them leads a big pack of Hound Knights) - "it's got... under its command" sounds like the mountains are in command. - The "Patres Mountains." Word is there's one leading a whole pack of Hound Knights, eh.
+- [ ] ev:2237DE - Poala: みはり・・・かしらね (a lookout, maybe?) - "A lookout... I wonder..." is stiff. - A lookout, maybe...?
+- [ ] ev:2239CE - Beet: いつでもいいぜっ！ - "Anytime, man!" sounds odd when he says it to Milfa's "Ready?". - Ready when you are!
+- [ ] ev:224114 - Poala: 同じ女性バスターとして - "fellow woman Buster" is awkward. - As a fellow girl Buster, I admire your strength... But just admiring it isn't enough, is it?
+- [ ] ev:225E7E - Poala: あんたみたいのといっしょにいれば・・・ね！ (that's what happens when you hang around someone like you) - "Well, hanging around with someone like you... sure!" doesn't work as a comeback. - Well, that's what happens when you hang around with someone like you!
+- [ ] ev:22A5C6 - (Poala/Milfa) ・・・でも、いい話ね！ - "nice story" is too literal; it is a sweet idea, not a story. - ...Still, that's really sweet!
+- [ ] ev:22BE64 - Beet: こんくらいでヘタばってどうするよキッス！ - "What're you doing, worn out from this little bit" is clumsy. - C'mon, Kissu, don't wimp out over a little thing like this! ...It's only gonna get tougher from here on!!
+- [ ] ev:22C9C4 - Beet: だったらさいしょからそう言えばいいのにな！ (he says it to the Appraiser in front of him) - "he could've" talks about him in the third person. - Geez, you could've just said that from the start!
+- [ ] ev:22D13C - Milfa: 大捕り物になるわねぇ (this will be a big showdown or roundup) - "quite the big catch" suggests fishing. - This is gonna be... quite the showdown...!
+- [ ] Appraiser lines across b054-b057 (2217C8, 223492, 2236B4, 2259EC, 2274B8, 2275FC, 2295AE, 22A520, 22AD2E, 22BD1A, 22E264, 22E5C6 ...) - nearly every line ends in ", eh." so it becomes a tic, and "...for you, eh." with a period reads flat. - vary it: "my boy", "you see", "now", or no tag at all.
+
+## r14
+- [ ] ev:22EE56 (Milfa) - おつきのモンスター = attendant/aide monster - "pet monster" is Helgar's label (b058 230612 onward), and here it is used for Dangol - "…So he's an attendant monster that Grineed raised himself, huh?"
+- [ ] ev:22F93C (Grineed) - ・・・フゥ, a calming exhale - "Phew" reads as relief - "…Haaah…… I see… Very well."
+- [ ] ev:230C64 (Helgar) - "Grineed… -sama" with a space before the hyphen looks broken - "……Gah… ghaah… …G… Grineed…-sama… I'm so… sor…ry…"
+- [ ] ev:231A70 (Appraiser) - またすぐに・・・というわけにもいかん = rebuilding can't start again right away - "it won't happen again anytime soon" could be read as being about the attack - "…Hmm. After being attacked that brutally… it seems they can't just start rebuilding again right away, I'm afraid…"
+- [ ] ev:2322DC (Beet) - 間に合えっ - "Make it in time!!!" is stiff - "Dammit! Come on, make it!!!"
+- [ ] ev:2329EE (Slade) - ムチャだぞ・・・それは - "and you know it" is added, and too wordy for Slade - "That's reckless… that is…!" or "…That's reckless!"
+- [ ] ev:232A18 (Beet) - そこまでは考えてないよ = not going that far (not a head-on fight) - "THAT far ahead" suggests he hasn't planned ahead - "Nah, I'm not planning to go THAT far."
+- [ ] ev:234482 (Appraiser) - "the watch Busters" is awkward - "Show this to the Busters on watch, and they should let you through."
+- [ ] ev:234944 (Poala) - そうみたい・・・ね - "Looks like it… is…!" is clumsy - "Looks like it… yeah…!"
+- [ ] ev:2349C2 (Milfa) - 派手にいっちゃう？ = make a flashy entrance - "go out with a bang" usually means a final, fatal exit - "So, shall we make a big, flashy entrance?"
+- [ ] ev:235ACE (Slade) - ワナ・・・か・・・？ - "A trap… is it…?" is stilted - "A trap…?"
+- [ ] ev:23794C (Young Woman) - モンスターの実験台 = test subjects for monster experiments - "by the monsters" is only one reading - "…These people…… were made test subjects for monster experiments……"
+- [ ] ev:238C40 (Kissu) - "But Beet, the lab's taken care of, but…" has "but" twice - "Beet, the lab's taken care of, but…"
+- [ ] ev:23AE3C (Beet) - line cut off before the attack; the EN has no closing punctuation - "Everyone, this time aim for that Orb…!"
+- [ ] ev:23C4A0 (Grineed) - バスターの諸君 - "gentlemen of the Busters" is awkward and leaves out the girls - "…Welcome to my castle, my dear Busters!"
+
+## r15
+- [ ] Template "[FFC4] が出没するので これを[FFC5]匹倒してほしい" (ev:244D74, 2453B8, 24589C, 245D08, 246FD8, 2474C8, 248028, 24888C, 24E408) - "The monster [FFC4] has been showing up ... Please defeat [FFC5] of them": singular "The monster ... has" clashes with "of them" - suggested EN: "[FFC4] monsters have been showing up in the <place>. Please defeat [FFC5] of them."
+- [ ] ev:23DA52 - その通りだ・・・よ・・・ "that's right" (agreeing with Dangol) - "…Quite right… he is…" reads like an inverted fragment - suggested EN: "…He's… quite… right…"
+- [ ] ev:23D144 - そこでだ！ "which is where you come in!" - "And so!" is flat for Grineed's silky set-up - suggested EN: "Which brings me to my offer! You will help me dispose of… Beet and his friends, standing right there."
+- [ ] ev:24ADB8 - 塚を作ってしまい "built a mound (anthill)" - "have built a hill" sounds like a landform; the title says Anthill - suggested EN: ""Gourmet Ants" have built an anthill on the Duora Plains, cutting off the road to the village. Please get rid of them."
+- [ ] ev:249E66 - 実戦！　才牙を振るえ "Real combat! Wield your Saiga" - "Saiga in Real Combat" loses the imperative punch - suggested EN: "Wield Your Saiga!" (17)
+- [ ] ev:24CFCC - 黒に負けない命 "life that won't lose to the black" - "Life Beats the Black" reads like a slogan with a missing word - suggested EN: "Life Defying Black" (18) or "Stronger Than Black" (19)
+- [ ] ev:24B8C4 - 死と共に目覚める呪い "a curse that wakes with death" - "Death's Waking Curse" is a little opaque - suggested EN: "The Curse That Wakes" (20)

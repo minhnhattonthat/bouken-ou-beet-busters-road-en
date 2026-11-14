@@ -748,7 +748,7 @@
   "addr": "2462A0",
   "kind": "quest_title",
   "jp": "地底湖に潜むもの",
-  "en": "Underground Lake",
+  "en": "Lurker in the Lake",
   "bytes": 18,
   "sites": [
    "245F61:quest18"
@@ -772,7 +772,7 @@
   "addr": "24635A",
   "kind": "quest_title",
   "jp": "地底湖の門",
-  "en": "Underground Lake",
+  "en": "The Lake Gate",
   "bytes": 12,
   "sites": [
    "245F9C:quest18"

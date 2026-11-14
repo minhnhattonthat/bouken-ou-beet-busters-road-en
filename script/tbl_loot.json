@@ -4,959 +4,1079 @@
   "addr": "0A4C2C",
   "kind": "name",
   "jp": "甲虫の甲殻",
-  "en": "",
-  "max": 20
+  "en": "Beetle Shell",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "loot:000:kana",
   "addr": "0A4C40",
   "kind": "kana",
   "jp": "こうちゅうのこうかく",
-  "en": "",
-  "max": 20
+  "en": "Beetle Shell",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "loot:000:desc",
   "addr": "0A4C54",
   "kind": "desc",
   "jp": "甲虫系モンスターが落としたもの",
-  "en": "",
-  "max": 76
+  "en": "Dropped by a beetle-type monster.",
+  "max": 76,
+  "status": "done"
  },
  {
   "id": "loot:001:name",
   "addr": "0A4CA8",
   "kind": "name",
   "jp": "モンスターの残骸",
-  "en": "",
-  "max": 20
+  "en": "Monster Remains",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "loot:001:kana",
   "addr": "0A4CBC",
   "kind": "kana",
   "jp": "もんすたーのざんがい",
-  "en": "",
-  "max": 20
+  "en": "Monster Remains",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "loot:001:desc",
   "addr": "0A4CD0",
   "kind": "desc",
   "jp": "モンスターを倒した証の残骸",
-  "en": "",
-  "max": 76
+  "en": "Remains that prove a monster was    defeated.",
+  "max": 76,
+  "status": "done"
  },
  {
   "id": "loot:002:name",
   "addr": "0A4D24",
   "kind": "name",
   "jp": "特殊なケース",
-  "en": "",
-  "max": 20
+  "en": "Special Case",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "loot:002:kana",
   "addr": "0A4D38",
   "kind": "kana",
   "jp": "とくしゅなけーす",
-  "en": "",
-  "max": 20
+  "en": "Special Case",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "loot:002:desc",
   "addr": "0A4D4C",
   "kind": "desc",
   "jp": "黒い沼の水を採集するためのケース",
-  "en": "",
-  "max": 76
+  "en": "A case for collecting black swamp   water.",
+  "max": 76,
+  "status": "done"
  },
  {
   "id": "loot:003:name",
   "addr": "0A4DA0",
   "kind": "name",
   "jp": "特殊なケース",
-  "en": "",
-  "max": 20
+  "en": "Special Case",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "loot:003:kana",
   "addr": "0A4DB4",
   "kind": "kana",
   "jp": "とくしゅなけーす",
-  "en": "",
-  "max": 20
+  "en": "Special Case",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "loot:003:desc",
   "addr": "0A4DC8",
   "kind": "desc",
   "jp": "モンスターの体液を採集するためのケース",
-  "en": "",
-  "max": 76
+  "en": "A case for collecting monster body  fluids.",
+  "max": 76,
+  "status": "done"
  },
  {
   "id": "loot:004:name",
   "addr": "0A4E1C",
   "kind": "name",
   "jp": "日照石",
-  "en": "",
-  "max": 20
+  "en": "Sunstone",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "loot:004:kana",
   "addr": "0A4E30",
   "kind": "kana",
   "jp": "にっしょうせき",
-  "en": "",
-  "max": 20
+  "en": "Sunstone",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "loot:004:desc",
   "addr": "0A4E44",
   "kind": "desc",
   "jp": "レドウの灯台で使われている白く輝く石",
-  "en": "",
-  "max": 76
+  "en": "A white, shining stone used in the  Redou Lighthouse.",
+  "max": 76,
+  "status": "done"
  },
  {
   "id": "loot:005:name",
   "addr": "0A4E98",
   "kind": "name",
   "jp": "アメリ草",
-  "en": "",
-  "max": 20
+  "en": "Ameri Herb",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "loot:005:kana",
   "addr": "0A4EAC",
   "kind": "kana",
   "jp": "あめりそう",
-  "en": "",
-  "max": 20
+  "en": "Ameri Herb",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "loot:005:desc",
   "addr": "0A4EC0",
   "kind": "desc",
   "jp": "シダのような植物",
-  "en": "",
-  "max": 76
+  "en": "A fern-like plant.",
+  "max": 76,
+  "status": "done"
  },
  {
   "id": "loot:006:name",
   "addr": "0A4F14",
   "kind": "name",
   "jp": "コサージュ",
-  "en": "",
-  "max": 20
+  "en": "Corsage",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "loot:006:kana",
   "addr": "0A4F28",
   "kind": "kana",
   "jp": "こさーじゅ",
-  "en": "",
-  "max": 20
+  "en": "Corsage",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "loot:006:desc",
   "addr": "0A4F3C",
   "kind": "desc",
   "jp": "白い花飾り",
-  "en": "",
-  "max": 76
+  "en": "A white flower ornament.",
+  "max": 76,
+  "status": "done"
  },
  {
   "id": "loot:007:name",
   "addr": "0A4F90",
   "kind": "name",
   "jp": "枯れたコサージュ",
-  "en": "",
-  "max": 20
+  "en": "Withered Corsage",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "loot:007:kana",
   "addr": "0A4FA4",
   "kind": "kana",
   "jp": "かれたこさーじゅ",
-  "en": "",
-  "max": 20
+  "en": "Withered Corsage",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "loot:007:desc",
   "addr": "0A4FB8",
   "kind": "desc",
   "jp": "かれてしまったコサージュ",
-  "en": "",
-  "max": 76
+  "en": "A corsage that has withered.",
+  "max": 76,
+  "status": "done"
  },
  {
   "id": "loot:008:name",
   "addr": "0A500C",
   "kind": "name",
   "jp": "謎のオーブ",
-  "en": "",
-  "max": 20
+  "en": "Mystery Orb",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "loot:008:kana",
   "addr": "0A5020",
   "kind": "kana",
   "jp": "なぞのおーぶ",
-  "en": "",
-  "max": 20
+  "en": "Mystery Orb",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "loot:008:desc",
   "addr": "0A5034",
   "kind": "desc",
   "jp": "緑色に光る玉",
-  "en": "",
-  "max": 76
+  "en": "A ball that glows green.",
+  "max": 76,
+  "status": "done"
  },
  {
   "id": "loot:009:name",
   "addr": "0A5088",
   "kind": "name",
   "jp": "サソリの尻尾",
-  "en": "",
-  "max": 20
+  "en": "Scorpion Tail",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "loot:009:kana",
   "addr": "0A509C",
   "kind": "kana",
   "jp": "さそりのしっぽ",
-  "en": "",
-  "max": 20
+  "en": "Scorpion Tail",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "loot:009:desc",
   "addr": "0A50B0",
   "kind": "desc",
   "jp": "サソリ系モンスターの尻尾",
-  "en": "",
-  "max": 76
+  "en": "The tail of a scorpion-type monster.",
+  "max": 76,
+  "status": "done"
  },
  {
   "id": "loot:010:name",
   "addr": "0A5104",
   "kind": "name",
   "jp": "腐肉",
-  "en": "",
-  "max": 20
+  "en": "Rotten Flesh",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "loot:010:kana",
   "addr": "0A5118",
   "kind": "kana",
   "jp": "ふにく",
-  "en": "",
-  "max": 20
+  "en": "Rotten Flesh",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "loot:010:desc",
   "addr": "0A512C",
   "kind": "desc",
   "jp": "モンスター「墓場荒らし」が落とした腐った肉",
-  "en": "",
-  "max": 76
+  "en": "Rotten flesh dropped by the monster \"Grave Robber.\"",
+  "max": 76,
+  "status": "done"
  },
  {
   "id": "loot:011:name",
   "addr": "0A5180",
   "kind": "name",
   "jp": "ボロボロの袋",
-  "en": "",
-  "max": 20
+  "en": "Tattered Bag",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "loot:011:kana",
   "addr": "0A5194",
   "kind": "kana",
   "jp": "ぼろぼろのふくろ",
-  "en": "",
-  "max": 20
+  "en": "Tattered Bag",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "loot:011:desc",
   "addr": "0A51A8",
   "kind": "desc",
   "jp": "モンスター「カネック」が食い荒らした財宝の入っていた袋",
-  "en": "",
-  "max": 76
+  "en": "A bag that held treasure the monster\"Kaneck\" devoured.",
+  "max": 76,
+  "status": "done"
  },
  {
   "id": "loot:012:name",
   "addr": "0A51FC",
   "kind": "name",
   "jp": "ぶよぶよした物",
-  "en": "",
-  "max": 20
+  "en": "Squishy Thing",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "loot:012:kana",
   "addr": "0A5210",
   "kind": "kana",
   "jp": "ぶよぶよしたもの",
-  "en": "",
-  "max": 20
+  "en": "Squishy Thing",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "loot:012:desc",
   "addr": "0A5224",
   "kind": "desc",
   "jp": "半透明のやわらかい物体",
-  "en": "",
-  "max": 76
+  "en": "A soft, translucent object.",
+  "max": 76,
+  "status": "done"
  },
  {
   "id": "loot:013:name",
   "addr": "0A5278",
   "kind": "name",
   "jp": "つるはし",
-  "en": "",
-  "max": 20
+  "en": "Pickaxe",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "loot:013:kana",
   "addr": "0A528C",
   "kind": "kana",
   "jp": "つるはし",
-  "en": "",
-  "max": 20
+  "en": "Pickaxe",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "loot:013:desc",
   "addr": "0A52A0",
   "kind": "desc",
   "jp": "鉱石を採掘するためのつるはし",
-  "en": "",
-  "max": 76
+  "en": "A pickaxe for digging up ore.",
+  "max": 76,
+  "status": "done"
  },
  {
   "id": "loot:014:name",
   "addr": "0A52F4",
   "kind": "name",
   "jp": "ヨー鉱石",
-  "en": "",
-  "max": 20
+  "en": "Yo Ore",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "loot:014:kana",
   "addr": "0A5308",
   "kind": "kana",
   "jp": "よーこうせき",
-  "en": "",
-  "max": 20
+  "en": "Yo Ore",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "loot:014:desc",
   "addr": "0A531C",
   "kind": "desc",
   "jp": "特殊な鉱石",
-  "en": "",
-  "max": 76
+  "en": "A special ore.",
+  "max": 76,
+  "status": "done"
  },
  {
   "id": "loot:015:name",
   "addr": "0A5370",
   "kind": "name",
   "jp": "アサド山地の植物",
-  "en": "",
-  "max": 20
+  "en": "Asad Plant",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "loot:015:kana",
   "addr": "0A5384",
   "kind": "kana",
   "jp": "あさどさんちの",
-  "en": "",
-  "max": 20
+  "en": "Asad Plant",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "loot:015:desc",
   "addr": "0A5398",
   "kind": "desc",
   "jp": "アサド山地に自生している植物",
-  "en": "",
-  "max": 76
+  "en": "A plant that grows wild in the Asad Mountains.",
+  "max": 76,
+  "status": "done"
  },
  {
   "id": "loot:016:name",
   "addr": "0A53EC",
   "kind": "name",
   "jp": "テルセロン山地の植物",
-  "en": "",
-  "max": 20
+  "en": "Terceron Plant",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "loot:016:kana",
   "addr": "0A5400",
   "kind": "kana",
   "jp": "てるせろんさんちの",
-  "en": "",
-  "max": 20
+  "en": "Terceron Plant",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "loot:016:desc",
   "addr": "0A5414",
   "kind": "desc",
   "jp": "テルセロン山地に自生している植物",
-  "en": "",
-  "max": 76
+  "en": "A plant that grows wild in the      Terceron Mountains.",
+  "max": 76,
+  "status": "done"
  },
  {
   "id": "loot:017:name",
   "addr": "0A5468",
   "kind": "name",
   "jp": "トロワナの森の植物",
-  "en": "",
-  "max": 20
+  "en": "Trowana Plant",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "loot:017:kana",
   "addr": "0A547C",
   "kind": "kana",
   "jp": "とろわなのもりの",
-  "en": "",
-  "max": 20
+  "en": "Trowana Plant",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "loot:017:desc",
   "addr": "0A5490",
   "kind": "desc",
   "jp": "トロワナの森に自生している植物",
-  "en": "",
-  "max": 76
+  "en": "A plant that grows wild in the      Trowana Forest.",
+  "max": 76,
+  "status": "done"
  },
  {
   "id": "loot:018:name",
   "addr": "0A54E4",
   "kind": "name",
   "jp": "エトリア山地の植物",
-  "en": "",
-  "max": 20
+  "en": "Etria Plant",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "loot:018:kana",
   "addr": "0A54F8",
   "kind": "kana",
   "jp": "えとりあさんちの",
-  "en": "",
-  "max": 20
+  "en": "Etria Plant",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "loot:018:desc",
   "addr": "0A550C",
   "kind": "desc",
   "jp": "エトリア山地に自生している植物",
-  "en": "",
-  "max": 76
+  "en": "A plant that grows wild in the EtriaMountains.",
+  "max": 76,
+  "status": "done"
  },
  {
   "id": "loot:019:name",
   "addr": "0A5560",
   "kind": "name",
   "jp": "ムスリー荒野の植物",
-  "en": "",
-  "max": 20
+  "en": "Musley Wasteland",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "loot:019:kana",
   "addr": "0A5574",
   "kind": "kana",
   "jp": "むすりーこうやの",
-  "en": "",
-  "max": 20
+  "en": "Musley Wasteland",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "loot:019:desc",
   "addr": "0A5588",
   "kind": "desc",
   "jp": "ムスリー荒野に自生している植物",
-  "en": "",
-  "max": 76
+  "en": "A plant that grows wild in the      Musley Wasteland.",
+  "max": 76,
+  "status": "done"
  },
  {
   "id": "loot:020:name",
   "addr": "0A55DC",
   "kind": "name",
   "jp": "パトレス山地の植物",
-  "en": "",
-  "max": 20
+  "en": "Patres Plant",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "loot:020:kana",
   "addr": "0A55F0",
   "kind": "kana",
   "jp": "ぱとれすさんちの",
-  "en": "",
-  "max": 20
+  "en": "Patres Plant",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "loot:020:desc",
   "addr": "0A5604",
   "kind": "desc",
   "jp": "パトレス山地に自生している植物",
-  "en": "",
-  "max": 76
+  "en": "A plant that grows wild in the      Patres Mountains.",
+  "max": 76,
+  "status": "done"
  },
  {
   "id": "loot:021:name",
   "addr": "0A5658",
   "kind": "name",
   "jp": "ムスリー山地の植物",
-  "en": "",
-  "max": 20
+  "en": "Musley Plant",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "loot:021:kana",
   "addr": "0A566C",
   "kind": "kana",
   "jp": "むすりーさんちの",
-  "en": "",
-  "max": 20
+  "en": "Musley Plant",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "loot:021:desc",
   "addr": "0A5680",
   "kind": "desc",
   "jp": "ムスリー山地に自生している植物",
-  "en": "",
-  "max": 76
+  "en": "A plant that grows wild in the      Musley Mountains.",
+  "max": 76,
+  "status": "done"
  },
  {
   "id": "loot:022:name",
   "addr": "0A56D4",
   "kind": "name",
   "jp": "トリアーク平原の植物",
-  "en": "",
-  "max": 20
+  "en": "Triark Plant",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "loot:022:kana",
   "addr": "0A56E8",
   "kind": "kana",
   "jp": "とりあーくへいげんの",
-  "en": "",
-  "max": 20
+  "en": "Triark Plant",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "loot:022:desc",
   "addr": "0A56FC",
   "kind": "desc",
   "jp": "トリアーク平原に自生している植物",
-  "en": "",
-  "max": 76
+  "en": "A plant that grows wild on the      Triark Plains.",
+  "max": 76,
+  "status": "done"
  },
  {
   "id": "loot:023:name",
   "addr": "0A5750",
   "kind": "name",
   "jp": "清聖水",
-  "en": "",
-  "max": 20
+  "en": "Holy Water",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "loot:023:kana",
   "addr": "0A5764",
   "kind": "kana",
   "jp": "せいせいすい",
-  "en": "",
-  "max": 20
+  "en": "Holy Water",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "loot:023:desc",
   "addr": "0A5778",
   "kind": "desc",
   "jp": "きらきらと光り輝いている水",
-  "en": "",
-  "max": 76
+  "en": "Water that sparkles and shines.",
+  "max": 76,
+  "status": "done"
  },
  {
   "id": "loot:024:name",
   "addr": "0A57CC",
   "kind": "name",
   "jp": "フォレストオーブ",
-  "en": "",
-  "max": 20
+  "en": "Forest Orb",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "loot:024:kana",
   "addr": "0A57E0",
   "kind": "kana",
   "jp": "ふぉれすとおーぶ",
-  "en": "",
-  "max": 20
+  "en": "Forest Orb",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "loot:024:desc",
   "addr": "0A57F4",
   "kind": "desc",
   "jp": "緑色に光る玉",
-  "en": "",
-  "max": 76
+  "en": "A ball that glows green.",
+  "max": 76,
+  "status": "done"
  },
  {
   "id": "loot:025:name",
   "addr": "0A5848",
   "kind": "name",
   "jp": "沼の聖杯",
-  "en": "",
-  "max": 20
+  "en": "Swamp Chalice",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "loot:025:kana",
   "addr": "0A585C",
   "kind": "kana",
   "jp": "ぬまのせいはい",
-  "en": "",
-  "max": 20
+  "en": "Swamp Chalice",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "loot:025:desc",
   "addr": "0A5870",
   "kind": "desc",
   "jp": "古代文字で「沼」とえがかれた杯",
-  "en": "",
-  "max": 76
+  "en": "A chalice inscribed with \"Swamp\" in ancient script.",
+  "max": 76,
+  "status": "done"
  },
  {
   "id": "loot:026:name",
   "addr": "0A58C4",
   "kind": "name",
   "jp": "窟の聖杯",
-  "en": "",
-  "max": 20
+  "en": "Cave Chalice",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "loot:026:kana",
   "addr": "0A58D8",
   "kind": "kana",
   "jp": "くつのせいはい",
-  "en": "",
-  "max": 20
+  "en": "Cave Chalice",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "loot:026:desc",
   "addr": "0A58EC",
   "kind": "desc",
   "jp": "古代文字で「窟」とえがかれた杯",
-  "en": "",
-  "max": 76
+  "en": "A chalice inscribed with \"Cave\" in  ancient script.",
+  "max": 76,
+  "status": "done"
  },
  {
   "id": "loot:027:name",
   "addr": "0A5940",
   "kind": "name",
   "jp": "渦の聖杯",
-  "en": "",
-  "max": 20
+  "en": "Whirlpool Chalice",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "loot:027:kana",
   "addr": "0A5954",
   "kind": "kana",
   "jp": "うずのせいはい",
-  "en": "",
-  "max": 20
+  "en": "Whirlpool Chalice",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "loot:027:desc",
   "addr": "0A5968",
   "kind": "desc",
   "jp": "古代文字で「渦」とえがかれた杯",
-  "en": "",
-  "max": 76
+  "en": "A chalice inscribed with \"Whirlpool\"in ancient script.",
+  "max": 76,
+  "status": "done"
  },
  {
   "id": "loot:028:name",
   "addr": "0A59BC",
   "kind": "name",
   "jp": "地の聖杯",
-  "en": "",
-  "max": 20
+  "en": "Earth Chalice",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "loot:028:kana",
   "addr": "0A59D0",
   "kind": "kana",
   "jp": "ちのせいはい",
-  "en": "",
-  "max": 20
+  "en": "Earth Chalice",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "loot:028:desc",
   "addr": "0A59E4",
   "kind": "desc",
   "jp": "古代文字で「地」とえがかれた杯",
-  "en": "",
-  "max": 76
+  "en": "A chalice inscribed with \"Earth\" in ancient script.",
+  "max": 76,
+  "status": "done"
  },
  {
   "id": "loot:029:name",
   "addr": "0A5A38",
   "kind": "name",
   "jp": "樹の聖杯",
-  "en": "",
-  "max": 20
+  "en": "Tree Chalice",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "loot:029:kana",
   "addr": "0A5A4C",
   "kind": "kana",
   "jp": "きのせいはい",
-  "en": "",
-  "max": 20
+  "en": "Tree Chalice",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "loot:029:desc",
   "addr": "0A5A60",
   "kind": "desc",
   "jp": "古代文字で「樹」とえがかれた杯",
-  "en": "",
-  "max": 76
+  "en": "A chalice inscribed with \"Tree\" in  ancient script.",
+  "max": 76,
+  "status": "done"
  },
  {
   "id": "loot:030:name",
   "addr": "0A5AB4",
   "kind": "name",
   "jp": "骨の聖杯",
-  "en": "",
-  "max": 20
+  "en": "Bone Chalice",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "loot:030:kana",
   "addr": "0A5AC8",
   "kind": "kana",
   "jp": "ほねのせいはい",
-  "en": "",
-  "max": 20
+  "en": "Bone Chalice",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "loot:030:desc",
   "addr": "0A5ADC",
   "kind": "desc",
   "jp": "古代文字で「骨」とえがかれた杯",
-  "en": "",
-  "max": 76
+  "en": "A chalice inscribed with \"Bone\" in  ancient script.",
+  "max": 76,
+  "status": "done"
  },
  {
   "id": "loot:031:name",
   "addr": "0A5B30",
   "kind": "name",
   "jp": "極の聖杯",
-  "en": "",
-  "max": 20
+  "en": "Polar Chalice",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "loot:031:kana",
   "addr": "0A5B44",
   "kind": "kana",
   "jp": "きょくのせいはい",
-  "en": "",
-  "max": 20
+  "en": "Polar Chalice",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "loot:031:desc",
   "addr": "0A5B58",
   "kind": "desc",
   "jp": "古代文字で「極」とえがかれた杯",
-  "en": "",
-  "max": 76
+  "en": "A chalice inscribed with \"Polar\" in ancient script.",
+  "max": 76,
+  "status": "done"
  },
  {
   "id": "loot:032:name",
   "addr": "0A5BAC",
   "kind": "name",
   "jp": "鉱の聖杯",
-  "en": "",
-  "max": 20
+  "en": "Ore Chalice",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "loot:032:kana",
   "addr": "0A5BC0",
   "kind": "kana",
   "jp": "こうのせいはい",
-  "en": "",
-  "max": 20
+  "en": "Ore Chalice",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "loot:032:desc",
   "addr": "0A5BD4",
   "kind": "desc",
   "jp": "古代文字で「鉱」とえがかれた杯",
-  "en": "",
-  "max": 76
+  "en": "A chalice inscribed with \"Ore\" in   ancient script.",
+  "max": 76,
+  "status": "done"
  },
  {
   "id": "loot:033:name",
   "addr": "0A5C28",
   "kind": "name",
   "jp": "砂の聖杯",
-  "en": "",
-  "max": 20
+  "en": "Sand Chalice",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "loot:033:kana",
   "addr": "0A5C3C",
   "kind": "kana",
   "jp": "すなのせいはい",
-  "en": "",
-  "max": 20
+  "en": "Sand Chalice",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "loot:033:desc",
   "addr": "0A5C50",
   "kind": "desc",
   "jp": "古代文字で「砂」とえがかれた杯",
-  "en": "",
-  "max": 76
+  "en": "A chalice inscribed with \"Sand\" in  ancient script.",
+  "max": 76,
+  "status": "done"
  },
  {
   "id": "loot:034:name",
   "addr": "0A5CA4",
   "kind": "name",
   "jp": "絶の聖杯",
-  "en": "",
-  "max": 20
+  "en": "Peril Chalice",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "loot:034:kana",
   "addr": "0A5CB8",
   "kind": "kana",
   "jp": "ぜつのせいはい",
-  "en": "",
-  "max": 20
+  "en": "Peril Chalice",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "loot:034:desc",
   "addr": "0A5CCC",
   "kind": "desc",
   "jp": "古代文字で「絶」とえがかれた杯",
-  "en": "",
-  "max": 76
+  "en": "A chalice inscribed with \"Peril\" in ancient script.",
+  "max": 76,
+  "status": "done"
  },
  {
   "id": "loot:035:name",
   "addr": "0A5D20",
   "kind": "name",
   "jp": "特殊なケース",
-  "en": "",
-  "max": 20
+  "en": "Special Case",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "loot:035:kana",
   "addr": "0A5D34",
   "kind": "kana",
   "jp": "とくしゅなけーす",
-  "en": "",
-  "max": 20
+  "en": "Special Case",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "loot:035:desc",
   "addr": "0A5D48",
   "kind": "desc",
   "jp": "黒い沼の水が入ったケース",
-  "en": "",
-  "max": 76
+  "en": "A case holding black swamp water.",
+  "max": 76,
+  "status": "done"
  },
  {
   "id": "loot:036:name",
   "addr": "0A5D9C",
   "kind": "name",
   "jp": "特殊なケース",
-  "en": "",
-  "max": 20
+  "en": "Special Case",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "loot:036:kana",
   "addr": "0A5DB0",
   "kind": "kana",
   "jp": "とくしゅなけーす",
-  "en": "",
-  "max": 20
+  "en": "Special Case",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "loot:036:desc",
   "addr": "0A5DC4",
   "kind": "desc",
   "jp": "モンスターの体液が入ったケース",
-  "en": "",
-  "max": 76
+  "en": "A case holding monster body fluids.",
+  "max": 76,
+  "status": "done"
  },
  {
   "id": "loot:037:name",
   "addr": "0A5E18",
   "kind": "name",
   "jp": "ハーブ",
-  "en": "",
-  "max": 20
+  "en": "Herb",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "loot:037:kana",
   "addr": "0A5E2C",
   "kind": "kana",
   "jp": "はーぶ",
-  "en": "",
-  "max": 20
+  "en": "Herb",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "loot:037:desc",
   "addr": "0A5E40",
   "kind": "desc",
   "jp": "薬草の一種",
-  "en": "",
-  "max": 76
+  "en": "A kind of medicinal herb.",
+  "max": 76,
+  "status": "done"
  },
  {
   "id": "loot:038:name",
   "addr": "0A5E94",
   "kind": "name",
   "jp": "赤い花",
-  "en": "",
-  "max": 20
+  "en": "Red Flower",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "loot:038:kana",
   "addr": "0A5EA8",
   "kind": "kana",
   "jp": "あかいはな",
-  "en": "",
-  "max": 20
+  "en": "Red Flower",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "loot:038:desc",
   "addr": "0A5EBC",
   "kind": "desc",
   "jp": "赤色の花",
-  "en": "",
-  "max": 76
+  "en": "A flower of red color.",
+  "max": 76,
+  "status": "done"
  },
  {
   "id": "loot:039:name",
   "addr": "0A5F10",
   "kind": "name",
   "jp": "すずなり花",
-  "en": "",
-  "max": 20
+  "en": "Bellcluster Flower",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "loot:039:kana",
   "addr": "0A5F24",
   "kind": "kana",
   "jp": "すずなりはな",
-  "en": "",
-  "max": 20
+  "en": "Bellcluster Flower",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "loot:039:desc",
   "addr": "0A5F38",
   "kind": "desc",
   "jp": "すずなりに咲いている花",
-  "en": "",
-  "max": 76
+  "en": "A flower blooming in clusters like  little bells.",
+  "max": 76,
+  "status": "done"
  }
 ]

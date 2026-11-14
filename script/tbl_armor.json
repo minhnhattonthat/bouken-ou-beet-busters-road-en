@@ -4,1703 +4,1916 @@
   "addr": "0A16C4",
   "kind": "name",
   "jp": "見習いのジャケット",
-  "en": "",
-  "max": 20
+  "en": "Trainee Jacket",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "armor:000:kana",
   "addr": "0A16D8",
   "kind": "kana",
   "jp": "みならいのじゃけっと",
-  "en": "",
-  "max": 20
+  "en": "Trainee Jacket",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "armor:000:desc",
   "addr": "0A16EC",
   "kind": "desc",
   "jp": "見習いバスターのジャケット",
-  "en": "",
-  "max": 72
+  "en": "Jacket for trainee Busters",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "armor:001:name",
   "addr": "0A1754",
   "kind": "name",
   "jp": "新米のジャケット",
-  "en": "",
-  "max": 20
+  "en": "Greenhorn Jacket",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "armor:001:kana",
   "addr": "0A1768",
   "kind": "kana",
   "jp": "しんまいのじゃけっと",
-  "en": "",
-  "max": 20
+  "en": "Greenhorn Jacket",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "armor:001:desc",
   "addr": "0A177C",
   "kind": "desc",
   "jp": "新米級バスターのジャケット",
-  "en": "",
-  "max": 72
+  "en": "Jacket for greenhorn Busters",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "armor:002:name",
   "addr": "0A17E4",
   "kind": "name",
   "jp": "普通のジャケット",
-  "en": "",
-  "max": 20
+  "en": "Average Jacket",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "armor:002:kana",
   "addr": "0A17F8",
   "kind": "kana",
   "jp": "ふつうのじゃけっと",
-  "en": "",
-  "max": 20
+  "en": "Average Jacket",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "armor:002:desc",
   "addr": "0A180C",
   "kind": "desc",
   "jp": "一般級バスターのジャケット",
-  "en": "",
-  "max": 72
+  "en": "Jacket for average Busters",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "armor:003:name",
   "addr": "0A1874",
   "kind": "name",
   "jp": "ルーキージャケット",
-  "en": "",
-  "max": 20
+  "en": "Rookie Jacket",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "armor:003:kana",
   "addr": "0A1888",
   "kind": "kana",
   "jp": "るーきーのじゃけっと",
-  "en": "",
-  "max": 20
+  "en": "Rookie Jacket",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "armor:003:desc",
   "addr": "0A189C",
   "kind": "desc",
   "jp": "ルーキーバスターのジャケット",
-  "en": "",
-  "max": 72
+  "en": "Jacket for rookie Busters",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "armor:004:name",
   "addr": "0A1904",
   "kind": "name",
   "jp": "中級者のジャケット",
-  "en": "",
-  "max": 20
+  "en": "Mid-Level Jacket",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "armor:004:kana",
   "addr": "0A1918",
   "kind": "kana",
   "jp": "ちゅうきゅうしゃのじ",
-  "en": "",
-  "max": 20
+  "en": "Mid-Level Jacket",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "armor:004:desc",
   "addr": "0A192C",
   "kind": "desc",
   "jp": "中級バスターのジャケット",
-  "en": "",
-  "max": 72
+  "en": "Jacket for mid-level Busters",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "armor:005:name",
   "addr": "0A1994",
   "kind": "name",
   "jp": "ベテランジャケット",
-  "en": "",
-  "max": 20
+  "en": "Veteran Jacket",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "armor:005:kana",
   "addr": "0A19A8",
   "kind": "kana",
   "jp": "べてらんじゃけっと",
-  "en": "",
-  "max": 20
+  "en": "Veteran Jacket",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "armor:005:desc",
   "addr": "0A19BC",
   "kind": "desc",
   "jp": "ベテラン級バスターのジャケット",
-  "en": "",
-  "max": 72
+  "en": "Jacket for veteran Busters",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "armor:006:name",
   "addr": "0A1A24",
   "kind": "name",
   "jp": "上級者のジャケット",
-  "en": "",
-  "max": 20
+  "en": "Advanced Jacket",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "armor:006:kana",
   "addr": "0A1A38",
   "kind": "kana",
   "jp": "じょうきゅうしゃのじ",
-  "en": "",
-  "max": 20
+  "en": "Advanced Jacket",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "armor:006:desc",
   "addr": "0A1A4C",
   "kind": "desc",
   "jp": "上級バスターのジャケット",
-  "en": "",
-  "max": 72
+  "en": "Jacket for advanced Busters",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "armor:007:name",
   "addr": "0A1AB4",
   "kind": "name",
   "jp": "強者のジャケット",
-  "en": "",
-  "max": 20
+  "en": "Mighty Jacket",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "armor:007:kana",
   "addr": "0A1AC8",
   "kind": "kana",
   "jp": "きょうしゃのじゃけっ",
-  "en": "",
-  "max": 20
+  "en": "Mighty Jacket",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "armor:007:desc",
   "addr": "0A1ADC",
   "kind": "desc",
   "jp": "強者バスターのジャケット",
-  "en": "",
-  "max": 72
+  "en": "Jacket for mighty Busters",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "armor:008:name",
   "addr": "0A1B44",
   "kind": "name",
   "jp": "バトルジャケット",
-  "en": "",
-  "max": 20
+  "en": "Battle Jacket",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "armor:008:kana",
   "addr": "0A1B58",
   "kind": "kana",
   "jp": "ばとるじゃけっと",
-  "en": "",
-  "max": 20
+  "en": "Battle Jacket",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "armor:008:desc",
   "addr": "0A1B6C",
   "kind": "desc",
   "jp": "百戦錬磨バスターのジャケット",
-  "en": "",
-  "max": 72
+  "en": "Jacket for battle-hardened Busters",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "armor:009:name",
   "addr": "0A1BD4",
   "kind": "name",
   "jp": "マスタージャケット",
-  "en": "",
-  "max": 20
+  "en": "Master Jacket",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "armor:009:kana",
   "addr": "0A1BE8",
   "kind": "kana",
   "jp": "ますたーじゃけっと",
-  "en": "",
-  "max": 20
+  "en": "Master Jacket",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "armor:009:desc",
   "addr": "0A1BFC",
   "kind": "desc",
   "jp": "達人級バスターのジャケット",
-  "en": "",
-  "max": 72
+  "en": "Jacket for master-class Busters",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "armor:010:name",
   "addr": "0A1C64",
   "kind": "name",
   "jp": "コットンシャツ",
-  "en": "",
-  "max": 20
+  "en": "Cotton Shirt",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "armor:010:kana",
   "addr": "0A1C78",
   "kind": "kana",
   "jp": "こっとんしゃつ",
-  "en": "",
-  "max": 20
+  "en": "Cotton Shirt",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "armor:010:desc",
   "addr": "0A1C8C",
   "kind": "desc",
   "jp": "コットンでできたシャツ",
-  "en": "",
-  "max": 72
+  "en": "Shirt made of cotton",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "armor:011:name",
   "addr": "0A1CF4",
   "kind": "name",
   "jp": "リネンシャツ",
-  "en": "",
-  "max": 20
+  "en": "Linen Shirt",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "armor:011:kana",
   "addr": "0A1D08",
   "kind": "kana",
   "jp": "りねんしゃつ",
-  "en": "",
-  "max": 20
+  "en": "Linen Shirt",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "armor:011:desc",
   "addr": "0A1D1C",
   "kind": "desc",
   "jp": "リネンでできたシャツ",
-  "en": "",
-  "max": 72
+  "en": "Shirt made of linen",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "armor:012:name",
   "addr": "0A1D84",
   "kind": "name",
   "jp": "ウールシャツ",
-  "en": "",
-  "max": 20
+  "en": "Wool Shirt",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "armor:012:kana",
   "addr": "0A1D98",
   "kind": "kana",
   "jp": "うーるしゃつ",
-  "en": "",
-  "max": 20
+  "en": "Wool Shirt",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "armor:012:desc",
   "addr": "0A1DAC",
   "kind": "desc",
   "jp": "ウールでできたシャツ",
-  "en": "",
-  "max": 72
+  "en": "Shirt made of wool",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "armor:013:name",
   "addr": "0A1E14",
   "kind": "name",
   "jp": "シルクシャツ",
-  "en": "",
-  "max": 20
+  "en": "Silk Shirt",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "armor:013:kana",
   "addr": "0A1E28",
   "kind": "kana",
   "jp": "しるくしゃつ",
-  "en": "",
-  "max": 20
+  "en": "Silk Shirt",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "armor:013:desc",
   "addr": "0A1E3C",
   "kind": "desc",
   "jp": "シルクでできたシャツ",
-  "en": "",
-  "max": 72
+  "en": "Shirt made of silk",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "armor:014:name",
   "addr": "0A1EA4",
   "kind": "name",
   "jp": "アンゴラシャツ",
-  "en": "",
-  "max": 20
+  "en": "Angora Shirt",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "armor:014:kana",
   "addr": "0A1EB8",
   "kind": "kana",
   "jp": "あんごらしゃつ",
-  "en": "",
-  "max": 20
+  "en": "Angora Shirt",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "armor:014:desc",
   "addr": "0A1ECC",
   "kind": "desc",
   "jp": "アンゴラでできたシャツ",
-  "en": "",
-  "max": 72
+  "en": "Shirt made of angora",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "armor:015:name",
   "addr": "0A1F34",
   "kind": "name",
   "jp": "アルパカシャツ",
-  "en": "",
-  "max": 20
+  "en": "Alpaca Shirt",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "armor:015:kana",
   "addr": "0A1F48",
   "kind": "kana",
   "jp": "あるぱかしゃつ",
-  "en": "",
-  "max": 20
+  "en": "Alpaca Shirt",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "armor:015:desc",
   "addr": "0A1F5C",
   "kind": "desc",
   "jp": "アルパカでできたシャツ",
-  "en": "",
-  "max": 72
+  "en": "Shirt made of alpaca",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "armor:016:name",
   "addr": "0A1FC4",
   "kind": "name",
   "jp": "レザーシャツ",
-  "en": "",
-  "max": 20
+  "en": "Leather Shirt",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "armor:016:kana",
   "addr": "0A1FD8",
   "kind": "kana",
   "jp": "れざーしゃつ",
-  "en": "",
-  "max": 20
+  "en": "Leather Shirt",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "armor:016:desc",
   "addr": "0A1FEC",
   "kind": "desc",
   "jp": "ソフトレザーでできたシャツ",
-  "en": "",
-  "max": 72
+  "en": "Shirt made of soft leather",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "armor:017:name",
   "addr": "0A2054",
   "kind": "name",
   "jp": "バスターズシャツ",
-  "en": "",
-  "max": 20
+  "en": "Busters Shirt",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "armor:017:kana",
   "addr": "0A2068",
   "kind": "kana",
   "jp": "ばすたーずしゃつ",
-  "en": "",
-  "max": 20
+  "en": "Busters Shirt",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "armor:017:desc",
   "addr": "0A207C",
   "kind": "desc",
   "jp": "多くのバスターが愛用しているシャツ",
-  "en": "",
-  "max": 72
+  "en": "Shirt favored by many Busters",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "armor:018:name",
   "addr": "0A20E4",
   "kind": "name",
   "jp": "バトルシャツ",
-  "en": "",
-  "max": 20
+  "en": "Battle Shirt",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "armor:018:kana",
   "addr": "0A20F8",
   "kind": "kana",
   "jp": "ばとるしゃつ",
-  "en": "",
-  "max": 20
+  "en": "Battle Shirt",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "armor:018:desc",
   "addr": "0A210C",
   "kind": "desc",
   "jp": "かなり強い素材でできたシャツ",
-  "en": "",
-  "max": 72
+  "en": "Shirt made of very tough material",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "armor:019:name",
   "addr": "0A2174",
   "kind": "name",
   "jp": "マスターシャツ",
-  "en": "",
-  "max": 20
+  "en": "Master Shirt",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "armor:019:kana",
   "addr": "0A2188",
   "kind": "kana",
   "jp": "ますたーしゃつ",
-  "en": "",
-  "max": 20
+  "en": "Master Shirt",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "armor:019:desc",
   "addr": "0A219C",
   "kind": "desc",
   "jp": "非常に強い素材でできたシャツ",
-  "en": "",
-  "max": 72
+  "en": "Shirt made of ultra-tough material",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "armor:020:name",
   "addr": "0A2204",
   "kind": "name",
   "jp": "ウッドシールド",
-  "en": "",
-  "max": 20
+  "en": "Wood Shield",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "armor:020:kana",
   "addr": "0A2218",
   "kind": "kana",
   "jp": "うっどしーるど",
-  "en": "",
-  "max": 20
+  "en": "Wood Shield",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "armor:020:desc",
   "addr": "0A222C",
   "kind": "desc",
   "jp": "木製のシールド",
-  "en": "",
-  "max": 72
+  "en": "Shield made of wood",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "armor:021:name",
   "addr": "0A2294",
   "kind": "name",
   "jp": "ブロンズシールド",
-  "en": "",
-  "max": 20
+  "en": "Bronze Shield",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "armor:021:kana",
   "addr": "0A22A8",
   "kind": "kana",
   "jp": "ぶろんずしーるど",
-  "en": "",
-  "max": 20
+  "en": "Bronze Shield",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "armor:021:desc",
   "addr": "0A22BC",
   "kind": "desc",
   "jp": "青銅製のシールド",
-  "en": "",
-  "max": 72
+  "en": "Shield made of bronze",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "armor:022:name",
   "addr": "0A2324",
   "kind": "name",
   "jp": "カッパーシールド",
-  "en": "",
-  "max": 20
+  "en": "Copper Shield",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "armor:022:kana",
   "addr": "0A2338",
   "kind": "kana",
   "jp": "かっぱーしーるど",
-  "en": "",
-  "max": 20
+  "en": "Copper Shield",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "armor:022:desc",
   "addr": "0A234C",
   "kind": "desc",
   "jp": "銅製のシールド",
-  "en": "",
-  "max": 72
+  "en": "Shield made of copper",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "armor:023:name",
   "addr": "0A23B4",
   "kind": "name",
   "jp": "アイアンシールド",
-  "en": "",
-  "max": 20
+  "en": "Iron Shield",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "armor:023:kana",
   "addr": "0A23C8",
   "kind": "kana",
   "jp": "あいあんしーるど",
-  "en": "",
-  "max": 20
+  "en": "Iron Shield",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "armor:023:desc",
   "addr": "0A23DC",
   "kind": "desc",
   "jp": "鉄製のシールド",
-  "en": "",
-  "max": 72
+  "en": "Shield made of iron",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "armor:024:name",
   "addr": "0A2444",
   "kind": "name",
   "jp": "スティールシールド",
-  "en": "",
-  "max": 20
+  "en": "Steel Shield",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "armor:024:kana",
   "addr": "0A2458",
   "kind": "kana",
   "jp": "すてぃーるしーるど",
-  "en": "",
-  "max": 20
+  "en": "Steel Shield",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "armor:024:desc",
   "addr": "0A246C",
   "kind": "desc",
   "jp": "鋼鉄製のシールド",
-  "en": "",
-  "max": 72
+  "en": "Shield made of steel",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "armor:025:name",
   "addr": "0A24D4",
   "kind": "name",
   "jp": "シルバーシールド",
-  "en": "",
-  "max": 20
+  "en": "Silver Shield",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "armor:025:kana",
   "addr": "0A24E8",
   "kind": "kana",
   "jp": "しるばーしーるど",
-  "en": "",
-  "max": 20
+  "en": "Silver Shield",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "armor:025:desc",
   "addr": "0A24FC",
   "kind": "desc",
   "jp": "銀製のシールド",
-  "en": "",
-  "max": 72
+  "en": "Shield made of silver",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "armor:026:name",
   "addr": "0A2564",
   "kind": "name",
   "jp": "レアメタルシールド",
-  "en": "",
-  "max": 20
+  "en": "Rare Metal Shield",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "armor:026:kana",
   "addr": "0A2578",
   "kind": "kana",
   "jp": "れあめたるしーるど",
-  "en": "",
-  "max": 20
+  "en": "Rare Metal Shield",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "armor:026:desc",
   "addr": "0A258C",
   "kind": "desc",
   "jp": "レアメタル製のシールド",
-  "en": "",
-  "max": 72
+  "en": "Shield made of rare metal",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "armor:027:name",
   "addr": "0A25F4",
   "kind": "name",
   "jp": "ハイメタルシールド",
-  "en": "",
-  "max": 20
+  "en": "High Metal Shield",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "armor:027:kana",
   "addr": "0A2608",
   "kind": "kana",
   "jp": "はいめたるしーるど",
-  "en": "",
-  "max": 20
+  "en": "High Metal Shield",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "armor:027:desc",
   "addr": "0A261C",
   "kind": "desc",
   "jp": "ハイメタル製のシールド",
-  "en": "",
-  "max": 72
+  "en": "Shield made of high metal",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "armor:028:name",
   "addr": "0A2684",
   "kind": "name",
   "jp": "マスターシールド",
-  "en": "",
-  "max": 20
+  "en": "Master Shield",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "armor:028:kana",
   "addr": "0A2698",
   "kind": "kana",
   "jp": "ますたーしーるど",
-  "en": "",
-  "max": 20
+  "en": "Master Shield",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "armor:028:desc",
   "addr": "0A26AC",
   "kind": "desc",
   "jp": "伝説に登場するほど強いシールド",
-  "en": "",
-  "max": 72
+  "en": "A shield of legendary strength",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "armor:029:name",
   "addr": "0A2714",
   "kind": "name",
   "jp": "アトスシールド",
-  "en": "",
-  "max": 20
+  "en": "Athos Shield",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "armor:029:kana",
   "addr": "0A2728",
   "kind": "kana",
   "jp": "あとすしーるど",
-  "en": "",
-  "max": 20
+  "en": "Athos Shield",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "armor:029:desc",
   "addr": "0A273C",
   "kind": "desc",
   "jp": "エルファストの防具屋アトスが作った盾",
-  "en": "",
-  "max": 72
+  "en": "Made by Athos the Armorer of Elfast",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "armor:030:name",
   "addr": "0A27A4",
   "kind": "name",
   "jp": "ブロンズバングル",
-  "en": "",
-  "max": 20
+  "en": "Bronze Bangle",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "armor:030:kana",
   "addr": "0A27B8",
   "kind": "kana",
   "jp": "ぶろんずばんぐる",
-  "en": "",
-  "max": 20
+  "en": "Bronze Bangle",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "armor:030:desc",
   "addr": "0A27CC",
   "kind": "desc",
   "jp": "青銅製の腕輪",
-  "en": "",
-  "max": 72
+  "en": "Bracelet made of bronze",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "armor:031:name",
   "addr": "0A2834",
   "kind": "name",
   "jp": "カッパーバングル",
-  "en": "",
-  "max": 20
+  "en": "Copper Bangle",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "armor:031:kana",
   "addr": "0A2848",
   "kind": "kana",
   "jp": "かっぱーばんぐる",
-  "en": "",
-  "max": 20
+  "en": "Copper Bangle",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "armor:031:desc",
   "addr": "0A285C",
   "kind": "desc",
   "jp": "銅製の腕輪",
-  "en": "",
-  "max": 72
+  "en": "Bracelet made of copper",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "armor:032:name",
   "addr": "0A28C4",
   "kind": "name",
   "jp": "アイアンバングル",
-  "en": "",
-  "max": 20
+  "en": "Iron Bangle",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "armor:032:kana",
   "addr": "0A28D8",
   "kind": "kana",
   "jp": "あいあんばんぐる",
-  "en": "",
-  "max": 20
+  "en": "Iron Bangle",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "armor:032:desc",
   "addr": "0A28EC",
   "kind": "desc",
   "jp": "鉄製の腕輪",
-  "en": "",
-  "max": 72
+  "en": "Bracelet made of iron",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "armor:033:name",
   "addr": "0A2954",
   "kind": "name",
   "jp": "スティールバングル",
-  "en": "",
-  "max": 20
+  "en": "Steel Bangle",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "armor:033:kana",
   "addr": "0A2968",
   "kind": "kana",
   "jp": "すてぃーるばんぐる",
-  "en": "",
-  "max": 20
+  "en": "Steel Bangle",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "armor:033:desc",
   "addr": "0A297C",
   "kind": "desc",
   "jp": "鋼鉄製の腕輪",
-  "en": "",
-  "max": 72
+  "en": "Bracelet made of steel",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "armor:034:name",
   "addr": "0A29E4",
   "kind": "name",
   "jp": "シルバーバングル",
-  "en": "",
-  "max": 20
+  "en": "Silver Bangle",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "armor:034:kana",
   "addr": "0A29F8",
   "kind": "kana",
   "jp": "しるばーばんぐる",
-  "en": "",
-  "max": 20
+  "en": "Silver Bangle",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "armor:034:desc",
   "addr": "0A2A0C",
   "kind": "desc",
   "jp": "銀製の腕輪",
-  "en": "",
-  "max": 72
+  "en": "Bracelet made of silver",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "armor:035:name",
   "addr": "0A2A74",
   "kind": "name",
   "jp": "レアメタルバングル",
-  "en": "",
-  "max": 20
+  "en": "Rare Metal Bangle",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "armor:035:kana",
   "addr": "0A2A88",
   "kind": "kana",
   "jp": "れあめたるばんぐる",
-  "en": "",
-  "max": 20
+  "en": "Rare Metal Bangle",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "armor:035:desc",
   "addr": "0A2A9C",
   "kind": "desc",
   "jp": "レアメタル製の腕輪",
-  "en": "",
-  "max": 72
+  "en": "Bracelet made of rare metal",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "armor:036:name",
   "addr": "0A2B04",
   "kind": "name",
   "jp": "ハイメタルバングル",
-  "en": "",
-  "max": 20
+  "en": "High Metal Bangle",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "armor:036:kana",
   "addr": "0A2B18",
   "kind": "kana",
   "jp": "はいめたるばんぐる",
-  "en": "",
-  "max": 20
+  "en": "High Metal Bangle",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "armor:036:desc",
   "addr": "0A2B2C",
   "kind": "desc",
   "jp": "ハイメタル製の腕輪",
-  "en": "",
-  "max": 72
+  "en": "Bracelet made of high metal",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "armor:037:name",
   "addr": "0A2B94",
   "kind": "name",
   "jp": "Ｂメタルバングル",
-  "en": "",
-  "max": 20
+  "en": "B-Metal Bangle",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "armor:037:kana",
   "addr": "0A2BA8",
   "kind": "kana",
   "jp": "びーめたるばんぐる",
-  "en": "",
-  "max": 20
+  "en": "B-Metal Bangle",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "armor:037:desc",
   "addr": "0A2BBC",
   "kind": "desc",
   "jp": "ベカトルテ鋼製の腕輪",
-  "en": "",
-  "max": 72
+  "en": "Bracelet made of Becatorte steel",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "armor:038:name",
   "addr": "0A2C24",
   "kind": "name",
   "jp": "バトルバングル",
-  "en": "",
-  "max": 20
+  "en": "Battle Bangle",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "armor:038:kana",
   "addr": "0A2C38",
   "kind": "kana",
   "jp": "ばとるばんぐる",
-  "en": "",
-  "max": 20
+  "en": "Battle Bangle",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "armor:038:desc",
   "addr": "0A2C4C",
   "kind": "desc",
   "jp": "複合特殊鋼材でできた腕輪",
-  "en": "",
-  "max": 72
+  "en": "Bracelet of special composite steel",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "armor:039:name",
   "addr": "0A2CB4",
   "kind": "name",
   "jp": "マスターバングル",
-  "en": "",
-  "max": 20
+  "en": "Master Bangle",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "armor:039:kana",
   "addr": "0A2CC8",
   "kind": "kana",
   "jp": "ますたーばんぐる",
-  "en": "",
-  "max": 20
+  "en": "Master Bangle",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "armor:039:desc",
   "addr": "0A2CDC",
   "kind": "desc",
   "jp": "達人が愛用する強い腕輪",
-  "en": "",
-  "max": 72
+  "en": "Strong bracelet that masters favor",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "armor:040:name",
   "addr": "0A2D44",
   "kind": "name",
   "jp": "コットンマント",
-  "en": "",
-  "max": 20
+  "en": "Cotton Mantle",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "armor:040:kana",
   "addr": "0A2D58",
   "kind": "kana",
   "jp": "こっとんまんと",
-  "en": "",
-  "max": 20
+  "en": "Cotton Mantle",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "armor:040:desc",
   "addr": "0A2D6C",
   "kind": "desc",
   "jp": "コットンでできたマント",
-  "en": "",
-  "max": 72
+  "en": "Mantle made of cotton",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "armor:041:name",
   "addr": "0A2DD4",
   "kind": "name",
   "jp": "リネンマント",
-  "en": "",
-  "max": 20
+  "en": "Linen Mantle",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "armor:041:kana",
   "addr": "0A2DE8",
   "kind": "kana",
   "jp": "りねんまんと",
-  "en": "",
-  "max": 20
+  "en": "Linen Mantle",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "armor:041:desc",
   "addr": "0A2DFC",
   "kind": "desc",
   "jp": "リネンでできたマント",
-  "en": "",
-  "max": 72
+  "en": "Mantle made of linen",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "armor:042:name",
   "addr": "0A2E64",
   "kind": "name",
   "jp": "ウールマント",
-  "en": "",
-  "max": 20
+  "en": "Wool Mantle",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "armor:042:kana",
   "addr": "0A2E78",
   "kind": "kana",
   "jp": "うーるまんと",
-  "en": "",
-  "max": 20
+  "en": "Wool Mantle",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "armor:042:desc",
   "addr": "0A2E8C",
   "kind": "desc",
   "jp": "ウールでできたマント",
-  "en": "",
-  "max": 72
+  "en": "Mantle made of wool",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "armor:043:name",
   "addr": "0A2EF4",
   "kind": "name",
   "jp": "シルクマント",
-  "en": "",
-  "max": 20
+  "en": "Silk Mantle",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "armor:043:kana",
   "addr": "0A2F08",
   "kind": "kana",
   "jp": "しるくまんと",
-  "en": "",
-  "max": 20
+  "en": "Silk Mantle",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "armor:043:desc",
   "addr": "0A2F1C",
   "kind": "desc",
   "jp": "シルクでできたマント",
-  "en": "",
-  "max": 72
+  "en": "Mantle made of silk",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "armor:044:name",
   "addr": "0A2F84",
   "kind": "name",
   "jp": "アンゴラマント",
-  "en": "",
-  "max": 20
+  "en": "Angora Mantle",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "armor:044:kana",
   "addr": "0A2F98",
   "kind": "kana",
   "jp": "あんごらまんと",
-  "en": "",
-  "max": 20
+  "en": "Angora Mantle",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "armor:044:desc",
   "addr": "0A2FAC",
   "kind": "desc",
   "jp": "アンゴラでできたマント",
-  "en": "",
-  "max": 72
+  "en": "Mantle made of angora",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "armor:045:name",
   "addr": "0A3014",
   "kind": "name",
   "jp": "アルパカマント",
-  "en": "",
-  "max": 20
+  "en": "Alpaca Mantle",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "armor:045:kana",
   "addr": "0A3028",
   "kind": "kana",
   "jp": "あるぱかまんと",
-  "en": "",
-  "max": 20
+  "en": "Alpaca Mantle",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "armor:045:desc",
   "addr": "0A303C",
   "kind": "desc",
   "jp": "アルパカでできたマント",
-  "en": "",
-  "max": 72
+  "en": "Mantle made of alpaca",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "armor:046:name",
   "addr": "0A30A4",
   "kind": "name",
   "jp": "レザーマント",
-  "en": "",
-  "max": 20
+  "en": "Leather Mantle",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "armor:046:kana",
   "addr": "0A30B8",
   "kind": "kana",
   "jp": "れざーまんと",
-  "en": "",
-  "max": 20
+  "en": "Leather Mantle",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "armor:046:desc",
   "addr": "0A30CC",
   "kind": "desc",
   "jp": "ソフトレザーでできたマント",
-  "en": "",
-  "max": 72
+  "en": "Mantle made of soft leather",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "armor:047:name",
   "addr": "0A3134",
   "kind": "name",
   "jp": "バスターズマント",
-  "en": "",
-  "max": 20
+  "en": "Busters Mantle",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "armor:047:kana",
   "addr": "0A3148",
   "kind": "kana",
   "jp": "ばすたーずまんと",
-  "en": "",
-  "max": 20
+  "en": "Busters Mantle",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "armor:047:desc",
   "addr": "0A315C",
   "kind": "desc",
   "jp": "多くのバスターが愛用しているマント",
-  "en": "",
-  "max": 72
+  "en": "Mantle favored by many Busters",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "armor:048:name",
   "addr": "0A31C4",
   "kind": "name",
   "jp": "バトルマント",
-  "en": "",
-  "max": 20
+  "en": "Battle Mantle",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "armor:048:kana",
   "addr": "0A31D8",
   "kind": "kana",
   "jp": "ばとるまんと",
-  "en": "",
-  "max": 20
+  "en": "Battle Mantle",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "armor:048:desc",
   "addr": "0A31EC",
   "kind": "desc",
   "jp": "複合特殊鋼材を織り込んだマント",
-  "en": "",
-  "max": 72
+  "en": "Woven with special composite steel",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "armor:049:name",
   "addr": "0A3254",
   "kind": "name",
   "jp": "マスターマント",
-  "en": "",
-  "max": 20
+  "en": "Master Mantle",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "armor:049:kana",
   "addr": "0A3268",
   "kind": "kana",
   "jp": "ますたーまんと",
-  "en": "",
-  "max": 20
+  "en": "Master Mantle",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "armor:049:desc",
   "addr": "0A327C",
   "kind": "desc",
   "jp": "不明な非常に強い素材でできたマント",
-  "en": "",
-  "max": 72
+  "en": "Made of unknown ultra-tough material",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "armor:050:name",
   "addr": "0A32E4",
   "kind": "name",
   "jp": "コットンバンダナ",
-  "en": "",
-  "max": 20
+  "en": "Cotton Bandana",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "armor:050:kana",
   "addr": "0A32F8",
   "kind": "kana",
   "jp": "こっとんばんだな",
-  "en": "",
-  "max": 20
+  "en": "Cotton Bandana",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "armor:050:desc",
   "addr": "0A330C",
   "kind": "desc",
   "jp": "コットンでできたバンダナ",
-  "en": "",
-  "max": 72
+  "en": "Bandana made of cotton",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "armor:051:name",
   "addr": "0A3374",
   "kind": "name",
   "jp": "リネンバンダナ",
-  "en": "",
-  "max": 20
+  "en": "Linen Bandana",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "armor:051:kana",
   "addr": "0A3388",
   "kind": "kana",
   "jp": "りねんばんだな",
-  "en": "",
-  "max": 20
+  "en": "Linen Bandana",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "armor:051:desc",
   "addr": "0A339C",
   "kind": "desc",
   "jp": "リネンでできたバンダナ",
-  "en": "",
-  "max": 72
+  "en": "Bandana made of linen",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "armor:052:name",
   "addr": "0A3404",
   "kind": "name",
   "jp": "ウールバンダナ",
-  "en": "",
-  "max": 20
+  "en": "Wool Bandana",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "armor:052:kana",
   "addr": "0A3418",
   "kind": "kana",
   "jp": "うーるばんだな",
-  "en": "",
-  "max": 20
+  "en": "Wool Bandana",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "armor:052:desc",
   "addr": "0A342C",
   "kind": "desc",
   "jp": "ウールでできたバンダナ",
-  "en": "",
-  "max": 72
+  "en": "Bandana made of wool",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "armor:053:name",
   "addr": "0A3494",
   "kind": "name",
   "jp": "シルクバンダナ",
-  "en": "",
-  "max": 20
+  "en": "Silk Bandana",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "armor:053:kana",
   "addr": "0A34A8",
   "kind": "kana",
   "jp": "しるくばんだな",
-  "en": "",
-  "max": 20
+  "en": "Silk Bandana",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "armor:053:desc",
   "addr": "0A34BC",
   "kind": "desc",
   "jp": "シルクでできたバンダナ",
-  "en": "",
-  "max": 72
+  "en": "Bandana made of silk",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "armor:054:name",
   "addr": "0A3524",
   "kind": "name",
   "jp": "アンゴラバンダナ",
-  "en": "",
-  "max": 20
+  "en": "Angora Bandana",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "armor:054:kana",
   "addr": "0A3538",
   "kind": "kana",
   "jp": "あんごらばんだな",
-  "en": "",
-  "max": 20
+  "en": "Angora Bandana",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "armor:054:desc",
   "addr": "0A354C",
   "kind": "desc",
   "jp": "アンゴラでできたバンダナ",
-  "en": "",
-  "max": 72
+  "en": "Bandana made of angora",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "armor:055:name",
   "addr": "0A35B4",
   "kind": "name",
   "jp": "アルパカバンダナ",
-  "en": "",
-  "max": 20
+  "en": "Alpaca Bandana",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "armor:055:kana",
   "addr": "0A35C8",
   "kind": "kana",
   "jp": "あるぱかばんだな",
-  "en": "",
-  "max": 20
+  "en": "Alpaca Bandana",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "armor:055:desc",
   "addr": "0A35DC",
   "kind": "desc",
   "jp": "アルパカでできたバンダナ",
-  "en": "",
-  "max": 72
+  "en": "Bandana made of alpaca",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "armor:056:name",
   "addr": "0A3644",
   "kind": "name",
   "jp": "レザーバンダナ",
-  "en": "",
-  "max": 20
+  "en": "Leather Bandana",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "armor:056:kana",
   "addr": "0A3658",
   "kind": "kana",
   "jp": "れざーばんだな",
-  "en": "",
-  "max": 20
+  "en": "Leather Bandana",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "armor:056:desc",
   "addr": "0A366C",
   "kind": "desc",
   "jp": "ソフトレザーでできたバンダナ",
-  "en": "",
-  "max": 72
+  "en": "Bandana made of soft leather",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "armor:057:name",
   "addr": "0A36D4",
   "kind": "name",
   "jp": "バスターズバンダナ",
-  "en": "",
-  "max": 20
+  "en": "Busters Bandana",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "armor:057:kana",
   "addr": "0A36E8",
   "kind": "kana",
   "jp": "ばすたーずばんだな",
-  "en": "",
-  "max": 20
+  "en": "Busters Bandana",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "armor:057:desc",
   "addr": "0A36FC",
   "kind": "desc",
   "jp": "多くのバスターが愛用しているバンダナ",
-  "en": "",
-  "max": 72
+  "en": "Bandana favored by many Busters",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "armor:058:name",
   "addr": "0A3764",
   "kind": "name",
   "jp": "バトルバンダナ",
-  "en": "",
-  "max": 20
+  "en": "Battle Bandana",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "armor:058:kana",
   "addr": "0A3778",
   "kind": "kana",
   "jp": "ばとるばんだな",
-  "en": "",
-  "max": 20
+  "en": "Battle Bandana",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "armor:058:desc",
   "addr": "0A378C",
   "kind": "desc",
   "jp": "複合特殊鋼材を織り込んだバンダナ",
-  "en": "",
-  "max": 72
+  "en": "Woven with special composite steel",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "armor:059:name",
   "addr": "0A37F4",
   "kind": "name",
   "jp": "マスターバンダナ",
-  "en": "",
-  "max": 20
+  "en": "Master Bandana",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "armor:059:kana",
   "addr": "0A3808",
   "kind": "kana",
   "jp": "ますたーばんだな",
-  "en": "",
-  "max": 20
+  "en": "Master Bandana",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "armor:059:desc",
   "addr": "0A381C",
   "kind": "desc",
   "jp": "不明な非常に強い素材でできたバンダナ",
-  "en": "",
-  "max": 72
+  "en": "Made of unknown ultra-tough material",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "armor:060:name",
   "addr": "0A3884",
   "kind": "name",
   "jp": "コットングローブ",
-  "en": "",
-  "max": 20
+  "en": "Cotton Gloves",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "armor:060:kana",
   "addr": "0A3898",
   "kind": "kana",
   "jp": "こっとんぐろーぶ",
-  "en": "",
-  "max": 20
+  "en": "Cotton Gloves",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "armor:060:desc",
   "addr": "0A38AC",
   "kind": "desc",
   "jp": "コットンでできたグローブ",
-  "en": "",
-  "max": 72
+  "en": "Gloves made of cotton",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "armor:061:name",
   "addr": "0A3914",
   "kind": "name",
   "jp": "リネングローブ",
-  "en": "",
-  "max": 20
+  "en": "Linen Gloves",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "armor:061:kana",
   "addr": "0A3928",
   "kind": "kana",
   "jp": "りねんぐろーぶ",
-  "en": "",
-  "max": 20
+  "en": "Linen Gloves",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "armor:061:desc",
   "addr": "0A393C",
   "kind": "desc",
   "jp": "リネンでできたグローブ",
-  "en": "",
-  "max": 72
+  "en": "Gloves made of linen",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "armor:062:name",
   "addr": "0A39A4",
   "kind": "name",
   "jp": "ウールグローブ",
-  "en": "",
-  "max": 20
+  "en": "Wool Gloves",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "armor:062:kana",
   "addr": "0A39B8",
   "kind": "kana",
   "jp": "うーるぐろーぶ",
-  "en": "",
-  "max": 20
+  "en": "Wool Gloves",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "armor:062:desc",
   "addr": "0A39CC",
   "kind": "desc",
   "jp": "ウールでできたグローブ",
-  "en": "",
-  "max": 72
+  "en": "Gloves made of wool",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "armor:063:name",
   "addr": "0A3A34",
   "kind": "name",
   "jp": "シルクグローブ",
-  "en": "",
-  "max": 20
+  "en": "Silk Gloves",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "armor:063:kana",
   "addr": "0A3A48",
   "kind": "kana",
   "jp": "しるくぐろーぶ",
-  "en": "",
-  "max": 20
+  "en": "Silk Gloves",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "armor:063:desc",
   "addr": "0A3A5C",
   "kind": "desc",
   "jp": "シルクでできたグローブ",
-  "en": "",
-  "max": 72
+  "en": "Gloves made of silk",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "armor:064:name",
   "addr": "0A3AC4",
   "kind": "name",
   "jp": "アンゴラグローブ",
-  "en": "",
-  "max": 20
+  "en": "Angora Gloves",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "armor:064:kana",
   "addr": "0A3AD8",
   "kind": "kana",
   "jp": "あんごらぐろーぶ",
-  "en": "",
-  "max": 20
+  "en": "Angora Gloves",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "armor:064:desc",
   "addr": "0A3AEC",
   "kind": "desc",
   "jp": "アンゴラでできたグローブ",
-  "en": "",
-  "max": 72
+  "en": "Gloves made of angora",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "armor:065:name",
   "addr": "0A3B54",
   "kind": "name",
   "jp": "アルパカグローブ",
-  "en": "",
-  "max": 20
+  "en": "Alpaca Gloves",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "armor:065:kana",
   "addr": "0A3B68",
   "kind": "kana",
   "jp": "あるぱかぐろーぶ",
-  "en": "",
-  "max": 20
+  "en": "Alpaca Gloves",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "armor:065:desc",
   "addr": "0A3B7C",
   "kind": "desc",
   "jp": "アルパカでできたグローブ",
-  "en": "",
-  "max": 72
+  "en": "Gloves made of alpaca",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "armor:066:name",
   "addr": "0A3BE4",
   "kind": "name",
   "jp": "レザーグローブ",
-  "en": "",
-  "max": 20
+  "en": "Leather Gloves",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "armor:066:kana",
   "addr": "0A3BF8",
   "kind": "kana",
   "jp": "れざーぐろーぶ",
-  "en": "",
-  "max": 20
+  "en": "Leather Gloves",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "armor:066:desc",
   "addr": "0A3C0C",
   "kind": "desc",
   "jp": "ソフトレザーでできたグローブ",
-  "en": "",
-  "max": 72
+  "en": "Gloves made of soft leather",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "armor:067:name",
   "addr": "0A3C74",
   "kind": "name",
   "jp": "バスターズグローブ",
-  "en": "",
-  "max": 20
+  "en": "Busters Gloves",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "armor:067:kana",
   "addr": "0A3C88",
   "kind": "kana",
   "jp": "ばすたーずぐろーぶ",
-  "en": "",
-  "max": 20
+  "en": "Busters Gloves",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "armor:067:desc",
   "addr": "0A3C9C",
   "kind": "desc",
   "jp": "多くのバスターが愛用しているグローブ",
-  "en": "",
-  "max": 72
+  "en": "Gloves favored by many Busters",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "armor:068:name",
   "addr": "0A3D04",
   "kind": "name",
   "jp": "バトルグローブ",
-  "en": "",
-  "max": 20
+  "en": "Battle Gloves",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "armor:068:kana",
   "addr": "0A3D18",
   "kind": "kana",
   "jp": "ばとるぐろーぶ",
-  "en": "",
-  "max": 20
+  "en": "Battle Gloves",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "armor:068:desc",
   "addr": "0A3D2C",
   "kind": "desc",
   "jp": "複合特殊鋼材を織り込んだグローブ",
-  "en": "",
-  "max": 72
+  "en": "Woven with special composite steel",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "armor:069:name",
   "addr": "0A3D94",
   "kind": "name",
   "jp": "マスターグローブ",
-  "en": "",
-  "max": 20
+  "en": "Master Gloves",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "armor:069:kana",
   "addr": "0A3DA8",
   "kind": "kana",
   "jp": "ますたーぐろーぶ",
-  "en": "",
-  "max": 20
+  "en": "Master Gloves",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "armor:069:desc",
   "addr": "0A3DBC",
   "kind": "desc",
   "jp": "不明な非常に強い素材でできたグローブ",
-  "en": "",
-  "max": 72
+  "en": "Made of unknown ultra-tough material",
+  "max": 72,
+  "status": "done"
  },
  {
   "id": "armor:070:name",
   "addr": "0A3E24",
   "kind": "name",
   "jp": "クラウンシールド",
-  "en": "",
-  "max": 20
+  "en": "Crown Shield",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "armor:070:kana",
   "addr": "0A3E38",
   "kind": "kana",
   "jp": "くらうんしーるど",
-  "en": "",
-  "max": 20
+  "en": "Crown Shield",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "armor:070:desc",
   "addr": "0A3E4C",
   "kind": "desc",
   "jp": "なし",
-  "en": "",
-  "max": 72
+  "en": "None",
+  "max": 72,
+  "status": "done"
  }
 ]

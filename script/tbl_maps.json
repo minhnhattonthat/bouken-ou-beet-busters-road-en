@@ -4,2559 +4,2879 @@
   "addr": "10CFC0",
   "kind": "name",
   "jp": "アンクルス平原",
-  "en": "",
-  "max": 20
+  "en": "Anklus Plains",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:001:name",
   "addr": "10D020",
   "kind": "name",
   "jp": "アンクルス平原",
-  "en": "",
-  "max": 20
+  "en": "Anklus Plains",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:002:name",
   "addr": "10D080",
   "kind": "name",
   "jp": "アンクルス平原",
-  "en": "",
-  "max": 20
+  "en": "Anklus Plains",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:003:name",
   "addr": "10D0E0",
   "kind": "name",
   "jp": "アンクルス平原",
-  "en": "",
-  "max": 20
+  "en": "Anklus Plains",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:004:name",
   "addr": "10D140",
   "kind": "name",
   "jp": "アンクルス平原",
-  "en": "",
-  "max": 20
+  "en": "Anklus Plains",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:005:name",
   "addr": "10D1A0",
   "kind": "name",
   "jp": "アンクルス平原",
-  "en": "",
-  "max": 20
+  "en": "Anklus Plains",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:006:name",
   "addr": "10D200",
   "kind": "name",
   "jp": "アンクルスの里",
-  "en": "",
-  "max": 20
+  "en": "Anklus Village",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:007:name",
   "addr": "10D260",
   "kind": "name",
   "jp": "アンクルスの里",
-  "en": "",
-  "max": 20
+  "en": "Anklus Village",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:008:name",
   "addr": "10D2C0",
   "kind": "name",
   "jp": "アンクルスの里",
-  "en": "",
-  "max": 20
+  "en": "Anklus Village",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:009:name",
   "addr": "10D320",
   "kind": "name",
   "jp": "アンクルスの里",
-  "en": "",
-  "max": 20
+  "en": "Anklus Village",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:010:name",
   "addr": "10D380",
   "kind": "name",
   "jp": "アンクルスの里",
-  "en": "",
-  "max": 20
+  "en": "Anklus Village",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:011:name",
   "addr": "10D3E0",
   "kind": "name",
   "jp": "アンクルスの里",
-  "en": "",
-  "max": 20
+  "en": "Anklus Village",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:012:name",
   "addr": "10D440",
   "kind": "name",
   "jp": "アンクルスの里",
-  "en": "",
-  "max": 20
+  "en": "Anklus Village",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:013:name",
   "addr": "10D4A0",
   "kind": "name",
   "jp": "アンクルスの里",
-  "en": "",
-  "max": 20
+  "en": "Anklus Village",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:014:name",
   "addr": "10D500",
   "kind": "name",
   "jp": "アンクルスの里",
-  "en": "",
-  "max": 20
+  "en": "Anklus Village",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:015:name",
   "addr": "10D560",
   "kind": "name",
   "jp": "アンクルスの里",
-  "en": "",
-  "max": 20
+  "en": "Anklus Village",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:016:name",
   "addr": "10D5C0",
   "kind": "name",
   "jp": "アンクルスの里",
-  "en": "",
-  "max": 20
+  "en": "Anklus Village",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:017:name",
   "addr": "10D620",
   "kind": "name",
   "jp": "アンクルスの里",
-  "en": "",
-  "max": 20
+  "en": "Anklus Village",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:018:name",
   "addr": "10D680",
   "kind": "name",
   "jp": "アンクルスの里",
-  "en": "",
-  "max": 20
+  "en": "Anklus Village",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:019:name",
   "addr": "10D6E0",
   "kind": "name",
   "jp": "アンクルスの里",
-  "en": "",
-  "max": 20
+  "en": "Anklus Village",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:020:name",
   "addr": "10D740",
   "kind": "name",
   "jp": "ムガインの城",
-  "en": "",
-  "max": 20
+  "en": "Mugine Castle",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:021:name",
   "addr": "10D7A0",
   "kind": "name",
   "jp": "ムガインの城",
-  "en": "",
-  "max": 20
+  "en": "Mugine Castle",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:022:name",
   "addr": "10D800",
   "kind": "name",
   "jp": "ムガインの城",
-  "en": "",
-  "max": 20
+  "en": "Mugine Castle",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:023:name",
   "addr": "10D860",
   "kind": "name",
   "jp": "ムガインの城",
-  "en": "",
-  "max": 20
+  "en": "Mugine Castle",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:024:name",
   "addr": "10D8C0",
   "kind": "name",
   "jp": "ムガインの城",
-  "en": "",
-  "max": 20
+  "en": "Mugine Castle",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:025:name",
   "addr": "10D920",
   "kind": "name",
   "jp": "レドウの港町",
-  "en": "",
-  "max": 20
+  "en": "Port Redou",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:026:name",
   "addr": "10D980",
   "kind": "name",
   "jp": "レドウの港町",
-  "en": "",
-  "max": 20
+  "en": "Port Redou",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:027:name",
   "addr": "10D9E0",
   "kind": "name",
   "jp": "レドウの港町",
-  "en": "",
-  "max": 20
+  "en": "Port Redou",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:028:name",
   "addr": "10DA40",
   "kind": "name",
   "jp": "レドウの港町",
-  "en": "",
-  "max": 20
+  "en": "Port Redou",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:029:name",
   "addr": "10DAA0",
   "kind": "name",
   "jp": "レドウの港町",
-  "en": "",
-  "max": 20
+  "en": "Port Redou",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:030:name",
   "addr": "10DB00",
   "kind": "name",
   "jp": "レドウの港町",
-  "en": "",
-  "max": 20
+  "en": "Port Redou",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:031:name",
   "addr": "10DB60",
   "kind": "name",
   "jp": "レドウの港町",
-  "en": "",
-  "max": 20
+  "en": "Port Redou",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:032:name",
   "addr": "10DBC0",
   "kind": "name",
   "jp": "レドウの港町",
-  "en": "",
-  "max": 20
+  "en": "Port Redou",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:033:name",
   "addr": "10DC20",
   "kind": "name",
   "jp": "レドウの港町",
-  "en": "",
-  "max": 20
+  "en": "Port Redou",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:034:name",
   "addr": "10DC80",
   "kind": "name",
   "jp": "レドウの港町",
-  "en": "",
-  "max": 20
+  "en": "Port Redou",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:035:name",
   "addr": "10DCE0",
   "kind": "name",
   "jp": "レドウの港町",
-  "en": "",
-  "max": 20
+  "en": "Port Redou",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:036:name",
   "addr": "10DD40",
   "kind": "name",
   "jp": "レドウの港町",
-  "en": "",
-  "max": 20
+  "en": "Port Redou",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:037:name",
   "addr": "10DDA0",
   "kind": "name",
   "jp": "レドウの港町",
-  "en": "",
-  "max": 20
+  "en": "Port Redou",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:038:name",
   "addr": "10DE00",
   "kind": "name",
   "jp": "レドウの港町",
-  "en": "",
-  "max": 20
+  "en": "Port Redou",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:039:name",
   "addr": "10DE60",
   "kind": "name",
   "jp": "レドウの港町",
-  "en": "",
-  "max": 20
+  "en": "Port Redou",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:040:name",
   "addr": "10DEC0",
   "kind": "name",
   "jp": "レドウの港町",
-  "en": "",
-  "max": 20
+  "en": "Port Redou",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:041:name",
   "addr": "10DF20",
   "kind": "name",
   "jp": "レドウの港町",
-  "en": "",
-  "max": 20
+  "en": "Port Redou",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:042:name",
   "addr": "10DF80",
   "kind": "name",
   "jp": "レドウの港町",
-  "en": "",
-  "max": 20
+  "en": "Port Redou",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:043:name",
   "addr": "10DFE0",
   "kind": "name",
   "jp": "レドウの港町",
-  "en": "",
-  "max": 20
+  "en": "Port Redou",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:044:name",
   "addr": "10E040",
   "kind": "name",
   "jp": "レドウの港町",
-  "en": "",
-  "max": 20
+  "en": "Port Redou",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:045:name",
   "addr": "10E0A0",
   "kind": "name",
   "jp": "レドウの港町",
-  "en": "",
-  "max": 20
+  "en": "Port Redou",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:046:name",
   "addr": "10E100",
   "kind": "name",
   "jp": "レドウの港町",
-  "en": "",
-  "max": 20
+  "en": "Port Redou",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:047:name",
   "addr": "10E160",
   "kind": "name",
   "jp": "レドウの港町",
-  "en": "",
-  "max": 20
+  "en": "Port Redou",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:048:name",
   "addr": "10E1C0",
   "kind": "name",
   "jp": "レドウの港町",
-  "en": "",
-  "max": 20
+  "en": "Port Redou",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:049:name",
   "addr": "10E220",
   "kind": "name",
   "jp": "レドウの港町",
-  "en": "",
-  "max": 20
+  "en": "Port Redou",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:050:name",
   "addr": "10E280",
   "kind": "name",
   "jp": "レドウの港町",
-  "en": "",
-  "max": 20
+  "en": "Port Redou",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:051:name",
   "addr": "10E2E0",
   "kind": "name",
   "jp": "レドウの港町",
-  "en": "",
-  "max": 20
+  "en": "Port Redou",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:052:name",
   "addr": "10E340",
   "kind": "name",
   "jp": "レドウの港町",
-  "en": "",
-  "max": 20
+  "en": "Port Redou",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:053:name",
   "addr": "10E3A0",
   "kind": "name",
   "jp": "レドウの港町",
-  "en": "",
-  "max": 20
+  "en": "Port Redou",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:054:name",
   "addr": "10E400",
   "kind": "name",
   "jp": "レドウの港町",
-  "en": "",
-  "max": 20
+  "en": "Port Redou",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:055:name",
   "addr": "10E460",
   "kind": "name",
   "jp": "レドウの港町",
-  "en": "",
-  "max": 20
+  "en": "Port Redou",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:056:name",
   "addr": "10E4C0",
   "kind": "name",
   "jp": "レドウの港町",
-  "en": "",
-  "max": 20
+  "en": "Port Redou",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:057:name",
   "addr": "10E520",
   "kind": "name",
   "jp": "レドウの港町",
-  "en": "",
-  "max": 20
+  "en": "Port Redou",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:058:name",
   "addr": "10E580",
   "kind": "name",
   "jp": "レドウの港町",
-  "en": "",
-  "max": 20
+  "en": "Port Redou",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:059:name",
   "addr": "10E5E0",
   "kind": "name",
   "jp": "レドウの港町",
-  "en": "",
-  "max": 20
+  "en": "Port Redou",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:060:name",
   "addr": "10E640",
   "kind": "name",
   "jp": "レドウの港町",
-  "en": "",
-  "max": 20
+  "en": "Port Redou",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:061:name",
   "addr": "10E6A0",
   "kind": "name",
   "jp": "レドウの港町",
-  "en": "",
-  "max": 20
+  "en": "Port Redou",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:062:name",
   "addr": "10E700",
   "kind": "name",
   "jp": "レドウの港町",
-  "en": "",
-  "max": 20
+  "en": "Port Redou",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:063:name",
   "addr": "10E760",
   "kind": "name",
   "jp": "ムガインの死人沼",
-  "en": "",
-  "max": 20
+  "en": "Mugine Dead Swamp",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:064:name",
   "addr": "10E7C0",
   "kind": "name",
   "jp": "ムガインの死人沼",
-  "en": "",
-  "max": 20
+  "en": "Mugine Dead Swamp",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:065:name",
   "addr": "10E820",
   "kind": "name",
   "jp": "ムガインの死人沼",
-  "en": "",
-  "max": 20
+  "en": "Mugine Dead Swamp",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:066:name",
   "addr": "10E880",
   "kind": "name",
   "jp": "ムガインの死人沼",
-  "en": "",
-  "max": 20
+  "en": "Mugine Dead Swamp",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:067:name",
   "addr": "10E8E0",
   "kind": "name",
   "jp": "トロワナ王国",
-  "en": "",
-  "max": 20
+  "en": "Kingdom of Trowana",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:068:name",
   "addr": "10E940",
   "kind": "name",
   "jp": "トロワナ城",
-  "en": "",
-  "max": 20
+  "en": "Trowana Castle",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:069:name",
   "addr": "10E9A0",
   "kind": "name",
   "jp": "トロワナ城",
-  "en": "",
-  "max": 20
+  "en": "Trowana Castle",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:070:name",
   "addr": "10EA00",
   "kind": "name",
   "jp": "トロワナ城",
-  "en": "",
-  "max": 20
+  "en": "Trowana Castle",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:071:name",
   "addr": "10EA60",
   "kind": "name",
   "jp": "トロワナ城",
-  "en": "",
-  "max": 20
+  "en": "Trowana Castle",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:072:name",
   "addr": "10EAC0",
   "kind": "name",
   "jp": "トロワナ城",
-  "en": "",
-  "max": 20
+  "en": "Trowana Castle",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:073:name",
   "addr": "10EB20",
   "kind": "name",
   "jp": "トロワナの街",
-  "en": "",
-  "max": 20
+  "en": "Trowana Town",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:074:name",
   "addr": "10EB80",
   "kind": "name",
   "jp": "トロワナの街",
-  "en": "",
-  "max": 20
+  "en": "Trowana Town",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:075:name",
   "addr": "10EBE0",
   "kind": "name",
   "jp": "トロワナの街",
-  "en": "",
-  "max": 20
+  "en": "Trowana Town",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:076:name",
   "addr": "10EC40",
   "kind": "name",
   "jp": "トロワナの街",
-  "en": "",
-  "max": 20
+  "en": "Trowana Town",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:077:name",
   "addr": "10ECA0",
   "kind": "name",
   "jp": "トロワナの街",
-  "en": "",
-  "max": 20
+  "en": "Trowana Town",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:078:name",
   "addr": "10ED00",
   "kind": "name",
   "jp": "トロワナの街",
-  "en": "",
-  "max": 20
+  "en": "Trowana Town",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:079:name",
   "addr": "10ED60",
   "kind": "name",
   "jp": "トロワナの街",
-  "en": "",
-  "max": 20
+  "en": "Trowana Town",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:080:name",
   "addr": "10EDC0",
   "kind": "name",
   "jp": "トロワナの街",
-  "en": "",
-  "max": 20
+  "en": "Trowana Town",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:081:name",
   "addr": "10EE20",
   "kind": "name",
   "jp": "トロワナの街",
-  "en": "",
-  "max": 20
+  "en": "Trowana Town",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:082:name",
   "addr": "10EE80",
   "kind": "name",
   "jp": "トロワナの街",
-  "en": "",
-  "max": 20
+  "en": "Trowana Town",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:083:name",
   "addr": "10EEE0",
   "kind": "name",
   "jp": "トロワナの街",
-  "en": "",
-  "max": 20
+  "en": "Trowana Town",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:084:name",
   "addr": "10EF40",
   "kind": "name",
   "jp": "トロワナの街",
-  "en": "",
-  "max": 20
+  "en": "Trowana Town",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:085:name",
   "addr": "10EFA0",
   "kind": "name",
   "jp": "トロワナの街",
-  "en": "",
-  "max": 20
+  "en": "Trowana Town",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:086:name",
   "addr": "10F000",
   "kind": "name",
   "jp": "トロワナの街",
-  "en": "",
-  "max": 20
+  "en": "Trowana Town",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:087:name",
   "addr": "10F060",
   "kind": "name",
   "jp": "トロワナの街",
-  "en": "",
-  "max": 20
+  "en": "Trowana Town",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:088:name",
   "addr": "10F0C0",
   "kind": "name",
   "jp": "トロワナの街",
-  "en": "",
-  "max": 20
+  "en": "Trowana Town",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:089:name",
   "addr": "10F120",
   "kind": "name",
   "jp": "トロワナの街",
-  "en": "",
-  "max": 20
+  "en": "Trowana Town",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:090:name",
   "addr": "10F180",
   "kind": "name",
   "jp": "トロワナの街",
-  "en": "",
-  "max": 20
+  "en": "Trowana Town",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:091:name",
   "addr": "10F1E0",
   "kind": "name",
   "jp": "トロワナの街",
-  "en": "",
-  "max": 20
+  "en": "Trowana Town",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:092:name",
   "addr": "10F240",
   "kind": "name",
   "jp": "トロワナの街",
-  "en": "",
-  "max": 20
+  "en": "Trowana Town",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:093:name",
   "addr": "10F2A0",
   "kind": "name",
   "jp": "ワンダラ山地",
-  "en": "",
-  "max": 20
+  "en": "Wandara Mountains",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:094:name",
   "addr": "10F300",
   "kind": "name",
   "jp": "ワンダラ山地",
-  "en": "",
-  "max": 20
+  "en": "Wandara Mountains",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:095:name",
   "addr": "10F360",
   "kind": "name",
   "jp": "ワンダラ山地",
-  "en": "",
-  "max": 20
+  "en": "Wandara Mountains",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:096:name",
   "addr": "10F3C0",
   "kind": "name",
   "jp": "ワンダラ山地",
-  "en": "",
-  "max": 20
+  "en": "Wandara Mountains",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:097:name",
   "addr": "10F420",
   "kind": "name",
   "jp": "デュオラ平原",
-  "en": "",
-  "max": 20
+  "en": "Duora Plains",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:098:name",
   "addr": "10F480",
   "kind": "name",
   "jp": "デュオラ平原",
-  "en": "",
-  "max": 20
+  "en": "Duora Plains",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:099:name",
   "addr": "10F4E0",
   "kind": "name",
   "jp": "デュオラ平原",
-  "en": "",
-  "max": 20
+  "en": "Duora Plains",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:100:name",
   "addr": "10F540",
   "kind": "name",
   "jp": "デュオラ平原",
-  "en": "",
-  "max": 20
+  "en": "Duora Plains",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:101:name",
   "addr": "10F5A0",
   "kind": "name",
   "jp": "デュオラ平原",
-  "en": "",
-  "max": 20
+  "en": "Duora Plains",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:102:name",
   "addr": "10F600",
   "kind": "name",
   "jp": "デュオラ平原",
-  "en": "",
-  "max": 20
+  "en": "Duora Plains",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:103:name",
   "addr": "10F660",
   "kind": "name",
   "jp": "アサド山地",
-  "en": "",
-  "max": 20
+  "en": "Asad Mountains",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:104:name",
   "addr": "10F6C0",
   "kind": "name",
   "jp": "アサド山地",
-  "en": "",
-  "max": 20
+  "en": "Asad Mountains",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:105:name",
   "addr": "10F720",
   "kind": "name",
   "jp": "アサド山地",
-  "en": "",
-  "max": 20
+  "en": "Asad Mountains",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:106:name",
   "addr": "10F780",
   "kind": "name",
   "jp": "エトリア山地",
-  "en": "",
-  "max": 20
+  "en": "Etria Mountains",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:107:name",
   "addr": "10F7E0",
   "kind": "name",
   "jp": "エトリア山地",
-  "en": "",
-  "max": 20
+  "en": "Etria Mountains",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:108:name",
   "addr": "10F840",
   "kind": "name",
   "jp": "エトリア山地",
-  "en": "",
-  "max": 20
+  "en": "Etria Mountains",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:109:name",
   "addr": "10F8A0",
   "kind": "name",
   "jp": "荒野の遺跡",
-  "en": "",
-  "max": 20
+  "en": "Wasteland Ruins",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:110:name",
   "addr": "10F900",
   "kind": "name",
   "jp": "荒野の遺跡",
-  "en": "",
-  "max": 20
+  "en": "Wasteland Ruins",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:111:name",
   "addr": "10F960",
   "kind": "name",
   "jp": "荒野の遺跡",
-  "en": "",
-  "max": 20
+  "en": "Wasteland Ruins",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:112:name",
   "addr": "10F9C0",
   "kind": "name",
   "jp": "テルセロン山地",
-  "en": "",
-  "max": 20
+  "en": "Terceron Mountains",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:113:name",
   "addr": "10FA20",
   "kind": "name",
   "jp": "テルセロン山地",
-  "en": "",
-  "max": 20
+  "en": "Terceron Mountains",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:114:name",
   "addr": "10FA80",
   "kind": "name",
   "jp": "テルセロン山地",
-  "en": "",
-  "max": 20
+  "en": "Terceron Mountains",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:115:name",
   "addr": "10FAE0",
   "kind": "name",
   "jp": "トロワナの森",
-  "en": "",
-  "max": 20
+  "en": "Trowana Forest",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:116:name",
   "addr": "10FB40",
   "kind": "name",
   "jp": "トロワナの森",
-  "en": "",
-  "max": 20
+  "en": "Trowana Forest",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:117:name",
   "addr": "10FBA0",
   "kind": "name",
   "jp": "トロワナの森",
-  "en": "",
-  "max": 20
+  "en": "Trowana Forest",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:118:name",
   "addr": "10FC00",
   "kind": "name",
   "jp": "トロワナの森",
-  "en": "",
-  "max": 20
+  "en": "Trowana Forest",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:119:name",
   "addr": "10FC60",
   "kind": "name",
   "jp": "トロワナの森",
-  "en": "",
-  "max": 20
+  "en": "Trowana Forest",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:120:name",
   "addr": "10FCC0",
   "kind": "name",
   "jp": "ムスリー荒野",
-  "en": "",
-  "max": 20
+  "en": "Musley Wasteland",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:121:name",
   "addr": "10FD20",
   "kind": "name",
   "jp": "ムスリー荒野",
-  "en": "",
-  "max": 20
+  "en": "Musley Wasteland",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:122:name",
   "addr": "10FD80",
   "kind": "name",
   "jp": "ムスリー荒野",
-  "en": "",
-  "max": 20
+  "en": "Musley Wasteland",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:123:name",
   "addr": "10FDE0",
   "kind": "name",
   "jp": "ムスリー山地",
-  "en": "",
-  "max": 20
+  "en": "Musley Mountains",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:124:name",
   "addr": "10FE40",
   "kind": "name",
   "jp": "ムスリー山地",
-  "en": "",
-  "max": 20
+  "en": "Musley Mountains",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:125:name",
   "addr": "10FEA0",
   "kind": "name",
   "jp": "ムスリー山地",
-  "en": "",
-  "max": 20
+  "en": "Musley Mountains",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:126:name",
   "addr": "10FF00",
   "kind": "name",
   "jp": "ムスリー山地",
-  "en": "",
-  "max": 20
+  "en": "Musley Mountains",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:127:name",
   "addr": "10FF60",
   "kind": "name",
   "jp": "洞窟",
-  "en": "",
-  "max": 20
+  "en": "Cave",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:128:name",
   "addr": "10FFC0",
   "kind": "name",
   "jp": "洞窟",
-  "en": "",
-  "max": 20
+  "en": "Cave",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:129:name",
   "addr": "110020",
   "kind": "name",
   "jp": "洞窟",
-  "en": "",
-  "max": 20
+  "en": "Cave",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:130:name",
   "addr": "110080",
   "kind": "name",
   "jp": "パトレス山地",
-  "en": "",
-  "max": 20
+  "en": "Patres Mountains",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:131:name",
   "addr": "1100E0",
   "kind": "name",
   "jp": "パトレス山地",
-  "en": "",
-  "max": 20
+  "en": "Patres Mountains",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:132:name",
   "addr": "110140",
   "kind": "name",
   "jp": "パトレス山地",
-  "en": "",
-  "max": 20
+  "en": "Patres Mountains",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:133:name",
   "addr": "1101A0",
   "kind": "name",
   "jp": "トリアーク平原",
-  "en": "",
-  "max": 20
+  "en": "Triark Plains",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:134:name",
   "addr": "110200",
   "kind": "name",
   "jp": "トリアーク平原",
-  "en": "",
-  "max": 20
+  "en": "Triark Plains",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:135:name",
   "addr": "110260",
   "kind": "name",
   "jp": "トリアーク平原",
-  "en": "",
-  "max": 20
+  "en": "Triark Plains",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:136:name",
   "addr": "1102C0",
   "kind": "name",
   "jp": "海岸の遺跡",
-  "en": "",
-  "max": 20
+  "en": "Coast Ruins",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:137:name",
   "addr": "110320",
   "kind": "name",
   "jp": "海岸の遺跡",
-  "en": "",
-  "max": 20
+  "en": "Coast Ruins",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:138:name",
   "addr": "110380",
   "kind": "name",
   "jp": "海岸の遺跡",
-  "en": "",
-  "max": 20
+  "en": "Coast Ruins",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:139:name",
   "addr": "1103E0",
   "kind": "name",
   "jp": "湖畔の遺跡",
-  "en": "",
-  "max": 20
+  "en": "Lakeside Ruins",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:140:name",
   "addr": "110440",
   "kind": "name",
   "jp": "湖畔の遺跡",
-  "en": "",
-  "max": 20
+  "en": "Lakeside Ruins",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:141:name",
   "addr": "1104A0",
   "kind": "name",
   "jp": "湖畔の遺跡",
-  "en": "",
-  "max": 20
+  "en": "Lakeside Ruins",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:142:name",
   "addr": "110500",
   "kind": "name",
   "jp": "森の遺跡",
-  "en": "",
-  "max": 20
+  "en": "Forest Ruins",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:143:name",
   "addr": "110560",
   "kind": "name",
   "jp": "森の遺跡",
-  "en": "",
-  "max": 20
+  "en": "Forest Ruins",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:144:name",
   "addr": "1105C0",
   "kind": "name",
   "jp": "森の遺跡",
-  "en": "",
-  "max": 20
+  "en": "Forest Ruins",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:145:name",
   "addr": "110620",
   "kind": "name",
   "jp": "廃坑",
-  "en": "",
-  "max": 20
+  "en": "Abandoned Mine",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:146:name",
   "addr": "110680",
   "kind": "name",
   "jp": "廃坑",
-  "en": "",
-  "max": 20
+  "en": "Abandoned Mine",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:147:name",
   "addr": "1106E0",
   "kind": "name",
   "jp": "廃坑",
-  "en": "",
-  "max": 20
+  "en": "Abandoned Mine",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:148:name",
   "addr": "110740",
   "kind": "name",
   "jp": "廃坑",
-  "en": "",
-  "max": 20
+  "en": "Abandoned Mine",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:149:name",
   "addr": "1107A0",
   "kind": "name",
   "jp": "地底湖",
-  "en": "",
-  "max": 20
+  "en": "Underground Lake",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:150:name",
   "addr": "110800",
   "kind": "name",
   "jp": "地底湖",
-  "en": "",
-  "max": 20
+  "en": "Underground Lake",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:151:name",
   "addr": "110860",
   "kind": "name",
   "jp": "地底湖",
-  "en": "",
-  "max": 20
+  "en": "Underground Lake",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:152:name",
   "addr": "1108C0",
   "kind": "name",
   "jp": "地底湖",
-  "en": "",
-  "max": 20
+  "en": "Underground Lake",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:153:name",
   "addr": "110920",
   "kind": "name",
   "jp": "魔物の塔",
-  "en": "",
-  "max": 20
+  "en": "Monster Tower",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:154:name",
   "addr": "110980",
   "kind": "name",
   "jp": "魔物の塔",
-  "en": "",
-  "max": 20
+  "en": "Monster Tower",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:155:name",
   "addr": "1109E0",
   "kind": "name",
   "jp": "魔物の塔",
-  "en": "",
-  "max": 20
+  "en": "Monster Tower",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:156:name",
   "addr": "110A40",
   "kind": "name",
   "jp": "魔物の塔",
-  "en": "",
-  "max": 20
+  "en": "Monster Tower",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:157:name",
   "addr": "110AA0",
   "kind": "name",
   "jp": "魔物の塔",
-  "en": "",
-  "max": 20
+  "en": "Monster Tower",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:158:name",
   "addr": "110B00",
   "kind": "name",
   "jp": "魔物の塔",
-  "en": "",
-  "max": 20
+  "en": "Monster Tower",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:159:name",
   "addr": "110B60",
   "kind": "name",
   "jp": "魔物の塔",
-  "en": "",
-  "max": 20
+  "en": "Monster Tower",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:160:name",
   "addr": "110BC0",
   "kind": "name",
   "jp": "魔物の塔",
-  "en": "",
-  "max": 20
+  "en": "Monster Tower",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:161:name",
   "addr": "110C20",
   "kind": "name",
   "jp": "魔物の塔",
-  "en": "",
-  "max": 20
+  "en": "Monster Tower",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:162:name",
   "addr": "110C80",
   "kind": "name",
   "jp": "魔物の塔",
-  "en": "",
-  "max": 20
+  "en": "Monster Tower",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:163:name",
   "addr": "110CE0",
   "kind": "name",
   "jp": "魔物の塔",
-  "en": "",
-  "max": 20
+  "en": "Monster Tower",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:164:name",
   "addr": "110D40",
   "kind": "name",
   "jp": "魔物の塔",
-  "en": "",
-  "max": 20
+  "en": "Monster Tower",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:165:name",
   "addr": "110DA0",
   "kind": "name",
   "jp": "魔物の塔",
-  "en": "",
-  "max": 20
+  "en": "Monster Tower",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:166:name",
   "addr": "110E00",
   "kind": "name",
   "jp": "魔物の塔",
-  "en": "",
-  "max": 20
+  "en": "Monster Tower",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:167:name",
   "addr": "110E60",
   "kind": "name",
   "jp": "魔物の塔",
-  "en": "",
-  "max": 20
+  "en": "Monster Tower",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:168:name",
   "addr": "110EC0",
   "kind": "name",
   "jp": "魔物の塔",
-  "en": "",
-  "max": 20
+  "en": "Monster Tower",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:169:name",
   "addr": "110F20",
   "kind": "name",
   "jp": "魔物の塔",
-  "en": "",
-  "max": 20
+  "en": "Monster Tower",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:170:name",
   "addr": "110F80",
   "kind": "name",
   "jp": "魔物の塔",
-  "en": "",
-  "max": 20
+  "en": "Monster Tower",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:171:name",
   "addr": "110FE0",
   "kind": "name",
   "jp": "魔物の塔",
-  "en": "",
-  "max": 20
+  "en": "Monster Tower",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:172:name",
   "addr": "111040",
   "kind": "name",
   "jp": "魔物の塔",
-  "en": "",
-  "max": 20
+  "en": "Monster Tower",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:173:name",
   "addr": "1110A0",
   "kind": "name",
   "jp": "インスアの里",
-  "en": "",
-  "max": 20
+  "en": "Insua Village",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:174:name",
   "addr": "111100",
   "kind": "name",
   "jp": "インスアの里",
-  "en": "",
-  "max": 20
+  "en": "Insua Village",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:175:name",
   "addr": "111160",
   "kind": "name",
   "jp": "インスアの里",
-  "en": "",
-  "max": 20
+  "en": "Insua Village",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:176:name",
   "addr": "1111C0",
   "kind": "name",
   "jp": "インスアの里",
-  "en": "",
-  "max": 20
+  "en": "Insua Village",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:177:name",
   "addr": "111220",
   "kind": "name",
   "jp": "インスアの里",
-  "en": "",
-  "max": 20
+  "en": "Insua Village",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:178:name",
   "addr": "111280",
   "kind": "name",
   "jp": "インスアの里",
-  "en": "",
-  "max": 20
+  "en": "Insua Village",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:179:name",
   "addr": "1112E0",
   "kind": "name",
   "jp": "インスアの里",
-  "en": "",
-  "max": 20
+  "en": "Insua Village",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:180:name",
   "addr": "111340",
   "kind": "name",
   "jp": "インスアの里",
-  "en": "",
-  "max": 20
+  "en": "Insua Village",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:181:name",
   "addr": "1113A0",
   "kind": "name",
   "jp": "インスアの里",
-  "en": "",
-  "max": 20
+  "en": "Insua Village",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:182:name",
   "addr": "111400",
   "kind": "name",
   "jp": "インスアの里",
-  "en": "",
-  "max": 20
+  "en": "Insua Village",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:183:name",
   "addr": "111460",
   "kind": "name",
   "jp": "インスアの里",
-  "en": "",
-  "max": 20
+  "en": "Insua Village",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:184:name",
   "addr": "1114C0",
   "kind": "name",
   "jp": "ワンダラの里",
-  "en": "",
-  "max": 20
+  "en": "Wandara Village",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:185:name",
   "addr": "111520",
   "kind": "name",
   "jp": "ワンダラの里",
-  "en": "",
-  "max": 20
+  "en": "Wandara Village",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:186:name",
   "addr": "111580",
   "kind": "name",
   "jp": "ワンダラの里",
-  "en": "",
-  "max": 20
+  "en": "Wandara Village",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:187:name",
   "addr": "1115E0",
   "kind": "name",
   "jp": "ワンダラの里",
-  "en": "",
-  "max": 20
+  "en": "Wandara Village",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:188:name",
   "addr": "111640",
   "kind": "name",
   "jp": "ワンダラの里",
-  "en": "",
-  "max": 20
+  "en": "Wandara Village",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:189:name",
   "addr": "1116A0",
   "kind": "name",
   "jp": "ワンダラの里",
-  "en": "",
-  "max": 20
+  "en": "Wandara Village",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:190:name",
   "addr": "111700",
   "kind": "name",
   "jp": "ワンダラの里",
-  "en": "",
-  "max": 20
+  "en": "Wandara Village",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:191:name",
   "addr": "111760",
   "kind": "name",
   "jp": "ワンダラの里",
-  "en": "",
-  "max": 20
+  "en": "Wandara Village",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:192:name",
   "addr": "1117C0",
   "kind": "name",
   "jp": "ワンダラの里",
-  "en": "",
-  "max": 20
+  "en": "Wandara Village",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:193:name",
   "addr": "111820",
   "kind": "name",
   "jp": "ワンダラの里",
-  "en": "",
-  "max": 20
+  "en": "Wandara Village",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:194:name",
   "addr": "111880",
   "kind": "name",
   "jp": "ワンダラの里",
-  "en": "",
-  "max": 20
+  "en": "Wandara Village",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:195:name",
   "addr": "1118E0",
   "kind": "name",
   "jp": "ワンダラの里",
-  "en": "",
-  "max": 20
+  "en": "Wandara Village",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:196:name",
   "addr": "111940",
   "kind": "name",
   "jp": "エルファストの里",
-  "en": "",
-  "max": 20
+  "en": "Elfast Village",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:197:name",
   "addr": "1119A0",
   "kind": "name",
   "jp": "エルファストの里",
-  "en": "",
-  "max": 20
+  "en": "Elfast Village",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:198:name",
   "addr": "111A00",
   "kind": "name",
   "jp": "エルファストの里",
-  "en": "",
-  "max": 20
+  "en": "Elfast Village",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:199:name",
   "addr": "111A60",
   "kind": "name",
   "jp": "エルファストの里",
-  "en": "",
-  "max": 20
+  "en": "Elfast Village",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:200:name",
   "addr": "111AC0",
   "kind": "name",
   "jp": "エルファストの里",
-  "en": "",
-  "max": 20
+  "en": "Elfast Village",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:201:name",
   "addr": "111B20",
   "kind": "name",
   "jp": "エルファストの里",
-  "en": "",
-  "max": 20
+  "en": "Elfast Village",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:202:name",
   "addr": "111B80",
   "kind": "name",
   "jp": "エルファストの里",
-  "en": "",
-  "max": 20
+  "en": "Elfast Village",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:203:name",
   "addr": "111BE0",
   "kind": "name",
   "jp": "エルファストの里",
-  "en": "",
-  "max": 20
+  "en": "Elfast Village",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:204:name",
   "addr": "111C40",
   "kind": "name",
   "jp": "エルファストの里",
-  "en": "",
-  "max": 20
+  "en": "Elfast Village",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:205:name",
   "addr": "111CA0",
   "kind": "name",
   "jp": "プリモーレの里",
-  "en": "",
-  "max": 20
+  "en": "Primore Village",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:206:name",
   "addr": "111D00",
   "kind": "name",
   "jp": "プリモーレの里",
-  "en": "",
-  "max": 20
+  "en": "Primore Village",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:207:name",
   "addr": "111D60",
   "kind": "name",
   "jp": "プリモーレの里",
-  "en": "",
-  "max": 20
+  "en": "Primore Village",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:208:name",
   "addr": "111DC0",
   "kind": "name",
   "jp": "プリモーレの里",
-  "en": "",
-  "max": 20
+  "en": "Primore Village",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:209:name",
   "addr": "111E20",
   "kind": "name",
   "jp": "プリモーレの里",
-  "en": "",
-  "max": 20
+  "en": "Primore Village",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:210:name",
   "addr": "111E80",
   "kind": "name",
   "jp": "プリモーレの里",
-  "en": "",
-  "max": 20
+  "en": "Primore Village",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:211:name",
   "addr": "111EE0",
   "kind": "name",
   "jp": "プリモーレの里",
-  "en": "",
-  "max": 20
+  "en": "Primore Village",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:212:name",
   "addr": "111F40",
   "kind": "name",
   "jp": "プリモーレの里",
-  "en": "",
-  "max": 20
+  "en": "Primore Village",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:213:name",
   "addr": "111FA0",
   "kind": "name",
   "jp": "プリモーレの里",
-  "en": "",
-  "max": 20
+  "en": "Primore Village",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:214:name",
   "addr": "112000",
   "kind": "name",
   "jp": "プリモーレの里",
-  "en": "",
-  "max": 20
+  "en": "Primore Village",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:215:name",
   "addr": "112060",
   "kind": "name",
   "jp": "プリモーレの里",
-  "en": "",
-  "max": 20
+  "en": "Primore Village",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:216:name",
   "addr": "1120C0",
   "kind": "name",
   "jp": "ウノロムの里",
-  "en": "",
-  "max": 20
+  "en": "Unorom Village",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:217:name",
   "addr": "112120",
   "kind": "name",
   "jp": "ウノロムの里",
-  "en": "",
-  "max": 20
+  "en": "Unorom Village",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:218:name",
   "addr": "112180",
   "kind": "name",
   "jp": "ウノロムの里",
-  "en": "",
-  "max": 20
+  "en": "Unorom Village",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:219:name",
   "addr": "1121E0",
   "kind": "name",
   "jp": "ウノロムの里",
-  "en": "",
-  "max": 20
+  "en": "Unorom Village",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:220:name",
   "addr": "112240",
   "kind": "name",
   "jp": "ウノロムの里",
-  "en": "",
-  "max": 20
+  "en": "Unorom Village",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:221:name",
   "addr": "1122A0",
   "kind": "name",
   "jp": "ウノロムの里",
-  "en": "",
-  "max": 20
+  "en": "Unorom Village",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:222:name",
   "addr": "112300",
   "kind": "name",
   "jp": "ウノロムの里",
-  "en": "",
-  "max": 20
+  "en": "Unorom Village",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:223:name",
   "addr": "112360",
   "kind": "name",
   "jp": "ウノロムの里",
-  "en": "",
-  "max": 20
+  "en": "Unorom Village",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:224:name",
   "addr": "1123C0",
   "kind": "name",
   "jp": "レドウ大河渡し場",
-  "en": "",
-  "max": 20
+  "en": "Redou River Ferry",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:225:name",
   "addr": "112420",
   "kind": "name",
   "jp": "レドウ大河渡し場",
-  "en": "",
-  "max": 20
+  "en": "Redou River Ferry",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:226:name",
   "addr": "112480",
   "kind": "name",
   "jp": "レドウ大河渡し場",
-  "en": "",
-  "max": 20
+  "en": "Redou River Ferry",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:227:name",
   "addr": "1124E0",
   "kind": "name",
   "jp": "レドウ大河渡し場",
-  "en": "",
-  "max": 20
+  "en": "Redou River Ferry",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:228:name",
   "addr": "112540",
   "kind": "name",
   "jp": "レドウ大河渡し場",
-  "en": "",
-  "max": 20
+  "en": "Redou River Ferry",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:229:name",
   "addr": "1125A0",
   "kind": "name",
   "jp": "デュオラの里",
-  "en": "",
-  "max": 20
+  "en": "Duora Village",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:230:name",
   "addr": "112600",
   "kind": "name",
   "jp": "デュオラの里",
-  "en": "",
-  "max": 20
+  "en": "Duora Village",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:231:name",
   "addr": "112660",
   "kind": "name",
   "jp": "デュオラの里",
-  "en": "",
-  "max": 20
+  "en": "Duora Village",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:232:name",
   "addr": "1126C0",
   "kind": "name",
   "jp": "デュオラの里",
-  "en": "",
-  "max": 20
+  "en": "Duora Village",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:233:name",
   "addr": "112720",
   "kind": "name",
   "jp": "デュオラの里",
-  "en": "",
-  "max": 20
+  "en": "Duora Village",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:234:name",
   "addr": "112780",
   "kind": "name",
   "jp": "デュオラの里",
-  "en": "",
-  "max": 20
+  "en": "Duora Village",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:235:name",
   "addr": "1127E0",
   "kind": "name",
   "jp": "デュオラの里",
-  "en": "",
-  "max": 20
+  "en": "Duora Village",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:236:name",
   "addr": "112840",
   "kind": "name",
   "jp": "デュオラの里",
-  "en": "",
-  "max": 20
+  "en": "Duora Village",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:237:name",
   "addr": "1128A0",
   "kind": "name",
   "jp": "デュオラの里",
-  "en": "",
-  "max": 20
+  "en": "Duora Village",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:238:name",
   "addr": "112900",
   "kind": "name",
   "jp": "デュオラの里",
-  "en": "",
-  "max": 20
+  "en": "Duora Village",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:239:name",
   "addr": "112960",
   "kind": "name",
   "jp": "デュオラの里",
-  "en": "",
-  "max": 20
+  "en": "Duora Village",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:240:name",
   "addr": "1129C0",
   "kind": "name",
   "jp": "デュオラの里",
-  "en": "",
-  "max": 20
+  "en": "Duora Village",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:241:name",
   "addr": "112A20",
   "kind": "name",
   "jp": "デュオラの里",
-  "en": "",
-  "max": 20
+  "en": "Duora Village",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:242:name",
   "addr": "112A80",
   "kind": "name",
   "jp": "デュオラの里",
-  "en": "",
-  "max": 20
+  "en": "Duora Village",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:243:name",
   "addr": "112AE0",
   "kind": "name",
   "jp": "サドラムの里",
-  "en": "",
-  "max": 20
+  "en": "Sadram Village",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:244:name",
   "addr": "112B40",
   "kind": "name",
   "jp": "サドラムの里",
-  "en": "",
-  "max": 20
+  "en": "Sadram Village",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:245:name",
   "addr": "112BA0",
   "kind": "name",
   "jp": "サドラムの里",
-  "en": "",
-  "max": 20
+  "en": "Sadram Village",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:246:name",
   "addr": "112C00",
   "kind": "name",
   "jp": "サドラムの里",
-  "en": "",
-  "max": 20
+  "en": "Sadram Village",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:247:name",
   "addr": "112C60",
   "kind": "name",
   "jp": "サドラムの里",
-  "en": "",
-  "max": 20
+  "en": "Sadram Village",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:248:name",
   "addr": "112CC0",
   "kind": "name",
   "jp": "サドラムの里",
-  "en": "",
-  "max": 20
+  "en": "Sadram Village",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:249:name",
   "addr": "112D20",
   "kind": "name",
   "jp": "ムスリーの里",
-  "en": "",
-  "max": 20
+  "en": "Musley Village",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:250:name",
   "addr": "112D80",
   "kind": "name",
   "jp": "ムスリーの里",
-  "en": "",
-  "max": 20
+  "en": "Musley Village",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:251:name",
   "addr": "112DE0",
   "kind": "name",
   "jp": "ムスリーの里",
-  "en": "",
-  "max": 20
+  "en": "Musley Village",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:252:name",
   "addr": "112E40",
   "kind": "name",
   "jp": "ムスリーの里",
-  "en": "",
-  "max": 20
+  "en": "Musley Village",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:253:name",
   "addr": "112EA0",
   "kind": "name",
   "jp": "ムスリーの里",
-  "en": "",
-  "max": 20
+  "en": "Musley Village",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:254:name",
   "addr": "112F00",
   "kind": "name",
   "jp": "ムスリーの里",
-  "en": "",
-  "max": 20
+  "en": "Musley Village",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:255:name",
   "addr": "112F60",
   "kind": "name",
   "jp": "ムスリーの里",
-  "en": "",
-  "max": 20
+  "en": "Musley Village",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:256:name",
   "addr": "112FC0",
   "kind": "name",
   "jp": "ムスリーの里",
-  "en": "",
-  "max": 20
+  "en": "Musley Village",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:257:name",
   "addr": "113020",
   "kind": "name",
   "jp": "ムスリーの里",
-  "en": "",
-  "max": 20
+  "en": "Musley Village",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:258:name",
   "addr": "113080",
   "kind": "name",
   "jp": "ムスリーの里",
-  "en": "",
-  "max": 20
+  "en": "Musley Village",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:259:name",
   "addr": "1130E0",
   "kind": "name",
   "jp": "ムスリーの里",
-  "en": "",
-  "max": 20
+  "en": "Musley Village",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:260:name",
   "addr": "113140",
   "kind": "name",
   "jp": "ムスリーの里",
-  "en": "",
-  "max": 20
+  "en": "Musley Village",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:261:name",
   "addr": "1131A0",
   "kind": "name",
   "jp": "ムスリーの里",
-  "en": "",
-  "max": 20
+  "en": "Musley Village",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:262:name",
   "addr": "113200",
   "kind": "name",
   "jp": "ムスリーの里",
-  "en": "",
-  "max": 20
+  "en": "Musley Village",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:263:name",
   "addr": "113260",
   "kind": "name",
   "jp": "ムスリーの里",
-  "en": "",
-  "max": 20
+  "en": "Musley Village",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:264:name",
   "addr": "1132C0",
   "kind": "name",
   "jp": "ムスリーの里",
-  "en": "",
-  "max": 20
+  "en": "Musley Village",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:265:name",
   "addr": "113320",
   "kind": "name",
   "jp": "ムスリーの里",
-  "en": "",
-  "max": 20
+  "en": "Musley Village",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:266:name",
   "addr": "113380",
   "kind": "name",
   "jp": "ムスリーの里",
-  "en": "",
-  "max": 20
+  "en": "Musley Village",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:267:name",
   "addr": "1133E0",
   "kind": "name",
   "jp": "ムスリーの里",
-  "en": "",
-  "max": 20
+  "en": "Musley Village",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:268:name",
   "addr": "113440",
   "kind": "name",
   "jp": "ムスリーの里",
-  "en": "",
-  "max": 20
+  "en": "Musley Village",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:269:name",
   "addr": "1134A0",
   "kind": "name",
   "jp": "ムスリーの里",
-  "en": "",
-  "max": 20
+  "en": "Musley Village",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:270:name",
   "addr": "113500",
   "kind": "name",
   "jp": "ムスリーの里",
-  "en": "",
-  "max": 20
+  "en": "Musley Village",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:271:name",
   "addr": "113560",
   "kind": "name",
   "jp": "ムスリーの里",
-  "en": "",
-  "max": 20
+  "en": "Musley Village",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:272:name",
   "addr": "1135C0",
   "kind": "name",
   "jp": "エトリアの里",
-  "en": "",
-  "max": 20
+  "en": "Etria Village",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:273:name",
   "addr": "113620",
   "kind": "name",
   "jp": "エトリアの里",
-  "en": "",
-  "max": 20
+  "en": "Etria Village",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:274:name",
   "addr": "113680",
   "kind": "name",
   "jp": "エトリアの里",
-  "en": "",
-  "max": 20
+  "en": "Etria Village",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:275:name",
   "addr": "1136E0",
   "kind": "name",
   "jp": "エトリアの里",
-  "en": "",
-  "max": 20
+  "en": "Etria Village",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:276:name",
   "addr": "113740",
   "kind": "name",
   "jp": "エトリアの里",
-  "en": "",
-  "max": 20
+  "en": "Etria Village",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:277:name",
   "addr": "1137A0",
   "kind": "name",
   "jp": "エトリアの里",
-  "en": "",
-  "max": 20
+  "en": "Etria Village",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:278:name",
   "addr": "113800",
   "kind": "name",
   "jp": "エトリアの里",
-  "en": "",
-  "max": 20
+  "en": "Etria Village",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:279:name",
   "addr": "113860",
   "kind": "name",
   "jp": "エトリアの里",
-  "en": "",
-  "max": 20
+  "en": "Etria Village",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:280:name",
   "addr": "1138C0",
   "kind": "name",
   "jp": "エトリアの里",
-  "en": "",
-  "max": 20
+  "en": "Etria Village",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:281:name",
   "addr": "113920",
   "kind": "name",
   "jp": "エトリアの里",
-  "en": "",
-  "max": 20
+  "en": "Etria Village",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:282:name",
   "addr": "113980",
   "kind": "name",
   "jp": "パトレスの里",
-  "en": "",
-  "max": 20
+  "en": "Patres Village",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:283:name",
   "addr": "1139E0",
   "kind": "name",
   "jp": "パトレスの里",
-  "en": "",
-  "max": 20
+  "en": "Patres Village",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:284:name",
   "addr": "113A40",
   "kind": "name",
   "jp": "パトレスの里",
-  "en": "",
-  "max": 20
+  "en": "Patres Village",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:285:name",
   "addr": "113AA0",
   "kind": "name",
   "jp": "パトレスの里",
-  "en": "",
-  "max": 20
+  "en": "Patres Village",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:286:name",
   "addr": "113B00",
   "kind": "name",
   "jp": "パトレスの里",
-  "en": "",
-  "max": 20
+  "en": "Patres Village",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:287:name",
   "addr": "113B60",
   "kind": "name",
   "jp": "パトレスの里",
-  "en": "",
-  "max": 20
+  "en": "Patres Village",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:288:name",
   "addr": "113BC0",
   "kind": "name",
   "jp": "パトレスの里",
-  "en": "",
-  "max": 20
+  "en": "Patres Village",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:289:name",
   "addr": "113C20",
   "kind": "name",
   "jp": "パトレスの里",
-  "en": "",
-  "max": 20
+  "en": "Patres Village",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:290:name",
   "addr": "113C80",
   "kind": "name",
   "jp": "パトレスの里",
-  "en": "",
-  "max": 20
+  "en": "Patres Village",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:291:name",
   "addr": "113CE0",
   "kind": "name",
   "jp": "テルセロンの里",
-  "en": "",
-  "max": 20
+  "en": "Terceron Village",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:292:name",
   "addr": "113D40",
   "kind": "name",
   "jp": "テルセロンの里",
-  "en": "",
-  "max": 20
+  "en": "Terceron Village",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:293:name",
   "addr": "113DA0",
   "kind": "name",
   "jp": "テルセロンの里",
-  "en": "",
-  "max": 20
+  "en": "Terceron Village",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:294:name",
   "addr": "113E00",
   "kind": "name",
   "jp": "テルセロンの里",
-  "en": "",
-  "max": 20
+  "en": "Terceron Village",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:295:name",
   "addr": "113E60",
   "kind": "name",
   "jp": "テルセロンの里",
-  "en": "",
-  "max": 20
+  "en": "Terceron Village",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:296:name",
   "addr": "113EC0",
   "kind": "name",
   "jp": "テルセロンの里",
-  "en": "",
-  "max": 20
+  "en": "Terceron Village",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:297:name",
   "addr": "113F20",
   "kind": "name",
   "jp": "テルセロンの里",
-  "en": "",
-  "max": 20
+  "en": "Terceron Village",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:298:name",
   "addr": "113F80",
   "kind": "name",
   "jp": "テルセロンの里",
-  "en": "",
-  "max": 20
+  "en": "Terceron Village",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:299:name",
   "addr": "113FE0",
   "kind": "name",
   "jp": "テルセロンの里",
-  "en": "",
-  "max": 20
+  "en": "Terceron Village",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:300:name",
   "addr": "114040",
   "kind": "name",
   "jp": "テルセロンの里",
-  "en": "",
-  "max": 20
+  "en": "Terceron Village",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:301:name",
   "addr": "1140A0",
   "kind": "name",
   "jp": "テルセロンの里",
-  "en": "",
-  "max": 20
+  "en": "Terceron Village",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:302:name",
   "addr": "114100",
   "kind": "name",
   "jp": "テルセロンの里",
-  "en": "",
-  "max": 20
+  "en": "Terceron Village",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:303:name",
   "addr": "114160",
   "kind": "name",
   "jp": "トリアークの里",
-  "en": "",
-  "max": 20
+  "en": "Triark Village",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:304:name",
   "addr": "1141C0",
   "kind": "name",
   "jp": "アサドの里",
-  "en": "",
-  "max": 20
+  "en": "Asad Village",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:305:name",
   "addr": "114220",
   "kind": "name",
   "jp": "アサドの里",
-  "en": "",
-  "max": 20
+  "en": "Asad Village",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:306:name",
   "addr": "114280",
   "kind": "name",
   "jp": "アサドの里",
-  "en": "",
-  "max": 20
+  "en": "Asad Village",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:307:name",
   "addr": "1142E0",
   "kind": "name",
   "jp": "アサドの里",
-  "en": "",
-  "max": 20
+  "en": "Asad Village",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:308:name",
   "addr": "114340",
   "kind": "name",
   "jp": "アサドの里",
-  "en": "",
-  "max": 20
+  "en": "Asad Village",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:309:name",
   "addr": "1143A0",
   "kind": "name",
   "jp": "アサドの里",
-  "en": "",
-  "max": 20
+  "en": "Asad Village",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:310:name",
   "addr": "114400",
   "kind": "name",
   "jp": "アサドの里",
-  "en": "",
-  "max": 20
+  "en": "Asad Village",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:311:name",
   "addr": "114460",
   "kind": "name",
   "jp": "アサドの里",
-  "en": "",
-  "max": 20
+  "en": "Asad Village",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:312:name",
   "addr": "1144C0",
   "kind": "name",
   "jp": "アサドの里",
-  "en": "",
-  "max": 20
+  "en": "Asad Village",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:313:name",
   "addr": "114520",
   "kind": "name",
   "jp": "アサドの里",
-  "en": "",
-  "max": 20
+  "en": "Asad Village",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:314:name",
   "addr": "114580",
   "kind": "name",
   "jp": "グリニデ城",
-  "en": "",
-  "max": 20
+  "en": "Grineed Castle",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:315:name",
   "addr": "1145E0",
   "kind": "name",
   "jp": "グリニデ城",
-  "en": "",
-  "max": 20
+  "en": "Grineed Castle",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:316:name",
   "addr": "114640",
   "kind": "name",
   "jp": "グリニデ城",
-  "en": "",
-  "max": 20
+  "en": "Grineed Castle",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:317:name",
   "addr": "1146A0",
   "kind": "name",
   "jp": "グリニデ城",
-  "en": "",
-  "max": 20
+  "en": "Grineed Castle",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:318:name",
   "addr": "114700",
   "kind": "name",
   "jp": "グリニデ城",
-  "en": "",
-  "max": 20
+  "en": "Grineed Castle",
+  "max": 20,
+  "status": "done"
  },
  {
   "id": "maps:319:name",
   "addr": "114760",
   "kind": "name",
   "jp": "グリニデ城",
-  "en": "",
-  "max": 20
+  "en": "Grineed Castle",
+  "max": 20,
+  "status": "done"
  }
 ]
