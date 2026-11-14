@@ -354,16 +354,14 @@ def pairs(names, outpath):
     out = []
     for b in names:
         out.append(f"## {b}")
-        for r in read_tsv(TL / f"{b}.tsv"):
-            eid = r[0]
-            k = pos.get(eid)
-            ctx = order[max(0, k - 2):k + 3] if k is not None else [eid]
-            for c in ctx:
-                e = entries[c]
-                mark = ">>" if c == eid else "  "
-                out.append(f"{mark} {c} | {speaker_label(e, spk) or '-'} | {e['jp']}")
-                out.append(f"   EN: {e.get('en', '')}")
-            out.append("")
+        ids = [r[0] for r in read_tsv(TL / f"{b}.tsv")]
+        k = pos.get(ids[0])  # batches are in script order: context only before the first entry
+        ctx = order[max(0, k - 2):k] if k is not None else []
+        for c in ctx + ids:
+            e = entries[c]
+            mark = ">>" if c in ids else "  "
+            out.append(f"{mark} {c} | {speaker_label(e, spk) or '-'} | {e['jp']}")
+            out.append(f"   EN: {e.get('en', '')}")
     Path(outpath).write_text("\n".join(out) + "\n", encoding="utf-8", newline="\n")
     print(f"wrote {outpath}")
 

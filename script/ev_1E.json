@@ -72,13 +72,14 @@
   "addr": "1E00AE",
   "kind": "msg",
   "jp": "・・・・・・[WAIT]",
-  "en": "",
+  "en": "……[WAIT]",
   "bytes": 16,
   "sites": [
    "1DF90F:op7A+2",
    "1DF90F:op7A+2",
    "1DF90F:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1E00BE",
@@ -99,13 +100,14 @@
   "addr": "1E00C8",
   "kind": "msg",
   "jp": "・・・・・・[WAIT]",
-  "en": "",
+  "en": "……[WAIT]",
   "bytes": 16,
   "sites": [
    "1DF92E:op7A+2",
    "1DF92E:op7A+2",
    "1DF92E:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1E00D8",
@@ -415,7 +417,7 @@
   "addr": "1E0200",
   "kind": "msg",
   "jp": "・・・・・・[WAIT]",
-  "en": "",
+  "en": "……[WAIT]",
   "bytes": 16,
   "sites": [
    "1DFA5D:op7A+2",
@@ -426,7 +428,8 @@
    "1DFA5D:op7A+2",
    "1DFA5D:op7A+2",
    "1DFA5D:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1E0210",
@@ -1113,7 +1116,7 @@
   "addr": "1E05DE",
   "kind": "msg",
   "jp": "・・・・・・[WAIT]",
-  "en": "",
+  "en": "……[WAIT]",
   "bytes": 16,
   "sites": [
    "1DFC36:op7A+2",
@@ -1128,7 +1131,8 @@
    "1DFC36:op7A+2",
    "1DFC36:op7A+2",
    "1DFC36:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1E05EE",
@@ -2328,12 +2332,13 @@
   "addr": "1E162C",
   "kind": "msg",
   "jp": "・・・・・・[WAIT]",
-  "en": "",
+  "en": "……[WAIT]",
   "bytes": 16,
   "sites": [
    "1E0F16:op7A+2",
    "1E0F16:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1E163C",
@@ -2408,13 +2413,14 @@
   "addr": "1E16D8",
   "kind": "msg",
   "jp": "・・・・・・[WAIT]",
-  "en": "",
+  "en": "……[WAIT]",
   "bytes": 16,
   "sites": [
    "1E0F61:op7A+2",
    "1E0F61:op7A+2",
    "1E0F61:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1E16E8",
@@ -2531,7 +2537,7 @@
   "addr": "1E17E2",
   "kind": "msg",
   "jp": "・・・・・・[WAIT]",
-  "en": "",
+  "en": "……[WAIT]",
   "bytes": 16,
   "sites": [
    "1E0FDD:op52+5",
@@ -2540,7 +2546,8 @@
    "1E0FDD:op52+5",
    "1E0FDD:op52+5",
    "1E0FDD:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1E17F2",
@@ -2761,12 +2768,13 @@
   "addr": "1E1940",
   "kind": "msg",
   "jp": "・・・え？[WAIT]",
-  "en": "",
+  "en": "…What?[WAIT]",
   "bytes": 14,
   "sites": [
    "1E10FC:op7A+2",
    "1E10FC:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1E194E",
@@ -2786,12 +2794,13 @@
   "addr": "1E1958",
   "kind": "msg",
   "jp": "・・・・・・[WAIT]",
-  "en": "",
+  "en": "……[WAIT]",
   "bytes": 16,
   "sites": [
    "1E111B:op7A+2",
    "1E111B:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1E1968",
@@ -3155,7 +3164,7 @@
   "addr": "1E1BD8",
   "kind": "msg",
   "jp": "・・・・・・[WAIT]",
-  "en": "",
+  "en": "……[WAIT]",
   "bytes": 16,
   "sites": [
    "1E126C:op7A+2",
@@ -3163,7 +3172,8 @@
    "1E126C:op7A+2",
    "1E126C:op7A+2",
    "1E126C:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1E1BE8",
@@ -3282,7 +3292,7 @@
   "addr": "1E1CA2",
   "kind": "msg",
   "jp": "・・・・・・[WAIT]",
-  "en": "",
+  "en": "……[WAIT]",
   "bytes": 16,
   "sites": [
    "1E12E0:op7A+2",
@@ -3291,7 +3301,8 @@
    "1E12E0:op7A+2",
    "1E12E0:op7A+2",
    "1E12E0:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1E1CB2",
@@ -3348,7 +3359,7 @@
   "addr": "1E1D02",
   "kind": "msg",
   "jp": "・・・・・・[WAIT]",
-  "en": "",
+  "en": "……[WAIT]",
   "bytes": 16,
   "sites": [
    "1E1315:op7A+2",
@@ -3357,7 +3368,8 @@
    "1E1315:op7A+2",
    "1E1315:op7A+2",
    "1E1315:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1E1D12",
@@ -3866,12 +3878,13 @@
   "addr": "1E2F6A",
   "kind": "msg",
   "jp": "・・・・・・[WAIT]",
-  "en": "",
+  "en": "……[WAIT]",
   "bytes": 16,
   "sites": [
    "1E1FB6:op7A+2",
    "1E1FB6:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1E2F7A",
@@ -4495,13 +4508,14 @@
   "addr": "1E366E",
   "kind": "msg",
   "jp": "・・・・・・[WAIT]",
-  "en": "",
+  "en": "……[WAIT]",
   "bytes": 16,
   "sites": [
    "1E2218:op7A+2",
    "1E2218:op7A+2",
    "1E2218:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1E367E",
@@ -5083,12 +5097,13 @@
   "addr": "1E3B6A",
   "kind": "msg",
   "jp": "・・・・・・[WAIT]",
-  "en": "",
+  "en": "……[WAIT]",
   "bytes": 16,
   "sites": [
    "1E242D:op52+5",
    "1E242D:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1E3B7A",
@@ -5398,14 +5413,15 @@
   "addr": "1E3E2A",
   "kind": "msg",
   "jp": "・・・・・・[WAIT]",
-  "en": "",
+  "en": "……[WAIT]",
   "bytes": 16,
   "sites": [
    "1E25A7:op52+5",
    "1E25A7:op52+5",
    "1E25A7:op52+5",
    "1E25A7:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1E3E3A",
@@ -5992,7 +6008,7 @@
   "addr": "1E40A2",
   "kind": "msg",
   "jp": "・・・・・・[WAIT]",
-  "en": "",
+  "en": "……[WAIT]",
   "bytes": 16,
   "sites": [
    "1E2802:op7A+2",
@@ -6006,7 +6022,8 @@
    "1E2802:op7A+2",
    "1E2802:op7A+2",
    "1E2802:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1E40B2",
@@ -6216,7 +6233,7 @@
   "addr": "1E4296",
   "kind": "msg",
   "jp": "・・・・・・[WAIT]",
-  "en": "",
+  "en": "……[WAIT]",
   "bytes": 16,
   "sites": [
    "1E2870:op7A+2",
@@ -6231,7 +6248,8 @@
    "1E2870:op7A+2",
    "1E2870:op7A+2",
    "1E2870:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1E42A6",
@@ -6261,7 +6279,7 @@
   "addr": "1E42AE",
   "kind": "msg",
   "jp": "・・・・・・[WAIT]",
-  "en": "",
+  "en": "……[WAIT]",
   "bytes": 16,
   "sites": [
    "1E2886:op7A+2",
@@ -6276,7 +6294,8 @@
    "1E2886:op7A+2",
    "1E2886:op7A+2",
    "1E2886:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1E42BE",
@@ -6306,7 +6325,7 @@
   "addr": "1E42C8",
   "kind": "msg",
   "jp": "・・・・・・[WAIT]",
-  "en": "",
+  "en": "……[WAIT]",
   "bytes": 16,
   "sites": [
    "1E28A5:op7A+2",
@@ -6321,7 +6340,8 @@
    "1E28A5:op7A+2",
    "1E28A5:op7A+2",
    "1E28A5:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1E42D8",
@@ -6844,7 +6864,7 @@
   "addr": "1E4566",
   "kind": "msg",
   "jp": "・・・・・・[WAIT]",
-  "en": "",
+  "en": "……[WAIT]",
   "bytes": 16,
   "sites": [
    "1E29D0:op7A+2",
@@ -6862,7 +6882,8 @@
    "1E29D0:op7A+2",
    "1E29D0:op7A+2",
    "1E29D0:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1E4576",
@@ -7002,7 +7023,7 @@
   "addr": "1E4656",
   "kind": "msg",
   "jp": "・・・・・・[WAIT]",
-  "en": "",
+  "en": "……[WAIT]",
   "bytes": 16,
   "sites": [
    "1E2A09:op52+5",
@@ -7021,7 +7042,8 @@
    "1E2A09:op52+5",
    "1E2A09:op52+5",
    "1E2A09:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1E4666",
@@ -7405,12 +7427,13 @@
   "addr": "1E4F7A",
   "kind": "msg",
   "jp": "・・・・・・[WAIT]",
-  "en": "",
+  "en": "……[WAIT]",
   "bytes": 16,
   "sites": [
    "1E4811:op7A+2",
    "1E4811:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1E4F8A",
@@ -7540,14 +7563,15 @@
   "addr": "1E5078",
   "kind": "msg",
   "jp": "えっ！[WAIT]",
-  "en": "",
+  "en": "Huh![WAIT]",
   "bytes": 10,
   "sites": [
    "1E4888:op7A+2",
    "1E4888:op7A+2",
    "1E4888:op7A+2",
    "1E4888:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1E5082",
@@ -7978,7 +8002,7 @@
   "addr": "1E5466",
   "kind": "msg",
   "jp": "えっ！[WAIT]",
-  "en": "",
+  "en": "Huh![WAIT]",
   "bytes": 10,
   "sites": [
    "1E49DB:op7A+2",
@@ -7986,7 +8010,8 @@
    "1E49DB:op7A+2",
    "1E49DB:op7A+2",
    "1E49DB:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1E5470",
@@ -8353,11 +8378,12 @@
   "addr": "1E5760",
   "kind": "msg",
   "jp": "・・・・・・[WAIT]",
-  "en": "",
+  "en": "……[WAIT]",
   "bytes": 16,
   "sites": [
    "1E4B14:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1E5770",
@@ -8402,12 +8428,13 @@
   "addr": "1E57B0",
   "kind": "msg",
   "jp": "ああ、そうだな・・・！[WAIT]",
-  "en": "",
+  "en": "Yeah, that's right…![WAIT]",
   "bytes": 26,
   "sites": [
    "1E4B40:op7A+2",
    "1E4B40:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1E57CA",
@@ -8427,12 +8454,13 @@
   "addr": "1E57D2",
   "kind": "msg",
   "jp": "・・・・・・[WAIT]",
-  "en": "",
+  "en": "……[WAIT]",
   "bytes": 16,
   "sites": [
    "1E4B8E:op7A+2",
    "1E4B8E:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1E57E2",
@@ -8452,12 +8480,13 @@
   "addr": "1E57EC",
   "kind": "msg",
   "jp": "・・・・・・[WAIT]",
-  "en": "",
+  "en": "……[WAIT]",
   "bytes": 16,
   "sites": [
    "1E4BAD:op7A+2",
    "1E4BAD:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1E57FC",
@@ -8478,13 +8507,14 @@
   "addr": "1E5804",
   "kind": "msg",
   "jp": "・・・・・・[WAIT]",
-  "en": "",
+  "en": "……[WAIT]",
   "bytes": 16,
   "sites": [
    "1E4BC3:op7A+2",
    "1E4BC3:op7A+2",
    "1E4BC3:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1E5814",
@@ -9030,12 +9060,13 @@
   "addr": "1E6606",
   "kind": "msg",
   "jp": "・・・・・・[WAIT]",
-  "en": "",
+  "en": "……[WAIT]",
   "bytes": 16,
   "sites": [
    "1E5BF7:op7A+2",
    "1E5BF7:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1E6616",
@@ -9989,12 +10020,13 @@
   "addr": "1E6DDA",
   "kind": "msg",
   "jp": "・・・・・・[WAIT]",
-  "en": "",
+  "en": "……[WAIT]",
   "bytes": 16,
   "sites": [
    "1E60B1:op7A+2",
    "1E60B1:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1E6DEA",
@@ -10014,12 +10046,13 @@
   "addr": "1E6DF4",
   "kind": "msg",
   "jp": "・・・・・・[WAIT]",
-  "en": "",
+  "en": "……[WAIT]",
   "bytes": 16,
   "sites": [
    "1E60D0:op7A+2",
    "1E60D0:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1E6E04",
@@ -10040,13 +10073,14 @@
   "addr": "1E6E0C",
   "kind": "msg",
   "jp": "・・・・・・[WAIT]",
-  "en": "",
+  "en": "……[WAIT]",
   "bytes": 16,
   "sites": [
    "1E60E6:op7A+2",
    "1E60E6:op7A+2",
    "1E60E6:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1E6E1C",
@@ -10580,7 +10614,7 @@
   "addr": "1E721A",
   "kind": "msg",
   "jp": "・・・・・・[WAIT]",
-  "en": "",
+  "en": "……[WAIT]",
   "bytes": 16,
   "sites": [
    "1E62D1:op7A+2",
@@ -10589,7 +10623,8 @@
    "1E62D1:op7A+2",
    "1E62D1:op7A+2",
    "1E62D1:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1E722A",
@@ -11400,12 +11435,13 @@
   "addr": "1E858A",
   "kind": "msg",
   "jp": "・・・・・・[WAIT]",
-  "en": "",
+  "en": "……[WAIT]",
   "bytes": 16,
   "sites": [
    "1E7657:op7A+2",
    "1E7657:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1E859A",
@@ -12720,12 +12756,13 @@
   "addr": "1E9336",
   "kind": "msg",
   "jp": "・・・・・・[WAIT]",
-  "en": "",
+  "en": "……[WAIT]",
   "bytes": 16,
   "sites": [
    "1E7B06:op7A+2",
    "1E7B06:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1E9346",
@@ -12770,12 +12807,13 @@
   "addr": "1E93D8",
   "kind": "msg",
   "jp": "・・・・・・[WAIT]",
-  "en": "",
+  "en": "……[WAIT]",
   "bytes": 16,
   "sites": [
    "1E7B32:op7A+2",
    "1E7B32:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1E93E8",
@@ -13853,7 +13891,7 @@
   "addr": "1E9DA2",
   "kind": "msg",
   "jp": "・・・・・・[WAIT]",
-  "en": "",
+  "en": "……[WAIT]",
   "bytes": 16,
   "sites": [
    "1E7E8C:op7A+2",
@@ -13861,7 +13899,8 @@
    "1E7E8C:op7A+2",
    "1E7E8C:op7A+2",
    "1E7E8C:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1E9DB2",
@@ -13884,7 +13923,7 @@
   "addr": "1E9DBC",
   "kind": "msg",
   "jp": "・・・・・・[WAIT]",
-  "en": "",
+  "en": "……[WAIT]",
   "bytes": 16,
   "sites": [
    "1E7EAB:op7A+2",
@@ -13892,7 +13931,8 @@
    "1E7EAB:op7A+2",
    "1E7EAB:op7A+2",
    "1E7EAB:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1E9DCC",
@@ -14767,12 +14807,13 @@
   "addr": "1EA988",
   "kind": "msg",
   "jp": "・・・・・・[WAIT]",
-  "en": "",
+  "en": "……[WAIT]",
   "bytes": 16,
   "sites": [
    "1EA38C:op7A+2",
    "1EA38C:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1EA998",
@@ -14792,12 +14833,13 @@
   "addr": "1EA9A2",
   "kind": "msg",
   "jp": "・・・・・・[WAIT]",
-  "en": "",
+  "en": "……[WAIT]",
   "bytes": 16,
   "sites": [
    "1EA3AB:op7A+2",
    "1EA3AB:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1EA9B2",
@@ -15746,14 +15788,15 @@
   "addr": "1EBA0E",
   "kind": "msg",
   "jp": "・・・・・・[WAIT]",
-  "en": "",
+  "en": "……[WAIT]",
   "bytes": 16,
   "sites": [
    "1EAECD:op7A+2",
    "1EAECD:op7A+2",
    "1EAECD:op7A+2",
    "1EAECD:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1EBA1E",
@@ -15807,7 +15850,7 @@
   "addr": "1EBA7A",
   "kind": "msg",
   "jp": "・・・・・・[WAIT]",
-  "en": "",
+  "en": "……[WAIT]",
   "bytes": 16,
   "sites": [
    "1EAEF9:op7A+2",
@@ -15815,7 +15858,8 @@
    "1EAEF9:op7A+2",
    "1EAEF9:op7A+2",
    "1EAEF9:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1EBA8A",
@@ -16202,12 +16246,13 @@
   "addr": "1ECA6E",
   "kind": "msg",
   "jp": "・・・・・・[WAIT]",
-  "en": "",
+  "en": "……[WAIT]",
   "bytes": 16,
   "sites": [
    "1EBE01:op7A+2",
    "1EBE01:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1ECA7E",
@@ -16498,13 +16543,14 @@
   "addr": "1ECD9A",
   "kind": "msg",
   "jp": "・・・・・・[WAIT]",
-  "en": "",
+  "en": "……[WAIT]",
   "bytes": 16,
   "sites": [
    "1EBEF3:op7A+2",
    "1EBEF3:op7A+2",
    "1EBEF3:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1ECDAA",
@@ -16525,13 +16571,14 @@
   "addr": "1ECDB4",
   "kind": "msg",
   "jp": "・・・・・・[WAIT]",
-  "en": "",
+  "en": "……[WAIT]",
   "bytes": 16,
   "sites": [
    "1EBF12:op7A+2",
    "1EBF12:op7A+2",
    "1EBF12:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1ECDC4",
@@ -16715,12 +16762,13 @@
   "addr": "1ECF5C",
   "kind": "msg",
   "jp": "・・・・・・[WAIT]",
-  "en": "",
+  "en": "……[WAIT]",
   "bytes": 16,
   "sites": [
    "1EC011:op7A+2",
    "1EC011:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1ECF6C",
@@ -17125,12 +17173,13 @@
   "addr": "1ED252",
   "kind": "msg",
   "jp": "・・・・・・[WAIT]",
-  "en": "",
+  "en": "……[WAIT]",
   "bytes": 16,
   "sites": [
    "1EC1BD:op7A+2",
    "1EC1BD:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1ED262",
@@ -17759,7 +17808,7 @@
   "addr": "1ED67E",
   "kind": "msg",
   "jp": "・・・・・・[WAIT]",
-  "en": "",
+  "en": "……[WAIT]",
   "bytes": 16,
   "sites": [
    "1EC40C:op7A+2",
@@ -17768,7 +17817,8 @@
    "1EC40C:op7A+2",
    "1EC40C:op7A+2",
    "1EC40C:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1ED68E",
@@ -17863,7 +17913,7 @@
   "addr": "1ED72A",
   "kind": "msg",
   "jp": "・・・・・・[WAIT]",
-  "en": "",
+  "en": "……[WAIT]",
   "bytes": 16,
   "sites": [
    "1EC438:op7A+2",
@@ -17873,7 +17923,8 @@
    "1EC438:op7A+2",
    "1EC438:op7A+2",
    "1EC438:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1ED73A",
@@ -19427,12 +19478,13 @@
   "addr": "1EEA7C",
   "kind": "msg",
   "jp": "・・・・・・[WAIT]",
-  "en": "",
+  "en": "……[WAIT]",
   "bytes": 16,
   "sites": [
    "1EDF70:op7A+2",
    "1EDF70:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1EEA8C",
@@ -19452,12 +19504,13 @@
   "addr": "1EEA94",
   "kind": "msg",
   "jp": "・・・・・・[WAIT]",
-  "en": "",
+  "en": "……[WAIT]",
   "bytes": 16,
   "sites": [
    "1EDF86:op7A+2",
    "1EDF86:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1EEAA4",
@@ -19477,12 +19530,13 @@
   "addr": "1EEAAE",
   "kind": "msg",
   "jp": "・・・・・・[WAIT]",
-  "en": "",
+  "en": "……[WAIT]",
   "bytes": 16,
   "sites": [
    "1EDFA5:op7A+2",
    "1EDFA5:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1EEABE",
@@ -19642,14 +19696,15 @@
   "addr": "1EEBEA",
   "kind": "msg",
   "jp": "・・・・・・[WAIT]",
-  "en": "",
+  "en": "……[WAIT]",
   "bytes": 16,
   "sites": [
    "1EE032:op7A+2",
    "1EE032:op7A+2",
    "1EE032:op7A+2",
    "1EE032:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1EEBFA",
@@ -19817,14 +19872,15 @@
   "addr": "1EEDB6",
   "kind": "msg",
   "jp": "・・・・・・[WAIT]",
-  "en": "",
+  "en": "……[WAIT]",
   "bytes": 16,
   "sites": [
    "1EE0BF:op7A+2",
    "1EE0BF:op7A+2",
    "1EE0BF:op7A+2",
    "1EE0BF:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1EEDC6",
@@ -20645,14 +20701,15 @@
   "addr": "1EF4D8",
   "kind": "msg",
   "jp": "・・・・・・[WAIT]",
-  "en": "",
+  "en": "……[WAIT]",
   "bytes": 16,
   "sites": [
    "1EE3D0:op7A+2",
    "1EE3D0:op7A+2",
    "1EE3D0:op7A+2",
    "1EE3D0:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1EF4E8",
@@ -20977,7 +21034,7 @@
   "addr": "1EF70A",
   "kind": "msg",
   "jp": "・・・・・・[WAIT]",
-  "en": "",
+  "en": "……[WAIT]",
   "bytes": 16,
   "sites": [
    "1EE54E:op7A+2",
@@ -20988,7 +21045,8 @@
    "1EE54E:op7A+2",
    "1EE54E:op7A+2",
    "1EE54E:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1EF71A",
@@ -21367,7 +21425,7 @@
   "addr": "1EFA4C",
   "kind": "msg",
   "jp": "・・・・・・[WAIT]",
-  "en": "",
+  "en": "……[WAIT]",
   "bytes": 16,
   "sites": [
    "1EE633:op7A+2",
@@ -21379,7 +21437,8 @@
    "1EE633:op7A+2",
    "1EE633:op7A+2",
    "1EE633:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1EFA5C",
@@ -21537,7 +21596,7 @@
   "addr": "1EFB06",
   "kind": "msg",
   "jp": "・・・・・・[WAIT]",
-  "en": "",
+  "en": "……[WAIT]",
   "bytes": 16,
   "sites": [
    "1EE6AA:op7A+2",
@@ -21551,7 +21610,8 @@
    "1EE6AA:op7A+2",
    "1EE6AA:op7A+2",
    "1EE6AA:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1EFB16",
@@ -21580,7 +21640,7 @@
   "addr": "1EFB1E",
   "kind": "msg",
   "jp": "・・・・・・[WAIT]",
-  "en": "",
+  "en": "……[WAIT]",
   "bytes": 16,
   "sites": [
    "1EE6C0:op7A+2",
@@ -21594,7 +21654,8 @@
    "1EE6C0:op7A+2",
    "1EE6C0:op7A+2",
    "1EE6C0:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1EFB2E",
@@ -21666,7 +21727,7 @@
   "addr": "1EFBB6",
   "kind": "msg",
   "jp": "・・・・・・[WAIT]",
-  "en": "",
+  "en": "……[WAIT]",
   "bytes": 16,
   "sites": [
    "1EE6F3:op7A+2",
@@ -21680,7 +21741,8 @@
    "1EE6F3:op7A+2",
    "1EE6F3:op7A+2",
    "1EE6F3:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1EFBC6",
@@ -22333,7 +22395,7 @@
   "addr": "1EFF72",
   "kind": "msg",
   "jp": "・・・・・・[WAIT]",
-  "en": "",
+  "en": "……[WAIT]",
   "bytes": 16,
   "sites": [
    "1EE89B:op52+5",
@@ -22350,7 +22412,8 @@
    "1EE89B:op52+5",
    "1EE89B:op52+5",
    "1EE89B:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1EFF82",

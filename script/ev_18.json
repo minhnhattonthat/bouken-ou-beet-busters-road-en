@@ -16,11 +16,12 @@
   "addr": "1806EC",
   "kind": "msg",
   "jp": "いらっしゃい。[BR]何か買っていくかい？[WAIT]",
-  "en": "",
+  "en": "Welcome! Looking to buy something?[WAIT]",
   "bytes": 40,
   "sites": [
    "17FC26:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:180714",
@@ -39,11 +40,12 @@
   "addr": "180720",
   "kind": "msg",
   "jp": "いらっしゃい。[BR]いいものがそろってるよ[WAIT]",
-  "en": "",
+  "en": "Welcome! I've got good stuff in stock.[WAIT]",
   "bytes": 42,
   "sites": [
    "17FC50:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:18074A",
@@ -62,44 +64,48 @@
   "addr": "180752",
   "kind": "msg",
   "jp": "そろそろここも大丈夫だろうし[BR]もしおめぇがどうしてもっていうなら[BR]仲間になってやってもいいぜ[WAIT]",
-  "en": "",
+  "en": "Things here oughta be fine by now… so[BR]if ya really insist, I guess I could[BR]join ya.[WAIT]",
   "bytes": 96,
   "sites": [
    "17FC6A:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1807B2",
   "addr": "1807B2",
   "kind": "choice",
   "jp": "仲間に入れる",
-  "en": "",
+  "en": "Recruit",
   "bytes": 14,
   "sites": [
    "17FC72:op1D+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1807C0",
   "addr": "1807C0",
   "kind": "choice",
   "jp": "やめる",
-  "en": "",
+  "en": "Leave it",
   "bytes": 8,
   "sites": [
    "17FC76:op1D+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1807C8",
   "addr": "1807C8",
   "kind": "msg",
   "jp": "パーティ人数がいっぱいです[BR]わかれるメンバーをえらんでください[WAIT]",
-  "en": "",
+  "en": "Your party is full. Choose a member to[BR]leave.[WAIT]",
   "bytes": 66,
   "sites": [
    "17FC91:op3B+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:18080A",
@@ -119,12 +125,13 @@
   "addr": "180812",
   "kind": "msg",
   "jp": "よし、いっちょうあばれるか！[WAIT]",
-  "en": "",
+  "en": "Alright, time to cut loose![WAIT]",
   "bytes": 32,
   "sites": [
    "17FCAA:op7A+2",
    "17FCAA:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:180832",
@@ -145,13 +152,14 @@
   "addr": "18083A",
   "kind": "msg",
   "jp": "ちっ・・・[BR]まだあん時のことを[BR]根に持ってんのかよ[WAIT]",
-  "en": "",
+  "en": "Tch… You still holdin' a grudge over[BR]that time?[WAIT]",
   "bytes": 54,
   "sites": [
    "17FCD1:op7A+2",
    "17FCD1:op7A+2",
    "17FCD1:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:180870",
@@ -170,11 +178,12 @@
   "addr": "180878",
   "kind": "msg",
   "jp": "いらっしゃい、うちの料理はうまいよ[BR]何せここで取れた素材を使って[BR]オレが料理してるからねぇ[WAIT]",
-  "en": "",
+  "en": "Welcome! The food here's great. After[BR]all, I cook it myself with ingredients[BR]from right around here.[WAIT]",
   "bytes": 94,
   "sites": [
    "17FCE4:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1808D6",
@@ -193,44 +202,48 @@
   "addr": "1808DC",
   "kind": "msg",
   "jp": "どうしたんだい？[BR]あたしの力が必要なのかい？[BR]あたしは天撃が得意だよ[WAIT]",
-  "en": "",
+  "en": "What's up? You need my strength?[BR]Divine Attacks are my specialty,[BR]y'know.[WAIT]",
   "bytes": 72,
   "sites": [
    "17FCF9:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:180924",
   "addr": "180924",
   "kind": "choice",
   "jp": "仲間に入れる",
-  "en": "",
+  "en": "Recruit",
   "bytes": 14,
   "sites": [
    "17FD01:op1D+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:180932",
   "addr": "180932",
   "kind": "choice",
   "jp": "やめる",
-  "en": "",
+  "en": "Leave it",
   "bytes": 8,
   "sites": [
    "17FD05:op1D+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:18093A",
   "addr": "18093A",
   "kind": "msg",
   "jp": "パーティ人数がいっぱいです[BR]わかれるメンバーをえらんでください[WAIT]",
-  "en": "",
+  "en": "Your party is full. Choose a member to[BR]leave.[WAIT]",
   "bytes": 66,
   "sites": [
    "17FD20:op3B+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:18097C",
@@ -250,12 +263,13 @@
   "addr": "180982",
   "kind": "msg",
   "jp": "よろしくたのむよ[WAIT]",
-  "en": "",
+  "en": "Count on me.[WAIT]",
   "bytes": 20,
   "sites": [
    "17FD39:op7A+2",
    "17FD39:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:180996",
@@ -276,13 +290,14 @@
   "addr": "18099C",
   "kind": "msg",
   "jp": "気がかわったら[BR]またおいで[WAIT]",
-  "en": "",
+  "en": "If you change your mind, come on back.[WAIT]",
   "bytes": 30,
   "sites": [
    "17FD60:op7A+2",
    "17FD60:op7A+2",
    "17FD60:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1809BA",
@@ -301,11 +316,12 @@
   "addr": "1809C4",
   "kind": "msg",
   "jp": "なんだ！　オレたちバスターが[BR]町を守ってやってるんだぞ！[WAIT]",
-  "en": "",
+  "en": "What?! It's us Busters who keep this[BR]town safe, y'know![WAIT]",
   "bytes": 60,
   "sites": [
    "17FD73:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:180A00",
@@ -324,11 +340,12 @@
   "addr": "180A0A",
   "kind": "msg",
   "jp": "門の中に入ってくるモンスターは[BR]オレたちが退治するのさ[WAIT]",
-  "en": "",
+  "en": "Any monster that gets inside the gate,[BR]we take care of.[WAIT]",
   "bytes": 58,
   "sites": [
    "17FD7F:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:180A44",
@@ -347,11 +364,12 @@
   "addr": "180A4E",
   "kind": "msg",
   "jp": "オレたちはこのトロワナ王国に[BR]雇われてるバスターさ[WAIT]",
-  "en": "",
+  "en": "We're Busters hired by the Kingdom of[BR]Trowana.[WAIT]",
   "bytes": 54,
   "sites": [
    "17FD8B:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:180A84",
@@ -370,11 +388,12 @@
   "addr": "180A8E",
   "kind": "msg",
   "jp": "この酒場じゃ、バスターとトロワナ兵の[BR]いざこざはいつものことなんだ[WAIT]",
-  "en": "",
+  "en": "In this tavern, scuffles between[BR]Busters and Trowana soldiers happen[BR]all the time.[WAIT]",
   "bytes": 70,
   "sites": [
    "17FD97:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:180AD4",
@@ -393,11 +412,12 @@
   "addr": "180ADE",
   "kind": "msg",
   "jp": "悪いけど、[BR]ここは夜しかやってないよ[WAIT]",
-  "en": "",
+  "en": "Sorry, but we're only open at night.[WAIT]",
   "bytes": 40,
   "sites": [
    "17FDA3:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:180B06",
@@ -416,11 +436,12 @@
   "addr": "180B10",
   "kind": "msg",
   "jp": "夜はいそがしいんだ、[BR]あんまりうろうろしないでおくれ[WAIT]",
-  "en": "",
+  "en": "It gets busy at night, so don't go[BR]wandering around too much, would you?[WAIT]",
   "bytes": 56,
   "sites": [
    "17FDAF:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:180B48",
@@ -439,11 +460,12 @@
   "addr": "180B52",
   "kind": "msg",
   "jp": "・・・・もう、のめません・・・[WAIT]",
-  "en": "",
+  "en": "….I can't drink… any more…[WAIT]",
   "bytes": 34,
   "sites": [
    "17FDBB:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:180B74",
@@ -462,11 +484,12 @@
   "addr": "180B80",
   "kind": "msg",
   "jp": "なんか、向こうでケンカが[BR]はじまったみたいだなぁ・・・[BR]しずかにしてほしいもんだ[WAIT]",
-  "en": "",
+  "en": "Looks like a fight broke out over[BR]there… I wish they'd keep it down.[WAIT]",
   "bytes": 84,
   "sites": [
    "17FDC7:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:180BD4",
@@ -485,11 +508,12 @@
   "addr": "180BDE",
   "kind": "msg",
   "jp": "下の階は客のガラが悪いから[BR]いつもここで食べてるんだ[WAIT]",
-  "en": "",
+  "en": "The crowd downstairs is rough, so I[BR]always eat up here.[WAIT]",
   "bytes": 56,
   "sites": [
    "17FDD3:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:180C16",
@@ -508,11 +532,12 @@
   "addr": "180C20",
   "kind": "msg",
   "jp": "うーん、やっぱりここの料理は[BR]妻が作るよりもうまい！[WAIT]",
-  "en": "",
+  "en": "Mmm, the food here really is better[BR]than my wife's cooking![WAIT]",
   "bytes": 56,
   "sites": [
    "17FDDF:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:180C58",
@@ -531,11 +556,12 @@
   "addr": "180C64",
   "kind": "msg",
   "jp": "なにやら下が騒々しいのう・・・[WAIT]",
-  "en": "",
+  "en": "My, it's awfully noisy downstairs, eh…[WAIT]",
   "bytes": 34,
   "sites": [
    "17FDEB:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:180C86",
@@ -554,11 +580,12 @@
   "addr": "180C92",
   "kind": "msg",
   "jp": "誰もお前達など信用していない！[BR]ここはわれわれトロワナ兵が[BR]守ってみせる！[WAIT]",
-  "en": "",
+  "en": "No one trusts the likes of you! We[BR]Trowana soldiers will protect this[BR]place![WAIT]",
   "bytes": 78,
   "sites": [
    "17FDF7:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:180CE0",
@@ -577,11 +604,12 @@
   "addr": "180CEC",
   "kind": "msg",
   "jp": "うちの相方は酔うと[BR]いつもバスターの悪口を言って[BR]ケンカになってしまうんだ[WAIT]",
-  "en": "",
+  "en": "Whenever my partner gets drunk, he[BR]badmouths the Busters and ends up in a[BR]fight.[WAIT]",
   "bytes": 78,
   "sites": [
    "17FE03:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:180D3A",
@@ -600,11 +628,12 @@
   "addr": "180D44",
   "kind": "msg",
   "jp": "ここは食堂さ[BR]兵隊さんたちが多いから[BR]食事を作るのも大変なんだ[WAIT]",
-  "en": "",
+  "en": "This is the mess hall. With so many[BR]soldiers, cooking for everyone is hard[BR]work.[WAIT]",
   "bytes": 66,
   "sites": [
    "17FE0F:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:180D86",
@@ -623,11 +652,12 @@
   "addr": "180D92",
   "kind": "msg",
   "jp": "おお、これはまた[BR]おわかいバスターさんですな[PAGE]トロワナの民を守ってくださるとは[BR]民に代わってお礼もうしあげます[BR]ほんとうにいつもありがとう[WAIT]",
-  "en": "",
+  "en": "Oh my, what a young Buster-san we have[BR]here.[PAGE]You protect the people of Trowana, so[BR]on their behalf, I offer my thanks.[BR]Truly, thank you for everything.[WAIT]",
   "bytes": 142,
   "sites": [
    "17FE24:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:180E20",
@@ -646,11 +676,12 @@
   "addr": "180E26",
   "kind": "msg",
   "jp": "ここはわれわれが[BR]くんれんするための場所だ[WAIT]",
-  "en": "",
+  "en": "This is where we train.[WAIT]",
   "bytes": 46,
   "sites": [
    "17FE32:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:180E54",
@@ -669,11 +700,12 @@
   "addr": "180E5A",
   "kind": "msg",
   "jp": "今はくんれん中だ[BR]じゃましないでくれ[WAIT]",
-  "en": "",
+  "en": "We're in the middle of training. Don't[BR]get in the way.[WAIT]",
   "bytes": 40,
   "sites": [
    "17FE3E:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:180E82",
@@ -692,11 +724,12 @@
   "addr": "180E8C",
   "kind": "msg",
   "jp": "トロワナ王は心やさしいお方で[BR]私たちのような一般人でも[BR]お城を自由に見学できるんだよ[WAIT]",
-  "en": "",
+  "en": "The King of Trowana is a kindhearted[BR]man. Even ordinary folks like us can[BR]tour the castle freely.[WAIT]",
   "bytes": 88,
   "sites": [
    "17FE4A:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:180EE4",
@@ -715,11 +748,12 @@
   "addr": "180EF0",
   "kind": "msg",
   "jp": "ここはお城ではたらく人が[BR]ねむるための部屋よ[WAIT]",
-  "en": "",
+  "en": "This is the room where the castle[BR]staff sleep.[WAIT]",
   "bytes": 48,
   "sites": [
    "17FE56:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:180F20",
@@ -738,11 +772,12 @@
   "addr": "180F2A",
   "kind": "msg",
   "jp": "ここは王様のお部屋です[WAIT]",
-  "en": "",
+  "en": "This is the King's chamber.[WAIT]",
   "bytes": 26,
   "sites": [
    "17FE62:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:180F44",
@@ -761,11 +796,12 @@
   "addr": "180F4E",
   "kind": "msg",
   "jp": "やっと今日の仕事がおわったよ[WAIT]",
-  "en": "",
+  "en": "Finally, today's work is done.[WAIT]",
   "bytes": 32,
   "sites": [
    "17FE6E:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:180F6E",
@@ -784,11 +820,12 @@
   "addr": "180F74",
   "kind": "msg",
   "jp": "ここはいろいろなものがおいてある[BR]トロワナ城の倉庫だ[WAIT]",
-  "en": "",
+  "en": "This is the storehouse of Trowana[BR]Castle, where all sorts of things are[BR]kept.[WAIT]",
   "bytes": 56,
   "sites": [
    "17FE7A:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:180FAC",
@@ -808,12 +845,13 @@
   "addr": "180FB8",
   "kind": "msg",
   "jp": "お墓にはモンスターと勇敢に戦い[BR]そして倒れた多くの兵士達が[BR]眠っているのです[WAIT]",
-  "en": "",
+  "en": "In the graves rest many soldiers who[BR]fought bravely against the monsters[BR]and fell.[WAIT]",
   "bytes": 80,
   "sites": [
    "17FEA3:op52+5",
    "17FEA3:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:181008",
@@ -833,12 +871,13 @@
   "addr": "181012",
   "kind": "msg",
   "jp": "いつきてもこのお城は[BR]りっぱなもんだなぁ[WAIT]",
-  "en": "",
+  "en": "No matter how often I come, this[BR]castle is a magnificent sight.[WAIT]",
   "bytes": 44,
   "sites": [
    "17FECC:op52+5",
    "17FECC:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:18103E",
@@ -858,12 +897,13 @@
   "addr": "181046",
   "kind": "msg",
   "jp": "ぼくも大きくなったら[BR]兵隊さんになってみんなを守るんだ！[WAIT]",
-  "en": "",
+  "en": "When I grow up, I'm gonna be a soldier[BR]and protect everybody![WAIT]",
   "bytes": 60,
   "sites": [
    "17FEF5:op52+5",
    "17FEF5:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:181082",
@@ -882,11 +922,12 @@
   "addr": "181088",
   "kind": "msg",
   "jp": "ここはトロワナ王が住んでおられる[BR]トロワナ城だ[WAIT]",
-  "en": "",
+  "en": "This is Trowana Castle, where the King[BR]of Trowana resides.[WAIT]",
   "bytes": 50,
   "sites": [
    "17FF01:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1810BA",
@@ -905,11 +946,12 @@
   "addr": "1810C0",
   "kind": "msg",
   "jp": "ここはトロワナ王城を守る[BR]われわれ門番の詰め所だ[WAIT]",
-  "en": "",
+  "en": "This is the guardroom for us[BR]gatekeepers who guard Trowana Castle.[WAIT]",
   "bytes": 52,
   "sites": [
    "17FF0D:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1810F4",
@@ -928,11 +970,12 @@
   "addr": "1810FA",
   "kind": "msg",
   "jp": "ヴァンデルバスターがお城に[BR]何の用だ！？　この城と国王は[BR]われわれが守るのが決まりのはずだ！[WAIT]",
-  "en": "",
+  "en": "What business does a Vandel Buster[BR]have at the castle?! Protecting this[BR]castle and the King is supposed to be[PAGE]OUR job![WAIT]",
   "bytes": 96,
   "sites": [
    "17FF19:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:18115A",
@@ -951,11 +994,12 @@
   "addr": "181166",
   "kind": "msg",
   "jp": "昔はここも人であふれていたと[BR]聞いていますが[BR]今はごらんのとおりですわ[WAIT]",
-  "en": "",
+  "en": "I've heard this place used to be[BR]overflowing with people, but now it's[BR]as you see.[WAIT]",
   "bytes": 74,
   "sites": [
    "17FF25:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1811B0",
@@ -974,11 +1018,12 @@
   "addr": "1811BA",
   "kind": "msg",
   "jp": "神はあなたの心の中にいます[BR]そして常にあなたを見ています[BR]どんなにつらいことがあっても[PAGE]決してくじけずあきらめなければ[BR]かならずやいつか、むくわれる日が[BR]おとずれるはずです[WAIT]",
-  "en": "",
+  "en": "God lives within your heart and is[BR]always watching over you. No matter[BR]how hard things become,[PAGE]if you never lose heart and never give[BR]up, surely one day your reward will[BR]come.[WAIT]",
   "bytes": 176,
   "sites": [
    "17FF31:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:18126A",
@@ -997,11 +1042,12 @@
   "addr": "181274",
   "kind": "msg",
   "jp": "平和を神に祈るぐらいなら[BR]バスターに頼むほうが確実だよ[BR]でも、なんか来ちまうんだよなぁ[WAIT]",
-  "en": "",
+  "en": "Instead of praying to the gods for[BR]peace, it's a surer bet to ask a[BR]Buster. But somehow I keep coming[PAGE]anyway.[WAIT]",
   "bytes": 90,
   "sites": [
    "17FF3D:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1812CE",
@@ -1020,11 +1066,12 @@
   "addr": "1812D4",
   "kind": "msg",
   "jp": "今はきゅうけい時間なんだ[WAIT]",
-  "en": "",
+  "en": "I'm on my break right now.[WAIT]",
   "bytes": 28,
   "sites": [
    "17FF49:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1812F0",
@@ -1043,11 +1090,12 @@
   "addr": "1812FA",
   "kind": "msg",
   "jp": "いらっしゃいませ。[BR]２０マギーになりますが[BR]お休みになりますか？[WAIT]",
-  "en": "",
+  "en": "Welcome. That will be 20 Magi. Would[BR]you like to rest?[WAIT]",
   "bytes": 68,
   "sites": [
    "17FF55:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:18133E",
@@ -1066,11 +1114,12 @@
   "addr": "181348",
   "kind": "msg",
   "jp": "ここだけの話だけどさ、[BR]兵士達とバスターって仲が悪いんだ[PAGE]兵士達にすれば彼らがいるのに[BR]なんでわざわざバスターを[BR]雇うのかってのが気に入らないらしい[WAIT]",
-  "en": "",
+  "en": "Just between you and me, the soldiers[BR]and the Busters don't get along.[PAGE]The soldiers hate that the kingdom[BR]goes out of its way to hire Busters[BR]when it already has them.[WAIT]",
   "bytes": 152,
   "sites": [
    "17FF66:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1813E0",
@@ -1089,11 +1138,12 @@
   "addr": "1813E6",
   "kind": "msg",
   "jp": "お兄ちゃん、[BR]アメリ草をお願い[WAIT]",
-  "en": "",
+  "en": "Mister, please get the Ameri Herb![WAIT]",
   "bytes": 34,
   "sites": [
    "17FF85:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:181408",
@@ -1113,12 +1163,13 @@
   "addr": "18140E",
   "kind": "msg",
   "jp": "おかあさんを助けてくれて、[BR]ありがとう！[WAIT]",
-  "en": "",
+  "en": "Thank you for saving my mom![WAIT]",
   "bytes": 44,
   "sites": [
    "17FFA0:op52+5",
    "17FFA0:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:18143A",
@@ -1139,13 +1190,14 @@
   "addr": "181440",
   "kind": "msg",
   "jp": "おかあさんの病気が[BR]なかなか治らないんだ[WAIT]",
-  "en": "",
+  "en": "My mom's sickness just won't get[BR]better…[WAIT]",
   "bytes": 44,
   "sites": [
    "17FFB0:op52+5",
    "17FFB0:op52+5",
    "17FFB0:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:18146C",
@@ -1164,11 +1216,12 @@
   "addr": "181472",
   "kind": "msg",
   "jp": "・・・・・・[WAIT]",
-  "en": "",
+  "en": "……[WAIT]",
   "bytes": 16,
   "sites": [
    "17FFBC:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:181482",
@@ -1187,11 +1240,12 @@
   "addr": "181488",
   "kind": "msg",
   "jp": "一刻も早く[BR]アメリ草を・・・[WAIT]",
-  "en": "",
+  "en": "Please, the Ameri Herb, as soon as you[BR]can…[WAIT]",
   "bytes": 32,
   "sites": [
    "17FFDB:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1814A8",
@@ -1211,12 +1265,13 @@
   "addr": "1814AE",
   "kind": "msg",
   "jp": "先日はどうも[BR]ありがとうございました[WAIT]",
-  "en": "",
+  "en": "Thank you so much for the other day.[WAIT]",
   "bytes": 40,
   "sites": [
    "17FFF6:op52+5",
    "17FFF6:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1814D6",
@@ -1237,13 +1292,14 @@
   "addr": "1814DC",
   "kind": "msg",
   "jp": "バスターさんですか・・・[BR]何かご用ですか？[WAIT]",
-  "en": "",
+  "en": "A Buster-san, is it… What can I do for[BR]you?[WAIT]",
   "bytes": 46,
   "sites": [
    "180006:op52+5",
    "180006:op52+5",
    "180006:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:18150A",
@@ -1262,11 +1318,12 @@
   "addr": "181514",
   "kind": "msg",
   "jp": "黒の地平で安全なのは[BR]ここトロワナ王国だけらしいよ[WAIT]",
-  "en": "",
+  "en": "They say the only safe place in the[BR]Black Horizon is right here, the[BR]Kingdom of Trowana.[WAIT]",
   "bytes": 54,
   "sites": [
    "180012:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:18154A",
@@ -1286,12 +1343,13 @@
   "addr": "181552",
   "kind": "msg",
   "jp": "遺跡は「森の遺跡」だ。[BR]しっかり調査してきておくれ[BR]それはさておき・・・[WAIT]",
-  "en": "",
+  "en": "The ruins are the \"Forest Ruins.\"[BR]Investigate them good and proper for[BR]me, dearie. Now, that aside…[WAIT]",
   "bytes": 76,
   "sites": [
    "180050:op7A+2",
    "180050:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:18159E",
@@ -1317,7 +1375,7 @@
   "addr": "1815A6",
   "kind": "msg",
   "jp": "トロワナの森の調査は進んでいるかい？[BR]それはさておき・・・[WAIT]",
-  "en": "",
+  "en": "Is your investigation of Trowana[BR]Forest going well, eh? Now, that[BR]aside…[WAIT]",
   "bytes": 62,
   "sites": [
    "1800E8:op7A+2",
@@ -1328,7 +1386,8 @@
    "1800E8:op7A+2",
    "1800E8:op7A+2",
    "1800E8:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1815E4",
@@ -1357,7 +1416,7 @@
   "addr": "1815EC",
   "kind": "msg",
   "jp": "トロワナの森のモンスターせん滅は[BR]進んでいるかい？[BR]それはさておき・・・[WAIT]",
-  "en": "",
+  "en": "Are you making headway wiping out the[BR]monsters in Trowana Forest, eh? Now,[BR]that aside…[WAIT]",
   "bytes": 76,
   "sites": [
    "180131:op7A+2",
@@ -1371,7 +1430,8 @@
    "180131:op7A+2",
    "180131:op7A+2",
    "180131:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:181638",
@@ -1405,7 +1465,7 @@
   "addr": "181640",
   "kind": "msg",
   "jp": "トロワナの墓の調査は[BR]進んでいるかい？[BR]それはさておき・・・[WAIT]",
-  "en": "",
+  "en": "Is your investigation of the Trowana[BR]graves going well, eh? Now, that[BR]aside…[WAIT]",
   "bytes": 64,
   "sites": [
    "18017A:op7A+2",
@@ -1424,7 +1484,8 @@
    "18017A:op7A+2",
    "18017A:op7A+2",
    "18017A:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:181680",
@@ -1443,11 +1504,12 @@
   "addr": "181688",
   "kind": "msg",
   "jp": "いらっしゃい。[BR]今日は何の用だい？[WAIT]",
-  "en": "",
+  "en": "Welcome. What brings you here today?[WAIT]",
   "bytes": 38,
   "sites": [
    "18027A:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1816AE",
@@ -1466,11 +1528,12 @@
   "addr": "1816BA",
   "kind": "msg",
   "jp": "いらっしゃい。[BR]里の外は危険が一杯だから、[BR]いろいろ準備していきなよ[WAIT]",
-  "en": "",
+  "en": "Welcome! It's dangerous outside the[BR]village, so stock up before you go.[WAIT]",
   "bytes": 72,
   "sites": [
    "1802D6:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:181702",
@@ -1489,11 +1552,12 @@
   "addr": "18170C",
   "kind": "msg",
   "jp": "オレはこの国に雇われてるバスターさ[BR]もしモンスターが襲ってくれば[BR]退治しなければいけないからな[WAIT]",
-  "en": "",
+  "en": "I'm a Buster hired by this kingdom. If[BR]monsters attack, it's my job to take[BR]them out.[WAIT]",
   "bytes": 98,
   "sites": [
    "1802E7:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:18176E",
@@ -1512,11 +1576,12 @@
   "addr": "181778",
   "kind": "msg",
   "jp": "「黒の地平」にありながら[BR]ここほど強い門と壁を持っていれば[BR]かなり安全ではないだろうか[WAIT]",
-  "en": "",
+  "en": "It's in the \"Black Horizon,\" but with[BR]a gate and walls as strong as these,[BR]it must be pretty safe, wouldn't you[PAGE]say?[WAIT]",
   "bytes": 90,
   "sites": [
    "1802F3:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1817D2",
@@ -1536,12 +1601,13 @@
   "addr": "1817DC",
   "kind": "msg",
   "jp": "ここは多分他より安全だよ[BR]なにせ兵隊さんも、バスターも[BR]沢山いるからね[WAIT]",
-  "en": "",
+  "en": "It's probably safer here than anywhere[BR]else. After all, there are lots of[BR]soldiers and Busters.[WAIT]",
   "bytes": 74,
   "sites": [
    "18031C:op52+5",
    "18031C:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:181826",
@@ -1561,12 +1627,13 @@
   "addr": "181832",
   "kind": "msg",
   "jp": "町のお城にいらっしゃる[BR]トロワナ王には会われましたか？[BR]心の優しいいい王様ですよ[WAIT]",
-  "en": "",
+  "en": "Have you met the King of Trowana at[BR]the castle in town? He's a kind, good[BR]king.[WAIT]",
   "bytes": 84,
   "sites": [
    "180345:op52+5",
    "180345:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:181886",
@@ -1586,12 +1653,13 @@
   "addr": "181890",
   "kind": "msg",
   "jp": "わたしたちはここで[BR]食料を自分達で作ってます[WAIT]",
-  "en": "",
+  "en": "We grow our own food here.[WAIT]",
   "bytes": 48,
   "sites": [
    "18036E:op52+5",
    "18036E:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1818C0",
@@ -1611,12 +1679,13 @@
   "addr": "1818CA",
   "kind": "msg",
   "jp": "ここを出てトロワナの森を[BR]ずっと南へ行ったところに[BR]遺跡があるらしいぞ[WAIT]",
-  "en": "",
+  "en": "I hear if you leave here and go a long[BR]way south through Trowana Forest,[BR]there are some ruins.[WAIT]",
   "bytes": 74,
   "sites": [
    "180397:op52+5",
    "180397:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:181914",
@@ -1635,11 +1704,12 @@
   "addr": "181920",
   "kind": "msg",
   "jp": "このあたりが「黒の地平」と[BR]呼ばれるようになってすぐに[PAGE]周辺の小さな里の住人を[BR]受け入れてくれたのが[BR]ここの王様なんじゃよ[PAGE]もしあのままじゃったら[BR]多くの者達が死んでいるとこじゃった。[BR]ありがたいことじゃ[WAIT]",
-  "en": "",
+  "en": "Right after this area came to be[BR]called the \"Black Horizon,\"[PAGE]it was the King here who took in the[BR]folks from the small villages around,[BR]eh.[PAGE]If things had stayed as they were,[BR]many would have died. We're mighty[BR]grateful.[WAIT]",
   "bytes": 208,
   "sites": [
    "1803A3:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1819F0",
@@ -1658,11 +1728,12 @@
   "addr": "1819F6",
   "kind": "msg",
   "jp": "ここはトロワナ王国だ[WAIT]",
-  "en": "",
+  "en": "This is the Kingdom of Trowana.[WAIT]",
   "bytes": 24,
   "sites": [
    "1803AF:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:181A0E",
@@ -1681,34 +1752,37 @@
   "addr": "181A16",
   "kind": "msg",
   "jp": "あ！！[BR]こんなところにこんなものが・・・[WAIT]",
-  "en": "",
+  "en": "Whoa!! Look what's lying around in a[BR]place like this…[WAIT]",
   "bytes": 44,
   "sites": [
    "1803DA:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:181A42",
   "addr": "181A42",
   "kind": "msg",
   "jp": "２００マギーを手にいれた！[WAIT]",
-  "en": "",
+  "en": "Got 200 Magi![WAIT]",
   "bytes": 30,
   "sites": [
    "1803E3:op3B+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:181A60",
   "addr": "181A60",
   "kind": "msg",
   "jp": "なにも見つからなかった[WAIT]",
-  "en": "",
+  "en": "Nothing was found.[WAIT]",
   "bytes": 26,
   "sites": [
    "1803EF:op3B+1",
    "1803EF:op3B+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:181A7A",
@@ -1727,34 +1801,37 @@
   "addr": "181A82",
   "kind": "msg",
   "jp": "あ！！[BR]こんなところにこんなものが・・・[WAIT]",
-  "en": "",
+  "en": "Whoa!! Look what's lying around in a[BR]place like this…[WAIT]",
   "bytes": 44,
   "sites": [
    "18041A:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:181AAE",
   "addr": "181AAE",
   "kind": "msg",
   "jp": "５００マギーを手にいれた！[WAIT]",
-  "en": "",
+  "en": "Got 500 Magi![WAIT]",
   "bytes": 30,
   "sites": [
    "180423:op3B+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:181ACC",
   "addr": "181ACC",
   "kind": "msg",
   "jp": "なにも見つからなかった[WAIT]",
-  "en": "",
+  "en": "Nothing was found.[WAIT]",
   "bytes": 26,
   "sites": [
    "18042F:op3B+1",
    "18042F:op3B+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:181AE6",
@@ -1773,34 +1850,37 @@
   "addr": "181AEE",
   "kind": "msg",
   "jp": "あ！！[BR]こんなところにこんなものが・・・[WAIT]",
-  "en": "",
+  "en": "Whoa!! Look what's lying around in a[BR]place like this…[WAIT]",
   "bytes": 44,
   "sites": [
    "18045A:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:181B1A",
   "addr": "181B1A",
   "kind": "msg",
   "jp": "１３０マギーを手にいれた！[WAIT]",
-  "en": "",
+  "en": "Got 130 Magi![WAIT]",
   "bytes": 30,
   "sites": [
    "180463:op3B+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:181B38",
   "addr": "181B38",
   "kind": "msg",
   "jp": "なにも見つからなかった[WAIT]",
-  "en": "",
+  "en": "Nothing was found.[WAIT]",
   "bytes": 26,
   "sites": [
    "18046F:op3B+1",
    "18046F:op3B+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:181B52",
@@ -1819,48 +1899,52 @@
   "addr": "181B5A",
   "kind": "msg",
   "jp": "あ！！[BR]こんなところにこんなものが・・・[WAIT]",
-  "en": "",
+  "en": "Whoa!! Look what's lying around in a[BR]place like this…[WAIT]",
   "bytes": 44,
   "sites": [
    "180490:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:181B86",
   "addr": "181B86",
   "kind": "msg",
   "jp": "しかしおばばの秘薬は[BR]もう持てないのであきらめた[WAIT]",
-  "en": "",
+  "en": "But you can't carry any more Granny's[BR]Elixirs, so you left it.[WAIT]",
   "bytes": 52,
   "sites": [
    "1804A8:op3B+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:181BBA",
   "addr": "181BBA",
   "kind": "msg",
   "jp": "おばばの秘薬を手にいれた！[WAIT]",
-  "en": "",
+  "en": "Got Granny's Elixir![WAIT]",
   "bytes": 30,
   "sites": [
    "1804BE:op3B+1",
    "1804BE:op3B+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:181BD8",
   "addr": "181BD8",
   "kind": "msg",
   "jp": "なにも見つからなかった[WAIT]",
-  "en": "",
+  "en": "Nothing was found.[WAIT]",
   "bytes": 26,
   "sites": [
    "1804CA:op3B+1",
    "1804CA:op3B+1",
    "1804CA:op3B+1",
    "1804CA:op3B+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:181BF2",
@@ -1879,48 +1963,52 @@
   "addr": "181BFA",
   "kind": "msg",
   "jp": "あ！！[BR]こんなところにこんなものが・・・[WAIT]",
-  "en": "",
+  "en": "Whoa!! Look what's lying around in a[BR]place like this…[WAIT]",
   "bytes": 44,
   "sites": [
    "1804EB:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:181C26",
   "addr": "181C26",
   "kind": "msg",
   "jp": "しかしおじぃの妙薬は[BR]もう持てないのであきらめた[WAIT]",
-  "en": "",
+  "en": "But you can't carry any more Gramps's[BR]Remedies, so you left it.[WAIT]",
   "bytes": 52,
   "sites": [
    "180503:op3B+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:181C5A",
   "addr": "181C5A",
   "kind": "msg",
   "jp": "おじぃの妙薬を手にいれた！[WAIT]",
-  "en": "",
+  "en": "Got Gramps's Remedy![WAIT]",
   "bytes": 30,
   "sites": [
    "180519:op3B+1",
    "180519:op3B+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:181C78",
   "addr": "181C78",
   "kind": "msg",
   "jp": "なにも見つからなかった[WAIT]",
-  "en": "",
+  "en": "Nothing was found.[WAIT]",
   "bytes": 26,
   "sites": [
    "180525:op3B+1",
    "180525:op3B+1",
    "180525:op3B+1",
    "180525:op3B+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:181C92",
@@ -1939,48 +2027,52 @@
   "addr": "181C9A",
   "kind": "msg",
   "jp": "あ！！[BR]こんなところにこんなものが・・・[WAIT]",
-  "en": "",
+  "en": "Whoa!! Look what's lying around in a[BR]place like this…[WAIT]",
   "bytes": 44,
   "sites": [
    "180546:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:181CC6",
   "addr": "181CC6",
   "kind": "msg",
   "jp": "しかし解毒剤は[BR]もう持てないのであきらめた[WAIT]",
-  "en": "",
+  "en": "But you can't carry any more[BR]Antidotes, so you left it.[WAIT]",
   "bytes": 46,
   "sites": [
    "18055E:op3B+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:181CF4",
   "addr": "181CF4",
   "kind": "msg",
   "jp": "解毒剤を手にいれた！[WAIT]",
-  "en": "",
+  "en": "Got an Antidote![WAIT]",
   "bytes": 24,
   "sites": [
    "180574:op3B+1",
    "180574:op3B+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:181D0C",
   "addr": "181D0C",
   "kind": "msg",
   "jp": "なにも見つからなかった[WAIT]",
-  "en": "",
+  "en": "Nothing was found.[WAIT]",
   "bytes": 26,
   "sites": [
    "180580:op3B+1",
    "180580:op3B+1",
    "180580:op3B+1",
    "180580:op3B+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:181D26",
@@ -1999,48 +2091,52 @@
   "addr": "181D2E",
   "kind": "msg",
   "jp": "あ！！[BR]こんなところにこんなものが・・・[WAIT]",
-  "en": "",
+  "en": "Whoa!! Look what's lying around in a[BR]place like this…[WAIT]",
   "bytes": 44,
   "sites": [
    "1805A1:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:181D5A",
   "addr": "181D5A",
   "kind": "msg",
   "jp": "銅の投剣を見つけたが[BR]武器をもう持てないのであきらめた[WAIT]",
-  "en": "",
+  "en": "You found the Copper Dagger, but you[BR]can't carry any more weapons, so you[BR]left it.[WAIT]",
   "bytes": 58,
   "sites": [
    "1805B5:op3B+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:181D94",
   "addr": "181D94",
   "kind": "msg",
   "jp": "銅の投剣を手にいれた！[WAIT]",
-  "en": "",
+  "en": "Got the Copper Dagger![WAIT]",
   "bytes": 26,
   "sites": [
    "1805CB:op3B+1",
    "1805CB:op3B+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:181DAE",
   "addr": "181DAE",
   "kind": "msg",
   "jp": "なにも見つからなかった[WAIT]",
-  "en": "",
+  "en": "Nothing was found.[WAIT]",
   "bytes": 26,
   "sites": [
    "1805D7:op3B+1",
    "1805D7:op3B+1",
    "1805D7:op3B+1",
    "1805D7:op3B+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:181DC8",
@@ -2059,48 +2155,52 @@
   "addr": "181DD0",
   "kind": "msg",
   "jp": "あ！！[BR]こんなところにこんなものが・・・[WAIT]",
-  "en": "",
+  "en": "Whoa!! Look what's lying around in a[BR]place like this…[WAIT]",
   "bytes": 44,
   "sites": [
    "1805F8:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:181DFC",
   "addr": "181DFC",
   "kind": "msg",
   "jp": "カッパーナックルを見つけたが[BR]武器をもう持てないのであきらめた[WAIT]",
-  "en": "",
+  "en": "You found the Copper Knuckles, but you[BR]can't carry any more weapons, so you[BR]left them.[WAIT]",
   "bytes": 66,
   "sites": [
    "18060C:op3B+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:181E3E",
   "addr": "181E3E",
   "kind": "msg",
   "jp": "カッパーナックルを手にいれた！[WAIT]",
-  "en": "",
+  "en": "Got the Copper Knuckles![WAIT]",
   "bytes": 34,
   "sites": [
    "180622:op3B+1",
    "180622:op3B+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:181E60",
   "addr": "181E60",
   "kind": "msg",
   "jp": "なにも見つからなかった[WAIT]",
-  "en": "",
+  "en": "Nothing was found.[WAIT]",
   "bytes": 26,
   "sites": [
    "18062E:op3B+1",
    "18062E:op3B+1",
    "18062E:op3B+1",
    "18062E:op3B+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:181E7A",
@@ -2119,48 +2219,52 @@
   "addr": "181E82",
   "kind": "msg",
   "jp": "あ！！[BR]こんなところにこんなものが・・・[WAIT]",
-  "en": "",
+  "en": "Whoa!! Look what's lying around in a[BR]place like this…[WAIT]",
   "bytes": 44,
   "sites": [
    "18064F:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:181EAE",
   "addr": "181EAE",
   "kind": "msg",
   "jp": "しかしクールジェルは[BR]もう持てないのであきらめた[WAIT]",
-  "en": "",
+  "en": "But you can't carry any more Cool Gel,[BR]so you left it.[WAIT]",
   "bytes": 52,
   "sites": [
    "180667:op3B+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:181EE2",
   "addr": "181EE2",
   "kind": "msg",
   "jp": "トラキラの葉を手にいれた！[WAIT]",
-  "en": "",
+  "en": "Got a Torakira Leaf![WAIT]",
   "bytes": 30,
   "sites": [
    "18067D:op3B+1",
    "18067D:op3B+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:181F00",
   "addr": "181F00",
   "kind": "msg",
   "jp": "なにも見つからなかった[WAIT]",
-  "en": "",
+  "en": "Nothing was found.[WAIT]",
   "bytes": 26,
   "sites": [
    "180689:op3B+1",
    "180689:op3B+1",
    "180689:op3B+1",
    "180689:op3B+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:181F1A",
@@ -2179,70 +2283,76 @@
   "addr": "181F22",
   "kind": "msg",
   "jp": "あ！！[BR]こんなところにこんなものが・・・[WAIT]",
-  "en": "",
+  "en": "Whoa!! Look what's lying around in a[BR]place like this…[WAIT]",
   "bytes": 44,
   "sites": [
    "18069E:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:181F4E",
   "addr": "181F4E",
   "kind": "msg",
   "jp": "マスターブレイドを見つけたが[BR]武器をもう持てないのであきらめた[WAIT]",
-  "en": "",
+  "en": "You found the Master Blade, but you[BR]can't carry any more weapons, so you[BR]left it.[WAIT]",
   "bytes": 66,
   "sites": [
    "1806B2:op3B+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:181F90",
   "addr": "181F90",
   "kind": "msg",
   "jp": "マスターブレイドを手にいれた！[WAIT]",
-  "en": "",
+  "en": "Got the Master Blade![WAIT]",
   "bytes": 34,
   "sites": [
    "1806CA:op3B+1",
    "1806CA:op3B+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1820F0",
   "addr": "1820F0",
   "kind": "msg",
   "jp": "すでに書き写した文字だ[WAIT]",
-  "en": "",
+  "en": "You've already copied down this[BR]writing.[WAIT]",
   "bytes": 26,
   "sites": [
    "181FEA:op3B+1",
    "181FEA:op3B+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:18210A",
   "addr": "18210A",
   "kind": "msg",
   "jp": "文字のようなものが書かれているが[BR]読めない[WAIT]",
-  "en": "",
+  "en": "Something like letters is written[BR]here, but you can't read it.[WAIT]",
   "bytes": 46,
   "sites": [
    "181FF6:op3B+1",
    "181FF6:op3B+1",
    "181FF6:op3B+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:182138",
   "addr": "182138",
   "kind": "msg",
   "jp": "北：トロワナの森へ[WAIT]",
-  "en": "",
+  "en": "North: Trowana Forest[WAIT]",
   "bytes": 22,
   "sites": [
    "181FFE:op3B+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:18214E",
@@ -2261,11 +2371,12 @@
   "addr": "182156",
   "kind": "msg",
   "jp": "これがたのまれていた[BR]赤い花だな[PAGE]鑑定小屋（ハウス）へ[BR]持って行こう[WAIT]",
-  "en": "",
+  "en": "So this is the red flower they asked[BR]for![PAGE]Gotta take it to the Appraisal House![WAIT]",
   "bytes": 72,
   "sites": [
    "182013:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:18219E",
@@ -2284,11 +2395,12 @@
   "addr": "1821A6",
   "kind": "msg",
   "jp": "これがたのまれていた[BR]すずなり花だな[PAGE]鑑定小屋（ハウス）へ[BR]持って行こう[WAIT]",
-  "en": "",
+  "en": "So this is the Bellcluster Flower they[BR]asked for![PAGE]Gotta take it to the Appraisal House![WAIT]",
   "bytes": 76,
   "sites": [
    "182045:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1821F2",
@@ -2307,77 +2419,84 @@
   "addr": "1821FA",
   "kind": "msg",
   "jp": "これがたのまれていた[BR]ハーブだな[PAGE]鑑定小屋（ハウス）へ[BR]持って行こう[WAIT]",
-  "en": "",
+  "en": "So this is the herb they asked for![PAGE]Gotta take it to the Appraisal House![WAIT]",
   "bytes": 72,
   "sites": [
    "182077:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:182242",
   "addr": "182242",
   "kind": "msg",
   "jp": "東：テルセロン山地へ[WAIT]",
-  "en": "",
+  "en": "East: Terceron Mountains[WAIT]",
   "bytes": 24,
   "sites": [
    "18209C:op3B+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:18225A",
   "addr": "18225A",
   "kind": "msg",
   "jp": "西：パトレス山地へ[WAIT]",
-  "en": "",
+  "en": "West: Patres Mountains[WAIT]",
   "bytes": 22,
   "sites": [
    "1820A4:op3B+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:182270",
   "addr": "182270",
   "kind": "msg",
   "jp": "南：森の遺跡へ[WAIT]",
-  "en": "",
+  "en": "South: Forest Ruins[WAIT]",
   "bytes": 18,
   "sites": [
    "1820AC:op3B+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:182282",
   "addr": "182282",
   "kind": "msg",
   "jp": "西：トロワナ王国へ[WAIT]",
-  "en": "",
+  "en": "West: Kingdom of Trowana[WAIT]",
   "bytes": 22,
   "sites": [
    "1820B4:op3B+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:182298",
   "addr": "182298",
   "kind": "msg",
   "jp": "東：アサド山地へ[WAIT]",
-  "en": "",
+  "en": "East: Asad Mountains[WAIT]",
   "bytes": 20,
   "sites": [
    "1820BC:op3B+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1822AC",
   "addr": "1822AC",
   "kind": "msg",
   "jp": "西：ムスリー荒野へ[WAIT]",
-  "en": "",
+  "en": "West: Musley Wasteland[WAIT]",
   "bytes": 22,
   "sites": [
    "1820C4:op3B+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1822C2",
@@ -2396,11 +2515,12 @@
   "addr": "1822CC",
   "kind": "msg",
   "jp": "荷物を届けてくれたのかい？[BR]ありがとう。[BR]確かに受け取ったよ[PAGE]それでは、私はこれで失礼するよ[BR]気をつけて戻ってくれ[WAIT]",
-  "en": "",
+  "en": "You brought the package? Thanks.[BR]Received, safe and sound.[PAGE]Well then, I'll be on my way. Take[BR]care heading back.[WAIT]",
   "bytes": 118,
   "sites": [
    "1820D0:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:182970",
@@ -2419,11 +2539,12 @@
   "addr": "18297C",
   "kind": "msg",
   "jp": "いらっしゃい。[BR]何か買っていくかい？[WAIT]",
-  "en": "",
+  "en": "Welcome! Looking to buy something?[WAIT]",
   "bytes": 40,
   "sites": [
    "182356:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1829A4",
@@ -2442,11 +2563,12 @@
   "addr": "1829B0",
   "kind": "msg",
   "jp": "いらっしゃい。[BR]いいものがそろってるよ[WAIT]",
-  "en": "",
+  "en": "Welcome! I've got good stuff in stock.[WAIT]",
   "bytes": 42,
   "sites": [
    "182380:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1829DA",
@@ -2465,11 +2587,12 @@
   "addr": "1829E6",
   "kind": "msg",
   "jp": "ビィト・・・[BR]バスターになってしまった以上、[BR]くれぐれも気をつけるんだぞ[WAIT]",
-  "en": "",
+  "en": "Beet… now that you've gone and become[BR]a Buster, you be extra careful, you[BR]hear?[WAIT]",
   "bytes": 76,
   "sites": [
    "18239A:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:182A32",
@@ -2488,11 +2611,12 @@
   "addr": "182A3E",
   "kind": "msg",
   "jp": "あら、ビィト。[BR]休んでいくかい？[WAIT]",
-  "en": "",
+  "en": "Oh, Beet. Want to rest a while?[WAIT]",
   "bytes": 36,
   "sites": [
    "1823B1:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:182A62",
@@ -2511,11 +2635,12 @@
   "addr": "182A6E",
   "kind": "msg",
   "jp": "休んでいかないのかい？[BR]無理しちゃダメだよ[WAIT]",
-  "en": "",
+  "en": "You're not going to rest? Don't push[BR]yourself too hard, now.[WAIT]",
   "bytes": 46,
   "sites": [
    "1823D3:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:182A9C",
@@ -2535,12 +2660,13 @@
   "addr": "182AA8",
   "kind": "msg",
   "jp": "またいつでもおいで[WAIT]",
-  "en": "",
+  "en": "Come back anytime.[WAIT]",
   "bytes": 22,
   "sites": [
    "1823F7:op7A+2",
    "1823F7:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:182ABE",
@@ -2561,13 +2687,14 @@
   "addr": "182ACA",
   "kind": "msg",
   "jp": "おはようビィト[BR]気をつけるんだよ[WAIT]",
-  "en": "",
+  "en": "Good morning, Beet. Be careful out[BR]there.[WAIT]",
   "bytes": 36,
   "sites": [
    "18241B:op7A+2",
    "18241B:op7A+2",
    "18241B:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:182AEE",
@@ -2586,11 +2713,12 @@
   "addr": "182AF8",
   "kind": "msg",
   "jp": "里にモンスターが入ってこれないのは[BR]周囲の塀と、出入口を守ってくれている[BR]「門」のおかげなんだよ[WAIT]",
-  "en": "",
+  "en": "The reason monsters can't get into the[BR]village is the wall around it and the[BR]\"Gate\" that guards the entrance, you[PAGE]know.[WAIT]",
   "bytes": 100,
   "sites": [
    "18242E:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:182B5C",
@@ -2609,11 +2737,12 @@
   "addr": "182B68",
   "kind": "msg",
   "jp": "モンスターを恐れないで[BR]生活できる日は来るのかしら[WAIT]",
-  "en": "",
+  "en": "Will the day ever come when we can[BR]live without fearing monsters, I[BR]wonder?[WAIT]",
   "bytes": 54,
   "sites": [
    "18243A:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:182B9E",
@@ -2633,12 +2762,13 @@
   "addr": "182BA6",
   "kind": "msg",
   "jp": "ビィト君[BR]あぶないからやめておくんだ[WAIT]",
-  "en": "",
+  "en": "Beet-kun, that's dangerous. Don't do[BR]it.[WAIT]",
   "bytes": 40,
   "sites": [
    "18246F:op52+5",
    "18246F:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:182BCE",
@@ -2660,14 +2790,15 @@
   "addr": "182BD6",
   "kind": "msg",
   "jp": "なんだ、ビィト君じゃないか。[BR]ゆっくりしていきなさい[WAIT]",
-  "en": "",
+  "en": "Why, if it isn't Beet-kun. Make[BR]yourself at home.[WAIT]",
   "bytes": 56,
   "sites": [
    "18247F:op52+5",
    "18247F:op52+5",
    "18247F:op52+5",
    "18247F:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:182C0E",
@@ -2686,11 +2817,12 @@
   "addr": "182C18",
   "kind": "msg",
   "jp": "え？　二階へ行けないって？[BR]二階は物置として使ってるから、[BR]人に見せたくないんだよ[WAIT]",
-  "en": "",
+  "en": "Huh? You can't go upstairs? I use the[BR]second floor for storage, so I don't[BR]want people seeing it.[WAIT]",
   "bytes": 86,
   "sites": [
    "18248B:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:182C6E",
@@ -2709,11 +2841,12 @@
   "addr": "182C78",
   "kind": "msg",
   "jp": "ゼノン戦士団がいなくなった今、[BR]もしヴァンデルが襲ってきたら[BR]もうおしまいだろうねぇ・・・[WAIT]",
-  "en": "",
+  "en": "Now that the Zenon Warriors are gone,[BR]if a Vandel attacks, it'll be all over[BR]for us…[WAIT]",
   "bytes": 94,
   "sites": [
    "182497:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:182CD6",
@@ -2732,11 +2865,12 @@
   "addr": "182CDE",
   "kind": "msg",
   "jp": "お母さんは今出かけてるよ[WAIT]",
-  "en": "",
+  "en": "My mom's out right now.[WAIT]",
   "bytes": 28,
   "sites": [
    "1824A3:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:182CFA",
@@ -2755,11 +2889,12 @@
   "addr": "182D04",
   "kind": "msg",
   "jp": "それぞれのモンスターには[BR]苦手な武器（ぶき）というのがある[PAGE]ガブリ貝は斧（おの）などが苦手だし、[BR]赤いじゅうたんは槍（やり）が苦手で[BR]ペンバリーは剣（けん）が苦手だ[PAGE]モンスターにあわせて武器（ぶき）を[BR]切りかえてたたかうことができれば[BR]より効率（こうりつ）よく[PAGE]モンスターをたおすことができるし[BR]熟練度（じゅくれんど）もあがりやすい[WAIT]",
-  "en": "",
+  "en": "Every monster has a type of weapon[BR]it's weak against.[PAGE]Chomp Clams are weak against axes and[BR]the like, Red Carpets are weak against[BR]spears, and a Penbury is weak against[PAGE]swords.[PAGE]If you can switch weapons to suit the[BR]monster when you fight, you'll beat[BR]monsters more efficiently,[PAGE]and your mastery will go up faster,[BR]too.[WAIT]",
   "bytes": 336,
   "sites": [
    "1824AF:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:182E54",
@@ -2778,11 +2913,12 @@
   "addr": "182E5E",
   "kind": "msg",
   "jp": "あら、あなた。[BR]服にごみがついてたわよ[WAIT]",
-  "en": "",
+  "en": "Oh, dear. You had some dirt on your[BR]clothes.[WAIT]",
   "bytes": 42,
   "sites": [
    "1824BB:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:182E88",
@@ -2801,11 +2937,12 @@
   "addr": "182E92",
   "kind": "msg",
   "jp": "おお、そうか。[BR]すまんなぁ、おまえ[WAIT]",
-  "en": "",
+  "en": "Oh, did I? Sorry about that, dear.[WAIT]",
   "bytes": 38,
   "sites": [
    "1824C6:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:182EB8",
@@ -2824,11 +2961,12 @@
   "addr": "182EC0",
   "kind": "msg",
   "jp": "うちのお父さんとお母さん、[BR]仲がいいでしょう？[WAIT]",
-  "en": "",
+  "en": "My dad and mom get along great, don't[BR]they?[WAIT]",
   "bytes": 50,
   "sites": [
    "1824D2:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:182EF2",
@@ -2847,44 +2985,48 @@
   "addr": "182EFA",
   "kind": "msg",
   "jp": "やぁ、ビィト君。[BR]何か知りたいことがあるかい？[WAIT]",
-  "en": "",
+  "en": "Hey, Beet-kun. Is there something[BR]you'd like to know?[WAIT]",
   "bytes": 50,
   "sites": [
    "1824DE:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:182F2C",
   "addr": "182F2C",
   "kind": "choice",
   "jp": "ステータス",
-  "en": "",
+  "en": "Stats",
   "bytes": 12,
   "sites": [
    "1824E4:op1E+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:182F38",
   "addr": "182F38",
   "kind": "choice",
   "jp": "じょうたい",
-  "en": "",
+  "en": "Conditions",
   "bytes": 12,
   "sites": [
    "1824E8:op1E+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:182F44",
   "addr": "182F44",
   "kind": "choice",
   "jp": "セーブ",
-  "en": "",
+  "en": "Saving",
   "bytes": 8,
   "sites": [
    "1824EC:op1E+9"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:182F4C",
@@ -2903,11 +3045,12 @@
   "addr": "182F54",
   "kind": "msg",
   "jp": "バスターのステータスについて[BR]教えてほしいんだね[PAGE]ＳＴＲというのは強さのことだよ。[BR]ぶきのこうげきりょくや[BR]ぼうぎょりょくにかんけいがあるんだ[PAGE]ＤＥＸというのはすばやさのことで[BR]てきからのこうげきをよけたり[BR]こうげきを当てるのにかんけいしている[PAGE]ＩＮＴというのはあたまのよさで[BR]天撃（てんげき）の強さに[BR]えいきょうするんだ[WAIT]",
-  "en": "",
+  "en": "So you want to learn about a Buster's[BR]stats.[PAGE]STR means strength. It affects your[BR]weapon's attack power and your[BR]defense.[PAGE]DEX means speed. It affects dodging[BR]enemy attacks and landing your own.[PAGE]INT means smarts. It affects the[BR]strength of your Divine Attacks.[WAIT]",
   "bytes": 326,
   "sites": [
    "182531:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:18309A",
@@ -2926,11 +3069,12 @@
   "addr": "1830A2",
   "kind": "msg",
   "jp": "ＡＴＫというのはこうげきりょくで[BR]ぶきをつかっててきにこうげきする[BR]強さのことなんだ[PAGE]君自身のＳＴＲと[BR]持っているぶきのＡＴＫが[BR]これにえいきょうするよ[PAGE]ＤＥＦというのはぼうぎょりょくで[BR]てきからのこうげきをふせぐ強さの[BR]ことなんだ[PAGE]君自身のＳＴＲと[BR]身に着けているぼうぐのＤＥＦが[BR]これにえいきょうするよ[WAIT]",
-  "en": "",
+  "en": "ATK means attack power: how strongly[BR]you hit enemies with your weapon.[PAGE]Your own STR and the ATK of the weapon[BR]you're holding both affect it.[PAGE]DEF means defense: how well you hold[BR]off enemy attacks.[PAGE]Your own STR and the DEF of the armor[BR]you're wearing both affect it.[WAIT]",
   "bytes": 310,
   "sites": [
    "18253C:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1831D8",
@@ -2949,11 +3093,12 @@
   "addr": "1831E0",
   "kind": "msg",
   "jp": "ＨＩＴというのはめいちゅうりょくで[BR]てきにこうげきを当てる力の[BR]ことなんだ[PAGE]君自身のＤＥＸと[BR]持っているぶきのＨＩＴが[BR]これにえいきょうするよ[PAGE]ＡＧＬというのはかいひりょくで[BR]てきからのこうげきをよける[BR]力のことなんだ[PAGE]君自身のＤＥＸと[BR]身に着けているぼうぐのＡＧＬが[BR]これにえいきょうするよ[WAIT]",
-  "en": "",
+  "en": "HIT means accuracy: your ability to[BR]land attacks on enemies.[PAGE]Your own DEX and the HIT of the weapon[BR]you're holding both affect it.[PAGE]AGL means evasion: your ability to[BR]dodge enemy attacks.[PAGE]Your own DEX and the AGL of the armor[BR]you're wearing both affect it.[WAIT]",
   "bytes": 296,
   "sites": [
    "182547:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:183308",
@@ -2972,11 +3117,12 @@
   "addr": "183310",
   "kind": "msg",
   "jp": "ＭＡＳＴＥＲＹというのは[BR]それぞれのぶきや天力（てんりょく）の[BR]熟練度（じゅくれんど）で[PAGE]そのぶきや天力をあつかうのに[BR]どれだけなれているのかを[BR]あらわしているよ[WAIT]",
-  "en": "",
+  "en": "MASTERY is your skill level with each[BR]weapon and with Divine Power.[PAGE]It shows how used to handling that[BR]weapon or Divine Power you are.[WAIT]",
   "bytes": 166,
   "sites": [
    "182552:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1833B6",
@@ -2995,11 +3141,12 @@
   "addr": "1833BE",
   "kind": "msg",
   "jp": "モンスターやヴァンデルから[BR]こうげきを受けると[BR]いろいろなじょうたいになるんだ[PAGE]ＰＯＩＳＯＮは[BR]毒（どく）のじょうたいでじょじょに[BR]体力と天力がへっていくんだ[PAGE]どくをなおすには[BR]「解毒剤（げどくざい）」を使うんだ[WAIT]",
-  "en": "",
+  "en": "When monsters or Vandels hit you, you[BR]can end up in all kinds of conditions.[PAGE]POISON is the poisoned condition. Your[BR]HP and Divine Power drop little by[BR]little.[PAGE]To cure poison, use an \"Antidote.\"[WAIT]",
   "bytes": 216,
   "sites": [
    "18255E:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:183496",
@@ -3018,11 +3165,12 @@
   "addr": "18349E",
   "kind": "msg",
   "jp": "ＰＡＲＡＬＹＳＥは[BR]麻痺（まひ）のじょうたいで[BR]こうどうしにくくなるんだ[PAGE]まひをなおすには[BR]「しびれ取り」を使うんだ[WAIT]",
-  "en": "",
+  "en": "PARALYSE is the paralyzed condition.[BR]It makes it hard to act.[PAGE]To cure paralysis, use a \"Paralysis[BR]Cure.\"[WAIT]",
   "bytes": 120,
   "sites": [
    "182569:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:183516",
@@ -3041,11 +3189,12 @@
   "addr": "18351E",
   "kind": "msg",
   "jp": "ＦＲＥＥＺＥは[BR]凍傷（とうしょう）のじょうたいで[BR]じょじょに天力がへっていくんだ[PAGE]とうしょうをなおすには[BR]「ホットジェル」を使うんだ[WAIT]",
-  "en": "",
+  "en": "FREEZE is the frostbitten condition.[BR]Your Divine Power drops little by[BR]little.[PAGE]To cure frostbite, use \"Hot Gel.\"[WAIT]",
   "bytes": 136,
   "sites": [
    "182574:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1835A6",
@@ -3064,11 +3213,12 @@
   "addr": "1835AE",
   "kind": "msg",
   "jp": "ＢＵＲＮは[BR]やけどのじょうたいで[BR]じょじょに体力がへっていくんだ[PAGE]やけどをなおすには[BR]「クールジェル」を使うんだ[WAIT]",
-  "en": "",
+  "en": "BURN is the burned condition. Your HP[BR]drops little by little.[PAGE]To cure burns, use \"Cool Gel.\"[WAIT]",
   "bytes": 116,
   "sites": [
    "18257F:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:183622",
@@ -3303,11 +3453,12 @@
   "addr": "183D74",
   "kind": "msg",
   "jp": "いらっしゃい。[BR]今日は何の用だい？[WAIT]",
-  "en": "",
+  "en": "Welcome. What brings you here today?[WAIT]",
   "bytes": 38,
   "sites": [
    "1826F1:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:183D9A",
@@ -3350,11 +3501,12 @@
   "addr": "183E0A",
   "kind": "msg",
   "jp": "いらっしゃい。[BR]里の外は危険が一杯だから、[BR]いろいろ準備していきなよ[WAIT]",
-  "en": "",
+  "en": "Welcome! It's dangerous outside the[BR]village, so stock up before you go.[WAIT]",
   "bytes": 72,
   "sites": [
    "182759:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:183E52",
@@ -3541,34 +3693,37 @@
   "addr": "1840AC",
   "kind": "msg",
   "jp": "あ！！[BR]こんなところにこんなものが・・・[WAIT]",
-  "en": "",
+  "en": "Whoa!! Look what's lying around in a[BR]place like this…[WAIT]",
   "bytes": 44,
   "sites": [
    "182805:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1840D8",
   "addr": "1840D8",
   "kind": "msg",
   "jp": "２０マギーを手にいれた！[WAIT]",
-  "en": "",
+  "en": "Got 20 Magi![WAIT]",
   "bytes": 28,
   "sites": [
    "18280E:op3B+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1840F4",
   "addr": "1840F4",
   "kind": "msg",
   "jp": "なにも見つからなかった[WAIT]",
-  "en": "",
+  "en": "Nothing was found.[WAIT]",
   "bytes": 26,
   "sites": [
    "18281A:op3B+1",
    "18281A:op3B+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:18410E",
@@ -3587,34 +3742,37 @@
   "addr": "184116",
   "kind": "msg",
   "jp": "あ！！[BR]こんなところにこんなものが・・・[WAIT]",
-  "en": "",
+  "en": "Whoa!! Look what's lying around in a[BR]place like this…[WAIT]",
   "bytes": 44,
   "sites": [
    "182845:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:184142",
   "addr": "184142",
   "kind": "msg",
   "jp": "８０マギーを手にいれた！[WAIT]",
-  "en": "",
+  "en": "Got 80 Magi![WAIT]",
   "bytes": 28,
   "sites": [
    "18284E:op3B+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:18415E",
   "addr": "18415E",
   "kind": "msg",
   "jp": "なにも見つからなかった[WAIT]",
-  "en": "",
+  "en": "Nothing was found.[WAIT]",
   "bytes": 26,
   "sites": [
    "18285A:op3B+1",
    "18285A:op3B+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:184178",
@@ -3633,11 +3791,12 @@
   "addr": "184180",
   "kind": "msg",
   "jp": "あ！！[BR]こんなところにこんなものが・・・[WAIT]",
-  "en": "",
+  "en": "Whoa!! Look what's lying around in a[BR]place like this…[WAIT]",
   "bytes": 44,
   "sites": [
    "18287B:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1841AC",
@@ -3669,14 +3828,15 @@
   "addr": "18420C",
   "kind": "msg",
   "jp": "なにも見つからなかった[WAIT]",
-  "en": "",
+  "en": "Nothing was found.[WAIT]",
   "bytes": 26,
   "sites": [
    "1828B1:op3B+1",
    "1828B1:op3B+1",
    "1828B1:op3B+1",
    "1828B1:op3B+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:184226",
@@ -3695,11 +3855,12 @@
   "addr": "18422E",
   "kind": "msg",
   "jp": "あ！！[BR]こんなところにこんなものが・・・[WAIT]",
-  "en": "",
+  "en": "Whoa!! Look what's lying around in a[BR]place like this…[WAIT]",
   "bytes": 44,
   "sites": [
    "1828D2:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:18425A",
@@ -3718,26 +3879,28 @@
   "addr": "184288",
   "kind": "msg",
   "jp": "解毒剤を手にいれた！[WAIT]",
-  "en": "",
+  "en": "Got an Antidote![WAIT]",
   "bytes": 24,
   "sites": [
    "182900:op3B+1",
    "182900:op3B+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1842A0",
   "addr": "1842A0",
   "kind": "msg",
   "jp": "なにも見つからなかった[WAIT]",
-  "en": "",
+  "en": "Nothing was found.[WAIT]",
   "bytes": 26,
   "sites": [
    "18290C:op3B+1",
    "18290C:op3B+1",
    "18290C:op3B+1",
    "18290C:op3B+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1842BA",
@@ -3756,43 +3919,46 @@
   "addr": "1842C2",
   "kind": "msg",
   "jp": "あ！！[BR]こんなところにこんなものが・・・[WAIT]",
-  "en": "",
+  "en": "Whoa!! Look what's lying around in a[BR]place like this…[WAIT]",
   "bytes": 44,
   "sites": [
    "18292D:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1842EE",
   "addr": "1842EE",
   "kind": "msg",
   "jp": "しかしイモリの干物は[BR]もう持てないのであきらめた[WAIT]",
-  "en": "",
+  "en": "But you can't carry any more Dried[BR]Newts, so you left it.[WAIT]",
   "bytes": 52,
   "sites": [
    "182945:op3B+1",
    "182945:op3B+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:184322",
   "addr": "184322",
   "kind": "msg",
   "jp": "イモリの干物を手にいれた！[WAIT]",
-  "en": "",
+  "en": "Got a Dried Newt![WAIT]",
   "bytes": 30,
   "sites": [
    "18295B:op3B+1",
    "18295B:op3B+1",
    "18295B:op3B+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:184340",
   "addr": "184340",
   "kind": "msg",
   "jp": "なにも見つからなかった[WAIT]",
-  "en": "",
+  "en": "Nothing was found.[WAIT]",
   "bytes": 26,
   "sites": [
    "182967:op3B+1",
@@ -3800,7 +3966,8 @@
    "182967:op3B+1",
    "182967:op3B+1",
    "182967:op3B+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:184470",
@@ -3819,11 +3986,12 @@
   "addr": "184478",
   "kind": "msg",
   "jp": "これがたのまれていた[BR]赤い花だな[PAGE]鑑定小屋（ハウス）へ[BR]持って行こう[WAIT]",
-  "en": "",
+  "en": "So this is the red flower they asked[BR]for![PAGE]Gotta take it to the Appraisal House![WAIT]",
   "bytes": 72,
   "sites": [
    "18436F:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1844C0",
@@ -3842,11 +4010,12 @@
   "addr": "1844C8",
   "kind": "msg",
   "jp": "これがたのまれていた[BR]すずなり花だな[PAGE]鑑定小屋（ハウス）へ[BR]持って行こう[WAIT]",
-  "en": "",
+  "en": "So this is the Bellcluster Flower they[BR]asked for![PAGE]Gotta take it to the Appraisal House![WAIT]",
   "bytes": 76,
   "sites": [
    "1843A1:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:184514",
@@ -3865,11 +4034,12 @@
   "addr": "18451C",
   "kind": "msg",
   "jp": "これがたのまれていた[BR]ハーブだな[PAGE]鑑定小屋（ハウス）へ[BR]持って行こう[WAIT]",
-  "en": "",
+  "en": "So this is the herb they asked for![PAGE]Gotta take it to the Appraisal House![WAIT]",
   "bytes": 72,
   "sites": [
    "1843D3:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:184564",
@@ -3984,11 +4154,12 @@
   "addr": "184662",
   "kind": "msg",
   "jp": "荷物を届けてくれたのかい？[BR]ありがとう。[BR]確かに受け取ったよ[PAGE]それでは、私はこれで失礼するよ[BR]気をつけて戻ってくれ[WAIT]",
-  "en": "",
+  "en": "You brought the package? Thanks.[BR]Received, safe and sound.[PAGE]Well then, I'll be on my way. Take[BR]care heading back.[WAIT]",
   "bytes": 118,
   "sites": [
    "184447:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:184AB0",
@@ -4007,11 +4178,12 @@
   "addr": "184ABC",
   "kind": "msg",
   "jp": "いらっしゃい。[BR]何か買っていくかい？[WAIT]",
-  "en": "",
+  "en": "Welcome! Looking to buy something?[WAIT]",
   "bytes": 40,
   "sites": [
    "1846E6:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:184AE4",
@@ -4030,11 +4202,12 @@
   "addr": "184AF0",
   "kind": "msg",
   "jp": "いらっしゃい。[BR]いいものがそろってるよ[WAIT]",
-  "en": "",
+  "en": "Welcome! I've got good stuff in stock.[WAIT]",
   "bytes": 42,
   "sites": [
    "184710:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:184B1A",
@@ -4135,11 +4308,12 @@
   "addr": "184BC0",
   "kind": "msg",
   "jp": "いらっしゃいませ。[BR]２０マギーになりますが[BR]お休みになりますか？[WAIT]",
-  "en": "",
+  "en": "Welcome. That will be 20 Magi. Would[BR]you like to rest?[WAIT]",
   "bytes": 68,
   "sites": [
    "1847A7:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:184C04",
@@ -4254,11 +4428,12 @@
   "addr": "184DA2",
   "kind": "msg",
   "jp": "いらっしゃい。[BR]今日は何の用だい？[WAIT]",
-  "en": "",
+  "en": "Welcome. What brings you here today?[WAIT]",
   "bytes": 38,
   "sites": [
    "1848B3:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:184DC8",
@@ -4421,48 +4596,52 @@
   "addr": "184FDE",
   "kind": "msg",
   "jp": "あ！！[BR]こんなところにこんなものが・・・[WAIT]",
-  "en": "",
+  "en": "Whoa!! Look what's lying around in a[BR]place like this…[WAIT]",
   "bytes": 44,
   "sites": [
    "18497E:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:18500A",
   "addr": "18500A",
   "kind": "msg",
   "jp": "しかし薬草は[BR]もう持てないのであきらめた[WAIT]",
-  "en": "",
+  "en": "But you can't carry any more Medicinal[BR]Herbs, so you left it.[WAIT]",
   "bytes": 44,
   "sites": [
    "184996:op3B+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:185036",
   "addr": "185036",
   "kind": "msg",
   "jp": "薬草を手にいれた！[WAIT]",
-  "en": "",
+  "en": "Got a Medicinal Herb![WAIT]",
   "bytes": 22,
   "sites": [
    "1849AC:op3B+1",
    "1849AC:op3B+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:18504C",
   "addr": "18504C",
   "kind": "msg",
   "jp": "なにも見つからなかった[WAIT]",
-  "en": "",
+  "en": "Nothing was found.[WAIT]",
   "bytes": 26,
   "sites": [
    "1849B8:op3B+1",
    "1849B8:op3B+1",
    "1849B8:op3B+1",
    "1849B8:op3B+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:185066",
@@ -4481,48 +4660,52 @@
   "addr": "18506E",
   "kind": "msg",
   "jp": "あ！！[BR]こんなところにこんなものが・・・[WAIT]",
-  "en": "",
+  "en": "Whoa!! Look what's lying around in a[BR]place like this…[WAIT]",
   "bytes": 44,
   "sites": [
    "1849D9:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:18509A",
   "addr": "18509A",
   "kind": "msg",
   "jp": "しかしトラキラの葉は[BR]もう持てないのであきらめた[WAIT]",
-  "en": "",
+  "en": "You found a Torakira Leaf, but you[BR]can't carry any more, so you left it.[WAIT]",
   "bytes": 52,
   "sites": [
    "1849F1:op3B+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1850CE",
   "addr": "1850CE",
   "kind": "msg",
   "jp": "トラキラの葉を手にいれた！[WAIT]",
-  "en": "",
+  "en": "Got a Torakira Leaf![WAIT]",
   "bytes": 30,
   "sites": [
    "184A07:op3B+1",
    "184A07:op3B+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1850EC",
   "addr": "1850EC",
   "kind": "msg",
   "jp": "なにも見つからなかった[WAIT]",
-  "en": "",
+  "en": "Nothing was found.[WAIT]",
   "bytes": 26,
   "sites": [
    "184A13:op3B+1",
    "184A13:op3B+1",
    "184A13:op3B+1",
    "184A13:op3B+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:185106",
@@ -4541,34 +4724,37 @@
   "addr": "18510E",
   "kind": "msg",
   "jp": "あ！！[BR]こんなところにこんなものが・・・[WAIT]",
-  "en": "",
+  "en": "Whoa!! Look what's lying around in a[BR]place like this…[WAIT]",
   "bytes": 44,
   "sites": [
    "184A3E:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:18513A",
   "addr": "18513A",
   "kind": "msg",
   "jp": "３０マギーを手にいれた！[WAIT]",
-  "en": "",
+  "en": "Got 30 Magi![WAIT]",
   "bytes": 28,
   "sites": [
    "184A47:op3B+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:185156",
   "addr": "185156",
   "kind": "msg",
   "jp": "なにも見つからなかった[WAIT]",
-  "en": "",
+  "en": "Nothing was found.[WAIT]",
   "bytes": 26,
   "sites": [
    "184A53:op3B+1",
    "184A53:op3B+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:185170",
@@ -4587,34 +4773,37 @@
   "addr": "185178",
   "kind": "msg",
   "jp": "あ！！[BR]こんなところにこんなものが・・・[WAIT]",
-  "en": "",
+  "en": "Whoa!! Look what's lying around in a[BR]place like this…[WAIT]",
   "bytes": 44,
   "sites": [
    "184A7E:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1851A4",
   "addr": "1851A4",
   "kind": "msg",
   "jp": "６０マギーを手にいれた！[WAIT]",
-  "en": "",
+  "en": "Got 60 Magi![WAIT]",
   "bytes": 28,
   "sites": [
    "184A87:op3B+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1851C0",
   "addr": "1851C0",
   "kind": "msg",
   "jp": "なにも見つからなかった[WAIT]",
-  "en": "",
+  "en": "Nothing was found.[WAIT]",
   "bytes": 26,
   "sites": [
    "184A93:op3B+1",
    "184A93:op3B+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1851DA",
@@ -4681,11 +4870,12 @@
   "addr": "1883FA",
   "kind": "msg",
   "jp": "・・・・・・[WAIT]",
-  "en": "",
+  "en": "……[WAIT]",
   "bytes": 16,
   "sites": [
    "187ED5:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:18840A",
@@ -4872,11 +5062,12 @@
   "addr": "188650",
   "kind": "msg",
   "jp": "・・・・・・[WAIT]",
-  "en": "",
+  "en": "……[WAIT]",
   "bytes": 16,
   "sites": [
    "187F64:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:188660",
@@ -5375,11 +5566,12 @@
   "addr": "188C52",
   "kind": "msg",
   "jp": "・・・・・・[WAIT]",
-  "en": "",
+  "en": "……[WAIT]",
   "bytes": 16,
   "sites": [
    "188156:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:188C62",
@@ -5926,11 +6118,12 @@
   "addr": "1892B2",
   "kind": "msg",
   "jp": "・・・・・・[WAIT]",
-  "en": "",
+  "en": "……[WAIT]",
   "bytes": 16,
   "sites": [
    "188350:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1892C2",
@@ -6440,12 +6633,13 @@
   "addr": "189FC4",
   "kind": "msg",
   "jp": "・・・・・・[WAIT]",
-  "en": "",
+  "en": "……[WAIT]",
   "bytes": 16,
   "sites": [
    "189501:op7A+2",
    "189501:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:189FD4",
@@ -6569,12 +6763,13 @@
   "addr": "18A142",
   "kind": "msg",
   "jp": "・・・・・・[WAIT]",
-  "en": "",
+  "en": "……[WAIT]",
   "bytes": 16,
   "sites": [
    "189559:op7A+2",
    "189559:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:18A152",
@@ -6646,12 +6841,13 @@
   "addr": "18A1C6",
   "kind": "msg",
   "jp": "・・・・・・[WAIT]",
-  "en": "",
+  "en": "……[WAIT]",
   "bytes": 16,
   "sites": [
    "1895AE:op7A+2",
    "1895AE:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:18A1D6",
@@ -9113,7 +9309,7 @@
   "addr": "18BA84",
   "kind": "msg",
   "jp": "・・・・・・[WAIT]",
-  "en": "",
+  "en": "……[WAIT]",
   "bytes": 16,
   "sites": [
    "18B4F1:op7A+2",
@@ -9122,7 +9318,8 @@
    "18B4F1:op7A+2",
    "18B4F1:op7A+2",
    "18B4F1:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:18BA94",
@@ -9693,11 +9890,12 @@
   "addr": "18C578",
   "kind": "msg",
   "jp": "・・・・・・[WAIT]",
-  "en": "",
+  "en": "……[WAIT]",
   "bytes": 16,
   "sites": [
    "18BE1D:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:18C588",
@@ -14510,13 +14708,14 @@
   "addr": "18FC94",
   "kind": "msg",
   "jp": "・・・・・・[WAIT]",
-  "en": "",
+  "en": "……[WAIT]",
   "bytes": 16,
   "sites": [
    "18F47D:op7A+2",
    "18F47D:op7A+2",
    "18F47D:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:18FCA4",

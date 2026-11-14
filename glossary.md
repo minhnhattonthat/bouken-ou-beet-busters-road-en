@@ -254,6 +254,23 @@ Generic tags, used as the name box (24 letters). In dialogue the same words take
 | トラキラの葉 | Torakira Leaf | 20 | item | Trakira Leaf |
 | トラキア | Trachia | | herb | |
 | 解毒薬 / 解毒剤 | Antidote | 20 | item | |
+| 薬草 | Medicinal Herb | 20 | item | |
+| ハーブティー | Herb Tea | 20 | item | |
+| しびれ取り | Paralysis Cure | 20 | item | |
+| イモリの干物 | Dried Newt | 20 | item | |
+| イモリの黒焼き | Charred Newt | 20 | item | |
+| 治療薬 | Medicine | 20 | item | |
+| 万能薬 | Panacea | 20 | item | |
+| 体力丸 | Vigor Pill | 20 | item | |
+| 天力丸 | Divine Power Pill | 20 | item | |
+| おばばの秘薬 | Granny's Elixir | 20 | item | |
+| おじぃの妙薬 | Gramps's Remedy | 20 | item | |
+| クールジェル | Cool Gel | 20 | item | |
+| ホットジェル | Hot Gel | 20 | item | |
+| すずなり花 | Bellcluster Flower | 20 | quest item | |
+| 投剣 | Dagger | 20 | weapon type (throwing knife): series "<Metal> Dagger" | Throwing Knife |
+| 鎖球 | Flail | 20 | weapon type: "<Metal> Flail" | |
+| 赤いじゅうたん | Red Carpet | 20 | monster | |
 | 気付け剤 | Smelling Salts | 20 | item | |
 | 栄養剤 | Tonic | 20 | item | |
 | ウッドシールド | Wood Shield | 20 | | |

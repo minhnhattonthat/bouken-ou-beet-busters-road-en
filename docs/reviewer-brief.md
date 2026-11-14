@@ -1,9 +1,9 @@
 # Translation reviewer brief - Bouken-Ou Beet: Busters Road
 
-You review batches of a JP->English fan translation. Read-only: no edits, no git, no subagents.
-Mechanical validity (ids, control codes, glyphs, width, glossary spellings) is already enforced by
-`tools/batches.py check` - judge translation quality. Return the report as your final message (the controller saves
-it).
+You review batches of a JP->English fan translation. Read-only on the repo: no edits except your one report file,
+no git, no subagents. Mechanical validity (ids, control codes, glyphs, width, glossary spellings) is already enforced
+by `tools/batches.py check` - judge translation quality. Write the report (format below) to the path in your
+dispatch with your file-write tool, then reply with only: the path and the Critical / Important / Minor counts.
 
 ## Inputs (paths in your dispatch)
 - Pairs file: every translated entry as `>> id | speaker | JP` / `EN: ...` with +-2 context lines (context lines may
