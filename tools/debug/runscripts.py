@@ -26,9 +26,15 @@ def main():
     ap.add_argument("--out", default=str(ROOT / "work" / "qa" / "run"))
     ap.add_argument("--state", default=str(ROOT / "work" / "states" / "area00_ankurusu_village.mss"))
     ap.add_argument("--only", type=int, help="first N scripts only (timing test)")
+    ap.add_argument("--skip", help="dir of an earlier run: leave out scripts with a RUN line in its */log.txt (resume)")
     a = ap.parse_args()
     d = Path(a.rom).read_bytes()
     scripts = sorted(evdis.walk(d))[:a.only]
+    if a.skip:
+        done = {int(ln.split()[1], 16) for log in Path(a.skip).glob("*/log.txt")
+                for ln in log.read_text(errors="replace").splitlines() if ln.startswith("RUN ")}
+        scripts = [s for s in scripts if s not in done]
+        print(f"{len(done)} already run, {len(scripts)} left")
     out = Path(a.out).resolve()  # the emulator runs elsewhere: absolute paths for the Lua side
     procs = []
     for j in range(a.jobs):

@@ -103,9 +103,10 @@ def tiny():
 
 
 def tile8(a, b):
-    """32-byte 4bpp tile (low nibble = left pixel): letter a at x 0-2, b at x 4-6, rows 1-6, shadow right/below."""
+    """32-byte 4bpp tile (low nibble = left pixel): letter a at x 1-3, b at x 5-7, rows 1-6, dark outline all round
+    (8 neighbours, inside the tile). A right/below shadow alone vanished on the cream status panel (G5, D17)."""
     px = [[0] * 8 for _ in range(8)]
-    for x0, ch in ((0, a), (4, b)):
+    for x0, ch in ((1, a), (5, b)):  # x 1-3 / 5-7: a word's first letter keeps its left outline
         for y, m in enumerate(tiny()[ch]):
             for x in range(3):
                 if m >> (2 - x) & 1:
@@ -113,8 +114,8 @@ def tile8(a, b):
     for y in range(8):
         for x in range(8):
             if px[y][x] == INK8:
-                for dx, dy in ((1, 0), (0, 1), (1, 1)):
-                    if x + dx < 8 and y + dy < 8 and px[y + dy][x + dx] == 0:
+                for dx, dy in ((-1, -1), (0, -1), (1, -1), (-1, 0), (1, 0), (-1, 1), (0, 1), (1, 1)):
+                    if 0 <= x + dx < 8 and 0 <= y + dy < 8 and px[y + dy][x + dx] == 0:
                         px[y + dy][x + dx] = SHADOW8
     return bytes(px[y][x] | px[y][x + 1] << 4 for y in range(8) for x in range(0, 8, 2))
 
