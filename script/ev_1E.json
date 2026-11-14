@@ -16505,7 +16505,7 @@
   "addr": "1EBC76",
   "kind": "msg",
   "jp": "・・・ゴホッ！・・・ビ、ビィト、[BR]もうロズゴートは消えてしまったわ・・・[WAIT]",
-  "en": "",
+  "en": "…*cough*! B-Beet, Rozzgoat's already[BR]gone…[WAIT]",
   "bytes": 76,
   "sites": [
    "1EAF83:op7A+2",
@@ -16513,7 +16513,8 @@
    "1EAF83:op7A+2",
    "1EAF83:op7A+2",
    "1EAF83:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1EBCC2",
@@ -16536,7 +16537,7 @@
   "addr": "1EBCCA",
   "kind": "msg",
   "jp": "ちっくしょぉおおおおっ！！[BR]今度会ったら・・・[BR]ぜったいたおしてやるからな！[PAGE]ロズゴートっ！！！[WAIT]",
-  "en": "",
+  "en": "Dammit aaaaall!! Next time we meet…[BR]I'm gonna take you down for sure![PAGE]Rozzgoat!!![WAIT]",
   "bytes": 100,
   "sites": [
    "1EAF99:op7A+2",
@@ -16544,7 +16545,8 @@
    "1EAF99:op7A+2",
    "1EAF99:op7A+2",
    "1EAF99:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1EC7F0",
@@ -16564,12 +16566,13 @@
   "addr": "1EC7F8",
   "kind": "msg",
   "jp": "先日、トロワナの墓地（ぼち）が[BR]あらされての、[PAGE]その調査（ちょうさ）をしていた者たち[BR]が、バスターにも協力してほしいと[BR]言ってきたのじゃ[WAIT]",
-  "en": "",
+  "en": "The other day, someone ransacked the[BR]Trowana Cemetery, you see.[PAGE]The folks investigating it came to ask[BR]for the Busters' help as well, eh.[WAIT]",
   "bytes": 140,
   "sites": [
    "1EBD74:op7A+2",
    "1EBD74:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1EC884",
@@ -16589,12 +16592,13 @@
   "addr": "1EC88C",
   "kind": "msg",
   "jp": "なんでそんな依頼（いらい）が[BR]バスターにくるんだ？[PAGE]・・・モンスターとかは[BR]関係（かんけい）ない事なんだろ？[WAIT]",
-  "en": "",
+  "en": "Why would a job like that come to[BR]Busters?[PAGE]…It's got nothin' to do with monsters[BR]or anything, right?[WAIT]",
   "bytes": 112,
   "sites": [
    "1EBD8A:op7A+2",
    "1EBD8A:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1EC8FC",
@@ -16614,12 +16618,13 @@
   "addr": "1EC904",
   "kind": "msg",
   "jp": "それが、[BR]そうでもないみたいなのじゃ・・・[PAGE]当初は盗掘目的（とうくつもくてき）[BR]だと思われていたが、[PAGE]あやしい付着物（ふちゃくぶつ）が[BR]見つかってのぉ・・・[WAIT]",
-  "en": "",
+  "en": "Well, that's just it… seems it might,[BR]after all…[PAGE]At first everyone figured it was grave[BR]robbers,[PAGE]but then they found some strange[BR]residue stuck there, see…[WAIT]",
   "bytes": 160,
   "sites": [
    "1EBDA0:op7A+2",
    "1EBDA0:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1EC9A4",
@@ -16639,12 +16644,13 @@
   "addr": "1EC9AC",
   "kind": "msg",
   "jp": "あやしい付着物（ふちゃくぶつ）ぅ～？[WAIT]",
-  "en": "",
+  "en": "Strange residuuue?[WAIT]",
   "bytes": 40,
   "sites": [
    "1EBDB6:op7A+2",
    "1EBDB6:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1EC9D4",
@@ -16664,12 +16670,13 @@
   "addr": "1EC9DC",
   "kind": "msg",
   "jp": "なんですか、それは？[WAIT]",
-  "en": "",
+  "en": "What sort of thing is it?[WAIT]",
   "bytes": 24,
   "sites": [
    "1EBDCC:op7A+2",
    "1EBDCC:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1EC9F4",
@@ -16689,12 +16696,13 @@
   "addr": "1EC9FC",
   "kind": "msg",
   "jp": "いまここにはないのじゃが・・・[BR]どうも人のものではないらしい、[BR]皮膚（ひふ）のようなものらしいのじゃ[WAIT]",
-  "en": "",
+  "en": "I haven't got it here right now… but[BR]it doesn't seem to be human. Something[BR]like a piece of skin, apparently.[WAIT]",
   "bytes": 104,
   "sites": [
    "1EBDE2:op7A+2",
    "1EBDE2:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1ECA64",
@@ -16741,13 +16749,14 @@
   "addr": "1ECA86",
   "kind": "msg",
   "jp": "ひっ、皮膚（ひふ）ぅ！？[WAIT]",
-  "en": "",
+  "en": "S-skin?![WAIT]",
   "bytes": 28,
   "sites": [
    "1EBE17:op7A+2",
    "1EBE17:op7A+2",
    "1EBE17:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1ECAA2",
@@ -16768,13 +16777,14 @@
   "addr": "1ECAAA",
   "kind": "msg",
   "jp": "なんだか・・・[BR]場所が墓地（ぼち）なだけに・・・[BR]ちょっとゾクっとする話しだな[WAIT]",
-  "en": "",
+  "en": "Man… and it being a cemetery and all…[BR]that story gives me the shivers.[WAIT]",
   "bytes": 82,
   "sites": [
    "1EBE2D:op7A+2",
    "1EBE2D:op7A+2",
    "1EBE2D:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1ECAFC",
@@ -16823,13 +16833,14 @@
   "addr": "1ECB1C",
   "kind": "msg",
   "jp": "とにかく、[PAGE]今はその付着物（ふちゃくぶつ）の[BR]鑑定（かんてい）が行われている[BR]ところでな・・・[PAGE]君たちには、[BR]そのあらされた墓地（ぼち）を[BR]監視（かんし）してほしいのじゃ[WAIT]",
-  "en": "",
+  "en": "Anyway,[PAGE]that residue is being appraised as we[BR]speak…[PAGE]What I want from you is to keep watch[BR]over that ransacked cemetery.[WAIT]",
   "bytes": 174,
   "sites": [
    "1EBE59:op7A+2",
    "1EBE59:op7A+2",
    "1EBE59:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1ECBCA",
@@ -16878,13 +16889,14 @@
   "addr": "1ECBE6",
   "kind": "msg",
   "jp": "これが人間の仕業なら里の者でも[BR]よいのだが・・・[PAGE]万が一モンスターがらみだったら[BR]手におえんだろうからな[WAIT]",
-  "en": "",
+  "en": "If this is the work of humans, the[BR]village folk could handle it…[PAGE]But if monsters are mixed up in it,[BR]they'd be in over their heads, eh?[WAIT]",
   "bytes": 108,
   "sites": [
    "1EBE85:op7A+2",
    "1EBE85:op7A+2",
    "1EBE85:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1ECC52",
@@ -16905,13 +16917,14 @@
   "addr": "1ECC5A",
   "kind": "msg",
   "jp": "オッケー・・・[BR]・・・ちょっと気味悪いけど、[BR]だいじょうぶだろ！[PAGE]・・・なっ、ポアラッ！！[WAIT]",
-  "en": "",
+  "en": "Okay… …It's a little creepy, but we'll[BR]be fine![PAGE]…Right, Poala?![WAIT]",
   "bytes": 94,
   "sites": [
    "1EBE9B:op7A+2",
    "1EBE9B:op7A+2",
    "1EBE9B:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1ECCB8",
@@ -16932,13 +16945,14 @@
   "addr": "1ECCC0",
   "kind": "msg",
   "jp": "・・・な、なんで[BR]ワタシにふるのよおおっ！[WAIT]",
-  "en": "",
+  "en": "…Wh-why are you asking MEEE?![WAIT]",
   "bytes": 46,
   "sites": [
    "1EBEB1:op7A+2",
    "1EBEB1:op7A+2",
    "1EBEB1:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1ECCEE",
@@ -16959,13 +16973,14 @@
   "addr": "1ECCF6",
   "kind": "msg",
   "jp": "だって、さっきからポアラ・・・[BR]なんか元気ないじゃん？[PAGE]こわいんじゃねーの？[BR]お化けとかさ！[WAIT]",
-  "en": "",
+  "en": "'Cause you've been kinda down this[BR]whole time, Poala.[PAGE]Ain't you scared? Of ghosts and stuff![WAIT]",
   "bytes": 96,
   "sites": [
    "1EBEC7:op7A+2",
    "1EBEC7:op7A+2",
    "1EBEC7:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1ECD56",
@@ -16986,13 +17001,14 @@
   "addr": "1ECD5E",
   "kind": "msg",
   "jp": "そっ、そんなコトないわよ！[BR]ぜんぜん平気よっ！！[WAIT]",
-  "en": "",
+  "en": "O-of course not! I'm totally fine!![WAIT]",
   "bytes": 52,
   "sites": [
    "1EBEDD:op7A+2",
    "1EBEDD:op7A+2",
    "1EBEDD:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1ECD92",
@@ -17070,14 +17086,15 @@
   "addr": "1ECDCC",
   "kind": "msg",
   "jp": "なっ・・・なによその目は・・・・・・[BR]さっ！　行きましょうビィトッ！！[WAIT]",
-  "en": "",
+  "en": "Wh… what's with that look…… C-come on![BR]Let's go, Beet!![WAIT]",
   "bytes": 74,
   "sites": [
    "1EBF28:op7A+2",
    "1EBF28:op7A+2",
    "1EBF28:op7A+2",
    "1EBF28:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1ECE16",
@@ -17099,14 +17116,15 @@
   "addr": "1ECE1E",
   "kind": "msg",
   "jp": "はははっ！　待てよポアラっ！！[BR]じゃ、おれたちも行ってくるぜ！[WAIT]",
-  "en": "",
+  "en": "Hahaha! Wait up, Poala!! Well, we're[BR]off too![WAIT]",
   "bytes": 66,
   "sites": [
    "1EBF55:op7A+2",
    "1EBF55:op7A+2",
    "1EBF55:op7A+2",
    "1EBF55:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1ECE60",
@@ -17129,7 +17147,7 @@
   "addr": "1ECE68",
   "kind": "msg",
   "jp": "はははっ！　待てよポアラっ！！[BR]じゃ、おれも行ってくるぜ！[WAIT]",
-  "en": "",
+  "en": "Hahaha! Wait up, Poala!! Well, I'm off[BR]too![WAIT]",
   "bytes": 62,
   "sites": [
    "1EBF70:op7A+2",
@@ -17137,7 +17155,8 @@
    "1EBF70:op7A+2",
    "1EBF70:op7A+2",
    "1EBF70:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1ECEA6",
@@ -17157,12 +17176,13 @@
   "addr": "1ECEAE",
   "kind": "msg",
   "jp": "・・・ここが、[BR]トロワナの墓地（ぼち）か・・・[WAIT]",
-  "en": "",
+  "en": "…So this is the Trowana Cemetery…[WAIT]",
   "bytes": 50,
   "sites": [
    "1EBFC6:op7A+2",
    "1EBFC6:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1ECEE0",
@@ -17182,12 +17202,13 @@
   "addr": "1ECEE8",
   "kind": "msg",
   "jp": "うす気味悪いとこね・・・[WAIT]",
-  "en": "",
+  "en": "What a creepy place…[WAIT]",
   "bytes": 28,
   "sites": [
    "1EBFDC:op7A+2",
    "1EBFDC:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1ECF04",
@@ -17207,12 +17228,13 @@
   "addr": "1ECF0C",
   "kind": "msg",
   "jp": "そりゃあ、墓地（ぼち）だからな・・・[BR]にぎやかじゃあまずいだろっ！[WAIT]",
-  "en": "",
+  "en": "Well, it IS a cemetery… It'd be kinda[BR]bad if it was lively![WAIT]",
   "bytes": 70,
   "sites": [
    "1EBFF2:op7A+2",
    "1EBFF2:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1ECF52",
@@ -17259,13 +17281,14 @@
   "addr": "1ECF74",
   "kind": "msg",
   "jp": "そりゃあ・・・そうだけど・・・[WAIT]",
-  "en": "",
+  "en": "Well… that's true, but…[WAIT]",
   "bytes": 34,
   "sites": [
    "1EC027:op7A+2",
    "1EC027:op7A+2",
    "1EC027:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1ECF96",
@@ -17286,13 +17309,14 @@
   "addr": "1ECF9E",
   "kind": "msg",
   "jp": "やっぱポアラ・・・怖いんじゃん？[WAIT]",
-  "en": "",
+  "en": "C'mon, Poala… you ARE scared, huh?[WAIT]",
   "bytes": 36,
   "sites": [
    "1EC03D:op7A+2",
    "1EC03D:op7A+2",
    "1EC03D:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1ECFC2",
@@ -17313,13 +17337,14 @@
   "addr": "1ECFCA",
   "kind": "msg",
   "jp": "うるさいわねぇ！[WAIT]",
-  "en": "",
+  "en": "Oh, be quiet![WAIT]",
   "bytes": 20,
   "sites": [
    "1EC053:op7A+2",
    "1EC053:op7A+2",
    "1EC053:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1ECFDE",
@@ -17340,13 +17365,14 @@
   "addr": "1ECFE6",
   "kind": "msg",
   "jp": "まぁまぁ・・・[WAIT]",
-  "en": "",
+  "en": "Now, now…[WAIT]",
   "bytes": 18,
   "sites": [
    "1EC069:op7A+2",
    "1EC069:op7A+2",
    "1EC069:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1ECFF8",
@@ -17367,13 +17393,14 @@
   "addr": "1ED000",
   "kind": "msg",
   "jp": "んもう！！[PAGE]・・・っていうかビィト、[BR]監視（かんし）っていつまで[BR]やっていればいいのかしらね[WAIT]",
-  "en": "",
+  "en": "Honestly!![PAGE]…Anyway, Beet, I wonder how long we're[BR]supposed to keep watch.[WAIT]",
   "bytes": 96,
   "sites": [
    "1EC07F:op7A+2",
    "1EC07F:op7A+2",
    "1EC07F:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1ED060",
@@ -17394,13 +17421,14 @@
   "addr": "1ED068",
   "kind": "msg",
   "jp": "・・・あ、聞いてないな・・・[BR]まぁ墓地（ぼち）をあらすなんてのは[BR]夜中って決まってるだろ！[WAIT]",
-  "en": "",
+  "en": "…Ah, they didn't say… Well,[BR]grave-wrecking always happens in the[BR]middle of the night![WAIT]",
   "bytes": 94,
   "sites": [
    "1EC095:op7A+2",
    "1EC095:op7A+2",
    "1EC095:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1ED0C6",
@@ -17421,13 +17449,14 @@
   "addr": "1ED0CE",
   "kind": "msg",
   "jp": "まぁ、それもそうね・・・[WAIT]",
-  "en": "",
+  "en": "Well, I suppose you're right…[WAIT]",
   "bytes": 28,
   "sites": [
    "1EC0AB:op7A+2",
    "1EC0AB:op7A+2",
    "1EC0AB:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1ED0EA",
@@ -17448,39 +17477,42 @@
   "addr": "1ED0F2",
   "kind": "msg",
   "jp": "じゃあ、[BR]このままここで夜中まで待つか？[BR]それとも他を見回る？[WAIT]",
-  "en": "",
+  "en": "So, should we wait right here till[BR]midnight? Or go look around elsewhere?[WAIT]",
   "bytes": 66,
   "sites": [
    "1EC0C1:op7A+2",
    "1EC0C1:op7A+2",
    "1EC0C1:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1ED134",
   "addr": "1ED134",
   "kind": "choice",
   "jp": "ここで待つ",
-  "en": "",
+  "en": "Wait here",
   "bytes": 12,
   "sites": [
    "1EC0C9:op1D+1",
    "1EC0C9:op1D+1",
    "1EC0C9:op1D+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1ED140",
   "addr": "1ED140",
   "kind": "choice",
   "jp": "他を見回る",
-  "en": "",
+  "en": "Look around elsewhere",
   "bytes": 12,
   "sites": [
    "1EC0CD:op1D+5",
    "1EC0CD:op1D+5",
    "1EC0CD:op1D+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1ED14C",
@@ -17501,13 +17533,14 @@
   "addr": "1ED154",
   "kind": "msg",
   "jp": "よし、じゃあここで[BR]時間まで待ってみよう！[WAIT]",
-  "en": "",
+  "en": "Alright, let's wait right here till[BR]it's time![WAIT]",
   "bytes": 46,
   "sites": [
    "1EC0EA:op7A+2",
    "1EC0EA:op7A+2",
    "1EC0EA:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1ED182",
@@ -17529,14 +17562,15 @@
   "addr": "1ED18A",
   "kind": "msg",
   "jp": "じゃ、ちょっと時間まで[BR]他をあたって見るか[WAIT]",
-  "en": "",
+  "en": "Okay, let's go check around elsewhere[BR]till it's time.[WAIT]",
   "bytes": 46,
   "sites": [
    "1EC113:op7A+2",
    "1EC113:op7A+2",
    "1EC113:op7A+2",
    "1EC113:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1ED1B8",
@@ -17556,12 +17590,13 @@
   "addr": "1ED1C0",
   "kind": "msg",
   "jp": "もうけっこうな時間だよな・・・[WAIT]",
-  "en": "",
+  "en": "It's gotten pretty late…[WAIT]",
   "bytes": 34,
   "sites": [
    "1EC16B:op7A+2",
    "1EC16B:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1ED1E2",
@@ -17581,24 +17616,26 @@
   "addr": "1ED1EA",
   "kind": "msg",
   "jp": "そうね・・・そろそろ何か[BR]あってもよさそうな・・・・[WAIT]",
-  "en": "",
+  "en": "Yes… Something ought to be happening[BR]any time now….[WAIT]",
   "bytes": 56,
   "sites": [
    "1EC181:op7A+2",
    "1EC181:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1ED222",
   "addr": "1ED222",
   "kind": "msg",
   "jp": "（ガサッ！！）[WAIT]",
-  "en": "",
+  "en": "(Rustle!!)[WAIT]",
   "bytes": 18,
   "sites": [
    "1EC18A:op3B+1",
    "1EC18A:op3B+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1ED234",
@@ -17618,12 +17655,13 @@
   "addr": "1ED23C",
   "kind": "msg",
   "jp": "ひっ！！[WAIT]",
-  "en": "",
+  "en": "Eek!![WAIT]",
   "bytes": 12,
   "sites": [
    "1EC19E:op7A+2",
    "1EC19E:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1ED248",
@@ -17670,13 +17708,14 @@
   "addr": "1ED26A",
   "kind": "msg",
   "jp": "はははっ！[BR]大げさだなぁ、ポアラは！[WAIT]",
-  "en": "",
+  "en": "Hahaha! You're so jumpy, Poala![WAIT]",
   "bytes": 40,
   "sites": [
    "1EC1D3:op7A+2",
    "1EC1D3:op7A+2",
    "1EC1D3:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1ED292",
@@ -17697,13 +17736,14 @@
   "addr": "1ED29A",
   "kind": "msg",
   "jp": "ビ・・・ビィト・・・あれ・・・！[WAIT]",
-  "en": "",
+  "en": "B… Beet… over there…![WAIT]",
   "bytes": 36,
   "sites": [
    "1EC1E9:op7A+2",
    "1EC1E9:op7A+2",
    "1EC1E9:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1ED2BE",
@@ -17724,13 +17764,14 @@
   "addr": "1ED2C6",
   "kind": "msg",
   "jp": "・・・あれが[BR]墓地（ぼち）をあらしてるヤツらか？[WAIT]",
-  "en": "",
+  "en": "…Are those the guys wreckin' the[BR]cemetery?[WAIT]",
   "bytes": 52,
   "sites": [
    "1EC223:op7A+2",
    "1EC223:op7A+2",
    "1EC223:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1ED2FA",
@@ -17751,13 +17792,14 @@
   "addr": "1ED302",
   "kind": "msg",
   "jp": "・・・しっ！[BR]声が大きいわビィト・・・！！[WAIT]",
-  "en": "",
+  "en": "…Shh! You're too loud, Beet…!![WAIT]",
   "bytes": 46,
   "sites": [
    "1EC239:op7A+2",
    "1EC239:op7A+2",
    "1EC239:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1ED330",
@@ -17778,26 +17820,28 @@
   "addr": "1ED338",
   "kind": "msg",
   "jp": "・・・・・・[BR]（さっすがポアラ・・・[BR]いきなり本気モードに切りかわってら）[WAIT]",
-  "en": "",
+  "en": "…… (That's Poala for ya… She switched[BR]straight into serious mode.)[WAIT]",
   "bytes": 78,
   "sites": [
    "1EC24F:op7A+2",
    "1EC24F:op7A+2",
    "1EC24F:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1ED386",
   "addr": "1ED386",
   "kind": "msg",
   "jp": "（ガサガサッ！）[WAIT]",
-  "en": "",
+  "en": "(Rustle rustle!)[WAIT]",
   "bytes": 20,
   "sites": [
    "1EC258:op3B+1",
    "1EC258:op3B+1",
    "1EC258:op3B+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1ED39A",
@@ -17818,13 +17862,14 @@
   "addr": "1ED3A2",
   "kind": "msg",
   "jp": "（ポアラ・・・目の前にきたら[BR]・・・行くぞっ！）[WAIT]",
-  "en": "",
+  "en": "(Poala… when they get right in front[BR]of us… we go!)[WAIT]",
   "bytes": 52,
   "sites": [
    "1EC27A:op7A+2",
    "1EC27A:op7A+2",
    "1EC27A:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1ED3D6",
@@ -17845,13 +17890,14 @@
   "addr": "1ED3DE",
   "kind": "msg",
   "jp": "（ええ・・・わかったわ・・・！！）[WAIT]",
-  "en": "",
+  "en": "(Yes… got it…!!)[WAIT]",
   "bytes": 38,
   "sites": [
    "1EC290:op7A+2",
    "1EC290:op7A+2",
    "1EC290:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1ED404",
@@ -17872,13 +17918,14 @@
   "addr": "1ED40E",
   "kind": "msg",
   "jp": "・・・・・・来るぞ・・・！[WAIT]",
-  "en": "",
+  "en": "……Here they come…![WAIT]",
   "bytes": 30,
   "sites": [
    "1EC2AF:op7A+2",
    "1EC2AF:op7A+2",
    "1EC2AF:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1ED42C",
@@ -17900,14 +17947,15 @@
   "addr": "1ED434",
   "kind": "msg",
   "jp": "（・・・今だっ！）[WAIT]",
-  "en": "",
+  "en": "(…Now!)[WAIT]",
   "bytes": 22,
   "sites": [
    "1EC2D3:op7A+2",
    "1EC2D3:op7A+2",
    "1EC2D3:op7A+2",
    "1EC2D3:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1ED44A",
@@ -17929,14 +17977,15 @@
   "addr": "1ED452",
   "kind": "msg",
   "jp": "ええいっ！！！[WAIT]",
-  "en": "",
+  "en": "Hyaaah!!![WAIT]",
   "bytes": 18,
   "sites": [
    "1EC2E9:op7A+2",
    "1EC2E9:op7A+2",
    "1EC2E9:op7A+2",
    "1EC2E9:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1ED464",
@@ -17959,7 +18008,7 @@
   "addr": "1ED46C",
   "kind": "msg",
   "jp": "おい！　おまえらっ！！！[WAIT]",
-  "en": "",
+  "en": "Hey! You there!!![WAIT]",
   "bytes": 28,
   "sites": [
    "1EC33F:op7A+2",
@@ -17967,7 +18016,8 @@
    "1EC33F:op7A+2",
    "1EC33F:op7A+2",
    "1EC33F:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1ED488",
@@ -17990,7 +18040,7 @@
   "addr": "1ED498",
   "kind": "msg",
   "jp": "きゃああああああっ！！！[WAIT]",
-  "en": "",
+  "en": "Kyaaaaaaah!!![WAIT]",
   "bytes": 28,
   "sites": [
    "1EC34C:op52+5",
@@ -17998,7 +18048,8 @@
    "1EC34C:op52+5",
    "1EC34C:op52+5",
    "1EC34C:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1ED4B4",
@@ -18021,7 +18072,7 @@
   "addr": "1ED4BC",
   "kind": "msg",
   "jp": "って・・・あれ？[WAIT]",
-  "en": "",
+  "en": "Wait… huh?[WAIT]",
   "bytes": 20,
   "sites": [
    "1EC360:op7A+2",
@@ -18029,7 +18080,8 @@
    "1EC360:op7A+2",
    "1EC360:op7A+2",
    "1EC360:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1ED4D0",
@@ -18052,7 +18104,7 @@
   "addr": "1ED4D8",
   "kind": "msg",
   "jp": "・・・女・・のひと・・・？[WAIT]",
-  "en": "",
+  "en": "…They're… women…?[WAIT]",
   "bytes": 30,
   "sites": [
    "1EC376:op7A+2",
@@ -18060,7 +18112,8 @@
    "1EC376:op7A+2",
    "1EC376:op7A+2",
    "1EC376:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1ED4F6",
@@ -18083,7 +18136,7 @@
   "addr": "1ED504",
   "kind": "msg",
   "jp": "ひ・・・・・あ、あのっ・・・・[BR]わた・・・わた、[BR]わたしたち・・・・・[WAIT]",
-  "en": "",
+  "en": "Ee…… Um, w-we… we… we're……[WAIT]",
   "bytes": 74,
   "sites": [
    "1EC383:op52+5",
@@ -18091,7 +18144,8 @@
    "1EC383:op52+5",
    "1EC383:op52+5",
    "1EC383:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1ED54E",
@@ -18114,7 +18168,7 @@
   "addr": "1ED558",
   "kind": "msg",
   "jp": "・・・・・・まさか[BR]・・・・・・[WAIT]",
-  "en": "",
+  "en": "……Don't tell me… ……[WAIT]",
   "bytes": 36,
   "sites": [
    "1EC3A0:op7A+2",
@@ -18122,7 +18176,8 @@
    "1EC3A0:op7A+2",
    "1EC3A0:op7A+2",
    "1EC3A0:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1ED57C",
@@ -18146,7 +18201,7 @@
   "addr": "1ED584",
   "kind": "msg",
   "jp": "この人たちが犯人（はんにん）・・・[BR]ってワケじゃなさそうだけど・・・・[WAIT]",
-  "en": "",
+  "en": "Doesn't look like these girls are the[BR]culprits, though….[WAIT]",
   "bytes": 74,
   "sites": [
    "1EC3B6:op7A+2",
@@ -18155,7 +18210,8 @@
    "1EC3B6:op7A+2",
    "1EC3B6:op7A+2",
    "1EC3B6:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1ED5CE",
@@ -18179,7 +18235,7 @@
   "addr": "1ED5D6",
   "kind": "msg",
   "jp": "あなたたち・・・[BR]こんな所でなにしてるの？[WAIT]",
-  "en": "",
+  "en": "You two… what are you doing in a place[BR]like this?[WAIT]",
   "bytes": 46,
   "sites": [
    "1EC3CC:op7A+2",
@@ -18188,7 +18244,8 @@
    "1EC3CC:op7A+2",
    "1EC3CC:op7A+2",
    "1EC3CC:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1ED604",
@@ -18212,7 +18269,7 @@
   "addr": "1ED612",
   "kind": "msg",
   "jp": "あ・・・えと・・・わたしたち・・・[BR]きもだめし・・・に・・・・[WAIT]",
-  "en": "",
+  "en": "Oh… um… we're… here on a… dare….[WAIT]",
   "bytes": 66,
   "sites": [
    "1EC3D9:op52+5",
@@ -18221,7 +18278,8 @@
    "1EC3D9:op52+5",
    "1EC3D9:op52+5",
    "1EC3D9:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1ED654",
@@ -18245,7 +18303,7 @@
   "addr": "1ED65C",
   "kind": "msg",
   "jp": "きもだめしぃ～～！？[WAIT]",
-  "en": "",
+  "en": "A daaare?![WAIT]",
   "bytes": 24,
   "sites": [
    "1EC3ED:op7A+2",
@@ -18254,7 +18312,8 @@
    "1EC3ED:op7A+2",
    "1EC3ED:op7A+2",
    "1EC3ED:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1ED674",
@@ -18313,7 +18372,7 @@
   "addr": "1ED69C",
   "kind": "msg",
   "jp": "は・・・はい・・・[WAIT]",
-  "en": "",
+  "en": "Y… yes…[WAIT]",
   "bytes": 22,
   "sites": [
    "1EC419:op52+5",
@@ -18323,7 +18382,8 @@
    "1EC419:op52+5",
    "1EC419:op52+5",
    "1EC419:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1ED6B2",
@@ -18348,7 +18408,7 @@
   "addr": "1ED6C0",
   "kind": "msg",
   "jp": "さいきんここで奇妙（きみょう）な事が[BR]起きたとかで・・・[BR]それで・・・友だちといっしょに・・・[WAIT]",
-  "en": "",
+  "en": "We heard something weird happened here[BR]lately… So… we came with a friend….[WAIT]",
   "bytes": 98,
   "sites": [
    "1EC424:op52+5",
@@ -18358,7 +18418,8 @@
    "1EC424:op52+5",
    "1EC424:op52+5",
    "1EC424:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1ED722",
@@ -18419,7 +18480,7 @@
   "addr": "1ED742",
   "kind": "msg",
   "jp": "・・・・・・はーーーっ！！[BR]なんて人さわがせなのっ！？[WAIT]",
-  "en": "",
+  "en": "……Haaaah!! What a nuisance you are![WAIT]",
   "bytes": 58,
   "sites": [
    "1EC44E:op7A+2",
@@ -18429,7 +18490,8 @@
    "1EC44E:op7A+2",
    "1EC44E:op7A+2",
    "1EC44E:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1ED77C",
@@ -18454,7 +18516,7 @@
   "addr": "1ED78A",
   "kind": "msg",
   "jp": "ごっ、ごめんなさい・・・[WAIT]",
-  "en": "",
+  "en": "W-we're sorry…[WAIT]",
   "bytes": 28,
   "sites": [
    "1EC45B:op52+5",
@@ -18464,7 +18526,8 @@
    "1EC45B:op52+5",
    "1EC45B:op52+5",
    "1EC45B:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1ED7A6",
@@ -18489,7 +18552,7 @@
   "addr": "1ED7AE",
   "kind": "msg",
   "jp": "とにかく！[BR]ここはあぶないから・・・[BR]早くお家に帰りなさい！！[WAIT]",
-  "en": "",
+  "en": "Anyway! It's dangerous here… so go[BR]home right now!![WAIT]",
   "bytes": 66,
   "sites": [
    "1EC46F:op7A+2",
@@ -18499,7 +18562,8 @@
    "1EC46F:op7A+2",
    "1EC46F:op7A+2",
    "1EC46F:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1ED7F0",
@@ -18524,7 +18588,7 @@
   "addr": "1ED7FE",
   "kind": "msg",
   "jp": "は、はいっ！[BR]すみませんでしたっ！！[WAIT]",
-  "en": "",
+  "en": "Y-yes! We're very sorry!![WAIT]",
   "bytes": 40,
   "sites": [
    "1EC47C:op52+5",
@@ -18534,7 +18598,8 @@
    "1EC47C:op52+5",
    "1EC47C:op52+5",
    "1EC47C:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1ED826",
@@ -18559,7 +18624,7 @@
   "addr": "1ED82E",
   "kind": "msg",
   "jp": "まったく・・・[BR]きもだめしなんて・・・[WAIT]",
-  "en": "",
+  "en": "Honestly… coming here on a dare…[WAIT]",
   "bytes": 42,
   "sites": [
    "1EC49B:op7A+2",
@@ -18569,14 +18634,15 @@
    "1EC49B:op7A+2",
    "1EC49B:op7A+2",
    "1EC49B:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1ED858",
   "addr": "1ED858",
   "kind": "msg",
   "jp": "きゃああああああっ！！！[WAIT]",
-  "en": "",
+  "en": "Kyaaaaaaah!!![WAIT]",
   "bytes": 28,
   "sites": [
    "1EC4A4:op3B+1",
@@ -18586,7 +18652,8 @@
    "1EC4A4:op3B+1",
    "1EC4A4:op3B+1",
    "1EC4A4:op3B+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1ED874",
@@ -18611,7 +18678,7 @@
   "addr": "1ED87C",
   "kind": "msg",
   "jp": "ひっ！！[WAIT]",
-  "en": "",
+  "en": "Eek!![WAIT]",
   "bytes": 12,
   "sites": [
    "1EC4B8:op7A+2",
@@ -18621,7 +18688,8 @@
    "1EC4B8:op7A+2",
    "1EC4B8:op7A+2",
    "1EC4B8:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1ED888",
@@ -18646,7 +18714,7 @@
   "addr": "1ED890",
   "kind": "msg",
   "jp": "なんだっ！？[WAIT]",
-  "en": "",
+  "en": "What the?![WAIT]",
   "bytes": 16,
   "sites": [
    "1EC4CE:op7A+2",
@@ -18656,7 +18724,8 @@
    "1EC4CE:op7A+2",
    "1EC4CE:op7A+2",
    "1EC4CE:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1ED8A0",
@@ -18756,7 +18825,7 @@
   "addr": "1ED8D6",
   "kind": "msg",
   "jp": "助けるわよ、ビィトっ！！！[WAIT]",
-  "en": "",
+  "en": "We're saving them, Beet!!![WAIT]",
   "bytes": 30,
   "sites": [
    "1EC52A:op7A+2",
@@ -18767,7 +18836,8 @@
    "1EC52A:op7A+2",
    "1EC52A:op7A+2",
    "1EC52A:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1ED8F4",
@@ -18794,7 +18864,7 @@
   "addr": "1ED904",
   "kind": "msg",
   "jp": "た・・・助けて～～～～っ！！[WAIT]",
-  "en": "",
+  "en": "H… heeelp uuus!![WAIT]",
   "bytes": 32,
   "sites": [
    "1EC553:op52+5",
@@ -18806,7 +18876,8 @@
    "1EC553:op52+5",
    "1EC553:op52+5",
    "1EC553:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1ED924",
@@ -18833,7 +18904,7 @@
   "addr": "1ED92C",
   "kind": "msg",
   "jp": "こいつらが・・・[BR]墓地（ぼち）をあらしたヤツか[WAIT]",
-  "en": "",
+  "en": "So these are… the guys that wrecked[BR]the cemetery.[WAIT]",
   "bytes": 50,
   "sites": [
    "1EC567:op7A+2",
@@ -18845,7 +18916,8 @@
    "1EC567:op7A+2",
    "1EC567:op7A+2",
    "1EC567:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1ED95E",
@@ -18872,7 +18944,7 @@
   "addr": "1ED966",
   "kind": "msg",
   "jp": "やるわよ、ビィト！！[WAIT]",
-  "en": "",
+  "en": "Let's do this, Beet!![WAIT]",
   "bytes": 24,
   "sites": [
    "1EC57D:op7A+2",
@@ -18884,7 +18956,8 @@
    "1EC57D:op7A+2",
    "1EC57D:op7A+2",
    "1EC57D:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1ED97E",
@@ -18951,7 +19024,7 @@
   "addr": "1ED99C",
   "kind": "msg",
   "jp": "うーわ・・・なんだよこの[BR]モンスター・・・[WAIT]",
-  "en": "",
+  "en": "Ewww… what's with these monsters…[WAIT]",
   "bytes": 46,
   "sites": [
    "1EC5B4:op7A+2",
@@ -18963,7 +19036,8 @@
    "1EC5B4:op7A+2",
    "1EC5B4:op7A+2",
    "1EC5B4:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1ED9CA",
@@ -18990,7 +19064,7 @@
   "addr": "1ED9D2",
   "kind": "msg",
   "jp": "くさった・・・死体・・・って[BR]趣味（しゅみ）悪すぎよっ！！[WAIT]",
-  "en": "",
+  "en": "Rotting… corpses…? That's just way too[BR]gross!![WAIT]",
   "bytes": 62,
   "sites": [
    "1EC5CA:op7A+2",
@@ -19002,7 +19076,8 @@
    "1EC5CA:op7A+2",
    "1EC5CA:op7A+2",
    "1EC5CA:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1EDA10",
@@ -19029,7 +19104,7 @@
   "addr": "1EDA1A",
   "kind": "msg",
   "jp": "・・・・・・人間の死体を・・・[BR]モンスターに・・・？[WAIT]",
-  "en": "",
+  "en": "……Human corpses… turned into[BR]monsters…?[WAIT]",
   "bytes": 56,
   "sites": [
    "1EC5E9:op7A+2",
@@ -19041,7 +19116,8 @@
    "1EC5E9:op7A+2",
    "1EC5E9:op7A+2",
    "1EC5E9:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1EDA52",
@@ -19069,7 +19145,7 @@
   "addr": "1EDA60",
   "kind": "msg",
   "jp": "あ・・・[BR]ありがとうございました・・・[WAIT]",
-  "en": "",
+  "en": "Th… thank you so much…[WAIT]",
   "bytes": 42,
   "sites": [
    "1EC601:op52+5",
@@ -19082,7 +19158,8 @@
    "1EC601:op52+5",
    "1EC601:op52+5",
    "1EC601:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1EDA8A",
@@ -19110,7 +19187,7 @@
   "addr": "1EDA92",
   "kind": "msg",
   "jp": "おっ？　だいじょうぶかい？[WAIT]",
-  "en": "",
+  "en": "Oh? You two okay?[WAIT]",
   "bytes": 30,
   "sites": [
    "1EC615:op7A+2",
@@ -19123,7 +19200,8 @@
    "1EC615:op7A+2",
    "1EC615:op7A+2",
    "1EC615:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1EDAB0",
@@ -19151,7 +19229,7 @@
   "addr": "1EDABE",
   "kind": "msg",
   "jp": "は、はい・・・[BR]すみませんでした・・・[WAIT]",
-  "en": "",
+  "en": "Y-yes… We're very sorry…[WAIT]",
   "bytes": 42,
   "sites": [
    "1EC622:op52+5",
@@ -19164,7 +19242,8 @@
    "1EC622:op52+5",
    "1EC622:op52+5",
    "1EC622:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1EDAE8",
@@ -19192,7 +19271,7 @@
   "addr": "1EDAF0",
   "kind": "msg",
   "jp": "さ、もう安全だから・・・[BR]今のうちに帰るといいわ・・・！！[WAIT]",
-  "en": "",
+  "en": "There, it's safe now… so you'd better[BR]head home while you can…!![WAIT]",
   "bytes": 62,
   "sites": [
    "1EC636:op7A+2",
@@ -19205,7 +19284,8 @@
    "1EC636:op7A+2",
    "1EC636:op7A+2",
    "1EC636:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1EDB2E",
@@ -19233,7 +19313,7 @@
   "addr": "1EDB3C",
   "kind": "msg",
   "jp": "本当に、ありがとうございました[WAIT]",
-  "en": "",
+  "en": "Thank you, truly.[WAIT]",
   "bytes": 34,
   "sites": [
    "1EC643:op52+5",
@@ -19246,7 +19326,8 @@
    "1EC643:op52+5",
    "1EC643:op52+5",
    "1EC643:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1EDB5E",
@@ -19274,7 +19355,7 @@
   "addr": "1EDB6C",
   "kind": "msg",
   "jp": "し、しつれいします・・・[WAIT]",
-  "en": "",
+  "en": "Ex-excuse us…[WAIT]",
   "bytes": 28,
   "sites": [
    "1EC64E:op52+5",
@@ -19287,7 +19368,8 @@
    "1EC64E:op52+5",
    "1EC64E:op52+5",
    "1EC64E:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1EDB88",
@@ -19315,7 +19397,7 @@
   "addr": "1EDB90",
   "kind": "msg",
   "jp": "さて・・・っと・・・[BR]そういえば、付着物（ふちゃくぶつ）が[BR]どうとか、って言ってたよな・・・[WAIT]",
-  "en": "",
+  "en": "Well… now… Come to think of it, they[BR]said something about some residue or[BR]whatever…[WAIT]",
   "bytes": 96,
   "sites": [
    "1EC676:op7A+2",
@@ -19328,7 +19410,8 @@
    "1EC676:op7A+2",
    "1EC676:op7A+2",
    "1EC676:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1EDBF0",
@@ -19356,7 +19439,7 @@
   "addr": "1EDBF8",
   "kind": "msg",
   "jp": "ええ・・・[BR]この腐肉（ふにく）っての・・・[BR]やっぱ持ち帰った方がいいかな？[WAIT]",
-  "en": "",
+  "en": "Yes… I guess we'd better take some of[BR]this rotten flesh back with us?[WAIT]",
   "bytes": 78,
   "sites": [
    "1EC68C:op7A+2",
@@ -19369,7 +19452,8 @@
    "1EC68C:op7A+2",
    "1EC68C:op7A+2",
    "1EC68C:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1EDC46",
@@ -19397,7 +19481,7 @@
   "addr": "1EDC4E",
   "kind": "msg",
   "jp": "うん・・・ちょっとにおうけどな！！[WAIT]",
-  "en": "",
+  "en": "Yeah… It stinks a little, though!![WAIT]",
   "bytes": 38,
   "sites": [
    "1EC6A2:op7A+2",
@@ -19410,7 +19494,8 @@
    "1EC6A2:op7A+2",
    "1EC6A2:op7A+2",
    "1EC6A2:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1EDC74",
@@ -19438,7 +19523,7 @@
   "addr": "1EDC7C",
   "kind": "msg",
   "jp": "もう！[BR]さっさと帰りましょうビィト！！[WAIT]",
-  "en": "",
+  "en": "Ugh! Let's just hurry back, Beet!![WAIT]",
   "bytes": 42,
   "sites": [
    "1EC6B8:op7A+2",
@@ -19451,7 +19536,8 @@
    "1EC6B8:op7A+2",
    "1EC6B8:op7A+2",
    "1EC6B8:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1EDCA6",
@@ -19479,7 +19565,7 @@
   "addr": "1EDCAE",
   "kind": "msg",
   "jp": "ああ、そうしよう！！[WAIT]",
-  "en": "",
+  "en": "Yeah, let's!![WAIT]",
   "bytes": 24,
   "sites": [
    "1EC6D3:op7A+2",
@@ -19492,7 +19578,8 @@
    "1EC6D3:op7A+2",
    "1EC6D3:op7A+2",
    "1EC6D3:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1EDCC6",
@@ -19521,7 +19608,7 @@
   "addr": "1EDCCE",
   "kind": "msg",
   "jp": "もどったぜ！[WAIT]",
-  "en": "",
+  "en": "We're back![WAIT]",
   "bytes": 16,
   "sites": [
    "1EC718:op7A+2",
@@ -19535,7 +19622,8 @@
    "1EC718:op7A+2",
    "1EC718:op7A+2",
    "1EC718:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1EDCDE",
@@ -19564,7 +19652,7 @@
   "addr": "1EDCE6",
   "kind": "msg",
   "jp": "おお、早かったの・・・[BR]で、どうだったね？[WAIT]",
-  "en": "",
+  "en": "Oh ho, that was quick… So, how did it[BR]go, eh?[WAIT]",
   "bytes": 46,
   "sites": [
    "1EC72E:op7A+2",
@@ -19578,7 +19666,8 @@
    "1EC72E:op7A+2",
    "1EC72E:op7A+2",
    "1EC72E:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1EDD14",
@@ -19607,7 +19696,7 @@
   "addr": "1EDD1C",
   "kind": "msg",
   "jp": "ああ・・・やっぱり人の[BR]仕業じゃないみたいだな・・・！！[BR]・・・これを見てくれ[WAIT]",
-  "en": "",
+  "en": "Yeah… Looks like it wasn't people[BR]after all…!! …Take a look at this.[WAIT]",
   "bytes": 82,
   "sites": [
    "1EC744:op7A+2",
@@ -19621,7 +19710,8 @@
    "1EC744:op7A+2",
    "1EC744:op7A+2",
    "1EC744:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1EDD6E",
@@ -19650,7 +19740,7 @@
   "addr": "1EDD76",
   "kind": "msg",
   "jp": "こ、これは・・・？[WAIT]",
-  "en": "",
+  "en": "Wh-what's this…?[WAIT]",
   "bytes": 22,
   "sites": [
    "1EC75F:op7A+2",
@@ -19664,7 +19754,8 @@
    "1EC75F:op7A+2",
    "1EC75F:op7A+2",
    "1EC75F:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1EDD8C",
@@ -19693,7 +19784,7 @@
   "addr": "1EDD94",
   "kind": "msg",
   "jp": "墓地（ぼち）の下から、[BR]くさった死体みたいなモンスターが[BR]わいてきてさ・・・[PAGE]そいつのものだ[WAIT]",
-  "en": "",
+  "en": "Monsters that looked like rotting[BR]corpses came crawlin' out from under[BR]the cemetery…[PAGE]This came off one of 'em.[WAIT]",
   "bytes": 96,
   "sites": [
    "1EC775:op7A+2",
@@ -19707,7 +19798,8 @@
    "1EC775:op7A+2",
    "1EC775:op7A+2",
    "1EC775:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1EDDF4",
@@ -19736,7 +19828,7 @@
   "addr": "1EDDFC",
   "kind": "msg",
   "jp": "ふむ・・・[PAGE]先日のなぞの付着物（ふちゃくぶつ）に[BR]にているが・・・[PAGE]これも調べてもらった方が[BR]よさそうじゃの[WAIT]",
-  "en": "",
+  "en": "Hmm…[PAGE]It resembles that mysterious residue[BR]from the other day…[PAGE]Best we have this looked at too, I'd[BR]say.[WAIT]",
   "bytes": 112,
   "sites": [
    "1EC78B:op7A+2",
@@ -19750,7 +19842,8 @@
    "1EC78B:op7A+2",
    "1EC78B:op7A+2",
    "1EC78B:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1EDE6C",
@@ -19779,7 +19872,7 @@
   "addr": "1EDE74",
   "kind": "msg",
   "jp": "ああ・・・何かわかったら[BR]教えてくれよな[WAIT]",
-  "en": "",
+  "en": "Yeah… Let us know if you find anything[BR]out.[WAIT]",
   "bytes": 44,
   "sites": [
    "1EC7A1:op7A+2",
@@ -19793,7 +19886,8 @@
    "1EC7A1:op7A+2",
    "1EC7A1:op7A+2",
    "1EC7A1:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1EDEA0",
@@ -19822,7 +19916,7 @@
   "addr": "1EDEA8",
   "kind": "msg",
   "jp": "うむ。その時はまた、よろしく頼むよ[WAIT]",
-  "en": "",
+  "en": "Mm. When that time comes, I'll be[BR]counting on you again.[WAIT]",
   "bytes": 38,
   "sites": [
    "1EC7B7:op7A+2",
@@ -19836,7 +19930,8 @@
    "1EC7B7:op7A+2",
    "1EC7B7:op7A+2",
    "1EC7B7:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1EDECE",
@@ -19865,7 +19960,7 @@
   "addr": "1EDED6",
   "kind": "msg",
   "jp": "おうっ！　任せとけって！！[WAIT]",
-  "en": "",
+  "en": "Yeah! Leave it to me!![WAIT]",
   "bytes": 30,
   "sites": [
    "1EC7CD:op7A+2",
@@ -19879,7 +19974,8 @@
    "1EC7CD:op7A+2",
    "1EC7CD:op7A+2",
    "1EC7CD:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1EE9D0",
@@ -19899,12 +19995,13 @@
   "addr": "1EE9D8",
   "kind": "msg",
   "jp": "おお、ビィト君か[PAGE]実はキミが持ち帰ってくれた[BR]腐肉（ふにく）の鑑定（かんてい）が[BR]終わったんじゃよ[WAIT]",
-  "en": "",
+  "en": "Oh ho, Beet-kun.[PAGE]As it happens, the appraisal of that[BR]rotten flesh you brought back is[BR]finished.[WAIT]",
   "bytes": 102,
   "sites": [
    "1EDF44:op7A+2",
    "1EDF44:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1EEA3E",
@@ -19924,12 +20021,13 @@
   "addr": "1EEA46",
   "kind": "msg",
   "jp": "・・・あれは、[BR]けっきょくなんだったんだ？[WAIT]",
-  "en": "",
+  "en": "…So what was that stuff, anyway?[WAIT]",
   "bytes": 46,
   "sites": [
    "1EDF5A:op7A+2",
    "1EDF5A:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1EEA74",
@@ -20028,13 +20126,14 @@
   "addr": "1EEAC6",
   "kind": "msg",
   "jp": "・・・実はな・・・[BR]これは、というか・・・[BR]この腐肉（ふにく）はもともと・・・[PAGE]・・・人間のものだ[WAIT]",
-  "en": "",
+  "en": "…Well, you see… this… or rather… this[BR]rotten flesh was originally…[PAGE]…human.[WAIT]",
   "bytes": 102,
   "sites": [
    "1EDFBB:op7A+2",
    "1EDFBB:op7A+2",
    "1EDFBB:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1EEB2C",
@@ -20083,13 +20182,14 @@
   "addr": "1EEB4A",
   "kind": "msg",
   "jp": "人間っ！？[WAIT]",
-  "en": "",
+  "en": "Human?![WAIT]",
   "bytes": 14,
   "sites": [
    "1EDFE7:op7A+2",
    "1EDFE7:op7A+2",
    "1EDFE7:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1EEB58",
@@ -20139,14 +20239,15 @@
   "addr": "1EEB78",
   "kind": "msg",
   "jp": "うむ・・・[BR]これは・・・もとは人間・・・[PAGE]・・・つまり[BR]「そこに葬（ほうむ）られた人」[BR]だということだ[WAIT]",
-  "en": "",
+  "en": "Mm… This… was once a human…[PAGE]…In other words, it was \"someone who[BR]was buried there.\"[WAIT]",
   "bytes": 106,
   "sites": [
    "1EE01C:op7A+2",
    "1EE01C:op7A+2",
    "1EE01C:op7A+2",
    "1EE01C:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1EEBE2",
@@ -20198,14 +20299,15 @@
   "addr": "1EEC02",
   "kind": "msg",
   "jp": "たしかにモンスターは[BR]墓地（ぼち）の下から[BR]わいてきましたけど・・・[PAGE]それが・・・[BR]そこに埋葬（まいそう）された[BR]人だったなんて・・・[WAIT]",
-  "en": "",
+  "en": "It's true the monsters crawled out[BR]from under the cemetery…[PAGE]But for them… to have been people who[BR]were laid to rest there…[WAIT]",
   "bytes": 138,
   "sites": [
    "1EE048:op7A+2",
    "1EE048:op7A+2",
    "1EE048:op7A+2",
    "1EE048:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1EEC8C",
@@ -20227,14 +20329,15 @@
   "addr": "1EEC94",
   "kind": "msg",
   "jp": "ってことは・・・[BR]死んだ人がモンスターになった・・・[BR]ってことか？[WAIT]",
-  "en": "",
+  "en": "So that means… dead people turned into[BR]monsters…?[WAIT]",
   "bytes": 70,
   "sites": [
    "1EE05E:op7A+2",
    "1EE05E:op7A+2",
    "1EE05E:op7A+2",
    "1EE05E:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1EECDA",
@@ -20256,14 +20359,15 @@
   "addr": "1EECE2",
   "kind": "msg",
   "jp": "・・・うむ。そういうことになるらしい[PAGE]しかも鑑定（かんてい）によると、[BR]呪い（のろい）のようなものが[BR]かけられている、ということじゃ[WAIT]",
-  "en": "",
+  "en": "…Mm. That's how it seems, eh.[PAGE]What's more, the appraisal says some[BR]sort of curse has been placed on them.[WAIT]",
   "bytes": 136,
   "sites": [
    "1EE074:op7A+2",
    "1EE074:op7A+2",
    "1EE074:op7A+2",
    "1EE074:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1EED6A",
@@ -20285,14 +20389,15 @@
   "addr": "1EED72",
   "kind": "msg",
   "jp": "・・・呪い（のろい）・・・ですか[WAIT]",
-  "en": "",
+  "en": "…A curse… you say?[WAIT]",
   "bytes": 36,
   "sites": [
    "1EE08A:op7A+2",
    "1EE08A:op7A+2",
    "1EE08A:op7A+2",
    "1EE08A:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1EED96",
@@ -20375,7 +20480,7 @@
   "addr": "1EEDCE",
   "kind": "msg",
   "jp": "とすると、[BR]墓地（ぼち）に出入りしてたヤツが[BR]あやしい、ってことか・・・[WAIT]",
-  "en": "",
+  "en": "Then whoever's been goin' in and out[BR]of the cemetery is the suspicious one,[BR]huh…[WAIT]",
   "bytes": 76,
   "sites": [
    "1EE0D5:op7A+2",
@@ -20383,7 +20488,8 @@
    "1EE0D5:op7A+2",
    "1EE0D5:op7A+2",
    "1EE0D5:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1EEE1A",
@@ -20406,7 +20512,7 @@
   "addr": "1EEE22",
   "kind": "msg",
   "jp": "そう・・・なるわね・・・[WAIT]",
-  "en": "",
+  "en": "I suppose… that's right…[WAIT]",
   "bytes": 28,
   "sites": [
    "1EE0EB:op7A+2",
@@ -20414,7 +20520,8 @@
    "1EE0EB:op7A+2",
    "1EE0EB:op7A+2",
    "1EE0EB:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1EEE3E",
@@ -20437,7 +20544,7 @@
   "addr": "1EEE46",
   "kind": "msg",
   "jp": "うむ・・・[BR]ちょっと調べてみてはくれんかの？[WAIT]",
-  "en": "",
+  "en": "Mm… Won't you look into it a bit for[BR]me, eh?[WAIT]",
   "bytes": 48,
   "sites": [
    "1EE101:op7A+2",
@@ -20445,7 +20552,8 @@
    "1EE101:op7A+2",
    "1EE101:op7A+2",
    "1EE101:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1EEE76",
@@ -20500,7 +20608,7 @@
   "addr": "1EEEA4",
   "kind": "msg",
   "jp": "とりあえず、街の人に[BR]聞いてみましょう[WAIT]",
-  "en": "",
+  "en": "For now, let's go ask the people in[BR]town.[WAIT]",
   "bytes": 42,
   "sites": [
    "1EE12D:op7A+2",
@@ -20508,7 +20616,8 @@
    "1EE12D:op7A+2",
    "1EE12D:op7A+2",
    "1EE12D:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1EEECE",
@@ -20527,11 +20636,12 @@
   "addr": "1EEEDA",
   "kind": "msg",
   "jp": "・・・墓地（ぼち）であやしい人を[BR]見かけなかったかって？[PAGE]う～ん・・・、[PAGE]あやしいって言うかどうかは[BR]わからないけど・・・[WAIT]",
-  "en": "",
+  "en": "…Did I see anyone suspicious at the[BR]cemetery?[PAGE]Hmmm…[PAGE]I don't know if you'd call him[BR]suspicious, but…[WAIT]",
   "bytes": 126,
   "sites": [
    "1EE150:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1EEF58",
@@ -20550,11 +20660,12 @@
   "addr": "1EEF60",
   "kind": "msg",
   "jp": "・・・お？[WAIT]",
-  "en": "",
+  "en": "…Oh?[WAIT]",
   "bytes": 14,
   "sites": [
    "1EE164:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1EEF6E",
@@ -20573,11 +20684,12 @@
   "addr": "1EEF7A",
   "kind": "msg",
   "jp": "先日、[BR]流れの祈祷師（きとうし）という人が[BR]この墓地（ぼち）をおとずれてて、[PAGE]何やらおいのりをしていたのを見たよ[WAIT]",
-  "en": "",
+  "en": "The other day, a man who called[BR]himself a wandering exorcist came to[BR]this cemetery,[PAGE]and I saw him saying some sort of[BR]prayer.[WAIT]",
   "bytes": 116,
   "sites": [
    "1EE171:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1EEFEE",
@@ -20596,11 +20708,12 @@
   "addr": "1EEFF6",
   "kind": "msg",
   "jp": "・・・祈祷師（きとうし）？[WAIT]",
-  "en": "",
+  "en": "…An exorcist?[WAIT]",
   "bytes": 30,
   "sites": [
    "1EE185:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1EF014",
@@ -20619,11 +20732,12 @@
   "addr": "1EF020",
   "kind": "msg",
   "jp": "ああ[BR]なんでも、死者のたましいを[BR]きよめるとかなんとか・・・[WAIT]",
-  "en": "",
+  "en": "Yes. Said something about purifying[BR]the souls of the dead or some such…[WAIT]",
   "bytes": 64,
   "sites": [
    "1EE192:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1EF060",
@@ -20642,11 +20756,12 @@
   "addr": "1EF068",
   "kind": "msg",
   "jp": "・・・なんか、クサいな・・・[WAIT]",
-  "en": "",
+  "en": "…Somethin' smells fishy…[WAIT]",
   "bytes": 32,
   "sites": [
    "1EE1A6:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1EF088",
@@ -20665,11 +20780,12 @@
   "addr": "1EF090",
   "kind": "msg",
   "jp": "そうね・・・きっとソイツね・・・[WAIT]",
-  "en": "",
+  "en": "Yes… I bet he's the one…[WAIT]",
   "bytes": 36,
   "sites": [
    "1EE1BC:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1EF0B4",
@@ -20713,12 +20829,13 @@
   "addr": "1EF0D4",
   "kind": "msg",
   "jp": "でも、どうやって[BR]祈祷師（きとうし）を追うんだ？[WAIT]",
-  "en": "",
+  "en": "But how're we gonna track down this[BR]exorcist?[WAIT]",
   "bytes": 52,
   "sites": [
    "1EE1F1:op7A+2",
    "1EE1F1:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1EF108",
@@ -20738,12 +20855,13 @@
   "addr": "1EF110",
   "kind": "msg",
   "jp": "そうよね・・・そこよね、[BR]問題は・・・[WAIT]",
-  "en": "",
+  "en": "Right… That's the problem, isn't it…[WAIT]",
   "bytes": 42,
   "sites": [
    "1EE207:op7A+2",
    "1EE207:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1EF13A",
@@ -20763,12 +20881,13 @@
   "addr": "1EF146",
   "kind": "msg",
   "jp": "・・・ああ[BR]その祈祷師（きとうし）さんなら、[BR]東へ向かうと言ってましたよ？[WAIT]",
-  "en": "",
+  "en": "…Ah, that exorcist fellow? He said he[BR]was heading east, you know?[WAIT]",
   "bytes": 78,
   "sites": [
    "1EE214:op52+5",
    "1EE214:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1EF194",
@@ -20814,12 +20933,13 @@
   "addr": "1EF1B4",
   "kind": "msg",
   "jp": "・・・なんでも[BR]レドウ大河（たいが）をこえて[BR]東の里まで旅するとか言ってました[WAIT]",
-  "en": "",
+  "en": "…He said something about crossing the[BR]Redou River and traveling as far as[BR]the eastern villages.[WAIT]",
   "bytes": 82,
   "sites": [
    "1EE235:op52+5",
    "1EE235:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1EF206",
@@ -20839,12 +20959,13 @@
   "addr": "1EF20E",
   "kind": "msg",
   "jp": "東の里・・・ね・・・[BR]よしっ！　じゃあ里を回って[BR]探すしかないなっ！！[WAIT]",
-  "en": "",
+  "en": "The eastern villages, huh… Alright![BR]Then we've gotta go village to village[BR]and look!![WAIT]",
   "bytes": 74,
   "sites": [
    "1EE249:op7A+2",
    "1EE249:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1EF258",
@@ -20864,12 +20985,13 @@
   "addr": "1EF260",
   "kind": "msg",
   "jp": "そうね・・・。東の里、って[BR]分かっただけでも上出来だわ！[PAGE]とりあえず、レドウの大河を渡って[BR]レドウの港町まで行きましょう[WAIT]",
-  "en": "",
+  "en": "Right… Just knowing it's the eastern[BR]villages is good enough![PAGE]For now, let's cross the Redou River[BR]and head to Port Redou.[WAIT]",
   "bytes": 124,
   "sites": [
    "1EE25F:op7A+2",
    "1EE25F:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1EF2DC",
@@ -20889,12 +21011,13 @@
   "addr": "1EF2E6",
   "kind": "msg",
   "jp": "・・・そういうことだ[WAIT]",
-  "en": "",
+  "en": "…That settles it.[WAIT]",
   "bytes": 24,
   "sites": [
    "1EE27E:op7A+2",
    "1EE27E:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1EF2FE",
@@ -20915,13 +21038,14 @@
   "addr": "1EF306",
   "kind": "msg",
   "jp": "あっ！！　あれはっ！[WAIT]",
-  "en": "",
+  "en": "Ah!! That's…![WAIT]",
   "bytes": 24,
   "sites": [
    "1EE2EA:op7A+2",
    "1EE2EA:op7A+2",
    "1EE2EA:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1EF31E",
@@ -20942,13 +21066,14 @@
   "addr": "1EF328",
   "kind": "msg",
   "jp": "・・・ここにいたか・・・[WAIT]",
-  "en": "",
+  "en": "…So this is where you were…[WAIT]",
   "bytes": 28,
   "sites": [
    "1EE309:op7A+2",
    "1EE309:op7A+2",
    "1EE309:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1EF344",
@@ -21000,14 +21125,15 @@
   "addr": "1EF368",
   "kind": "msg",
   "jp": "ああ・・・！！[BR]おいっ！　そこの祈祷師（きとうし）！[WAIT]",
-  "en": "",
+  "en": "Yeah…!! Hey! You there, exorcist![WAIT]",
   "bytes": 56,
   "sites": [
    "1EE335:op7A+2",
    "1EE335:op7A+2",
    "1EE335:op7A+2",
    "1EE335:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1EF3A0",
@@ -21029,14 +21155,15 @@
   "addr": "1EF3A8",
   "kind": "msg",
   "jp": "・・・いや、ちょっと待って！！[WAIT]",
-  "en": "",
+  "en": "…No, wait a second!![WAIT]",
   "bytes": 34,
   "sites": [
    "1EE34B:op7A+2",
    "1EE34B:op7A+2",
    "1EE34B:op7A+2",
    "1EE34B:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1EF3CA",
@@ -21058,14 +21185,15 @@
   "addr": "1EF3D2",
   "kind": "msg",
   "jp": "っと、・・・なんだよポアラ！！[WAIT]",
-  "en": "",
+  "en": "Whoa… what is it, Poala?![WAIT]",
   "bytes": 34,
   "sites": [
    "1EE368:op7A+2",
    "1EE368:op7A+2",
    "1EE368:op7A+2",
    "1EE368:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1EF3F4",
@@ -21087,14 +21215,15 @@
   "addr": "1EF3FC",
   "kind": "msg",
   "jp": "・・・見てビィト・・・[BR]あの祈祷師（きとうし）の首の後ろ！[WAIT]",
-  "en": "",
+  "en": "…Look, Beet… at the back of that[BR]exorcist's neck![WAIT]",
   "bytes": 62,
   "sites": [
    "1EE37E:op7A+2",
    "1EE37E:op7A+2",
    "1EE37E:op7A+2",
    "1EE37E:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1EF43A",
@@ -21116,14 +21245,15 @@
   "addr": "1EF442",
   "kind": "msg",
   "jp": "え？・・・あっ！　あれはっ！！[BR]",
-  "en": "",
+  "en": "Huh? …Ah! That's…!!",
   "bytes": 34,
   "sites": [
    "1EE39B:op7A+2",
    "1EE39B:op7A+2",
    "1EE39B:op7A+2",
    "1EE39B:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1EF464",
@@ -21145,14 +21275,15 @@
   "addr": "1EF46C",
   "kind": "msg",
   "jp": "トリュプスね・・・[BR]ベンチュラがトロワナ兵士（へいし）を[BR]あやつってた時に使ってたモンスター！[WAIT]",
-  "en": "",
+  "en": "A Triplus… The monster Ventura used[BR]when he was controlling the Trowana[BR]soldiers![WAIT]",
   "bytes": 98,
   "sites": [
    "1EE3B1:op7A+2",
    "1EE3B1:op7A+2",
    "1EE3B1:op7A+2",
    "1EE3B1:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1EF4CE",
@@ -21205,7 +21336,7 @@
   "addr": "1EF4F0",
   "kind": "msg",
   "jp": "・・・ってことは、[BR]これはベンチュラが仕組んだのか！？[WAIT]",
-  "en": "",
+  "en": "…So that means Ventura's behind this?![WAIT]",
   "bytes": 58,
   "sites": [
    "1EE405:op7A+2",
@@ -21213,7 +21344,8 @@
    "1EE405:op7A+2",
    "1EE405:op7A+2",
    "1EE405:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1EF52A",
@@ -21236,7 +21368,7 @@
   "addr": "1EF532",
   "kind": "msg",
   "jp": "かもしれないわね・・・[BR]この前の事といい・・・[BR]ほんと、うすぎたないヤツね！[WAIT]",
-  "en": "",
+  "en": "Could be… After what he pulled last[BR]time… he really is a dirty rat![WAIT]",
   "bytes": 80,
   "sites": [
    "1EE41B:op7A+2",
@@ -21244,7 +21376,8 @@
    "1EE41B:op7A+2",
    "1EE41B:op7A+2",
    "1EE41B:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1EF582",
@@ -21267,7 +21400,7 @@
   "addr": "1EF58A",
   "kind": "msg",
   "jp": "・・・とりあえず、あのトリュプスを[BR]取っちまおう！[PAGE]いいか！[BR]祈祷師（きとうし）をきぜつさせるんだ[WAIT]",
-  "en": "",
+  "en": "…For now, let's get that Triplus off[BR]him![PAGE]Listen! We knock the exorcist out[BR]cold.[WAIT]",
   "bytes": 102,
   "sites": [
    "1EE431:op7A+2",
@@ -21275,7 +21408,8 @@
    "1EE431:op7A+2",
    "1EE431:op7A+2",
    "1EE431:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1EF5F0",
@@ -21298,7 +21432,7 @@
   "addr": "1EF5F8",
   "kind": "msg",
   "jp": "わかったわ・・・！！[WAIT]",
-  "en": "",
+  "en": "Got it…!![WAIT]",
   "bytes": 24,
   "sites": [
    "1EE447:op7A+2",
@@ -21306,7 +21440,8 @@
    "1EE447:op7A+2",
    "1EE447:op7A+2",
    "1EE447:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1EF610",
@@ -21329,7 +21464,7 @@
   "addr": "1EF618",
   "kind": "msg",
   "jp": "行くぞっ・・・！！[WAIT]",
-  "en": "",
+  "en": "Let's go…!![WAIT]",
   "bytes": 22,
   "sites": [
    "1EE45D:op7A+2",
@@ -21337,7 +21472,8 @@
    "1EE45D:op7A+2",
    "1EE45D:op7A+2",
    "1EE45D:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1EF62E",
@@ -21362,7 +21498,7 @@
   "addr": "1EF636",
   "kind": "msg",
   "jp": "・・・よし、これでこの人は[BR]だいじょうぶだな・・・[WAIT]",
-  "en": "",
+  "en": "…Okay, this guy should be alright now…[WAIT]",
   "bytes": 54,
   "sites": [
    "1EE4C1:op7A+2",
@@ -21372,7 +21508,8 @@
    "1EE4C1:op7A+2",
    "1EE4C1:op7A+2",
    "1EE4C1:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1EF66C",
@@ -21397,7 +21534,7 @@
   "addr": "1EF678",
   "kind": "msg",
   "jp": "・・・ちっ！！[BR]またオメーらかよ、[BR]クソ面白くねぇ！！[WAIT]",
-  "en": "",
+  "en": "…Tch!! You punks again?! This ain't[BR]funny one stinkin' bit!![WAIT]",
   "bytes": 58,
   "sites": [
    "1EE4D7:op7A+2",
@@ -21407,7 +21544,8 @@
    "1EE4D7:op7A+2",
    "1EE4D7:op7A+2",
    "1EE4D7:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1EF6B2",
@@ -21433,7 +21571,7 @@
   "addr": "1EF6BA",
   "kind": "msg",
   "jp": "おまえは・・・ベンチュラっ！！[WAIT]",
-  "en": "",
+  "en": "You're… Ventura!![WAIT]",
   "bytes": 34,
   "sites": [
    "1EE519:op7A+2",
@@ -21444,7 +21582,8 @@
    "1EE519:op7A+2",
    "1EE519:op7A+2",
    "1EE519:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1EF6DC",
@@ -21470,7 +21609,7 @@
   "addr": "1EF6E4",
   "kind": "msg",
   "jp": "・・・やっぱり・・・！！[WAIT]",
-  "en": "",
+  "en": "…I knew it…!![WAIT]",
   "bytes": 28,
   "sites": [
    "1EE52F:op7A+2",
@@ -21481,7 +21620,8 @@
    "1EE52F:op7A+2",
    "1EE52F:op7A+2",
    "1EE52F:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1EF700",
@@ -21546,7 +21686,7 @@
   "addr": "1EF726",
   "kind": "msg",
   "jp": "ウケケケケッ！[PAGE]しかし・・・[BR]せっかくオレ様の腐薬（ふやく）が[BR]完成（かんせい）したってのによお[WAIT]",
-  "en": "",
+  "en": "Ukekekeke![PAGE]But still… and just when the great[BR]Ventura's Rot Drug was finally[BR]finished, too…[WAIT]",
   "bytes": 100,
   "sites": [
    "1EE564:op7A+2",
@@ -21558,7 +21698,8 @@
    "1EE564:op7A+2",
    "1EE564:op7A+2",
    "1EE564:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1EF78A",
@@ -21585,7 +21726,7 @@
   "addr": "1EF792",
   "kind": "msg",
   "jp": "腐薬（ふやく）って・・・[BR]あのコウ君のお母さんの時の・・・！[WAIT]",
-  "en": "",
+  "en": "Rot Drug… You mean the one from when[BR]Kou-kun's mother…![WAIT]",
   "bytes": 64,
   "sites": [
    "1EE57A:op7A+2",
@@ -21597,7 +21738,8 @@
    "1EE57A:op7A+2",
    "1EE57A:op7A+2",
    "1EE57A:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1EF7D2",
@@ -21624,7 +21766,7 @@
   "addr": "1EF7DE",
   "kind": "msg",
   "jp": "そうよ！[BR]しかもさらにパワーアップしたん[BR]だぜえ・・・！！[PAGE]そこの祈祷師（きとうし）が[BR]がんばってくれたおかげで・・・[PAGE]その効果（こうか）もバツグンって事が[BR]わかったしなぁ・・・！！[WAIT]",
-  "en": "",
+  "en": "That's right! And it's been powered up[BR]even more, too…!![PAGE]Thanks to all the hard work that[BR]exorcist over there put in…[PAGE]I found out it works like a charm…!![WAIT]",
   "bytes": 186,
   "sites": [
    "1EE590:op7A+2",
@@ -21636,7 +21778,8 @@
    "1EE590:op7A+2",
    "1EE590:op7A+2",
    "1EE590:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1EF898",
@@ -21663,7 +21806,7 @@
   "addr": "1EF8A0",
   "kind": "msg",
   "jp": "なにいっ！！[WAIT]",
-  "en": "",
+  "en": "Whaaat!![WAIT]",
   "bytes": 16,
   "sites": [
    "1EE5A6:op7A+2",
@@ -21675,7 +21818,8 @@
    "1EE5A6:op7A+2",
    "1EE5A6:op7A+2",
    "1EE5A6:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1EF8B0",
@@ -21702,7 +21846,7 @@
   "addr": "1EF8BC",
   "kind": "msg",
   "jp": "あとは・・・[BR]この腐薬（ふやく）をうみ出してくれる[BR]「腐薬虫（ふやくちゅう）」を育てて[PAGE]世界に腐薬（ふやく）をバラ巻く[BR]だけだぜぇっ！！[WAIT]",
-  "en": "",
+  "en": "All that's left… is to raise the \"Rot[BR]Bugs\" that make this Rot Drug for me,[PAGE]and spread it all over the world!![WAIT]",
   "bytes": 140,
   "sites": [
    "1EE5BC:op7A+2",
@@ -21714,7 +21858,8 @@
    "1EE5BC:op7A+2",
    "1EE5BC:op7A+2",
    "1EE5BC:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1EF948",
@@ -21741,7 +21886,7 @@
   "addr": "1EF950",
   "kind": "msg",
   "jp": "腐薬虫（ふやくちゅう）だってぇっ！？[WAIT]",
-  "en": "",
+  "en": "Rot Bugs, you said?![WAIT]",
   "bytes": 40,
   "sites": [
    "1EE5D2:op7A+2",
@@ -21753,7 +21898,8 @@
    "1EE5D2:op7A+2",
    "1EE5D2:op7A+2",
    "1EE5D2:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1EF978",
@@ -21780,7 +21926,7 @@
   "addr": "1EF984",
   "kind": "msg",
   "jp": "ああ、そうだっ！！[PAGE]・・・おっと！[PAGE]そろそろオレ様の[BR]かわいい腐薬虫（ふやくちゅう）の[BR]ごはんの時間だなっ！[WAIT]",
-  "en": "",
+  "en": "Yeah, that's right!![PAGE]…Oops![PAGE]It's about time for the great[BR]Ventura's cute little Rot Bugs to have[BR]their dinner![WAIT]",
   "bytes": 112,
   "sites": [
    "1EE5E8:op7A+2",
@@ -21792,7 +21938,8 @@
    "1EE5E8:op7A+2",
    "1EE5E8:op7A+2",
    "1EE5E8:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1EF9F4",
@@ -21859,7 +22006,7 @@
   "addr": "1EFA12",
   "kind": "msg",
   "jp": "・・・・・・[BR]（ビィト・・・ちょっと・・・）[WAIT]",
-  "en": "",
+  "en": "…… (Beet… listen…)[WAIT]",
   "bytes": 48,
   "sites": [
    "1EE614:op7A+2",
@@ -21871,7 +22018,8 @@
    "1EE614:op7A+2",
    "1EE614:op7A+2",
    "1EE614:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1EFA42",
@@ -21940,7 +22088,7 @@
   "addr": "1EFA64",
   "kind": "msg",
   "jp": "・・・・・・[BR]（なるほどな、ポアラ・・・！）[WAIT]",
-  "en": "",
+  "en": "…… (Gotcha, Poala…!)[WAIT]",
   "bytes": 48,
   "sites": [
    "1EE661:op7A+2",
@@ -21954,7 +22102,8 @@
    "1EE661:op7A+2",
    "1EE661:op7A+2",
    "1EE661:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1EFA94",
@@ -21983,7 +22132,7 @@
   "addr": "1EFA9C",
   "kind": "msg",
   "jp": "（・・・・・・ね！）[WAIT]",
-  "en": "",
+  "en": "(……Right!)[WAIT]",
   "bytes": 24,
   "sites": [
    "1EE677:op7A+2",
@@ -21997,7 +22146,8 @@
    "1EE677:op7A+2",
    "1EE677:op7A+2",
    "1EE677:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1EFAB4",
@@ -22026,7 +22176,7 @@
   "addr": "1EFAC0",
   "kind": "msg",
   "jp": "そういうワケで・・・[BR]帰らせてもらうぜっ！！[BR]アバヨッ！！[WAIT]",
-  "en": "",
+  "en": "So with that… I'll be headin' home!![BR]Later, losers!![WAIT]",
   "bytes": 62,
   "sites": [
    "1EE68D:op7A+2",
@@ -22040,7 +22190,8 @@
    "1EE68D:op7A+2",
    "1EE68D:op7A+2",
    "1EE68D:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1EFAFE",
@@ -22157,7 +22308,7 @@
   "addr": "1EFB3A",
   "kind": "msg",
   "jp": "・・・む？[PAGE]なんだオメエら、いつもなら[BR]「にがさねぇ！」とか、[BR]「待てっ！」とかって[PAGE]さけぶトコだろうが・・・？[WAIT]",
-  "en": "",
+  "en": "…Hm? What's with you punks? Normally[BR]this is where you'd be yellin' \"You[BR]ain't gettin' away!\" or \"Wait!\"[PAGE]…ain't it?[WAIT]",
   "bytes": 116,
   "sites": [
    "1EE6DD:op7A+2",
@@ -22171,7 +22322,8 @@
    "1EE6DD:op7A+2",
    "1EE6DD:op7A+2",
    "1EE6DD:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1EFBAE",
@@ -22244,7 +22396,7 @@
   "addr": "1EFBCE",
   "kind": "msg",
   "jp": "・・・ちぇっ！[BR]そのままにげてもらって・・・[PAGE]腐薬虫（ふやくちゅう）のトコまで[BR]あんないしてもらおうと思ったのによ！[WAIT]",
-  "en": "",
+  "en": "…Tch! And here I figured we'd let you[BR]run off…[PAGE]so you could show us the way to your[BR]Rot Bugs![WAIT]",
   "bytes": 120,
   "sites": [
    "1EE709:op7A+2",
@@ -22258,7 +22410,8 @@
    "1EE709:op7A+2",
    "1EE709:op7A+2",
    "1EE709:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1EFC46",
@@ -22287,7 +22440,7 @@
   "addr": "1EFC52",
   "kind": "msg",
   "jp": "な、なにぃいいい！？[WAIT]",
-  "en": "",
+  "en": "Wh-whaaaaat?![WAIT]",
   "bytes": 24,
   "sites": [
    "1EE72A:op7A+2",
@@ -22301,7 +22454,8 @@
    "1EE72A:op7A+2",
    "1EE72A:op7A+2",
    "1EE72A:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1EFC6A",
@@ -22330,7 +22484,7 @@
   "addr": "1EFC72",
   "kind": "msg",
   "jp": "だってアンタ・・・[BR]りようしやすいんだものっ・・・！！[WAIT]",
-  "en": "",
+  "en": "Well, you're just… SO easy to use…!![WAIT]",
   "bytes": 58,
   "sites": [
    "1EE740:op7A+2",
@@ -22344,7 +22498,8 @@
    "1EE740:op7A+2",
    "1EE740:op7A+2",
    "1EE740:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1EFCAC",
@@ -22373,7 +22528,7 @@
   "addr": "1EFCB8",
   "kind": "msg",
   "jp": "て、テメエらっ！[BR]バカにしやがってぇ・・・！！[BR]ゆるさねえぞっ！！！[WAIT]",
-  "en": "",
+  "en": "Y-you punks! Makin' a fool outta me…!![BR]I ain't lettin' this slide!!![WAIT]",
   "bytes": 72,
   "sites": [
    "1EE756:op7A+2",
@@ -22387,7 +22542,8 @@
    "1EE756:op7A+2",
    "1EE756:op7A+2",
    "1EE756:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1EFD00",
@@ -22416,7 +22572,7 @@
   "addr": "1EFD08",
   "kind": "msg",
   "jp": "へへっ・・・！[BR]じゃ、ここでやるか！！！[WAIT]",
-  "en": "",
+  "en": "Heh heh…! Then let's do this right[BR]here!!![WAIT]",
   "bytes": 44,
   "sites": [
    "1EE76C:op7A+2",
@@ -22430,7 +22586,8 @@
    "1EE76C:op7A+2",
    "1EE76C:op7A+2",
    "1EE76C:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1EFD34",
@@ -22459,7 +22616,7 @@
   "addr": "1EFD40",
   "kind": "msg",
   "jp": "・・・う、クソッ！！！[BR]い、いいのかよ・・・[PAGE]その祈祷師（きとうし）を[BR]放っておいてよ！！[WAIT]",
-  "en": "",
+  "en": "…Ugh, dammit!!! B-but is that okay[BR]with you…[PAGE]leavin' that exorcist lyin' there?![WAIT]",
   "bytes": 94,
   "sites": [
    "1EE782:op7A+2",
@@ -22473,7 +22630,8 @@
    "1EE782:op7A+2",
    "1EE782:op7A+2",
    "1EE782:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1EFD9E",
@@ -22546,7 +22704,7 @@
   "addr": "1EFDC0",
   "kind": "msg",
   "jp": "今回のトリュプスは、[BR]毒（どく）持ちのヤツだからなっ！[PAGE]早くしねぇと・・・[BR]その祈祷師（きとうし）は死んじまうぜ[WAIT]",
-  "en": "",
+  "en": "This time's Triplus is a poisonous[BR]one, see![PAGE]If you don't hurry… that exorcist's[BR]gonna kick the bucket.[WAIT]",
   "bytes": 116,
   "sites": [
    "1EE7AE:op7A+2",
@@ -22560,7 +22718,8 @@
    "1EE7AE:op7A+2",
    "1EE7AE:op7A+2",
    "1EE7AE:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1EFE34",
@@ -22589,7 +22748,7 @@
   "addr": "1EFE3E",
   "kind": "msg",
   "jp": "・・・・クッ！[WAIT]",
-  "en": "",
+  "en": "….Tch![WAIT]",
   "bytes": 18,
   "sites": [
    "1EE7CD:op7A+2",
@@ -22603,7 +22762,8 @@
    "1EE7CD:op7A+2",
    "1EE7CD:op7A+2",
    "1EE7CD:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1EFE50",
@@ -22679,7 +22839,7 @@
   "addr": "1EFE6C",
   "kind": "msg",
   "jp": "さあっ！　どうする！？[BR]みすてるのかよっ！！[WAIT]",
-  "en": "",
+  "en": "Well?! What'll it be?! You gonna[BR]abandon him?![WAIT]",
   "bytes": 48,
   "sites": [
    "1EE7F9:op7A+2",
@@ -22694,7 +22854,8 @@
    "1EE7F9:op7A+2",
    "1EE7F9:op7A+2",
    "1EE7F9:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1EFE9C",
@@ -22724,7 +22885,7 @@
   "addr": "1EFEA4",
   "kind": "msg",
   "jp": "くそっ・・・！[BR]おぼえてろよベンチュラッ！！[WAIT]",
-  "en": "",
+  "en": "Dammit…! You'll pay for this,[BR]Ventura!![WAIT]",
   "bytes": 48,
   "sites": [
    "1EE80F:op7A+2",
@@ -22739,7 +22900,8 @@
    "1EE80F:op7A+2",
    "1EE80F:op7A+2",
    "1EE80F:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1EFED4",
@@ -22771,7 +22933,7 @@
   "addr": "1EFEE0",
   "kind": "msg",
   "jp": "・・・・・ふ～[BR]あぶねぇあぶねぇ・・・[WAIT]",
-  "en": "",
+  "en": "…..Phew~ That was close, that was[BR]close…[WAIT]",
   "bytes": 42,
   "sites": [
    "1EE85E:op7A+2",
@@ -22788,7 +22950,8 @@
    "1EE85E:op7A+2",
    "1EE85E:op7A+2",
    "1EE85E:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1EFF0A",
@@ -22820,7 +22983,7 @@
   "addr": "1EFF16",
   "kind": "msg",
   "jp": "・・・おいっオマエ！！[BR]見てるだけじゃなくて、[BR]ちゃんと出てきてたたかえよ！！[WAIT]",
-  "en": "",
+  "en": "…Hey, you!! Don't just stand there[BR]watchin'! Get out here and fight like[BR]you're supposed to!![WAIT]",
   "bytes": 82,
   "sites": [
    "1EE88E:op7A+2",
@@ -22837,7 +23000,8 @@
    "1EE88E:op7A+2",
    "1EE88E:op7A+2",
    "1EE88E:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1EFF68",
@@ -22919,7 +23083,7 @@
   "addr": "1EFF8E",
   "kind": "msg",
   "jp": "まったく・・・[BR]だから役立たずなんだよ・・・[BR]オメエはっ！！[WAIT]",
-  "en": "",
+  "en": "Honestly… That's why you're so[BR]useless… you!![WAIT]",
   "bytes": 64,
   "sites": [
    "1EE8AF:op7A+2",
@@ -22936,7 +23100,8 @@
    "1EE8AF:op7A+2",
    "1EE8AF:op7A+2",
    "1EE8AF:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1EFFCE",
@@ -22968,7 +23133,7 @@
   "addr": "1EFFD8",
   "kind": "msg",
   "jp": "・・・ボクは、[BR]閣下（かっか）の命で[BR]キミの手伝いをしているだけだ・・・[PAGE]キミの部下になったわけではない[WAIT]",
-  "en": "",
+  "en": "…I am only helping you on His[BR]Excellency's orders…[PAGE]I did not become your underling.[WAIT]",
   "bytes": 108,
   "sites": [
    "1EE8BC:op52+5",
@@ -22985,6 +23150,7 @@
    "1EE8BC:op52+5",
    "1EE8BC:op52+5",
    "1EE8BC:op52+5"
-  ]
+  ],
+  "status": "done"
  }
 ]

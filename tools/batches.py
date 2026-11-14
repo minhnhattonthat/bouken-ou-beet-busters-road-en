@@ -165,7 +165,7 @@ def problems(e, en, terms):
         out.append("escape sequence or tab in the English")
     if re.search(VARIABLE + r"(st|nd|rd|th)\b", en):
         out.append('ordinal suffix after a variable (write "No. [FF01]")')
-    jp_plain = TOKEN.sub("", jp)
+    jp_plain = re.sub(r"（[^）]*）", "", TOKEN.sub("", jp))  # furigana readings aren't terms (災害（サイガい）)
     for jps, ens, avoid in terms:
         if any(has_term(jp_plain, j) for j in jps) and not any(x.lower() in en.lower() for x in ens):
             out.append(f"glossary: {jps[0]} -> {' / '.join(ens)}")

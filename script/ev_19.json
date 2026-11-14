@@ -6176,7 +6176,7 @@
   "addr": "196CA2",
   "kind": "msg",
   "jp": "ついでに、ポアラをよめさんに[BR]してやってもいいぜ！[WAIT]",
-  "en": "And while I'm at it, I might even let[BR]you be my wife, Poala![WAIT]",
+  "en": "And while I'm at it, I might even make[BR]you my future wife, Poala![WAIT]",
   "bytes": 54,
   "sites": [
    "193EE5:op7A+2",
@@ -14189,7 +14189,7 @@
   "addr": "19C996",
   "kind": "msg",
   "jp": "ふむ・・・[BR]「天力」とは大気中のエネルギーを[BR]じざいにあやつることであり、[PAGE]そこから練られた大気を炎（ほのお）や[BR]氷のこうげきエネルギーに変えたものが[BR]「天撃（てんげき）」だ[WAIT]",
-  "en": "I see… \"Divine Power\" is the art of[BR]freely controlling the energy in the[BR]air,[PAGE]and when that refined air is turned[BR]into fire or ice energy to attack[BR]with, that's a \"Divine Attack.\"[WAIT]",
+  "en": "I see… \"Divine Power\" is the art of[BR]freely controlling the energy in the[BR]air,[PAGE]and when you draw in the air's power[BR]and turn it into fire or ice energy to[BR]attack with, that's a \"Divine Attack.\"[WAIT]",
   "bytes": 178,
   "sites": [
    "19B985:op52+5"

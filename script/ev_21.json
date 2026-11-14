@@ -2347,11 +2347,12 @@
   "addr": "211FF8",
   "kind": "msg",
   "jp": "オッケー、わかったぜ！[WAIT]",
-  "en": "",
+  "en": "Okay, got it![WAIT]",
   "bytes": 26,
   "sites": [
    "2114A2:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:212012",
@@ -2888,7 +2889,7 @@
   "addr": "212330",
   "kind": "msg",
   "jp": "ビィトっ！！[WAIT]",
-  "en": "",
+  "en": "Beet!![WAIT]",
   "bytes": 16,
   "sites": [
    "21170E:op7A+2",
@@ -2902,7 +2903,8 @@
    "21170E:op7A+2",
    "21170E:op7A+2",
    "21170E:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:212340",
@@ -15226,7 +15228,7 @@
   "addr": "21BB08",
   "kind": "msg",
   "jp": "ふぅ・・・[WAIT]",
-  "en": "",
+  "en": "Phew…[WAIT]",
   "bytes": 14,
   "sites": [
    "21A327:op7A+2",
@@ -15236,7 +15238,8 @@
    "21A327:op7A+2",
    "21A327:op7A+2",
    "21A327:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:21BB16",
@@ -19802,12 +19805,13 @@
   "addr": "21EEEE",
   "kind": "msg",
   "jp": "ふぅ・・・[WAIT]",
-  "en": "",
+  "en": "Phew…[WAIT]",
   "bytes": 14,
   "sites": [
    "21DC28:op7A+2",
    "21DC28:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:21EEFC",

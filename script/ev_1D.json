@@ -14905,7 +14905,7 @@
   "addr": "1D9ACE",
   "kind": "msg",
   "jp": "うん！　ユズ先生はお医者さんなんだっ[BR]でね、ユズ先生が・・・こういうときは[BR]万病に効くっていうアメなんとかって[PAGE]薬草がいいんだけど、って言うんだ[WAIT]",
-  "en": "Yeah! Dr. Yuzu's a doctor! And Dr.[BR]Yuzu says, for times like this,[BR]there's a medicine herb called[PAGE]Ame-something that cures every[BR]sickness,[PAGE]and that it'd be good…[WAIT]",
+  "en": "Yeah! Dr. Yuzu's a doctor! And Dr.[BR]Yuzu says, for times like this,[BR]there's a medicinal herb called[PAGE]Ame-something that cures every[BR]sickness,[PAGE]and that it'd be good…[WAIT]",
   "bytes": 148,
   "sites": [
    "1D89F8:op52+5",
@@ -14965,7 +14965,7 @@
   "addr": "1D9B82",
   "kind": "msg",
   "jp": "でもね[BR]その薬草は今はないんだって[PAGE]それで、その薬草は・・・[BR]とってもキケンなところに[BR]生えてるんだって・・・[WAIT]",
-  "en": "But she says they don't have that herb[BR]right now.[PAGE]And she says that herb… grows in a[BR]really dangerous place…[WAIT]",
+  "en": "But she says they don't have that[BR]medicinal herb right now.[PAGE]And she says that herb… grows in a[BR]really dangerous place…[WAIT]",
   "bytes": 114,
   "sites": [
    "1D8A19:op52+5",
@@ -15025,7 +15025,7 @@
   "addr": "1D9C12",
   "kind": "msg",
   "jp": "ボクが取りに行くって言っても、[BR]キケンだからって場所を[BR]教えてくれないんだ・・・[PAGE]だから、お兄ちゃんなら・・・[PAGE]お兄ちゃんくらい強い人なら、[BR]きっとユズ先生も薬草の場所を[BR]教えてくれると思うんだっ！[WAIT]",
-  "en": "I said I'd go get it, but she won't[BR]tell me where 'cause it's dangerous…[PAGE]So I thought, if it's you, Mister…[PAGE]somebody as strong as you, I bet Dr.[BR]Yuzu would tell you where the herb is![WAIT]",
+  "en": "I said I'd go get it, but she won't[BR]tell me where 'cause it's dangerous…[PAGE]So I thought, if it's you, Mister…[PAGE]somebody as strong as you, I bet Dr.[BR]Yuzu would tell you where the[BR]medicinal herb is![WAIT]",
   "bytes": 202,
   "sites": [
    "1D8A3A:op52+5",
@@ -15085,7 +15085,7 @@
   "addr": "1D9CFA",
   "kind": "msg",
   "jp": "お兄ちゃんが薬草の場所を教えたら[BR]・・・ボク、がんばって薬草取りに[BR]いくからっ！[PAGE]おねがいだから、ユズ先生から薬草の[BR]取れるところを、[BR]聞いておくれよっ！！[WAIT]",
-  "en": "If you tell me where the herb is,[BR]Mister… I'll try really hard and go[BR]get it![PAGE]Please, ask Dr. Yuzu where you can[BR]find the herb!![WAIT]",
+  "en": "If you tell me where the medicinal[BR]herb is, Mister… I'll try really hard[BR]and go get it![PAGE]Please, ask Dr. Yuzu where you can[BR]find the herb!![WAIT]",
   "bytes": 160,
   "sites": [
    "1D8A5B:op52+5",
@@ -15307,7 +15307,7 @@
   "addr": "1D9ED6",
   "kind": "msg",
   "jp": "ねっねっ！！[BR]強いお兄ちゃんをつれてきたんだよっ！[BR]薬草の場所教えてっ！[WAIT]",
-  "en": "Hey, hey!! I brought a strong mister![BR]Tell him where the herb is![WAIT]",
+  "en": "Hey, hey!! I brought a strong mister![BR]Tell him where the medicinal herb is![WAIT]",
   "bytes": 76,
   "sites": [
    "1D8B1A:op52+5",
@@ -16205,7 +16205,7 @@
   "addr": "1DA446",
   "kind": "msg",
   "jp": "・・・で、そのシホさんに[BR]きくかもしれないって薬草は、[BR]どこで取れるんだ？[WAIT]",
-  "en": "…So where can you get this herb that[BR]might work on Shiho-san?[WAIT]",
+  "en": "…So where can you get this medicinal[BR]herb that might work on Shiho-san?[WAIT]",
   "bytes": 78,
   "sites": [
    "1D8D53:op7A+2",
@@ -16389,7 +16389,7 @@
   "addr": "1DA5A4",
   "kind": "msg",
   "jp": "そうですか・・・[BR]トロワナの森を北西にぬけると[BR]ムスリー荒野があるんですが、[PAGE]そのムスリー荒野のさらに北にある[BR]エトリア山地にしか生えていない[BR]薬草なんだそうです[WAIT]",
-  "en": "I see… If you go northwest through the[BR]Trowana Forest, you'll reach the[BR]Musley Wasteland,[PAGE]and they say this herb grows only in[BR]the Etria Mountains, even farther[BR]north of the Musley Wasteland.[WAIT]",
+  "en": "I see… If you go northwest through the[BR]Trowana Forest, you'll reach the[BR]Musley Wasteland,[PAGE]and they say this medicinal herb grows[BR]only in the Etria Mountains, even[BR]farther north of the Musley Wasteland.[WAIT]",
   "bytes": 166,
   "sites": [
    "1D8D97:op52+5",
@@ -17240,7 +17240,7 @@
   "addr": "1DACAE",
   "kind": "msg",
   "jp": "ああ！[BR]コウ君もお母さんのために[BR]がんばりたいだろうけどな・・・[PAGE]もし薬草が手に入ってもコウ君が[BR]ケガしてたりしたら、[BR]お母さん悲しむだろ？[WAIT]",
-  "en": "Yeah! I know you wanna do your best[BR]for your mom, Kou-kun…[PAGE]But even if we get the herb, if you[BR]got hurt, your mom would be sad,[BR]right?[WAIT]",
+  "en": "Yeah! I know you wanna do your best[BR]for your mom, Kou-kun…[PAGE]But even if we get the medicinal herb,[BR]if you got hurt, your mom would be[BR]sad, right?[WAIT]",
   "bytes": 144,
   "sites": [
    "1D8EDD:op7A+2",
@@ -18279,7 +18279,7 @@
   "addr": "1DB336",
   "kind": "msg",
   "jp": "ウケケッ！　そうはいかねえなぁ・・・[BR]このアメリ草って薬草はなぁ・・・[PAGE]オレ様が今、実験中（じっけんちゅう）[BR]の・・・[PAGE]腐薬（ふやく）の効果（こうか）を[BR]キレイに消してくれちゃうからなぁっ[BR]渡すワケにはいかねえんだよっ！！[WAIT]",
-  "en": "Ukekeke! No can do… See, this Ameri[BR]Herb…[PAGE]wipes out the effects of the…[PAGE]Rot Drug that the great Ventura is[BR]testing right now, clean as a whistle![BR]So I ain't handin' it over!![WAIT]",
+  "en": "Ukekeke! No can do… See, this[BR]medicinal herb, the Ameri Herb…[PAGE]wipes out the effects of the…[PAGE]Rot Drug that the great Ventura is[BR]testing right now, clean as a whistle![BR]So I ain't handin' it over!![WAIT]",
   "bytes": 226,
   "sites": [
    "1D91A4:op7A+2",
@@ -18332,7 +18332,7 @@
   "addr": "1DB43A",
   "kind": "msg",
   "jp": "・・・腐薬（ふやく）ぅ・・・？？[WAIT]",
-  "en": "…Rot Druuug…??[WAIT]",
+  "en": "…Rot Drug…??[WAIT]",
   "bytes": 36,
   "sites": [
    "1D91D9:op7A+2",
@@ -18906,7 +18906,7 @@
   "addr": "1DBA40",
   "kind": "msg",
   "jp": "ビィト！　あんなヤツ[BR]ほっときなさいよっ！[PAGE]今は薬草を・・・アメリ草を[BR]持って帰るのが先よっ！！[WAIT]",
-  "en": "Beet! Forget about that creep![PAGE]Right now, getting the herb… the Ameri[BR]Herb back comes first!![WAIT]",
+  "en": "Beet! Forget about that creep![PAGE]Right now, getting the medicinal herb…[BR]the Ameri Herb back comes first!![WAIT]",
   "bytes": 100,
   "sites": [
    "1D9444:op7A+2",
@@ -18999,7 +18999,7 @@
   "addr": "1DBB0E",
   "kind": "msg",
   "jp": "おっ！　いい子にしてたかっ！[BR]・・・ほら、ちゃんと薬草、[BR]取ってきたぞっ！！！[WAIT]",
-  "en": "Hey! Were you a good boy?! …Look, we[BR]got the herb, just like we said!!![WAIT]",
+  "en": "Hey! Were you a good boy?! …Look, we[BR]got the medicinal herb, just like we[BR]said!!![WAIT]",
   "bytes": 82,
   "sites": [
    "1D94DE:op7A+2",
@@ -20387,7 +20387,7 @@
   "addr": "1DC4DC",
   "kind": "msg",
   "jp": "あとはよろしくな、ユズ先生っ！！[WAIT]",
-  "en": "Leave the rest to you, Dr. Yuzu!![WAIT]",
+  "en": "We'll leave the rest to you, Dr.[BR]Yuzu!![WAIT]",
   "bytes": 36,
   "sites": [
    "1D98C0:op7A+2",
@@ -20963,7 +20963,7 @@
   "addr": "1DD18E",
   "kind": "msg",
   "jp": "いや・・・きみたちにたのもう[BR]場所は「森の遺跡（もりのいせき）」だ[BR]しっかりと調査（ちょうさ）をたのむぞ[WAIT]",
-  "en": "No… I'll leave it to you youngsters.[BR]The place is the \"Forest Ruins.\" I'm[BR]counting on a thorough survey, eh.[WAIT]",
+  "en": "Not at all… I'll leave it to you[BR]youngsters. The place is the \"Forest[BR]Ruins.\" I'm counting on a thorough[PAGE]survey, eh.[WAIT]",
   "bytes": 108,
   "sites": [
    "1DC717:op7A+2",

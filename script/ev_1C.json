@@ -2304,7 +2304,7 @@
   "addr": "1C1E4C",
   "kind": "msg",
   "jp": "・・・兄弟・・・だからだわ！！[BR]ビィトがいなくなった後、[BR]父さんが言ってた・・・[PAGE]ゼノンはビィトの本当の兄さん[BR]だったんだって・・・[PAGE]血のつながった兄弟だからこそ、[BR]そんなゼノンの才牙（サイガ）も[BR]生み出すことができた・・・[WAIT]",
-  "en": "…It's because they're brothers!! After[BR]you left, Beet, my dad told me…[PAGE]Zenon was Beet's real big brother…[PAGE]Being brothers by blood is exactly why[BR]you could create even Zenon's Saiga…[WAIT]",
+  "en": "…It's because you're brothers!! After[BR]you left, Beet, my dad told me…[PAGE]Zenon was your real big brother…[PAGE]Being brothers by blood is exactly why[BR]you could create even Zenon's Saiga…[WAIT]",
   "bytes": 228,
   "sites": [
    "1BFF6C:op7A+2",
@@ -5048,7 +5048,7 @@
   "addr": "1C4B0C",
   "kind": "msg",
   "jp": "・・・なん・・・だと・・・？[WAIT]",
-  "en": "…What… did you say…?[WAIT]",
+  "en": "…What… is this…?[WAIT]",
   "bytes": 32,
   "sites": [
    "1C3CC7:op7A+2"
@@ -16190,7 +16190,7 @@
   "addr": "1CF06E",
   "kind": "msg",
   "jp": "・・・・・・[PAGE]・・・しょうがねぇなぁ・・・[BR]まぁ、よろしくたのまぁ・・・[BR]スレッド！！[WAIT]",
-  "en": "……[PAGE]…Guess it can't be helped… Well, count[BR]on me too… Slade!![WAIT]",
+  "en": "……[PAGE]…Guess there's no helping it… Well,[BR]I'm counting on ya too… Slade!![WAIT]",
   "bytes": 90,
   "sites": [
    "1CD510:op7A+2"
