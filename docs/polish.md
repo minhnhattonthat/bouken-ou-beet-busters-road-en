@@ -378,3 +378,51 @@ Minor review findings; tick when applied or rejected (phase 9: none unticked).
 ## story:16_side_lake.r2
 
 ## story:17_quest_log.r2
+
+## story:01_opening.r3
+- [x] ev:196CA2 - Beet boasts that he might marry Poala, too - “Make you my future wife” sounds awkward and slightly blunts the teasing boast that prompts her angry response - Suggested EN: “And hey, I might even let you be my future wife, Poala!” -- waived: round-3 story-pass Minor on a chapter already passed ok; several reverse round-2 fixes (reviewer taste), so kept for v1.1 to leave reviewed text stable
+
+## story:02_prologue.r3
+
+## story:03_three_years.r3
+- [x] ev:1ABE1E - Poala enthusiastically agrees to return home - “...Oh!” reads as surprise rather than agreement, weakening the warm close to their reunion - Suggested EN: “...Yeah!” -- waived: same JP as ev:1FAC7A where it is surprise; one English per JP, "...Oh!" serves both
+- [x] ev:1AFD9A - Poala marvels at how quickly Beet grows stronger - The dangling “you…!” makes her admiration sound awkward just before the Laio reveal - Suggested EN: “No wonder you're getting so strong so fast…!” -- waived: round-3 story-pass Minor on a chapter already passed ok; several reverse round-2 fixes (reviewer taste), so kept for v1.1 to leave reviewed text stable
+
+## story:04_elfast_redou.r3
+- [x] ev:1B0166 - JP gist: The five warriors’ Saiga are keepsakes left behind. - Poala’s paraphrase conveys the meaning, but Beet’s immediate “Keepsakes?!” repeats a word she never says. Restore the shared word to sharpen his emotional reaction. - Suggested EN: “…So that’s how it was… Their Saiga… keepsakes to remember them by…” -- waived: round-3 story-pass Minor on a chapter already passed ok; several reverse round-2 fixes (reviewer taste), so kept for v1.1 to leave reviewed text stable
+
+## story:05_phantom_redou.r3
+
+## story:06_across_river.r3
+- [x] ev:1D9ACE — Kou explains that Dr. Yuzu recommends an “Ame-something” herb — The winding sentence ending “and that it'd be good…” sounds awkward and overly formal for Kou. Suggested EN: “Yeah! Dr. Yuzu's a doctor! She says there's a herb called Ame-something that's supposed to cure any sickness. That might help Mommy…” -- waived: round-3 story-pass Minor on a chapter already passed ok; several reverse round-2 fixes (reviewer taste), so kept for v1.1 to leave reviewed text stable
+
+## story:07_orb_terceron.r3
+
+## story:08_mugine_castle.r3
+- [x] `ev:1F53B0` - JP gist: “That differed from what Appraiser-san told us.” - Drops Poala’s respectful title, ruled as “Mister Appraiser” in the glossary. - Suggested EN: “True… It was a bit different from what Mister Appraiser told us…” -- waived: round-3 story-pass Minor on a chapter already passed ok; several reverse round-2 fixes (reviewer taste), so kept for v1.1 to leave reviewed text stable
+- [x] `ev:1FDC4A` - JP gist: The Bridge Master wants his workmanship to match the Monster Masters’ achievement. - “A sturdy bridge that won't lose to the Monster Masters” awkwardly makes the bridge their competitor, weakening the shared “Master” joke. - Suggested EN: “Mm. The rest is our job… We can't let the Monster Masters outdo us! We'd better build a good, sturdy bridge!!” -- waived: round-3 story-pass Minor on a chapter already passed ok; several reverse round-2 fixes (reviewer taste), so kept for v1.1 to leave reviewed text stable
+
+## story:09_kissu_betrayal.r3
+- [x] ev:206240 - JP gist: While fighting here, they have absolutely no chance against Rozzgoat. - “There’s a 100% chance we can’t beat Rozzgoat” sounds cumbersome during Kissu’s urgent intervention. - Suggested EN: “As long as we’re fighting here… we have zero chance of beating Rozzgoat!” -- waived: round-3 story-pass Minor on a chapter already passed ok; several reverse round-2 fixes (reviewer taste), so kept for v1.1 to leave reviewed text stable
+
+## story:10_hermit_milfa.r3
+- [x] ev:2121EC, ev:21AE30, ev:21E4EE - Poala agrees: “そうね…” - Repeated “I guess so…” makes straightforward agreement sound hesitant, slightly weakening her decisive voice across the chapter - Suggested EN: “Right…” / “Yes, let’s…” / “That’s right…”, respectively. -- waived: round-3 story-pass Minor on a chapter already passed ok; several reverse round-2 fixes (reviewer taste), so kept for v1.1 to leave reviewed text stable
+- [x] ev:214B48 - Poala corrects Beet for treating their answer like a job report - “There’s no reporting, is there?” makes her teasing correction sound awkward and uncertain - Suggested EN: “…Honestly, Beet, this isn’t a job! We’re giving him an answer, not reporting back!” -- waived: round-3 story-pass Minor on a chapter already passed ok; several reverse round-2 fixes (reviewer taste), so kept for v1.1 to leave reviewed text stable
+
+## story:11_kissu_probation.r3
+- [x] ev:224260 - Milfa worries her presence could hinder the team’s growth - “Dampening everyone’s growth” sounds unnatural during an otherwise heartfelt exchange - Suggested EN: “…Poala. From my side… I worry that staying with you might hold you back… keep you from growing as the Beet Warriors.” -- waived: round-3 story-pass Minor on a chapter already passed ok; several reverse round-2 fixes (reviewer taste), so kept for v1.1 to leave reviewed text stable
+- [x] ev:229A1C - Beet wonders whether the Black Horizon could become a field of flowers - “Nah, guess that ain’t gonna happen!” makes him dismiss his own hopeful idea before the Appraiser answers - Suggested EN: “Think this could turn the Black Horizon into a whole field of flowers someday?!” -- waived: round-3 story-pass Minor on a chapter already passed ok; several reverse round-2 fixes (reviewer taste), so kept for v1.1 to leave reviewed text stable
+
+## story:12_sadram_grineed.r3
+- [x] `ev:2329EE` - Slade warns that confronting Grineed is reckless - “That's reckless… that is…!” has an awkward trailing repetition - Suggested EN: “That’s… reckless…!” -- waived: round-3 story-pass Minor on a chapter already passed ok; several reverse round-2 fixes (reviewer taste), so kept for v1.1 to leave reviewed text stable
+- [x] `ev:2323CE` - Milfa expresses relief after a frightening near miss - “That gave me a cold sweat” is unnatural phrasing - Suggested EN: “Phew… That had me breaking out in a cold sweat…!” -- waived: round-3 story-pass Minor on a chapter already passed ok; several reverse round-2 fixes (reviewer taste), so kept for v1.1 to leave reviewed text stable
+- [x] `ev:23A4BE` - Milfa urgently searches for a solution - The trailing “I wonder” makes the question cumbersome - Suggested EN: “…There must be… some way to stop it…!” -- waived: round-3 story-pass Minor on a chapter already passed ok; several reverse round-2 fixes (reviewer taste), so kept for v1.1 to leave reviewed text stable
+
+## story:13_ending.r3
+- [x] ev:1A7248 - Kissu is incredulous that Grineed was mentally stable before transforming - “with his mind steady” sounds awkward and slightly blunts the comic reaction - Suggested EN: “Y-you mean… all this time… THAT was him calm?!” -- waived: round-3 story-pass Minor on a chapter already passed ok; several reverse round-2 fixes (reviewer taste), so kept for v1.1 to leave reviewed text stable
+
+## story:14_side_tower_party.r3
+- [x] ev:17E300 - The Riddle Master urges the party to become the next generation of riddle champions - “Carry the next generation of the riddle world on your shoulders” is cumbersome and weakens his enthusiastic recruitment pitch - Suggested EN: “You lot… how would you like to quit being Busters and become the next great names in the world of riddles?!” -- waived: round-3 story-pass Minor on a chapter already passed ok; several reverse round-2 fixes (reviewer taste), so kept for v1.1 to leave reviewed text stable
+
+## story:15_side_juno_party_lake.r3
+- [x] ev:18F350 - JP gist: “What danger will emerge—an ogre or a snake?” - “No telling what awaits us” softens Slade’s ominous response to Milfa’s excitement into neutral uncertainty. - Suggested EN: “…Who knows what nasty surprise awaits…” -- waived: round-3 story-pass Minor on a chapter already passed ok; several reverse round-2 fixes (reviewer taste), so kept for v1.1 to leave reviewed text stable
