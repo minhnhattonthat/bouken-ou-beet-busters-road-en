@@ -19,6 +19,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "tools"))
 import check_rom  # noqa: E402
+import gfx  # noqa: E402
 import romdiff  # noqa: E402
 import text16  # noqa: E402
 
@@ -64,6 +65,7 @@ CODE = [
     (0x04E01A, "0123", "0323", "book 属性 value: draw 3 codes (6 letters), was 1"),
 ]
 REGIONS += [(o, o + len(bytes.fromhex(a)), why) for o, a, _, why in CODE]
+REGIONS += gfx.regions()
 RULER = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789abcdefghijklmnopqrstuvwxyz"
 
 
@@ -138,6 +140,12 @@ def code(p):
         if p.orig[off:off + len(old)] != old or len(new) != len(old):
             raise ValueError(f"code patch {off:#x} ({why}): dump bytes differ")
         p.put(off, new, f"code:{why}")
+
+
+def graphics(p):
+    """Graphics-text redraws (tools/gfx.py, docs/re/graphics.md), written in place over the original blocks."""
+    for off, data, why in gfx.patches(p.orig):
+        p.put(off, data, why)
 
 
 def marker(e, width):
@@ -219,6 +227,7 @@ def build(identity_pass=False, marker_width=None, qa=None):
         space = Space()
         font(p, space)
         code(p)
+        graphics(p)
         n = text(p, space, marker_width, qa)
         p.free_left = sum(hi - lo for lo, hi in space.free)
     if len(p.buf) != SIZE:

@@ -28,7 +28,7 @@ Result: **all Japanese graphics text is uncompressed**, in two banks; the LZ arc
 |---|---|---|---|---|
 | G1 | Copyright | cold boot f480 | (c) lines in Japanese (三条陸・稲田浩司/集英社 ...) | not yet located (raw bank or runtime font) |
 | G2 | Title | cold boot f600 | logo 冒険王ビィト バスターズロード | large stylized title fragments at `0x30A400+C600` and `0xDEF000-0xDF1C00` (raw); find which by vramfind on the title dump `work/qa/vboot/ppu_000600` |
-| G3 | Field menu | Start from field (`work/states/bedroom_freeroam.mss`) | ステータス 道具 装備 特技 クエスト 隊列 作戦 図鑑 オプション 中断 | raw tiles `0x30F380-0x30FE00` (verified, vramfind) |
+| G3 | Field menu | Start from field (`work/states/bedroom_freeroam.mss`) | ステータス 道具 装備 特技 クエスト 隊列 作戦 図鑑 オプション 中断 | **Done (session 11)**: BG3, two screen copies (tile block u32 len*2 + 4bpp tiles; map u16 w,h + entries) `0xDE216C`/`0xDE2C70` (ends 中断) and `0xDE14E8`/`0xDE1FEC` (ends 終了), pointer triples (tiles, map, palette) at `0x3AA14`/`0x3AA9C`. `tools/gfx.py` G3: left-aligned labels, tilemap reallocated so Tactics/Options/Suspend spill into col 6 (highlight covers it). `0x30F560` was a lookalike. |
 | G4 | Toolbox (道具) | menu > 道具 | tab その他 (and other tabs), `SELECT: ならびかえ`, `PAGE` | raw bank `0xDDA400-0xE03000` (guess) |
 | G5 | Status box, name entry | menu | small 8x8 font: kana, Latin, digits, Greek (ビィト in the status box) | **second font**: raw gba4 at `0x300000` (~0x2C00 bytes, SJIS cell order like the 12x12 one), verified by sight (`work/gfx/r300000.png`) |
 | G6 | Status (ステータス) | menu > ステータス | label 昇格値 | raw bank (guess) |
