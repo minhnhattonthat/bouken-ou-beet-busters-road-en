@@ -293,9 +293,40 @@ Generic tags, used as the name box (24 letters). In dialogue the same words take
 | 究極の戦士団 | Supreme Warriors | 16 | rank | |
 | 奇跡の戦士団 | Miracle Warriors | 16 | rank | |
 | 伝説の戦士団 | Legend Warriors | 16 | rank | |
+| サソリのシッポ | Scorpion Tail | 20 | loot | |
+| 黒煙モンスター | black-smoke monster | | | |
+| 毒霧 | poison mist | | | |
+| 商隊 | caravan | | | |
+| 中枢 | core | | | |
+| 実験台 | test subjects | | | |
+| 門番 | gatekeeper | | | |
+| 海のブロウガンナー | Sea Blowgunner | | | |
+| 凶暴 | ferocious | | of monsters | |
+| トロワナの門 | Gate of Trowana | | | |
+| 毒鱗粉 | poison scales | | | |
+| 紅い巨人 | Crimson Giant | | | |
+| ハンサム君 | Handsome-kun | | | |
+| 保護観察 | probation officer | | | |
+| 手配書 | wanted poster | | | |
+| 鑑定士さん | Mister Appraiser | | | |
+| 天撃の気流 | Air Current | 12 | Divine Attack; tenmon:026 must match | |
+| モンスターの名人 | Monster Masters | | | |
+| 強盗団 | bandit gang | | | |
+| 初代大公 | the First Grand Duke | | | |
+| トロワナの警備隊 | the Trowana Guard | | | |
+| 謎かけ | conundrum | | = ナゾかけ | |
+| 星宿の扉 | The Star Door | | | |
+| 謎の玉 | A Strange Sphere | | quest title | |
+| モンスター工場 | monster factory | | | |
+| 管理官 | inspector | | | |
+| 門崩し | Gate Breaker | | | |
+| レッドヴァンソード | Red Van Sword | 20 | | |
+| 分離体 | split-off bodies | | | |
+| 期待の新戦力 | hot new recruit | | | |
 
 ## Decisions from earlier batches
 - recon (2026-11-14): spellings chosen between recon reports: work/tl/recon/glossary_draft.md "Conflicts resolved".
   暗黒の世紀 = Dark Century (Viz-era English sources), not the draft's Dark Age.
 - Unsure, kept until seen in game: 絶 / 極 chalices (Peril / Polar), 紅い巨人 (Crimson Giant: no monster-table match),
   樹木系 tree-type. Monster names must equal the tbl_monsters English.
+- 薬草 in dialogue may be plain "herb" when it is not the item itself (b032/b033: polish).
