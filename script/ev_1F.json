@@ -4,7 +4,7 @@
   "addr": "1F0044",
   "kind": "name",
   "jp": "ベンチュラ",
-  "en": "",
+  "en": "Ventura",
   "bytes": 12,
   "sites": [
    "1EE8C3:op59+1",
@@ -21,7 +21,8 @@
    "1EE8C3:op59+1",
    "1EE8C3:op59+1",
    "1EE8C3:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F0050",
@@ -52,7 +53,7 @@
   "addr": "1F00D6",
   "kind": "name",
   "jp": "？？？？",
-  "en": "",
+  "en": "???",
   "bytes": 10,
   "sites": [
    "1EE8D9:op52+1",
@@ -69,7 +70,8 @@
    "1EE8D9:op52+1",
    "1EE8D9:op52+1",
    "1EE8D9:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F00E0",
@@ -100,7 +102,7 @@
   "addr": "1F00F0",
   "kind": "name",
   "jp": "ベンチュラ",
-  "en": "",
+  "en": "Ventura",
   "bytes": 12,
   "sites": [
    "1EE8E4:op59+1",
@@ -117,7 +119,8 @@
    "1EE8E4:op59+1",
    "1EE8E4:op59+1",
    "1EE8E4:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F00FC",
@@ -148,11 +151,12 @@
   "addr": "1F0114",
   "kind": "name",
   "jp": "おねえさん",
-  "en": "",
+  "en": "Young Woman",
   "bytes": 12,
   "sites": [
    "1EE93E:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F0120",
@@ -170,11 +174,12 @@
   "addr": "1F018C",
   "kind": "name",
   "jp": "おばさん",
-  "en": "",
+  "en": "Woman",
   "bytes": 10,
   "sites": [
    "1EE94A:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F0196",
@@ -192,11 +197,12 @@
   "addr": "1F01D0",
   "kind": "name",
   "jp": "女の子",
-  "en": "",
+  "en": "Girl",
   "bytes": 8,
   "sites": [
    "1EE956:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F01D8",
@@ -214,11 +220,12 @@
   "addr": "1F01F2",
   "kind": "name",
   "jp": "おじいさん",
-  "en": "",
+  "en": "Old Man",
   "bytes": 12,
   "sites": [
    "1EE962:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F01FE",
@@ -236,11 +243,12 @@
   "addr": "1F023C",
   "kind": "name",
   "jp": "おじさん",
-  "en": "",
+  "en": "Man",
   "bytes": 10,
   "sites": [
    "1EE973:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F0246",
@@ -258,11 +266,12 @@
   "addr": "1F02E4",
   "kind": "name",
   "jp": "おばさん",
-  "en": "",
+  "en": "Woman",
   "bytes": 10,
   "sites": [
    "1EE97F:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F02EE",
@@ -280,11 +289,12 @@
   "addr": "1F032E",
   "kind": "name",
   "jp": "おねえさん",
-  "en": "",
+  "en": "Young Woman",
   "bytes": 12,
   "sites": [
    "1EE98B:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F033A",
@@ -302,11 +312,12 @@
   "addr": "1F0366",
   "kind": "name",
   "jp": "おじさん",
-  "en": "",
+  "en": "Man",
   "bytes": 10,
   "sites": [
    "1EE997:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F0370",
@@ -324,11 +335,12 @@
   "addr": "1F03BA",
   "kind": "name",
   "jp": "おにいさん",
-  "en": "",
+  "en": "Young Man",
   "bytes": 12,
   "sites": [
    "1EE9A3:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F03C6",
@@ -346,11 +358,12 @@
   "addr": "1F0420",
   "kind": "name",
   "jp": "おじさん",
-  "en": "",
+  "en": "Man",
   "bytes": 10,
   "sites": [
    "1EE9AF:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F042A",
@@ -368,11 +381,12 @@
   "addr": "1F0480",
   "kind": "name",
   "jp": "男の子",
-  "en": "",
+  "en": "Boy",
   "bytes": 8,
   "sites": [
    "1EE9BB:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F0488",
@@ -401,11 +415,12 @@
   "addr": "1F0C9A",
   "kind": "name",
   "jp": "鑑定士",
-  "en": "",
+  "en": "Appraiser",
   "bytes": 8,
   "sites": [
    "1F04CC:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F0CA2",
@@ -423,11 +438,12 @@
   "addr": "1F0D0E",
   "kind": "name",
   "jp": "ポアラ",
-  "en": "",
+  "en": "Poala",
   "bytes": 8,
   "sites": [
    "1F04E2:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F0D16",
@@ -445,11 +461,12 @@
   "addr": "1F0D2E",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F04F8:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F0D36",
@@ -467,11 +484,12 @@
   "addr": "1F0D78",
   "kind": "name",
   "jp": "スレッド",
-  "en": "",
+  "en": "Slade",
   "bytes": 10,
   "sites": [
    "1F0517:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F0D82",
@@ -489,12 +507,13 @@
   "addr": "1F0D92",
   "kind": "name",
   "jp": "ポアラ",
-  "en": "",
+  "en": "Poala",
   "bytes": 8,
   "sites": [
    "1F052D:op59+1",
    "1F052D:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F0D9A",
@@ -513,12 +532,13 @@
   "addr": "1F0DE6",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F0543:op59+1",
    "1F0543:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F0DEE",
@@ -537,12 +557,13 @@
   "addr": "1F0E38",
   "kind": "name",
   "jp": "鑑定士",
-  "en": "",
+  "en": "Appraiser",
   "bytes": 8,
   "sites": [
    "1F0559:op59+1",
    "1F0559:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F0E40",
@@ -561,12 +582,13 @@
   "addr": "1F0E66",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F056F:op59+1",
    "1F056F:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F0E6E",
@@ -585,12 +607,13 @@
   "addr": "1F0EE6",
   "kind": "name",
   "jp": "ポアラ",
-  "en": "",
+  "en": "Poala",
   "bytes": 8,
   "sites": [
    "1F0585:op59+1",
    "1F0585:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F0EEE",
@@ -609,12 +632,13 @@
   "addr": "1F0F88",
   "kind": "name",
   "jp": "鑑定士",
-  "en": "",
+  "en": "Appraiser",
   "bytes": 8,
   "sites": [
    "1F059B:op59+1",
    "1F059B:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F0F90",
@@ -633,12 +657,13 @@
   "addr": "1F0FDE",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F05B1:op59+1",
    "1F05B1:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F0FE6",
@@ -657,12 +682,13 @@
   "addr": "1F1052",
   "kind": "name",
   "jp": "ポアラ",
-  "en": "",
+  "en": "Poala",
   "bytes": 8,
   "sites": [
    "1F05C7:op59+1",
    "1F05C7:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F105A",
@@ -681,12 +707,13 @@
   "addr": "1F106A",
   "kind": "name",
   "jp": "鑑定士",
-  "en": "",
+  "en": "Appraiser",
   "bytes": 8,
   "sites": [
    "1F05DD:op59+1",
    "1F05DD:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F1072",
@@ -705,12 +732,13 @@
   "addr": "1F10A8",
   "kind": "name",
   "jp": "スレッド",
-  "en": "",
+  "en": "Slade",
   "bytes": 10,
   "sites": [
    "1F05FC:op59+1",
    "1F05FC:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F10B2",
@@ -729,13 +757,14 @@
   "addr": "1F10C2",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F0612:op59+1",
    "1F0612:op59+1",
    "1F0612:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F10CA",
@@ -755,13 +784,14 @@
   "addr": "1F10F2",
   "kind": "name",
   "jp": "ポアラ",
-  "en": "",
+  "en": "Poala",
   "bytes": 8,
   "sites": [
    "1F0628:op59+1",
    "1F0628:op59+1",
    "1F0628:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F10FA",
@@ -781,13 +811,14 @@
   "addr": "1F110A",
   "kind": "name",
   "jp": "鑑定士",
-  "en": "",
+  "en": "Appraiser",
   "bytes": 8,
   "sites": [
    "1F063E:op59+1",
    "1F063E:op59+1",
    "1F063E:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F1112",
@@ -807,13 +838,14 @@
   "addr": "1F1162",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F0654:op59+1",
    "1F0654:op59+1",
    "1F0654:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F116A",
@@ -833,13 +865,14 @@
   "addr": "1F119C",
   "kind": "name",
   "jp": "鑑定士",
-  "en": "",
+  "en": "Appraiser",
   "bytes": 8,
   "sites": [
    "1F066A:op59+1",
    "1F066A:op59+1",
    "1F066A:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F11A4",
@@ -859,13 +892,14 @@
   "addr": "1F11FE",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F0680:op59+1",
    "1F0680:op59+1",
    "1F0680:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F1206",
@@ -885,13 +919,14 @@
   "addr": "1F1214",
   "kind": "name",
   "jp": "鑑定士",
-  "en": "",
+  "en": "Appraiser",
   "bytes": 8,
   "sites": [
    "1F0696:op59+1",
    "1F0696:op59+1",
    "1F0696:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F121C",
@@ -911,13 +946,14 @@
   "addr": "1F12AA",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F06AC:op59+1",
    "1F06AC:op59+1",
    "1F06AC:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F12B2",
@@ -937,13 +973,14 @@
   "addr": "1F1320",
   "kind": "name",
   "jp": "ポアラ",
-  "en": "",
+  "en": "Poala",
   "bytes": 8,
   "sites": [
    "1F06C2:op59+1",
    "1F06C2:op59+1",
    "1F06C2:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F1328",
@@ -963,13 +1000,14 @@
   "addr": "1F1386",
   "kind": "name",
   "jp": "スレッド",
-  "en": "",
+  "en": "Slade",
   "bytes": 10,
   "sites": [
    "1F06E1:op59+1",
    "1F06E1:op59+1",
    "1F06E1:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F1390",
@@ -989,14 +1027,15 @@
   "addr": "1F13A2",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F06F7:op59+1",
    "1F06F7:op59+1",
    "1F06F7:op59+1",
    "1F06F7:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F13AA",
@@ -1017,14 +1056,15 @@
   "addr": "1F140C",
   "kind": "name",
   "jp": "ポアラ",
-  "en": "",
+  "en": "Poala",
   "bytes": 8,
   "sites": [
    "1F070D:op59+1",
    "1F070D:op59+1",
    "1F070D:op59+1",
    "1F070D:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F1414",
@@ -1045,14 +1085,15 @@
   "addr": "1F142E",
   "kind": "name",
   "jp": "鑑定士",
-  "en": "",
+  "en": "Appraiser",
   "bytes": 8,
   "sites": [
    "1F0723:op59+1",
    "1F0723:op59+1",
    "1F0723:op59+1",
    "1F0723:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F1436",
@@ -1073,14 +1114,15 @@
   "addr": "1F1486",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F0739:op59+1",
    "1F0739:op59+1",
    "1F0739:op59+1",
    "1F0739:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F148E",
@@ -1101,11 +1143,12 @@
   "addr": "1F14BE",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F0766:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F14C6",
@@ -1123,11 +1166,12 @@
   "addr": "1F1502",
   "kind": "name",
   "jp": "スレッド",
-  "en": "",
+  "en": "Slade",
   "bytes": 10,
   "sites": [
    "1F0785:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F150C",
@@ -1145,12 +1189,13 @@
   "addr": "1F151C",
   "kind": "name",
   "jp": "ポアラ",
-  "en": "",
+  "en": "Poala",
   "bytes": 8,
   "sites": [
    "1F079B:op59+1",
    "1F079B:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F1524",
@@ -1169,12 +1214,13 @@
   "addr": "1F156A",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F07B1:op59+1",
    "1F07B1:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F1572",
@@ -1193,12 +1239,13 @@
   "addr": "1F158A",
   "kind": "name",
   "jp": "ポアラ",
-  "en": "",
+  "en": "Poala",
   "bytes": 8,
   "sites": [
    "1F07C7:op59+1",
    "1F07C7:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F1592",
@@ -1217,12 +1264,13 @@
   "addr": "1F15F8",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F07DD:op59+1",
    "1F07DD:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F1600",
@@ -1241,12 +1289,13 @@
   "addr": "1F1624",
   "kind": "name",
   "jp": "ポアラ",
-  "en": "",
+  "en": "Poala",
   "bytes": 8,
   "sites": [
    "1F07F3:op59+1",
    "1F07F3:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F162C",
@@ -1265,12 +1314,13 @@
   "addr": "1F168A",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F0809:op59+1",
    "1F0809:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F1692",
@@ -1289,12 +1339,13 @@
   "addr": "1F16E8",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F084F:op59+1",
    "1F084F:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F16F0",
@@ -1313,12 +1364,13 @@
   "addr": "1F171C",
   "kind": "name",
   "jp": "ベンチュラ",
-  "en": "",
+  "en": "Ventura",
   "bytes": 12,
   "sites": [
    "1F0865:op59+1",
    "1F0865:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F1728",
@@ -1337,12 +1389,13 @@
   "addr": "1F175A",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F087B:op59+1",
    "1F087B:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F1762",
@@ -1361,12 +1414,13 @@
   "addr": "1F17CC",
   "kind": "name",
   "jp": "ベンチュラ",
-  "en": "",
+  "en": "Ventura",
   "bytes": 12,
   "sites": [
    "1F0891:op59+1",
    "1F0891:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F17D8",
@@ -1385,12 +1439,13 @@
   "addr": "1F17FE",
   "kind": "name",
   "jp": "ポアラ",
-  "en": "",
+  "en": "Poala",
   "bytes": 8,
   "sites": [
    "1F08A7:op59+1",
    "1F08A7:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F1806",
@@ -1421,12 +1476,13 @@
   "addr": "1F1838",
   "kind": "name",
   "jp": "ベンチュラ",
-  "en": "",
+  "en": "Ventura",
   "bytes": 12,
   "sites": [
    "1F08D2:op59+1",
    "1F08D2:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F1844",
@@ -1445,12 +1501,13 @@
   "addr": "1F18A0",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F08E8:op59+1",
    "1F08E8:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F18A8",
@@ -1469,12 +1526,13 @@
   "addr": "1F18EA",
   "kind": "name",
   "jp": "スレッド",
-  "en": "",
+  "en": "Slade",
   "bytes": 10,
   "sites": [
    "1F0907:op59+1",
    "1F0907:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F18F4",
@@ -1493,13 +1551,14 @@
   "addr": "1F1904",
   "kind": "name",
   "jp": "ベンチュラ",
-  "en": "",
+  "en": "Ventura",
   "bytes": 12,
   "sites": [
    "1F091D:op59+1",
    "1F091D:op59+1",
    "1F091D:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F1910",
@@ -1519,13 +1578,14 @@
   "addr": "1F1980",
   "kind": "name",
   "jp": "ポアラ",
-  "en": "",
+  "en": "Poala",
   "bytes": 8,
   "sites": [
    "1F0933:op59+1",
    "1F0933:op59+1",
    "1F0933:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F1988",
@@ -1545,13 +1605,14 @@
   "addr": "1F1998",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F0949:op59+1",
    "1F0949:op59+1",
    "1F0949:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F19A0",
@@ -1571,13 +1632,14 @@
   "addr": "1F19F0",
   "kind": "name",
   "jp": "ベンチュラ",
-  "en": "",
+  "en": "Ventura",
   "bytes": 12,
   "sites": [
    "1F096A:op59+1",
    "1F096A:op59+1",
    "1F096A:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F19FC",
@@ -1597,13 +1659,14 @@
   "addr": "1F1A58",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F0980:op59+1",
    "1F0980:op59+1",
    "1F0980:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F1A60",
@@ -1623,13 +1686,14 @@
   "addr": "1F1ACE",
   "kind": "name",
   "jp": "ポアラ",
-  "en": "",
+  "en": "Poala",
   "bytes": 8,
   "sites": [
    "1F0996:op59+1",
    "1F0996:op59+1",
    "1F0996:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F1AD6",
@@ -1649,13 +1713,14 @@
   "addr": "1F1B22",
   "kind": "name",
   "jp": "ベンチュラ",
-  "en": "",
+  "en": "Ventura",
   "bytes": 12,
   "sites": [
    "1F09B7:op59+1",
    "1F09B7:op59+1",
    "1F09B7:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F1B2E",
@@ -1675,13 +1740,14 @@
   "addr": "1F1B54",
   "kind": "name",
   "jp": "ポアラ",
-  "en": "",
+  "en": "Poala",
   "bytes": 8,
   "sites": [
    "1F09CD:op59+1",
    "1F09CD:op59+1",
    "1F09CD:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F1B5C",
@@ -1701,14 +1767,15 @@
   "addr": "1F1B74",
   "kind": "name",
   "jp": "ベンチュラ",
-  "en": "",
+  "en": "Ventura",
   "bytes": 12,
   "sites": [
    "1F0A20:op59+1",
    "1F0A20:op59+1",
    "1F0A20:op59+1",
    "1F0A20:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F1B80",
@@ -1729,14 +1796,15 @@
   "addr": "1F1BA0",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F0A36:op59+1",
    "1F0A36:op59+1",
    "1F0A36:op59+1",
    "1F0A36:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F1BA8",
@@ -1757,14 +1825,15 @@
   "addr": "1F1BE8",
   "kind": "name",
   "jp": "ベンチュラ",
-  "en": "",
+  "en": "Ventura",
   "bytes": 12,
   "sites": [
    "1F0A4C:op59+1",
    "1F0A4C:op59+1",
    "1F0A4C:op59+1",
    "1F0A4C:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F1BF4",
@@ -1785,14 +1854,15 @@
   "addr": "1F1C4C",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F0A62:op59+1",
    "1F0A62:op59+1",
    "1F0A62:op59+1",
    "1F0A62:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F1C54",
@@ -1813,14 +1883,15 @@
   "addr": "1F1C92",
   "kind": "name",
   "jp": "？？？？",
-  "en": "",
+  "en": "???",
   "bytes": 10,
   "sites": [
    "1F0A8A:op52+1",
    "1F0A8A:op52+1",
    "1F0A8A:op52+1",
    "1F0A8A:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F1C9C",
@@ -1841,14 +1912,15 @@
   "addr": "1F1CAC",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F0AB3:op59+1",
    "1F0AB3:op59+1",
    "1F0AB3:op59+1",
    "1F0AB3:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F1CB4",
@@ -1869,14 +1941,15 @@
   "addr": "1F1CD2",
   "kind": "name",
   "jp": "ポアラ",
-  "en": "",
+  "en": "Poala",
   "bytes": 8,
   "sites": [
    "1F0AC9:op59+1",
    "1F0AC9:op59+1",
    "1F0AC9:op59+1",
    "1F0AC9:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F1CDA",
@@ -1897,14 +1970,15 @@
   "addr": "1F1CEC",
   "kind": "name",
   "jp": "？？？？",
-  "en": "",
+  "en": "???",
   "bytes": 10,
   "sites": [
    "1F0AEB:op52+1",
    "1F0AEB:op52+1",
    "1F0AEB:op52+1",
    "1F0AEB:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F1CF6",
@@ -1925,14 +1999,15 @@
   "addr": "1F1D28",
   "kind": "name",
   "jp": "ベンチュラ",
-  "en": "",
+  "en": "Ventura",
   "bytes": 12,
   "sites": [
    "1F0AF6:op59+1",
    "1F0AF6:op59+1",
    "1F0AF6:op59+1",
    "1F0AF6:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F1D34",
@@ -1953,14 +2028,15 @@
   "addr": "1F1D5C",
   "kind": "name",
   "jp": "スレッド",
-  "en": "",
+  "en": "Slade",
   "bytes": 10,
   "sites": [
    "1F0B15:op59+1",
    "1F0B15:op59+1",
    "1F0B15:op59+1",
    "1F0B15:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F1D66",
@@ -1981,7 +2057,7 @@
   "addr": "1F1D76",
   "kind": "name",
   "jp": "ポアラ",
-  "en": "",
+  "en": "Poala",
   "bytes": 8,
   "sites": [
    "1F0B2B:op59+1",
@@ -1989,7 +2065,8 @@
    "1F0B2B:op59+1",
    "1F0B2B:op59+1",
    "1F0B2B:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F1D7E",
@@ -2011,7 +2088,7 @@
   "addr": "1F1DA2",
   "kind": "name",
   "jp": "ベンチュラ",
-  "en": "",
+  "en": "Ventura",
   "bytes": 12,
   "sites": [
    "1F0B41:op59+1",
@@ -2019,7 +2096,8 @@
    "1F0B41:op59+1",
    "1F0B41:op59+1",
    "1F0B41:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F1DAE",
@@ -2041,7 +2119,7 @@
   "addr": "1F1DDC",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F0B81:op59+1",
@@ -2049,7 +2127,8 @@
    "1F0B81:op59+1",
    "1F0B81:op59+1",
    "1F0B81:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F1DE4",
@@ -2071,7 +2150,7 @@
   "addr": "1F1DF4",
   "kind": "name",
   "jp": "ポアラ",
-  "en": "",
+  "en": "Poala",
   "bytes": 8,
   "sites": [
    "1F0B97:op59+1",
@@ -2079,7 +2158,8 @@
    "1F0B97:op59+1",
    "1F0B97:op59+1",
    "1F0B97:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F1DFC",
@@ -2101,7 +2181,7 @@
   "addr": "1F1E34",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F0BAD:op59+1",
@@ -2109,7 +2189,8 @@
    "1F0BAD:op59+1",
    "1F0BAD:op59+1",
    "1F0BAD:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F1E3C",
@@ -2131,7 +2212,7 @@
   "addr": "1F1E4C",
   "kind": "name",
   "jp": "ポアラ",
-  "en": "",
+  "en": "Poala",
   "bytes": 8,
   "sites": [
    "1F0BC3:op59+1",
@@ -2139,7 +2220,8 @@
    "1F0BC3:op59+1",
    "1F0BC3:op59+1",
    "1F0BC3:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F1E54",
@@ -2161,7 +2243,7 @@
   "addr": "1F1E7A",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F0BD9:op59+1",
@@ -2169,7 +2251,8 @@
    "1F0BD9:op59+1",
    "1F0BD9:op59+1",
    "1F0BD9:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F1E82",
@@ -2191,7 +2274,7 @@
   "addr": "1F1EF2",
   "kind": "name",
   "jp": "スレッド",
-  "en": "",
+  "en": "Slade",
   "bytes": 10,
   "sites": [
    "1F0BF8:op59+1",
@@ -2199,7 +2282,8 @@
    "1F0BF8:op59+1",
    "1F0BF8:op59+1",
    "1F0BF8:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F1EFC",
@@ -2221,7 +2305,7 @@
   "addr": "1F1F0C",
   "kind": "name",
   "jp": "ポアラ",
-  "en": "",
+  "en": "Poala",
   "bytes": 8,
   "sites": [
    "1F0C0E:op59+1",
@@ -2230,7 +2314,8 @@
    "1F0C0E:op59+1",
    "1F0C0E:op59+1",
    "1F0C0E:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F1F14",
@@ -2253,7 +2338,7 @@
   "addr": "1F1F46",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F0C24:op59+1",
@@ -2262,7 +2347,8 @@
    "1F0C24:op59+1",
    "1F0C24:op59+1",
    "1F0C24:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F1F4E",
@@ -2285,7 +2371,7 @@
   "addr": "1F1F94",
   "kind": "name",
   "jp": "ポアラ",
-  "en": "",
+  "en": "Poala",
   "bytes": 8,
   "sites": [
    "1F0C3A:op59+1",
@@ -2294,7 +2380,8 @@
    "1F0C3A:op59+1",
    "1F0C3A:op59+1",
    "1F0C3A:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F1F9C",
@@ -2317,7 +2404,7 @@
   "addr": "1F1FC0",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F0C50:op59+1",
@@ -2326,7 +2413,8 @@
    "1F0C50:op59+1",
    "1F0C50:op59+1",
    "1F0C50:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F1FC8",
@@ -2349,13 +2437,14 @@
   "addr": "1F2520",
   "kind": "name",
   "jp": "鑑定士",
-  "en": "",
+  "en": "Appraiser",
   "bytes": 8,
   "sites": [
    "1F2012:op59+1",
    "1F2012:op59+1",
    "1F2012:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F2528",
@@ -2375,13 +2464,14 @@
   "addr": "1F25A0",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F2028:op59+1",
    "1F2028:op59+1",
    "1F2028:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F25A8",
@@ -2401,13 +2491,14 @@
   "addr": "1F25CC",
   "kind": "name",
   "jp": "鑑定士",
-  "en": "",
+  "en": "Appraiser",
   "bytes": 8,
   "sites": [
    "1F203E:op59+1",
    "1F203E:op59+1",
    "1F203E:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F25D4",
@@ -2427,13 +2518,14 @@
   "addr": "1F2600",
   "kind": "name",
   "jp": "鑑定士",
-  "en": "",
+  "en": "Appraiser",
   "bytes": 8,
   "sites": [
    "1F2054:op59+1",
    "1F2054:op59+1",
    "1F2054:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F2608",
@@ -2453,13 +2545,14 @@
   "addr": "1F2640",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F206A:op59+1",
    "1F206A:op59+1",
    "1F206A:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F2648",
@@ -2479,13 +2572,14 @@
   "addr": "1F265C",
   "kind": "name",
   "jp": "ポアラ",
-  "en": "",
+  "en": "Poala",
   "bytes": 8,
   "sites": [
    "1F2080:op59+1",
    "1F2080:op59+1",
    "1F2080:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F2664",
@@ -2505,13 +2599,14 @@
   "addr": "1F2682",
   "kind": "name",
   "jp": "スレッド",
-  "en": "",
+  "en": "Slade",
   "bytes": 10,
   "sites": [
    "1F209F:op59+1",
    "1F209F:op59+1",
    "1F209F:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F268C",
@@ -2531,14 +2626,15 @@
   "addr": "1F269C",
   "kind": "name",
   "jp": "鑑定士",
-  "en": "",
+  "en": "Appraiser",
   "bytes": 8,
   "sites": [
    "1F20B5:op59+1",
    "1F20B5:op59+1",
    "1F20B5:op59+1",
    "1F20B5:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F26A4",
@@ -2559,14 +2655,15 @@
   "addr": "1F26FC",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F20CB:op59+1",
    "1F20CB:op59+1",
    "1F20CB:op59+1",
    "1F20CB:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F2704",
@@ -2587,14 +2684,15 @@
   "addr": "1F2714",
   "kind": "name",
   "jp": "鑑定士",
-  "en": "",
+  "en": "Appraiser",
   "bytes": 8,
   "sites": [
    "1F20E1:op59+1",
    "1F20E1:op59+1",
    "1F20E1:op59+1",
    "1F20E1:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F271C",
@@ -2615,7 +2713,7 @@
   "addr": "1F2796",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F20F7:op59+1",
@@ -2623,7 +2721,8 @@
    "1F20F7:op59+1",
    "1F20F7:op59+1",
    "1F20F7:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F279E",
@@ -2645,7 +2744,7 @@
   "addr": "1F27FE",
   "kind": "name",
   "jp": "ポアラ",
-  "en": "",
+  "en": "Poala",
   "bytes": 8,
   "sites": [
    "1F210D:op59+1",
@@ -2653,7 +2752,8 @@
    "1F210D:op59+1",
    "1F210D:op59+1",
    "1F210D:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F2806",
@@ -2675,7 +2775,7 @@
   "addr": "1F2854",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F2123:op59+1",
@@ -2683,7 +2783,8 @@
    "1F2123:op59+1",
    "1F2123:op59+1",
    "1F2123:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F285C",
@@ -2705,7 +2806,7 @@
   "addr": "1F289C",
   "kind": "name",
   "jp": "鑑定士",
-  "en": "",
+  "en": "Appraiser",
   "bytes": 8,
   "sites": [
    "1F2139:op59+1",
@@ -2713,7 +2814,8 @@
    "1F2139:op59+1",
    "1F2139:op59+1",
    "1F2139:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F28A4",
@@ -2735,7 +2837,7 @@
   "addr": "1F28EE",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F214F:op59+1",
@@ -2743,7 +2845,8 @@
    "1F214F:op59+1",
    "1F214F:op59+1",
    "1F214F:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F28F6",
@@ -2765,7 +2868,7 @@
   "addr": "1F2946",
   "kind": "name",
   "jp": "鑑定士",
-  "en": "",
+  "en": "Appraiser",
   "bytes": 8,
   "sites": [
    "1F2165:op59+1",
@@ -2773,7 +2876,8 @@
    "1F2165:op59+1",
    "1F2165:op59+1",
    "1F2165:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F294E",
@@ -2795,7 +2899,7 @@
   "addr": "1F29AE",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F217B:op59+1",
@@ -2803,7 +2907,8 @@
    "1F217B:op59+1",
    "1F217B:op59+1",
    "1F217B:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F29B6",
@@ -2825,7 +2930,7 @@
   "addr": "1F29C4",
   "kind": "name",
   "jp": "鑑定士",
-  "en": "",
+  "en": "Appraiser",
   "bytes": 8,
   "sites": [
    "1F2191:op59+1",
@@ -2833,7 +2938,8 @@
    "1F2191:op59+1",
    "1F2191:op59+1",
    "1F2191:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F29CC",
@@ -2855,7 +2961,7 @@
   "addr": "1F2A5A",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F21A7:op59+1",
@@ -2863,7 +2969,8 @@
    "1F21A7:op59+1",
    "1F21A7:op59+1",
    "1F21A7:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F2A62",
@@ -2885,7 +2992,7 @@
   "addr": "1F2ABC",
   "kind": "name",
   "jp": "鑑定士",
-  "en": "",
+  "en": "Appraiser",
   "bytes": 8,
   "sites": [
    "1F21BD:op59+1",
@@ -2893,7 +3000,8 @@
    "1F21BD:op59+1",
    "1F21BD:op59+1",
    "1F21BD:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F2AC4",
@@ -2915,7 +3023,7 @@
   "addr": "1F2B5E",
   "kind": "name",
   "jp": "ポアラ",
-  "en": "",
+  "en": "Poala",
   "bytes": 8,
   "sites": [
    "1F21D3:op59+1",
@@ -2923,7 +3031,8 @@
    "1F21D3:op59+1",
    "1F21D3:op59+1",
    "1F21D3:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F2B66",
@@ -2945,7 +3054,7 @@
   "addr": "1F2B90",
   "kind": "name",
   "jp": "鑑定士",
-  "en": "",
+  "en": "Appraiser",
   "bytes": 8,
   "sites": [
    "1F21E9:op59+1",
@@ -2953,7 +3062,8 @@
    "1F21E9:op59+1",
    "1F21E9:op59+1",
    "1F21E9:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F2B98",
@@ -2975,7 +3085,7 @@
   "addr": "1F2C1A",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F21FF:op59+1",
@@ -2983,7 +3093,8 @@
    "1F21FF:op59+1",
    "1F21FF:op59+1",
    "1F21FF:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F2C22",
@@ -3005,7 +3116,7 @@
   "addr": "1F2C3C",
   "kind": "name",
   "jp": "スレッド",
-  "en": "",
+  "en": "Slade",
   "bytes": 10,
   "sites": [
    "1F221E:op59+1",
@@ -3013,7 +3124,8 @@
    "1F221E:op59+1",
    "1F221E:op59+1",
    "1F221E:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F2C46",
@@ -3035,7 +3147,7 @@
   "addr": "1F2C58",
   "kind": "name",
   "jp": "鑑定士",
-  "en": "",
+  "en": "Appraiser",
   "bytes": 8,
   "sites": [
    "1F2234:op59+1",
@@ -3044,7 +3156,8 @@
    "1F2234:op59+1",
    "1F2234:op59+1",
    "1F2234:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F2C60",
@@ -3067,7 +3180,7 @@
   "addr": "1F2D04",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F224A:op59+1",
@@ -3076,7 +3189,8 @@
    "1F224A:op59+1",
    "1F224A:op59+1",
    "1F224A:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F2D0C",
@@ -3099,7 +3213,7 @@
   "addr": "1F2D3C",
   "kind": "name",
   "jp": "鑑定士",
-  "en": "",
+  "en": "Appraiser",
   "bytes": 8,
   "sites": [
    "1F2260:op59+1",
@@ -3108,7 +3222,8 @@
    "1F2260:op59+1",
    "1F2260:op59+1",
    "1F2260:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F2D44",
@@ -3131,7 +3246,7 @@
   "addr": "1F2D8C",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F2276:op59+1",
@@ -3140,7 +3255,8 @@
    "1F2276:op59+1",
    "1F2276:op59+1",
    "1F2276:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F2D94",
@@ -3163,7 +3279,7 @@
   "addr": "1F2E34",
   "kind": "name",
   "jp": "鑑定士",
-  "en": "",
+  "en": "Appraiser",
   "bytes": 8,
   "sites": [
    "1F228C:op59+1",
@@ -3172,7 +3288,8 @@
    "1F228C:op59+1",
    "1F228C:op59+1",
    "1F228C:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F2E3C",
@@ -3195,7 +3312,7 @@
   "addr": "1F2E90",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F22A2:op59+1",
@@ -3204,7 +3321,8 @@
    "1F22A2:op59+1",
    "1F22A2:op59+1",
    "1F22A2:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F2E98",
@@ -3227,7 +3345,7 @@
   "addr": "1F2EE4",
   "kind": "name",
   "jp": "ポアラ",
-  "en": "",
+  "en": "Poala",
   "bytes": 8,
   "sites": [
    "1F22B8:op59+1",
@@ -3236,7 +3354,8 @@
    "1F22B8:op59+1",
    "1F22B8:op59+1",
    "1F22B8:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F2EEC",
@@ -3259,7 +3378,7 @@
   "addr": "1F2FE4",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F22CE:op59+1",
@@ -3268,7 +3387,8 @@
    "1F22CE:op59+1",
    "1F22CE:op59+1",
    "1F22CE:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F2FEC",
@@ -3291,7 +3411,7 @@
   "addr": "1F301E",
   "kind": "name",
   "jp": "鑑定士",
-  "en": "",
+  "en": "Appraiser",
   "bytes": 8,
   "sites": [
    "1F22E4:op59+1",
@@ -3300,7 +3420,8 @@
    "1F22E4:op59+1",
    "1F22E4:op59+1",
    "1F22E4:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F3026",
@@ -3323,7 +3444,7 @@
   "addr": "1F313E",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F22FA:op59+1",
@@ -3332,7 +3453,8 @@
    "1F22FA:op59+1",
    "1F22FA:op59+1",
    "1F22FA:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F3146",
@@ -3355,7 +3477,7 @@
   "addr": "1F3162",
   "kind": "name",
   "jp": "ポアラ",
-  "en": "",
+  "en": "Poala",
   "bytes": 8,
   "sites": [
    "1F2310:op59+1",
@@ -3364,7 +3486,8 @@
    "1F2310:op59+1",
    "1F2310:op59+1",
    "1F2310:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F316A",
@@ -3387,7 +3510,7 @@
   "addr": "1F31EA",
   "kind": "name",
   "jp": "鑑定士",
-  "en": "",
+  "en": "Appraiser",
   "bytes": 8,
   "sites": [
    "1F2326:op59+1",
@@ -3396,7 +3519,8 @@
    "1F2326:op59+1",
    "1F2326:op59+1",
    "1F2326:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F31F2",
@@ -3419,7 +3543,7 @@
   "addr": "1F323E",
   "kind": "name",
   "jp": "ポアラ",
-  "en": "",
+  "en": "Poala",
   "bytes": 8,
   "sites": [
    "1F233C:op59+1",
@@ -3428,7 +3552,8 @@
    "1F233C:op59+1",
    "1F233C:op59+1",
    "1F233C:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F3246",
@@ -3451,7 +3576,7 @@
   "addr": "1F3264",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F2352:op59+1",
@@ -3460,7 +3585,8 @@
    "1F2352:op59+1",
    "1F2352:op59+1",
    "1F2352:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F326C",
@@ -3483,7 +3609,7 @@
   "addr": "1F32A8",
   "kind": "name",
   "jp": "スレッド",
-  "en": "",
+  "en": "Slade",
   "bytes": 10,
   "sites": [
    "1F2371:op59+1",
@@ -3492,7 +3618,8 @@
    "1F2371:op59+1",
    "1F2371:op59+1",
    "1F2371:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F32B2",
@@ -3515,7 +3642,7 @@
   "addr": "1F32CC",
   "kind": "name",
   "jp": "ポアラ",
-  "en": "",
+  "en": "Poala",
   "bytes": 8,
   "sites": [
    "1F2387:op59+1",
@@ -3525,7 +3652,8 @@
    "1F2387:op59+1",
    "1F2387:op59+1",
    "1F2387:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F32D4",
@@ -3577,11 +3705,12 @@
   "addr": "1F331E",
   "kind": "name",
   "jp": "鑑定士",
-  "en": "",
+  "en": "Appraiser",
   "bytes": 8,
   "sites": [
    "1F23C2:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F3326",
@@ -3610,11 +3739,12 @@
   "addr": "1F3368",
   "kind": "name",
   "jp": "鑑定士",
-  "en": "",
+  "en": "Appraiser",
   "bytes": 8,
   "sites": [
    "1F23D7:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F3370",
@@ -3643,11 +3773,12 @@
   "addr": "1F33C4",
   "kind": "name",
   "jp": "鑑定士",
-  "en": "",
+  "en": "Appraiser",
   "bytes": 8,
   "sites": [
    "1F23EC:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F33CC",
@@ -3676,11 +3807,12 @@
   "addr": "1F340A",
   "kind": "name",
   "jp": "鑑定士",
-  "en": "",
+  "en": "Appraiser",
   "bytes": 8,
   "sites": [
    "1F2401:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F3412",
@@ -3709,11 +3841,12 @@
   "addr": "1F3452",
   "kind": "name",
   "jp": "鑑定士",
-  "en": "",
+  "en": "Appraiser",
   "bytes": 8,
   "sites": [
    "1F2416:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F345A",
@@ -3742,11 +3875,12 @@
   "addr": "1F34B0",
   "kind": "name",
   "jp": "鑑定士",
-  "en": "",
+  "en": "Appraiser",
   "bytes": 8,
   "sites": [
    "1F242B:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F34B8",
@@ -3764,11 +3898,12 @@
   "addr": "1F34F8",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F2509:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F3500",
@@ -3786,12 +3921,13 @@
   "addr": "1F38D0",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F3592:op59+1",
    "1F3592:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F38D8",
@@ -3810,12 +3946,13 @@
   "addr": "1F391E",
   "kind": "name",
   "jp": "鑑定士",
-  "en": "",
+  "en": "Appraiser",
   "bytes": 8,
   "sites": [
    "1F35A8:op59+1",
    "1F35A8:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F3926",
@@ -3834,12 +3971,13 @@
   "addr": "1F3986",
   "kind": "name",
   "jp": "ポアラ",
-  "en": "",
+  "en": "Poala",
   "bytes": 8,
   "sites": [
    "1F35BE:op59+1",
    "1F35BE:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F398E",
@@ -3858,12 +3996,13 @@
   "addr": "1F39AE",
   "kind": "name",
   "jp": "鑑定士",
-  "en": "",
+  "en": "Appraiser",
   "bytes": 8,
   "sites": [
    "1F35D4:op59+1",
    "1F35D4:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F39B6",
@@ -3882,12 +4021,13 @@
   "addr": "1F39E4",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F35EA:op59+1",
    "1F35EA:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F39EC",
@@ -3906,12 +4046,13 @@
   "addr": "1F3A42",
   "kind": "name",
   "jp": "鑑定士",
-  "en": "",
+  "en": "Appraiser",
   "bytes": 8,
   "sites": [
    "1F3600:op59+1",
    "1F3600:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F3A4A",
@@ -3930,12 +4071,13 @@
   "addr": "1F3B04",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F3616:op59+1",
    "1F3616:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F3B0C",
@@ -3954,12 +4096,13 @@
   "addr": "1F3B2C",
   "kind": "name",
   "jp": "ポアラ",
-  "en": "",
+  "en": "Poala",
   "bytes": 8,
   "sites": [
    "1F362C:op59+1",
    "1F362C:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F3B34",
@@ -3978,12 +4121,13 @@
   "addr": "1F3B64",
   "kind": "name",
   "jp": "スレッド",
-  "en": "",
+  "en": "Slade",
   "bytes": 10,
   "sites": [
    "1F364B:op59+1",
    "1F364B:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F3B6E",
@@ -4002,14 +4146,15 @@
   "addr": "1F3B92",
   "kind": "name",
   "jp": "鑑定士",
-  "en": "",
+  "en": "Appraiser",
   "bytes": 8,
   "sites": [
    "1F36D8:op59+1",
    "1F36D8:op59+1",
    "1F36D8:op59+1",
    "1F36D8:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F3B9A",
@@ -4030,14 +4175,15 @@
   "addr": "1F3BBE",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F36EE:op59+1",
    "1F36EE:op59+1",
    "1F36EE:op59+1",
    "1F36EE:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F3BC6",
@@ -4058,14 +4204,15 @@
   "addr": "1F3BE2",
   "kind": "name",
   "jp": "鑑定士",
-  "en": "",
+  "en": "Appraiser",
   "bytes": 8,
   "sites": [
    "1F3724:op59+1",
    "1F3724:op59+1",
    "1F3724:op59+1",
    "1F3724:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F3BEA",
@@ -4086,14 +4233,15 @@
   "addr": "1F3C1A",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F373A:op59+1",
    "1F373A:op59+1",
    "1F373A:op59+1",
    "1F373A:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F3C22",
@@ -4114,14 +4262,15 @@
   "addr": "1F3C34",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F3774:op59+1",
    "1F3774:op59+1",
    "1F3774:op59+1",
    "1F3774:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F3C3C",
@@ -4142,14 +4291,15 @@
   "addr": "1F3C48",
   "kind": "name",
   "jp": "鑑定士",
-  "en": "",
+  "en": "Appraiser",
   "bytes": 8,
   "sites": [
    "1F378A:op59+1",
    "1F378A:op59+1",
    "1F378A:op59+1",
    "1F378A:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F3C50",
@@ -4170,14 +4320,15 @@
   "addr": "1F3C64",
   "kind": "name",
   "jp": "鑑定士",
-  "en": "",
+  "en": "Appraiser",
   "bytes": 8,
   "sites": [
    "1F37A0:op59+1",
    "1F37A0:op59+1",
    "1F37A0:op59+1",
    "1F37A0:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F3C6C",
@@ -4198,14 +4349,15 @@
   "addr": "1F3C9E",
   "kind": "name",
   "jp": "ポアラ",
-  "en": "",
+  "en": "Poala",
   "bytes": 8,
   "sites": [
    "1F37B6:op59+1",
    "1F37B6:op59+1",
    "1F37B6:op59+1",
    "1F37B6:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F3CA6",
@@ -4226,14 +4378,15 @@
   "addr": "1F3CE4",
   "kind": "name",
   "jp": "鑑定士",
-  "en": "",
+  "en": "Appraiser",
   "bytes": 8,
   "sites": [
    "1F37CC:op59+1",
    "1F37CC:op59+1",
    "1F37CC:op59+1",
    "1F37CC:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F3CEC",
@@ -4254,14 +4407,15 @@
   "addr": "1F3D6A",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F37E2:op59+1",
    "1F37E2:op59+1",
    "1F37E2:op59+1",
    "1F37E2:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F3D72",
@@ -4282,14 +4436,15 @@
   "addr": "1F3DE2",
   "kind": "name",
   "jp": "鑑定士",
-  "en": "",
+  "en": "Appraiser",
   "bytes": 8,
   "sites": [
    "1F37F8:op59+1",
    "1F37F8:op59+1",
    "1F37F8:op59+1",
    "1F37F8:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F3DEA",
@@ -4310,14 +4465,15 @@
   "addr": "1F3E8E",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F380E:op59+1",
    "1F380E:op59+1",
    "1F380E:op59+1",
    "1F380E:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F3E96",
@@ -4338,14 +4494,15 @@
   "addr": "1F3EB4",
   "kind": "name",
   "jp": "鑑定士",
-  "en": "",
+  "en": "Appraiser",
   "bytes": 8,
   "sites": [
    "1F3824:op59+1",
    "1F3824:op59+1",
    "1F3824:op59+1",
    "1F3824:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F3EBC",
@@ -4366,14 +4523,15 @@
   "addr": "1F3F34",
   "kind": "name",
   "jp": "ポアラ",
-  "en": "",
+  "en": "Poala",
   "bytes": 8,
   "sites": [
    "1F383A:op59+1",
    "1F383A:op59+1",
    "1F383A:op59+1",
    "1F383A:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F3F3C",
@@ -4394,14 +4552,15 @@
   "addr": "1F3F64",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F3850:op59+1",
    "1F3850:op59+1",
    "1F3850:op59+1",
    "1F3850:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F3F6C",
@@ -4422,14 +4581,15 @@
   "addr": "1F3FAC",
   "kind": "name",
   "jp": "鑑定士",
-  "en": "",
+  "en": "Appraiser",
   "bytes": 8,
   "sites": [
    "1F3866:op59+1",
    "1F3866:op59+1",
    "1F3866:op59+1",
    "1F3866:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F3FB4",
@@ -4450,14 +4610,15 @@
   "addr": "1F4010",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F387C:op59+1",
    "1F387C:op59+1",
    "1F387C:op59+1",
    "1F387C:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F4018",
@@ -4478,14 +4639,15 @@
   "addr": "1F4034",
   "kind": "name",
   "jp": "鑑定士",
-  "en": "",
+  "en": "Appraiser",
   "bytes": 8,
   "sites": [
    "1F3892:op59+1",
    "1F3892:op59+1",
    "1F3892:op59+1",
    "1F3892:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F403C",
@@ -4506,14 +4668,15 @@
   "addr": "1F4044",
   "kind": "name",
   "jp": "ポアラ",
-  "en": "",
+  "en": "Poala",
   "bytes": 8,
   "sites": [
    "1F38A8:op59+1",
    "1F38A8:op59+1",
    "1F38A8:op59+1",
    "1F38A8:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F404C",
@@ -4534,11 +4697,12 @@
   "addr": "1F4770",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F4073:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F4778",
@@ -4556,11 +4720,12 @@
   "addr": "1F479E",
   "kind": "name",
   "jp": "鑑定士",
-  "en": "",
+  "en": "Appraiser",
   "bytes": 8,
   "sites": [
    "1F4089:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F47A6",
@@ -4578,11 +4743,12 @@
   "addr": "1F4802",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F4094:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F480A",
@@ -4600,11 +4766,12 @@
   "addr": "1F481E",
   "kind": "name",
   "jp": "鑑定士",
-  "en": "",
+  "en": "Appraiser",
   "bytes": 8,
   "sites": [
    "1F40AA:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F4826",
@@ -4622,11 +4789,12 @@
   "addr": "1F48B8",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F40B5:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F48C0",
@@ -4644,11 +4812,12 @@
   "addr": "1F48E6",
   "kind": "name",
   "jp": "ポアラ",
-  "en": "",
+  "en": "Poala",
   "bytes": 8,
   "sites": [
    "1F40CB:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F48EE",
@@ -4666,11 +4835,12 @@
   "addr": "1F492A",
   "kind": "name",
   "jp": "スレッド",
-  "en": "",
+  "en": "Slade",
   "bytes": 10,
   "sites": [
    "1F40EA:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F4934",
@@ -4688,12 +4858,13 @@
   "addr": "1F4944",
   "kind": "name",
   "jp": "鑑定士",
-  "en": "",
+  "en": "Appraiser",
   "bytes": 8,
   "sites": [
    "1F4100:op52+1",
    "1F4100:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F494C",
@@ -4712,12 +4883,13 @@
   "addr": "1F49DA",
   "kind": "name",
   "jp": "ポアラ",
-  "en": "",
+  "en": "Poala",
   "bytes": 8,
   "sites": [
    "1F410B:op59+1",
    "1F410B:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F49E2",
@@ -4736,12 +4908,13 @@
   "addr": "1F4A1A",
   "kind": "name",
   "jp": "スレッド",
-  "en": "",
+  "en": "Slade",
   "bytes": 10,
   "sites": [
    "1F412A:op59+1",
    "1F412A:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F4A24",
@@ -4760,13 +4933,14 @@
   "addr": "1F4A38",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F4140:op59+1",
    "1F4140:op59+1",
    "1F4140:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F4A40",
@@ -4786,13 +4960,14 @@
   "addr": "1F4A94",
   "kind": "name",
   "jp": "ポアラ",
-  "en": "",
+  "en": "Poala",
   "bytes": 8,
   "sites": [
    "1F4156:op59+1",
    "1F4156:op59+1",
    "1F4156:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F4A9C",
@@ -4812,11 +4987,12 @@
   "addr": "1F4ABC",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F4173:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F4AC4",
@@ -4834,11 +5010,12 @@
   "addr": "1F4B36",
   "kind": "name",
   "jp": "ポアラ",
-  "en": "",
+  "en": "Poala",
   "bytes": 8,
   "sites": [
    "1F4189:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F4B3E",
@@ -4856,11 +5033,12 @@
   "addr": "1F4B8C",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F419F:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F4B94",
@@ -4878,12 +5056,13 @@
   "addr": "1F4BCC",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F41F0:op59+1",
    "1F41F0:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F4BD4",
@@ -4902,12 +5081,13 @@
   "addr": "1F4BF8",
   "kind": "name",
   "jp": "ポアラ",
-  "en": "",
+  "en": "Poala",
   "bytes": 8,
   "sites": [
    "1F420C:op59+1",
    "1F420C:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F4C00",
@@ -4926,12 +5106,13 @@
   "addr": "1F4C22",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F4222:op59+1",
    "1F4222:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F4C2A",
@@ -4950,7 +5131,7 @@
   "addr": "1F4C60",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F42B1:op59+1",
@@ -4959,7 +5140,8 @@
    "1F42B1:op59+1",
    "1F42B1:op59+1",
    "1F42B1:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F4C68",
@@ -4982,7 +5164,7 @@
   "addr": "1F4CBE",
   "kind": "name",
   "jp": "ポアラ",
-  "en": "",
+  "en": "Poala",
   "bytes": 8,
   "sites": [
    "1F42C7:op59+1",
@@ -4991,7 +5173,8 @@
    "1F42C7:op59+1",
    "1F42C7:op59+1",
    "1F42C7:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F4CC6",
@@ -5014,7 +5197,7 @@
   "addr": "1F4CE4",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F42DD:op59+1",
@@ -5023,7 +5206,8 @@
    "1F42DD:op59+1",
    "1F42DD:op59+1",
    "1F42DD:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F4CEC",
@@ -5046,7 +5230,7 @@
   "addr": "1F4D2A",
   "kind": "name",
   "jp": "ポアラ",
-  "en": "",
+  "en": "Poala",
   "bytes": 8,
   "sites": [
    "1F42F3:op59+1",
@@ -5055,7 +5239,8 @@
    "1F42F3:op59+1",
    "1F42F3:op59+1",
    "1F42F3:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F4D32",
@@ -5078,11 +5263,12 @@
   "addr": "1F4D40",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F431F:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F4D48",
@@ -5100,11 +5286,12 @@
   "addr": "1F4D68",
   "kind": "name",
   "jp": "ポアラ",
-  "en": "",
+  "en": "Poala",
   "bytes": 8,
   "sites": [
    "1F433D:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F4D70",
@@ -5122,11 +5309,12 @@
   "addr": "1F4DA8",
   "kind": "name",
   "jp": "スレッド",
-  "en": "",
+  "en": "Slade",
   "bytes": 10,
   "sites": [
    "1F435C:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F4DB2",
@@ -5144,12 +5332,13 @@
   "addr": "1F4DCE",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F4372:op59+1",
    "1F4372:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F4DD6",
@@ -5168,14 +5357,15 @@
   "addr": "1F4DFE",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F43E9:op59+1",
    "1F43E9:op59+1",
    "1F43E9:op59+1",
    "1F43E9:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F4E06",
@@ -5196,14 +5386,15 @@
   "addr": "1F4E20",
   "kind": "name",
   "jp": "ポアラ",
-  "en": "",
+  "en": "Poala",
   "bytes": 8,
   "sites": [
    "1F43FF:op59+1",
    "1F43FF:op59+1",
    "1F43FF:op59+1",
    "1F43FF:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F4E28",
@@ -5239,7 +5430,7 @@
   "addr": "1F4E56",
   "kind": "name",
   "jp": "ポアラ",
-  "en": "",
+  "en": "Poala",
   "bytes": 8,
   "sites": [
    "1F443D:op59+1",
@@ -5247,7 +5438,8 @@
    "1F443D:op59+1",
    "1F443D:op59+1",
    "1F443D:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F4E5E",
@@ -5285,7 +5477,7 @@
   "addr": "1F4EB6",
   "kind": "name",
   "jp": "ポアラ",
-  "en": "",
+  "en": "Poala",
   "bytes": 8,
   "sites": [
    "1F447B:op59+1",
@@ -5294,7 +5486,8 @@
    "1F447B:op59+1",
    "1F447B:op59+1",
    "1F447B:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F4EBE",
@@ -5317,7 +5510,7 @@
   "addr": "1F4EF0",
   "kind": "name",
   "jp": "カネック",
-  "en": "",
+  "en": "Kaneck",
   "bytes": 10,
   "sites": [
    "1F4495:op52+1",
@@ -5326,7 +5519,8 @@
    "1F4495:op52+1",
    "1F4495:op52+1",
    "1F4495:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F4EFA",
@@ -5349,7 +5543,7 @@
   "addr": "1F4F12",
   "kind": "name",
   "jp": "ポアラ",
-  "en": "",
+  "en": "Poala",
   "bytes": 8,
   "sites": [
    "1F44A5:op59+1",
@@ -5358,7 +5552,8 @@
    "1F44A5:op59+1",
    "1F44A5:op59+1",
    "1F44A5:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F4F1A",
@@ -5381,7 +5576,7 @@
   "addr": "1F4F50",
   "kind": "name",
   "jp": "カネック",
-  "en": "",
+  "en": "Kaneck",
   "bytes": 10,
   "sites": [
    "1F44BB:op52+1",
@@ -5390,7 +5585,8 @@
    "1F44BB:op52+1",
    "1F44BB:op52+1",
    "1F44BB:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F4F5A",
@@ -5413,7 +5609,7 @@
   "addr": "1F4F62",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F44D1:op59+1",
@@ -5422,7 +5618,8 @@
    "1F44D1:op59+1",
    "1F44D1:op59+1",
    "1F44D1:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F4F6A",
@@ -5445,7 +5642,7 @@
   "addr": "1F4FA0",
   "kind": "name",
   "jp": "ポアラ",
-  "en": "",
+  "en": "Poala",
   "bytes": 8,
   "sites": [
    "1F44E7:op59+1",
@@ -5454,7 +5651,8 @@
    "1F44E7:op59+1",
    "1F44E7:op59+1",
    "1F44E7:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F4FA8",
@@ -5477,7 +5675,7 @@
   "addr": "1F4FDE",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F4519:op59+1",
@@ -5487,7 +5685,8 @@
    "1F4519:op59+1",
    "1F4519:op59+1",
    "1F4519:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F4FE6",
@@ -5511,7 +5710,7 @@
   "addr": "1F5030",
   "kind": "name",
   "jp": "ポアラ",
-  "en": "",
+  "en": "Poala",
   "bytes": 8,
   "sites": [
    "1F452F:op59+1",
@@ -5521,7 +5720,8 @@
    "1F452F:op59+1",
    "1F452F:op59+1",
    "1F452F:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F5038",
@@ -5545,7 +5745,7 @@
   "addr": "1F5066",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F4545:op59+1",
@@ -5555,7 +5755,8 @@
    "1F4545:op59+1",
    "1F4545:op59+1",
    "1F4545:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F506E",
@@ -5579,7 +5780,7 @@
   "addr": "1F50AE",
   "kind": "name",
   "jp": "ポアラ",
-  "en": "",
+  "en": "Poala",
   "bytes": 8,
   "sites": [
    "1F455B:op59+1",
@@ -5589,7 +5790,8 @@
    "1F455B:op59+1",
    "1F455B:op59+1",
    "1F455B:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F50B6",
@@ -5613,7 +5815,7 @@
   "addr": "1F512A",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F4571:op59+1",
@@ -5623,7 +5825,8 @@
    "1F4571:op59+1",
    "1F4571:op59+1",
    "1F4571:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F5132",
@@ -5647,7 +5850,7 @@
   "addr": "1F51B0",
   "kind": "name",
   "jp": "スレッド",
-  "en": "",
+  "en": "Slade",
   "bytes": 10,
   "sites": [
    "1F4590:op59+1",
@@ -5657,7 +5860,8 @@
    "1F4590:op59+1",
    "1F4590:op59+1",
    "1F4590:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F51BA",
@@ -5681,7 +5885,7 @@
   "addr": "1F51CA",
   "kind": "name",
   "jp": "ポアラ",
-  "en": "",
+  "en": "Poala",
   "bytes": 8,
   "sites": [
    "1F45A6:op59+1",
@@ -5692,7 +5896,8 @@
    "1F45A6:op59+1",
    "1F45A6:op59+1",
    "1F45A6:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F51D2",
@@ -5717,7 +5922,7 @@
   "addr": "1F51E8",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F45BC:op59+1",
@@ -5728,7 +5933,8 @@
    "1F45BC:op59+1",
    "1F45BC:op59+1",
    "1F45BC:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F51F0",
@@ -5753,11 +5959,12 @@
   "addr": "1F5240",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F45F0:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F5248",
@@ -5775,11 +5982,12 @@
   "addr": "1F52A2",
   "kind": "name",
   "jp": "ポアラ",
-  "en": "",
+  "en": "Poala",
   "bytes": 8,
   "sites": [
    "1F4606:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F52AA",
@@ -5797,11 +6005,12 @@
   "addr": "1F52C4",
   "kind": "name",
   "jp": "スレッド",
-  "en": "",
+  "en": "Slade",
   "bytes": 10,
   "sites": [
    "1F4625:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F52CE",
@@ -5819,13 +6028,14 @@
   "addr": "1F52DC",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F4673:op59+1",
    "1F4673:op59+1",
    "1F4673:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F52E4",
@@ -5845,14 +6055,15 @@
   "addr": "1F52F6",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F46B0:op59+1",
    "1F46B0:op59+1",
    "1F46B0:op59+1",
    "1F46B0:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F52FE",
@@ -5873,14 +6084,15 @@
   "addr": "1F5324",
   "kind": "name",
   "jp": "スレッド",
-  "en": "",
+  "en": "Slade",
   "bytes": 10,
   "sites": [
    "1F46CF:op59+1",
    "1F46CF:op59+1",
    "1F46CF:op59+1",
    "1F46CF:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F532E",
@@ -5901,7 +6113,7 @@
   "addr": "1F5340",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F46E5:op59+1",
@@ -5909,7 +6121,8 @@
    "1F46E5:op59+1",
    "1F46E5:op59+1",
    "1F46E5:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F5348",
@@ -5931,7 +6144,7 @@
   "addr": "1F53A8",
   "kind": "name",
   "jp": "ポアラ",
-  "en": "",
+  "en": "Poala",
   "bytes": 8,
   "sites": [
    "1F46FB:op59+1",
@@ -5939,7 +6152,8 @@
    "1F46FB:op59+1",
    "1F46FB:op59+1",
    "1F46FB:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F53B0",
@@ -5961,7 +6175,7 @@
   "addr": "1F5404",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F4711:op59+1",
@@ -5969,7 +6183,8 @@
    "1F4711:op59+1",
    "1F4711:op59+1",
    "1F4711:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F540C",
@@ -5991,7 +6206,7 @@
   "addr": "1F5440",
   "kind": "name",
   "jp": "ポアラ",
-  "en": "",
+  "en": "Poala",
   "bytes": 8,
   "sites": [
    "1F4727:op59+1",
@@ -5999,7 +6214,8 @@
    "1F4727:op59+1",
    "1F4727:op59+1",
    "1F4727:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F5448",
@@ -6021,7 +6237,7 @@
   "addr": "1F54CC",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F473D:op59+1",
@@ -6029,7 +6245,8 @@
    "1F473D:op59+1",
    "1F473D:op59+1",
    "1F473D:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F54D4",
@@ -6051,11 +6268,12 @@
   "addr": "1F5DA0",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F5513:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F5DA8",
@@ -6073,11 +6291,12 @@
   "addr": "1F5DD8",
   "kind": "name",
   "jp": "鑑定士",
-  "en": "",
+  "en": "Appraiser",
   "bytes": 8,
   "sites": [
    "1F5529:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F5DE0",
@@ -6095,11 +6314,12 @@
   "addr": "1F5E62",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F5534:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F5E6A",
@@ -6117,11 +6337,12 @@
   "addr": "1F5E7C",
   "kind": "name",
   "jp": "ポアラ",
-  "en": "",
+  "en": "Poala",
   "bytes": 8,
   "sites": [
    "1F554A:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F5E84",
@@ -6139,11 +6360,12 @@
   "addr": "1F5ED6",
   "kind": "name",
   "jp": "鑑定士",
-  "en": "",
+  "en": "Appraiser",
   "bytes": 8,
   "sites": [
    "1F5560:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F5EDE",
@@ -6161,11 +6383,12 @@
   "addr": "1F5F80",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F556B:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F5F88",
@@ -6183,11 +6406,12 @@
   "addr": "1F5F9C",
   "kind": "name",
   "jp": "鑑定士",
-  "en": "",
+  "en": "Appraiser",
   "bytes": 8,
   "sites": [
    "1F5581:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F5FA4",
@@ -6205,11 +6429,12 @@
   "addr": "1F6028",
   "kind": "name",
   "jp": "ポアラ",
-  "en": "",
+  "en": "Poala",
   "bytes": 8,
   "sites": [
    "1F558C:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F6030",
@@ -6227,11 +6452,12 @@
   "addr": "1F6078",
   "kind": "name",
   "jp": "スレッド",
-  "en": "",
+  "en": "Slade",
   "bytes": 10,
   "sites": [
    "1F55AB:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F6082",
@@ -6249,12 +6475,13 @@
   "addr": "1F60DC",
   "kind": "name",
   "jp": "鑑定士",
-  "en": "",
+  "en": "Appraiser",
   "bytes": 8,
   "sites": [
    "1F55C1:op52+1",
    "1F55C1:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F60E4",
@@ -6273,12 +6500,13 @@
   "addr": "1F60F8",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F55CC:op59+1",
    "1F55CC:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F6100",
@@ -6297,12 +6525,13 @@
   "addr": "1F616E",
   "kind": "name",
   "jp": "鑑定士",
-  "en": "",
+  "en": "Appraiser",
   "bytes": 8,
   "sites": [
    "1F55E2:op52+1",
    "1F55E2:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F6176",
@@ -6321,12 +6550,13 @@
   "addr": "1F6198",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F55ED:op59+1",
    "1F55ED:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F61A0",
@@ -6345,12 +6575,13 @@
   "addr": "1F61BE",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F5633:op59+1",
    "1F5633:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F61C6",
@@ -6369,12 +6600,13 @@
   "addr": "1F61F0",
   "kind": "name",
   "jp": "ポアラ",
-  "en": "",
+  "en": "Poala",
   "bytes": 8,
   "sites": [
    "1F5649:op59+1",
    "1F5649:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F61F8",
@@ -6393,12 +6625,13 @@
   "addr": "1F6220",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F565F:op59+1",
    "1F565F:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F6228",
@@ -6417,12 +6650,13 @@
   "addr": "1F626C",
   "kind": "name",
   "jp": "ポアラ",
-  "en": "",
+  "en": "Poala",
   "bytes": 8,
   "sites": [
    "1F5675:op59+1",
    "1F5675:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F6274",
@@ -6441,12 +6675,13 @@
   "addr": "1F62E2",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F568B:op59+1",
    "1F568B:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F62EA",
@@ -6465,12 +6700,13 @@
   "addr": "1F6324",
   "kind": "name",
   "jp": "ポアラ",
-  "en": "",
+  "en": "Poala",
   "bytes": 8,
   "sites": [
    "1F56A1:op59+1",
    "1F56A1:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F632C",
@@ -6489,11 +6725,12 @@
   "addr": "1F6364",
   "kind": "name",
   "jp": "？？？？",
-  "en": "",
+  "en": "???",
   "bytes": 10,
   "sites": [
    "1F56C8:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F636E",
@@ -6511,11 +6748,12 @@
   "addr": "1F63A8",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F56D3:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F63B0",
@@ -6533,12 +6771,13 @@
   "addr": "1F63CA",
   "kind": "name",
   "jp": "ポアラ",
-  "en": "",
+  "en": "Poala",
   "bytes": 8,
   "sites": [
    "1F5718:op59+1",
    "1F5718:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F63D2",
@@ -6557,12 +6796,13 @@
   "addr": "1F6400",
   "kind": "name",
   "jp": "スレッド",
-  "en": "",
+  "en": "Slade",
   "bytes": 10,
   "sites": [
    "1F5737:op59+1",
    "1F5737:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F640A",
@@ -6581,13 +6821,14 @@
   "addr": "1F6446",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F5755:op59+1",
    "1F5755:op59+1",
    "1F5755:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F644E",
@@ -6607,13 +6848,14 @@
   "addr": "1F64A0",
   "kind": "name",
   "jp": "バスター",
-  "en": "",
+  "en": "Buster",
   "bytes": 10,
   "sites": [
    "1F5773:op52+1",
    "1F5773:op52+1",
    "1F5773:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F64AA",
@@ -6633,13 +6875,14 @@
   "addr": "1F64E4",
   "kind": "name",
   "jp": "ポアラ",
-  "en": "",
+  "en": "Poala",
   "bytes": 8,
   "sites": [
    "1F577E:op59+1",
    "1F577E:op59+1",
    "1F577E:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F64EC",
@@ -6659,13 +6902,14 @@
   "addr": "1F653E",
   "kind": "name",
   "jp": "バスター",
-  "en": "",
+  "en": "Buster",
   "bytes": 10,
   "sites": [
    "1F5794:op52+1",
    "1F5794:op52+1",
    "1F5794:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F6548",
@@ -6685,13 +6929,14 @@
   "addr": "1F65A8",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F579F:op59+1",
    "1F579F:op59+1",
    "1F579F:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F65B0",
@@ -6711,13 +6956,14 @@
   "addr": "1F6606",
   "kind": "name",
   "jp": "バスター",
-  "en": "",
+  "en": "Buster",
   "bytes": 10,
   "sites": [
    "1F57B5:op52+1",
    "1F57B5:op52+1",
    "1F57B5:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F6610",
@@ -6737,13 +6983,14 @@
   "addr": "1F6642",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F57C8:op59+1",
    "1F57C8:op59+1",
    "1F57C8:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F664A",
@@ -6763,13 +7010,14 @@
   "addr": "1F666C",
   "kind": "name",
   "jp": "ポアラ",
-  "en": "",
+  "en": "Poala",
   "bytes": 8,
   "sites": [
    "1F57DE:op59+1",
    "1F57DE:op59+1",
    "1F57DE:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F6674",
@@ -6789,13 +7037,14 @@
   "addr": "1F66AA",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F57F4:op59+1",
    "1F57F4:op59+1",
    "1F57F4:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F66B2",
@@ -6815,14 +7064,15 @@
   "addr": "1F66D6",
   "kind": "name",
   "jp": "ポアラ",
-  "en": "",
+  "en": "Poala",
   "bytes": 8,
   "sites": [
    "1F582D:op59+1",
    "1F582D:op59+1",
    "1F582D:op59+1",
    "1F582D:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F66DE",
@@ -6843,14 +7093,15 @@
   "addr": "1F66F8",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F5843:op59+1",
    "1F5843:op59+1",
    "1F5843:op59+1",
    "1F5843:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F6700",
@@ -6871,14 +7122,15 @@
   "addr": "1F6734",
   "kind": "name",
   "jp": "ポアラ",
-  "en": "",
+  "en": "Poala",
   "bytes": 8,
   "sites": [
    "1F5859:op59+1",
    "1F5859:op59+1",
    "1F5859:op59+1",
    "1F5859:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F673C",
@@ -6899,14 +7151,15 @@
   "addr": "1F6762",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F586F:op59+1",
    "1F586F:op59+1",
    "1F586F:op59+1",
    "1F586F:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F676A",
@@ -6927,7 +7180,7 @@
   "addr": "1F677E",
   "kind": "name",
   "jp": "ポアラ",
-  "en": "",
+  "en": "Poala",
   "bytes": 8,
   "sites": [
    "1F5900:op59+1",
@@ -6935,7 +7188,8 @@
    "1F5900:op59+1",
    "1F5900:op59+1",
    "1F5900:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F6786",
@@ -6957,7 +7211,7 @@
   "addr": "1F67C0",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F5920:op59+1",
@@ -6965,7 +7219,8 @@
    "1F5920:op59+1",
    "1F5920:op59+1",
    "1F5920:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F67C8",
@@ -6987,7 +7242,7 @@
   "addr": "1F6800",
   "kind": "name",
   "jp": "ポアラ",
-  "en": "",
+  "en": "Poala",
   "bytes": 8,
   "sites": [
    "1F593D:op59+1",
@@ -6995,7 +7250,8 @@
    "1F593D:op59+1",
    "1F593D:op59+1",
    "1F593D:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F6808",
@@ -7017,7 +7273,7 @@
   "addr": "1F6830",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F5953:op59+1",
@@ -7025,7 +7281,8 @@
    "1F5953:op59+1",
    "1F5953:op59+1",
    "1F5953:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F6838",
@@ -7047,7 +7304,7 @@
   "addr": "1F6840",
   "kind": "name",
   "jp": "ポアラ",
-  "en": "",
+  "en": "Poala",
   "bytes": 8,
   "sites": [
    "1F5969:op59+1",
@@ -7055,7 +7312,8 @@
    "1F5969:op59+1",
    "1F5969:op59+1",
    "1F5969:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F6848",
@@ -7077,7 +7335,7 @@
   "addr": "1F68D8",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F597F:op59+1",
@@ -7085,7 +7343,8 @@
    "1F597F:op59+1",
    "1F597F:op59+1",
    "1F597F:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F68E0",
@@ -7107,7 +7366,7 @@
   "addr": "1F68EE",
   "kind": "name",
   "jp": "スレッド",
-  "en": "",
+  "en": "Slade",
   "bytes": 10,
   "sites": [
    "1F599E:op59+1",
@@ -7115,7 +7374,8 @@
    "1F599E:op59+1",
    "1F599E:op59+1",
    "1F599E:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F68F8",
@@ -7137,7 +7397,7 @@
   "addr": "1F6908",
   "kind": "name",
   "jp": "ポアラ",
-  "en": "",
+  "en": "Poala",
   "bytes": 8,
   "sites": [
    "1F59B4:op59+1",
@@ -7146,7 +7406,8 @@
    "1F59B4:op59+1",
    "1F59B4:op59+1",
    "1F59B4:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F6910",
@@ -7169,7 +7430,7 @@
   "addr": "1F6984",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F59CA:op59+1",
@@ -7178,7 +7439,8 @@
    "1F59CA:op59+1",
    "1F59CA:op59+1",
    "1F59CA:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F698C",
@@ -7201,7 +7463,7 @@
   "addr": "1F69EA",
   "kind": "name",
   "jp": "バスター",
-  "en": "",
+  "en": "Buster",
   "bytes": 10,
   "sites": [
    "1F59E0:op52+1",
@@ -7210,7 +7472,8 @@
    "1F59E0:op52+1",
    "1F59E0:op52+1",
    "1F59E0:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F69F4",
@@ -7233,7 +7496,7 @@
   "addr": "1F6A06",
   "kind": "name",
   "jp": "ポアラ",
-  "en": "",
+  "en": "Poala",
   "bytes": 8,
   "sites": [
    "1F59EB:op59+1",
@@ -7242,7 +7505,8 @@
    "1F59EB:op59+1",
    "1F59EB:op59+1",
    "1F59EB:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F6A0E",
@@ -7265,7 +7529,7 @@
   "addr": "1F6A8A",
   "kind": "name",
   "jp": "バスター",
-  "en": "",
+  "en": "Buster",
   "bytes": 10,
   "sites": [
    "1F5A09:op52+1",
@@ -7274,7 +7538,8 @@
    "1F5A09:op52+1",
    "1F5A09:op52+1",
    "1F5A09:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F6A94",
@@ -7297,7 +7562,7 @@
   "addr": "1F6AB0",
   "kind": "name",
   "jp": "ポアラ",
-  "en": "",
+  "en": "Poala",
   "bytes": 8,
   "sites": [
    "1F5A14:op59+1",
@@ -7306,7 +7571,8 @@
    "1F5A14:op59+1",
    "1F5A14:op59+1",
    "1F5A14:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F6AB8",
@@ -7329,7 +7595,7 @@
   "addr": "1F6B0E",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F5A36:op59+1",
@@ -7338,7 +7604,8 @@
    "1F5A36:op59+1",
    "1F5A36:op59+1",
    "1F5A36:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F6B16",
@@ -7361,7 +7628,7 @@
   "addr": "1F6B2E",
   "kind": "name",
   "jp": "ポアラ",
-  "en": "",
+  "en": "Poala",
   "bytes": 8,
   "sites": [
    "1F5A4C:op59+1",
@@ -7370,7 +7637,8 @@
    "1F5A4C:op59+1",
    "1F5A4C:op59+1",
    "1F5A4C:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F6B36",
@@ -7393,7 +7661,7 @@
   "addr": "1F6B76",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F5A62:op59+1",
@@ -7402,7 +7670,8 @@
    "1F5A62:op59+1",
    "1F5A62:op59+1",
    "1F5A62:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F6B7E",
@@ -7425,7 +7694,7 @@
   "addr": "1F6BCE",
   "kind": "name",
   "jp": "ポアラ",
-  "en": "",
+  "en": "Poala",
   "bytes": 8,
   "sites": [
    "1F5A78:op59+1",
@@ -7434,7 +7703,8 @@
    "1F5A78:op59+1",
    "1F5A78:op59+1",
    "1F5A78:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F6BD6",
@@ -7457,7 +7727,7 @@
   "addr": "1F6BEC",
   "kind": "name",
   "jp": "バスター",
-  "en": "",
+  "en": "Buster",
   "bytes": 10,
   "sites": [
    "1F5A8E:op52+1",
@@ -7466,7 +7736,8 @@
    "1F5A8E:op52+1",
    "1F5A8E:op52+1",
    "1F5A8E:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F6BF6",
@@ -7489,7 +7760,7 @@
   "addr": "1F6C14",
   "kind": "name",
   "jp": "ポアラ",
-  "en": "",
+  "en": "Poala",
   "bytes": 8,
   "sites": [
    "1F5AA4:op59+1",
@@ -7498,7 +7769,8 @@
    "1F5AA4:op59+1",
    "1F5AA4:op59+1",
    "1F5AA4:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F6C1C",
@@ -7521,7 +7793,7 @@
   "addr": "1F6C2A",
   "kind": "name",
   "jp": "バスター",
-  "en": "",
+  "en": "Buster",
   "bytes": 10,
   "sites": [
    "1F5ABA:op52+1",
@@ -7530,7 +7802,8 @@
    "1F5ABA:op52+1",
    "1F5ABA:op52+1",
    "1F5ABA:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F6C34",
@@ -7553,7 +7826,7 @@
   "addr": "1F6C7C",
   "kind": "name",
   "jp": "ポアラ",
-  "en": "",
+  "en": "Poala",
   "bytes": 8,
   "sites": [
    "1F5AC5:op59+1",
@@ -7562,7 +7835,8 @@
    "1F5AC5:op59+1",
    "1F5AC5:op59+1",
    "1F5AC5:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F6C84",
@@ -7585,7 +7859,7 @@
   "addr": "1F6CBE",
   "kind": "name",
   "jp": "バスター",
-  "en": "",
+  "en": "Buster",
   "bytes": 10,
   "sites": [
    "1F5AE3:op52+1",
@@ -7594,7 +7868,8 @@
    "1F5AE3:op52+1",
    "1F5AE3:op52+1",
    "1F5AE3:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F6CC8",
@@ -7617,7 +7892,7 @@
   "addr": "1F6CF8",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F5AEE:op59+1",
@@ -7626,7 +7901,8 @@
    "1F5AEE:op59+1",
    "1F5AEE:op59+1",
    "1F5AEE:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F6D00",
@@ -7649,7 +7925,7 @@
   "addr": "1F6D28",
   "kind": "name",
   "jp": "スレッド",
-  "en": "",
+  "en": "Slade",
   "bytes": 10,
   "sites": [
    "1F5B0D:op59+1",
@@ -7658,7 +7934,8 @@
    "1F5B0D:op59+1",
    "1F5B0D:op59+1",
    "1F5B0D:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F6D32",
@@ -7681,7 +7958,7 @@
   "addr": "1F6D42",
   "kind": "name",
   "jp": "ポアラ",
-  "en": "",
+  "en": "Poala",
   "bytes": 8,
   "sites": [
    "1F5B2A:op59+1",
@@ -7691,7 +7968,8 @@
    "1F5B2A:op59+1",
    "1F5B2A:op59+1",
    "1F5B2A:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F6D4A",
@@ -7715,7 +7993,7 @@
   "addr": "1F6DB6",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F5B47:op59+1",
@@ -7725,7 +8003,8 @@
    "1F5B47:op59+1",
    "1F5B47:op59+1",
    "1F5B47:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F6DBE",
@@ -7749,7 +8028,7 @@
   "addr": "1F6E12",
   "kind": "name",
   "jp": "ポアラ",
-  "en": "",
+  "en": "Poala",
   "bytes": 8,
   "sites": [
    "1F5B5D:op59+1",
@@ -7759,7 +8038,8 @@
    "1F5B5D:op59+1",
    "1F5B5D:op59+1",
    "1F5B5D:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F6E1A",
@@ -7783,7 +8063,7 @@
   "addr": "1F6E2A",
   "kind": "name",
   "jp": "スレッド",
-  "en": "",
+  "en": "Slade",
   "bytes": 10,
   "sites": [
    "1F5B7C:op59+1",
@@ -7793,7 +8073,8 @@
    "1F5B7C:op59+1",
    "1F5B7C:op59+1",
    "1F5B7C:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F6E34",
@@ -7817,7 +8098,7 @@
   "addr": "1F6E44",
   "kind": "name",
   "jp": "バスター",
-  "en": "",
+  "en": "Buster",
   "bytes": 10,
   "sites": [
    "1F5B92:op52+1",
@@ -7828,7 +8109,8 @@
    "1F5B92:op52+1",
    "1F5B92:op52+1",
    "1F5B92:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F6E4E",
@@ -7853,7 +8135,7 @@
   "addr": "1F6E5E",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F5B9D:op59+1",
@@ -7864,7 +8146,8 @@
    "1F5B9D:op59+1",
    "1F5B9D:op59+1",
    "1F5B9D:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F6E66",
@@ -7889,7 +8172,7 @@
   "addr": "1F6E9E",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F5BB8:op59+1",
@@ -7900,7 +8183,8 @@
    "1F5BB8:op59+1",
    "1F5BB8:op59+1",
    "1F5BB8:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F6EA6",
@@ -7925,7 +8209,7 @@
   "addr": "1F6EB2",
   "kind": "name",
   "jp": "ポアラ",
-  "en": "",
+  "en": "Poala",
   "bytes": 8,
   "sites": [
    "1F5BCE:op59+1",
@@ -7936,7 +8220,8 @@
    "1F5BCE:op59+1",
    "1F5BCE:op59+1",
    "1F5BCE:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F6EBA",
@@ -7961,7 +8246,7 @@
   "addr": "1F6EC8",
   "kind": "name",
   "jp": "スレッド",
-  "en": "",
+  "en": "Slade",
   "bytes": 10,
   "sites": [
    "1F5BED:op59+1",
@@ -7972,7 +8257,8 @@
    "1F5BED:op59+1",
    "1F5BED:op59+1",
    "1F5BED:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F6ED2",
@@ -7997,7 +8283,7 @@
   "addr": "1F6EF2",
   "kind": "name",
   "jp": "ポアラ",
-  "en": "",
+  "en": "Poala",
   "bytes": 8,
   "sites": [
    "1F5C03:op59+1",
@@ -8009,7 +8295,8 @@
    "1F5C03:op59+1",
    "1F5C03:op59+1",
    "1F5C03:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F6EFA",
@@ -8035,7 +8322,7 @@
   "addr": "1F6F20",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F5C19:op59+1",
@@ -8047,7 +8334,8 @@
    "1F5C19:op59+1",
    "1F5C19:op59+1",
    "1F5C19:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F6F28",
@@ -8073,7 +8361,7 @@
   "addr": "1F6F40",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F5C4F:op59+1",
@@ -8086,7 +8374,8 @@
    "1F5C4F:op59+1",
    "1F5C4F:op59+1",
    "1F5C4F:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F6F48",
@@ -8113,7 +8402,7 @@
   "addr": "1F6F70",
   "kind": "name",
   "jp": "ポアラ",
-  "en": "",
+  "en": "Poala",
   "bytes": 8,
   "sites": [
    "1F5C65:op59+1",
@@ -8126,7 +8415,8 @@
    "1F5C65:op59+1",
    "1F5C65:op59+1",
    "1F5C65:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F6F78",
@@ -8153,7 +8443,7 @@
   "addr": "1F6FA4",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F5C7B:op59+1",
@@ -8166,7 +8456,8 @@
    "1F5C7B:op59+1",
    "1F5C7B:op59+1",
    "1F5C7B:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F6FAC",
@@ -8193,7 +8484,7 @@
   "addr": "1F6FBC",
   "kind": "name",
   "jp": "ポアラ",
-  "en": "",
+  "en": "Poala",
   "bytes": 8,
   "sites": [
    "1F5C91:op59+1",
@@ -8206,7 +8497,8 @@
    "1F5C91:op59+1",
    "1F5C91:op59+1",
    "1F5C91:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F6FC4",
@@ -8233,7 +8525,7 @@
   "addr": "1F6FEA",
   "kind": "name",
   "jp": "スレッド",
-  "en": "",
+  "en": "Slade",
   "bytes": 10,
   "sites": [
    "1F5CB0:op59+1",
@@ -8246,7 +8538,8 @@
    "1F5CB0:op59+1",
    "1F5CB0:op59+1",
    "1F5CB0:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F6FF4",
@@ -8273,7 +8566,7 @@
   "addr": "1F7004",
   "kind": "name",
   "jp": "バスター",
-  "en": "",
+  "en": "Buster",
   "bytes": 10,
   "sites": [
    "1F5D1C:op52+1",
@@ -8289,7 +8582,8 @@
    "1F5D1C:op52+1",
    "1F5D1C:op52+1",
    "1F5D1C:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F700E",
@@ -8319,7 +8613,7 @@
   "addr": "1F708A",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F5D27:op59+1",
@@ -8335,7 +8629,8 @@
    "1F5D27:op59+1",
    "1F5D27:op59+1",
    "1F5D27:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F7092",
@@ -8365,7 +8660,7 @@
   "addr": "1F70AE",
   "kind": "name",
   "jp": "バスター",
-  "en": "",
+  "en": "Buster",
   "bytes": 10,
   "sites": [
    "1F5D3D:op52+1",
@@ -8381,7 +8676,8 @@
    "1F5D3D:op52+1",
    "1F5D3D:op52+1",
    "1F5D3D:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F70B8",
@@ -8411,7 +8707,7 @@
   "addr": "1F70E6",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F5D53:op59+1",
@@ -8427,7 +8723,8 @@
    "1F5D53:op59+1",
    "1F5D53:op59+1",
    "1F5D53:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F70EE",
@@ -8457,7 +8754,7 @@
   "addr": "1F7112",
   "kind": "name",
   "jp": "ポアラ",
-  "en": "",
+  "en": "Poala",
   "bytes": 8,
   "sites": [
    "1F5D69:op59+1",
@@ -8473,7 +8770,8 @@
    "1F5D69:op59+1",
    "1F5D69:op59+1",
    "1F5D69:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F711A",
@@ -8503,11 +8801,12 @@
   "addr": "1F7B20",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F7139:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F7B28",
@@ -8525,11 +8824,12 @@
   "addr": "1F7B40",
   "kind": "name",
   "jp": "ポアラ",
-  "en": "",
+  "en": "Poala",
   "bytes": 8,
   "sites": [
    "1F714F:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F7B48",
@@ -8547,12 +8847,13 @@
   "addr": "1F7B98",
   "kind": "name",
   "jp": "鑑定士",
-  "en": "",
+  "en": "Appraiser",
   "bytes": 8,
   "sites": [
    "1F719A:op59+1",
    "1F719A:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F7BA0",
@@ -8571,12 +8872,13 @@
   "addr": "1F7BDC",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F71B0:op59+1",
    "1F71B0:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F7BE4",
@@ -8595,12 +8897,13 @@
   "addr": "1F7C20",
   "kind": "name",
   "jp": "鑑定士",
-  "en": "",
+  "en": "Appraiser",
   "bytes": 8,
   "sites": [
    "1F71C6:op59+1",
    "1F71C6:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F7C28",
@@ -8619,12 +8922,13 @@
   "addr": "1F7C9E",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F71DC:op59+1",
    "1F71DC:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F7CA6",
@@ -8643,12 +8947,13 @@
   "addr": "1F7CBA",
   "kind": "name",
   "jp": "鑑定士",
-  "en": "",
+  "en": "Appraiser",
   "bytes": 8,
   "sites": [
    "1F71F2:op59+1",
    "1F71F2:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F7CC2",
@@ -8667,12 +8972,13 @@
   "addr": "1F7D14",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F7208:op59+1",
    "1F7208:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F7D1C",
@@ -8691,12 +8997,13 @@
   "addr": "1F7D2C",
   "kind": "name",
   "jp": "鑑定士",
-  "en": "",
+  "en": "Appraiser",
   "bytes": 8,
   "sites": [
    "1F721E:op59+1",
    "1F721E:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F7D34",
@@ -8715,12 +9022,13 @@
   "addr": "1F7DA4",
   "kind": "name",
   "jp": "ポアラ",
-  "en": "",
+  "en": "Poala",
   "bytes": 8,
   "sites": [
    "1F7234:op59+1",
    "1F7234:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F7DAC",
@@ -8739,12 +9047,13 @@
   "addr": "1F7DC6",
   "kind": "name",
   "jp": "鑑定士",
-  "en": "",
+  "en": "Appraiser",
   "bytes": 8,
   "sites": [
    "1F724A:op59+1",
    "1F724A:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F7DCE",
@@ -8763,12 +9072,13 @@
   "addr": "1F7E64",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F7260:op59+1",
    "1F7260:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F7E6C",
@@ -8787,12 +9097,13 @@
   "addr": "1F7E7C",
   "kind": "name",
   "jp": "鑑定士",
-  "en": "",
+  "en": "Appraiser",
   "bytes": 8,
   "sites": [
    "1F7276:op59+1",
    "1F7276:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F7E84",
@@ -8811,12 +9122,13 @@
   "addr": "1F7F1A",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F728C:op59+1",
    "1F728C:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F7F22",
@@ -8835,12 +9147,13 @@
   "addr": "1F7F60",
   "kind": "name",
   "jp": "鑑定士",
-  "en": "",
+  "en": "Appraiser",
   "bytes": 8,
   "sites": [
    "1F72A2:op59+1",
    "1F72A2:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F7F68",
@@ -8859,12 +9172,13 @@
   "addr": "1F801A",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F72B8:op59+1",
    "1F72B8:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F8022",
@@ -8883,12 +9197,13 @@
   "addr": "1F8030",
   "kind": "name",
   "jp": "ポアラ",
-  "en": "",
+  "en": "Poala",
   "bytes": 8,
   "sites": [
    "1F72CE:op59+1",
    "1F72CE:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F8038",
@@ -8907,12 +9222,13 @@
   "addr": "1F8048",
   "kind": "name",
   "jp": "鑑定士",
-  "en": "",
+  "en": "Appraiser",
   "bytes": 8,
   "sites": [
    "1F72E4:op59+1",
    "1F72E4:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F8050",
@@ -8931,12 +9247,13 @@
   "addr": "1F8118",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F72FA:op59+1",
    "1F72FA:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F8120",
@@ -8955,12 +9272,13 @@
   "addr": "1F8152",
   "kind": "name",
   "jp": "鑑定士",
-  "en": "",
+  "en": "Appraiser",
   "bytes": 8,
   "sites": [
    "1F7310:op59+1",
    "1F7310:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F815A",
@@ -8979,12 +9297,13 @@
   "addr": "1F81A4",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F7326:op59+1",
    "1F7326:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F81AC",
@@ -9003,12 +9322,13 @@
   "addr": "1F81E0",
   "kind": "name",
   "jp": "ポアラ",
-  "en": "",
+  "en": "Poala",
   "bytes": 8,
   "sites": [
    "1F733C:op59+1",
    "1F733C:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F81E8",
@@ -9027,12 +9347,13 @@
   "addr": "1F81FC",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F7352:op59+1",
    "1F7352:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F8204",
@@ -9051,12 +9372,13 @@
   "addr": "1F8226",
   "kind": "name",
   "jp": "鑑定士",
-  "en": "",
+  "en": "Appraiser",
   "bytes": 8,
   "sites": [
    "1F7368:op59+1",
    "1F7368:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F822E",
@@ -9075,12 +9397,13 @@
   "addr": "1F8250",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F73C3:op59+1",
    "1F73C3:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F8258",
@@ -9099,12 +9422,13 @@
   "addr": "1F827C",
   "kind": "name",
   "jp": "ポアラ",
-  "en": "",
+  "en": "Poala",
   "bytes": 8,
   "sites": [
    "1F73D9:op59+1",
    "1F73D9:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F8284",
@@ -9123,12 +9447,13 @@
   "addr": "1F82BC",
   "kind": "name",
   "jp": "スレッド",
-  "en": "",
+  "en": "Slade",
   "bytes": 10,
   "sites": [
    "1F73F8:op59+1",
    "1F73F8:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F82C6",
@@ -9147,13 +9472,14 @@
   "addr": "1F82E8",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F7416:op59+1",
    "1F7416:op59+1",
    "1F7416:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F82F0",
@@ -9173,13 +9499,14 @@
   "addr": "1F836A",
   "kind": "name",
   "jp": "ポアラ",
-  "en": "",
+  "en": "Poala",
   "bytes": 8,
   "sites": [
    "1F742C:op59+1",
    "1F742C:op59+1",
    "1F742C:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F8372",
@@ -9199,13 +9526,14 @@
   "addr": "1F839A",
   "kind": "name",
   "jp": "スレッド",
-  "en": "",
+  "en": "Slade",
   "bytes": 10,
   "sites": [
    "1F744B:op59+1",
    "1F744B:op59+1",
    "1F744B:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F83A4",
@@ -9225,14 +9553,15 @@
   "addr": "1F83B4",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F7461:op59+1",
    "1F7461:op59+1",
    "1F7461:op59+1",
    "1F7461:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F83BC",
@@ -9253,14 +9582,15 @@
   "addr": "1F8416",
   "kind": "name",
   "jp": "ポアラ",
-  "en": "",
+  "en": "Poala",
   "bytes": 8,
   "sites": [
    "1F7477:op59+1",
    "1F7477:op59+1",
    "1F7477:op59+1",
    "1F7477:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F841E",
@@ -9281,14 +9611,15 @@
   "addr": "1F8476",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F748D:op59+1",
    "1F748D:op59+1",
    "1F748D:op59+1",
    "1F748D:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F847E",
@@ -9309,12 +9640,13 @@
   "addr": "1F8498",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F74E8:op59+1",
    "1F74E8:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F84A0",
@@ -9333,12 +9665,13 @@
   "addr": "1F84CC",
   "kind": "name",
   "jp": "ポアラ",
-  "en": "",
+  "en": "Poala",
   "bytes": 8,
   "sites": [
    "1F74FE:op59+1",
    "1F74FE:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F84D4",
@@ -9357,12 +9690,13 @@
   "addr": "1F8504",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F7514:op59+1",
    "1F7514:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F850C",
@@ -9381,12 +9715,13 @@
   "addr": "1F8530",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F7532:op59+1",
    "1F7532:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F8538",
@@ -9405,12 +9740,13 @@
   "addr": "1F8580",
   "kind": "name",
   "jp": "ポアラ",
-  "en": "",
+  "en": "Poala",
   "bytes": 8,
   "sites": [
    "1F7548:op59+1",
    "1F7548:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F8588",
@@ -9429,12 +9765,13 @@
   "addr": "1F85C8",
   "kind": "name",
   "jp": "スレッド",
-  "en": "",
+  "en": "Slade",
   "bytes": 10,
   "sites": [
    "1F7567:op59+1",
    "1F7567:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F85D2",
@@ -9453,13 +9790,14 @@
   "addr": "1F85F8",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F757D:op59+1",
    "1F757D:op59+1",
    "1F757D:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F8600",
@@ -9479,12 +9817,13 @@
   "addr": "1F8668",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F75D8:op59+1",
    "1F75D8:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F8670",
@@ -9503,12 +9842,13 @@
   "addr": "1F86A2",
   "kind": "name",
   "jp": "ポアラ",
-  "en": "",
+  "en": "Poala",
   "bytes": 8,
   "sites": [
    "1F75EE:op59+1",
    "1F75EE:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F86AA",
@@ -9527,12 +9867,13 @@
   "addr": "1F86EC",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F7604:op59+1",
    "1F7604:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F86F4",
@@ -9551,12 +9892,13 @@
   "addr": "1F8724",
   "kind": "name",
   "jp": "スレッド",
-  "en": "",
+  "en": "Slade",
   "bytes": 10,
   "sites": [
    "1F7623:op59+1",
    "1F7623:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F872E",
@@ -9575,13 +9917,14 @@
   "addr": "1F8740",
   "kind": "name",
   "jp": "ポアラ",
-  "en": "",
+  "en": "Poala",
   "bytes": 8,
   "sites": [
    "1F7639:op59+1",
    "1F7639:op59+1",
    "1F7639:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F8748",
@@ -9601,13 +9944,14 @@
   "addr": "1F877A",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F764F:op59+1",
    "1F764F:op59+1",
    "1F764F:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F8782",
@@ -9627,13 +9971,14 @@
   "addr": "1F8792",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F766D:op59+1",
    "1F766D:op59+1",
    "1F766D:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F879A",
@@ -9653,13 +9998,14 @@
   "addr": "1F87CC",
   "kind": "name",
   "jp": "ポアラ",
-  "en": "",
+  "en": "Poala",
   "bytes": 8,
   "sites": [
    "1F7683:op59+1",
    "1F7683:op59+1",
    "1F7683:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F87D4",
@@ -9679,13 +10025,14 @@
   "addr": "1F8802",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F7699:op59+1",
    "1F7699:op59+1",
    "1F7699:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F880A",
@@ -9705,13 +10052,14 @@
   "addr": "1F884E",
   "kind": "name",
   "jp": "ポアラ",
-  "en": "",
+  "en": "Poala",
   "bytes": 8,
   "sites": [
    "1F76AF:op59+1",
    "1F76AF:op59+1",
    "1F76AF:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F8856",
@@ -9731,13 +10079,14 @@
   "addr": "1F8878",
   "kind": "name",
   "jp": "村人",
-  "en": "",
+  "en": "Villager",
   "bytes": 6,
   "sites": [
    "1F76C5:op52+1",
    "1F76C5:op52+1",
    "1F76C5:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F887E",
@@ -9757,14 +10106,15 @@
   "addr": "1F889A",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F76E8:op59+1",
    "1F76E8:op59+1",
    "1F76E8:op59+1",
    "1F76E8:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F88A2",
@@ -9785,14 +10135,15 @@
   "addr": "1F88AA",
   "kind": "name",
   "jp": "ポアラ",
-  "en": "",
+  "en": "Poala",
   "bytes": 8,
   "sites": [
    "1F76FE:op59+1",
    "1F76FE:op59+1",
    "1F76FE:op59+1",
    "1F76FE:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F88B2",
@@ -9813,14 +10164,15 @@
   "addr": "1F88BE",
   "kind": "name",
   "jp": "スレッド",
-  "en": "",
+  "en": "Slade",
   "bytes": 10,
   "sites": [
    "1F771D:op59+1",
    "1F771D:op59+1",
    "1F771D:op59+1",
    "1F771D:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F88C8",
@@ -9841,7 +10193,7 @@
   "addr": "1F88DC",
   "kind": "name",
   "jp": "村人",
-  "en": "",
+  "en": "Villager",
   "bytes": 6,
   "sites": [
    "1F7746:op52+1",
@@ -9849,7 +10201,8 @@
    "1F7746:op52+1",
    "1F7746:op52+1",
    "1F7746:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F88E2",
@@ -9871,7 +10224,7 @@
   "addr": "1F8902",
   "kind": "name",
   "jp": "ポアラ",
-  "en": "",
+  "en": "Poala",
   "bytes": 8,
   "sites": [
    "1F7751:op59+1",
@@ -9879,7 +10232,8 @@
    "1F7751:op59+1",
    "1F7751:op59+1",
    "1F7751:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F890A",
@@ -9901,7 +10255,7 @@
   "addr": "1F894E",
   "kind": "name",
   "jp": "村人",
-  "en": "",
+  "en": "Villager",
   "bytes": 6,
   "sites": [
    "1F7767:op52+1",
@@ -9909,7 +10263,8 @@
    "1F7767:op52+1",
    "1F7767:op52+1",
    "1F7767:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F8954",
@@ -9931,7 +10286,7 @@
   "addr": "1F898A",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F7772:op59+1",
@@ -9939,7 +10294,8 @@
    "1F7772:op59+1",
    "1F7772:op59+1",
    "1F7772:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F8992",
@@ -9961,7 +10317,7 @@
   "addr": "1F89A0",
   "kind": "name",
   "jp": "村人",
-  "en": "",
+  "en": "Villager",
   "bytes": 6,
   "sites": [
    "1F7788:op52+1",
@@ -9969,7 +10325,8 @@
    "1F7788:op52+1",
    "1F7788:op52+1",
    "1F7788:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F89A6",
@@ -9991,7 +10348,7 @@
   "addr": "1F89F0",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F7793:op59+1",
@@ -9999,7 +10356,8 @@
    "1F7793:op59+1",
    "1F7793:op59+1",
    "1F7793:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F89F8",
@@ -10021,7 +10379,7 @@
   "addr": "1F8A12",
   "kind": "name",
   "jp": "スレッド",
-  "en": "",
+  "en": "Slade",
   "bytes": 10,
   "sites": [
    "1F77B2:op59+1",
@@ -10029,7 +10387,8 @@
    "1F77B2:op59+1",
    "1F77B2:op59+1",
    "1F77B2:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F8A1C",
@@ -10051,7 +10410,7 @@
   "addr": "1F8A46",
   "kind": "name",
   "jp": "ポアラ",
-  "en": "",
+  "en": "Poala",
   "bytes": 8,
   "sites": [
    "1F77C8:op59+1",
@@ -10060,7 +10419,8 @@
    "1F77C8:op59+1",
    "1F77C8:op59+1",
    "1F77C8:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F8A4E",
@@ -10083,7 +10443,7 @@
   "addr": "1F8A74",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F77DE:op59+1",
@@ -10092,7 +10452,8 @@
    "1F77DE:op59+1",
    "1F77DE:op59+1",
    "1F77DE:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F8A7C",
@@ -10132,7 +10493,7 @@
   "addr": "1F8AA0",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F7840:op59+1",
@@ -10142,7 +10503,8 @@
    "1F7840:op59+1",
    "1F7840:op59+1",
    "1F7840:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F8AA8",
@@ -10166,7 +10528,7 @@
   "addr": "1F8AC6",
   "kind": "name",
   "jp": "ポアラ",
-  "en": "",
+  "en": "Poala",
   "bytes": 8,
   "sites": [
    "1F7856:op59+1",
@@ -10176,7 +10538,8 @@
    "1F7856:op59+1",
    "1F7856:op59+1",
    "1F7856:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F8ACE",
@@ -10200,7 +10563,7 @@
   "addr": "1F8AF4",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F786C:op59+1",
@@ -10210,7 +10573,8 @@
    "1F786C:op59+1",
    "1F786C:op59+1",
    "1F786C:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F8AFC",
@@ -10234,7 +10598,7 @@
   "addr": "1F8B2E",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F788A:op59+1",
@@ -10244,7 +10608,8 @@
    "1F788A:op59+1",
    "1F788A:op59+1",
    "1F788A:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F8B36",
@@ -10268,7 +10633,7 @@
   "addr": "1F8B6A",
   "kind": "name",
   "jp": "ポアラ",
-  "en": "",
+  "en": "Poala",
   "bytes": 8,
   "sites": [
    "1F78A0:op59+1",
@@ -10278,7 +10643,8 @@
    "1F78A0:op59+1",
    "1F78A0:op59+1",
    "1F78A0:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F8B72",
@@ -10302,7 +10668,7 @@
   "addr": "1F8BB8",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F78B6:op59+1",
@@ -10312,7 +10678,8 @@
    "1F78B6:op59+1",
    "1F78B6:op59+1",
    "1F78B6:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F8BC0",
@@ -10336,7 +10703,7 @@
   "addr": "1F8BFA",
   "kind": "name",
   "jp": "ポアラ",
-  "en": "",
+  "en": "Poala",
   "bytes": 8,
   "sites": [
    "1F78CC:op59+1",
@@ -10346,7 +10713,8 @@
    "1F78CC:op59+1",
    "1F78CC:op59+1",
    "1F78CC:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F8C02",
@@ -10370,7 +10738,7 @@
   "addr": "1F8C16",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F78E2:op59+1",
@@ -10380,7 +10748,8 @@
    "1F78E2:op59+1",
    "1F78E2:op59+1",
    "1F78E2:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F8C1E",
@@ -10404,7 +10773,7 @@
   "addr": "1F8C44",
   "kind": "name",
   "jp": "鑑定士",
-  "en": "",
+  "en": "Appraiser",
   "bytes": 8,
   "sites": [
    "1F78F8:op59+1",
@@ -10414,7 +10783,8 @@
    "1F78F8:op59+1",
    "1F78F8:op59+1",
    "1F78F8:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F8C4C",
@@ -10438,7 +10808,7 @@
   "addr": "1F8C70",
   "kind": "name",
   "jp": "ポアラ",
-  "en": "",
+  "en": "Poala",
   "bytes": 8,
   "sites": [
    "1F792D:op59+1",
@@ -10448,7 +10818,8 @@
    "1F792D:op59+1",
    "1F792D:op59+1",
    "1F792D:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F8C78",
@@ -10472,7 +10843,7 @@
   "addr": "1F8C92",
   "kind": "name",
   "jp": "鑑定士",
-  "en": "",
+  "en": "Appraiser",
   "bytes": 8,
   "sites": [
    "1F7943:op59+1",
@@ -10482,7 +10853,8 @@
    "1F7943:op59+1",
    "1F7943:op59+1",
    "1F7943:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F8C9A",
@@ -10506,7 +10878,7 @@
   "addr": "1F8D1C",
   "kind": "name",
   "jp": "ポアラ",
-  "en": "",
+  "en": "Poala",
   "bytes": 8,
   "sites": [
    "1F7959:op59+1",
@@ -10516,7 +10888,8 @@
    "1F7959:op59+1",
    "1F7959:op59+1",
    "1F7959:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F8D24",
@@ -10540,7 +10913,7 @@
   "addr": "1F8D3E",
   "kind": "name",
   "jp": "スレッド",
-  "en": "",
+  "en": "Slade",
   "bytes": 10,
   "sites": [
    "1F7978:op59+1",
@@ -10550,7 +10923,8 @@
    "1F7978:op59+1",
    "1F7978:op59+1",
    "1F7978:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F8D48",
@@ -10574,7 +10948,7 @@
   "addr": "1F8D58",
   "kind": "name",
   "jp": "鑑定士",
-  "en": "",
+  "en": "Appraiser",
   "bytes": 8,
   "sites": [
    "1F798E:op59+1",
@@ -10585,7 +10959,8 @@
    "1F798E:op59+1",
    "1F798E:op59+1",
    "1F798E:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F8D60",
@@ -10610,7 +10985,7 @@
   "addr": "1F8D8A",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F79A4:op59+1",
@@ -10621,7 +10996,8 @@
    "1F79A4:op59+1",
    "1F79A4:op59+1",
    "1F79A4:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F8D92",
@@ -10646,7 +11022,7 @@
   "addr": "1F8DAE",
   "kind": "name",
   "jp": "鑑定士",
-  "en": "",
+  "en": "Appraiser",
   "bytes": 8,
   "sites": [
    "1F79BA:op59+1",
@@ -10657,7 +11033,8 @@
    "1F79BA:op59+1",
    "1F79BA:op59+1",
    "1F79BA:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F8DB6",
@@ -10682,7 +11059,7 @@
   "addr": "1F8E28",
   "kind": "name",
   "jp": "ポアラ",
-  "en": "",
+  "en": "Poala",
   "bytes": 8,
   "sites": [
    "1F79D0:op59+1",
@@ -10693,7 +11070,8 @@
    "1F79D0:op59+1",
    "1F79D0:op59+1",
    "1F79D0:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F8E30",
@@ -10718,7 +11096,7 @@
   "addr": "1F8E40",
   "kind": "name",
   "jp": "鑑定士",
-  "en": "",
+  "en": "Appraiser",
   "bytes": 8,
   "sites": [
    "1F79E6:op59+1",
@@ -10729,7 +11107,8 @@
    "1F79E6:op59+1",
    "1F79E6:op59+1",
    "1F79E6:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F8E48",
@@ -10754,7 +11133,7 @@
   "addr": "1F8EDC",
   "kind": "name",
   "jp": "ポアラ",
-  "en": "",
+  "en": "Poala",
   "bytes": 8,
   "sites": [
    "1F79FC:op59+1",
@@ -10765,7 +11144,8 @@
    "1F79FC:op59+1",
    "1F79FC:op59+1",
    "1F79FC:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F8EE4",
@@ -10790,7 +11170,7 @@
   "addr": "1F8F00",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F7A12:op59+1",
@@ -10801,7 +11181,8 @@
    "1F7A12:op59+1",
    "1F7A12:op59+1",
    "1F7A12:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F8F08",
@@ -10826,7 +11207,7 @@
   "addr": "1F8F2E",
   "kind": "name",
   "jp": "ポアラ",
-  "en": "",
+  "en": "Poala",
   "bytes": 8,
   "sites": [
    "1F7A28:op59+1",
@@ -10837,7 +11218,8 @@
    "1F7A28:op59+1",
    "1F7A28:op59+1",
    "1F7A28:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F8F36",
@@ -10862,7 +11244,7 @@
   "addr": "1F8F46",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F7A3E:op59+1",
@@ -10873,7 +11255,8 @@
    "1F7A3E:op59+1",
    "1F7A3E:op59+1",
    "1F7A3E:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F8F4E",
@@ -10898,7 +11281,7 @@
   "addr": "1F8FDE",
   "kind": "name",
   "jp": "ポアラ",
-  "en": "",
+  "en": "Poala",
   "bytes": 8,
   "sites": [
    "1F7A54:op59+1",
@@ -10909,7 +11292,8 @@
    "1F7A54:op59+1",
    "1F7A54:op59+1",
    "1F7A54:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F8FE6",
@@ -10934,7 +11318,7 @@
   "addr": "1F9004",
   "kind": "name",
   "jp": "スレッド",
-  "en": "",
+  "en": "Slade",
   "bytes": 10,
   "sites": [
    "1F7A73:op59+1",
@@ -10945,7 +11329,8 @@
    "1F7A73:op59+1",
    "1F7A73:op59+1",
    "1F7A73:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F900E",
@@ -10970,7 +11355,7 @@
   "addr": "1F901E",
   "kind": "name",
   "jp": "鑑定士",
-  "en": "",
+  "en": "Appraiser",
   "bytes": 8,
   "sites": [
    "1F7A89:op59+1",
@@ -10982,7 +11367,8 @@
    "1F7A89:op59+1",
    "1F7A89:op59+1",
    "1F7A89:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F9026",
@@ -11008,7 +11394,7 @@
   "addr": "1F909C",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F7A9F:op59+1",
@@ -11020,7 +11406,8 @@
    "1F7A9F:op59+1",
    "1F7A9F:op59+1",
    "1F7A9F:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F90A4",
@@ -11046,7 +11433,7 @@
   "addr": "1F90B6",
   "kind": "name",
   "jp": "ポアラ",
-  "en": "",
+  "en": "Poala",
   "bytes": 8,
   "sites": [
    "1F7AB5:op59+1",
@@ -11058,7 +11445,8 @@
    "1F7AB5:op59+1",
    "1F7AB5:op59+1",
    "1F7AB5:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F90BE",
@@ -11084,7 +11472,7 @@
   "addr": "1F90D8",
   "kind": "name",
   "jp": "スレッド",
-  "en": "",
+  "en": "Slade",
   "bytes": 10,
   "sites": [
    "1F7AD4:op59+1",
@@ -11096,7 +11484,8 @@
    "1F7AD4:op59+1",
    "1F7AD4:op59+1",
    "1F7AD4:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F90E2",
@@ -11122,7 +11511,7 @@
   "addr": "1F90F0",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F7AEA:op59+1",
@@ -11135,7 +11524,8 @@
    "1F7AEA:op59+1",
    "1F7AEA:op59+1",
    "1F7AEA:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F90F8",
@@ -11162,12 +11552,13 @@
   "addr": "1F9B80",
   "kind": "name",
   "jp": "鑑定士",
-  "en": "",
+  "en": "Appraiser",
   "bytes": 8,
   "sites": [
    "1F9187:op59+1",
    "1F9187:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F9B88",
@@ -11186,12 +11577,13 @@
   "addr": "1F9C66",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F919D:op59+1",
    "1F919D:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F9C6E",
@@ -11210,12 +11602,13 @@
   "addr": "1F9C80",
   "kind": "name",
   "jp": "ポアラ",
-  "en": "",
+  "en": "Poala",
   "bytes": 8,
   "sites": [
    "1F91B3:op59+1",
    "1F91B3:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F9C88",
@@ -11234,12 +11627,13 @@
   "addr": "1F9CB4",
   "kind": "name",
   "jp": "鑑定士",
-  "en": "",
+  "en": "Appraiser",
   "bytes": 8,
   "sites": [
    "1F91C9:op59+1",
    "1F91C9:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F9CBC",
@@ -11258,12 +11652,13 @@
   "addr": "1F9CEA",
   "kind": "name",
   "jp": "スレッド",
-  "en": "",
+  "en": "Slade",
   "bytes": 10,
   "sites": [
    "1F91E8:op59+1",
    "1F91E8:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F9CF4",
@@ -11282,13 +11677,14 @@
   "addr": "1F9D04",
   "kind": "name",
   "jp": "ポアラ",
-  "en": "",
+  "en": "Poala",
   "bytes": 8,
   "sites": [
    "1F91FE:op59+1",
    "1F91FE:op59+1",
    "1F91FE:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F9D0C",
@@ -11308,13 +11704,14 @@
   "addr": "1F9D54",
   "kind": "name",
   "jp": "鑑定士",
-  "en": "",
+  "en": "Appraiser",
   "bytes": 8,
   "sites": [
    "1F9214:op59+1",
    "1F9214:op59+1",
    "1F9214:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F9D5C",
@@ -11334,13 +11731,14 @@
   "addr": "1F9E3E",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F922A:op59+1",
    "1F922A:op59+1",
    "1F922A:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F9E46",
@@ -11360,13 +11758,14 @@
   "addr": "1F9E66",
   "kind": "name",
   "jp": "ポアラ",
-  "en": "",
+  "en": "Poala",
   "bytes": 8,
   "sites": [
    "1F9240:op59+1",
    "1F9240:op59+1",
    "1F9240:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F9E6E",
@@ -11386,13 +11785,14 @@
   "addr": "1F9E98",
   "kind": "name",
   "jp": "スレッド",
-  "en": "",
+  "en": "Slade",
   "bytes": 10,
   "sites": [
    "1F925F:op59+1",
    "1F925F:op59+1",
    "1F925F:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F9EA2",
@@ -11412,14 +11812,15 @@
   "addr": "1F9EBC",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F9275:op59+1",
    "1F9275:op59+1",
    "1F9275:op59+1",
    "1F9275:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F9EC4",
@@ -11440,14 +11841,15 @@
   "addr": "1F9ED2",
   "kind": "name",
   "jp": "スレッド",
-  "en": "",
+  "en": "Slade",
   "bytes": 10,
   "sites": [
    "1F9294:op59+1",
    "1F9294:op59+1",
    "1F9294:op59+1",
    "1F9294:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F9EDC",
@@ -11468,7 +11870,7 @@
   "addr": "1F9EEC",
   "kind": "name",
   "jp": "鑑定士",
-  "en": "",
+  "en": "Appraiser",
   "bytes": 8,
   "sites": [
    "1F92AA:op59+1",
@@ -11476,7 +11878,8 @@
    "1F92AA:op59+1",
    "1F92AA:op59+1",
    "1F92AA:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F9EF4",
@@ -11498,7 +11901,7 @@
   "addr": "1F9F1C",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F92C0:op59+1",
@@ -11506,7 +11909,8 @@
    "1F92C0:op59+1",
    "1F92C0:op59+1",
    "1F92C0:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F9F24",
@@ -11528,7 +11932,7 @@
   "addr": "1F9F76",
   "kind": "name",
   "jp": "鑑定士",
-  "en": "",
+  "en": "Appraiser",
   "bytes": 8,
   "sites": [
    "1F92D6:op59+1",
@@ -11536,7 +11940,8 @@
    "1F92D6:op59+1",
    "1F92D6:op59+1",
    "1F92D6:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F9F7E",
@@ -11558,7 +11963,7 @@
   "addr": "1F9FA8",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F92EC:op59+1",
@@ -11566,7 +11971,8 @@
    "1F92EC:op59+1",
    "1F92EC:op59+1",
    "1F92EC:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F9FB0",
@@ -11588,7 +11994,7 @@
   "addr": "1F9FEA",
   "kind": "name",
   "jp": "ポアラ",
-  "en": "",
+  "en": "Poala",
   "bytes": 8,
   "sites": [
    "1F9302:op59+1",
@@ -11596,7 +12002,8 @@
    "1F9302:op59+1",
    "1F9302:op59+1",
    "1F9302:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1F9FF2",
@@ -11618,7 +12025,7 @@
   "addr": "1FA02E",
   "kind": "name",
   "jp": "スレッド",
-  "en": "",
+  "en": "Slade",
   "bytes": 10,
   "sites": [
    "1F9321:op59+1",
@@ -11626,7 +12033,8 @@
    "1F9321:op59+1",
    "1F9321:op59+1",
    "1F9321:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FA038",
@@ -11648,7 +12056,7 @@
   "addr": "1FA046",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F9337:op59+1",
@@ -11657,7 +12065,8 @@
    "1F9337:op59+1",
    "1F9337:op59+1",
    "1F9337:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FA04E",
@@ -11680,7 +12089,7 @@
   "addr": "1FA0AE",
   "kind": "name",
   "jp": "鑑定士",
-  "en": "",
+  "en": "Appraiser",
   "bytes": 8,
   "sites": [
    "1F934D:op59+1",
@@ -11689,7 +12098,8 @@
    "1F934D:op59+1",
    "1F934D:op59+1",
    "1F934D:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FA0B6",
@@ -11712,7 +12122,7 @@
   "addr": "1FA0DE",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F9363:op59+1",
@@ -11721,7 +12131,8 @@
    "1F9363:op59+1",
    "1F9363:op59+1",
    "1F9363:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FA0E6",
@@ -11744,12 +12155,13 @@
   "addr": "1FA100",
   "kind": "name",
   "jp": "スレッド",
-  "en": "",
+  "en": "Slade",
   "bytes": 10,
   "sites": [
    "1F93C2:op59+1",
    "1F93C2:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FA10A",
@@ -11768,13 +12180,14 @@
   "addr": "1FA118",
   "kind": "name",
   "jp": "ポアラ",
-  "en": "",
+  "en": "Poala",
   "bytes": 8,
   "sites": [
    "1F93D8:op59+1",
    "1F93D8:op59+1",
    "1F93D8:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FA120",
@@ -11794,13 +12207,14 @@
   "addr": "1FA13C",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F93EE:op59+1",
    "1F93EE:op59+1",
    "1F93EE:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FA144",
@@ -11820,13 +12234,14 @@
   "addr": "1FA14C",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F940C:op59+1",
    "1F940C:op59+1",
    "1F940C:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FA154",
@@ -11846,13 +12261,14 @@
   "addr": "1FA17C",
   "kind": "name",
   "jp": "ロズゴート",
-  "en": "",
+  "en": "Rozzgoat",
   "bytes": 12,
   "sites": [
    "1F9422:op59+1",
    "1F9422:op59+1",
    "1F9422:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FA188",
@@ -11872,13 +12288,14 @@
   "addr": "1FA18E",
   "kind": "name",
   "jp": "ロズゴート",
-  "en": "",
+  "en": "Rozzgoat",
   "bytes": 12,
   "sites": [
    "1F943F:op59+1",
    "1F943F:op59+1",
    "1F943F:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FA19A",
@@ -11898,13 +12315,14 @@
   "addr": "1FA20A",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F9455:op59+1",
    "1F9455:op59+1",
    "1F9455:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FA212",
@@ -11924,13 +12342,14 @@
   "addr": "1FA248",
   "kind": "name",
   "jp": "ロズゴート",
-  "en": "",
+  "en": "Rozzgoat",
   "bytes": 12,
   "sites": [
    "1F946B:op59+1",
    "1F946B:op59+1",
    "1F946B:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FA254",
@@ -11950,13 +12369,14 @@
   "addr": "1FA296",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F9481:op59+1",
    "1F9481:op59+1",
    "1F9481:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FA29E",
@@ -11976,13 +12396,14 @@
   "addr": "1FA304",
   "kind": "name",
   "jp": "ポアラ",
-  "en": "",
+  "en": "Poala",
   "bytes": 8,
   "sites": [
    "1F9497:op59+1",
    "1F9497:op59+1",
    "1F9497:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FA30C",
@@ -12002,13 +12423,14 @@
   "addr": "1FA32E",
   "kind": "name",
   "jp": "ロズゴート",
-  "en": "",
+  "en": "Rozzgoat",
   "bytes": 12,
   "sites": [
    "1F94AD:op59+1",
    "1F94AD:op59+1",
    "1F94AD:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FA33A",
@@ -12028,13 +12450,14 @@
   "addr": "1FA3D8",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F94C3:op59+1",
    "1F94C3:op59+1",
    "1F94C3:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FA3E0",
@@ -12054,13 +12477,14 @@
   "addr": "1FA3FA",
   "kind": "name",
   "jp": "ポアラ",
-  "en": "",
+  "en": "Poala",
   "bytes": 8,
   "sites": [
    "1F94D9:op59+1",
    "1F94D9:op59+1",
    "1F94D9:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FA402",
@@ -12080,13 +12504,14 @@
   "addr": "1FA48E",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F94EF:op59+1",
    "1F94EF:op59+1",
    "1F94EF:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FA496",
@@ -12106,13 +12531,14 @@
   "addr": "1FA4DA",
   "kind": "name",
   "jp": "ポアラ",
-  "en": "",
+  "en": "Poala",
   "bytes": 8,
   "sites": [
    "1F9505:op59+1",
    "1F9505:op59+1",
    "1F9505:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FA4E2",
@@ -12132,13 +12558,14 @@
   "addr": "1FA542",
   "kind": "name",
   "jp": "スレッド",
-  "en": "",
+  "en": "Slade",
   "bytes": 10,
   "sites": [
    "1F9524:op59+1",
    "1F9524:op59+1",
    "1F9524:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FA54C",
@@ -12158,14 +12585,15 @@
   "addr": "1FA562",
   "kind": "name",
   "jp": "ロズゴート",
-  "en": "",
+  "en": "Rozzgoat",
   "bytes": 12,
   "sites": [
    "1F953A:op59+1",
    "1F953A:op59+1",
    "1F953A:op59+1",
    "1F953A:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FA56E",
@@ -12186,14 +12614,15 @@
   "addr": "1FA5F4",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F9550:op59+1",
    "1F9550:op59+1",
    "1F9550:op59+1",
    "1F9550:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FA5FC",
@@ -12214,14 +12643,15 @@
   "addr": "1FA610",
   "kind": "name",
   "jp": "ロズゴート",
-  "en": "",
+  "en": "Rozzgoat",
   "bytes": 12,
   "sites": [
    "1F9566:op59+1",
    "1F9566:op59+1",
    "1F9566:op59+1",
    "1F9566:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FA61C",
@@ -12242,14 +12672,15 @@
   "addr": "1FA668",
   "kind": "name",
   "jp": "？？？？",
-  "en": "",
+  "en": "???",
   "bytes": 10,
   "sites": [
    "1F957C:op52+1",
    "1F957C:op52+1",
    "1F957C:op52+1",
    "1F957C:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FA672",
@@ -12270,7 +12701,7 @@
   "addr": "1FA6B0",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F95A3:op59+1",
@@ -12278,7 +12709,8 @@
    "1F95A3:op59+1",
    "1F95A3:op59+1",
    "1F95A3:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FA6B8",
@@ -12300,7 +12732,7 @@
   "addr": "1FA6C2",
   "kind": "name",
   "jp": "ロズゴート",
-  "en": "",
+  "en": "Rozzgoat",
   "bytes": 12,
   "sites": [
    "1F95B9:op59+1",
@@ -12308,7 +12740,8 @@
    "1F95B9:op59+1",
    "1F95B9:op59+1",
    "1F95B9:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FA6CE",
@@ -12330,7 +12763,7 @@
   "addr": "1FA6DA",
   "kind": "name",
   "jp": "？？？？",
-  "en": "",
+  "en": "???",
   "bytes": 10,
   "sites": [
    "1F95CF:op52+1",
@@ -12338,7 +12771,8 @@
    "1F95CF:op52+1",
    "1F95CF:op52+1",
    "1F95CF:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FA6E4",
@@ -12360,7 +12794,7 @@
   "addr": "1FA772",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F95DA:op59+1",
@@ -12368,7 +12802,8 @@
    "1F95DA:op59+1",
    "1F95DA:op59+1",
    "1F95DA:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FA77A",
@@ -12390,7 +12825,7 @@
   "addr": "1FA7A0",
   "kind": "name",
   "jp": "？？？？",
-  "en": "",
+  "en": "???",
   "bytes": 10,
   "sites": [
    "1F9607:op59+1",
@@ -12398,7 +12833,8 @@
    "1F9607:op59+1",
    "1F9607:op59+1",
    "1F9607:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FA7AA",
@@ -12420,7 +12856,7 @@
   "addr": "1FA7DE",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F961D:op59+1",
@@ -12428,7 +12864,8 @@
    "1F961D:op59+1",
    "1F961D:op59+1",
    "1F961D:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FA7E6",
@@ -12450,7 +12887,7 @@
   "addr": "1FA7FC",
   "kind": "name",
   "jp": "ポアラ",
-  "en": "",
+  "en": "Poala",
   "bytes": 8,
   "sites": [
    "1F9633:op59+1",
@@ -12458,7 +12895,8 @@
    "1F9633:op59+1",
    "1F9633:op59+1",
    "1F9633:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FA804",
@@ -12480,7 +12918,7 @@
   "addr": "1FA80C",
   "kind": "name",
   "jp": "ロズゴート",
-  "en": "",
+  "en": "Rozzgoat",
   "bytes": 12,
   "sites": [
    "1F9649:op59+1",
@@ -12488,7 +12926,8 @@
    "1F9649:op59+1",
    "1F9649:op59+1",
    "1F9649:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FA818",
@@ -12510,7 +12949,7 @@
   "addr": "1FA830",
   "kind": "name",
   "jp": "キッス",
-  "en": "",
+  "en": "Kissu",
   "bytes": 8,
   "sites": [
    "1F965F:op59+1",
@@ -12518,7 +12957,8 @@
    "1F965F:op59+1",
    "1F965F:op59+1",
    "1F965F:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FA838",
@@ -12540,7 +12980,7 @@
   "addr": "1FA8B2",
   "kind": "name",
   "jp": "ロズゴート",
-  "en": "",
+  "en": "Rozzgoat",
   "bytes": 12,
   "sites": [
    "1F9675:op59+1",
@@ -12548,7 +12988,8 @@
    "1F9675:op59+1",
    "1F9675:op59+1",
    "1F9675:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FA8BE",
@@ -12570,7 +13011,7 @@
   "addr": "1FA8CC",
   "kind": "name",
   "jp": "キッス",
-  "en": "",
+  "en": "Kissu",
   "bytes": 8,
   "sites": [
    "1F968B:op59+1",
@@ -12578,7 +13019,8 @@
    "1F968B:op59+1",
    "1F968B:op59+1",
    "1F968B:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FA8D4",
@@ -12600,7 +13042,7 @@
   "addr": "1FA8E4",
   "kind": "name",
   "jp": "ロズゴート",
-  "en": "",
+  "en": "Rozzgoat",
   "bytes": 12,
   "sites": [
    "1F96A1:op59+1",
@@ -12608,7 +13050,8 @@
    "1F96A1:op59+1",
    "1F96A1:op59+1",
    "1F96A1:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FA8F0",
@@ -12630,7 +13073,7 @@
   "addr": "1FA944",
   "kind": "name",
   "jp": "キッス",
-  "en": "",
+  "en": "Kissu",
   "bytes": 8,
   "sites": [
    "1F96BD:op59+1",
@@ -12638,7 +13081,8 @@
    "1F96BD:op59+1",
    "1F96BD:op59+1",
    "1F96BD:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FA94C",
@@ -12660,7 +13104,7 @@
   "addr": "1FA9C0",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F96D3:op59+1",
@@ -12668,7 +13112,8 @@
    "1F96D3:op59+1",
    "1F96D3:op59+1",
    "1F96D3:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FA9C8",
@@ -12690,7 +13135,7 @@
   "addr": "1FA9D8",
   "kind": "name",
   "jp": "キッス",
-  "en": "",
+  "en": "Kissu",
   "bytes": 8,
   "sites": [
    "1F96E9:op59+1",
@@ -12698,7 +13143,8 @@
    "1F96E9:op59+1",
    "1F96E9:op59+1",
    "1F96E9:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FA9E0",
@@ -12735,7 +13181,7 @@
   "addr": "1FAA14",
   "kind": "name",
   "jp": "キッス",
-  "en": "",
+  "en": "Kissu",
   "bytes": 8,
   "sites": [
    "1F970E:op59+1",
@@ -12743,7 +13189,8 @@
    "1F970E:op59+1",
    "1F970E:op59+1",
    "1F970E:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FAA1C",
@@ -12765,7 +13212,7 @@
   "addr": "1FAA2E",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F9724:op59+1",
@@ -12773,7 +13220,8 @@
    "1F9724:op59+1",
    "1F9724:op59+1",
    "1F9724:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FAA36",
@@ -12795,7 +13243,7 @@
   "addr": "1FAAA6",
   "kind": "name",
   "jp": "キッス",
-  "en": "",
+  "en": "Kissu",
   "bytes": 8,
   "sites": [
    "1F973A:op59+1",
@@ -12803,7 +13251,8 @@
    "1F973A:op59+1",
    "1F973A:op59+1",
    "1F973A:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FAAAE",
@@ -12825,7 +13274,7 @@
   "addr": "1FAACA",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F9750:op59+1",
@@ -12833,7 +13282,8 @@
    "1F9750:op59+1",
    "1F9750:op59+1",
    "1F9750:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FAAD2",
@@ -12855,7 +13305,7 @@
   "addr": "1FAAE2",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F9772:op59+1",
@@ -12863,7 +13313,8 @@
    "1F9772:op59+1",
    "1F9772:op59+1",
    "1F9772:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FAAEA",
@@ -12885,7 +13336,7 @@
   "addr": "1FAB72",
   "kind": "name",
   "jp": "キッス",
-  "en": "",
+  "en": "Kissu",
   "bytes": 8,
   "sites": [
    "1F978F:op59+1",
@@ -12893,7 +13344,8 @@
    "1F978F:op59+1",
    "1F978F:op59+1",
    "1F978F:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FAB7A",
@@ -12915,7 +13367,7 @@
   "addr": "1FABBA",
   "kind": "name",
   "jp": "ポアラ",
-  "en": "",
+  "en": "Poala",
   "bytes": 8,
   "sites": [
    "1F97A5:op59+1",
@@ -12923,7 +13375,8 @@
    "1F97A5:op59+1",
    "1F97A5:op59+1",
    "1F97A5:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FABC2",
@@ -12945,7 +13398,7 @@
   "addr": "1FAC10",
   "kind": "name",
   "jp": "キッス",
-  "en": "",
+  "en": "Kissu",
   "bytes": 8,
   "sites": [
    "1F97BB:op59+1",
@@ -12953,7 +13406,8 @@
    "1F97BB:op59+1",
    "1F97BB:op59+1",
    "1F97BB:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FAC18",
@@ -12975,7 +13429,7 @@
   "addr": "1FAC72",
   "kind": "name",
   "jp": "ポアラ",
-  "en": "",
+  "en": "Poala",
   "bytes": 8,
   "sites": [
    "1F97D1:op59+1",
@@ -12983,7 +13437,8 @@
    "1F97D1:op59+1",
    "1F97D1:op59+1",
    "1F97D1:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FAC7A",
@@ -13005,7 +13460,7 @@
   "addr": "1FAC8C",
   "kind": "name",
   "jp": "キッス",
-  "en": "",
+  "en": "Kissu",
   "bytes": 8,
   "sites": [
    "1F97E7:op59+1",
@@ -13013,7 +13468,8 @@
    "1F97E7:op59+1",
    "1F97E7:op59+1",
    "1F97E7:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FAC94",
@@ -13035,7 +13491,7 @@
   "addr": "1FACB2",
   "kind": "name",
   "jp": "ポアラ",
-  "en": "",
+  "en": "Poala",
   "bytes": 8,
   "sites": [
    "1F9811:op59+1",
@@ -13043,7 +13499,8 @@
    "1F9811:op59+1",
    "1F9811:op59+1",
    "1F9811:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FACBA",
@@ -13065,7 +13522,7 @@
   "addr": "1FACF2",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F9827:op59+1",
@@ -13073,7 +13530,8 @@
    "1F9827:op59+1",
    "1F9827:op59+1",
    "1F9827:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FACFA",
@@ -13095,7 +13553,7 @@
   "addr": "1FAD74",
   "kind": "name",
   "jp": "キッス",
-  "en": "",
+  "en": "Kissu",
   "bytes": 8,
   "sites": [
    "1F983D:op59+1",
@@ -13103,7 +13561,8 @@
    "1F983D:op59+1",
    "1F983D:op59+1",
    "1F983D:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FAD7C",
@@ -13125,7 +13584,7 @@
   "addr": "1FADB6",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F9863:op59+1",
@@ -13133,7 +13592,8 @@
    "1F9863:op59+1",
    "1F9863:op59+1",
    "1F9863:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FADBE",
@@ -13155,7 +13615,7 @@
   "addr": "1FAE18",
   "kind": "name",
   "jp": "スレッド",
-  "en": "",
+  "en": "Slade",
   "bytes": 10,
   "sites": [
    "1F9880:op59+1",
@@ -13163,7 +13623,8 @@
    "1F9880:op59+1",
    "1F9880:op59+1",
    "1F9880:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FAE22",
@@ -13185,7 +13646,7 @@
   "addr": "1FAE72",
   "kind": "name",
   "jp": "キッス",
-  "en": "",
+  "en": "Kissu",
   "bytes": 8,
   "sites": [
    "1F9896:op59+1",
@@ -13193,7 +13654,8 @@
    "1F9896:op59+1",
    "1F9896:op59+1",
    "1F9896:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FAE7A",
@@ -13215,7 +13677,7 @@
   "addr": "1FAE96",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F98B7:op59+1",
@@ -13224,7 +13686,8 @@
    "1F98B7:op59+1",
    "1F98B7:op59+1",
    "1F98B7:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FAE9E",
@@ -13247,7 +13710,7 @@
   "addr": "1FAF2C",
   "kind": "name",
   "jp": "ポアラ",
-  "en": "",
+  "en": "Poala",
   "bytes": 8,
   "sites": [
    "1F98CD:op59+1",
@@ -13256,7 +13719,8 @@
    "1F98CD:op59+1",
    "1F98CD:op59+1",
    "1F98CD:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FAF34",
@@ -13279,7 +13743,7 @@
   "addr": "1FAF54",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F98E3:op59+1",
@@ -13288,7 +13752,8 @@
    "1F98E3:op59+1",
    "1F98E3:op59+1",
    "1F98E3:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FAF5C",
@@ -13311,7 +13776,7 @@
   "addr": "1FAFC0",
   "kind": "name",
   "jp": "ポアラ",
-  "en": "",
+  "en": "Poala",
   "bytes": 8,
   "sites": [
    "1F98F9:op59+1",
@@ -13320,7 +13785,8 @@
    "1F98F9:op59+1",
    "1F98F9:op59+1",
    "1F98F9:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FAFC8",
@@ -13343,7 +13809,7 @@
   "addr": "1FAFD0",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F990F:op59+1",
@@ -13352,7 +13818,8 @@
    "1F990F:op59+1",
    "1F990F:op59+1",
    "1F990F:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FAFD8",
@@ -13375,7 +13842,7 @@
   "addr": "1FB022",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F992C:op59+1",
@@ -13384,7 +13851,8 @@
    "1F992C:op59+1",
    "1F992C:op59+1",
    "1F992C:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FB02A",
@@ -13407,7 +13875,7 @@
   "addr": "1FB0BC",
   "kind": "name",
   "jp": "キッス",
-  "en": "",
+  "en": "Kissu",
   "bytes": 8,
   "sites": [
    "1F9942:op59+1",
@@ -13416,7 +13884,8 @@
    "1F9942:op59+1",
    "1F9942:op59+1",
    "1F9942:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FB0C4",
@@ -13439,7 +13908,7 @@
   "addr": "1FB0D4",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F9958:op59+1",
@@ -13448,7 +13917,8 @@
    "1F9958:op59+1",
    "1F9958:op59+1",
    "1F9958:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FB0DC",
@@ -13471,7 +13941,7 @@
   "addr": "1FB104",
   "kind": "name",
   "jp": "キッス",
-  "en": "",
+  "en": "Kissu",
   "bytes": 8,
   "sites": [
    "1F9975:op59+1",
@@ -13480,7 +13950,8 @@
    "1F9975:op59+1",
    "1F9975:op59+1",
    "1F9975:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FB10C",
@@ -13503,7 +13974,7 @@
   "addr": "1FB1B0",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F998B:op59+1",
@@ -13512,7 +13983,8 @@
    "1F998B:op59+1",
    "1F998B:op59+1",
    "1F998B:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FB1B8",
@@ -13535,7 +14007,7 @@
   "addr": "1FB23E",
   "kind": "name",
   "jp": "キッス",
-  "en": "",
+  "en": "Kissu",
   "bytes": 8,
   "sites": [
    "1F99A1:op59+1",
@@ -13544,7 +14016,8 @@
    "1F99A1:op59+1",
    "1F99A1:op59+1",
    "1F99A1:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FB246",
@@ -13567,7 +14040,7 @@
   "addr": "1FB250",
   "kind": "name",
   "jp": "ポアラ",
-  "en": "",
+  "en": "Poala",
   "bytes": 8,
   "sites": [
    "1F99B7:op59+1",
@@ -13576,7 +14049,8 @@
    "1F99B7:op59+1",
    "1F99B7:op59+1",
    "1F99B7:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FB258",
@@ -13599,7 +14073,7 @@
   "addr": "1FB268",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F99FC:op59+1",
@@ -13609,7 +14083,8 @@
    "1F99FC:op59+1",
    "1F99FC:op59+1",
    "1F99FC:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FB270",
@@ -13633,7 +14108,7 @@
   "addr": "1FB2DC",
   "kind": "name",
   "jp": "鑑定士",
-  "en": "",
+  "en": "Appraiser",
   "bytes": 8,
   "sites": [
    "1F9A12:op59+1",
@@ -13643,7 +14118,8 @@
    "1F9A12:op59+1",
    "1F9A12:op59+1",
    "1F9A12:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FB2E4",
@@ -13667,7 +14143,7 @@
   "addr": "1FB35E",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F9A28:op59+1",
@@ -13677,7 +14153,8 @@
    "1F9A28:op59+1",
    "1F9A28:op59+1",
    "1F9A28:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FB366",
@@ -13701,7 +14178,7 @@
   "addr": "1FB3F0",
   "kind": "name",
   "jp": "鑑定士",
-  "en": "",
+  "en": "Appraiser",
   "bytes": 8,
   "sites": [
    "1F9A3E:op59+1",
@@ -13711,7 +14188,8 @@
    "1F9A3E:op59+1",
    "1F9A3E:op59+1",
    "1F9A3E:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FB3F8",
@@ -13735,7 +14213,7 @@
   "addr": "1FB424",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F9A54:op59+1",
@@ -13745,7 +14223,8 @@
    "1F9A54:op59+1",
    "1F9A54:op59+1",
    "1F9A54:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FB42C",
@@ -13769,7 +14248,7 @@
   "addr": "1FB47C",
   "kind": "name",
   "jp": "ポアラ",
-  "en": "",
+  "en": "Poala",
   "bytes": 8,
   "sites": [
    "1F9A6A:op59+1",
@@ -13779,7 +14258,8 @@
    "1F9A6A:op59+1",
    "1F9A6A:op59+1",
    "1F9A6A:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FB484",
@@ -13803,7 +14283,7 @@
   "addr": "1FB4E2",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F9A80:op59+1",
@@ -13813,7 +14293,8 @@
    "1F9A80:op59+1",
    "1F9A80:op59+1",
    "1F9A80:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FB4EA",
@@ -13837,7 +14318,7 @@
   "addr": "1FB51A",
   "kind": "name",
   "jp": "鑑定士",
-  "en": "",
+  "en": "Appraiser",
   "bytes": 8,
   "sites": [
    "1F9A96:op59+1",
@@ -13847,7 +14328,8 @@
    "1F9A96:op59+1",
    "1F9A96:op59+1",
    "1F9A96:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FB522",
@@ -13871,7 +14353,7 @@
   "addr": "1FB5CE",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F9AAC:op59+1",
@@ -13881,7 +14363,8 @@
    "1F9AAC:op59+1",
    "1F9AAC:op59+1",
    "1F9AAC:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FB5D6",
@@ -13905,7 +14388,7 @@
   "addr": "1FB5E2",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F9AFC:op59+1",
@@ -13916,7 +14399,8 @@
    "1F9AFC:op59+1",
    "1F9AFC:op59+1",
    "1F9AFC:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FB5EA",
@@ -13941,7 +14425,7 @@
   "addr": "1FB60C",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1F9B12:op59+1",
@@ -13952,7 +14436,8 @@
    "1F9B12:op59+1",
    "1F9B12:op59+1",
    "1F9B12:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FB614",
@@ -13977,7 +14462,7 @@
   "addr": "1FB658",
   "kind": "name",
   "jp": "キッス",
-  "en": "",
+  "en": "Kissu",
   "bytes": 8,
   "sites": [
    "1F9B28:op59+1",
@@ -13988,7 +14473,8 @@
    "1F9B28:op59+1",
    "1F9B28:op59+1",
    "1F9B28:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FB660",
@@ -14013,7 +14499,7 @@
   "addr": "1FB698",
   "kind": "name",
   "jp": "スレッド",
-  "en": "",
+  "en": "Slade",
   "bytes": 10,
   "sites": [
    "1F9B47:op59+1",
@@ -14024,7 +14510,8 @@
    "1F9B47:op59+1",
    "1F9B47:op59+1",
    "1F9B47:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FB6A2",
@@ -14049,7 +14536,7 @@
   "addr": "1FB6B2",
   "kind": "name",
   "jp": "キッス",
-  "en": "",
+  "en": "Kissu",
   "bytes": 8,
   "sites": [
    "1F9B5D:op59+1",
@@ -14061,7 +14548,8 @@
    "1F9B5D:op59+1",
    "1F9B5D:op59+1",
    "1F9B5D:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FB6BA",
@@ -14098,11 +14586,12 @@
   "addr": "1FBD10",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1FB745:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FBD18",
@@ -14120,11 +14609,12 @@
   "addr": "1FBD50",
   "kind": "name",
   "jp": "キッス",
-  "en": "",
+  "en": "Kissu",
   "bytes": 8,
   "sites": [
    "1FB75B:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FBD58",
@@ -14142,11 +14632,12 @@
   "addr": "1FBDA6",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1FB771:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FBDAE",
@@ -14164,11 +14655,12 @@
   "addr": "1FBDDC",
   "kind": "name",
   "jp": "キッス",
-  "en": "",
+  "en": "Kissu",
   "bytes": 8,
   "sites": [
    "1FB787:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FBDE4",
@@ -14186,11 +14678,12 @@
   "addr": "1FBE14",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1FB79D:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FBE1C",
@@ -14208,11 +14701,12 @@
   "addr": "1FBE62",
   "kind": "name",
   "jp": "キッス",
-  "en": "",
+  "en": "Kissu",
   "bytes": 8,
   "sites": [
    "1FB7B3:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FBE6A",
@@ -14230,11 +14724,12 @@
   "addr": "1FBE90",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1FB7C9:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FBE98",
@@ -14252,11 +14747,12 @@
   "addr": "1FBEC4",
   "kind": "name",
   "jp": "キッス",
-  "en": "",
+  "en": "Kissu",
   "bytes": 8,
   "sites": [
    "1FB7DF:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FBECC",
@@ -14274,11 +14770,12 @@
   "addr": "1FBEDE",
   "kind": "name",
   "jp": "キッス",
-  "en": "",
+  "en": "Kissu",
   "bytes": 8,
   "sites": [
    "1FB821:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FBEE6",
@@ -14296,11 +14793,12 @@
   "addr": "1FBF08",
   "kind": "name",
   "jp": "キッス",
-  "en": "",
+  "en": "Kissu",
   "bytes": 8,
   "sites": [
    "1FB83F:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FBF10",
@@ -14318,11 +14816,12 @@
   "addr": "1FBF42",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1FB855:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FBF4A",
@@ -14340,11 +14839,12 @@
   "addr": "1FBFC0",
   "kind": "name",
   "jp": "キッス",
-  "en": "",
+  "en": "Kissu",
   "bytes": 8,
   "sites": [
    "1FB86B:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FBFC8",
@@ -14362,11 +14862,12 @@
   "addr": "1FBFDA",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1FB881:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FBFE2",
@@ -14384,11 +14885,12 @@
   "addr": "1FC002",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1FB8E6:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FC00A",
@@ -14406,11 +14908,12 @@
   "addr": "1FC046",
   "kind": "name",
   "jp": "キッス",
-  "en": "",
+  "en": "Kissu",
   "bytes": 8,
   "sites": [
    "1FB8FC:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FC04E",
@@ -14428,11 +14931,12 @@
   "addr": "1FC06C",
   "kind": "name",
   "jp": "ヴァンデル",
-  "en": "",
+  "en": "Vandel",
   "bytes": 12,
   "sites": [
    "1FB91C:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FC078",
@@ -14450,11 +14954,12 @@
   "addr": "1FC096",
   "kind": "name",
   "jp": "キッス",
-  "en": "",
+  "en": "Kissu",
   "bytes": 8,
   "sites": [
    "1FB936:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FC09E",
@@ -14472,11 +14977,12 @@
   "addr": "1FC0C8",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1FB94C:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FC0D0",
@@ -14494,11 +15000,12 @@
   "addr": "1FC0E4",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1FB986:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FC0EC",
@@ -14516,11 +15023,12 @@
   "addr": "1FC148",
   "kind": "name",
   "jp": "キッス",
-  "en": "",
+  "en": "Kissu",
   "bytes": 8,
   "sites": [
    "1FB99C:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FC150",
@@ -14538,11 +15046,12 @@
   "addr": "1FC17C",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1FB9B2:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FC184",
@@ -14560,11 +15069,12 @@
   "addr": "1FC1F4",
   "kind": "name",
   "jp": "キッス",
-  "en": "",
+  "en": "Kissu",
   "bytes": 8,
   "sites": [
    "1FB9C8:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FC1FC",
@@ -14582,11 +15092,12 @@
   "addr": "1FC20C",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1FB9DE:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FC214",
@@ -14604,11 +15115,12 @@
   "addr": "1FC2A2",
   "kind": "name",
   "jp": "キッス",
-  "en": "",
+  "en": "Kissu",
   "bytes": 8,
   "sites": [
    "1FB9F4:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FC2AA",
@@ -14626,11 +15138,12 @@
   "addr": "1FC2BC",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1FBA0A:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FC2C4",
@@ -14648,11 +15161,12 @@
   "addr": "1FC30A",
   "kind": "name",
   "jp": "キッス",
-  "en": "",
+  "en": "Kissu",
   "bytes": 8,
   "sites": [
    "1FBA20:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FC312",
@@ -14670,11 +15184,12 @@
   "addr": "1FC384",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1FBA36:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FC38C",
@@ -14692,11 +15207,12 @@
   "addr": "1FC39E",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1FBA53:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FC3A6",
@@ -14714,11 +15230,12 @@
   "addr": "1FC3EA",
   "kind": "name",
   "jp": "キッス",
-  "en": "",
+  "en": "Kissu",
   "bytes": 8,
   "sites": [
    "1FBA69:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FC3F2",
@@ -14736,11 +15253,12 @@
   "addr": "1FC3FE",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1FBA86:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FC406",
@@ -14758,11 +15276,12 @@
   "addr": "1FC49A",
   "kind": "name",
   "jp": "キッス",
-  "en": "",
+  "en": "Kissu",
   "bytes": 8,
   "sites": [
    "1FBA9C:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FC4A2",
@@ -14780,11 +15299,12 @@
   "addr": "1FC4B8",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1FBAB2:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FC4C0",
@@ -14802,11 +15322,12 @@
   "addr": "1FC4F6",
   "kind": "name",
   "jp": "キッス",
-  "en": "",
+  "en": "Kissu",
   "bytes": 8,
   "sites": [
    "1FBAC8:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FC4FE",
@@ -14824,11 +15345,12 @@
   "addr": "1FC526",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1FBADE:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FC52E",
@@ -14846,11 +15368,12 @@
   "addr": "1FC53E",
   "kind": "name",
   "jp": "キッス",
-  "en": "",
+  "en": "Kissu",
   "bytes": 8,
   "sites": [
    "1FBAF4:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FC546",
@@ -14868,11 +15391,12 @@
   "addr": "1FC576",
   "kind": "name",
   "jp": "キッス",
-  "en": "",
+  "en": "Kissu",
   "bytes": 8,
   "sites": [
    "1FBB11:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FC57E",
@@ -14890,11 +15414,12 @@
   "addr": "1FC632",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1FBB27:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FC63A",
@@ -14912,11 +15437,12 @@
   "addr": "1FC654",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1FBB3D:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FC65C",
@@ -14934,11 +15460,12 @@
   "addr": "1FC68C",
   "kind": "name",
   "jp": "キッス",
-  "en": "",
+  "en": "Kissu",
   "bytes": 8,
   "sites": [
    "1FBB53:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FC694",
@@ -14956,11 +15483,12 @@
   "addr": "1FC6A4",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1FBB70:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FC6AC",
@@ -14978,11 +15506,12 @@
   "addr": "1FC6DA",
   "kind": "name",
   "jp": "キッス",
-  "en": "",
+  "en": "Kissu",
   "bytes": 8,
   "sites": [
    "1FBB86:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FC6E2",
@@ -15000,11 +15529,12 @@
   "addr": "1FC71E",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1FBBA4:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FC726",
@@ -15022,11 +15552,12 @@
   "addr": "1FC736",
   "kind": "name",
   "jp": "キッス",
-  "en": "",
+  "en": "Kissu",
   "bytes": 8,
   "sites": [
    "1FBBBA:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FC73E",
@@ -15044,12 +15575,13 @@
   "addr": "1FC74E",
   "kind": "name",
   "jp": "ポアラ",
-  "en": "",
+  "en": "Poala",
   "bytes": 8,
   "sites": [
    "1FBC0A:op59+1",
    "1FBC0A:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FC756",
@@ -15068,12 +15600,13 @@
   "addr": "1FC798",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1FBC20:op59+1",
    "1FBC20:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FC7A0",
@@ -15092,12 +15625,13 @@
   "addr": "1FC7F4",
   "kind": "name",
   "jp": "キッス",
-  "en": "",
+  "en": "Kissu",
   "bytes": 8,
   "sites": [
    "1FBC36:op59+1",
    "1FBC36:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FC7FC",
@@ -15116,12 +15650,13 @@
   "addr": "1FC80C",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1FBC4C:op59+1",
    "1FBC4C:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FC814",
@@ -15140,12 +15675,13 @@
   "addr": "1FC830",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1FBC62:op59+1",
    "1FBC62:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FC838",
@@ -15164,12 +15700,13 @@
   "addr": "1FC884",
   "kind": "name",
   "jp": "ポアラ",
-  "en": "",
+  "en": "Poala",
   "bytes": 8,
   "sites": [
    "1FBC78:op59+1",
    "1FBC78:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FC88C",
@@ -15188,12 +15725,13 @@
   "addr": "1FC8C0",
   "kind": "name",
   "jp": "スレッド",
-  "en": "",
+  "en": "Slade",
   "bytes": 10,
   "sites": [
    "1FBC97:op59+1",
    "1FBC97:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FC8CA",
@@ -15212,13 +15750,14 @@
   "addr": "1FC8F0",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1FBCAD:op59+1",
    "1FBCAD:op59+1",
    "1FBCAD:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FC8F8",
@@ -15238,13 +15777,14 @@
   "addr": "1FC92E",
   "kind": "name",
   "jp": "キッス",
-  "en": "",
+  "en": "Kissu",
   "bytes": 8,
   "sites": [
    "1FBCC3:op59+1",
    "1FBCC3:op59+1",
    "1FBCC3:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FC936",
@@ -15264,11 +15804,12 @@
   "addr": "1FCF60",
   "kind": "name",
   "jp": "鑑定士",
-  "en": "",
+  "en": "Appraiser",
   "bytes": 8,
   "sites": [
    "1FC963:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FCF68",
@@ -15286,11 +15827,12 @@
   "addr": "1FCFD4",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1FC96E:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FCFDC",
@@ -15308,11 +15850,12 @@
   "addr": "1FCFF2",
   "kind": "name",
   "jp": "ポアラ",
-  "en": "",
+  "en": "Poala",
   "bytes": 8,
   "sites": [
    "1FC984:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FCFFA",
@@ -15330,11 +15873,12 @@
   "addr": "1FD018",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1FC99A:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FD020",
@@ -15352,11 +15896,12 @@
   "addr": "1FD03E",
   "kind": "name",
   "jp": "キッス",
-  "en": "",
+  "en": "Kissu",
   "bytes": 8,
   "sites": [
    "1FC9B0:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FD046",
@@ -15374,11 +15919,12 @@
   "addr": "1FD058",
   "kind": "name",
   "jp": "スレッド",
-  "en": "",
+  "en": "Slade",
   "bytes": 10,
   "sites": [
    "1FC9CF:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FD062",
@@ -15396,12 +15942,13 @@
   "addr": "1FD072",
   "kind": "name",
   "jp": "鑑定士",
-  "en": "",
+  "en": "Appraiser",
   "bytes": 8,
   "sites": [
    "1FC9E5:op52+1",
    "1FC9E5:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FD07A",
@@ -15420,12 +15967,13 @@
   "addr": "1FD14C",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1FC9F0:op59+1",
    "1FC9F0:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FD154",
@@ -15444,12 +15992,13 @@
   "addr": "1FD190",
   "kind": "name",
   "jp": "鑑定士",
-  "en": "",
+  "en": "Appraiser",
   "bytes": 8,
   "sites": [
    "1FCA06:op52+1",
    "1FCA06:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FD198",
@@ -15468,12 +16017,13 @@
   "addr": "1FD218",
   "kind": "name",
   "jp": "ポアラ",
-  "en": "",
+  "en": "Poala",
   "bytes": 8,
   "sites": [
    "1FCA11:op59+1",
    "1FCA11:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FD220",
@@ -15492,12 +16042,13 @@
   "addr": "1FD248",
   "kind": "name",
   "jp": "キッス",
-  "en": "",
+  "en": "Kissu",
   "bytes": 8,
   "sites": [
    "1FCA27:op59+1",
    "1FCA27:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FD250",
@@ -15516,12 +16067,13 @@
   "addr": "1FD292",
   "kind": "name",
   "jp": "鑑定士",
-  "en": "",
+  "en": "Appraiser",
   "bytes": 8,
   "sites": [
    "1FCA3D:op52+1",
    "1FCA3D:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FD29A",
@@ -15540,12 +16092,13 @@
   "addr": "1FD2C6",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1FCA48:op59+1",
    "1FCA48:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FD2CE",
@@ -15564,12 +16117,13 @@
   "addr": "1FD2E8",
   "kind": "name",
   "jp": "鑑定士",
-  "en": "",
+  "en": "Appraiser",
   "bytes": 8,
   "sites": [
    "1FCA5E:op52+1",
    "1FCA5E:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FD2F0",
@@ -15588,12 +16142,13 @@
   "addr": "1FD30A",
   "kind": "name",
   "jp": "橋かけ名人",
-  "en": "",
+  "en": "Bridge Master",
   "bytes": 12,
   "sites": [
    "1FCAAA:op52+1",
    "1FCAAA:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FD316",
@@ -15612,12 +16167,13 @@
   "addr": "1FD36C",
   "kind": "name",
   "jp": "ポアラ",
-  "en": "",
+  "en": "Poala",
   "bytes": 8,
   "sites": [
    "1FCAB5:op59+1",
    "1FCAB5:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FD374",
@@ -15636,12 +16192,13 @@
   "addr": "1FD390",
   "kind": "name",
   "jp": "橋かけ名人",
-  "en": "",
+  "en": "Bridge Master",
   "bytes": 12,
   "sites": [
    "1FCACB:op52+1",
    "1FCACB:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FD39C",
@@ -15660,12 +16217,13 @@
   "addr": "1FD3E8",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1FCAD6:op59+1",
    "1FCAD6:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FD3F0",
@@ -15684,12 +16242,13 @@
   "addr": "1FD406",
   "kind": "name",
   "jp": "橋かけ名人",
-  "en": "",
+  "en": "Bridge Master",
   "bytes": 12,
   "sites": [
    "1FCAEC:op52+1",
    "1FCAEC:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FD412",
@@ -15708,12 +16267,13 @@
   "addr": "1FD57C",
   "kind": "name",
   "jp": "キッス",
-  "en": "",
+  "en": "Kissu",
   "bytes": 8,
   "sites": [
    "1FCAF7:op59+1",
    "1FCAF7:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FD584",
@@ -15732,12 +16292,13 @@
   "addr": "1FD59A",
   "kind": "name",
   "jp": "橋かけ名人",
-  "en": "",
+  "en": "Bridge Master",
   "bytes": 12,
   "sites": [
    "1FCB0D:op52+1",
    "1FCB0D:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FD5A6",
@@ -15756,12 +16317,13 @@
   "addr": "1FD64A",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1FCB18:op59+1",
    "1FCB18:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FD652",
@@ -15780,12 +16342,13 @@
   "addr": "1FD694",
   "kind": "name",
   "jp": "橋かけ名人",
-  "en": "",
+  "en": "Bridge Master",
   "bytes": 12,
   "sites": [
    "1FCB2E:op52+1",
    "1FCB2E:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FD6A0",
@@ -15804,12 +16367,13 @@
   "addr": "1FD6D2",
   "kind": "name",
   "jp": "キッス",
-  "en": "",
+  "en": "Kissu",
   "bytes": 8,
   "sites": [
    "1FCB39:op59+1",
    "1FCB39:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FD6DA",
@@ -15828,12 +16392,13 @@
   "addr": "1FD714",
   "kind": "name",
   "jp": "スレッド",
-  "en": "",
+  "en": "Slade",
   "bytes": 10,
   "sites": [
    "1FCB58:op59+1",
    "1FCB58:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FD71E",
@@ -15852,13 +16417,14 @@
   "addr": "1FD72E",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1FCB6E:op59+1",
    "1FCB6E:op59+1",
    "1FCB6E:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FD736",
@@ -15878,13 +16444,14 @@
   "addr": "1FD776",
   "kind": "name",
   "jp": "橋かけ名人",
-  "en": "",
+  "en": "Bridge Master",
   "bytes": 12,
   "sites": [
    "1FCB84:op52+1",
    "1FCB84:op52+1",
    "1FCB84:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FD782",
@@ -15904,13 +16471,14 @@
   "addr": "1FD7D6",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1FCB8F:op59+1",
    "1FCB8F:op59+1",
    "1FCB8F:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FD7DE",
@@ -15930,13 +16498,14 @@
   "addr": "1FD85A",
   "kind": "name",
   "jp": "橋かけ名人",
-  "en": "",
+  "en": "Bridge Master",
   "bytes": 12,
   "sites": [
    "1FCBA5:op52+1",
    "1FCBA5:op52+1",
    "1FCBA5:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FD866",
@@ -15956,14 +16525,15 @@
   "addr": "1FD8C2",
   "kind": "name",
   "jp": "橋かけ名人",
-  "en": "",
+  "en": "Bridge Master",
   "bytes": 12,
   "sites": [
    "1FCC7E:op52+1",
    "1FCC7E:op52+1",
    "1FCC7E:op52+1",
    "1FCC7E:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FD8CE",
@@ -15984,14 +16554,15 @@
   "addr": "1FD8F4",
   "kind": "name",
   "jp": "橋かけ名人",
-  "en": "",
+  "en": "Bridge Master",
   "bytes": 12,
   "sites": [
    "1FCC95:op52+1",
    "1FCC95:op52+1",
    "1FCC95:op52+1",
    "1FCC95:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FD900",
@@ -16012,14 +16583,15 @@
   "addr": "1FD922",
   "kind": "name",
   "jp": "ポアラ",
-  "en": "",
+  "en": "Poala",
   "bytes": 8,
   "sites": [
    "1FCCA6:op59+1",
    "1FCCA6:op59+1",
    "1FCCA6:op59+1",
    "1FCCA6:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FD92A",
@@ -16040,14 +16612,15 @@
   "addr": "1FD954",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1FCCBC:op59+1",
    "1FCCBC:op59+1",
    "1FCCBC:op59+1",
    "1FCCBC:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FD95C",
@@ -16068,14 +16641,15 @@
   "addr": "1FD990",
   "kind": "name",
   "jp": "橋かけ名人",
-  "en": "",
+  "en": "Bridge Master",
   "bytes": 12,
   "sites": [
    "1FCCE4:op52+1",
    "1FCCE4:op52+1",
    "1FCCE4:op52+1",
    "1FCCE4:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FD99C",
@@ -16096,14 +16670,15 @@
   "addr": "1FD9B8",
   "kind": "name",
   "jp": "作業員",
-  "en": "",
+  "en": "Worker",
   "bytes": 8,
   "sites": [
    "1FCD02:op52+1",
    "1FCD02:op52+1",
    "1FCD02:op52+1",
    "1FCD02:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FD9C0",
@@ -16124,14 +16699,15 @@
   "addr": "1FD9DA",
   "kind": "name",
   "jp": "橋かけ名人",
-  "en": "",
+  "en": "Bridge Master",
   "bytes": 12,
   "sites": [
    "1FCD0D:op52+1",
    "1FCD0D:op52+1",
    "1FCD0D:op52+1",
    "1FCD0D:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FD9E6",
@@ -16152,14 +16728,15 @@
   "addr": "1FDA22",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1FCD18:op59+1",
    "1FCD18:op59+1",
    "1FCD18:op59+1",
    "1FCD18:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FDA2A",
@@ -16180,7 +16757,7 @@
   "addr": "1FDA58",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1FCD5C:op59+1",
@@ -16188,7 +16765,8 @@
    "1FCD5C:op59+1",
    "1FCD5C:op59+1",
    "1FCD5C:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FDA60",
@@ -16210,7 +16788,7 @@
   "addr": "1FDA6E",
   "kind": "name",
   "jp": "橋かけ名人",
-  "en": "",
+  "en": "Bridge Master",
   "bytes": 12,
   "sites": [
    "1FCD72:op52+1",
@@ -16218,7 +16796,8 @@
    "1FCD72:op52+1",
    "1FCD72:op52+1",
    "1FCD72:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FDA7A",
@@ -16240,7 +16819,7 @@
   "addr": "1FDA9E",
   "kind": "name",
   "jp": "橋かけ名人",
-  "en": "",
+  "en": "Bridge Master",
   "bytes": 12,
   "sites": [
    "1FCD89:op52+1",
@@ -16248,7 +16827,8 @@
    "1FCD89:op52+1",
    "1FCD89:op52+1",
    "1FCD89:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FDAAA",
@@ -16270,7 +16850,7 @@
   "addr": "1FDB0E",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1FCD94:op59+1",
@@ -16278,7 +16858,8 @@
    "1FCD94:op59+1",
    "1FCD94:op59+1",
    "1FCD94:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FDB16",
@@ -16300,7 +16881,7 @@
   "addr": "1FDB2A",
   "kind": "name",
   "jp": "橋かけ名人",
-  "en": "",
+  "en": "Bridge Master",
   "bytes": 12,
   "sites": [
    "1FCDAA:op52+1",
@@ -16308,7 +16889,8 @@
    "1FCDAA:op52+1",
    "1FCDAA:op52+1",
    "1FCDAA:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FDB36",
@@ -16330,7 +16912,7 @@
   "addr": "1FDB9C",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1FCDB5:op59+1",
@@ -16338,7 +16920,8 @@
    "1FCDB5:op59+1",
    "1FCDB5:op59+1",
    "1FCDB5:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FDBA4",
@@ -16360,7 +16943,7 @@
   "addr": "1FDBC8",
   "kind": "name",
   "jp": "ポアラ",
-  "en": "",
+  "en": "Poala",
   "bytes": 8,
   "sites": [
    "1FCDCB:op59+1",
@@ -16368,7 +16951,8 @@
    "1FCDCB:op59+1",
    "1FCDCB:op59+1",
    "1FCDCB:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FDBD0",
@@ -16390,7 +16974,7 @@
   "addr": "1FDBE4",
   "kind": "name",
   "jp": "キッス",
-  "en": "",
+  "en": "Kissu",
   "bytes": 8,
   "sites": [
    "1FCDE1:op59+1",
@@ -16398,7 +16982,8 @@
    "1FCDE1:op59+1",
    "1FCDE1:op59+1",
    "1FCDE1:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FDBEC",
@@ -16420,7 +17005,7 @@
   "addr": "1FDBFC",
   "kind": "name",
   "jp": "ポアラ",
-  "en": "",
+  "en": "Poala",
   "bytes": 8,
   "sites": [
    "1FCDF7:op59+1",
@@ -16428,7 +17013,8 @@
    "1FCDF7:op59+1",
    "1FCDF7:op59+1",
    "1FCDF7:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FDC04",
@@ -16450,7 +17036,7 @@
   "addr": "1FDC3E",
   "kind": "name",
   "jp": "橋かけ名人",
-  "en": "",
+  "en": "Bridge Master",
   "bytes": 12,
   "sites": [
    "1FCE0D:op52+1",
@@ -16458,7 +17044,8 @@
    "1FCE0D:op52+1",
    "1FCE0D:op52+1",
    "1FCE0D:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FDC4A",
@@ -16480,7 +17067,7 @@
   "addr": "1FDCC0",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1FCE18:op59+1",
@@ -16488,7 +17075,8 @@
    "1FCE18:op59+1",
    "1FCE18:op59+1",
    "1FCE18:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FDCC8",
@@ -16510,7 +17098,7 @@
   "addr": "1FDCE2",
   "kind": "name",
   "jp": "橋かけ名人",
-  "en": "",
+  "en": "Bridge Master",
   "bytes": 12,
   "sites": [
    "1FCE2E:op52+1",
@@ -16518,7 +17106,8 @@
    "1FCE2E:op52+1",
    "1FCE2E:op52+1",
    "1FCE2E:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FDCEE",
@@ -16540,7 +17129,7 @@
   "addr": "1FDD3E",
   "kind": "name",
   "jp": "ポアラ",
-  "en": "",
+  "en": "Poala",
   "bytes": 8,
   "sites": [
    "1FCE39:op59+1",
@@ -16548,7 +17137,8 @@
    "1FCE39:op59+1",
    "1FCE39:op59+1",
    "1FCE39:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FDD46",
@@ -16570,7 +17160,7 @@
   "addr": "1FDD5E",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1FCE4F:op59+1",
@@ -16578,7 +17168,8 @@
    "1FCE4F:op59+1",
    "1FCE4F:op59+1",
    "1FCE4F:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FDD66",
@@ -16600,7 +17191,7 @@
   "addr": "1FDDD4",
   "kind": "name",
   "jp": "キッス",
-  "en": "",
+  "en": "Kissu",
   "bytes": 8,
   "sites": [
    "1FCE65:op59+1",
@@ -16608,7 +17199,8 @@
    "1FCE65:op59+1",
    "1FCE65:op59+1",
    "1FCE65:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FDDDC",
@@ -16630,7 +17222,7 @@
   "addr": "1FDDEE",
   "kind": "name",
   "jp": "ポアラ",
-  "en": "",
+  "en": "Poala",
   "bytes": 8,
   "sites": [
    "1FCE7B:op59+1",
@@ -16638,7 +17230,8 @@
    "1FCE7B:op59+1",
    "1FCE7B:op59+1",
    "1FCE7B:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FDDF6",
@@ -16660,7 +17253,7 @@
   "addr": "1FDE1C",
   "kind": "name",
   "jp": "スレッド",
-  "en": "",
+  "en": "Slade",
   "bytes": 10,
   "sites": [
    "1FCE9A:op59+1",
@@ -16668,7 +17261,8 @@
    "1FCE9A:op59+1",
    "1FCE9A:op59+1",
    "1FCE9A:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FDE26",
@@ -16690,7 +17284,7 @@
   "addr": "1FDE4E",
   "kind": "name",
   "jp": "橋かけ名人",
-  "en": "",
+  "en": "Bridge Master",
   "bytes": 12,
   "sites": [
    "1FCEB0:op52+1",
@@ -16699,7 +17293,8 @@
    "1FCEB0:op52+1",
    "1FCEB0:op52+1",
    "1FCEB0:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FDE5A",
@@ -16722,7 +17317,7 @@
   "addr": "1FDEAA",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1FCEBB:op59+1",
@@ -16731,7 +17326,8 @@
    "1FCEBB:op59+1",
    "1FCEBB:op59+1",
    "1FCEBB:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FDEB2",
@@ -16754,7 +17350,7 @@
   "addr": "1FDEC6",
   "kind": "name",
   "jp": "ポアラ",
-  "en": "",
+  "en": "Poala",
   "bytes": 8,
   "sites": [
    "1FCED1:op59+1",
@@ -16763,7 +17359,8 @@
    "1FCED1:op59+1",
    "1FCED1:op59+1",
    "1FCED1:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FDECE",
@@ -16786,7 +17383,7 @@
   "addr": "1FDEE2",
   "kind": "name",
   "jp": "キッス",
-  "en": "",
+  "en": "Kissu",
   "bytes": 8,
   "sites": [
    "1FCEE7:op59+1",
@@ -16795,7 +17392,8 @@
    "1FCEE7:op59+1",
    "1FCEE7:op59+1",
    "1FCEE7:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FDEEA",
@@ -16818,7 +17416,7 @@
   "addr": "1FDEF8",
   "kind": "name",
   "jp": "スレッド",
-  "en": "",
+  "en": "Slade",
   "bytes": 10,
   "sites": [
    "1FCF06:op59+1",
@@ -16827,7 +17425,8 @@
    "1FCF06:op59+1",
    "1FCF06:op59+1",
    "1FCF06:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FDF02",
@@ -16850,7 +17449,7 @@
   "addr": "1FDF20",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1FCF1C:op59+1",
@@ -16860,7 +17459,8 @@
    "1FCF1C:op59+1",
    "1FCF1C:op59+1",
    "1FCF1C:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FDF28",
@@ -16884,7 +17484,7 @@
   "addr": "1FDF6C",
   "kind": "name",
   "jp": "橋かけ名人",
-  "en": "",
+  "en": "Bridge Master",
   "bytes": 12,
   "sites": [
    "1FCF32:op52+1",
@@ -16894,7 +17494,8 @@
    "1FCF32:op52+1",
    "1FCF32:op52+1",
    "1FCF32:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FDF78",
@@ -16918,7 +17519,7 @@
   "addr": "1FDFC4",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1FCF3D:op59+1",
@@ -16928,7 +17529,8 @@
    "1FCF3D:op59+1",
    "1FCF3D:op59+1",
    "1FCF3D:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FDFCC",
@@ -16963,12 +17565,13 @@
   "addr": "1FE768",
   "kind": "name",
   "jp": "キッス",
-  "en": "",
+  "en": "Kissu",
   "bytes": 8,
   "sites": [
    "1FE04B:op59+1",
    "1FE04B:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FE770",
@@ -16987,12 +17590,13 @@
   "addr": "1FE7C2",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1FE06C:op59+1",
    "1FE06C:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FE7CA",
@@ -17011,12 +17615,13 @@
   "addr": "1FE7E6",
   "kind": "name",
   "jp": "キッス",
-  "en": "",
+  "en": "Kissu",
   "bytes": 8,
   "sites": [
    "1FE082:op59+1",
    "1FE082:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FE7EE",
@@ -17035,12 +17640,13 @@
   "addr": "1FE83E",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1FE098:op59+1",
    "1FE098:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FE846",
@@ -17059,12 +17665,13 @@
   "addr": "1FE87A",
   "kind": "name",
   "jp": "スレッド",
-  "en": "",
+  "en": "Slade",
   "bytes": 10,
   "sites": [
    "1FE0B7:op59+1",
    "1FE0B7:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FE884",
@@ -17083,13 +17690,14 @@
   "addr": "1FE892",
   "kind": "name",
   "jp": "キッス",
-  "en": "",
+  "en": "Kissu",
   "bytes": 8,
   "sites": [
    "1FE0CD:op59+1",
    "1FE0CD:op59+1",
    "1FE0CD:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FE89A",
@@ -17109,13 +17717,14 @@
   "addr": "1FE944",
   "kind": "name",
   "jp": "ポアラ",
-  "en": "",
+  "en": "Poala",
   "bytes": 8,
   "sites": [
    "1FE0E3:op59+1",
    "1FE0E3:op59+1",
    "1FE0E3:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FE94C",
@@ -17135,13 +17744,14 @@
   "addr": "1FE956",
   "kind": "name",
   "jp": "キッス",
-  "en": "",
+  "en": "Kissu",
   "bytes": 8,
   "sites": [
    "1FE0F9:op59+1",
    "1FE0F9:op59+1",
    "1FE0F9:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FE95E",
@@ -17161,13 +17771,14 @@
   "addr": "1FE9B4",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1FE10F:op59+1",
    "1FE10F:op59+1",
    "1FE10F:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FE9BC",
@@ -17187,13 +17798,14 @@
   "addr": "1FE9FE",
   "kind": "name",
   "jp": "スレッド",
-  "en": "",
+  "en": "Slade",
   "bytes": 10,
   "sites": [
    "1FE12E:op59+1",
    "1FE12E:op59+1",
    "1FE12E:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FEA08",
@@ -17213,14 +17825,15 @@
   "addr": "1FEA6E",
   "kind": "name",
   "jp": "キッス",
-  "en": "",
+  "en": "Kissu",
   "bytes": 8,
   "sites": [
    "1FE144:op59+1",
    "1FE144:op59+1",
    "1FE144:op59+1",
    "1FE144:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FEA76",
@@ -17241,14 +17854,15 @@
   "addr": "1FEADA",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1FE15A:op59+1",
    "1FE15A:op59+1",
    "1FE15A:op59+1",
    "1FE15A:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FEAE2",
@@ -17269,14 +17883,15 @@
   "addr": "1FEAFC",
   "kind": "name",
   "jp": "キッス",
-  "en": "",
+  "en": "Kissu",
   "bytes": 8,
   "sites": [
    "1FE170:op59+1",
    "1FE170:op59+1",
    "1FE170:op59+1",
    "1FE170:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FEB04",
@@ -17297,14 +17912,15 @@
   "addr": "1FEB92",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1FE186:op59+1",
    "1FE186:op59+1",
    "1FE186:op59+1",
    "1FE186:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FEB9A",
@@ -17325,14 +17941,15 @@
   "addr": "1FEBAC",
   "kind": "name",
   "jp": "キッス",
-  "en": "",
+  "en": "Kissu",
   "bytes": 8,
   "sites": [
    "1FE19C:op59+1",
    "1FE19C:op59+1",
    "1FE19C:op59+1",
    "1FE19C:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FEBB4",
@@ -17353,14 +17970,15 @@
   "addr": "1FEBFE",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1FE1B2:op59+1",
    "1FE1B2:op59+1",
    "1FE1B2:op59+1",
    "1FE1B2:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FEC06",
@@ -17381,14 +17999,15 @@
   "addr": "1FEC40",
   "kind": "name",
   "jp": "ポアラ",
-  "en": "",
+  "en": "Poala",
   "bytes": 8,
   "sites": [
    "1FE1C8:op59+1",
    "1FE1C8:op59+1",
    "1FE1C8:op59+1",
    "1FE1C8:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FEC48",
@@ -17409,14 +18028,15 @@
   "addr": "1FEC56",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1FE1DE:op59+1",
    "1FE1DE:op59+1",
    "1FE1DE:op59+1",
    "1FE1DE:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FEC5E",
@@ -17437,14 +18057,15 @@
   "addr": "1FEC9E",
   "kind": "name",
   "jp": "キッス",
-  "en": "",
+  "en": "Kissu",
   "bytes": 8,
   "sites": [
    "1FE1F4:op59+1",
    "1FE1F4:op59+1",
    "1FE1F4:op59+1",
    "1FE1F4:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FECA6",
@@ -17465,14 +18086,15 @@
   "addr": "1FED0A",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1FE20A:op59+1",
    "1FE20A:op59+1",
    "1FE20A:op59+1",
    "1FE20A:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FED12",
@@ -17493,12 +18115,13 @@
   "addr": "1FED3C",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1FE270:op59+1",
    "1FE270:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FED44",
@@ -17517,12 +18140,13 @@
   "addr": "1FED86",
   "kind": "name",
   "jp": "キッス",
-  "en": "",
+  "en": "Kissu",
   "bytes": 8,
   "sites": [
    "1FE286:op59+1",
    "1FE286:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FED8E",
@@ -17541,12 +18165,13 @@
   "addr": "1FEDC8",
   "kind": "name",
   "jp": "ポアラ",
-  "en": "",
+  "en": "Poala",
   "bytes": 8,
   "sites": [
    "1FE29C:op59+1",
    "1FE29C:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FEDD0",
@@ -17565,12 +18190,13 @@
   "addr": "1FEDE0",
   "kind": "name",
   "jp": "キッス",
-  "en": "",
+  "en": "Kissu",
   "bytes": 8,
   "sites": [
    "1FE2B2:op59+1",
    "1FE2B2:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FEDE8",
@@ -17589,12 +18215,13 @@
   "addr": "1FEE22",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1FE2C8:op59+1",
    "1FE2C8:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FEE2A",
@@ -17613,12 +18240,13 @@
   "addr": "1FEE44",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1FE329:op59+1",
    "1FE329:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FEE4C",
@@ -17637,12 +18265,13 @@
   "addr": "1FEEC4",
   "kind": "name",
   "jp": "キッス",
-  "en": "",
+  "en": "Kissu",
   "bytes": 8,
   "sites": [
    "1FE33F:op59+1",
    "1FE33F:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FEECC",
@@ -17661,12 +18290,13 @@
   "addr": "1FEF0E",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1FE355:op59+1",
    "1FE355:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FEF16",
@@ -17685,12 +18315,13 @@
   "addr": "1FEF34",
   "kind": "name",
   "jp": "スレッド",
-  "en": "",
+  "en": "Slade",
   "bytes": 10,
   "sites": [
    "1FE374:op59+1",
    "1FE374:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FEF3E",
@@ -17709,13 +18340,14 @@
   "addr": "1FEF4E",
   "kind": "name",
   "jp": "ポアラ",
-  "en": "",
+  "en": "Poala",
   "bytes": 8,
   "sites": [
    "1FE38A:op59+1",
    "1FE38A:op59+1",
    "1FE38A:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FEF56",
@@ -17735,13 +18367,14 @@
   "addr": "1FEF6C",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1FE3A7:op59+1",
    "1FE3A7:op59+1",
    "1FE3A7:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FEF74",
@@ -17761,13 +18394,14 @@
   "addr": "1FEF94",
   "kind": "name",
   "jp": "ポアラ",
-  "en": "",
+  "en": "Poala",
   "bytes": 8,
   "sites": [
    "1FE3DB:op59+1",
    "1FE3DB:op59+1",
    "1FE3DB:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FEF9C",
@@ -17787,13 +18421,14 @@
   "addr": "1FEFB0",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1FE3F1:op59+1",
    "1FE3F1:op59+1",
    "1FE3F1:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FEFB8",
@@ -17813,13 +18448,14 @@
   "addr": "1FEFC8",
   "kind": "name",
   "jp": "ポアラ",
-  "en": "",
+  "en": "Poala",
   "bytes": 8,
   "sites": [
    "1FE407:op59+1",
    "1FE407:op59+1",
    "1FE407:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FEFD0",
@@ -17839,13 +18475,14 @@
   "addr": "1FEFFE",
   "kind": "name",
   "jp": "キッス",
-  "en": "",
+  "en": "Kissu",
   "bytes": 8,
   "sites": [
    "1FE41D:op59+1",
    "1FE41D:op59+1",
    "1FE41D:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FF006",
@@ -17865,13 +18502,14 @@
   "addr": "1FF016",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1FE433:op59+1",
    "1FE433:op59+1",
    "1FE433:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FF01E",
@@ -17891,13 +18529,14 @@
   "addr": "1FF054",
   "kind": "name",
   "jp": "キッス",
-  "en": "",
+  "en": "Kissu",
   "bytes": 8,
   "sites": [
    "1FE449:op59+1",
    "1FE449:op59+1",
    "1FE449:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FF05C",
@@ -17917,13 +18556,14 @@
   "addr": "1FF074",
   "kind": "name",
   "jp": "スレッド",
-  "en": "",
+  "en": "Slade",
   "bytes": 10,
   "sites": [
    "1FE468:op59+1",
    "1FE468:op59+1",
    "1FE468:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FF07E",
@@ -17943,11 +18583,12 @@
   "addr": "1FF086",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1FE4DB:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FF08E",
@@ -17965,11 +18606,12 @@
   "addr": "1FF120",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1FE4F1:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FF128",
@@ -17987,11 +18629,12 @@
   "addr": "1FF152",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1FE518:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FF15A",
@@ -18009,11 +18652,12 @@
   "addr": "1FF1AC",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1FE535:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FF1B4",
@@ -18031,11 +18675,12 @@
   "addr": "1FF1C2",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1FE54B:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FF1CA",
@@ -18053,11 +18698,12 @@
   "addr": "1FF218",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1FE569:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FF220",
@@ -18075,11 +18721,12 @@
   "addr": "1FF23C",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1FE587:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FF244",
@@ -18097,11 +18744,12 @@
   "addr": "1FF25A",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1FE5A5:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FF262",
@@ -18119,11 +18767,12 @@
   "addr": "1FF282",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1FE5BB:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FF28A",
@@ -18141,11 +18790,12 @@
   "addr": "1FF29E",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1FE5DD:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FF2A6",
@@ -18163,11 +18813,12 @@
   "addr": "1FF2B6",
   "kind": "name",
   "jp": "フラウスキー",
-  "en": "",
+  "en": "Frausky",
   "bytes": 14,
   "sites": [
    "1FE5F3:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FF2C4",
@@ -18185,11 +18836,12 @@
   "addr": "1FF31E",
   "kind": "name",
   "jp": "フラウスキー",
-  "en": "",
+  "en": "Frausky",
   "bytes": 14,
   "sites": [
    "1FE61C:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FF32C",
@@ -18207,11 +18859,12 @@
   "addr": "1FF370",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1FE632:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FF378",
@@ -18229,11 +18882,12 @@
   "addr": "1FF380",
   "kind": "name",
   "jp": "フラウスキー",
-  "en": "",
+  "en": "Frausky",
   "bytes": 14,
   "sites": [
    "1FE648:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FF38E",
@@ -18251,11 +18905,12 @@
   "addr": "1FF3C0",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1FE65E:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FF3C8",
@@ -18273,11 +18928,12 @@
   "addr": "1FF3FE",
   "kind": "name",
   "jp": "フラウスキー",
-  "en": "",
+  "en": "Frausky",
   "bytes": 14,
   "sites": [
    "1FE674:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FF40C",
@@ -18295,11 +18951,12 @@
   "addr": "1FF424",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1FE68A:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FF42C",
@@ -18317,11 +18974,12 @@
   "addr": "1FF482",
   "kind": "name",
   "jp": "フラウスキー",
-  "en": "",
+  "en": "Frausky",
   "bytes": 14,
   "sites": [
    "1FE6AC:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FF490",
@@ -18339,11 +18997,12 @@
   "addr": "1FF4A0",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1FE6C2:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FF4A8",
@@ -18361,11 +19020,12 @@
   "addr": "1FF4B8",
   "kind": "name",
   "jp": "フラウスキー",
-  "en": "",
+  "en": "Frausky",
   "bytes": 14,
   "sites": [
    "1FE6D8:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FF4C6",
@@ -18383,11 +19043,12 @@
   "addr": "1FF512",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1FE6EE:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FF51A",
@@ -18405,11 +19066,12 @@
   "addr": "1FF570",
   "kind": "name",
   "jp": "キッス",
-  "en": "",
+  "en": "Kissu",
   "bytes": 8,
   "sites": [
    "1FE717:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FF578",
@@ -18427,11 +19089,12 @@
   "addr": "1FF594",
   "kind": "name",
   "jp": "ポアラ",
-  "en": "",
+  "en": "Poala",
   "bytes": 8,
   "sites": [
    "1FE72E:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FF59C",
@@ -18449,11 +19112,12 @@
   "addr": "1FF5B4",
   "kind": "name",
   "jp": "スレッド",
-  "en": "",
+  "en": "Slade",
   "bytes": 10,
   "sites": [
    "1FE745:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FF5BE",
@@ -18471,11 +19135,12 @@
   "addr": "1FF920",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1FF5E4:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FF928",
@@ -18493,11 +19158,12 @@
   "addr": "1FF938",
   "kind": "name",
   "jp": "フラウスキー",
-  "en": "",
+  "en": "Frausky",
   "bytes": 14,
   "sites": [
    "1FF5FA:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FF946",
@@ -18515,11 +19181,12 @@
   "addr": "1FF97A",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1FF610:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FF982",
@@ -18537,11 +19204,12 @@
   "addr": "1FF9A4",
   "kind": "name",
   "jp": "フラウスキー",
-  "en": "",
+  "en": "Frausky",
   "bytes": 14,
   "sites": [
    "1FF626:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FF9B2",
@@ -18559,11 +19227,12 @@
   "addr": "1FF9BE",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1FF63C:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FF9C6",
@@ -18581,11 +19250,12 @@
   "addr": "1FFA10",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1FF659:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FFA18",
@@ -18603,11 +19273,12 @@
   "addr": "1FFA40",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1FF677:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FFA48",
@@ -18625,11 +19296,12 @@
   "addr": "1FFA58",
   "kind": "name",
   "jp": "フラウスキー",
-  "en": "",
+  "en": "Frausky",
   "bytes": 14,
   "sites": [
    "1FF68D:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FFA66",
@@ -18647,11 +19319,12 @@
   "addr": "1FFAC8",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1FF6A3:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FFAD0",
@@ -18669,11 +19342,12 @@
   "addr": "1FFADE",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1FF6C1:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FFAE6",
@@ -18691,11 +19365,12 @@
   "addr": "1FFB42",
   "kind": "name",
   "jp": "フラウスキー",
-  "en": "",
+  "en": "Frausky",
   "bytes": 14,
   "sites": [
    "1FF6D7:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FFB50",
@@ -18713,11 +19388,12 @@
   "addr": "1FFBCC",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1FF6ED:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FFBD4",
@@ -18735,11 +19411,12 @@
   "addr": "1FFBE0",
   "kind": "name",
   "jp": "フラウスキー",
-  "en": "",
+  "en": "Frausky",
   "bytes": 14,
   "sites": [
    "1FF703:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FFBEE",
@@ -18757,11 +19434,12 @@
   "addr": "1FFC14",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1FF741:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FFC1C",
@@ -18779,11 +19457,12 @@
   "addr": "1FFC24",
   "kind": "name",
   "jp": "フラウスキー",
-  "en": "",
+  "en": "Frausky",
   "bytes": 14,
   "sites": [
    "1FF75E:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FFC32",
@@ -18801,11 +19480,12 @@
   "addr": "1FFC78",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1FF769:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FFC80",
@@ -18823,11 +19503,12 @@
   "addr": "1FFC88",
   "kind": "name",
   "jp": "フラウスキー",
-  "en": "",
+  "en": "Frausky",
   "bytes": 14,
   "sites": [
    "1FF77F:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FFC96",
@@ -18845,11 +19526,12 @@
   "addr": "1FFD28",
   "kind": "name",
   "jp": "フラウスキー",
-  "en": "",
+  "en": "Frausky",
   "bytes": 14,
   "sites": [
    "1FF791:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FFD36",
@@ -18867,11 +19549,12 @@
   "addr": "1FFD50",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1FF7A7:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FFD58",
@@ -18889,11 +19572,12 @@
   "addr": "1FFD62",
   "kind": "name",
   "jp": "フラウスキー",
-  "en": "",
+  "en": "Frausky",
   "bytes": 14,
   "sites": [
    "1FF7BD:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FFD70",
@@ -18911,11 +19595,12 @@
   "addr": "1FFDF4",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1FF7D3:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FFDFC",
@@ -18933,11 +19618,12 @@
   "addr": "1FFE14",
   "kind": "name",
   "jp": "フラウスキー",
-  "en": "",
+  "en": "Frausky",
   "bytes": 14,
   "sites": [
    "1FF7E9:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FFE22",
@@ -18955,11 +19641,12 @@
   "addr": "1FFF2C",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1FF7FF:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FFF34",
@@ -18977,11 +19664,12 @@
   "addr": "1FFFA4",
   "kind": "name",
   "jp": "フラウスキー",
-  "en": "",
+  "en": "Frausky",
   "bytes": 14,
   "sites": [
    "1FF815:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FFFB2",
@@ -18999,11 +19687,12 @@
   "addr": "1FFFDE",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1FF839:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FFFE6",
@@ -19021,11 +19710,12 @@
   "addr": "1FFFEE",
   "kind": "name",
   "jp": "ベンチュラ",
-  "en": "",
+  "en": "Ventura",
   "bytes": 12,
   "sites": [
    "1FF84F:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1FFFFA",

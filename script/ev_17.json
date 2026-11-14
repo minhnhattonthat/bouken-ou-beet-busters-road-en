@@ -4,11 +4,12 @@
   "addr": "171A50",
   "kind": "name",
   "jp": "武器屋の主",
-  "en": "",
+  "en": "Weapon Shop Owner",
   "bytes": 12,
   "sites": [
    "171782:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:171A5C",
@@ -26,11 +27,12 @@
   "addr": "171A84",
   "kind": "name",
   "jp": "防具屋の主",
-  "en": "",
+  "en": "Armor Shop Owner",
   "bytes": 12,
   "sites": [
    "171793:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:171A90",
@@ -48,11 +50,12 @@
   "addr": "171ABA",
   "kind": "name",
   "jp": "宿屋の主",
-  "en": "",
+  "en": "Innkeeper",
   "bytes": 10,
   "sites": [
    "1717A4:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:171AC4",
@@ -70,11 +73,12 @@
   "addr": "171B08",
   "kind": "name",
   "jp": "おばさん",
-  "en": "",
+  "en": "Woman",
   "bytes": 10,
   "sites": [
    "1717B5:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:171B12",
@@ -92,11 +96,12 @@
   "addr": "171B42",
   "kind": "name",
   "jp": "男の子",
-  "en": "",
+  "en": "Boy",
   "bytes": 8,
   "sites": [
    "1717C1:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:171B4A",
@@ -114,11 +119,12 @@
   "addr": "171B68",
   "kind": "name",
   "jp": "おじさん",
-  "en": "",
+  "en": "Man",
   "bytes": 10,
   "sites": [
    "1717CD:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:171B72",
@@ -136,11 +142,12 @@
   "addr": "171BB2",
   "kind": "name",
   "jp": "鑑定士",
-  "en": "",
+  "en": "Appraiser",
   "bytes": 8,
   "sites": [
    "171870:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:171BBA",
@@ -158,11 +165,12 @@
   "addr": "171BE0",
   "kind": "name",
   "jp": "道具屋の主",
-  "en": "",
+  "en": "Item Shop Owner",
   "bytes": 12,
   "sites": [
    "1718D5:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:171BEC",
@@ -180,11 +188,12 @@
   "addr": "171C34",
   "kind": "name",
   "jp": "バスター",
-  "en": "",
+  "en": "Buster",
   "bytes": 10,
   "sites": [
    "1718E6:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:171C3E",
@@ -202,11 +211,12 @@
   "addr": "171CA0",
   "kind": "name",
   "jp": "おじさん",
-  "en": "",
+  "en": "Man",
   "bytes": 10,
   "sites": [
    "1718F2:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:171CAA",
@@ -224,11 +234,12 @@
   "addr": "171CC0",
   "kind": "name",
   "jp": "おにいさん",
-  "en": "",
+  "en": "Young Man",
   "bytes": 12,
   "sites": [
    "1718FE:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:171CCC",
@@ -246,11 +257,12 @@
   "addr": "171D2A",
   "kind": "name",
   "jp": "おじさん",
-  "en": "",
+  "en": "Man",
   "bytes": 10,
   "sites": [
    "17190A:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:171D34",
@@ -268,11 +280,12 @@
   "addr": "171D78",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "17192C:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:171D80",
@@ -313,11 +326,12 @@
   "addr": "171DE4",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "171962:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:171DEC",
@@ -372,11 +386,12 @@
   "addr": "171E84",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1719BD:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:171E8C",
@@ -431,11 +446,12 @@
   "addr": "171F24",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "171A22:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:171F2C",
@@ -543,11 +559,12 @@
   "addr": "172166",
   "kind": "name",
   "jp": "バスター",
-  "en": "",
+  "en": "Buster",
   "bytes": 10,
   "sites": [
    "171FDF:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:172170",
@@ -590,11 +607,12 @@
   "addr": "17222E",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "17203E:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:172236",
@@ -612,11 +630,12 @@
   "addr": "17227E",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "172070:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:172286",
@@ -634,11 +653,12 @@
   "addr": "1722D2",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1720A2:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1722DA",
@@ -876,11 +896,12 @@
   "addr": "1727EE",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1723E6:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1727F6",
@@ -921,11 +942,12 @@
   "addr": "172882",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "172427:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17288A",
@@ -966,11 +988,12 @@
   "addr": "172916",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "172468:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17291E",
@@ -1011,11 +1034,12 @@
   "addr": "1729AA",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1724A9:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1729B2",
@@ -1056,11 +1080,12 @@
   "addr": "172A3E",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1724EA:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:172A46",
@@ -1102,11 +1127,12 @@
   "addr": "172E60",
   "kind": "name",
   "jp": "武器屋の主",
-  "en": "",
+  "en": "Weapon Shop Owner",
   "bytes": 12,
   "sites": [
    "172AE2:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:172E6C",
@@ -1124,11 +1150,12 @@
   "addr": "172E94",
   "kind": "name",
   "jp": "防具屋の主",
-  "en": "",
+  "en": "Armor Shop Owner",
   "bytes": 12,
   "sites": [
    "172B0C:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:172EA0",
@@ -1146,12 +1173,13 @@
   "addr": "172ECA",
   "kind": "name",
   "jp": "オルフィーナ",
-  "en": "",
+  "en": "Orfina",
   "bytes": 14,
   "sites": [
    "172B33:op52+1",
    "172B33:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:172ED8",
@@ -1170,11 +1198,12 @@
   "addr": "172EF8",
   "kind": "name",
   "jp": "宿屋の主",
-  "en": "",
+  "en": "Innkeeper",
   "bytes": 10,
   "sites": [
    "172B3F:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:172F02",
@@ -1192,11 +1221,12 @@
   "addr": "172F46",
   "kind": "name",
   "jp": "おばさん",
-  "en": "",
+  "en": "Woman",
   "bytes": 10,
   "sites": [
    "172B50:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:172F50",
@@ -1214,11 +1244,12 @@
   "addr": "172FFA",
   "kind": "name",
   "jp": "女の子",
-  "en": "",
+  "en": "Girl",
   "bytes": 8,
   "sites": [
    "172B5C:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:173002",
@@ -1236,11 +1267,12 @@
   "addr": "173034",
   "kind": "name",
   "jp": "おにいさん",
-  "en": "",
+  "en": "Young Man",
   "bytes": 12,
   "sites": [
    "172B68:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:173040",
@@ -1258,11 +1290,12 @@
   "addr": "173094",
   "kind": "name",
   "jp": "おじいさん",
-  "en": "",
+  "en": "Old Man",
   "bytes": 12,
   "sites": [
    "172B74:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1730A0",
@@ -1280,11 +1313,12 @@
   "addr": "1730F2",
   "kind": "name",
   "jp": "おじさん",
-  "en": "",
+  "en": "Man",
   "bytes": 10,
   "sites": [
    "172B80:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1730FC",
@@ -1302,13 +1336,14 @@
   "addr": "173196",
   "kind": "name",
   "jp": "鑑定士",
-  "en": "",
+  "en": "Appraiser",
   "bytes": 8,
   "sites": [
    "172BD2:op59+1",
    "172BD2:op59+1",
    "172BD2:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17319E",
@@ -1328,11 +1363,12 @@
   "addr": "1731C8",
   "kind": "name",
   "jp": "鑑定士",
-  "en": "",
+  "en": "Appraiser",
   "bytes": 8,
   "sites": [
    "172C6C:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1731D0",
@@ -1350,11 +1386,12 @@
   "addr": "1731F6",
   "kind": "name",
   "jp": "道具屋の主",
-  "en": "",
+  "en": "Item Shop Owner",
   "bytes": 12,
   "sites": [
    "172CD1:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:173202",
@@ -1372,11 +1409,12 @@
   "addr": "17324A",
   "kind": "name",
   "jp": "バスター",
-  "en": "",
+  "en": "Buster",
   "bytes": 10,
   "sites": [
    "172CE2:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:173254",
@@ -1394,11 +1432,12 @@
   "addr": "1732AE",
   "kind": "name",
   "jp": "おばさん",
-  "en": "",
+  "en": "Woman",
   "bytes": 10,
   "sites": [
    "172CEE:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1732B8",
@@ -1416,11 +1455,12 @@
   "addr": "17330E",
   "kind": "name",
   "jp": "おにいさん",
-  "en": "",
+  "en": "Young Man",
   "bytes": 12,
   "sites": [
    "172CFA:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17331A",
@@ -1438,11 +1478,12 @@
   "addr": "173332",
   "kind": "name",
   "jp": "おじさん",
-  "en": "",
+  "en": "Man",
   "bytes": 10,
   "sites": [
    "172D06:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17333C",
@@ -1460,11 +1501,12 @@
   "addr": "173370",
   "kind": "name",
   "jp": "おじさん",
-  "en": "",
+  "en": "Man",
   "bytes": 10,
   "sites": [
    "172D12:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17337A",
@@ -1482,11 +1524,12 @@
   "addr": "1733CC",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "172D34:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1733D4",
@@ -1527,11 +1570,12 @@
   "addr": "173436",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "172D6A:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17343E",
@@ -1586,11 +1630,12 @@
   "addr": "1734D2",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "172DC5:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1734DA",
@@ -1645,11 +1690,12 @@
   "addr": "173572",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "172E2A:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17357A",
@@ -1734,11 +1780,12 @@
   "addr": "173754",
   "kind": "name",
   "jp": "バスター",
-  "en": "",
+  "en": "Buster",
   "bytes": 10,
   "sites": [
    "173602:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17375E",
@@ -1792,11 +1839,12 @@
   "addr": "173832",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "173669:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17383A",
@@ -1814,11 +1862,12 @@
   "addr": "173882",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "17369B:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17388A",
@@ -1836,11 +1885,12 @@
   "addr": "1738D6",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1736CD:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1738DE",
@@ -1858,11 +1908,12 @@
   "addr": "173CB0",
   "kind": "name",
   "jp": "武器屋の主",
-  "en": "",
+  "en": "Weapon Shop Owner",
   "bytes": 12,
   "sites": [
    "173932:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:173CBC",
@@ -1880,11 +1931,12 @@
   "addr": "173CE4",
   "kind": "name",
   "jp": "宿屋の主",
-  "en": "",
+  "en": "Innkeeper",
   "bytes": 10,
   "sites": [
    "17395C:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:173CEE",
@@ -1902,11 +1954,12 @@
   "addr": "173D32",
   "kind": "name",
   "jp": "男の子",
-  "en": "",
+  "en": "Boy",
   "bytes": 8,
   "sites": [
    "17396D:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:173D3A",
@@ -1924,11 +1977,12 @@
   "addr": "173D96",
   "kind": "name",
   "jp": "おじさん",
-  "en": "",
+  "en": "Man",
   "bytes": 10,
   "sites": [
    "173979:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:173DA0",
@@ -1946,11 +2000,12 @@
   "addr": "173E0A",
   "kind": "name",
   "jp": "鑑定士",
-  "en": "",
+  "en": "Appraiser",
   "bytes": 8,
   "sites": [
    "173A39:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:173E12",
@@ -1968,11 +2023,12 @@
   "addr": "173E38",
   "kind": "name",
   "jp": "道具屋の主",
-  "en": "",
+  "en": "Item Shop Owner",
   "bytes": 12,
   "sites": [
    "173A9E:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:173E44",
@@ -1990,13 +2046,14 @@
   "addr": "173E8C",
   "kind": "name",
   "jp": "防具屋アトス",
-  "en": "",
+  "en": "Athos the Armorer",
   "bytes": 14,
   "sites": [
    "173B0C:op52+1",
    "173B0C:op52+1",
    "173B0C:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:173E9A",
@@ -2016,14 +2073,15 @@
   "addr": "173ED0",
   "kind": "name",
   "jp": "防具屋アトス",
-  "en": "",
+  "en": "Athos the Armorer",
   "bytes": 14,
   "sites": [
    "173B27:op52+1",
    "173B27:op52+1",
    "173B27:op52+1",
    "173B27:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:173EDE",
@@ -2044,7 +2102,7 @@
   "addr": "173F56",
   "kind": "name",
   "jp": "防具屋アトス",
-  "en": "",
+  "en": "Athos the Armorer",
   "bytes": 14,
   "sites": [
    "173B41:op52+1",
@@ -2054,7 +2112,8 @@
    "173B41:op52+1",
    "173B41:op52+1",
    "173B41:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:173F64",
@@ -2078,7 +2137,7 @@
   "addr": "173F8E",
   "kind": "name",
   "jp": "防具屋アトス",
-  "en": "",
+  "en": "Athos the Armorer",
   "bytes": 14,
   "sites": [
    "173B61:op52+1",
@@ -2090,7 +2149,8 @@
    "173B61:op52+1",
    "173B61:op52+1",
    "173B61:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:173F9C",
@@ -2116,7 +2176,7 @@
   "addr": "173FE6",
   "kind": "name",
   "jp": "防具屋アトス",
-  "en": "",
+  "en": "Athos the Armorer",
   "bytes": 14,
   "sites": [
    "173B76:op52+1",
@@ -2129,7 +2189,8 @@
    "173B76:op52+1",
    "173B76:op52+1",
    "173B76:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:173FF4",
@@ -2156,11 +2217,12 @@
   "addr": "17401E",
   "kind": "name",
   "jp": "おばさん",
-  "en": "",
+  "en": "Woman",
   "bytes": 10,
   "sites": [
    "173B87:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:174028",
@@ -2178,11 +2240,12 @@
   "addr": "174062",
   "kind": "name",
   "jp": "おじさん",
-  "en": "",
+  "en": "Man",
   "bytes": 10,
   "sites": [
    "173B93:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17406C",
@@ -2200,11 +2263,12 @@
   "addr": "174088",
   "kind": "name",
   "jp": "おじさん",
-  "en": "",
+  "en": "Man",
   "bytes": 10,
   "sites": [
    "173BB1:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:174092",
@@ -2222,11 +2286,12 @@
   "addr": "1740E2",
   "kind": "name",
   "jp": "おにいさん",
-  "en": "",
+  "en": "Young Man",
   "bytes": 12,
   "sites": [
    "173BBD:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1740EE",
@@ -2244,11 +2309,12 @@
   "addr": "17412A",
   "kind": "name",
   "jp": "おじいさん",
-  "en": "",
+  "en": "Old Man",
   "bytes": 12,
   "sites": [
    "173BC9:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:174136",
@@ -2266,11 +2332,12 @@
   "addr": "174172",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "173BEB:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17417A",
@@ -2311,11 +2378,12 @@
   "addr": "1741DC",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "173C21:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1741E4",
@@ -2370,11 +2438,12 @@
   "addr": "174270",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "173C86:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:174278",
@@ -2415,11 +2484,12 @@
   "addr": "174620",
   "kind": "name",
   "jp": "武器屋の主",
-  "en": "",
+  "en": "Weapon Shop Owner",
   "bytes": 12,
   "sites": [
    "1742E2:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17462C",
@@ -2437,11 +2507,12 @@
   "addr": "174654",
   "kind": "name",
   "jp": "防具屋の主",
-  "en": "",
+  "en": "Armor Shop Owner",
   "bytes": 12,
   "sites": [
    "17430C:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:174660",
@@ -2459,11 +2530,12 @@
   "addr": "17468A",
   "kind": "name",
   "jp": "宿屋の主",
-  "en": "",
+  "en": "Innkeeper",
   "bytes": 10,
   "sites": [
    "17431D:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:174694",
@@ -2481,11 +2553,12 @@
   "addr": "1746D8",
   "kind": "name",
   "jp": "アヤノ",
-  "en": "",
+  "en": "Ayano",
   "bytes": 8,
   "sites": [
    "174341:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1746E0",
@@ -2503,12 +2576,13 @@
   "addr": "17471C",
   "kind": "name",
   "jp": "アヤノ",
-  "en": "",
+  "en": "Ayano",
   "bytes": 8,
   "sites": [
    "17435C:op52+1",
    "17435C:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:174724",
@@ -2527,13 +2601,14 @@
   "addr": "174764",
   "kind": "name",
   "jp": "アヤノ",
-  "en": "",
+  "en": "Ayano",
   "bytes": 8,
   "sites": [
    "17436C:op52+1",
    "17436C:op52+1",
    "17436C:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17476C",
@@ -2553,11 +2628,12 @@
   "addr": "17478E",
   "kind": "name",
   "jp": "シン",
-  "en": "",
+  "en": "Shin",
   "bytes": 6,
   "sites": [
    "17438B:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:174794",
@@ -2575,12 +2651,13 @@
   "addr": "1747B8",
   "kind": "name",
   "jp": "シン",
-  "en": "",
+  "en": "Shin",
   "bytes": 6,
   "sites": [
    "1743A6:op52+1",
    "1743A6:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1747BE",
@@ -2599,13 +2676,14 @@
   "addr": "1747E0",
   "kind": "name",
   "jp": "シン",
-  "en": "",
+  "en": "Shin",
   "bytes": 6,
   "sites": [
    "1743B6:op52+1",
    "1743B6:op52+1",
    "1743B6:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1747E6",
@@ -2625,11 +2703,12 @@
   "addr": "17482E",
   "kind": "name",
   "jp": "ティンク",
-  "en": "",
+  "en": "Tink",
   "bytes": 10,
   "sites": [
    "1743CD:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:174838",
@@ -2647,12 +2726,13 @@
   "addr": "174868",
   "kind": "name",
   "jp": "ティンク",
-  "en": "",
+  "en": "Tink",
   "bytes": 10,
   "sites": [
    "1743DD:op52+1",
    "1743DD:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:174872",
@@ -2671,11 +2751,12 @@
   "addr": "174888",
   "kind": "name",
   "jp": "ブエナ",
-  "en": "",
+  "en": "Buena",
   "bytes": 8,
   "sites": [
    "1743F4:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:174890",
@@ -2693,12 +2774,13 @@
   "addr": "1748C4",
   "kind": "name",
   "jp": "ブエナ",
-  "en": "",
+  "en": "Buena",
   "bytes": 8,
   "sites": [
    "174404:op52+1",
    "174404:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1748CC",
@@ -2717,11 +2799,12 @@
   "addr": "1748E0",
   "kind": "name",
   "jp": "おじさん",
-  "en": "",
+  "en": "Man",
   "bytes": 10,
   "sites": [
    "174410:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1748EA",
@@ -2739,11 +2822,12 @@
   "addr": "174988",
   "kind": "name",
   "jp": "鑑定士",
-  "en": "",
+  "en": "Appraiser",
   "bytes": 8,
   "sites": [
    "174496:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:174990",
@@ -2761,11 +2845,12 @@
   "addr": "1749B6",
   "kind": "name",
   "jp": "道具屋の主",
-  "en": "",
+  "en": "Item Shop Owner",
   "bytes": 12,
   "sites": [
    "1744FB:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1749C2",
@@ -2783,11 +2868,12 @@
   "addr": "174A0A",
   "kind": "name",
   "jp": "バスター",
-  "en": "",
+  "en": "Buster",
   "bytes": 10,
   "sites": [
    "17450C:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:174A14",
@@ -2805,11 +2891,12 @@
   "addr": "174A5E",
   "kind": "name",
   "jp": "バスター",
-  "en": "",
+  "en": "Buster",
   "bytes": 10,
   "sites": [
    "174518:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:174A68",
@@ -2827,11 +2914,12 @@
   "addr": "174AC8",
   "kind": "name",
   "jp": "おばさん",
-  "en": "",
+  "en": "Woman",
   "bytes": 10,
   "sites": [
    "174524:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:174AD2",
@@ -2849,11 +2937,12 @@
   "addr": "174AEC",
   "kind": "name",
   "jp": "おにいさん",
-  "en": "",
+  "en": "Young Man",
   "bytes": 12,
   "sites": [
    "174530:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:174AF8",
@@ -2871,11 +2960,12 @@
   "addr": "174B58",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "174552:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:174B60",
@@ -2916,11 +3006,12 @@
   "addr": "174BC4",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "174592:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:174BCC",
@@ -2961,11 +3052,12 @@
   "addr": "174C2E",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1745C8:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:174C36",
@@ -3098,11 +3190,12 @@
   "addr": "174F5A",
   "kind": "name",
   "jp": "バスター",
-  "en": "",
+  "en": "Buster",
   "bytes": 10,
   "sites": [
    "174D38:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:174F64",
@@ -3120,11 +3213,12 @@
   "addr": "174FDA",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "174D5C:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:174FE2",
@@ -3142,11 +3236,12 @@
   "addr": "17502A",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "174D8E:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:175032",
@@ -3164,11 +3259,12 @@
   "addr": "17507E",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "174DC0:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:175086",
@@ -3344,11 +3440,12 @@
   "addr": "175840",
   "kind": "name",
   "jp": "鑑定士",
-  "en": "",
+  "en": "Appraiser",
   "bytes": 8,
   "sites": [
    "17537B:op68+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:175848",
@@ -3377,22 +3474,24 @@
   "addr": "17587E",
   "kind": "name",
   "jp": "この間の鑑定から[BR]まだ何も上がっておらんよ[WAIT]",
-  "en": "",
+  "en": "No new levels yet, eh?[WAIT]",
   "bytes": 46,
   "sites": [
    "175387:op68+13"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1758AC",
   "addr": "1758AC",
   "kind": "name",
   "jp": "鑑定士",
-  "en": "",
+  "en": "Appraiser",
   "bytes": 8,
   "sites": [
    "17538F:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1758B4",
@@ -3410,11 +3509,12 @@
   "addr": "1758CA",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "17539B:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1758D2",
@@ -3432,11 +3532,12 @@
   "addr": "175928",
   "kind": "name",
   "jp": "鑑定士",
-  "en": "",
+  "en": "Appraiser",
   "bytes": 8,
   "sites": [
    "1753B2:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:175930",
@@ -3454,11 +3555,12 @@
   "addr": "17595A",
   "kind": "name",
   "jp": "鑑定士",
-  "en": "",
+  "en": "Appraiser",
   "bytes": 8,
   "sites": [
    "1753BE:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:175962",
@@ -3476,11 +3578,12 @@
   "addr": "175970",
   "kind": "name",
   "jp": "鑑定士",
-  "en": "",
+  "en": "Appraiser",
   "bytes": 8,
   "sites": [
    "1753CA:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:175978",
@@ -3509,11 +3612,12 @@
   "addr": "175998",
   "kind": "name",
   "jp": "鑑定士",
-  "en": "",
+  "en": "Appraiser",
   "bytes": 8,
   "sites": [
    "17546D:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1759A0",
@@ -3531,11 +3635,12 @@
   "addr": "1759CA",
   "kind": "name",
   "jp": "鑑定士",
-  "en": "",
+  "en": "Appraiser",
   "bytes": 8,
   "sites": [
    "1754FD:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1759D2",
@@ -3553,11 +3658,12 @@
   "addr": "1759E6",
   "kind": "name",
   "jp": "鑑定士",
-  "en": "",
+  "en": "Appraiser",
   "bytes": 8,
   "sites": [
    "175509:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1759EE",
@@ -3586,11 +3692,12 @@
   "addr": "175A0E",
   "kind": "name",
   "jp": "鑑定士",
-  "en": "",
+  "en": "Appraiser",
   "bytes": 8,
   "sites": [
    "175585:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:175A16",
@@ -3608,11 +3715,12 @@
   "addr": "175A40",
   "kind": "name",
   "jp": "鑑定士",
-  "en": "",
+  "en": "Appraiser",
   "bytes": 8,
   "sites": [
    "175601:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:175A48",
@@ -3630,11 +3738,12 @@
   "addr": "175A5C",
   "kind": "name",
   "jp": "鑑定士",
-  "en": "",
+  "en": "Appraiser",
   "bytes": 8,
   "sites": [
    "175612:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:175A64",
@@ -3663,11 +3772,12 @@
   "addr": "175A84",
   "kind": "name",
   "jp": "鑑定士",
-  "en": "",
+  "en": "Appraiser",
   "bytes": 8,
   "sites": [
    "17568E:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:175A8C",
@@ -3685,11 +3795,12 @@
   "addr": "175AB6",
   "kind": "name",
   "jp": "鑑定士",
-  "en": "",
+  "en": "Appraiser",
   "bytes": 8,
   "sites": [
    "17570A:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:175ABE",
@@ -3707,11 +3818,12 @@
   "addr": "175AD2",
   "kind": "name",
   "jp": "鑑定士",
-  "en": "",
+  "en": "Appraiser",
   "bytes": 8,
   "sites": [
    "17571B:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:175ADA",
@@ -3740,11 +3852,12 @@
   "addr": "175AFA",
   "kind": "name",
   "jp": "鑑定士",
-  "en": "",
+  "en": "Appraiser",
   "bytes": 8,
   "sites": [
    "175797:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:175B02",
@@ -3762,11 +3875,12 @@
   "addr": "175B2C",
   "kind": "name",
   "jp": "鑑定士",
-  "en": "",
+  "en": "Appraiser",
   "bytes": 8,
   "sites": [
    "175813:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:175B34",
@@ -3784,11 +3898,12 @@
   "addr": "175B48",
   "kind": "name",
   "jp": "鑑定士",
-  "en": "",
+  "en": "Appraiser",
   "bytes": 8,
   "sites": [
    "175824:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:175B50",
@@ -3806,11 +3921,12 @@
   "addr": "175B6E",
   "kind": "name",
   "jp": "鑑定士",
-  "en": "",
+  "en": "Appraiser",
   "bytes": 8,
   "sites": [
    "175830:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:175B76",
@@ -3828,11 +3944,12 @@
   "addr": "175BF0",
   "kind": "name",
   "jp": "宿屋の主",
-  "en": "",
+  "en": "Innkeeper",
   "bytes": 10,
   "sites": [
    "175B9E:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:175BFA",
@@ -3850,12 +3967,13 @@
   "addr": "175C1E",
   "kind": "name",
   "jp": "宿屋の主",
-  "en": "",
+  "en": "Innkeeper",
   "bytes": 10,
   "sites": [
    "175BB7:op52+1",
    "175BB7:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:175C28",
@@ -3874,13 +3992,14 @@
   "addr": "175C5A",
   "kind": "name",
   "jp": "宿屋の主",
-  "en": "",
+  "en": "Innkeeper",
   "bytes": 10,
   "sites": [
    "175BD5:op52+1",
    "175BD5:op52+1",
    "175BD5:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:175C64",
@@ -3900,11 +4019,12 @@
   "addr": "176020",
   "kind": "name",
   "jp": "武器屋の主",
-  "en": "",
+  "en": "Weapon Shop Owner",
   "bytes": 12,
   "sites": [
    "175CA2:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17602C",
@@ -3922,11 +4042,12 @@
   "addr": "176054",
   "kind": "name",
   "jp": "防具屋の主",
-  "en": "",
+  "en": "Armor Shop Owner",
   "bytes": 12,
   "sites": [
    "175CCC:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:176060",
@@ -3944,12 +4065,13 @@
   "addr": "17608A",
   "kind": "name",
   "jp": "宿屋の主",
-  "en": "",
+  "en": "Innkeeper",
   "bytes": 10,
   "sites": [
    "175D02:op52+1",
    "175D02:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:176094",
@@ -3968,11 +4090,12 @@
   "addr": "1760D8",
   "kind": "name",
   "jp": "女の子",
-  "en": "",
+  "en": "Girl",
   "bytes": 8,
   "sites": [
    "175D13:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1760E0",
@@ -3990,11 +4113,12 @@
   "addr": "176112",
   "kind": "name",
   "jp": "おじさん",
-  "en": "",
+  "en": "Man",
   "bytes": 10,
   "sites": [
    "175D1F:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17611C",
@@ -4012,11 +4136,12 @@
   "addr": "17614C",
   "kind": "name",
   "jp": "男の子",
-  "en": "",
+  "en": "Boy",
   "bytes": 8,
   "sites": [
    "175D2B:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:176154",
@@ -4034,11 +4159,12 @@
   "addr": "17618A",
   "kind": "name",
   "jp": "おじさん",
-  "en": "",
+  "en": "Man",
   "bytes": 10,
   "sites": [
    "175D37:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:176194",
@@ -4056,11 +4182,12 @@
   "addr": "1761DC",
   "kind": "name",
   "jp": "おばさん",
-  "en": "",
+  "en": "Woman",
   "bytes": 10,
   "sites": [
    "175D43:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1761E6",
@@ -4078,13 +4205,14 @@
   "addr": "176240",
   "kind": "name",
   "jp": "里長ハイア",
-  "en": "",
+  "en": "Elder Haia",
   "bytes": 12,
   "sites": [
    "175D91:op52+1",
    "175D91:op52+1",
    "175D91:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17624C",
@@ -4104,7 +4232,7 @@
   "addr": "17629C",
   "kind": "name",
   "jp": "里長ハイア",
-  "en": "",
+  "en": "Elder Haia",
   "bytes": 12,
   "sites": [
    "175DA1:op52+1",
@@ -4112,7 +4240,8 @@
    "175DA1:op52+1",
    "175DA1:op52+1",
    "175DA1:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1762A8",
@@ -4134,7 +4263,7 @@
   "addr": "1762C2",
   "kind": "name",
   "jp": "里長ハイア",
-  "en": "",
+  "en": "Elder Haia",
   "bytes": 12,
   "sites": [
    "175DB1:op52+1",
@@ -4144,7 +4273,8 @@
    "175DB1:op52+1",
    "175DB1:op52+1",
    "175DB1:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1762CE",
@@ -4168,11 +4298,12 @@
   "addr": "17631E",
   "kind": "name",
   "jp": "鑑定士",
-  "en": "",
+  "en": "Appraiser",
   "bytes": 8,
   "sites": [
    "175E71:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:176326",
@@ -4190,11 +4321,12 @@
   "addr": "17634C",
   "kind": "name",
   "jp": "道具屋の主",
-  "en": "",
+  "en": "Item Shop Owner",
   "bytes": 12,
   "sites": [
    "175ED6:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:176358",
@@ -4212,11 +4344,12 @@
   "addr": "1763A0",
   "kind": "name",
   "jp": "おねえさん",
-  "en": "",
+  "en": "Young Woman",
   "bytes": 12,
   "sites": [
    "175EE7:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1763AC",
@@ -4234,11 +4367,12 @@
   "addr": "1763CE",
   "kind": "name",
   "jp": "女の子",
-  "en": "",
+  "en": "Girl",
   "bytes": 8,
   "sites": [
    "175EF3:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1763D6",
@@ -4256,11 +4390,12 @@
   "addr": "17641E",
   "kind": "name",
   "jp": "おじさん",
-  "en": "",
+  "en": "Man",
   "bytes": 10,
   "sites": [
    "175EFF:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:176428",
@@ -4278,11 +4413,12 @@
   "addr": "176440",
   "kind": "name",
   "jp": "おじさん",
-  "en": "",
+  "en": "Man",
   "bytes": 10,
   "sites": [
    "175F1D:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17644A",
@@ -4300,11 +4436,12 @@
   "addr": "17648C",
   "kind": "name",
   "jp": "おじいさん",
-  "en": "",
+  "en": "Old Man",
   "bytes": 12,
   "sites": [
    "175F29:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:176498",
@@ -4322,11 +4459,12 @@
   "addr": "1764F4",
   "kind": "name",
   "jp": "おじさん",
-  "en": "",
+  "en": "Man",
   "bytes": 10,
   "sites": [
    "175F35:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1764FE",
@@ -4344,11 +4482,12 @@
   "addr": "176544",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "175F57:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17654C",
@@ -4389,11 +4528,12 @@
   "addr": "1765AE",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "175F97:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1765B6",
@@ -4434,11 +4574,12 @@
   "addr": "176618",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "175FCD:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:176620",
@@ -4493,11 +4634,12 @@
   "addr": "176890",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1766C2:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:176898",
@@ -4538,11 +4680,12 @@
   "addr": "17692A",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "176703:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:176932",
@@ -4583,11 +4726,12 @@
   "addr": "1769C4",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "176744:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1769CC",
@@ -4628,11 +4772,12 @@
   "addr": "176A5A",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "176785:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:176A62",
@@ -4673,11 +4818,12 @@
   "addr": "176AF8",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1767C6:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:176B00",
@@ -4718,11 +4864,12 @@
   "addr": "176B92",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "176807:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:176B9A",
@@ -4763,11 +4910,12 @@
   "addr": "176C2C",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "176848:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:176C34",
@@ -4808,11 +4956,12 @@
   "addr": "177500",
   "kind": "name",
   "jp": "武器屋の主",
-  "en": "",
+  "en": "Weapon Shop Owner",
   "bytes": 12,
   "sites": [
    "176CD2:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17750C",
@@ -4830,11 +4979,12 @@
   "addr": "177534",
   "kind": "name",
   "jp": "防具屋の主",
-  "en": "",
+  "en": "Armor Shop Owner",
   "bytes": 12,
   "sites": [
    "176CE3:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:177540",
@@ -4852,11 +5002,12 @@
   "addr": "17756A",
   "kind": "name",
   "jp": "グレスト",
-  "en": "",
+  "en": "Grest",
   "bytes": 10,
   "sites": [
    "176CF4:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:177574",
@@ -4907,12 +5058,13 @@
   "addr": "177608",
   "kind": "name",
   "jp": "グレスト",
-  "en": "",
+  "en": "Grest",
   "bytes": 10,
   "sites": [
    "176D34:op59+1",
    "176D34:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:177612",
@@ -4931,13 +5083,14 @@
   "addr": "17762A",
   "kind": "name",
   "jp": "グレスト",
-  "en": "",
+  "en": "Grest",
   "bytes": 10,
   "sites": [
    "176D5B:op59+1",
    "176D5B:op59+1",
    "176D5B:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:177634",
@@ -4957,11 +5110,12 @@
   "addr": "17767C",
   "kind": "name",
   "jp": "バスター",
-  "en": "",
+  "en": "Buster",
   "bytes": 10,
   "sites": [
    "176D77:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:177686",
@@ -4979,11 +5133,12 @@
   "addr": "177696",
   "kind": "name",
   "jp": "バドゥ",
-  "en": "",
+  "en": "Badu",
   "bytes": 8,
   "sites": [
    "176D83:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17769E",
@@ -5034,12 +5189,13 @@
   "addr": "177728",
   "kind": "name",
   "jp": "バドゥ",
-  "en": "",
+  "en": "Badu",
   "bytes": 8,
   "sites": [
    "176DC3:op59+1",
    "176DC3:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:177730",
@@ -5058,13 +5214,14 @@
   "addr": "177744",
   "kind": "name",
   "jp": "バドゥ",
-  "en": "",
+  "en": "Badu",
   "bytes": 8,
   "sites": [
    "176DEA:op59+1",
    "176DEA:op59+1",
    "176DEA:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17774C",
@@ -5084,11 +5241,12 @@
   "addr": "177778",
   "kind": "name",
   "jp": "マスター",
-  "en": "",
+  "en": "Owner",
   "bytes": 10,
   "sites": [
    "176E1F:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:177782",
@@ -5106,12 +5264,13 @@
   "addr": "1777A8",
   "kind": "name",
   "jp": "マスター",
-  "en": "",
+  "en": "Owner",
   "bytes": 10,
   "sites": [
    "176E2F:op52+1",
    "176E2F:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1777B2",
@@ -5130,11 +5289,12 @@
   "addr": "177800",
   "kind": "name",
   "jp": "おばさん",
-  "en": "",
+  "en": "Woman",
   "bytes": 10,
   "sites": [
    "176E54:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17780A",
@@ -5152,12 +5312,13 @@
   "addr": "177846",
   "kind": "name",
   "jp": "おばさん",
-  "en": "",
+  "en": "Woman",
   "bytes": 10,
   "sites": [
    "176E64:op52+1",
    "176E64:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:177850",
@@ -5176,12 +5337,13 @@
   "addr": "17789C",
   "kind": "name",
   "jp": "おじさん",
-  "en": "",
+  "en": "Man",
   "bytes": 10,
   "sites": [
    "176E8D:op52+1",
    "176E8D:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1778A6",
@@ -5200,11 +5362,12 @@
   "addr": "1778EA",
   "kind": "name",
   "jp": "おじさん",
-  "en": "",
+  "en": "Man",
   "bytes": 10,
   "sites": [
    "176E99:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1778F4",
@@ -5222,11 +5385,12 @@
   "addr": "177920",
   "kind": "name",
   "jp": "おじさん",
-  "en": "",
+  "en": "Man",
   "bytes": 10,
   "sites": [
    "176EA5:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17792A",
@@ -5244,11 +5408,12 @@
   "addr": "17795C",
   "kind": "name",
   "jp": "おじさん",
-  "en": "",
+  "en": "Man",
   "bytes": 10,
   "sites": [
    "176EB1:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:177966",
@@ -5266,11 +5431,12 @@
   "addr": "1779AE",
   "kind": "name",
   "jp": "おじさん",
-  "en": "",
+  "en": "Man",
   "bytes": 10,
   "sites": [
    "176EBD:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1779B8",
@@ -5288,11 +5454,12 @@
   "addr": "1779D4",
   "kind": "name",
   "jp": "おねえさん",
-  "en": "",
+  "en": "Young Woman",
   "bytes": 12,
   "sites": [
    "176EC9:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1779E0",
@@ -5310,11 +5477,12 @@
   "addr": "177A4E",
   "kind": "name",
   "jp": "おじさん",
-  "en": "",
+  "en": "Man",
   "bytes": 10,
   "sites": [
    "176ED5:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:177A58",
@@ -5332,11 +5500,12 @@
   "addr": "177ABA",
   "kind": "name",
   "jp": "バスター",
-  "en": "",
+  "en": "Buster",
   "bytes": 10,
   "sites": [
    "176EE1:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:177AC4",
@@ -5354,11 +5523,12 @@
   "addr": "177B16",
   "kind": "name",
   "jp": "宿屋の主",
-  "en": "",
+  "en": "Innkeeper",
   "bytes": 10,
   "sites": [
    "176EED:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:177B20",
@@ -5376,12 +5546,13 @@
   "addr": "177B64",
   "kind": "name",
   "jp": "おねえさん",
-  "en": "",
+  "en": "Young Woman",
   "bytes": 12,
   "sites": [
    "176F1B:op52+1",
    "176F1B:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:177B70",
@@ -5400,11 +5571,12 @@
   "addr": "177BBE",
   "kind": "name",
   "jp": "おばさん",
-  "en": "",
+  "en": "Woman",
   "bytes": 10,
   "sites": [
    "176F4C:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:177BC8",
@@ -5422,13 +5594,14 @@
   "addr": "177C02",
   "kind": "name",
   "jp": "おばさん",
-  "en": "",
+  "en": "Woman",
   "bytes": 10,
   "sites": [
    "176F5C:op52+1",
    "176F5C:op52+1",
    "176F5C:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:177C0C",
@@ -5448,11 +5621,12 @@
   "addr": "177C64",
   "kind": "name",
   "jp": "おじさん",
-  "en": "",
+  "en": "Man",
   "bytes": 10,
   "sites": [
    "176F8D:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:177C6E",
@@ -5470,13 +5644,14 @@
   "addr": "177CA6",
   "kind": "name",
   "jp": "おじさん",
-  "en": "",
+  "en": "Man",
   "bytes": 10,
   "sites": [
    "176F9D:op52+1",
    "176F9D:op52+1",
    "176F9D:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:177CB0",
@@ -5496,11 +5671,12 @@
   "addr": "177CE8",
   "kind": "name",
   "jp": "おばさん",
-  "en": "",
+  "en": "Woman",
   "bytes": 10,
   "sites": [
    "176FA9:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:177CF2",
@@ -5518,12 +5694,13 @@
   "addr": "177D56",
   "kind": "name",
   "jp": "里長",
-  "en": "",
+  "en": "Village Elder",
   "bytes": 6,
   "sites": [
    "176FD2:op52+1",
    "176FD2:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:177D5C",
@@ -5542,11 +5719,12 @@
   "addr": "177DAC",
   "kind": "name",
   "jp": "おじさん",
-  "en": "",
+  "en": "Man",
   "bytes": 10,
   "sites": [
    "176FDE:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:177DB6",
@@ -5564,11 +5742,12 @@
   "addr": "177DEE",
   "kind": "name",
   "jp": "おじさん",
-  "en": "",
+  "en": "Man",
   "bytes": 10,
   "sites": [
    "176FEA:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:177DF8",
@@ -5586,11 +5765,12 @@
   "addr": "177E4A",
   "kind": "name",
   "jp": "おばさん",
-  "en": "",
+  "en": "Woman",
   "bytes": 10,
   "sites": [
    "176FF6:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:177E54",
@@ -5608,11 +5788,12 @@
   "addr": "177EAC",
   "kind": "name",
   "jp": "おじさん",
-  "en": "",
+  "en": "Man",
   "bytes": 10,
   "sites": [
    "177002:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:177EB6",
@@ -5630,11 +5811,12 @@
   "addr": "177EF6",
   "kind": "name",
   "jp": "おばさん",
-  "en": "",
+  "en": "Woman",
   "bytes": 10,
   "sites": [
    "17700E:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:177F00",
@@ -5652,11 +5834,12 @@
   "addr": "177F66",
   "kind": "name",
   "jp": "おじいさん",
-  "en": "",
+  "en": "Old Man",
   "bytes": 12,
   "sites": [
    "17701A:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:177F72",
@@ -5674,11 +5857,12 @@
   "addr": "177FC6",
   "kind": "name",
   "jp": "おにいさん",
-  "en": "",
+  "en": "Young Man",
   "bytes": 12,
   "sites": [
    "177026:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:177FD2",
@@ -5696,11 +5880,12 @@
   "addr": "178026",
   "kind": "name",
   "jp": "おばさん",
-  "en": "",
+  "en": "Woman",
   "bytes": 10,
   "sites": [
    "177032:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:178030",
@@ -5718,11 +5903,12 @@
   "addr": "17807A",
   "kind": "name",
   "jp": "鑑定士",
-  "en": "",
+  "en": "Appraiser",
   "bytes": 8,
   "sites": [
    "1770EB:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:178082",
@@ -5740,11 +5926,12 @@
   "addr": "1780A8",
   "kind": "name",
   "jp": "道具屋の主",
-  "en": "",
+  "en": "Item Shop Owner",
   "bytes": 12,
   "sites": [
    "177150:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1780B4",
@@ -5762,11 +5949,12 @@
   "addr": "1780FC",
   "kind": "name",
   "jp": "バスター",
-  "en": "",
+  "en": "Buster",
   "bytes": 10,
   "sites": [
    "177161:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:178106",
@@ -5784,11 +5972,12 @@
   "addr": "17816C",
   "kind": "name",
   "jp": "おねえさん",
-  "en": "",
+  "en": "Young Woman",
   "bytes": 12,
   "sites": [
    "17716D:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:178178",
@@ -5806,12 +5995,13 @@
   "addr": "178190",
   "kind": "name",
   "jp": "おばさん",
-  "en": "",
+  "en": "Woman",
   "bytes": 10,
   "sites": [
    "1771A9:op52+1",
    "1771A9:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17819A",
@@ -5830,14 +6020,15 @@
   "addr": "1781BC",
   "kind": "name",
   "jp": "おばさん",
-  "en": "",
+  "en": "Woman",
   "bytes": 10,
   "sites": [
    "1771B9:op52+1",
    "1771B9:op52+1",
    "1771B9:op52+1",
    "1771B9:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1781C6",
@@ -5858,12 +6049,13 @@
   "addr": "178204",
   "kind": "name",
   "jp": "おじさん",
-  "en": "",
+  "en": "Man",
   "bytes": 10,
   "sites": [
    "1771F5:op52+1",
    "1771F5:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17820E",
@@ -5882,14 +6074,15 @@
   "addr": "17822C",
   "kind": "name",
   "jp": "おじさん",
-  "en": "",
+  "en": "Man",
   "bytes": 10,
   "sites": [
    "177205:op52+1",
    "177205:op52+1",
    "177205:op52+1",
    "177205:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:178236",
@@ -5910,11 +6103,12 @@
   "addr": "17827A",
   "kind": "name",
   "jp": "おにいさん",
-  "en": "",
+  "en": "Young Man",
   "bytes": 12,
   "sites": [
    "177211:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:178286",
@@ -5932,12 +6126,13 @@
   "addr": "1782E8",
   "kind": "name",
   "jp": "おじさん",
-  "en": "",
+  "en": "Man",
   "bytes": 10,
   "sites": [
    "17723A:op52+1",
    "17723A:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1782F2",
@@ -5956,12 +6151,13 @@
   "addr": "17834A",
   "kind": "name",
   "jp": "男の子",
-  "en": "",
+  "en": "Boy",
   "bytes": 8,
   "sites": [
    "177276:op52+1",
    "177276:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:178352",
@@ -5980,14 +6176,15 @@
   "addr": "1783A4",
   "kind": "name",
   "jp": "男の子",
-  "en": "",
+  "en": "Boy",
   "bytes": 8,
   "sites": [
    "177286:op52+1",
    "177286:op52+1",
    "177286:op52+1",
    "177286:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1783AC",
@@ -6008,11 +6205,12 @@
   "addr": "1783DE",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1772A8:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1783E6",
@@ -6053,11 +6251,12 @@
   "addr": "17844A",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1772E8:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:178452",
@@ -6098,11 +6297,12 @@
   "addr": "1784B6",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "17731E:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1784BE",
@@ -6157,11 +6357,12 @@
   "addr": "178554",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "177375:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17855C",
@@ -6216,11 +6417,12 @@
   "addr": "1785FE",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1773CC:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:178606",
@@ -6275,11 +6477,12 @@
   "addr": "178692",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "177427:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17869A",
@@ -6334,11 +6537,12 @@
   "addr": "178726",
   "kind": "name",
   "jp": "ミルファ",
-  "en": "",
+  "en": "Milfa",
   "bytes": 10,
   "sites": [
    "177476:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:178730",
@@ -6389,12 +6593,13 @@
   "addr": "1787C8",
   "kind": "name",
   "jp": "ミルファ",
-  "en": "",
+  "en": "Milfa",
   "bytes": 10,
   "sites": [
    "1774B6:op59+1",
    "1774B6:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1787D2",
@@ -6413,13 +6618,14 @@
   "addr": "1787EC",
   "kind": "name",
   "jp": "ミルファ",
-  "en": "",
+  "en": "Milfa",
   "bytes": 10,
   "sites": [
    "1774DD:op59+1",
    "1774DD:op59+1",
    "1774DD:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1787F6",
@@ -6472,11 +6678,12 @@
   "addr": "178954",
   "kind": "name",
   "jp": "バスター",
-  "en": "",
+  "en": "Buster",
   "bytes": 10,
   "sites": [
    "178855:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17895E",
@@ -6494,12 +6701,13 @@
   "addr": "17897E",
   "kind": "name",
   "jp": "バスター",
-  "en": "",
+  "en": "Buster",
   "bytes": 10,
   "sites": [
    "178865:op52+1",
    "178865:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:178988",
@@ -6518,11 +6726,12 @@
   "addr": "1789C0",
   "kind": "name",
   "jp": "バスター",
-  "en": "",
+  "en": "Buster",
   "bytes": 10,
   "sites": [
    "17887C:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1789CA",
@@ -6540,12 +6749,13 @@
   "addr": "1789F6",
   "kind": "name",
   "jp": "バスター",
-  "en": "",
+  "en": "Buster",
   "bytes": 10,
   "sites": [
    "17888C:op52+1",
    "17888C:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:178A00",
@@ -6575,11 +6785,12 @@
   "addr": "178A40",
   "kind": "name",
   "jp": "バスター",
-  "en": "",
+  "en": "Buster",
   "bytes": 10,
   "sites": [
    "1788AE:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:178A4A",
@@ -6597,11 +6808,12 @@
   "addr": "178A82",
   "kind": "name",
   "jp": "バスター",
-  "en": "",
+  "en": "Buster",
   "bytes": 10,
   "sites": [
    "1788B9:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:178A8C",
@@ -6631,11 +6843,12 @@
   "addr": "178AD6",
   "kind": "name",
   "jp": "バスター",
-  "en": "",
+  "en": "Buster",
   "bytes": 10,
   "sites": [
    "1788EA:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:178AE0",
@@ -6708,11 +6921,12 @@
   "addr": "178CEC",
   "kind": "name",
   "jp": "バスター",
-  "en": "",
+  "en": "Buster",
   "bytes": 10,
   "sites": [
    "178B8A:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:178CF6",
@@ -6755,11 +6969,12 @@
   "addr": "178DB4",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "178BE9:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:178DBC",
@@ -6777,11 +6992,12 @@
   "addr": "178E04",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "178C1B:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:178E0C",
@@ -6799,11 +7015,12 @@
   "addr": "178E58",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "178C4D:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:178E60",
@@ -6821,11 +7038,12 @@
   "addr": "179120",
   "kind": "name",
   "jp": "武器屋の主",
-  "en": "",
+  "en": "Weapon Shop Owner",
   "bytes": 12,
   "sites": [
    "178EB2:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17912C",
@@ -6843,11 +7061,12 @@
   "addr": "179154",
   "kind": "name",
   "jp": "防具屋の主",
-  "en": "",
+  "en": "Armor Shop Owner",
   "bytes": 12,
   "sites": [
    "178EDC:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:179160",
@@ -6865,11 +7084,12 @@
   "addr": "17918A",
   "kind": "name",
   "jp": "宿屋の主",
-  "en": "",
+  "en": "Innkeeper",
   "bytes": 10,
   "sites": [
    "178EED:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:179194",
@@ -6887,11 +7107,12 @@
   "addr": "1791D8",
   "kind": "name",
   "jp": "おじさん",
-  "en": "",
+  "en": "Man",
   "bytes": 10,
   "sites": [
    "178EFE:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1791E2",
@@ -6909,11 +7130,12 @@
   "addr": "179218",
   "kind": "name",
   "jp": "おじさん",
-  "en": "",
+  "en": "Man",
   "bytes": 10,
   "sites": [
    "178F0A:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:179222",
@@ -6931,11 +7153,12 @@
   "addr": "179264",
   "kind": "name",
   "jp": "おばさん",
-  "en": "",
+  "en": "Woman",
   "bytes": 10,
   "sites": [
    "178F16:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17926E",
@@ -6953,11 +7176,12 @@
   "addr": "1792BA",
   "kind": "name",
   "jp": "鑑定士",
-  "en": "",
+  "en": "Appraiser",
   "bytes": 8,
   "sites": [
    "178F9C:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1792C2",
@@ -6975,11 +7199,12 @@
   "addr": "1792E8",
   "kind": "name",
   "jp": "道具屋の主",
-  "en": "",
+  "en": "Item Shop Owner",
   "bytes": 12,
   "sites": [
    "179001:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1792F4",
@@ -6997,11 +7222,12 @@
   "addr": "17933C",
   "kind": "name",
   "jp": "バスター",
-  "en": "",
+  "en": "Buster",
   "bytes": 10,
   "sites": [
    "179012:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:179346",
@@ -7019,11 +7245,12 @@
   "addr": "1793A4",
   "kind": "name",
   "jp": "おばさん",
-  "en": "",
+  "en": "Woman",
   "bytes": 10,
   "sites": [
    "17901E:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1793AE",
@@ -7041,11 +7268,12 @@
   "addr": "1793EC",
   "kind": "name",
   "jp": "おじさん",
-  "en": "",
+  "en": "Man",
   "bytes": 10,
   "sites": [
    "17902A:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1793F6",
@@ -7063,11 +7291,12 @@
   "addr": "17945A",
   "kind": "name",
   "jp": "おじさん",
-  "en": "",
+  "en": "Man",
   "bytes": 10,
   "sites": [
    "179036:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:179464",
@@ -7085,11 +7314,12 @@
   "addr": "1794BA",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "179058:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1794C2",
@@ -7130,11 +7360,12 @@
   "addr": "179526",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "179098:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17952E",
@@ -7175,11 +7406,12 @@
   "addr": "179590",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1790CE:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:179598",
@@ -7234,11 +7466,12 @@
   "addr": "179760",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "179642:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:179768",
@@ -7256,11 +7489,12 @@
   "addr": "1797B0",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "179674:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:1797B8",
@@ -7278,11 +7512,12 @@
   "addr": "179804",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "1796A6:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17980C",
@@ -7389,11 +7624,12 @@
   "addr": "179904",
   "kind": "name",
   "jp": "バスター",
-  "en": "",
+  "en": "Buster",
   "bytes": 10,
   "sites": [
    "179735:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17990E",
@@ -7411,11 +7647,12 @@
   "addr": "179CA0",
   "kind": "name",
   "jp": "武器屋の主",
-  "en": "",
+  "en": "Weapon Shop Owner",
   "bytes": 12,
   "sites": [
    "179992:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:179CAC",
@@ -7433,11 +7670,12 @@
   "addr": "179CD4",
   "kind": "name",
   "jp": "防具屋の主",
-  "en": "",
+  "en": "Armor Shop Owner",
   "bytes": 12,
   "sites": [
    "1799BC:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:179CE0",
@@ -7455,11 +7693,12 @@
   "addr": "179D0A",
   "kind": "name",
   "jp": "宿屋の主",
-  "en": "",
+  "en": "Innkeeper",
   "bytes": 10,
   "sites": [
    "1799CD:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:179D14",
@@ -7477,11 +7716,12 @@
   "addr": "179D58",
   "kind": "name",
   "jp": "おじいさん",
-  "en": "",
+  "en": "Old Man",
   "bytes": 12,
   "sites": [
    "1799DE:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:179D64",
@@ -7499,11 +7739,12 @@
   "addr": "179DA4",
   "kind": "name",
   "jp": "おじいさん",
-  "en": "",
+  "en": "Old Man",
   "bytes": 12,
   "sites": [
    "1799EA:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:179DB0",
@@ -7521,11 +7762,12 @@
   "addr": "179E0C",
   "kind": "name",
   "jp": "鑑定士",
-  "en": "",
+  "en": "Appraiser",
   "bytes": 8,
   "sites": [
    "179AC7:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:179E14",
@@ -7543,11 +7785,12 @@
   "addr": "179E3A",
   "kind": "name",
   "jp": "道具屋の主",
-  "en": "",
+  "en": "Item Shop Owner",
   "bytes": 12,
   "sites": [
    "179B2C:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:179E46",
@@ -7565,11 +7808,12 @@
   "addr": "179E8E",
   "kind": "name",
   "jp": "バスター",
-  "en": "",
+  "en": "Buster",
   "bytes": 10,
   "sites": [
    "179B3D:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:179E98",
@@ -7587,11 +7831,12 @@
   "addr": "179EBC",
   "kind": "name",
   "jp": "おじいさん",
-  "en": "",
+  "en": "Old Man",
   "bytes": 12,
   "sites": [
    "179B49:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:179EC8",
@@ -7609,11 +7854,12 @@
   "addr": "179EFC",
   "kind": "name",
   "jp": "おじさん",
-  "en": "",
+  "en": "Man",
   "bytes": 10,
   "sites": [
    "179B55:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:179F06",
@@ -7631,11 +7877,12 @@
   "addr": "179F50",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "179B77:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:179F58",
@@ -7676,11 +7923,12 @@
   "addr": "179FBC",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "179BB7:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:179FC4",
@@ -7721,11 +7969,12 @@
   "addr": "17A028",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "179BED:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17A030",
@@ -7780,11 +8029,12 @@
   "addr": "17A0BC",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "179C48:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17A0C4",
@@ -7887,11 +8137,12 @@
   "addr": "17A4A0",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "17A2E2:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17A4A8",
@@ -7909,11 +8160,12 @@
   "addr": "17A4F0",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "17A314:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17A4F8",
@@ -7931,11 +8183,12 @@
   "addr": "17A544",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "17A346:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17A54C",
@@ -8020,11 +8273,12 @@
   "addr": "17A61A",
   "kind": "name",
   "jp": "バスター",
-  "en": "",
+  "en": "Buster",
   "bytes": 10,
   "sites": [
    "17A3C5:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17A624",
@@ -8042,11 +8296,12 @@
   "addr": "17AB60",
   "kind": "name",
   "jp": "武器屋の主",
-  "en": "",
+  "en": "Weapon Shop Owner",
   "bytes": 12,
   "sites": [
    "17A6A2:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17AB6C",
@@ -8064,11 +8319,12 @@
   "addr": "17AB94",
   "kind": "name",
   "jp": "防具屋の主",
-  "en": "",
+  "en": "Armor Shop Owner",
   "bytes": 12,
   "sites": [
    "17A6CC:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17ABA0",
@@ -8086,11 +8342,12 @@
   "addr": "17ABCA",
   "kind": "name",
   "jp": "宿屋の主",
-  "en": "",
+  "en": "Innkeeper",
   "bytes": 10,
   "sites": [
    "17A6DD:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17ABD4",
@@ -8108,11 +8365,12 @@
   "addr": "17AC18",
   "kind": "name",
   "jp": "おにいさん",
-  "en": "",
+  "en": "Young Man",
   "bytes": 12,
   "sites": [
    "17A6EE:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17AC24",
@@ -8130,11 +8388,12 @@
   "addr": "17AC60",
   "kind": "name",
   "jp": "おねえさん",
-  "en": "",
+  "en": "Young Woman",
   "bytes": 12,
   "sites": [
    "17A6FA:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17AC6C",
@@ -8152,11 +8411,12 @@
   "addr": "17ACCC",
   "kind": "name",
   "jp": "おじいさん",
-  "en": "",
+  "en": "Old Man",
   "bytes": 12,
   "sites": [
    "17A706:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17ACD8",
@@ -8174,13 +8434,14 @@
   "addr": "17AD26",
   "kind": "name",
   "jp": "ウエス",
-  "en": "",
+  "en": "Wes",
   "bytes": 8,
   "sites": [
    "17A763:op52+1",
    "17A763:op52+1",
    "17A763:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17AD2E",
@@ -8200,14 +8461,15 @@
   "addr": "17AD76",
   "kind": "name",
   "jp": "ウエス",
-  "en": "",
+  "en": "Wes",
   "bytes": 8,
   "sites": [
    "17A77F:op52+1",
    "17A77F:op52+1",
    "17A77F:op52+1",
    "17A77F:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17AD7E",
@@ -8228,7 +8490,7 @@
   "addr": "17ADBE",
   "kind": "name",
   "jp": "ウエス",
-  "en": "",
+  "en": "Wes",
   "bytes": 8,
   "sites": [
    "17A79B:op52+1",
@@ -8236,7 +8498,8 @@
    "17A79B:op52+1",
    "17A79B:op52+1",
    "17A79B:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17ADC6",
@@ -8258,7 +8521,7 @@
   "addr": "17AE02",
   "kind": "name",
   "jp": "ウエス",
-  "en": "",
+  "en": "Wes",
   "bytes": 8,
   "sites": [
    "17A7B7:op52+1",
@@ -8267,7 +8530,8 @@
    "17A7B7:op52+1",
    "17A7B7:op52+1",
    "17A7B7:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17AE0A",
@@ -8290,7 +8554,7 @@
   "addr": "17AE4A",
   "kind": "name",
   "jp": "ウエス",
-  "en": "",
+  "en": "Wes",
   "bytes": 8,
   "sites": [
    "17A811:op52+1",
@@ -8303,7 +8567,8 @@
    "17A811:op52+1",
    "17A811:op52+1",
    "17A811:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17AE52",
@@ -8330,7 +8595,7 @@
   "addr": "17AE92",
   "kind": "name",
   "jp": "ウエス",
-  "en": "",
+  "en": "Wes",
   "bytes": 8,
   "sites": [
    "17A82D:op52+1",
@@ -8344,7 +8609,8 @@
    "17A82D:op52+1",
    "17A82D:op52+1",
    "17A82D:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17AE9A",
@@ -8372,7 +8638,7 @@
   "addr": "17AEDA",
   "kind": "name",
   "jp": "ウエス",
-  "en": "",
+  "en": "Wes",
   "bytes": 8,
   "sites": [
    "17A849:op52+1",
@@ -8387,7 +8653,8 @@
    "17A849:op52+1",
    "17A849:op52+1",
    "17A849:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17AEE2",
@@ -8416,7 +8683,7 @@
   "addr": "17AF22",
   "kind": "name",
   "jp": "ウエス",
-  "en": "",
+  "en": "Wes",
   "bytes": 8,
   "sites": [
    "17A865:op52+1",
@@ -8432,7 +8699,8 @@
    "17A865:op52+1",
    "17A865:op52+1",
    "17A865:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17AF2A",
@@ -8462,7 +8730,7 @@
   "addr": "17AF6A",
   "kind": "name",
   "jp": "ウエス",
-  "en": "",
+  "en": "Wes",
   "bytes": 8,
   "sites": [
    "17A89E:op52+1",
@@ -8481,7 +8749,8 @@
    "17A89E:op52+1",
    "17A89E:op52+1",
    "17A89E:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17AF72",
@@ -8514,7 +8783,7 @@
   "addr": "17AFB0",
   "kind": "name",
   "jp": "ウエス",
-  "en": "",
+  "en": "Wes",
   "bytes": 8,
   "sites": [
    "17A8B9:op52+1",
@@ -8535,7 +8804,8 @@
    "17A8B9:op52+1",
    "17A8B9:op52+1",
    "17A8B9:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17AFB8",
@@ -8570,7 +8840,7 @@
   "addr": "17B01A",
   "kind": "name",
   "jp": "ウエス",
-  "en": "",
+  "en": "Wes",
   "bytes": 8,
   "sites": [
    "17A8C9:op52+1",
@@ -8592,7 +8862,8 @@
    "17A8C9:op52+1",
    "17A8C9:op52+1",
    "17A8C9:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17B022",
@@ -8628,11 +8899,12 @@
   "addr": "17B086",
   "kind": "name",
   "jp": "鑑定士",
-  "en": "",
+  "en": "Appraiser",
   "bytes": 8,
   "sites": [
    "17A96C:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17B08E",
@@ -8650,11 +8922,12 @@
   "addr": "17B0B4",
   "kind": "name",
   "jp": "道具屋の主",
-  "en": "",
+  "en": "Item Shop Owner",
   "bytes": 12,
   "sites": [
    "17A9D1:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17B0C0",
@@ -8672,11 +8945,12 @@
   "addr": "17B108",
   "kind": "name",
   "jp": "バスター",
-  "en": "",
+  "en": "Buster",
   "bytes": 10,
   "sites": [
    "17A9E2:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17B112",
@@ -8694,11 +8968,12 @@
   "addr": "17B166",
   "kind": "name",
   "jp": "おばさん",
-  "en": "",
+  "en": "Woman",
   "bytes": 10,
   "sites": [
    "17A9EE:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17B170",
@@ -8716,11 +8991,12 @@
   "addr": "17B18C",
   "kind": "name",
   "jp": "おじさん",
-  "en": "",
+  "en": "Man",
   "bytes": 10,
   "sites": [
    "17A9FA:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17B196",
@@ -8738,11 +9014,12 @@
   "addr": "17B1DA",
   "kind": "name",
   "jp": "おにいさん",
-  "en": "",
+  "en": "Young Man",
   "bytes": 12,
   "sites": [
    "17AA06:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17B1E6",
@@ -8760,11 +9037,12 @@
   "addr": "17B234",
   "kind": "name",
   "jp": "男の子",
-  "en": "",
+  "en": "Boy",
   "bytes": 8,
   "sites": [
    "17AA12:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17B23C",
@@ -8782,11 +9060,12 @@
   "addr": "17B27E",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "17AA34:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17B286",
@@ -8827,11 +9106,12 @@
   "addr": "17B2E8",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "17AA74:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17B2F0",
@@ -8872,11 +9152,12 @@
   "addr": "17B352",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "17AAAA:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17B35A",
@@ -8931,11 +9212,12 @@
   "addr": "17B3F2",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "17AB05:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17B3FA",
@@ -8990,11 +9272,12 @@
   "addr": "17BC60",
   "kind": "name",
   "jp": "兵士",
-  "en": "",
+  "en": "Soldier",
   "bytes": 6,
   "sites": [
    "17B492:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17BC66",
@@ -9012,11 +9295,12 @@
   "addr": "17BC98",
   "kind": "name",
   "jp": "兵士",
-  "en": "",
+  "en": "Soldier",
   "bytes": 6,
   "sites": [
    "17B49E:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17BC9E",
@@ -9034,11 +9318,12 @@
   "addr": "17BCCA",
   "kind": "name",
   "jp": "兵士",
-  "en": "",
+  "en": "Soldier",
   "bytes": 6,
   "sites": [
    "17B4AA:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17BCD0",
@@ -9056,11 +9341,12 @@
   "addr": "17BCFE",
   "kind": "name",
   "jp": "兵士",
-  "en": "",
+  "en": "Soldier",
   "bytes": 6,
   "sites": [
    "17B4B6:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17BD04",
@@ -9078,11 +9364,12 @@
   "addr": "17BD32",
   "kind": "name",
   "jp": "兵士",
-  "en": "",
+  "en": "Soldier",
   "bytes": 6,
   "sites": [
    "17B4C2:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17BD38",
@@ -9100,11 +9387,12 @@
   "addr": "17BD64",
   "kind": "name",
   "jp": "兵士",
-  "en": "",
+  "en": "Soldier",
   "bytes": 6,
   "sites": [
    "17B4CE:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17BD6A",
@@ -9122,11 +9410,12 @@
   "addr": "17BD9C",
   "kind": "name",
   "jp": "おばさん",
-  "en": "",
+  "en": "Woman",
   "bytes": 10,
   "sites": [
    "17B4DA:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17BDA6",
@@ -9144,11 +9433,12 @@
   "addr": "17BDCA",
   "kind": "name",
   "jp": "おじさん",
-  "en": "",
+  "en": "Man",
   "bytes": 10,
   "sites": [
    "17B4E6:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17BDD4",
@@ -9166,11 +9456,12 @@
   "addr": "17BE1A",
   "kind": "name",
   "jp": "おじさん",
-  "en": "",
+  "en": "Man",
   "bytes": 10,
   "sites": [
    "17B4F2:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17BE24",
@@ -9188,11 +9479,12 @@
   "addr": "17BE62",
   "kind": "name",
   "jp": "兵士",
-  "en": "",
+  "en": "Soldier",
   "bytes": 6,
   "sites": [
    "17B4FE:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17BE68",
@@ -9210,11 +9502,12 @@
   "addr": "17BE94",
   "kind": "name",
   "jp": "兵士",
-  "en": "",
+  "en": "Soldier",
   "bytes": 6,
   "sites": [
    "17B50A:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17BE9A",
@@ -9232,11 +9525,12 @@
   "addr": "17BECE",
   "kind": "name",
   "jp": "兵士",
-  "en": "",
+  "en": "Soldier",
   "bytes": 6,
   "sites": [
    "17B516:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17BED4",
@@ -9254,11 +9548,12 @@
   "addr": "17BEFA",
   "kind": "name",
   "jp": "兵士",
-  "en": "",
+  "en": "Soldier",
   "bytes": 6,
   "sites": [
    "17B522:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17BF00",
@@ -9276,11 +9571,12 @@
   "addr": "17BF4C",
   "kind": "name",
   "jp": "武器屋の主",
-  "en": "",
+  "en": "Weapon Shop Owner",
   "bytes": 12,
   "sites": [
    "17B52E:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17BF58",
@@ -9298,11 +9594,12 @@
   "addr": "17BF80",
   "kind": "name",
   "jp": "防具屋の主",
-  "en": "",
+  "en": "Armor Shop Owner",
   "bytes": 12,
   "sites": [
    "17B53F:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17BF8C",
@@ -9320,11 +9617,12 @@
   "addr": "17BFB6",
   "kind": "name",
   "jp": "スレッド",
-  "en": "",
+  "en": "Slade",
   "bytes": 10,
   "sites": [
    "17B550:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17BFC0",
@@ -9375,12 +9673,13 @@
   "addr": "17C03E",
   "kind": "name",
   "jp": "スレッド",
-  "en": "",
+  "en": "Slade",
   "bytes": 10,
   "sites": [
    "17B590:op59+1",
    "17B590:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17C048",
@@ -9399,13 +9698,14 @@
   "addr": "17C064",
   "kind": "name",
   "jp": "スレッド",
-  "en": "",
+  "en": "Slade",
   "bytes": 10,
   "sites": [
    "17B5B7:op59+1",
    "17B5B7:op59+1",
    "17B5B7:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17C06E",
@@ -9425,11 +9725,12 @@
   "addr": "17C07E",
   "kind": "name",
   "jp": "マスター",
-  "en": "",
+  "en": "Owner",
   "bytes": 10,
   "sites": [
    "17B5D3:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17C088",
@@ -9447,11 +9748,12 @@
   "addr": "17C0A0",
   "kind": "name",
   "jp": "ミニィ",
-  "en": "",
+  "en": "Minny",
   "bytes": 8,
   "sites": [
    "17B5DF:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17C0A8",
@@ -9469,11 +9771,12 @@
   "addr": "17C0B8",
   "kind": "name",
   "jp": "おばさん",
-  "en": "",
+  "en": "Woman",
   "bytes": 10,
   "sites": [
    "17B5EB:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17C0C2",
@@ -9491,11 +9794,12 @@
   "addr": "17C0E0",
   "kind": "name",
   "jp": "おじさん",
-  "en": "",
+  "en": "Man",
   "bytes": 10,
   "sites": [
    "17B5F7:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17C0EA",
@@ -9513,11 +9817,12 @@
   "addr": "17C118",
   "kind": "name",
   "jp": "おじさん",
-  "en": "",
+  "en": "Man",
   "bytes": 10,
   "sites": [
    "17B603:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17C122",
@@ -9535,11 +9840,12 @@
   "addr": "17C140",
   "kind": "name",
   "jp": "バスター",
-  "en": "",
+  "en": "Buster",
   "bytes": 10,
   "sites": [
    "17B60F:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17C14A",
@@ -9557,11 +9863,12 @@
   "addr": "17C1B0",
   "kind": "name",
   "jp": "おねえさん",
-  "en": "",
+  "en": "Young Woman",
   "bytes": 12,
   "sites": [
    "17B61B:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17C1BC",
@@ -9579,11 +9886,12 @@
   "addr": "17C1E4",
   "kind": "name",
   "jp": "おばさん",
-  "en": "",
+  "en": "Woman",
   "bytes": 10,
   "sites": [
    "17B627:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17C1EE",
@@ -9601,11 +9909,12 @@
   "addr": "17C24A",
   "kind": "name",
   "jp": "おばさん",
-  "en": "",
+  "en": "Woman",
   "bytes": 10,
   "sites": [
    "17B63E:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17C254",
@@ -9623,12 +9932,13 @@
   "addr": "17C282",
   "kind": "name",
   "jp": "おばさん",
-  "en": "",
+  "en": "Woman",
   "bytes": 10,
   "sites": [
    "17B657:op52+1",
    "17B657:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17C28C",
@@ -9647,13 +9957,14 @@
   "addr": "17C29A",
   "kind": "name",
   "jp": "おばさん",
-  "en": "",
+  "en": "Woman",
   "bytes": 10,
   "sites": [
    "17B670:op52+1",
    "17B670:op52+1",
    "17B670:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17C2A4",
@@ -9673,11 +9984,12 @@
   "addr": "17C2F6",
   "kind": "name",
   "jp": "おじさん",
-  "en": "",
+  "en": "Man",
   "bytes": 10,
   "sites": [
    "17B681:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17C300",
@@ -9695,11 +10007,12 @@
   "addr": "17C3B0",
   "kind": "name",
   "jp": "おじさん",
-  "en": "",
+  "en": "Man",
   "bytes": 10,
   "sites": [
    "17B68D:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17C3BA",
@@ -9717,11 +10030,12 @@
   "addr": "17C402",
   "kind": "name",
   "jp": "おじいさん",
-  "en": "",
+  "en": "Old Man",
   "bytes": 12,
   "sites": [
    "17B699:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17C40E",
@@ -9739,11 +10053,12 @@
   "addr": "17C498",
   "kind": "name",
   "jp": "おにいさん",
-  "en": "",
+  "en": "Young Man",
   "bytes": 12,
   "sites": [
    "17B6A5:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17C4A4",
@@ -9761,11 +10076,12 @@
   "addr": "17C4D8",
   "kind": "name",
   "jp": "宿屋の主",
-  "en": "",
+  "en": "Innkeeper",
   "bytes": 10,
   "sites": [
    "17B6B1:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17C4E2",
@@ -9783,11 +10099,12 @@
   "addr": "17C526",
   "kind": "name",
   "jp": "おじさん",
-  "en": "",
+  "en": "Man",
   "bytes": 10,
   "sites": [
    "17B6C2:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17C530",
@@ -9805,11 +10122,12 @@
   "addr": "17C58C",
   "kind": "name",
   "jp": "おねえさん",
-  "en": "",
+  "en": "Young Woman",
   "bytes": 12,
   "sites": [
    "17B6CE:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17C598",
@@ -9827,11 +10145,12 @@
   "addr": "17C5F6",
   "kind": "name",
   "jp": "おにいさん",
-  "en": "",
+  "en": "Young Man",
   "bytes": 12,
   "sites": [
    "17B6DA:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17C602",
@@ -9849,11 +10168,12 @@
   "addr": "17C634",
   "kind": "name",
   "jp": "おばさん",
-  "en": "",
+  "en": "Woman",
   "bytes": 10,
   "sites": [
    "17B6E6:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17C63E",
@@ -9871,11 +10191,12 @@
   "addr": "17C668",
   "kind": "name",
   "jp": "おばさん",
-  "en": "",
+  "en": "Woman",
   "bytes": 10,
   "sites": [
    "17B6F2:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17C672",
@@ -9893,11 +10214,12 @@
   "addr": "17C6C0",
   "kind": "name",
   "jp": "おじさん",
-  "en": "",
+  "en": "Man",
   "bytes": 10,
   "sites": [
    "17B6FE:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17C6CA",
@@ -9915,11 +10237,12 @@
   "addr": "17C716",
   "kind": "name",
   "jp": "男の子",
-  "en": "",
+  "en": "Boy",
   "bytes": 8,
   "sites": [
    "17B70A:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17C71E",
@@ -9937,11 +10260,12 @@
   "addr": "17C750",
   "kind": "name",
   "jp": "おねえさん",
-  "en": "",
+  "en": "Young Woman",
   "bytes": 12,
   "sites": [
    "17B716:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17C75C",
@@ -9959,11 +10283,12 @@
   "addr": "17C786",
   "kind": "name",
   "jp": "おじさん",
-  "en": "",
+  "en": "Man",
   "bytes": 10,
   "sites": [
    "17B722:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17C790",
@@ -9981,11 +10306,12 @@
   "addr": "17C7BA",
   "kind": "name",
   "jp": "おばさん",
-  "en": "",
+  "en": "Woman",
   "bytes": 10,
   "sites": [
    "17B72E:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17C7C4",
@@ -10003,11 +10329,12 @@
   "addr": "17C818",
   "kind": "name",
   "jp": "バスター",
-  "en": "",
+  "en": "Buster",
   "bytes": 10,
   "sites": [
    "17B73A:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17C822",
@@ -10025,11 +10352,12 @@
   "addr": "17C846",
   "kind": "name",
   "jp": "バスター",
-  "en": "",
+  "en": "Buster",
   "bytes": 10,
   "sites": [
    "17B746:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17C850",
@@ -10047,11 +10375,12 @@
   "addr": "17C896",
   "kind": "name",
   "jp": "おじさん",
-  "en": "",
+  "en": "Man",
   "bytes": 10,
   "sites": [
    "17B752:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17C8A0",
@@ -10069,11 +10398,12 @@
   "addr": "17C8D2",
   "kind": "name",
   "jp": "おじさん",
-  "en": "",
+  "en": "Man",
   "bytes": 10,
   "sites": [
    "17B75E:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17C8DC",
@@ -10091,11 +10421,12 @@
   "addr": "17C948",
   "kind": "name",
   "jp": "おにいさん",
-  "en": "",
+  "en": "Young Man",
   "bytes": 12,
   "sites": [
    "17B76A:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17C954",
@@ -10113,11 +10444,12 @@
   "addr": "17C998",
   "kind": "name",
   "jp": "おねえさん",
-  "en": "",
+  "en": "Young Woman",
   "bytes": 12,
   "sites": [
    "17B776:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17C9A4",
@@ -10135,11 +10467,12 @@
   "addr": "17C9D2",
   "kind": "name",
   "jp": "鑑定士",
-  "en": "",
+  "en": "Appraiser",
   "bytes": 8,
   "sites": [
    "17B836:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17C9DA",
@@ -10157,11 +10490,12 @@
   "addr": "17CA00",
   "kind": "name",
   "jp": "道具屋の主",
-  "en": "",
+  "en": "Item Shop Owner",
   "bytes": 12,
   "sites": [
    "17B89B:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17CA0C",
@@ -10179,11 +10513,12 @@
   "addr": "17CA54",
   "kind": "name",
   "jp": "チケット屋",
-  "en": "",
+  "en": "Ticket Seller",
   "bytes": 12,
   "sites": [
    "17B8B8:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17CA60",
@@ -10201,13 +10536,14 @@
   "addr": "17CAAC",
   "kind": "name",
   "jp": "チケット屋",
-  "en": "",
+  "en": "Ticket Seller",
   "bytes": 12,
   "sites": [
    "17B8E5:op52+1",
    "17B8E5:op52+1",
    "17B8E5:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17CAB8",
@@ -10227,11 +10563,12 @@
   "addr": "17CB0C",
   "kind": "name",
   "jp": "メディア",
-  "en": "",
+  "en": "Media",
   "bytes": 10,
   "sites": [
    "17B8FC:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17CB16",
@@ -10249,12 +10586,13 @@
   "addr": "17CB5E",
   "kind": "name",
   "jp": "メディア",
-  "en": "",
+  "en": "Media",
   "bytes": 10,
   "sites": [
    "17B91F:op52+1",
    "17B91F:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17CB68",
@@ -10273,13 +10611,14 @@
   "addr": "17CBA2",
   "kind": "name",
   "jp": "メディア",
-  "en": "",
+  "en": "Media",
   "bytes": 10,
   "sites": [
    "17B92F:op52+1",
    "17B92F:op52+1",
    "17B92F:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17CBAC",
@@ -10299,11 +10638,12 @@
   "addr": "17CBE6",
   "kind": "name",
   "jp": "バスター",
-  "en": "",
+  "en": "Buster",
   "bytes": 10,
   "sites": [
    "17B93B:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17CBF0",
@@ -10321,11 +10661,12 @@
   "addr": "17CC4E",
   "kind": "name",
   "jp": "バスター",
-  "en": "",
+  "en": "Buster",
   "bytes": 10,
   "sites": [
    "17B947:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17CC58",
@@ -10343,12 +10684,13 @@
   "addr": "17CD2A",
   "kind": "name",
   "jp": "おねえさん",
-  "en": "",
+  "en": "Young Woman",
   "bytes": 12,
   "sites": [
    "17B970:op52+1",
    "17B970:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17CD36",
@@ -10367,11 +10709,12 @@
   "addr": "17CDA2",
   "kind": "name",
   "jp": "船員",
-  "en": "",
+  "en": "Sailor",
   "bytes": 6,
   "sites": [
    "17B988:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17CDA8",
@@ -10389,12 +10732,13 @@
   "addr": "17CDF8",
   "kind": "name",
   "jp": "船員",
-  "en": "",
+  "en": "Sailor",
   "bytes": 6,
   "sites": [
    "17B998:op52+1",
    "17B998:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17CDFE",
@@ -10413,11 +10757,12 @@
   "addr": "17CE48",
   "kind": "name",
   "jp": "おじさん",
-  "en": "",
+  "en": "Man",
   "bytes": 10,
   "sites": [
    "17B9B0:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17CE52",
@@ -10435,13 +10780,14 @@
   "addr": "17CE9C",
   "kind": "name",
   "jp": "おじさん",
-  "en": "",
+  "en": "Man",
   "bytes": 10,
   "sites": [
    "17B9DD:op52+1",
    "17B9DD:op52+1",
    "17B9DD:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17CEA6",
@@ -10461,11 +10807,12 @@
   "addr": "17CEEA",
   "kind": "name",
   "jp": "おじいさん",
-  "en": "",
+  "en": "Old Man",
   "bytes": 12,
   "sites": [
    "17B9E9:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17CEF6",
@@ -10483,11 +10830,12 @@
   "addr": "17CF5A",
   "kind": "name",
   "jp": "バスター",
-  "en": "",
+  "en": "Buster",
   "bytes": 10,
   "sites": [
    "17B9F5:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17CF64",
@@ -10505,11 +10853,12 @@
   "addr": "17CFBC",
   "kind": "name",
   "jp": "バスター",
-  "en": "",
+  "en": "Buster",
   "bytes": 10,
   "sites": [
    "17BA01:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17CFC6",
@@ -10527,12 +10876,13 @@
   "addr": "17D018",
   "kind": "name",
   "jp": "おばさん",
-  "en": "",
+  "en": "Woman",
   "bytes": 10,
   "sites": [
    "17BA2A:op52+1",
    "17BA2A:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17D022",
@@ -10551,12 +10901,13 @@
   "addr": "17D064",
   "kind": "name",
   "jp": "女の子",
-  "en": "",
+  "en": "Girl",
   "bytes": 8,
   "sites": [
    "17BA53:op52+1",
    "17BA53:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17D06C",
@@ -10575,11 +10926,12 @@
   "addr": "17D0D0",
   "kind": "name",
   "jp": "おじさん",
-  "en": "",
+  "en": "Man",
   "bytes": 10,
   "sites": [
    "17BA5F:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17D0DA",
@@ -10597,12 +10949,13 @@
   "addr": "17D0F2",
   "kind": "name",
   "jp": "おじいさん",
-  "en": "",
+  "en": "Old Man",
   "bytes": 12,
   "sites": [
    "17BA88:op52+1",
    "17BA88:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17D0FE",
@@ -10621,11 +10974,12 @@
   "addr": "17D156",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "17BAAA:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17D15E",
@@ -10666,11 +11020,12 @@
   "addr": "17D1C2",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "17BAEA:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17D1CA",
@@ -10711,11 +11066,12 @@
   "addr": "17D22C",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "17BB2A:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17D234",
@@ -10756,11 +11112,12 @@
   "addr": "17D296",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "17BB60:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17D29E",
@@ -10815,11 +11172,12 @@
   "addr": "17D32E",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "17BBBB:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17D336",
@@ -10874,11 +11232,12 @@
   "addr": "17D3E0",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "17BC12:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17D3E8",
@@ -10933,11 +11292,12 @@
   "addr": "17D690",
   "kind": "name",
   "jp": "武器屋の主",
-  "en": "",
+  "en": "Weapon Shop Owner",
   "bytes": 12,
   "sites": [
    "17D482:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17D69C",
@@ -10955,11 +11315,12 @@
   "addr": "17D6C4",
   "kind": "name",
   "jp": "防具屋の主",
-  "en": "",
+  "en": "Armor Shop Owner",
   "bytes": 12,
   "sites": [
    "17D493:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17D6D0",
@@ -10977,11 +11338,12 @@
   "addr": "17D6FA",
   "kind": "name",
   "jp": "宿屋の主",
-  "en": "",
+  "en": "Innkeeper",
   "bytes": 10,
   "sites": [
    "17D4A4:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17D704",
@@ -10999,11 +11361,12 @@
   "addr": "17D748",
   "kind": "name",
   "jp": "鑑定士",
-  "en": "",
+  "en": "Appraiser",
   "bytes": 8,
   "sites": [
    "17D52F:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17D750",
@@ -11021,11 +11384,12 @@
   "addr": "17D776",
   "kind": "name",
   "jp": "船員",
-  "en": "",
+  "en": "Sailor",
   "bytes": 6,
   "sites": [
    "17D59B:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17D77C",
@@ -11043,11 +11407,12 @@
   "addr": "17D7AE",
   "kind": "name",
   "jp": "バスター",
-  "en": "",
+  "en": "Buster",
   "bytes": 10,
   "sites": [
    "17D5A7:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17D7B8",
@@ -11065,11 +11430,12 @@
   "addr": "17D80E",
   "kind": "name",
   "jp": "船員",
-  "en": "",
+  "en": "Sailor",
   "bytes": 6,
   "sites": [
    "17D5BF:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17D814",
@@ -11087,12 +11453,13 @@
   "addr": "17D842",
   "kind": "name",
   "jp": "船員",
-  "en": "",
+  "en": "Sailor",
   "bytes": 6,
   "sites": [
    "17D5CF:op52+1",
    "17D5CF:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17D848",
@@ -11111,11 +11478,12 @@
   "addr": "17D892",
   "kind": "name",
   "jp": "おじさん",
-  "en": "",
+  "en": "Man",
   "bytes": 10,
   "sites": [
    "17D5DB:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17D89C",
@@ -11133,11 +11501,12 @@
   "addr": "17D8F2",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "17D5F3:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17D8FA",
@@ -11192,11 +11561,12 @@
   "addr": "17D986",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "17D658:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17D98E",
@@ -11237,12 +11607,13 @@
   "addr": "17DF70",
   "kind": "name",
   "jp": "武器屋の主",
-  "en": "",
+  "en": "Weapon Shop Owner",
   "bytes": 12,
   "sites": [
    "17DA1A:op52+1",
    "17DA1A:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17DF7C",
@@ -11261,12 +11632,13 @@
   "addr": "17DFA4",
   "kind": "name",
   "jp": "防具屋の主",
-  "en": "",
+  "en": "Armor Shop Owner",
   "bytes": 12,
   "sites": [
    "17DA5C:op52+1",
    "17DA5C:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17DFB0",
@@ -11285,12 +11657,13 @@
   "addr": "17DFDA",
   "kind": "name",
   "jp": "宿屋の主",
-  "en": "",
+  "en": "Innkeeper",
   "bytes": 10,
   "sites": [
    "17DA85:op52+1",
    "17DA85:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17DFE4",
@@ -11309,12 +11682,13 @@
   "addr": "17E028",
   "kind": "name",
   "jp": "女の子",
-  "en": "",
+  "en": "Girl",
   "bytes": 8,
   "sites": [
    "17DAAE:op52+1",
    "17DAAE:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17E030",
@@ -11333,12 +11707,13 @@
   "addr": "17E04C",
   "kind": "name",
   "jp": "おばさん",
-  "en": "",
+  "en": "Woman",
   "bytes": 10,
   "sites": [
    "17DAD7:op52+1",
    "17DAD7:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17E056",
@@ -11357,13 +11732,14 @@
   "addr": "17E086",
   "kind": "name",
   "jp": "キャビン",
-  "en": "",
+  "en": "Cabin",
   "bytes": 10,
   "sites": [
    "17DB21:op52+1",
    "17DB21:op52+1",
    "17DB21:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17E090",
@@ -11383,7 +11759,7 @@
   "addr": "17E0C8",
   "kind": "name",
   "jp": "キャビン",
-  "en": "",
+  "en": "Cabin",
   "bytes": 10,
   "sites": [
    "17DB3C:op52+1",
@@ -11391,7 +11767,8 @@
    "17DB3C:op52+1",
    "17DB3C:op52+1",
    "17DB3C:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17E0D2",
@@ -11413,7 +11790,7 @@
   "addr": "17E108",
   "kind": "name",
   "jp": "キャビン",
-  "en": "",
+  "en": "Cabin",
   "bytes": 10,
   "sites": [
    "17DB64:op52+1",
@@ -11423,7 +11800,8 @@
    "17DB64:op52+1",
    "17DB64:op52+1",
    "17DB64:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17E112",
@@ -11447,13 +11825,14 @@
   "addr": "17E14A",
   "kind": "name",
   "jp": "フィリップ",
-  "en": "",
+  "en": "Philip",
   "bytes": 12,
   "sites": [
    "17DBA5:op52+1",
    "17DBA5:op52+1",
    "17DBA5:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17E156",
@@ -11473,11 +11852,12 @@
   "addr": "17E164",
   "kind": "name",
   "jp": "なぞなぞ名人",
-  "en": "",
+  "en": "Riddle Master",
   "bytes": 14,
   "sites": [
    "17DBC4:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17E172",
@@ -11495,12 +11875,13 @@
   "addr": "17E1E6",
   "kind": "name",
   "jp": "なぞなぞ名人",
-  "en": "",
+  "en": "Riddle Master",
   "bytes": 14,
   "sites": [
    "17DBE7:op52+1",
    "17DBE7:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17E1F4",
@@ -11519,13 +11900,14 @@
   "addr": "17E268",
   "kind": "name",
   "jp": "なぞなぞ名人",
-  "en": "",
+  "en": "Riddle Master",
   "bytes": 14,
   "sites": [
    "17DC0A:op52+1",
    "17DC0A:op52+1",
    "17DC0A:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17E276",
@@ -11545,14 +11927,15 @@
   "addr": "17E2F2",
   "kind": "name",
   "jp": "なぞなぞ名人",
-  "en": "",
+  "en": "Riddle Master",
   "bytes": 14,
   "sites": [
    "17DC25:op52+1",
    "17DC25:op52+1",
    "17DC25:op52+1",
    "17DC25:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17E300",
@@ -11573,7 +11956,7 @@
   "addr": "17E354",
   "kind": "name",
   "jp": "なぞなぞ名人",
-  "en": "",
+  "en": "Riddle Master",
   "bytes": 14,
   "sites": [
    "17DC4D:op52+1",
@@ -11582,7 +11965,8 @@
    "17DC4D:op52+1",
    "17DC4D:op52+1",
    "17DC4D:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17E362",
@@ -11605,11 +11989,12 @@
   "addr": "17E3A8",
   "kind": "name",
   "jp": "鑑定士",
-  "en": "",
+  "en": "Appraiser",
   "bytes": 8,
   "sites": [
    "17DCF0:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17E3B0",
@@ -11627,12 +12012,13 @@
   "addr": "17E3D6",
   "kind": "name",
   "jp": "道具屋の主",
-  "en": "",
+  "en": "Item Shop Owner",
   "bytes": 12,
   "sites": [
    "17DD6D:op52+1",
    "17DD6D:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17E3E2",
@@ -11651,12 +12037,13 @@
   "addr": "17E42A",
   "kind": "name",
   "jp": "おねえさん",
-  "en": "",
+  "en": "Young Woman",
   "bytes": 12,
   "sites": [
    "17DD96:op52+1",
    "17DD96:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17E436",
@@ -11675,12 +12062,13 @@
   "addr": "17E498",
   "kind": "name",
   "jp": "おじさん",
-  "en": "",
+  "en": "Man",
   "bytes": 10,
   "sites": [
    "17DDBA:op52+1",
    "17DDBA:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17E4A2",
@@ -11699,12 +12087,13 @@
   "addr": "17E4C0",
   "kind": "name",
   "jp": "おじさん",
-  "en": "",
+  "en": "Man",
   "bytes": 10,
   "sites": [
    "17DDDE:op52+1",
    "17DDDE:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17E4CA",
@@ -11723,12 +12112,13 @@
   "addr": "17E574",
   "kind": "name",
   "jp": "おじいさん",
-  "en": "",
+  "en": "Old Man",
   "bytes": 12,
   "sites": [
    "17DE02:op52+1",
    "17DE02:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17E580",
@@ -11747,12 +12137,13 @@
   "addr": "17E5E6",
   "kind": "name",
   "jp": "男の子",
-  "en": "",
+  "en": "Boy",
   "bytes": 8,
   "sites": [
    "17DE26:op52+1",
    "17DE26:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17E5EE",
@@ -11771,11 +12162,12 @@
   "addr": "17E642",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "17DE48:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17E64A",
@@ -11816,11 +12208,12 @@
   "addr": "17E6AE",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "17DE88:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17E6B6",
@@ -11861,11 +12254,12 @@
   "addr": "17E718",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "17DEBE:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17E720",
@@ -11920,11 +12314,12 @@
   "addr": "17E7AC",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "17DF19:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17E7B4",
@@ -12024,11 +12419,12 @@
   "addr": "17E93A",
   "kind": "name",
   "jp": "バスター",
-  "en": "",
+  "en": "Buster",
   "bytes": 10,
   "sites": [
    "17E89F:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17E944",
@@ -12046,11 +12442,12 @@
   "addr": "17ECA0",
   "kind": "name",
   "jp": "バスター",
-  "en": "",
+  "en": "Buster",
   "bytes": 10,
   "sites": [
    "17E9C2:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17ECAA",
@@ -12068,11 +12465,12 @@
   "addr": "17ECF8",
   "kind": "name",
   "jp": "バスター",
-  "en": "",
+  "en": "Buster",
   "bytes": 10,
   "sites": [
    "17E9CE:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17ED02",
@@ -12090,11 +12488,12 @@
   "addr": "17ED38",
   "kind": "name",
   "jp": "バスター",
-  "en": "",
+  "en": "Buster",
   "bytes": 10,
   "sites": [
    "17E9DA:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17ED42",
@@ -12112,11 +12511,12 @@
   "addr": "17ED78",
   "kind": "name",
   "jp": "宿屋の主",
-  "en": "",
+  "en": "Innkeeper",
   "bytes": 10,
   "sites": [
    "17E9E6:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17ED82",
@@ -12134,11 +12534,12 @@
   "addr": "17EDC6",
   "kind": "name",
   "jp": "バスター",
-  "en": "",
+  "en": "Buster",
   "bytes": 10,
   "sites": [
    "17E9F7:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17EDD0",
@@ -12156,11 +12557,12 @@
   "addr": "17EE0C",
   "kind": "name",
   "jp": "おじいさん",
-  "en": "",
+  "en": "Old Man",
   "bytes": 12,
   "sites": [
    "17EA03:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17EE18",
@@ -12178,11 +12580,12 @@
   "addr": "17EE7E",
   "kind": "name",
   "jp": "バスター",
-  "en": "",
+  "en": "Buster",
   "bytes": 10,
   "sites": [
    "17EA0F:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17EE88",
@@ -12200,12 +12603,13 @@
   "addr": "17EED0",
   "kind": "name",
   "jp": "鑑定士",
-  "en": "",
+  "en": "Appraiser",
   "bytes": 8,
   "sites": [
    "17EA50:op59+1",
    "17EA50:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17EED8",
@@ -12224,13 +12628,14 @@
   "addr": "17EEFA",
   "kind": "name",
   "jp": "鑑定士",
-  "en": "",
+  "en": "Appraiser",
   "bytes": 8,
   "sites": [
    "17EA6B:op59+1",
    "17EA6B:op59+1",
    "17EA6B:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17EF02",
@@ -12250,11 +12655,12 @@
   "addr": "17EF80",
   "kind": "name",
   "jp": "鑑定士",
-  "en": "",
+  "en": "Appraiser",
   "bytes": 8,
   "sites": [
    "17EB00:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17EF88",
@@ -12272,11 +12678,12 @@
   "addr": "17EFAE",
   "kind": "name",
   "jp": "よろず屋の主",
-  "en": "",
+  "en": "General Store Owner",
   "bytes": 14,
   "sites": [
    "17EB65:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17EFBC",
@@ -12294,11 +12701,12 @@
   "addr": "17EFEE",
   "kind": "name",
   "jp": "バスター",
-  "en": "",
+  "en": "Buster",
   "bytes": 10,
   "sites": [
    "17EB76:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17EFF8",
@@ -12316,11 +12724,12 @@
   "addr": "17F03A",
   "kind": "name",
   "jp": "おじさん",
-  "en": "",
+  "en": "Man",
   "bytes": 10,
   "sites": [
    "17EB82:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17F044",
@@ -12338,11 +12747,12 @@
   "addr": "17F07E",
   "kind": "name",
   "jp": "おじさん",
-  "en": "",
+  "en": "Man",
   "bytes": 10,
   "sites": [
    "17EB8E:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17F088",
@@ -12360,11 +12770,12 @@
   "addr": "17F0BE",
   "kind": "name",
   "jp": "バスター",
-  "en": "",
+  "en": "Buster",
   "bytes": 10,
   "sites": [
    "17EB9A:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17F0C8",
@@ -12382,11 +12793,12 @@
   "addr": "17F11A",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "17EBBC:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17F122",
@@ -12427,11 +12839,12 @@
   "addr": "17F186",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "17EBF2:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17F18E",
@@ -12486,11 +12899,12 @@
   "addr": "17F21A",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "17EC4D:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17F222",
@@ -12545,11 +12959,12 @@
   "addr": "17F590",
   "kind": "name",
   "jp": "バスター",
-  "en": "",
+  "en": "Buster",
   "bytes": 10,
   "sites": [
    "17F2C2:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17F59A",
@@ -12567,12 +12982,13 @@
   "addr": "17F622",
   "kind": "name",
   "jp": "バスター",
-  "en": "",
+  "en": "Buster",
   "bytes": 10,
   "sites": [
    "17F2F6:op52+1",
    "17F2F6:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17F62C",
@@ -12591,14 +13007,15 @@
   "addr": "17F666",
   "kind": "name",
   "jp": "バスター",
-  "en": "",
+  "en": "Buster",
   "bytes": 10,
   "sites": [
    "17F311:op52+1",
    "17F311:op52+1",
    "17F311:op52+1",
    "17F311:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17F670",
@@ -12619,7 +13036,7 @@
   "addr": "17F69E",
   "kind": "name",
   "jp": "バスター",
-  "en": "",
+  "en": "Buster",
   "bytes": 10,
   "sites": [
    "17F321:op52+1",
@@ -12627,7 +13044,8 @@
    "17F321:op52+1",
    "17F321:op52+1",
    "17F321:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17F6A8",
@@ -12649,12 +13067,13 @@
   "addr": "17F6CA",
   "kind": "name",
   "jp": "バスター",
-  "en": "",
+  "en": "Buster",
   "bytes": 10,
   "sites": [
    "17F355:op52+1",
    "17F355:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17F6D4",
@@ -12673,14 +13092,15 @@
   "addr": "17F70E",
   "kind": "name",
   "jp": "バスター",
-  "en": "",
+  "en": "Buster",
   "bytes": 10,
   "sites": [
    "17F370:op52+1",
    "17F370:op52+1",
    "17F370:op52+1",
    "17F370:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17F718",
@@ -12701,7 +13121,7 @@
   "addr": "17F756",
   "kind": "name",
   "jp": "バスター",
-  "en": "",
+  "en": "Buster",
   "bytes": 10,
   "sites": [
    "17F380:op52+1",
@@ -12709,7 +13129,8 @@
    "17F380:op52+1",
    "17F380:op52+1",
    "17F380:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17F760",
@@ -12731,11 +13152,12 @@
   "addr": "17F780",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "17F3A2:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17F788",
@@ -12776,11 +13198,12 @@
   "addr": "17F7EC",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "17F3D8:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17F7F4",
@@ -12835,11 +13258,12 @@
   "addr": "17F880",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "17F433:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17F888",
@@ -12894,11 +13318,12 @@
   "addr": "17F920",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "17F48E:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17F928",
@@ -12953,11 +13378,12 @@
   "addr": "17F9B4",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "17F4E9:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17F9BC",
@@ -13012,11 +13438,12 @@
   "addr": "17FA62",
   "kind": "name",
   "jp": "ビィト",
-  "en": "",
+  "en": "Beet",
   "bytes": 8,
   "sites": [
    "17F540:op59+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17FA6A",
@@ -13104,11 +13531,12 @@
   "addr": "17FB94",
   "kind": "name",
   "jp": "バスター",
-  "en": "",
+  "en": "Buster",
   "bytes": 10,
   "sites": [
    "17FB2A:op52+1"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:17FB9E",

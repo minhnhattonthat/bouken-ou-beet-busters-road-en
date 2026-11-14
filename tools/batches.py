@@ -139,12 +139,14 @@ def has_term(jp, term):
 
 def glossary():
     """[(JP forms, EN forms, avoid forms)] from glossary.md's | JP | EN | max | notes | Avoid | tables."""
-    rows = []
+    rows, skip = [], False
     if not GLOSSARY.exists():
         return rows
     for line in GLOSSARY.read_text(encoding="utf-8").splitlines():
+        if line.startswith("#"):
+            skip = "(no check)" in line  # reference tables (speaker tags): generic words, not lint rows
         cells = [c.strip() for c in line.strip().strip("|").split("|")]
-        if line.startswith("|") and len(cells) >= 2 and cells[0] not in ("JP", "") and not set(cells[0]) <= set("-: "):
+        if not skip and line.startswith("|") and len(cells) >= 2 and cells[0] not in ("JP", "") and not set(cells[0]) <= set("-: "):
             avoid = [x.strip() for x in cells[4].split("/") if x.strip()] if len(cells) > 4 else []
             rows.append(([x.strip() for x in cells[0].split("/")], [x.strip() for x in cells[1].split("/")], avoid))
     return rows
