@@ -16,11 +16,12 @@
   "addr": "220026",
   "kind": "msg",
   "jp": "・・・さいきん、[BR]夜になるとさわぎ出すヤツがいてね[PAGE]おいしく酒が飲めるのも昼間だけ[BR]なんだよ・・・ヒック[WAIT]",
-  "en": "",
+  "en": "…Lately, there's somebody who starts[BR]raisin' a ruckus come nighttime.[PAGE]Daytime's the only time a fella can[BR]enjoy a good drink… *hic*[WAIT]",
   "bytes": 108,
   "sites": [
    "21E12A:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:220092",
@@ -39,11 +40,12 @@
   "addr": "22009A",
   "kind": "msg",
   "jp": "さわぎ・・・？[WAIT]",
-  "en": "",
+  "en": "A ruckus…?[WAIT]",
   "bytes": 18,
   "sites": [
    "21E13E:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:2200AC",
@@ -62,11 +64,12 @@
   "addr": "2200B6",
   "kind": "msg",
   "jp": "ああ・・・大さわぎさ・・・[BR]しかしバスターはなんでああ、ガサツな[BR]奴が多いんだろうね・・・ヒック[WAIT]",
-  "en": "",
+  "en": "Yeah… a big ol' ruckus… Why're so many[BR]Busters such rough, rowdy types,[BR]anyway… *hic*[WAIT]",
   "bytes": 100,
   "sites": [
    "21E14B:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:22011A",
@@ -85,11 +88,12 @@
   "addr": "220124",
   "kind": "msg",
   "jp": "この前、夜半すぎに[BR]そこの酒場でケンカがあってね・・・[BR]里の青年がもみくちゃにされてたよ[PAGE]いやぁ・・・[BR]悪いのがどっちかは[BR]分かってたんだが・・・[WAIT]",
-  "en": "",
+  "en": "The other night, past midnight, there[BR]was a fight in the tavern over there…[BR]A young fella from the village got[PAGE]roughed up good.[PAGE]Well, now… everybody knew who was in[BR]the wrong, but…[WAIT]",
   "bytes": 150,
   "sites": [
    "21E181:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:2201BA",
@@ -132,11 +136,12 @@
   "addr": "2201DC",
   "kind": "msg",
   "jp": "相手がバスターじゃ・・・[BR]もんくも言えないだろ？[BR]こっちまでのされちまうのがオチさ[WAIT]",
-  "en": "",
+  "en": "When the other guy's a Buster… you[BR]can't exactly complain, right? You'd[BR]just end up flattened too, that's all.[WAIT]",
   "bytes": 86,
   "sites": [
    "21E1A2:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:220232",
@@ -179,11 +184,12 @@
   "addr": "220250",
   "kind": "msg",
   "jp": "このごろ、里の者に聞くと[BR]窃盗事件（せっとうじけん）が[BR]多いらしくてのぉ・・・[WAIT]",
-  "en": "",
+  "en": "Lately, from what the villagers tell[BR]me, there have been a great many[BR]thefts, you see…[WAIT]",
   "bytes": 82,
   "sites": [
    "21E1EE:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:2202A2",
@@ -202,11 +208,12 @@
   "addr": "2202AA",
   "kind": "msg",
   "jp": "窃盗（せっとう）・・・ですか？[WAIT]",
-  "en": "",
+  "en": "Thefts… you say?[WAIT]",
   "bytes": 34,
   "sites": [
    "21E202:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:2202CC",
@@ -225,11 +232,12 @@
   "addr": "2202D2",
   "kind": "msg",
   "jp": "平たく言うと、カッパライじゃな[BR]しかもその犯人（はんにん）が・・・[WAIT]",
-  "en": "",
+  "en": "Put plainly, snatch-and-grab. And[BR]what's more, the culprit is…[WAIT]",
   "bytes": 70,
   "sites": [
    "21E20F:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:220318",
@@ -248,11 +256,12 @@
   "addr": "220320",
   "kind": "msg",
   "jp": "だれなんですか？[WAIT]",
-  "en": "",
+  "en": "Who is it?[WAIT]",
   "bytes": 20,
   "sites": [
    "21E223:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:220334",
@@ -271,11 +280,12 @@
   "addr": "22033A",
   "kind": "msg",
   "jp": "・・・バスターらしいのじゃよ[BR]里でやとっているバスターが[BR]その犯人（はんにん）だという・・・[PAGE]ワシはそんなバカな、とは[BR]思うんじゃけどな[WAIT]",
-  "en": "",
+  "en": "…A Buster, it seems. They say the[BR]culprit is a Buster the village hired…[PAGE]Now, I'd like to think that's[BR]nonsense, mind you.[WAIT]",
   "bytes": 140,
   "sites": [
    "21E230:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:2203C6",
@@ -294,11 +304,12 @@
   "addr": "2203CE",
   "kind": "msg",
   "jp": "・・・・・・バスター・・・[WAIT]",
-  "en": "",
+  "en": "……A Buster…[WAIT]",
   "bytes": 30,
   "sites": [
    "21E244:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:2203EC",
@@ -317,11 +328,12 @@
   "addr": "2203F2",
   "kind": "msg",
   "jp": "しかし、もし本当だとしても[BR]あんな力を持つバスターには・・・[PAGE]わたしらはどうする事も[BR]できないじゃないか・・・[BR]こまったものだ・・・[WAIT]",
-  "en": "",
+  "en": "But even if it's true, against a[BR]Buster with that kind of power…[PAGE]there's nothing folks like us can do,[BR]is there… What a fix we're in…[WAIT]",
   "bytes": 136,
   "sites": [
    "21E251:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:22047A",
@@ -340,11 +352,12 @@
   "addr": "220486",
   "kind": "msg",
   "jp": "もう、聞いてくださいよ！！[BR]この前きたバスターのお客さん・・・[BR]サイテーなんですよっ！[WAIT]",
-  "en": "",
+  "en": "Ugh, listen to this!! That Buster[BR]customer who came the other day… he[BR]was the absolute worst![WAIT]",
   "bytes": 90,
   "sites": [
    "21E287:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:2204E0",
@@ -387,11 +400,12 @@
   "addr": "220500",
   "kind": "msg",
   "jp": "態度（たいど）は大きいし、[BR]宿の備品（びひん）は投げるし・・・[PAGE]それに・・・[BR]何かにつけてさわってくるし！[PAGE]・・・もう気持ち悪いったら[BR]なかったわ！[WAIT]",
-  "en": "",
+  "en": "He acted all high and mighty, threw[BR]the inn's stuff around…[PAGE]and on top of that… he kept finding[BR]excuses to touch me![PAGE]…It was sooo gross![WAIT]",
   "bytes": 152,
   "sites": [
    "21E2A8:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:220598",
@@ -410,11 +424,12 @@
   "addr": "2205A0",
   "kind": "msg",
   "jp": "・・・最悪（さいあく）ね・・・[WAIT]",
-  "en": "",
+  "en": "…That's awful…[WAIT]",
   "bytes": 34,
   "sites": [
    "21E2BC:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:2205C2",
@@ -433,11 +448,12 @@
   "addr": "2205CE",
   "kind": "msg",
   "jp": "バスターって[BR]もっと正義感（せいぎかん）[BR]あふれる人だと思ってたのに！！[WAIT]",
-  "en": "",
+  "en": "I thought Busters were people[BR]overflowing with a sense of justice!![WAIT]",
   "bytes": 76,
   "sites": [
    "21E2C9:op52+5"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:22061A",
@@ -456,11 +472,12 @@
   "addr": "220622",
   "kind": "msg",
   "jp": "う、う～～ん・・・[WAIT]",
-  "en": "",
+  "en": "Uh, hmmmm…[WAIT]",
   "bytes": 22,
   "sites": [
    "21E2DD:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:220920",
@@ -479,11 +496,12 @@
   "addr": "22092C",
   "kind": "msg",
   "jp": "グリニデ様、[BR]ツチギンチャクのたまごを使った[BR]作戦（さくせん）ですが・・・[WAIT]",
-  "en": "",
+  "en": "Grineed-sama, sire, regarding the[BR]operation with the Dirt Anemone eggs…[WAIT]",
   "bytes": 78,
   "sites": [
    "220674:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:22097A",
@@ -502,11 +520,12 @@
   "addr": "220984",
   "kind": "msg",
   "jp": "うむ・・・[BR]どうやらバスターどものおかげで・・・[BR]失敗（しっぱい）に終わったようだな[WAIT]",
-  "en": "",
+  "en": "Mm… It seems that, thanks to the[BR]Busters… it ended in failure.[WAIT]",
   "bytes": 88,
   "sites": [
    "22068A:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:2209DC",
@@ -525,11 +544,12 @@
   "addr": "2209E8",
   "kind": "msg",
   "jp": "申しわけありませんっ！[BR]ワタシがもっと綿密（めんみつ）に[BR]手配していればこんな事には・・・っ！[WAIT]",
-  "en": "",
+  "en": "I am most terribly sorry, sire! Had I[BR]only made more thorough arrangements,[BR]this never would have… indeed![WAIT]",
   "bytes": 98,
   "sites": [
    "2206A0:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:220A4A",
@@ -548,11 +568,12 @@
   "addr": "220A54",
   "kind": "msg",
   "jp": "まぁ、かまわんよ・・・[PAGE]あれは実験（じっけん）の１つだからな[BR]それにバスターどもの動きも[BR]エクセレントだった・・・[WAIT]",
-  "en": "",
+  "en": "Well, I don't mind…[PAGE]That was merely one of my experiments.[BR]And besides, the Busters' moves were…[BR]Excellent.[WAIT]",
   "bytes": 118,
   "sites": [
    "2206B6:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:220ACA",
@@ -571,11 +592,12 @@
   "addr": "220AD6",
   "kind": "msg",
   "jp": "しかし、うまくいっていれば[BR]ムスリーを壊滅（かいめつ）させる事が[BR]できたハズでした・・・[WAIT]",
-  "en": "",
+  "en": "But had it gone well, sire, we most[BR]certainly could have wiped out Musley,[BR]indeed…[WAIT]",
   "bytes": 92,
   "sites": [
    "2206CC:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:220B32",
@@ -870,12 +892,13 @@
   "addr": "220EF0",
   "kind": "msg",
   "jp": "申しわけありませんっ！[BR]ワタシがもっと綿密（めんみつ）に[BR]手配していればこんな事には・・・っ！[WAIT]",
-  "en": "",
+  "en": "I am most terribly sorry, sire! Had I[BR]only made more thorough arrangements,[BR]this never would have… indeed![WAIT]",
   "bytes": 98,
   "sites": [
    "220824:op7A+2",
    "220824:op7A+2"
-  ]
+  ],
+  "status": "done"
  },
  {
   "id": "ev:220F52",
