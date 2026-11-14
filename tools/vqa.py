@@ -4,7 +4,7 @@
 
 Each chunk_NNN.txt (`qa_gate.py todo`) holds `id<TAB>path` lines. Codex gets docs/visual-qa-brief.md, every EN image
 and, when it exists, the original ROM's image of the same scene (`--jp DIR/<scene>/<file>`), and answers with the
-verdict lines only; they go to VERDICTS/<chunk>.tsv (skipped when that file already covers every id).
+verdict lines only; they go to VERDICTS/<chunks dir>_<chunk>.tsv (skipped when that file already covers every id).
 """
 import argparse
 import re
@@ -26,7 +26,7 @@ id<TAB>ok|issue<TAB>note
 
 def run(chunk, verdicts, jp):
     rows = [ln.split("\t") for ln in chunk.read_text(encoding="utf-8").splitlines() if "\t" in ln]
-    out = verdicts / f"{chunk.stem}.tsv"
+    out = verdicts / f"{chunk.parent.name}_{chunk.stem}.tsv"  # every todo round restarts at chunk_000: keep rounds apart
     ids = [r[0] for r in rows]
     if out.exists() and all(re.search(rf"^{re.escape(i)}\t", out.read_text(encoding="utf-8"), re.M) for i in ids):
         return f"{chunk.stem} cached"
