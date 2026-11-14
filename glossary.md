@@ -340,7 +340,12 @@ Reference for the record tables (b066-b084, 2026-11-14); the table English is th
 | 小 / 中 / 大 / 巨大 (tenmon desc) | Weak / Mid / Big / Huge | 26-letter descs; 上位 upper; 雷 thunder, 氷 ice |
 | 討伐 / 収集 / 配達 / 護衛 / その他; 完了報告; あきらめる | Hunt / Collect / Deliver / Escort / Other; Report; Give Up | quest UI |
 | 中断データ; 鍛える; 泊まる | suspend data; Forge; Stay | UI |
-| field-menu labels ステータス 道具 装備 特技 クエスト 隊列 作戦 図鑑 オプション 中断 / 終了 | Status, Items, Equip, Skills, Quests, Lineup, Tactics, Book, Options, Suspend / Quit | graphics G3 (D12); screen headers stay the game's own English (TOOLBOX, FORMATION ...) |
+| field-menu labels ステータス 道具 装備 特技 クエスト 隊列 作戦 図鑑 オプション 中断 / セーブ | Status, Items, Equip, Skills, Quests, Lineup, Tactics, Book, Options, Suspend / Save | graphics G3 (D12); screen headers stay the game's own English (TOOLBOX, FORMATION ...) |
+| title menu はじめから ロード 中断から | New Game, Load, Resume | graphics G2 |
+| 属性 (book) / 昇格値 / 出現場所 | Type / Merit / Habitat | graphics G6/G9 (D14) |
+| quest page 2 依頼者 依頼場所 報酬 期限 | Client, Place, Reward, Deadline | graphics (D14) |
+| tactics grid 攻撃 武器 天撃 回復・防御 | Attack, Weapon, Divine, Heal/Guard | graphics (D14) |
+| ならびかえ (SELECT:) | SORT | graphics G4, caps like the game's SELECT/PAGE |
 | headers 武器購入 防具購入 アイテム購入 売却 鍛える クエスト選択 クエスト報告 | Buy Weapons, Buy Armor, Buy Items, Sell, Forge, Quests, Report | graphics G13 (D13) |
 | tabs 武器 防具 貴重品 その他 道品 アイテム 天撃 才牙 | Weapons, Armor, Valuables, Other, Goods, Items, Divine, Saiga | graphics G4 (48-px tabs; 天撃 = "Divine" as in the picker, D10) |
 | キャンバル, ピルゴア, ブランドゥ, ライリー, レボーク | Cambal, Pilgore, Brandu, Riley, Rebork | unused bosses |

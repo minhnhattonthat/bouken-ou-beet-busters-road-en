@@ -89,13 +89,15 @@ STYLE = dict(fill=(1, 1, 1, 1, 1, 1, 2, 2, 3, 3), edge=4, shadow=7, bg=8)
 
 
 def draw(img, rect, s, font, style=STYLE, x=None, top=2):
-    """Clear rect to bg, draw s with its ink starting at x (default rect x + 1) and cap top `top` rows down, then a
+    """Clear rect to bg, draw s with its ink starting at x (default rect x + 1, "c" = centred) and cap top `top` rows down, then a
     1-px outline (8 neighbours) and a drop shadow down-right of the outline. Raises if the label overflows rect."""
     x0, y0, w, h = rect
     for y in range(y0, y0 + h):
         for xx in range(x0, x0 + w):
             img[y][xx] = style["bg"]
-    cx = x0 + 1 if x is None else x
+    if not s:  # clear only (a label moved elsewhere)
+        return x0
+    cx = x0 + 1 if x is None else x0 + (w - text_width(font, s)) // 2 if x == "c" else x
     ink = {}
     for c in s:
         for gy, row in enumerate(font[c]):
@@ -120,16 +122,46 @@ def block(img, tx, ty):
     return tuple(img[ty * 8 + p // 8][tx * 8 + p % 8] for p in range(64))
 
 
-def relayout(s, before, after, rects):
+def flip(px, hf, vf):
+    return tuple(px[(7 - p // 8 if vf else p // 8) * 8 + (7 - p % 8 if hf else p % 8)] for p in range(64))
+
+
+FLIPS = ((0, 0), (1, 0), (0, 1), (1, 1))
+# Screens the game lays out itself, not by their ROM map (title menu strips: a re-tiled map showed stray tiles in
+# both flip and no-flip relayouts): tiles written in place (Screen.store), map untouched
+INPLACE = {0x34840, 0x34848, 0x34850}
+
+
+def dedupe(s, flips=FLIPS):
+    """Point every map entry of a tile that repeats an earlier one (as is or flipped) at the earlier tile, with the
+    flip bits that draw it the same. The repeats are then unreferenced, so relayout can reuse them."""
+    canon = {}
+    for t, px in enumerate(s.tiles):
+        for hf, vf in flips:
+            canon.setdefault(flip(tuple(px), hf, vf), (t, hf, vf))
+    m = []
+    for e in s.map:
+        t, hf, vf = canon[tuple(s.tiles[e & 1023])]
+        m.append(e & 0xF000 | ((e >> 10 & 1) ^ hf) << 10 | ((e >> 11 & 1) ^ vf) << 11 | t)
+    s.map = tuple(m)
+
+
+def relayout(s, before, after, rects, flips=FLIPS):
     """Re-tile the map cells under rects after drawing: cells whose pixels are unchanged keep their entry; others
-    reuse an identical tile used outside the rects or take a tile freed from inside them (only referenced there).
-    Entries keep their palette; written tiles are unflipped. Same block size, so the redraw stays in place."""
+    reuse an identical tile (or a flip of one, within `flips`) used outside the rects or take a tile freed from
+    inside them (only referenced there) or by dedupe. Entries keep their palette. Same block size, so the redraw
+    stays in place."""
+    dedupe(s, flips)
     cells = sorted({(tx, ty) for x, y, w, h in rects for ty in range(y // 8, (y + h + 7) // 8)
                     for tx in range(x // 8, (x + w + 7) // 8)})
     inside = {s.map[ty * s.w + tx] & 1023 for tx, ty in cells}
     outside = {e & 1023: e for i, e in enumerate(s.map) if (i % s.w, i // s.w) not in cells}
-    pool = sorted(inside - set(outside))
-    known = {tuple(s.tiles[t]): t for t, e in outside.items() if not e & 0xC00}
+    unused = set(range(len(s.tiles))) - {e & 1023 for e in s.map}  # freed by dedupe
+    pool = sorted((inside - set(outside)) | unused)
+    known = {}
+    for t in outside:
+        for hf, vf in flips:
+            known.setdefault(flip(tuple(s.tiles[t]), hf, vf), t | hf << 10 | vf << 11)
     m = list(s.map)
     for tx, ty in cells:
         e, px = m[ty * s.w + tx], block(after, tx, ty)
@@ -140,7 +172,8 @@ def relayout(s, before, after, rects):
                 raise ValueError(f"screen {s.tiles_at:X}: no free tile for cell {tx},{ty}")
             t = pool.pop(0)
             s.tiles[t] = list(px)
-            known[px] = t
+            for hf, vf in flips:
+                known.setdefault(flip(px, hf, vf), t | hf << 10 | vf << 11)
         m[ty * s.w + tx] = (e & 0xF000) | known[px]
     s.map = tuple(m)
 
@@ -154,13 +187,67 @@ def head(width):
     """Tab inside its border lines (y=0, y=14), x from 8 to the tab's rounded end."""
     return (8, 1, width, 13)
 
-# Redraws per screen, keyed by its pointer triple (tiles, map, palette): [(rect, text, style, cap top)].
-# G3 field-menu labels (D12): two copies of the 7x20 menu, the first ends in 中断, the second in 終了; labels
-# left-aligned in rows of 16 px, x=55 and y=159 are the frame border (long labels spill over the border column).
+FILL_D = (1, 1, 1, 1, 1, 1, 2, 2, 2, 2)  # descenders light grey: index 3 merges with the dark outline
+LABEL = dict(HEAD, fill=FILL_D, bg=8)  # plain labels on the screens' cream background (book, status)
+TAB_HAB = dict(HEAD, bg=7)  # 出現場所 tab of the monster book
+QUEST = dict(STYLE, edge=15, shadow=None)  # quest log page 2 labels: outline 15 (the JP drop shadow costs 4 tiles more than are free)
+TACT = dict(LABEL, bg=10)  # tactics grid labels in blue rounded boxes
+TITLE = dict(fill=(8, 8, 8, 8, 8, 7, 7, 6, 6, 6), edge=2, shadow=None, bg=1)  # title menu items (palette bank 14)
+
+
+def widen_box(img, box, nx, nw, bg=8):
+    """Redraw a rounded label box (x, y, w, h without its shadow row and column) at x=nx, nw wide: its 5 left and
+    5 right columns (corners, shadow) as they are, the middle repeated from the clean column at x+3."""
+    x0, y0, w, h = box
+    rows = range(y0, y0 + h + 1)
+    left = [[img[y][x0 + i] for i in range(5)] for y in rows]
+    right = [[img[y][x0 + w - 4 + i] for i in range(5)] for y in rows]
+    mid = [img[y][x0 + 3] for y in rows]
+    for j, y in enumerate(rows):
+        for x in range(x0, x0 + w + 1):
+            img[y][x] = bg
+        for i, v in enumerate(left[j] + [mid[j]] * (nw - 10) + right[j]):
+            img[y][nx + i] = v
+
+
+def tact(box, text, nx=None):
+    """Tactics grid label: widen box to the text (+4 px each side), centred on the old box unless nx is given."""
+    font = load_font()
+    nw = text_width(font, text) + 10
+    nx = box[0] + (box[2] - nw) // 2 if nx is None else nx
+    return (box, nx, nw), ((nx + 3, box[1] + 2, nw - 8, 12), text, TACT, 1, "c")
+
+
+# nx chosen so the widened boxes fit the 43 tiles the old labels free (cell alignment; x=96 is a divider)
+TACTICS = [tact((169, 17, 30, 14), "Attack", 160), tact((101, 49, 30, 14), "Weapon", 104),
+           tact((205, 129, 30, 14), "Divine", 198), tact((125, 145, 54, 14), "Heal/Guard", 120)]
+# Rounded boxes widened before the labels are drawn: {table: [(box, new x, new w)]}
+BOXES = {0x36C98: [b for b, _ in TACTICS]}
+
+# Redraws per screen, keyed by its pointer triple (tiles, map, palette): [(rect, text, style, cap top[, x])].
+# G3 field-menu labels (D12): two copies of the 7x20 menu, the first ends in 中断, the second (save points) in
+# セーブ; labels left-aligned in rows of 16 px, x=55 and y=159 are the frame border (long labels spill over the
+# border column).
+QX = 9  # quest page-2 label ink x: the 33 freed tiles hold all four labels from here (32), not from x=10-16
 G3_LABELS = ["Status", "Items", "Equip", "Skills", "Quests", "Lineup", "Tactics", "Book", "Options"]
 REDRAWS = {
     0x3AA14: [((16, i * 16, 39, 15 if i == 9 else 16), t, STYLE, 2) for i, t in enumerate(G3_LABELS + ["Suspend"])],
-    0x3AA9C: [((16, i * 16, 39, 15 if i == 9 else 16), t, STYLE, 2) for i, t in enumerate(G3_LABELS + ["Quit"])],
+    0x3AA9C: [((16, i * 16, 39, 15 if i == 9 else 16), t, STYLE, 2) for i, t in enumerate(G3_LABELS + ["Save"])],
+    # G2 title menu: はじめから / ロード, 64x16 strips (OBJ-like, palette bank 14)
+    0x34840: [((0, 0, 64, 16), "New Game", TITLE, 4, "c")],
+    0x34848: [((0, 0, 64, 16), "Load", TITLE, 4, "c")],
+    0x34850: [((0, 0, 64, 16), "Resume", TITLE, 4, "c")],  # 中断から (shown with a suspend save); no palette word
+    # G9 monster book: 属性 moves left of its value (x=152, widened by build.CODE) into x=129-150; Vandel book
+    0x4D838: [((152, 18, 24, 13), "", LABEL, 0), ((126, 17, 26, 14), "Type", LABEL, 3, 128),
+              ((88, 114, 40, 14), "Merit", LABEL, 3, 95), ((11, 130, 46, 13), "Habitat", TAB_HAB, 2, "c")],
+    0x4D504: [((88, 114, 40, 14), "Merit", LABEL, 3, 95)],
+    # G6 status 昇格値 (glossary: Merit; its 4 freed cells hold 30 px, D14)
+    0x3C26C: [((72, 58, 32, 14), "Merit", LABEL, 3, 74)],
+    # quest log page 2: 依頼者 依頼場所 報酬 期限 (values from x=72)
+    0x38454: [((8, 48 + 16 * k, 62, 16), t, QUEST, 4, QX) for k, t in ((0, "Client"), (1, "Place"), (2, "Reward"),
+                                                                        (4, "Deadline"))],
+    # tactics grid: 攻撃 武器 天撃 回復・防御 in widened boxes
+    0x36C98: [label for _, label in TACTICS],
     # G13 screen headers
     0x45324: [(head(46), "Sell", HEAD, 1)],
     0x45B88: [(head(62), "Buy Weapons", HEAD, 1)],
@@ -183,6 +270,61 @@ RAW = [(0x30A720 + k * 0x180, 6, 2, t, s) for k, (t, s) in enumerate([
     ("Divine", TAB_FLAT), ("Saiga", TAB_FLAT)])]
 
 
+# Quest-type icons (quest board, quest log title row): 16x16 raw, tiles TL TR BL BR, at 0x0830D1E0 + k * 0x80:
+# 討伐 配達 護衛 収集 その他, then the same five with an "End" badge (done quests). The English type word follows the
+# icon, so the kanji become pictograms (11x11 interior at 3,3; ink index 1 on the box colour 4; badge pixels kept).
+ICONS_AT = 0x30D1E0
+PICTOS = {
+    "hunt": """.........#. ........### .......###. ......###.. .#...###... ..#.###.... ...###..... ...##......
+               ..#.##..... .#....#.... #..........""",
+    "deliver": """........... ........... ########### ##.......## #.#.....#.# #..#...#..# #...#.#...# #....#....#
+                  #.........# ########### ...........""",
+    "escort": """........... .#########. .#.......#. .#...#...#. .#..###..#. .#...#...#. .#.......#. ..#.....#..
+                 ...#...#... ....#.#.... .....#.....""",
+    "gather": """....###.... .....#..... ....###.... ...#...#... ..#.....#.. .#.......#. .#..###..#. .#.......#.
+                 .#.......#. ..#######.. ...........""",
+    "other": """...#####... ..##...##.. ..##...##.. .......##.. ......##... .....##.... .....##.... ...........
+                .....##.... .....##.... ...........""",
+}
+ICONS = ["hunt", "deliver", "escort", "gather", "other"] * 2
+
+
+def icon(rom, k, name):
+    tiles = tiles_get(rom, ICONS_AT + k * 128, 4)
+    rows = PICTOS[name].split()
+    assert len(rows) == 11 and all(len(r) == 11 for r in rows), name
+    for y in range(11):
+        for x in range(11):
+            q, p = (y + 3) // 8 * 2 + (x + 3) // 8, (y + 3) % 8 * 8 + (x + 3) % 8
+            if tiles[q][p] in (1, 2, 3, 4):  # glyph or box colour; badge colours (5-7) stay
+                tiles[q][p] = 1 if rows[y][x] == "#" else 4
+    return tiles_put(tiles)
+
+
+# G4 ならびかえ badge after "SELECT:" (toolbox, sell lists): raw tiles 0x0830EEA0-0x0830EF3F (40x8, BG2) = kana
+# outlined in 4 over a pink bar (rows 3-7, its rounded ends at x 0-2 and 36-39 kept). 5-row caps like SELECT/PAGE.
+SORT_AT = 0x30EEA0
+CAPS5 = {"S": ".#### #.... .###. ....# ####.", "O": ".###. #...# #...# #...# .###.",
+         "R": "####. #...# ####. #..#. #...#", "T": "##### ..#.. ..#.. ..#.. ..#.."}
+
+
+def sort_badge(rom, text="SORT"):
+    tiles = tiles_get(rom, SORT_AT, 5)
+    img = [[tiles[x // 8][y * 8 + x % 8] for x in range(40)] for y in range(8)]
+    bar = [img[y][1] for y in range(8)]  # bar colour per row (0 above it)
+    for y in range(8):
+        for x in range(3, 37):
+            img[y][x] = bar[y]
+    font = {c: CAPS5[c].split() for c in text}
+    tmp = [[None] * 40 for _ in range(8)]
+    draw(tmp, (3, 0, 33, 8), text, font, dict(fill=(1, 1, 1, 1, 1), edge=4, shadow=None, bg=None), x="c", top=2)
+    for y in range(8):
+        for x in range(40):
+            if tmp[y][x] is not None:
+                img[y][x] = tmp[y][x]
+    return tiles_put([list(block(img, tx, 0)) for tx in range(5)])
+
+
 def raw_strip(rom, off, cols, rows, text, style, font):
     tiles = tiles_get(rom, off, cols * rows)
     img = [[tiles[(y // 8) * cols + x // 8][(y % 8) * 8 + x % 8] for x in range(cols * 8)] for y in range(rows * 8)]
@@ -201,9 +343,21 @@ def redraw(rom, table, font):
     s = Screen(rom, t, m)
     before = s.image()
     after = [row[:] for row in before]
-    for rect, text, style, top in REDRAWS[table]:
-        draw(after, rect, text, font, style, top=top)
-    relayout(s, before, after, [r for r, *_ in REDRAWS[table]])
+    rects = [r for r, *_ in REDRAWS[table]]
+    for (bx, by, bw, bh), nx, nw in BOXES.get(table, ()):
+        widen_box(after, (bx, by, bw, bh), nx, nw)
+        rects.append((min(bx, nx), by, max(bx + bw + 1, nx + nw) - min(bx, nx), bh + 1))
+    for rect, text, style, top, *x in REDRAWS[table]:
+        draw(after, rect, text, font, style, x=x[0] if x else None, top=top)
+    if table in INPLACE:
+        shared = {e & 1023 for e in s.map if sum((q & 1023) == (e & 1023) for q in s.map) > 1}
+        for r in rects:
+            s.store(after, r, skip=shared)
+        for i, e in enumerate(s.map):  # shared tiles (blanks) are not rewritten: the drawing must leave them as is
+            assert e & 1023 not in shared or block(after, i % s.w, i // s.w) == block(before, i % s.w, i // s.w), \
+                (hex(table), i)
+    else:
+        relayout(s, before, after, rects)
     return s
 
 
@@ -215,6 +369,9 @@ def patches(rom):
         out.append((s.map_at + 4, struct.pack(f"<{len(s.map)}H", *s.map), f"gfx map {table:X}"))
     for off, cols, rows, text, style in RAW:
         out.append((off, raw_strip(rom, off, cols, rows, text, style, font), f"gfx raw {off:X} {text}"))
+    for k, name in enumerate(ICONS):
+        out.append((ICONS_AT + k * 128, icon(rom, k, name), f"gfx quest icon {k} {name}"))
+    out.append((SORT_AT, sort_badge(rom), "gfx SORT badge"))
     return out
 
 
@@ -228,6 +385,8 @@ def regions():
         w, h = struct.unpack_from("<HH", rom, m)
         out += [(t + 4, t + 4 + n, f"gfx tiles {table:X}"), (m + 4, m + 4 + 2 * w * h, f"gfx map {table:X}")]
     out += [(off, off + cols * rows * 32, f"gfx raw {text}") for off, cols, rows, text, _ in RAW]
+    out.append((ICONS_AT, ICONS_AT + len(ICONS) * 128, "gfx quest-type icons"))
+    out.append((SORT_AT, SORT_AT + 5 * 32, "gfx SORT badge"))
     return out
 
 
@@ -282,7 +441,8 @@ def main(argv):
     for table in REDRAWS:
         t, m, p = triple(rom, table)
         for tag, buf in (("jp", rom), ("en", bytes(new))):
-            save_png(Screen(buf, t, m).image(), out / f"{table:06X}_{tag}.png", palette(rom, p), zoom=2)
+            pal = palette(rom, p) if 0 <= p < len(rom) else None  # 34850 has no palette word
+            save_png(Screen(buf, t, m).image(), out / f"{table:06X}_{tag}.png", pal, zoom=2)
     print(out)
 
 

@@ -10,6 +10,7 @@
 # --- boot (no warp) ---
 copyright        -    -          -       480_-
 title            -    -          -       700_-
+title_menu       -    -          -       760_-;6_start;150_-
 prologue         -    -          -       600_-;6_start;1600_-
 opening          -    -          -       600_-;6_start;150_-;6_start;400_-
 
@@ -30,6 +31,7 @@ menu_suspend     16   1a,d,80    -       30_-;6_start;60_-;6_up;12_-;6_a;80_-
 shop_weapon      264  t2b3,40    176CD0  40_-;6_a;60_-;6_a;60_-
 shop_armor       267  t323,40    176CE1  40_-;6_a;60_-;6_a;60_-
 shop_items       265  t2b3,40    17714E  40_-;6_a;60_-;6_a;60_-;6_a;60_-
+shop_sell        264  t2b3,40    176CD0  40_-;6_a;60_-;6_down;12_-;6_a;80_-  GIVE=3001-3028,4001-4011,1010-1019,2001-2010
 inn              298  t17c,40    17DA83  40_-;6_a;60_-
 inn_stay         298  t17c,40    17DA83  40_-;6_a;60_-;6_a;300_-;6_a;60_-
 ticket_shop      55   t156,40    17B8AA  40_-;6_a;40_-
