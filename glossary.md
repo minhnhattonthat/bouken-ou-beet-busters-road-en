@@ -341,6 +341,7 @@ Reference for the record tables (b066-b084, 2026-11-14); the table English is th
 | 討伐 / 収集 / 配達 / 護衛 / その他; 完了報告; あきらめる | Hunt / Collect / Deliver / Escort / Other; Report; Give Up | quest UI |
 | 中断データ; 鍛える; 泊まる | suspend data; Forge; Stay | UI |
 | field-menu labels ステータス 道具 装備 特技 クエスト 隊列 作戦 図鑑 オプション 中断 / 終了 | Status, Items, Equip, Skills, Quests, Lineup, Tactics, Book, Options, Suspend / Quit | graphics G3 (D12); screen headers stay the game's own English (TOOLBOX, FORMATION ...) |
+| headers 武器購入 防具購入 アイテム購入 売却 鍛える クエスト選択 クエスト報告 | Buy Weapons, Buy Armor, Buy Items, Sell, Forge, Quests, Report | graphics G13 (D13) |
 | キャンバル, ピルゴア, ブランドゥ, ライリー, レボーク | Cambal, Pilgore, Brandu, Riley, Rebork | unused bosses |
 
 ## Decisions from earlier batches

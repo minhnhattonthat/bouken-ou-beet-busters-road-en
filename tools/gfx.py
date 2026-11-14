@@ -34,7 +34,7 @@ class Screen:
     tile ids relative to the block)."""
 
     def __init__(self, rom, tiles_at, map_at):
-        self.tiles_at = tiles_at
+        self.tiles_at, self.map_at = tiles_at, map_at
         n = struct.unpack_from("<I", rom, tiles_at)[0] // 2 // 32
         self.tiles = tiles_get(rom, tiles_at + 4, n)
         self.w, self.h = struct.unpack_from("<HH", rom, map_at)
@@ -104,7 +104,7 @@ def draw(img, rect, s, font, style=STYLE, x=None, top=2):
                     ink[(cx + gx, y0 + top + gy)] = style["fill"][gy]
         cx += len(font[c][0]) + 1
     edge = {(px + dx, py + dy) for px, py in ink for dx in (-1, 0, 1) for dy in (-1, 0, 1)} - set(ink)
-    shadow = {(px + 1, py + 1) for px, py in edge | set(ink)} - edge - set(ink)
+    shadow = {(px + 1, py + 1) for px, py in edge | set(ink)} - edge - set(ink) if style["shadow"] else set()
     for pts, val in ((shadow, style["shadow"]), (edge, style["edge"])):
         for px, py in pts:
             if not (x0 <= px < x0 + w and y0 <= py < y0 + h):
@@ -112,66 +112,101 @@ def draw(img, rect, s, font, style=STYLE, x=None, top=2):
             img[py][px] = val
     for (px, py), v in ink.items():
         img[py][px] = v
-    return max(px for px, _ in shadow) + 1  # right end (exclusive)
+    return max(px for px, _ in shadow | edge) + 1  # right end (exclusive)
 
 
-# G3 field-menu labels: two copies of the screen (tiles, map) from the tables at 0x3AA14 / 0x3AA9C; the first
-# ends in 中断, the second in 終了. 7x20 tile map, labels at cols 2-5 (2-6 for ステータス / オプション), 2 rows each;
-# col 6 is the hflipped frame tile 07 (right border at x=55), tile 08 is blank. English labels are left-aligned
-# and take cols 2..k; tiles freed by short labels go to long ones that spill into col 6 (border kept).
-G3_SCREENS = [(0xDE216C, 0xDE2C70, "Suspend"), (0xDE14E8, 0xDE1FEC, "Quit")]
-G3_LABELS = ["Status", "Items", "Equip", "Skills", "Quests", "Lineup", "Tactics", "Book", "Options"]
-G3_BLANK, G3_FRAME = 0x08, 0x07
+def block(img, tx, ty):
+    return tuple(img[ty * 8 + p // 8][tx * 8 + p % 8] for p in range(64))
 
 
-def g3_screen(rom, tiles_at, map_at, last, font):
-    s = Screen(rom, tiles_at, map_at)
-    assert set(s.tiles[G3_BLANK]) == {8} and s.map[2 * 7 + 6] == 0x1400 | G3_FRAME
-    img = s.image()
+def relayout(s, before, after, rects):
+    """Re-tile the map cells under rects after drawing: cells whose pixels are unchanged keep their entry; others
+    reuse an identical tile used outside the rects or take a tile freed from inside them (only referenced there).
+    Entries keep their palette; written tiles are unflipped. Same block size, so the redraw stays in place."""
+    cells = sorted({(tx, ty) for x, y, w, h in rects for ty in range(y // 8, (y + h + 7) // 8)
+                    for tx in range(x // 8, (x + w + 7) // 8)})
+    inside = {s.map[ty * s.w + tx] & 1023 for tx, ty in cells}
+    outside = {e & 1023: e for i, e in enumerate(s.map) if (i % s.w, i // s.w) not in cells}
+    pool = sorted(inside - set(outside))
+    known = {tuple(s.tiles[t]): t for t, e in outside.items() if not e & 0xC00}
     m = list(s.map)
-    ends = []
-    for i, label in enumerate(G3_LABELS + [last]):
-        rect = (16, i * 16, 39, 15 if i == 9 else 16)  # x=55 and y=159 are the frame border
-        ends.append(draw(img, rect, label, font))
-    pool = []  # label tiles no longer needed
-    for i, end in enumerate(ends):
-        for r in (2 * i, 2 * i + 1):
-            for col in range(2, 7):
-                e = m[r * 7 + col]
-                is_label = e & 0xC00 == 0 and (e & 1023) not in (G3_BLANK, G3_FRAME)
-                if col * 8 >= end and is_label and r != 19:  # row 19 tiles carry the bottom border
-                    pool.append(e & 1023)
-                    m[r * 7 + col] = (e & 0xF000) | (0x400 | G3_FRAME if col == 6 else G3_BLANK)
-    for i, end in enumerate(ends):
-        for r in (2 * i, 2 * i + 1):
-            for col in range(2, 7):
-                e = m[r * 7 + col]
-                if col * 8 < end and (e & 0xC00 or (e & 1023) in (G3_BLANK, G3_FRAME)):
-                    if not pool:
-                        raise ValueError(f"G3 {last}: no free tile for row {r} col {col}")
-                    m[r * 7 + col] = (e & 0xF000) | pool.pop()
+    for tx, ty in cells:
+        e, px = m[ty * s.w + tx], block(after, tx, ty)
+        if px == block(before, tx, ty) and (e & 1023) not in pool:
+            continue
+        if px not in known:
+            if not pool:
+                raise ValueError(f"screen {s.tiles_at:X}: no free tile for cell {tx},{ty}")
+            t = pool.pop(0)
+            s.tiles[t] = list(px)
+            known[px] = t
+        m[ty * s.w + tx] = (e & 0xF000) | known[px]
     s.map = tuple(m)
-    for i in range(10):
-        s.store(img, (16, i * 16, 40, 16), skip=(G3_BLANK, G3_FRAME))
+
+
+# Header tabs of the UI bank screens (white on the dark tab, no shadow)
+HEAD = dict(fill=(1, 1, 1, 1, 1, 1, 2, 2, 3, 3), edge=4, shadow=None, bg=5)
+HEAD_Q = dict(HEAD, edge=15)  # quest screens: index 4 is unused there, the outline is 15 (same dark grey)
+
+
+def head(width):
+    """Tab inside its border lines (y=0, y=14), x from 8 to the tab's rounded end."""
+    return (8, 1, width, 13)
+
+# Redraws per screen, keyed by its pointer triple (tiles, map, palette): [(rect, text, style, cap top)].
+# G3 field-menu labels (D12): two copies of the 7x20 menu, the first ends in 中断, the second in 終了; labels
+# left-aligned in rows of 16 px, x=55 and y=159 are the frame border (long labels spill over the border column).
+G3_LABELS = ["Status", "Items", "Equip", "Skills", "Quests", "Lineup", "Tactics", "Book", "Options"]
+REDRAWS = {
+    0x3AA14: [((16, i * 16, 39, 15 if i == 9 else 16), t, STYLE, 2) for i, t in enumerate(G3_LABELS + ["Suspend"])],
+    0x3AA9C: [((16, i * 16, 39, 15 if i == 9 else 16), t, STYLE, 2) for i, t in enumerate(G3_LABELS + ["Quit"])],
+    # G13 screen headers
+    0x45324: [(head(46), "Sell", HEAD, 1)],
+    0x45B88: [(head(62), "Buy Weapons", HEAD, 1)],
+    0x45D60: [(head(62), "Buy Armor", HEAD, 1)],
+    0x45EBC: [(head(62), "Buy Items", HEAD, 1)],
+    0x4B3EC: [(head(46), "Forge", HEAD, 1)],
+    0x4B608: [(head(46), "Forge", HEAD, 1)],
+    # quest board headers: 6 free tiles in the tab's top row = 48 px of text (D13: drop the implied word)
+    0x37AA8: [(head(70), "Quests", HEAD_Q, 1)],
+    0x37B5C: [(head(70), "Report", HEAD_Q, 1)],
+}
+
+
+def triple(rom, table):
+    return tuple(struct.unpack_from("<I", rom, table + 4 * k)[0] - 0x08000000 for k in range(3))
+
+
+def redraw(rom, table, font):
+    t, m, _ = triple(rom, table)
+    s = Screen(rom, t, m)
+    before = s.image()
+    after = [row[:] for row in before]
+    for rect, text, style, top in REDRAWS[table]:
+        draw(after, rect, text, font, style, top=top)
+    relayout(s, before, after, [r for r, *_ in REDRAWS[table]])
     return s
 
 
-def g3(rom, font):
-    out = []
-    for tiles_at, map_at, last in G3_SCREENS:
-        s = g3_screen(rom, tiles_at, map_at, last, font)
-        out.append((tiles_at + 4, s.data(), f"gfx G3 field-menu label tiles @{tiles_at:X}"))
-        out.append((map_at + 4, struct.pack(f"<{len(s.map)}H", *s.map), f"gfx G3 field-menu label map @{map_at:X}"))
+def patches(rom):
+    font, out = load_font(), []
+    for table in REDRAWS:
+        s = redraw(rom, table, font)
+        out.append((s.tiles_at + 4, s.data(), f"gfx tiles {table:X}"))
+        out.append((s.map_at + 4, struct.pack(f"<{len(s.map)}H", *s.map), f"gfx map {table:X}"))
     return out
 
 
-def patches(rom):
-    return g3(rom, load_font())
-
-
 def regions():
-    """Where patches() may write, for build.REGIONS: each screen's tile block and its map."""
-    return [(t, m + 4 + 2 * 7 * 20, f"gfx G3 field-menu labels (tiles {t:X}, map {m:X})") for t, m, _ in G3_SCREENS]
+    """Where patches() may write, for build.REGIONS: each redrawn screen's tile block and map."""
+    rom = (ROOT / "rom" / "Bouken-Ou Beet - Busters Road (Japan).gba").read_bytes()
+    out = []
+    for table in REDRAWS:
+        t, m, _ = triple(rom, table)
+        n = struct.unpack_from("<I", rom, t)[0] // 2
+        w, h = struct.unpack_from("<HH", rom, m)
+        out += [(t + 4, t + 4 + n, f"gfx tiles {table:X}"), (m + 4, m + 4 + 2 * w * h, f"gfx map {table:X}")]
+    return out
 
 
 def save_png(img, path, pal=None, zoom=3):
@@ -196,23 +231,36 @@ def palette(rom, at):
     return out
 
 
+def screen_dump(rom, table, out, rect=None):
+    """Render the screen named by a pointer triple (tiles, map, palette) at `table`; print map entries in rect."""
+    t, m, p = (struct.unpack_from("<I", rom, table + 4 * k)[0] - 0x08000000 for k in range(3))
+    s = Screen(rom, t, m)
+    save_png(s.image(), out, palette(rom, p))
+    print(f"tiles {t:X} ({len(s.tiles)}), map {m:X} {s.w}x{s.h}, palette {p:X} -> {out}")
+    if rect:
+        x0, y0, w, h = rect
+        for ty in range(y0 // 8, (y0 + h + 7) // 8):
+            row = s.map[ty * s.w + x0 // 8: ty * s.w + (x0 + w + 7) // 8]
+            print(ty, " ".join(f"{e:04X}{'*' if sum((q & 1023) == (e & 1023) for q in s.map) > 1 else ' '}"
+                               for e in row))
+
+
 def main(argv):
-    if len(argv) < 2 or argv[0] != "show":
-        raise SystemExit(__doc__)
     import build
     rom = build.ROM.read_bytes()
+    if argv and argv[0] == "screen":  # gfx.py screen TABLE_HEX OUT.png [x,y,w,h]
+        return screen_dump(rom, int(argv[1], 16), argv[2], tuple(map(int, argv[3].split(","))) if argv[3:] else None)
+    if len(argv) < 2 or argv[0] != "show":
+        raise SystemExit(__doc__)
     out = Path(argv[1])
     out.mkdir(parents=True, exist_ok=True)
-    font = load_font()
-    pal = palette(rom, 0xDE2108)  # block palette 0 = BG palette 1 (labels)
-    for k, (tiles_at, map_at, _) in enumerate(G3_SCREENS):
-        s = Screen(rom, tiles_at, map_at)
-        save_png(s.image(), out / f"g3_{k}_jp.png", pal)
     new = bytearray(rom)
     for off, data, _ in patches(rom):
         new[off:off + len(data)] = data
-    for k, (tiles_at, map_at, _) in enumerate(G3_SCREENS):
-        save_png(Screen(bytes(new), tiles_at, map_at).image(), out / f"g3_{k}_en.png", pal)
+    for table in REDRAWS:
+        t, m, p = triple(rom, table)
+        for tag, buf in (("jp", rom), ("en", bytes(new))):
+            save_png(Screen(buf, t, m).image(), out / f"{table:06X}_{tag}.png", palette(rom, p), zoom=2)
     print(out)
 
 
