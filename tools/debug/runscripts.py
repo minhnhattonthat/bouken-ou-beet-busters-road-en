@@ -27,9 +27,22 @@ def main():
     ap.add_argument("--state", default=str(ROOT / "work" / "states" / "area00_ankurusu_village.mss"))
     ap.add_argument("--only", type=int, help="first N scripts only (timing test)")
     ap.add_argument("--skip", help="dir of an earlier run: leave out scripts with a RUN line in its */log.txt (resume)")
+    ap.add_argument("--list", help="file of hex script addresses to run instead of every evdis.walk script")
+    ap.add_argument("--timeout", type=int, default=1500, help="frames per script before giving up (Lua TIMEOUT)")
+    ap.add_argument("--stall", type=int, help="step over an event op that holds the PC this many frames (Lua STALL)")
+    ap.add_argument("--own-map", action="store_true",
+                    help="warp to each script's own map first (evdis.script_maps + an entry position), when known")
     a = ap.parse_args()
     d = Path(a.rom).read_bytes()
-    scripts = sorted(evdis.walk(d))[:a.only]
+    if a.list:
+        scripts = sorted({int(s.split()[0], 16) for s in Path(a.list).read_text().splitlines() if s.strip()})[:a.only]
+    else:
+        scripts = sorted(evdis.walk(d))[:a.only]
+    where = {}
+    if a.own_map:
+        ent = evdis.entries(d)
+        where = {s: f" {m} {ent[m][0]}" for s, m in evdis.script_maps(d).items() if m in ent}
+        print(f"{sum(s in where for s in scripts)}/{len(scripts)} scripts get their own map")
     if a.skip:
         done = {int(ln.split()[1], 16) for log in Path(a.skip).glob("*/log.txt")
                 for ln in log.read_text(errors="replace").splitlines() if ln.startswith("RUN ")}
@@ -41,9 +54,10 @@ def main():
         part = scripts[j::a.jobs]
         jd = out / f"job{j}"
         jd.mkdir(parents=True, exist_ok=True)
-        (jd / "list.txt").write_text("".join(f"{s:X}\n" for s in part))
+        (jd / "list.txt").write_text("".join(f"{s:X}{where.get(s, '')}\n" for s in part))
         cmd = [sys.executable, "-X", "utf8", str(Path(SKILL) / "scripts" / "emu.py"), a.rom, "--out", str(jd),
-               "--state-in", a.state, "--frames", str(len(part) * 1600 + 600), "--timeout", "36000",
+               "--state-in", a.state, "--frames", str(len(part) * (a.timeout + 100) + 600), "--timeout", "86400",
+               "--var", f"TIMEOUT={a.timeout}", *(["--var", f"STALL={a.stall}"] if a.stall else []),
                "--script", str(ROOT / "tools" / "debug" / "runscripts.lua"),
                "--script", str(Path(SKILL) / "scripts" / "lua" / "probes" / "textcover.lua"),
                "--var", f"LIST='{(jd / 'list.txt').as_posix()}'", "--var", f"RANGES='{RANGES}'"]

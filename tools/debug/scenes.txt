@@ -23,9 +23,12 @@ menu_skills      16   1a,d,80    -       30_-;6_start;60_-;6_down;12_-;6_down;12
 menu_quests      16   1a,d,80    -       30_-;6_start;60_-;6_down;12_-;6_down;12_-;6_down;12_-;6_down;12_-;6_a;80_-;6_a;80_-
 menu_formation   16   1a,d,80    -       30_-;6_start;60_-;6_up;12_-;6_up;12_-;6_up;12_-;6_up;12_-;6_up;12_-;6_a;80_-;6_a;80_-
 menu_tactics     16   1a,d,80    -       30_-;6_start;60_-;6_up;12_-;6_up;12_-;6_up;12_-;6_up;12_-;6_a;80_-;6_a;80_-
+menu_tactics2    16   1a,d,80    -       30_-;6_b;90_-;6_start;60_-;6_up;12_-;6_up;12_-;6_up;12_-;6_up;12_-;6_a;80_-;6_right;20_-;6_a;80_-   OPS=410100
 menu_book        16   1a,d,80    -       30_-;6_start;60_-;6_up;12_-;6_up;12_-;6_up;12_-;6_a;80_-;6_a;80_-
 menu_options     16   1a,d,80    -       30_-;6_start;60_-;6_up;12_-;6_up;12_-;6_a;80_-;6_a;80_-
 menu_suspend     16   1a,d,80    -       30_-;6_start;60_-;6_up;12_-;6_a;80_-
+# with --script tools/lua/savemenu.lua (the world-map copy of the menu, last item Save):
+menu_save        16   1a,d,80    -       30_-;6_start;60_-;6_up;12_-;6_a;100_-;6_a;150_-;6_a;150_-;6_a;150_-
 
 # --- towns: shops, inn, appraisal house (the Buster association's quest board, training, shop) ---
 shop_weapon      264  t2b3,40    176CD0  40_-;6_a;60_-;6_a;60_-

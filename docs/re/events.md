@@ -60,6 +60,8 @@ graphics pointers, word 19 = trigger list {count, entry ptrs}; entry = {u32 type
 | `5E 61 60` | 1 | appraisal house: quests / training / shop | guess |
 | `22 / 2E / 17 ptr` | | data pointers (item get, movement): not text | guess |
 | `33 / 30 flag ..` + `ad` | 5 | flag tests | guess |
+| `41 id16` | 3 | add party member (chars index; recruit 0x176D2E; opens Formation when it runs in a warp grant: B leaves it) | verified (scene `menu_tactics2`, `OPS=410100` = Poala) |
+| `25 actor16` | 3 | waits on an actor (hangs when the actor was never placed; runscripts `--stall` steps over it) | guess (1C418C) |
 
 ## Scenes and story
 - No chapters: the story moves area to area; the scene list has one scene per area plus the special screens.
@@ -78,8 +80,8 @@ script> / FF` to spare EWRAM `0x0203FE00` and sets `GS+0x1E18` to it and mode 2,
 State grants (scenes.txt 6th column or `--var`): `GIVE=3001-3028,4001` (opcode 03 per id, in a script at
 `0x0203F000`; EWRAM `0x0203C000-0x0203FE00` stays zero in every dump), `MONEY=n` (opcode 04), `POKE=off=hexbytes[*n],..`
 (save-object bytes at warp time), `GOD=1` / `KILL=1` (battle HP). Scenes: `toolbox_*`, `book_full`, `retina_99`
-(Beet to level 99), `skills_slot`, `skills_saiga`, `skills_tengeki`, `skills_notice`, `battle_win`. Not yet: party
-members beyond Beet. `OPS=<hex>` appends raw opcodes to the grant script (`OPS=@1ABE4D+9` copies 9 bytes from the
+(Beet to level 99), `skills_slot`, `skills_saiga`, `skills_tengeki`, `skills_notice`, `battle_win`. Party members: `OPS=41<id16>`
+(scene `menu_tactics2` adds Poala and opens her tactics grid). `OPS=<hex>` appends raw opcodes to the grant script (`OPS=@1ABE4D+9` copies 9 bytes from the
 running ROM, so pointers fit any build: scene `quest_log`); `FIELDMODE=7` ends the field loop once the scene is up.
 `warpall.py --scenes FILE` runs an ad-hoc scene list (e.g. `b<group>` per event battle group: `work/re/probe/bosses.txt`).
 - **Top-level states** (SO+4, switch at `0x080001D0`, table `0x08000208`): 4/9 = field (`0x08024DF8`, returns 3 when

@@ -117,6 +117,32 @@ def walk(d, external=True):
     return seen
 
 
+def script_maps(d, w=None):
+    """{script: map} for every walked script a map trigger reaches (breadth-first from all maps' triggers at once,
+    so the map with the shortest call chain wins). walk() keeps only the first source it saw, which is useless here."""
+    w = w if w is not None else walk(d)
+    lo, hi = 0x08000000 + EV_LO, 0x08000000 + EV_HI
+    edges = {}
+    for a in w:
+        ins = decode(d, a)
+        t = [struct.unpack_from("<I", d, ia + k)[0] & 0x1FFFFFF for ia, i in ins if i is not None
+             for k in SCRIPT_ARGS.get(i[0], ()) if lo <= struct.unpack_from("<I", d, ia + k)[0] < hi]
+        if ins[-1][0] + 1 in w:
+            t.append(ins[-1][0] + 1)
+        edges[a] = t
+    label, todo = {}, []
+    for a, src in seeds(d):
+        if a not in label:
+            label[a] = int(src.split()[0][3:])
+            todo.append(a)
+    for a in todo:  # todo grows while iterating: breadth-first
+        for b in edges.get(a, ()):
+            if b not in label:
+                label[b] = label[a]
+                todo.append(b)
+    return label
+
+
 def chained(d, a):
     ins = decode(d, a, 400)
     if len(ins) < 2 or ins[-1][1] is None or ins[-1][1][0] != END:
