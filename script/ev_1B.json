@@ -3991,7 +3991,7 @@
   "addr": "1B4804",
   "kind": "msg",
   "jp": "・・・ビィト・・・[BR]ワタシの父さんはね、[BR]この黒い沼（ぬま）のせいで[PAGE]・・・その沼（ぬま）にすむ[BR]泥トカゲ（どろとかげ）のせいで、[BR]うでをやられてしまったのよ[WAIT]",
-  "en": "…Beet… My dad, you know…[BR]because of these black swamps…[PAGE]…because of the Mud Lizards that[BR]live in them, he got his arm hurt.[WAIT]",
+  "en": "…Beet… My dad, you know…[BR]because of these black swamps…[PAGE]…a Mud Lizard living in[BR]them crippled his arm.[WAIT]",
   "bytes": 162,
   "sites": [
    "1B3A1C:op7A+2"
@@ -6607,7 +6607,7 @@
   "addr": "1B7C6E",
   "kind": "msg",
   "jp": "・・・っ！！[WAIT]",
-  "en": "…Hmph!![WAIT]",
+  "en": "…Eek!![WAIT]",
   "bytes": 16,
   "sites": [
    "1B76AD:op7A+2"

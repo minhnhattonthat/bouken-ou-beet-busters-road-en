@@ -10491,7 +10491,7 @@
   "addr": "1A9010",
   "kind": "msg",
   "jp": "「よくぞたおしてくれた」・・・[BR]そんな気にもなる[WAIT]",
-  "en": "\"Well done, defeating me\"… I even[BR]find myself feeling that way.[WAIT]",
+  "en": "\"I'm glad you defeated me\"… I even[BR]find myself feeling that way.[WAIT]",
   "bytes": 52,
   "sites": [
    "1A7F86:op7A+2",
@@ -12719,7 +12719,7 @@
   "addr": "1A9B3C",
   "kind": "msg",
   "jp": "いいじゃない！[BR]・・・２０年いじょうも[BR]なかった事なのよ！[WAIT]",
-  "en": "So what! …That's something that hasn't[BR]happened in over 20 years, you know![WAIT]",
+  "en": "That's still something! …We haven't[BR]had even that in over 20 years![WAIT]",
   "bytes": 62,
   "sites": [
    "1A872A:op7A+2",
@@ -14897,7 +14897,7 @@
   "addr": "1ABE1E",
   "kind": "msg",
   "jp": "・・・ええっ！[WAIT]",
-  "en": "…Right![WAIT]",
+  "en": "…Whaaat?![WAIT]",
   "bytes": 18,
   "sites": [
    "1AAB34:op7A+2"

@@ -4797,7 +4797,7 @@
   "addr": "203FF0",
   "kind": "msg",
   "jp": "・・・・・・[PAGE]（・・・ビィト・・・、[BR]ぼくといた頃はランスしか[BR]使えなかったのにっ・・・！！[PAGE]なんて・・・[BR]なんて大きなちがいなんだ・・・[BR]ぼくたちの２年間は・・・っ！！）[WAIT]",
-  "en": "……[PAGE](…Beet… back when he was with me,[BR]all he could use was the lance…!![PAGE]What… what a huge difference[BR]there's been… in our two years…!!)[WAIT]",
+  "en": "……[PAGE](…Beet… When we traveled together,[BR]he could only use the lance…!![PAGE]We both had two years… How did[BR]we end up so far apart…?!)[WAIT]",
   "bytes": 176,
   "sites": [
    "20242C:op7A+2",
@@ -17058,7 +17058,7 @@
   "addr": "20A9D4",
   "kind": "msg",
   "jp": "そうね・・・[WAIT]",
-  "en": "Okay…[WAIT]",
+  "en": "I guess so…[WAIT]",
   "bytes": 16,
   "sites": [
    "20975C:op7A+2",

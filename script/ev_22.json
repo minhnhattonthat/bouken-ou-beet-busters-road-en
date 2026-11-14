@@ -2781,7 +2781,7 @@
   "addr": "2226A4",
   "kind": "msg",
   "jp": "・・・う・・・[BR]ううっ・・・・・・ありがとう・・・[BR]・・・ありがとう・・・！[WAIT]",
-  "en": "…Uh… Uuuh…… Thank you… …Thank you…![WAIT]",
+  "en": "…*sob*… *sniff*…… Thank[BR]you… …Thank you…![WAIT]",
   "bytes": 80,
   "sites": [
    "22174E:op7A+2",
@@ -2925,7 +2925,7 @@
   "addr": "222774",
   "kind": "msg",
   "jp": "うっ・・・ううっ・・・・・・[WAIT]",
-  "en": "Uuh… Uuuuh……[WAIT]",
+  "en": "*sniff*… *sob*……[WAIT]",
   "bytes": 32,
   "sites": [
    "2217A6:op7A+2",
@@ -14528,7 +14528,7 @@
   "addr": "22BAAC",
   "kind": "msg",
   "jp": "そうね！[WAIT]",
-  "en": "Okie-dokey![WAIT]",
+  "en": "That's right![WAIT]",
   "bytes": 12,
   "sites": [
    "22B1BC:op7A+2",

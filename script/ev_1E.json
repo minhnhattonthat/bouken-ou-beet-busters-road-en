@@ -14225,7 +14225,7 @@
   "addr": "1E9CBE",
   "kind": "msg",
   "jp": "ああ・・・[BR]フラウスキーをにがしたのは[BR]・・・ちょっとアレだけどな・・・[WAIT]",
-  "en": "Yeah… Letting Frausky get[BR]away kinda bugs me, though…[WAIT]",
+  "en": "Yeah… Still bugs me that we[BR]let Frausky get away, though…[WAIT]",
   "bytes": 76,
   "sites": [
    "1E7E60:op7A+2",
@@ -15315,7 +15315,7 @@
   "addr": "1EA9E2",
   "kind": "msg",
   "jp": "そうね・・・[WAIT]",
-  "en": "Okay…[WAIT]",
+  "en": "I guess so…[WAIT]",
   "bytes": 16,
   "sites": [
    "1EA3D7:op7A+2",
@@ -16805,7 +16805,7 @@
   "addr": "1ECB04",
   "kind": "msg",
   "jp": "そうね・・・[WAIT]",
-  "en": "Okay…[WAIT]",
+  "en": "I guess so…[WAIT]",
   "bytes": 16,
   "sites": [
    "1EBE43:op7A+2",

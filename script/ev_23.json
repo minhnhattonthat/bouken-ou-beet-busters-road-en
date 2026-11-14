@@ -7635,7 +7635,7 @@
   "addr": "234BBC",
   "kind": "msg",
   "jp": "そうね・・・[WAIT]",
-  "en": "Okay…[WAIT]",
+  "en": "I guess so…[WAIT]",
   "bytes": 16,
   "sites": [
    "2338AA:op7A+2",
@@ -11549,7 +11549,7 @@
   "addr": "23681C",
   "kind": "msg",
   "jp": "そうね・・・[WAIT]",
-  "en": "Okay…[WAIT]",
+  "en": "I guess so…[WAIT]",
   "bytes": 16,
   "sites": [
    "23596B:op7A+2",
@@ -25399,7 +25399,7 @@
   "addr": "23CE0C",
   "kind": "msg",
   "jp": "まぁ、それほど気に病む事はない・・・[BR]モンスター実験場（じっけんじょう）も[BR]・・・キッス君、キミがいれば[PAGE]また作り直すことができる[PAGE]それだけキミには価値（かち）が[BR]あるのだよ・・・[PAGE]失いたくはない・・・[PAGE]そのギリギリの判断（はんだん）が、[BR]今のワタシのうでを止めている事を、[BR]キミはわかっているはずだ・・・[WAIT]",
-  "en": "Well, there's no need to fret so much[BR]about it… As for the Monster Lab…[BR]Kissu-kun, as long as I have you,[PAGE]I can build it all over again.[PAGE]That is how much you are worth…[PAGE]I would hate to lose you…[PAGE]You must understand that only[BR]that razor-thin decision is[BR]holding my arm back right now…[WAIT]",
+  "en": "Well, there's no need to fret so much[BR]about it… As for the Monster Lab…[BR]Kissu-kun, as long as I have you,[PAGE]I can build it all over again.[PAGE]That is how much you are worth…[PAGE]I would hate to lose you…[PAGE]You understand, I trust… Your value[BR]to me is the only thing keeping me[BR]from striking you down right now…[WAIT]",
   "bytes": 310,
   "sites": [
    "23BC65:op7A+2",
@@ -29046,7 +29046,7 @@
   "addr": "23DBCE",
   "kind": "msg",
   "jp": "・・・っ！！[WAIT]",
-  "en": "…Hmph!![WAIT]",
+  "en": "…Eek!![WAIT]",
   "bytes": 16,
   "sites": [
    "23C01A:op7A+2",
@@ -31059,7 +31059,7 @@
   "addr": "23E7CC",
   "kind": "msg",
   "jp": "・・・っ！！[WAIT]",
-  "en": "…Hmph!![WAIT]",
+  "en": "…Eek!![WAIT]",
   "bytes": 16,
   "sites": [
    "23E23F:op7A+2",

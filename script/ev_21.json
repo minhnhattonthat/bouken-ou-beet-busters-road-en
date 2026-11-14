@@ -2713,7 +2713,7 @@
   "addr": "2121EC",
   "kind": "msg",
   "jp": "そうね・・・[WAIT]",
-  "en": "Okay…[WAIT]",
+  "en": "I guess so…[WAIT]",
   "bytes": 16,
   "sites": [
    "21160E:op7A+2",
@@ -4530,7 +4530,7 @@
   "addr": "212C8A",
   "kind": "msg",
   "jp": "そうね[WAIT]",
-  "en": "Sounds good.[WAIT]",
+  "en": "Yeah.[WAIT]",
   "bytes": 10,
   "sites": [
    "211AF3:op7A+2",
@@ -7802,7 +7802,7 @@
   "addr": "21638E",
   "kind": "msg",
   "jp": "そうね！[WAIT]",
-  "en": "Okie-dokey![WAIT]",
+  "en": "That's right![WAIT]",
   "bytes": 12,
   "sites": [
    "2152A6:op7A+2",
@@ -8096,7 +8096,7 @@
   "addr": "216574",
   "kind": "msg",
   "jp": "そうね・・・[WAIT]",
-  "en": "Okay…[WAIT]",
+  "en": "I guess so…[WAIT]",
   "bytes": 16,
   "sites": [
    "215409:op7A+2",
@@ -8284,7 +8284,7 @@
   "addr": "21667E",
   "kind": "msg",
   "jp": "そうね[WAIT]",
-  "en": "Sounds good.[WAIT]",
+  "en": "Yeah.[WAIT]",
   "bytes": 10,
   "sites": [
    "215530:op7A+2",
@@ -9686,7 +9686,7 @@
   "addr": "216FAE",
   "kind": "msg",
   "jp": "そうね・・・[WAIT]",
-  "en": "Okay…[WAIT]",
+  "en": "I guess so…[WAIT]",
   "bytes": 16,
   "sites": [
    "215B5E:op7A+2",
@@ -11153,7 +11153,7 @@
   "addr": "2189FE",
   "kind": "msg",
   "jp": "そうね・・・[WAIT]",
-  "en": "Okay…[WAIT]",
+  "en": "I guess so…[WAIT]",
   "bytes": 16,
   "sites": [
    "2174B9:op7A+2"
@@ -13222,7 +13222,7 @@
   "addr": "219A88",
   "kind": "msg",
   "jp": "そうね・・・[WAIT]",
-  "en": "Okay…[WAIT]",
+  "en": "I guess so…[WAIT]",
   "bytes": 16,
   "sites": [
    "217C0E:op7A+2"
@@ -13554,7 +13554,7 @@
   "addr": "21AE30",
   "kind": "msg",
   "jp": "そうね・・・[WAIT]",
-  "en": "Okay…[WAIT]",
+  "en": "I guess so…[WAIT]",
   "bytes": 16,
   "sites": [
    "219CF7:op7A+2",
@@ -15955,7 +15955,7 @@
   "addr": "21BD5E",
   "kind": "msg",
   "jp": "（・・・なぁ～にがドラマチックよ！[BR]なんなのこの人！！[BR]どーゆー性格してんのかしらっ！[PAGE]・・・それにっ・・・！！）[WAIT]",
-  "en": "(…What's so \"dramatic\" about it?![BR]Who is this woman?! What kind of[BR]personality does she even have?![PAGE]…And besides…!!)[WAIT]",
+  "en": "(…What's so \"dramatic\" about[BR]it?! Who IS this woman?! How[BR]can she act like that?![PAGE]…And besides…!!)[WAIT]",
   "bytes": 118,
   "sites": [
    "21A3D3:op7A+2",
@@ -19150,7 +19150,7 @@
   "addr": "21E4EE",
   "kind": "msg",
   "jp": "そうね・・・[WAIT]",
-  "en": "Okay…[WAIT]",
+  "en": "I guess so…[WAIT]",
   "bytes": 16,
   "sites": [
    "21D7BD:op7A+2",

@@ -10415,7 +10415,7 @@
   "addr": "17C1EE",
   "kind": "msg",
   "jp": "ここには泊まるところがない[BR]バスターさんに部屋をおかししてますの[BR]おとまりになりますか？[WAIT]",
-  "en": "There's nowhere to stay here, so we[BR]lend rooms to Busters. Would you[BR]like to stay the night, Buster-san?[WAIT]",
+  "en": "We lend rooms to Busters who have[BR]nowhere to stay. Would you like to[BR]stay the night, Buster-san?[WAIT]",
   "bytes": 92,
   "sites": [
    "17B62B:op52+5"

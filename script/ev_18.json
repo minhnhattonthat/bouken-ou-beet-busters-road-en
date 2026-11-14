@@ -8794,7 +8794,7 @@
   "addr": "18B2D6",
   "kind": "msg",
   "jp": "そうね！[WAIT]",
-  "en": "Okie-dokey![WAIT]",
+  "en": "That's right![WAIT]",
   "bytes": 12,
   "sites": [
    "189BCF:op7A+2",
@@ -10074,7 +10074,7 @@
   "addr": "18C6B6",
   "kind": "msg",
   "jp": "なんか・・・[BR]あのオーブがあったとびらに[BR]にてない？[WAIT]",
-  "en": "Doesn't it look kind of… like[BR]the door that had those Orbs?[WAIT]",
+  "en": "Doesn't it look kind of… like the[BR]door where we found that Orb?[WAIT]",
   "bytes": 56,
   "sites": [
    "18BF0F:op7A+2",
@@ -12502,7 +12502,7 @@
   "addr": "18E2DE",
   "kind": "msg",
   "jp": "そうね！[WAIT]",
-  "en": "Okie-dokey![WAIT]",
+  "en": "That's right![WAIT]",
   "bytes": 12,
   "sites": [
    "18D4B7:op7A+2",
@@ -14511,7 +14511,7 @@
   "addr": "18F350",
   "kind": "msg",
   "jp": "・・・鬼（おに）が出るか・・・[BR]蛇（じゃ）が出るか・・・[WAIT]",
-  "en": "…Demon or serpent… we'll soon see…[WAIT]",
+  "en": "…No telling what awaits us…[WAIT]",
   "bytes": 60,
   "sites": [
    "18F14B:op7A+2",

@@ -12901,7 +12901,7 @@
   "addr": "1D7C52",
   "kind": "msg",
   "jp": "・・・・・・くそっ！[BR]・・・ぜったい・・・[BR]あいつはぶっころす・・・！！[WAIT]",
-  "en": "……Dammit! …I swear… I'm gonna[BR]take that guy down for good…!![WAIT]",
+  "en": "……Dammit! …I swear… I'm[BR]gonna kill that guy…!![WAIT]",
   "bytes": 76,
   "sites": [
    "1D7573:op7A+2",
@@ -14965,7 +14965,7 @@
   "addr": "1D9B82",
   "kind": "msg",
   "jp": "でもね[BR]その薬草は今はないんだって[PAGE]それで、その薬草は・・・[BR]とってもキケンなところに[BR]生えてるんだって・・・[WAIT]",
-  "en": "But she says they don't have[BR]that medicinal herb right now.[PAGE]And she says that herb… grows[BR]in a really dangerous place…[WAIT]",
+  "en": "But she says they don't have[BR]that Medicinal Herb right now.[PAGE]And it grows… somewhere[BR]really dangerous…[WAIT]",
   "bytes": 114,
   "sites": [
    "1D8A19:op52+5",

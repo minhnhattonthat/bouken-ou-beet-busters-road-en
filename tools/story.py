@@ -4,7 +4,8 @@
     python -X utf8 tools/story.py review [IDS..] [--jobs 3]   # codex exec read-only, one run per chapter
 
 `review` gives codex docs/story-reviewer-brief.md and the chapter path (it reads the chapter, synopsis, style
-reference and glossary itself), saves the report to work/qa/story/reports/<id>.md and the verdict
+reference and glossary itself), saves the report to work/qa/story/reports/<id>.md (later rounds <id>.r2.md ...)
+and the verdict
 `id<TAB>ok|issue<TAB>note` to work/qa/story/verdicts/<id>.tsv (Orca refuses nested workers, so codex reviews).
 Without IDS it reviews the chapters `qa_gate.py todo` would list (no verdict newer than the chapter file).
 """
@@ -48,27 +49,30 @@ with the one line `Assessment: ok` or `Assessment: issue - <why>`.
 """
 
 
-def chapter_lines(entries):
-    out, speaker = [], "-"
+def chapter_lines(entries, spk):
+    """Speaker = the name tag the event code shows with the line (batches.speakers: op52 / op59+op7A), not the
+    name string stored nearest it (names are shared by many lines)."""
+    out = []
     for e in sorted(entries, key=lambda e: int(e["addr"], 16)):
         if e["kind"] == "name":
-            speaker = f'{e["jp"]} / {e["en"]}'
             continue
-        out.append(f'>> {e["id"]} | {speaker if e["kind"] == "msg" else e["kind"]} | {e["jp"]}')
+        nm = spk.get(e["id"])
+        who = f'{nm["jp"]} / {nm["en"]}' if nm else "-" if e["kind"] == "msg" else e["kind"]
+        out.append(f'>> {e["id"]} | {who} | {e["jp"]}')
         out.append(f'   {e["en"]}')
-        if e["kind"] != "msg":
-            speaker = "-"
     return out
 
 
 def chapters():
     (STORY / "chapters").mkdir(parents=True, exist_ok=True)
-    seen = set()
+    sys.path.insert(0, str(ROOT / "tools"))
+    import batches
+    spk, seen = batches.speakers(), set()
     for cid, f, lo, hi in CHAPTERS:
         es = [e for e in json.loads((ROOT / f"script/ev_{f}.json").read_text(encoding="utf-8"))
               if lo <= int(e["addr"], 16) < hi]
         seen |= {e["id"] for e in es}
-        text = "\n".join(chapter_lines(es)) + "\n"
+        text = "\n".join(chapter_lines(es, spk)) + "\n"
         p = STORY / "chapters" / f"{cid}.txt"
         if not p.exists() or p.read_text(encoding="utf-8") != text:  # keep mtime (qa_gate) when unchanged
             p.write_text(text, encoding="utf-8", newline="\n")
@@ -79,8 +83,9 @@ def chapters():
 
 def review(cid):
     path = STORY / "chapters" / f"{cid}.txt"
-    rep = STORY / "reports" / f"{cid}.md"
-    rep.parent.mkdir(parents=True, exist_ok=True)
+    (STORY / "reports").mkdir(parents=True, exist_ok=True)
+    # one report per round (<id>.md, <id>.r2.md ...): polish.py collects each round's Minors once
+    rep = next(p for k in range(1, 99) if not (p := STORY / "reports" / f"{cid}{'' if k == 1 else f'.r{k}'}.md").exists())
     (STORY / "verdicts").mkdir(parents=True, exist_ok=True)
     n = path.read_text(encoding="utf-8").count("\n>> ") + 1
     prompt = (ROOT / "docs/story-reviewer-brief.md").read_text(encoding="utf-8") + \

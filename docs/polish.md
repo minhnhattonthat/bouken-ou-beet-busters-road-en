@@ -266,3 +266,58 @@ Minor review findings; tick when applied or rejected (phase 9: none unticked).
 - [x] voices:014 (Rozzgoat) - お見せしよう、我が冥力の極致 "I'll show you the pinnacle of my Dark Power" - "peak" -- waived: 30-letter shout field; "Behold my Dark Power's peak..." keeps the sense ("pinnacle" does not fit)
 - [x] voices:012 (Grineed transformed) - 感謝して殺されろよッ！！！ "Be grateful while I kill you!" - "as you die" is -- fixed
 - [x] voices:010 (Mugine) - 動くと正確に切れんだろーがあっ！ "Quit moving, I can't cut you precisely, dammit!" (his -- fixed
+
+## story:01_opening
+- [x] **ev:198854** - Remembering Beet’s convictions, Zenon resolves to save him - “This boy’s feelings” is vague at the payoff to the justice speech, though the following sentence preserves his decision - **Suggested EN:** “Yes… what this boy believes…!! We can’t let him die…!” -- fixed
+- [x] **ev:19E09A** - Beet recognizes his own and the Warriors’ hopes within the inherited Saiga - Repeating “feelings” three times makes this emotional recognition sound mechanical - **Suggested EN:** “So… this lance holds my hopes, Laio’s… and everyone else’s, too…!!” -- fixed
+
+## story:02_prologue
+- [x] **ev:1A3B34** - Shaderico reacts with incredulous hostility to Horus attacking during his Dark Attack’s activation - “What a guy…” sounds casually admiring and softens his sneer. Suggested EN: “Geh… Geh! …The nerve of him…! Coming at me just as I unleash my Dark Attack…!” -- fixed
+
+## story:03_three_years
+
+## story:04_elfast_redou
+- [x] ev:1B4804 - Poala recalls her father’s arm injury from a Mud Lizard - “He got his arm hurt” sounds casual and awkward during the explanation of her personal stake in clearing the swamps - Suggested EN: “…Beet… My dad… A Mud Lizard living in those black swamps crippled his arm.” -- fixed
+- [x] ev:1B7C6E - Poala flinches when the growl returns - “Hmph!!” conveys annoyance rather than suppressed fright, weakening one beat of the scaredy-cat setup - Suggested EN: “…Eek!!” -- fixed
+
+## story:05_phantom_redou
+- [x] ev:1C58D8 - JP gist: A Phantom earns less advancement credit and bounty because it is weaker. - “Promotion value” differs from the glossary/UI term “Merit.” - Suggested EN, final sentence: “That’s why its Merit and bounty are low…” -- fixed
+- [x] ev:1C8DE4 - JP gist: Poala asks Beet to handle the monsters while she and Slade extinguish the fire. - “So leave those to you” is missing its subject; the intended division of work remains understandable. - Suggested EN: “Beet!! We’ve got to put out the fire, so we’re leaving those to you, okay?” -- fixed
+
+## story:06_across_river
+- [x] **ev:1D9B82** (also ev:1D9C12, ev:1D9CFA, ev:1D9ED6) - JP gist: Kou explains that the herb is unavailable and grows somewhere dangerous. - Repeated “medicinal herb” makes his otherwise simple, childlike pleading unnecessarily clinical. After establishing what it is, use “herb.” - Suggested EN: “But she says they don’t have that herb right now. And it grows… somewhere really dangerous…” -- fixed
+- [x] **ev:1D9FF6** - JP gist: Poala protests Beet declaring her his future wife without her agreement, again. - “You’re saying that on your own AGAIN” is awkward and weakens the familiar comic retort. - Suggested EN: “Hey! There you go deciding that for me AGAIN!!!” -- fixed
+
+## story:07_orb_terceron
+- [x] **ev:1E1CBA** - JP gist: Poala still feels sorry for the Pack Dogs after killing them. - “Maybe it was… a little sad” makes her sympathy impersonal. Naming her feeling better carries forward her hesitation over the parent and babies, and supports Beet’s ensuing justification. - Suggested EN: “…I still feel a little sorry for them…” -- fixed
+
+## story:08_mugine_castle
+- [x] `ev:1FA94C` - JP gist: Kissu cautions Beet about Rozzgoat’s local reputation before being interrupted. - “is a pretty serious… around here…” sounds grammatically scrambled, disrupting Kissu’s otherwise clear, gentle delivery. Preserve the interruption at a natural point. - Suggested EN: “…You need to be more careful from now on, Beet. Around here, that Vandel Rozzgoat is quite a…” -- fixed
+
+## story:09_kissu_betrayal
+- [x] ev:2074F0 - Beet will defeat Rozzgoat because he wants to see Kissu fulfill his dream - “Take that guy down” followed by “see you become that guy” briefly gives “that guy” conflicting referents during an emotional callback - Suggested EN: “So I'm gonna take him down myself!! 'Cause I wanna see you become the world's greatest Divine Attack user!!” -- fixed
+- [x] ev:203FF0 - Kissu compares Beet’s growth with his own intervening two years - “What a huge difference there's been… in our two years” makes the painful comparison awkward to follow - Suggested EN: “(…Beet… When we traveled together, he could only use the lance…!! We both had two years… How did we end up so far apart…?!)” -- fixed
+
+## story:10_hermit_milfa
+- [x] **ev:21BD5E, ev:21F12A** - JP gist: Poala privately fumes over Milfa’s dramatic behavior and outrageous personality. - “What kind of personality does she even have?!” sounds analytical and translated, blunting the jealous rant before Poala’s stronger rough-language aside. Keep both variants identical. - Suggested EN: **“(…What’s so ‘dramatic’ about it?! Who IS this woman?! How can she act like that?! …And besides…!!)”** -- fixed
+
+## story:11_kissu_probation
+
+## story:12_sadram_grineed
+- [x] ev:2349C2 — JP gist: Milfa proposes breaking through with a flourish. — “Go out with a bang” suggests a final exit or death while the party is preparing to enter, muddying her breezy bravado. — Suggested EN: “Either way… we have to break through the gate to get in… So, shall we make a flashy entrance?” -- fixed
+- [x] ev:23CE0C — JP gist: Kissu’s value is barely keeping Grineed from attacking him. — “That razor-thin decision is holding my arm back” obscures the threat that motivates Kissu’s subsequent thought of lying to survive. — Suggested EN: “You understand, I trust… Your value to me is the only thing keeping me from striking you down… and even that restraint has its limits.” -- fixed
+
+## story:13_ending
+- [x] ev:1A9318 - Poala cannot help Beet because she is equally exhausted. - “No good… Beet…!” sounds mechanical and makes her response to his appeal unclear until the next line. - Suggested EN: “…I can't… Beet…!” -- fixed
+- [x] ev:1A9B3C - Poala insists that even one ray is worth celebrating after twenty years. - “So what!” sounds dismissive at the opening of her hopeful closing speech. - Suggested EN: “That's still something! …We haven't had even that in over 20 years!” -- fixed
+
+## story:14_side_tower_party
+- [x] ev:174890 - JP gist: Buena recognizes Beet and enthusiastically invites him to play. - “It's the Buster Mister!” sounds awkward beside the other children’s natural use of “Mister.” - Suggested EN: “Hey, Mister Buster! It's you! Come play with me!” -- fixed
+
+## story:15_side_juno_party_lake
+- [x] ev:18F350 - Slade wonders ominously what awaits them - “Demon or serpent” translates the Japanese idiom literally and can sound like a prediction of specific enemies - Suggested EN: “…No telling what awaits us…” -- fixed
+
+## story:16_side_lake
+- [x] ev:1909F4 - Kissu deduces that the ten evils represent monster types - “Monster attributes” differs from the glossary’s Book label “Type,” weakening the connection to the player-facing terminology - Suggested EN: “The ten evils… I think they probably stand for the different monster types…” -- fixed
+
+## story:17_quest_log

@@ -6535,7 +6535,7 @@
   "addr": "1C58D8",
   "kind": "msg",
   "jp": "ヴァンデル本体が遠くから[BR]冥力（めいりょく）で[BR]遠隔操作（えんかくそうさ）して、[PAGE]影武者（かげむしゃ）として[BR]身代わりにつかったりする[BR]そんざいじゃ[PAGE]・・・本体にくらべたら[BR]相当弱くなる・・・[PAGE]それで昇格値（しょうかくち）と[BR]報奨金（ほうしょうきん）が[BR]ひくいんだが・・・[WAIT]",
-  "en": "The true Vandel controls it[BR]from afar with Dark Power,[PAGE]and uses it as a decoy, a body[BR]double to stand in his place.[PAGE]…Compared to the real body,[BR]it's a good deal weaker…[PAGE]So its promotion value[BR]and bounty are low, eh…[WAIT]",
+  "en": "The true Vandel controls it[BR]from afar with Dark Power,[PAGE]and uses it as a decoy, a body[BR]double to stand in his place.[PAGE]…Compared to the real body,[BR]it's a good deal weaker…[PAGE]That's why its Merit[BR]and bounty are low…[WAIT]",
   "bytes": 276,
   "sites": [
    "1C42FB:op7A+2",
@@ -10102,7 +10102,7 @@
   "addr": "1C8DE4",
   "kind": "msg",
   "jp": "ビィト！！[PAGE]ワタシたちは火を消さないと[BR]いけないから、[BR]そっちおねがいね！[WAIT]",
-  "en": "Beet!![PAGE]We've got to put out the fire,[BR]so leave those to you, okay?[WAIT]",
+  "en": "Beet!![PAGE]We've got to put out the fire, so[BR]we're leaving those to you, okay?[WAIT]",
   "bytes": 78,
   "sites": [
    "1C8278:op7A+2"
