@@ -18,6 +18,7 @@ sys.path.insert(0, str(ROOT / "tools"))
 from skill import SKILL  # noqa: E402
 
 VARS = []  # --var NAME=VALUE passed to every probe
+EMU_ARGS = []  # extra emu.py arguments (--shot-every N)
 WARP_FRAMES = 2400  # cold boot -> new game -> free roam -> warp settled (~f1612 original, ~f2032 marker build)
 
 
@@ -41,7 +42,7 @@ def run(rom, sc, out, states, extra=()):
     d = out / sc["name"]
     cmd = [sys.executable, "-X", "utf8", str(Path(SKILL) / "scripts/emu.py"), str(rom), "--out", str(d),
            "--script", str(ROOT / "tools/debug/warp.lua"), "--var", f"SCENE='{sc['name']}'",
-           "--frames", str(frames(sc)), "--smoke", "--timeout", "600"]
+           "--frames", str(frames(sc)), "--smoke", "--timeout", "600", *EMU_ARGS]
     for s in extra:
         cmd += ["--script", s]
     for v in VARS:
@@ -65,8 +66,11 @@ def main():
     ap.add_argument("--script", action="append", default=[], help="extra Lua probe for every scene (repeatable)")
     ap.add_argument("--var", action="append", default=[], help="NAME=VALUE for the probes (repeatable)")
     ap.add_argument("--scenes", help="another scene list in scenes.txt format (ad-hoc probe runs)")
+    ap.add_argument("--shot-every", type=int, help="also save a frame every N frames (route tours)")
     a = ap.parse_args()
     VARS.extend(a.var)
+    if a.shot_every:
+        EMU_ARGS.extend(["--shot-every", str(a.shot_every)])
     if a.scenes:
         VARS.append(f"SCENES='{Path(a.scenes).resolve().as_posix()}'")
     todo = scenes(Path(a.scenes)) if a.scenes else scenes()
@@ -77,8 +81,13 @@ def main():
         if missing:
             raise SystemExit(f"not in scenes.txt: {', '.join(sorted(missing))}")
     out = Path(a.out)
+    # Mesen keeps battery saves per ROM name: a scene that saves (s_save, s_susp) turns the next cold boot's title
+    # into a continue menu and every warp after it stalls there
+    sav = ROOT / "tools/mesen/Saves" / (Path(a.rom).stem + ".sav")
+    sav.unlink(missing_ok=True)
     with ThreadPoolExecutor(a.jobs) as ex:
         results = list(ex.map(lambda s: run(a.rom, s, out, a.states, a.script), todo))
+    sav.unlink(missing_ok=True)
     bad = [(n, w) for n, ok, w in results if not ok]
     for n, ok, w in results:
         print(f"{'ok  ' if ok else 'FAIL'} {n} {w}")

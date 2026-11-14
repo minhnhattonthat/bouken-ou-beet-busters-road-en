@@ -2,7 +2,8 @@
 
 Letters = English characters in the digraph encoding (2 per code unit; 6 px each in the 12x12 font, 4 px in the
 8x8 font). "measured" = read off a marker or `--qa` stress shot (path given); "guess" = not yet seen in game.
-Stress builds: `build.py --marker --qa "ID=TEXT" --out build/qaN.gba`; opening dialogue pages: route
+Stress builds: `build.py --marker --qa "ID=TEXT" --out build/qaN.gba`; UI rulers: `tools/qaruler.py OUT [ID..]`; where a
+UI string is drawn (x, y, wrap or not): `tools/uidraw.py ID`; opening dialogue pages: route
 `tools/routes/opening_pages.txt` (first box = `ev:1995DC`, its speaker `ev:1995D0`).
 
 | Variant | Font | Budget | State |
@@ -10,7 +11,7 @@ Stress builds: `build.py --marker --qa "ID=TEXT" --out build/qaN.gba`; opening d
 | Dialogue message (`msg`, op 7A/52/3B/68) | 12x12 | **38 letters per line, 3 lines per box**; text at x=3, border at x=238 (the 39th letter is clipped); [PAGE] (FF72) opens a new box, same speaker | measured `work/qa/qa1` (L1/L2/L3 lines of 39: last letter cut) |
 | Speaker name tag (`name`) | 12x12 | box sizes to the name; **24 letters** fit (right-aligned tag) | measured `work/qa/qa2` |
 | Prologue / credits text (`draw`, op 85 x y ptr) | 12x12 | per line `(240 - x) // 12 * 2` letters: x=0 -> 40, x=12 -> 38, x=16 -> 36 (x = s16 at site-4); text past the screen edge auto-wraps onto the next line | measured `work/qa/mk2/prologue`, `credits` |
-| UI windows (options values, inn/shop command boxes) | 12x12 | fixed-width windows sized to the JP text: overlong text auto-wraps (0x08005DD0) over the next row. Budget = the JP's cell count x 2 letters unless measured wider | measured on options (`work/qa/mk4/menu_options`) and inn (`inn_stay`); other UI strings: guess |
+| UI windows (options values, inn/shop command boxes) | 12x12 | fixed-width windows sized to the JP text: overlong text auto-wraps (0x08005DD0) over the next row. Budget = the JP's cell count x 2 letters unless measured wider | measured on options (`work/qa/mk4/menu_options`) and inn (`inn_stay`); per-string budgets in the rows below |
 | Appraisal-house command box (pool 0x116FCC) | 12x12 | 16 letters per row (8 cells) | measured `work/qa/mk2/appraiser_shop` |
 | Party name, status/equip screens (`chars:name`) | 12x12 | 12 letters (LV box after) | measured `work/qa/mk4/menu_status` |
 | Party name, field-menu panel / battle HUD | 8x8 | 16 letters (the whole field) | measured `work/qa/mk4/menu` |
@@ -44,8 +45,19 @@ Stress builds: `build.py --marker --qa "ID=TEXT" --out build/qaN.gba`; opening d
 | `kana` fields (weapons, armor, items, loot, tenmon) | — | **sort keys, never drawn**: the battle toolbox's SELECT sort reads every `items:kana`; no scene reads any other kana (`tools/fieldreads.py work/qa/tblreads`, 92 scenes). Fill with the English name (codes follow ASCII order) | unused |
 | 8x8 `menu` fields (weapons, items: kana-only names) | 8x8 | battle-ring label of a slotted item/weapon: the ring builder (`0x08035AE6..0x08035D18`) passes record+0x78 to the draw call `0x08036184` that draws the measured ring labels: **20 centred**. No other code reads +0x78 of these tables | measured (code path + `work/qa/qa7/rot`) |
 | `areas:name`, `wtypes:name`, `bosses:name`/`desc` | — | **unused**: never read in 92 scenes (`work/qa/tblreads`), 64 event battles incl. every boss group (`work/qa/bossreads`) or the world map (`work/qa/world`); code refs to `areas` read +0x14..+0x2C (world-map coords, sprite), to `wtypes` +0x14/+0x18 only; no code literal points into `bosses`. Fill with the English anyway (cheap, harmless) | unused |
-| World-map prompt このマップに移動しますか？ (`ui:DDACCA`, code `0x08051BE8`) | 12x12 | not reached: scene `world_map` (field mode 7) shows the map but takes no input; the real entry is a script whose runner returns PC 1 in mode 2 (`0x08025178`) | guess (26) |
-| Other UI pool strings (43: shop buy/sell confirms `0x06D64C..`, save/suspend messages `DDA8FC..DDAA6C`, options values, quest dialogs `DDAB2C..DDAC28`, level-up labels `DDAC76..DDACC0`, Saiga names `DDA800..DDA878` (in place, no pointer)) | 12x12 | default rule: JP cells x 2 (overlong text auto-wraps, measured on options/inn) | guess |
+| World-map prompt このマップに移動しますか？ (`ui:DDACCA`, code `0x08051BE8`) | 12x12 | not reached: scene `world_map` (field mode 7) shows the map but takes no input; the real entry is a script whose runner returns PC 1 in mode 2 (`0x08025178`). Text at x=8 (`0x08051B8E`) in a full-width 30x5-tile window (`0x08051B3C`): likely 36, kept at the JP's 26 until seen | guess (26) |
+| Shop buy/sell confirm (`ui:06D64C`/`06D660`, under the item name in the NOTICE) | 12x12 | text from x=112, no wrap, runs past the frame at x=216: **16** | measured `work/qa/qa11/s_buy` f1800, `s_sell` f2100 |
+| Not enough money (`ui:06D674`) | 12x12 | window {7,8,18,h} tiles (`0x0804F1A6`), text x=0: **24** (not reached: forge list empty in a new game) | code |
+| Options screen | 12x12 | row labels (メッセージ/ＢＧＭ/ＳＥ) **12** (メッセージ wraps after 12); values (はやい/ふつう/おそい/ＯＮ/ＯＦＦ) **6** (7th letter cut). Overlong text wraps over the row below and garbles | measured `work/qa/qa11/s_opt` f1800 |
+| Quest accept NOTICE (`ui:DDAAE8`) | 12x12 | **26** (27th letter last before the wrap) | measured `work/play/acc/0001.png` |
+| Quest report prompt (`ui:DDAC28`) + 完了報告 / あきらめる | 12x12 | prompt **28** (30th cut by the frame); options **8** / **10** | measured `work/play/acc/0010.png`, `work/qa/qa12/s_report` |
+| Give-up confirm (`ui:DDAB6A`) | 12x12 | **30 per line, 3 lines** over the yes/no row; [FF01] = 3-digit cost | measured `work/play/acc/0011.png` |
+| Board-quest client (`ui:DDAB04` ヴァンデルバスター協会) | 12x12 | `0x0802BF3A` -> `0x08037780` -> quest logger `0x08001E4C` (as op6F): quest log page 2 client row, **26** | code + `work/qa/qa9/quest` |
+| No quests (`ui:DDAC02` none accepted, `DDABD4` none to accept) | 12x12 | one draw (`0x08037D3A`/`0x08037D50`, wrap `0x08005DD0`): **36 per line, 2 lines** (a 3rd falls under the frame) | measured `work/qa/qa11/s_qnone` f2010 |
+| Suspend / save messages (window `[r7+0x58]`, draw `0x0804EA26`) | 12x12 | auto-wrap; **32 per line** in the SAVE box (saving: `DDA8FC`, `DDAA10`), **34** in the NOTICE box (saved: `DDA956`, 4 rows). Save prompt `DDA9F0`, failures `DDA98A`/`DDAA6C` draw one line (`0x08005F3C`) into the same window: 32. Game save lives on the world map (START menu), not reached yet | measured `work/qa/qa11/s_susp` f1860/f2100; the world-map ones by code |
+| Level-up reward labels (table `0x0806CB38`) | 12x12 | drawn after a name on the same row at x = 8 + 12 x len(name) (`0x0800FECA..FEE8`): the longest JP name (10 cells) + label (7 cells) fit, so **14** each (a Saiga level-up not reached) | code |
+| Unreferenced pool strings (Saiga names `DDA800..DDA878`, `DDA932`, `DDAB2C`) | — | no 32-bit literal in the ROM points at them (every other pool string has one): **unused**, in place within their bytes | unused |
+| World-map load error (`ui:DDA9A0`, `0x0804FBF6`, wrap at x=8 in a window from `0x08004368`) | 12x12 | not reached (world map): JP width kept, 26 x 3 | guess |
 
 Machine-readable budgets: `tools/limits.py` (per kind / table field / UI id, state + shot); `tests/test_lint.py` checks
 every non-empty `en` against them (width per line, lines per box, glyphs, control codes, no Japanese).

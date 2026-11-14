@@ -63,7 +63,45 @@ UI = {
     # quest type label after the type icon (討伐/収集/配達/護衛/その他): x=176 to the frame at ~230
     **{i: (8, "measured", "work/play/q5/0003.png") for i in
        ("ui:DDAC46", "ui:DDAB1C", "ui:DDAB4A", "ui:DDAB50", "ui:DDAB56")},
+    # --- session 6 (rulers on build/qa11.gba, qa12.gba; play sessions work/play/acc) ---
+    # shop buy/sell confirm under the item name: from x=112, the NOTICE frame at x=216 (17th letter touches it)
+    **{i: (16, "measured", "work/qa/qa11/s_buy f1800, s_sell f2100") for i in ("ui:06D64C", "ui:06D660")},
+    # not enough money: window {x7,y8,w18,h} tiles (0x0804F1A6), text at x=0 (0x0804F1D6) = 144 px
+    "ui:06D674": (24, "measured", "code: 0x0804F1A6 window 18 tiles, text x=0 (forge list empty in a new game)"),
+    # options: row labels (メッセージ wraps after 12), values (はやい/ON/...: the 7th letter is cut)
+    **{i: (12, "measured", "work/qa/qa11/s_opt f1800") for i in ("ui:DDAAB8", "ui:DDAAA8", "ui:DDAADA")},
+    **{i: (6, "measured", "work/qa/qa11/s_opt f1800") for i in
+       ("ui:DDAAB0", "ui:DDAAC4", "ui:DDAAE0", "ui:DDAACC", "ui:DDAAD4")},
+    # quest dialogs: accept NOTICE (27th letter last before the wrap), report prompt (30th cut by the frame),
+    # report options 完了報告 / あきらめる, give-up confirm (30 per line, [FF01] = 3 digits, 3 lines over yes/no)
+    "ui:DDAAE8": (26, "measured", "work/play/acc/0001.png"),
+    "ui:DDAC28": (28, "measured", "work/play/acc/0010.png, work/qa/qa12/s_report"),
+    "ui:DDAB22": (8, "measured", "work/qa/qa12/s_report final (9th letter at the window edge)"),
+    "ui:DDAB5E": (10, "measured", "work/qa/qa12/s_report final"),
+    "ui:DDAB6A": (30, "measured", "work/play/acc/0011.png"),
+    # client name of a board quest: 0x0802BF3A -> 0x08037780 -> quest logger 0x08001E4C (as op6F): page-2 client row
+    "ui:DDAB04": (26, "measured", "code: same quest log client row as op6F banner (work/qa/qa9/quest)"),
+    # no quests to accept / none accepted: one draw (0x08037D3A / 0x08037D50: x=0x14, y=0xC, wrap 0x08005DD0)
+    **{i: (36, "measured", "work/qa/qa11/s_qnone f2010 (ui:DDAC02; ui:DDABD4 same draw call)") for i in
+       ("ui:DDAC02", "ui:DDABD4")},
+    # suspend / save messages share one draw into window [r7+0x58] (0x0804EA26, wrap 0x08005DD0): 32 per line in the
+    # SAVE box (saving), 34 in the NOTICE box (saved, 4 rows); save prompt and failures draw one line into it
+    # (0x08005F3C): the save screens are on the world map (not reachable yet), so they take the narrower 32
+    "ui:DDA8FC": (32, "measured", "work/qa/qa11/s_susp f1860"),
+    "ui:DDA956": (34, "measured", "work/qa/qa11/s_susp f2100"),
+    **{i: (32, "measured", "code: same window as ui:DDA8FC (work/qa/qa11/s_susp)") for i in
+       ("ui:DDAA10", "ui:DDAA4C", "ui:DDA9F0", "ui:DDAA6C", "ui:DDA98A")},
+    # level-up rewards (table 0x0806CB38): drawn at x = 8 + 12 * len(name) after a name on the same row
+    # (0x0800FECA..0x0800FEE8); the longest JP name (10 cells) + label (7 cells) fit, so 7 cells for each
+    **{i: (14, "measured", "code: 0x0800FED8 label after the name (Saiga level-up not reached)") for i in
+       ("ui:DDAC76", "ui:DDAC84", "ui:DDAC90", "ui:DDAC9C", "ui:DDACA6", "ui:DDACB6", "ui:DDACC0")},
+    # no pointer to these anywhere in the ROM (32-bit literal search; every other pool string has one)
+    **{i: (None, "unused", "no ROM literal points at it; in place within its bytes") for i in
+       ("ui:DDA800", "ui:DDA812", "ui:DDA824", "ui:DDA85E", "ui:DDA872", "ui:DDA878", "ui:DDA932", "ui:DDAB2C")},
 }
+# UI lines per box where the JP's [BR] count is not the limit (id -> lines)
+UI_LINES = {"ui:DDA8FC": 2, "ui:DDAA10": 2, "ui:DDAA4C": 2, "ui:DDA956": 4, "ui:DDAC02": 2, "ui:DDABD4": 2,
+            "ui:DDAB6A": 3}
 KANA = ("sort key, never drawn: the battle toolbox SELECT sort reads every items:kana (work/qa/tblreads3/battle_sort), "
         "no scene reads any other kana (tools/fieldreads.py work/qa/tblreads). Fill with the English name: digraph "
         "codes follow ASCII order, so it sorts alphabetically")
@@ -153,7 +191,9 @@ def budget(e):
         return min(w, field_cap(e)), n, st, shot
     if e["id"] in UI:
         w, st, shot = UI[e["id"]]
-        return w, None, st, shot
+        if w is None:  # unused, in place: its bytes less the terminator
+            w = e["bytes"] - 2
+        return w, UI_LINES.get(e["id"]), st, shot
     w, n, st, shot = EVENT[e["kind"]]
     if e["kind"] == "draw":
         w = (240 - _draw_x(e)) // 12 * 2
