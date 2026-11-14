@@ -58,4 +58,6 @@ No argument words seen after any of them. Literal pool words `0xFF70` at `0x5E4C
 Tables of fixed-size records with aligned pointers are likely here (GBA rule: repoint only inside decoded tables).
 
 ## Second font
-Menu names (ビィト in the status box) use a smaller font, not the 12x12 one. Location: TODO (phase 5).
+Menu names (ビィト in the status box) use a smaller font, not the 12x12 one: raw 8x8 gba4 tiles at `0x300000`
+(~0x2C00 bytes: symbols, digits, Latin, kana, Greek; no kanji), seen in the static sweep (`docs/re/graphics.md` G5).
+Code-to-cell mapping and the blitter: phase 5.

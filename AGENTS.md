@@ -9,7 +9,7 @@ Skill: translate-retro-game (Claude Code: plugin, enabled in .claude/settings.js
 - Warp:     `python -X utf8 $SKILL/scripts/emu.py build/beet_en.gba --out work/qa/warp --script tools/debug/warp.lua --var "SCENE='<name>'" --frames 900 --sheet` (phase 2; scenes: `tools/debug/scenes.txt`; never ask the user to play to a scene)
 - Release:  `python -X utf8 tools/release.py` (phase 9; patch + verify; never publish without the user)
 - Clean:    `python -X utf8 tools/clean.py` (published projects: lists rebuildable/downloadable files; `--yes` deletes)
-- Recon:    `tools/font.py sheet|glyph` (font cells), `tools/mktbl.py [--check]` (regenerates `tbl/jp.tbl`), `tools/scriptptrs.py`, `tools/textscan.py`, `tools/orphans.py`, `tools/lua/readmap.lua` (ROM reads per pc/page)
+- Recon:    `tools/font.py sheet|glyph` (font cells), `tools/mktbl.py [--check]` (regenerates `tbl/jp.tbl`), `tools/scriptptrs.py`, `tools/textscan.py`, `tools/orphans.py`, `tools/lua/readmap.lua` (ROM reads per pc/page), `tools/gfxsweep.py scan|sheets|rawmap|rawsheets` (LZ77/raw graphics sweep), `tools/sweep_review.py` (codex read-only review of sweep pages)
 
 ## Paths
 - Original ROM: `rom/Bouken-Ou Beet - Busters Road (Japan).gba` (gitignored; SHA-1 in `rom.sha1`, checked by `tools/check_rom.py`). Emulator: this repo's own copy in `tools/mesen/` (MesenCE 2.2.1, https://github.com/nesdev-org/MesenCE/releases/download/2.2.1/Mesen_2.2.1_Windows.zip; gitignored; needs `tools/mesen/Firmware/gba_bios.bin`, SHA-1 300c20df...). Savestates: `work/states/`.
