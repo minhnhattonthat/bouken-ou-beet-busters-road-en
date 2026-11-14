@@ -15,6 +15,15 @@ Stress builds: `build.py --marker --qa "ID=TEXT" --out build/qaN.gba`; opening d
 | Party name, status/equip screens (`chars:name`) | 12x12 | 12 letters (LV box after) | measured `work/qa/mk4/menu_status` |
 | Party name, field-menu panel / battle HUD | 8x8 | 16 letters (the whole field) | measured `work/qa/mk4/menu` |
 | Weapon/armor name, equip screen | 12x12 | 20 letters (whole field) | measured `work/qa/mk4/menu_equip` |
-| Monster `kana` field (battle name, bottom bar) | 8x8 | guess: whole field (22 letters); measure with marker5 (`build/marker5.gba`, battle scene) | guess |
-| Item/weapon description (DETAIL box) | 12x12 | auto-wraps at the box edge (JP descs are one 34-cell run): English needs [BR] at word breaks; box lines: measure | guess |
-| Choices (op 1D/1E), banners (op 6F: `？？？？`, 鑑定小屋 = probably the name tag), quest board titles/descriptions, shop list names, monster book (habitat), map/area names (field-menu header), moves/tenmon, rank titles, battle shouts | — | not yet measured | guess |
+| Monster `kana` field (battle name, bottom bar) | 8x8 | **20 letters** (10 tiles drawn of the 11-code field; HP after) | measured `work/qa/mk5b/battle` f2400 |
+| Shop list names (weapons/items `name`) | 12x12 | 20 letters (whole field; price column after) | measured `work/qa/mk5c/shop_buy`, `shop_items_buy` |
+| DETAIL box (shop) | 12x12 | auto-wraps at **36 letters**; items: 2 lines (72 = the field); weapons/armor: 1 line (line 2 = ATK/HIT/AGL stats). Auto-wrap splits words: pad lines to 36 (or [BR]) | measured `work/qa/mk5c` |
+| Shop command box (買う/売る/鍛える/閉じる/泊まる) | 12x12 | 8 letters (4 cells; longer wraps onto the next command) | measured `work/qa/mk5/shop_weapon` |
+| Choices (op 1D 2-way; 1E assumed same box) | 12x12 | text from x=16; 37 letters reach the screen edge: budget 36 | measured `work/qa/mk4/recruit` |
+| PLACE banner (map name on map entry; op6F sets a custom place, e.g. 鑑定小屋) | 12x12 | box holds ~32 letters from x=44; map names capped at 18 by the field | measured `work/qa/mk6/banner` f1880 (op6F text itself not yet seen) |
+| Field-menu header = team rank (`rank:name`) | 12x12 | centred; **16 letters** (18 lost its first cell) | measured `work/qa/qa3` |
+| Fixed table fields in general | — | a field whose JP never fills it must keep its 0000 terminator: the PLACE banner read a full `maps:name` field on into the next record (garbage, `work/qa/mk5b/banner` f1880). `limits.field_cap` | measured |
+| Quest board titles/descriptions, toolbox (loot), monster book (name, habitat), skills (moves, tenmon), battle shouts, areas name | — | **not measured**: these screens are empty in a new game (no quests, items, book entries, skills). Needs debug-tool state (give items / book / quest flags). Budgets in `tools/limits.py` marked guess | guess |
+
+Machine-readable budgets: `tools/limits.py` (per kind / table field / UI id, state + shot); `tests/test_lint.py` checks
+every non-empty `en` against them (width per line, lines per box, glyphs, control codes, no Japanese).

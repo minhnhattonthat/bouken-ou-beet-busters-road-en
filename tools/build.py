@@ -127,9 +127,10 @@ def marker(e, width):
     """Marker text for an entry: its id, then a ruler (A-Z, 0-9, a-z) per line, keeping the JP's control tags.
     Fixed fields get the ruler cut to the field (2 letters per code unit)."""
     import digraph
+    import limits
     if "max" in e:
         name, rec, kind = e["id"].split(":")
-        return (f"{name[:2]}{rec}{kind[0]}" + RULER)[:e["max"]]
+        return (f"{name[:2]}{rec}{kind[0]}" + RULER)[:limits.field_cap(e)]
     if e["kind"] == "name":
         return (e["addr"][-4:] + RULER)[:16]
     out, first = [], True
@@ -157,6 +158,7 @@ def text(p, space, width=None, qa=None):
     pointer site is moved (each asserted to hold the old address first); UI pool strings and table fields stay in
     place within their size. Entries with no English are left alone. Returns the count written."""
     import digraph
+    import limits
     n, placed = 0, {}
     for f in sorted((ROOT / "script").glob("*.json")):
         for e in json.loads(f.read_text(encoding="utf-8")):
@@ -177,8 +179,9 @@ def text(p, space, width=None, qa=None):
                     if p.orig[off:off + 4] != struct.pack("<I", 0x08000000 + a):
                         raise ValueError(f"{e['id']}: site {s} does not point at {a:#x}")
                     p.put(off, struct.pack("<I", 0x08000000 + new), f"ptr:{e['id']}")
-            elif "max" in e:
-                p.put(a, fit(digraph.codes(en), e["max"], e["id"], bool(width)), f"text:{e['id']}")
+            elif "max" in e:  # within the field, keeping a terminator unless the JP fills such fields (limits.py)
+                data = fit(digraph.codes(en), limits.field_cap(e), e["id"], bool(width))
+                p.put(a, data + bytes(e["max"] - len(data)), f"text:{e['id']}")
             else:
                 cs = digraph.codes(en)
                 p.put(a, fit(cs[:e["bytes"] // 2 - 1] if width else cs, e["bytes"] - 2, e["id"], False) + b"\0\0",

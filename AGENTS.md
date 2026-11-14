@@ -14,7 +14,7 @@ Skill: translate-retro-game (Claude Code: plugin, enabled in .claude/settings.js
 
 ## Paths
 - Original ROM: `rom/Bouken-Ou Beet - Busters Road (Japan).gba` (gitignored; SHA-1 in `rom.sha1`, checked by `tools/check_rom.py`). Emulator: this repo's own copy in `tools/mesen/` (MesenCE 2.2.1, https://github.com/nesdev-org/MesenCE/releases/download/2.2.1/Mesen_2.2.1_Windows.zip; gitignored; needs `tools/mesen/Firmware/gba_bios.bin`, SHA-1 300c20df...). Savestates: `work/states/`.
-- Text: `script/` (JSON, phase 4). Tables: `tbl/jp.tbl` (generated). Glossary: `glossary.md`. RE notes index: `docs/re/README.md`. Fonts and their licences: `docs/fonts.md`.
+- Text: `script/` (JSON, phase 4). Tables: `tbl/jp.tbl` (generated). Glossary: `glossary.md`. Width budgets: `tools/limits.py` (`docs/re/windows.md`), linted by `tests/test_lint.py`. RE notes index: `docs/re/README.md`. Fonts and their licences: `docs/fonts.md`.
 
 ## Rulings
 - Edit source files (.py .lua .asm .tbl .json) only with the file-edit tool; scripts here read and analyse, never `.replace()` and write back.
