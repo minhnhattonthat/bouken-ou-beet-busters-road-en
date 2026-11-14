@@ -25,9 +25,9 @@ def scenes(path=ROOT / "tools/debug/scenes.txt"):
     for line in path.read_text(encoding="utf-8").splitlines():
         f = line.split("#")[0].split()
         if f:
-            if len(f) != 5:
-                raise SystemExit(f"scenes.txt: need 5 fields: {line!r}")
-            out.append(dict(zip(("name", "map", "pos", "script", "route"), f)))
+            if len(f) not in (5, 6):
+                raise SystemExit(f"scenes.txt: need 5 fields (+ optional state): {line!r}")
+            out.append(dict(zip(("name", "map", "pos", "script", "route", "state"), f)))
     return out
 
 

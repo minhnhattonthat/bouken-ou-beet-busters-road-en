@@ -28,6 +28,11 @@ local function load_scene(name)
     local f = {}
     for w in l:gmatch("%S+") do f[#f + 1] = w end
     if f[1] == name then
+      for k, v in (f[6] or ""):gmatch("(%u+)=([^;]+)") do  -- state column: GIVE=3001-3028,4001;MONEY=99999
+        if k == "GIVE" and not GIVE then GIVE = v elseif k == "MONEY" and not MONEY then MONEY = tonumber(v)
+        elseif k == "POKE" and not POKE then POKE = v
+        elseif (k == "GOD" or k == "KILL") and _G[k] == nil then _G[k] = tonumber(v) end
+      end
       return { name = f[1], map = f[2], pos = f[3], script = f[4], route = f[5] }
     end
   end
@@ -43,6 +48,34 @@ local function queue_route(r)
     local n, spec = step:match("^(%d+)_(%S+)$")
     if not n then error("bad route step: " .. step) end
     L.press(spec, tonumber(n))
+  end
+end
+
+-- State grants, as a called script at GRANT (EWRAM 0x0203C000-0x0203FE00 stays zero in every dump):
+-- GIVE='3001-3028,4001' = opcode 03 <id32> per item id (hex; 1xxx weapons, 2xxx armor, 3xxx loot, 4xxx items),
+-- MONEY=n = opcode 04 <n32> (adds マギー). Scenes take them (and POKE, GOD, KILL) from a 6th scenes.txt column,
+-- KEY=value pairs joined by ; (GIVE=3001-3028,4001;POKE=24=00ffffff;GOD=1). A --var wins over the column.
+local GRANT = 0x0203F000
+local function grant_bytes()
+  local b = {}
+  local function op(o, v) b[#b + 1] = o; for k = 0, 3 do b[#b + 1] = (v >> (8 * k)) & 0xFF end end
+  for lo, hi in (GIVE or ""):gmatch("(%x+)%-?(%x*)") do
+    for id = tonumber(lo, 16), tonumber(hi ~= "" and hi or lo, 16) do op(0x03, id) end
+  end
+  if MONEY then op(0x04, MONEY) end
+  if #b > 0 then b[#b + 1] = 0xFF end
+  return b
+end
+
+-- POKE='2F98=ff*21,2DF4=9f860100': raw bytes (hex, little-endian; *n repeats) into the save object *0x030041A8
+-- at the given hex offsets, once at warp time. Offsets: docs/re/events.md (money 2DF0, book bits 2F98 ...).
+local function pokes()
+  local top = r32(TOP)
+  for off, hex, rep in (POKE or ""):gmatch("(%x+)=(%x+)%*?(%d*)") do
+    local a = top + tonumber(off, 16)
+    for _ = 1, tonumber(rep ~= "" and rep or "1") do
+      for byte in hex:gmatch("%x%x") do emu.write(a, tonumber(byte, 16), M); a = a + 1 end
+    end
   end
 end
 
@@ -72,6 +105,11 @@ local function warp_bytes()
       end
     end
   end
+  local g = grant_bytes()
+  if #g > 0 then
+    for i = 1, #g do emu.write(GRANT + i - 1, g[i], M) end
+    add(0xA0, GRANT & 0xFF, (GRANT >> 8) & 0xFF, (GRANT >> 16) & 0xFF, GRANT >> 24)
+  end
   add(0x7C)
   if sc.script and sc.script ~= "-" and not sc.script:match("^b") then
     local p = tonumber(sc.script, 16) | 0x08000000
@@ -97,7 +135,28 @@ local function encounters(gs)
 end
 
 local phase, t0 = sc.map == "-" and "boot" or "title", 0
+-- GOD=1: party HP refilled every battle frame; KILL=1: enemy HP held at 1 (one hit wins). Battle object
+-- *0x030041C4 (0 outside battles); its actor-list nodes lie in the 0x400 bytes before it, node+0x10 = actor;
+-- actor +4 = chars record (party) else enemy, +8 HP u16, +0xE max HP u16 (docs/re/events.md).
+local function cheats()
+  local b = r32(0x030041C4)
+  if b < 0x02000400 or b >= 0x02040000 then return end
+  for a = b - 0x400, b - 4, 4 do
+    local p = r32(a)
+    if p >= 0x02000000 and p < 0x02040000 and p ~= a then
+      local hp, mx = emu.read16(p + 8, M), emu.read16(p + 0xE, M)
+      local r = r32(p + 4)
+      local party = r >= 0x080A3EB0 and r < 0x080A4210
+      if hp > 0 and hp <= mx and mx < 10000 and (r32(p) == 0 or r32(p) == 0xFFFFFFFF) then
+        if party and GOD then emu.write16(p + 8, mx, M)
+        elseif not party and KILL and hp > 1 then emu.write16(p + 8, 1, M) end
+      end
+    end
+  end
+end
+
 L.on_frame(function(n)
+  if (GOD or KILL) and r32(MODE) == 3 then cheats() end
   if (phase == "done" or NOENC) and r32(MODE) == 1 then
     local gs = r32(GSP)
     if gs >= 0x02000000 and gs < 0x02040000 then encounters(gs) end
@@ -122,6 +181,7 @@ L.on_frame(function(n)
     end
   elseif phase == "inject" and n - t0 >= 10 then
     local gs = r32(GSP)
+    pokes()
     local b = warp_bytes()
     for i = 1, #b do emu.write(BUF + i - 1, b[i], M) end
     emu.write32(gs + EVP, BUF, M)

@@ -15,6 +15,10 @@ Addresses are CPU addresses (`0x08xxxxxx` = ROM offset + 0x08000000). Tools: `to
 | Interpreter | `*0x030041C8`: +4 script PC, +8 START-skip target (opcode 6D); call stack at +0x34.. |
 | Encounter table | `GS+0x5C` (from map record word 23): u8 step divisor, u8 rate %, u8 ambush %, u8 count, ptr to {u8 weight, u8 ?, u16 enemy group}. Roll `0x080280D4`; on success `0x08028E00`, mode 3. `GS+0x1EC4` = chosen group, `GS+0x1ECC` step counter. |
 | Battle | field mode 3 handler `0x0802569C` calls `0x08025958(GS, {group, ...})` (blocking); after it, a dead enemy actor with a script (+8) runs it (boss defeat scenes). Idle in a battle = defeat = GAME OVER screen. |
+| Battle actors | battle object `*0x030041C4` (0 outside battles); actor-list nodes in the 0x400 bytes before it, node+0x10 = actor; actor +4 = chars record (party, `0x080A3EB0..`) else enemy, +8 HP u16, +0xE max HP u16. Verified: GOD/KILL in warp.lua win group 0x78 (`work/qa/win2`). |
+| Save object (SO) | `*0x030041A8` (= `0x02003BA0` in a new game; holds the top-level state at +4). Character i = SO+0xC+i*0x18C (`0x08001988`): +0xC level (u8, max 99, EXP table `0x080F93AC`), +0x18 EXP u32 (Beet: SO+0x24). Inventory SO+0x1428 (add: `0x0800D610(inv, id)`, id 1xxx weapon, 2xxx armor, 3xxx loot, 4xxx item). Money SO+0x2DF0 u32 (`0x0800186C`, add `0x08001794`); pending appraiser reward SO+0x2DF4 (paid at 網膜鑑定). Monster-book bits SO+0x2F98 (bit n = book No. n; No. 0 is a dummy record). All verified with warp.lua grants. |
+| Opcodes 03 / 04 | `03 id32` give item (no message), `04 n32` add money: verified (warp.lua GIVE/MONEY). |
+| Appraisal house | `5E` 網膜鑑定 (level up: runs a script hooked at `*(*(*0x030041B0+0x74)+0x40)`, levels via `0x08009B2C`), `61` accept quest, `60` report quest. |
 
 ## Map table — verified (`tools/maps.py`)
 `0x10CFBC`, 320 records of 96 bytes: word 0 = area id (0-38), bytes 4-23 = map name (u16 codes), words 6-16 =
@@ -70,3 +74,9 @@ first dialogue until field mode 1 (~f1542), then writes `4A map / 50|4F pos / 0E
 script> / FF` to spare EWRAM `0x0203FE00` and sets `GS+0x1E18` to it and mode 2, as a door or NPC trigger does.
 `b<group>` scenes point `GS+0x5C` at a 100%-rate table at `0x0203FE40` instead. `NOENC=1` zeroes `GS+0x5C`.
 `warpall.py [--states]` runs every scene (4 jobs, ~1700 frames each) and saves `work/states/<scene>.mss`.
+State grants (scenes.txt 6th column or `--var`): `GIVE=3001-3028,4001` (opcode 03 per id, in a script at
+`0x0203F000`; EWRAM `0x0203C000-0x0203FE00` stays zero in every dump), `MONEY=n` (opcode 04), `POKE=off=hexbytes[*n],..`
+(save-object bytes at warp time), `GOD=1` / `KILL=1` (battle HP). Scenes: `toolbox_*`, `book_full`, `retina_99`
+(Beet to level 99), `skills_slot`, `battle_win`. Not yet: quest availability (quest records at `0x241000` are tag-coded
+data with linked pointers; the board's filter is unknown), learned Saiga moves / Tenmon (the skills LIST stays empty at
+level 99 with the Saiga weapons 0x1010-0x1019 given), party members beyond Beet.
