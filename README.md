@@ -23,8 +23,8 @@ Known issues: in the field toolbox list, names longer than about 13 letters run 
 clips its long names the same way). Others: see [Issues](../../issues).
 
 Base ROM: `Bouken-Ou Beet - Busters Road (Japan).gba`, 16,777,216 bytes, CRC32 `1CC42EBC`, MD5
-`42f9a789ccc93fb5ccfd63f086f5094d`, SHA-1 `82e8e42fe7b5cef46079ed18ad38b2f48c26d52d`. Tested in MesenCE 2.2.1; start
-from a cold boot.
+`42f9a789ccc93fb5ccfd63f086f5094d`, SHA-1 `82e8e42fe7b5cef46079ed18ad38b2f48c26d52d`. Patched v1.0: CRC32 `2709CD0F`,
+SHA-1 `e4f53403ffffb8c3c2eb57b942cc639f7fc3daf7`. Tested in MesenCE 2.2.1; start from a cold boot.
 
 ## What's here
 
