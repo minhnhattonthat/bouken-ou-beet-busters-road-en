@@ -13,13 +13,18 @@ helps most.
 
 | Part | Status |
 |---|---|
-| <Dialogue / story> | <Translated> |
-| <Menus, items, skills, system messages> | <Translated> |
-| <Title screen, logos, graphics with text> | <Translated / Left in Japanese> |
-| <Name entry> | <Translated / Japanese kana only> |
-| <Songs, voiced lines, credits roll> | <Left in Japanese> |
+| Dialogue, story, quests | Translated |
+| Menus, items, monsters, skills, system messages | Translated |
+| Title logo, menu labels, shop/quest headers, book labels and other graphics with text | Redrawn in English |
+| Prologue crawl, ending credits | Translated |
+| Name entry | None in this game |
 
-Known issues: <none known / see [Issues](../../issues)>.
+Known issues: in the field toolbox list, names longer than about 13 letters run under the status panel (the Japanese
+clips its long names the same way). Others: see [Issues](../../issues).
+
+Base ROM: `Bouken-Ou Beet - Busters Road (Japan).gba`, 16,777,216 bytes, CRC32 `1CC42EBC`, MD5
+`42f9a789ccc93fb5ccfd63f086f5094d`, SHA-1 `82e8e42fe7b5cef46079ed18ad38b2f48c26d52d`. Tested in MesenCE 2.2.1; start
+from a cold boot.
 
 ## What's here
 
@@ -40,11 +45,12 @@ Known issues: <none known / see [Issues](../../issues)>.
 Needs Python 3.12+ and your own dump of the Japanese game.
 
 ```sh
-git clone https://github.com/minhnhattonthat/<repo>
-cd <repo>
-# copy your dump to: rom/<file>
-#   (<size> bytes, SHA-1 <sha1>; the build refuses any other dump, see rom.sha1)
-python -X utf8 tools/build.py                          # -> build/<game>_en.<ext>
+git clone https://github.com/minhnhattonthat/bouken-ou-beet-busters-road-en
+cd bouken-ou-beet-busters-road-en
+# copy your dump to: rom/Bouken-Ou Beet - Busters Road (Japan).gba
+#   (16777216 bytes, SHA-1 82e8e42fe7b5cef46079ed18ad38b2f48c26d52d; the build refuses any other dump, see rom.sha1)
+python -X utf8 tools/build.py                          # -> build/beet_en.gba
+python -X utf8 tools/release.py                        # release gate + BPS patch + zip in release/
 python -X utf8 tools/check.py                          # tests + text lint
 ```
 
@@ -56,8 +62,9 @@ If you enjoy this translation, you can support my work on Ko-fi:
 
 ## Licence
 
-Tools and English translation: MIT. The original Japanese text in `script/` is <publisher>'s and is included only so
-the translation can be checked against it. <Game title> is (c) <publisher>; this project is not affiliated with them.
+Tools and English translation: MIT. The original Japanese text in `script/` is Bandai's and is included only so
+the translation can be checked against it. Bouken-Ou Beet: Busters Road is (c) Riku Sanjo, Koji Inada / Shueisha,
+Bandai; this project is not affiliated with them.
 Do not share patched ROMs.
 
 The translation was made with extensive AI assistance (Claude by Anthropic). Corrections are very welcome.
