@@ -33,6 +33,6 @@ KNOWN ISSUES
 CREDITS
 - Translation, tools and hacking: minhnhattonthat, with extensive AI assistance (Claude by Anthropic, Codex by
   OpenAI). Corrections are very welcome.
-- Fonts: see the project's docs/fonts.md (Bangers, SIL Open Font License, for the title logo).
+- Fonts: all drawn for this project (MIT); see the project's docs/fonts.md.
 - Bouken-Ou Beet: Busters Road is (c) Riku Sanjo, Koji Inada / Shueisha, Bandai. This project is not affiliated
   with them.
