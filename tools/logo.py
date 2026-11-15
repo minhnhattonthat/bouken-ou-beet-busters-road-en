@@ -1,6 +1,6 @@
-"""logo.py: G2 English title logo (D5: "Beet the Vandel Buster" + "Busters Road"). The title logo is one screen
+"""logo.py: G2 English title logo (D16: "Beet the Vandel Buster" + "Busters Road"). The title logo is one screen
 (pointer triple 0x34630: 236 tiles, 30x20 map, 14 palette banks). We render it to RGBA, paint the English over the
-Japanese lettering with an OFL font from fonts/ (docs/fonts.md), then re-tile it: per 8x8 cell the palette bank that
+Japanese lettering with purpose-drawn pixel caps (docs/fonts.md), then re-tile it: per 8x8 cell the palette bank that
 draws it best, tiles deduped (flips too), at most as many tiles as the block holds, so it stays in place.
 
     python -X utf8 tools/logo.py OUT_DIR     # logo_jp.png, logo_target.png, logo_en.png (4x) for review
@@ -10,13 +10,12 @@ import struct
 import sys
 from pathlib import Path
 
-from PIL import Image, ImageDraw, ImageFont
+from PIL import Image, ImageChops, ImageDraw, ImageFilter
 
 import gfx
 
 ROOT = Path(__file__).resolve().parents[1]
 TABLE = 0x34630
-FONTS = ROOT / "fonts"
 
 
 def banks(rom, at):
@@ -40,37 +39,68 @@ def render(s, pal):
     return img
 
 
-LUCKY = FONTS / "luckiestguy_LuckiestGuy-Regular.ttf"
 # Colours taken from the logo's own banks: the plate (bank 1) and the band letters (bank 8)
 DARK, PLATE_RED, CREAM = (0x20, 0x18, 0x08), (0xC8, 0x20, 0x18), (0xE8, 0xE0, 0xC8)
 PLATE_GRAD = [(0xF8, 0xF0, 0x08), (0xF0, 0xD8, 0x08), (0xE8, 0xC0, 0x00), (0xE8, 0xA0, 0x00), (0xE8, 0x88, 0x08),
               (0xE8, 0x70, 0x18)]
 BLACK, MAROON, RED, WHITE = (0, 0, 0), (0x68, 0x08, 0x18), (0xA8, 0x00, 0x20), (0xF8, 0xF8, 0xF8)
-PLATE = (8, 39)  # plate rows (cell rows 1-4); band rows 40-71 (cell rows 5-8); ribbons from 72
-BAND = (40, 71)
+# Bank 0 carries the original plate's golden edge alongside the white backing.
+# Use it on boundary cells; bank 1's cream would otherwise tint a rectangular halo.
+PLATE_EDGE = [(0x20, 0x20, 0x08), (0x40, 0x38, 0x10), (0x68, 0x48, 0x18),
+              (0x78, 0x60, 0x28), (0x98, 0x80, 0x20), (0xC0, 0x90, 0x18),
+              (0xE8, 0x90, 0x00), (0xB0, 0xA0, 0x58), (0xE8, 0xA8, 0x18),
+              (0xC0, 0xB0, 0x78), (0xD0, 0xC8, 0x98), (0xE0, 0xD0, 0xA8),
+              (0xF0, 0xE0, 0xD8), WHITE]
 CLEAR = [(40, 4, 160, 36), (8, 36, 224, 36)]  # x, y, w, h: old plate + 冒険王ビィト, バスターズロード band
 
 
-def text_mask(s, size, track=1, font=LUCKY):
-    """Letters one by one with `track` px between their ink, so outlines never fuse two letters."""
-    f = ImageFont.truetype(str(font), size)
-    ims = []
-    for ch in s:
-        if ch == " ":
-            ims.append(Image.new("L", (size // 4, 1), 0))
-            continue
-        x0, _, x1, _ = f.getbbox(ch)
-        m = Image.new("L", (x1 + 2, size * 2), 0)
-        d = ImageDraw.Draw(m)
-        d.fontmode = "1"  # no antialiasing: the palette has no in-between shades
-        d.text((1, 0), ch, font=f, fill=255)
-        ims.append(m.crop((1 + x0, 0, 1 + x1, size * 2)))
-    out = Image.new("L", (sum(i.width for i in ims) + track * (len(ims) - 1), size * 2), 0)
+def display_glyph(ch):
+    """Original 13x21 caps: four-pixel stems, chamfered corners and generous counters.
+
+    Draw upright first; one affine shear gives every edge the same clean slant.
+    Coordinates are native GBA pixels, not a small rasterization of a display TTF.
+    """
+    m = Image.new("L", (13, 21), 0)
+    d = ImageDraw.Draw(m)
+    outlines = {
+        "B": [(0, 0), (9, 0), (12, 3), (12, 8), (10, 10), (12, 12), (12, 17), (9, 20), (0, 20)],
+        "U": [(0, 0), (3, 0), (3, 16), (9, 16), (9, 0), (12, 0), (12, 17), (9, 20), (3, 20), (0, 17)],
+        "S": [(3, 0), (12, 0), (12, 3), (4, 3), (4, 8), (9, 8), (12, 11), (12, 17), (9, 20),
+              (0, 20), (0, 17), (8, 17), (8, 12), (3, 12), (0, 9), (0, 3)],
+        "T": [(0, 0), (12, 0), (12, 3), (8, 3), (8, 20), (4, 20), (4, 3), (0, 3)],
+        "E": [(0, 0), (12, 0), (12, 3), (4, 3), (4, 8), (10, 8), (10, 12), (4, 12),
+              (4, 17), (12, 17), (12, 20), (0, 20)],
+        "R": [(0, 0), (9, 0), (12, 3), (12, 9), (9, 12), (12, 20), (8, 20), (4, 12), (3, 12),
+              (3, 20), (0, 20)],
+        "O": [(3, 0), (9, 0), (12, 3), (12, 17), (9, 20), (3, 20), (0, 17), (0, 3)],
+        "A": [(3, 0), (9, 0), (12, 3), (12, 20), (9, 20), (9, 13), (3, 13), (3, 20), (0, 20), (0, 3)],
+        "D": [(0, 0), (8, 0), (12, 4), (12, 16), (8, 20), (0, 20)],
+    }
+    d.polygon(outlines[ch], fill=255)
+    counters = {"B": [(4, 4, 8, 7), (4, 13, 8, 16)], "R": [(4, 4, 8, 8)],
+                "O": [(4, 4, 8, 16)], "A": [(4, 4, 8, 8)], "D": [(4, 4, 8, 16)]}
+    for rect in counters.get(ch, ()):
+        d.rectangle(rect, fill=0)
+    return m
+
+
+def slant(mask, lean):
+    """Nearest-neighbour affine shear: lean pixels right at the cap, no antialiasing."""
+    slope = lean / (mask.height - 1)
+    return mask.transform((mask.width + lean, mask.height), Image.Transform.AFFINE,
+                          (1, slope, -lean, 0, 1, 0), resample=Image.Resampling.NEAREST)
+
+
+def text_mask(s, width=12, track=6, lean=6):
+    """Six blank columns keep the band's maroon outlines apart, even diagonally."""
+    ims = [Image.new("L", (1, 21), 0) if ch == " " else
+           display_glyph(ch).resize((width, 21), Image.Resampling.NEAREST) for ch in s]
+    out = Image.new("L", (sum(i.width for i in ims) + track * (len(ims) - 1), 21), 0)
     x = 0
-    for i in ims:
-        out.paste(i, (x, 0))
-        x += i.width + track
-    return out.crop(out.getbbox())
+    for m in ims:
+        out.paste(m, (x, 0))
+        x += m.width + track
+    return slant(out, lean)
 
 
 def pixel_mask(s):
@@ -88,8 +118,18 @@ def pixel_mask(s):
 
 
 def grow(mask, r):
-    from PIL import ImageFilter
-    return mask.filter(ImageFilter.MaxFilter(2 * r + 1)) if r else mask
+    """Chamfer the 2-px letter stroke so the slant cannot join neighbouring caps.
+
+    Keep the outer sticker square, like the Japanese art. stamp supplies zero padding.
+    """
+    if r != 2:
+        return mask.filter(ImageFilter.MaxFilter(2 * r + 1)) if r else mask
+    out = mask.copy()
+    for dy in range(-r, r + 1):
+        for dx in range(-r, r + 1):
+            if 0 < dx * dx + dy * dy <= r * r:
+                out = ImageChops.lighter(out, ImageChops.offset(mask, dx, dy))
+    return out
 
 
 def stamp(img, mask, at, layers):
@@ -105,39 +145,45 @@ def stamp(img, mask, at, layers):
 def compose(jp):
     img = jp.copy()
     px = img.load()
-    for x, y, w, h in CLEAR:  # old lettering -> the logo's white backing; the blue feather behind it stays
+    for x, y, w, h in CLEAR:  # old lettering -> white backing; exposed blue feather stays
         for yy in range(y, y + h):
             for xx in range(x, x + w):
                 r, g, b, a = px[xx, yy]
                 if a and not (b > r + 24 and xx >= 120):  # the feather is right of x=120; bluish specks left of it are outline
                     px[xx, yy] = WHITE + (255,)
-    d = ImageDraw.Draw(img)
-    # plate: slanted, dark frame, yellow-to-orange bands
-    top, bot = PLATE
-    x0, x1, skew = 46, 194, 8
-    for y in range(top, bot + 1):
-        k = (y - top) * skew // (bot - top)
-        xa, xb = x0 + skew - k, x1 + skew - k
-        band = PLATE_GRAD[min(len(PLATE_GRAD) - 1, (y - top - 2) * len(PLATE_GRAD) // (bot - top - 3))]
-        d.line((xa, y, xb, y), fill=DARK)
-        if top + 1 < y < bot - 1:
-            d.line((xa + 2, y, xb - 2, y), fill=band)
-    # the title blends the logo towards red in game, so the plate reads pink: white letters with a dark outline and
-    # dark pixel-font subtitle keep the contrast; maroon drop shadows give depth without eating the counters
-    beet = text_mask("BEET", 24)
+    plate_layer = Image.new("RGBA", jp.size)
+    d = ImageDraw.Draw(plate_layer)
+    # Angular flared plate, following the original's raised corners and dark bevel.
+    plate = [(44, 9), (77, 13), (86, 9), (92, 12), (181, 12), (199, 8),
+             (193, 24), (188, 39), (44, 39), (49, 24)]
+    d.polygon(plate, fill=DARK)
+    d.line(plate + [plate[0]], fill=CREAM, width=1)
+    d.polygon([(48, 12), (78, 16), (86, 12), (92, 15), (182, 15), (195, 11),
+               (190, 24), (186, 36), (48, 36), (52, 24)], fill=PLATE_RED)
+    # Dark-red lettering panel and golden BEET echo the two colours of the Japanese title.
+    beet = text_mask("BEET", width=15, track=4, lean=5)
     l1, l2 = pixel_mask("THE VANDEL"), pixel_mask("BUSTER")
-    gap = 6
-    bx = (x0 + x1 + skew - beet.width - gap - l1.width) // 2
-    by = top + (bot - top + 1 - beet.height) // 2
-    stamp(img, beet, (bx, by), [(1, DARK), (1, DARK, (1, 1)), (0, CREAM)])  # the plate's bank has cream, no white
-    sx = bx + beet.width + gap
-    sy = top + (bot - top + 1 - 17) // 2
-    stamp(img, l1, (sx, sy), [(0, DARK)])
-    stamp(img, l2, (sx + (l1.width - l2.width) // 2, sy + 9), [(0, DARK)])
-    road = text_mask("BUSTERS ROAD", 30)
+    bx, by = 52, 15
+    stamp(plate_layer, beet, (bx, by), [(2, DARK), (1, CREAM), (0, DARK)])
+    gold = Image.new("RGBA", beet.size)
+    gd = ImageDraw.Draw(gold)
+    for y in range(beet.height):
+        gd.line((0, y, beet.width, y), fill=PLATE_GRAD[y * len(PLATE_GRAD) // beet.height] + (255,))
+    plate_layer.paste(gold, (bx, by), beet)
+    sx, sy = bx + beet.width + 5, 16
+    stamp(plate_layer, l1, (sx, sy), [(1, DARK), (0, CREAM)])
+    stamp(plate_layer, l2, (sx + (l1.width - l2.width) // 2 - 2, sy + 10), [(1, DARK), (0, CREAM)])
+    pp = plate_layer.load()
+    for y in range(8, 40):
+        for x in range(40, 200):
+            r, g, b, a = pp[x, y]
+            if a and (y < 16 or x < 56 or x >= 192 or (y >= 32 and x >= 184)):
+                col = min(PLATE_EDGE, key=lambda c: (r - c[0]) ** 2 + (g - c[1]) ** 2 + (b - c[2]) ** 2)
+                pp[x, y] = col + (255,)
+    img.alpha_composite(plate_layer)
+    road = text_mask("BUSTERS ROAD")
     rx = (240 - road.width) // 2
-    stamp(img, road, (rx, BAND[0] + (BAND[1] - BAND[0] + 1 - road.height) // 2),
-          [(3, BLACK), (2, WHITE), (1, BLACK), (1, MAROON, (1, 1)), (0, WHITE)])
+    stamp(img, road, (rx, 44), [(4, BLACK), (3, WHITE), (2, MAROON), (0, WHITE)])
     return img
 
 
