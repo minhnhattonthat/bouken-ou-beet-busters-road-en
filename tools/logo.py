@@ -40,7 +40,7 @@ def render(s, pal):
     return img
 
 
-BANGERS = FONTS / "bangers_Bangers-Regular.ttf"
+LUCKY = FONTS / "luckiestguy_LuckiestGuy-Regular.ttf"
 # Colours taken from the logo's own banks: the plate (bank 1) and the band letters (bank 8)
 DARK, PLATE_RED, CREAM = (0x20, 0x18, 0x08), (0xC8, 0x20, 0x18), (0xE8, 0xE0, 0xC8)
 PLATE_GRAD = [(0xF8, 0xF0, 0x08), (0xF0, 0xD8, 0x08), (0xE8, 0xC0, 0x00), (0xE8, 0xA0, 0x00), (0xE8, 0x88, 0x08),
@@ -51,15 +51,39 @@ BAND = (40, 71)
 CLEAR = [(40, 4, 160, 36), (8, 36, 224, 36)]  # x, y, w, h: old plate + 冒険王ビィト, バスターズロード band
 
 
-def text_mask(s, size, xscale=1.0):
-    f = ImageFont.truetype(str(BANGERS), size)
-    x0, y0, x1, y1 = f.getbbox(s)
-    m = Image.new("L", (x1 - x0 + 2, y1 - y0 + 2), 0)
-    d = ImageDraw.Draw(m)
-    d.fontmode = "1"  # no antialiasing: the palette has no in-between shades
-    d.text((1 - x0, 1 - y0), s, font=f, fill=255)
-    if xscale != 1.0:
-        m = m.resize((round(m.width * xscale), m.height), Image.NEAREST)
+def text_mask(s, size, track=1, font=LUCKY):
+    """Letters one by one with `track` px between their ink, so outlines never fuse two letters."""
+    f = ImageFont.truetype(str(font), size)
+    ims = []
+    for ch in s:
+        if ch == " ":
+            ims.append(Image.new("L", (size // 4, 1), 0))
+            continue
+        x0, _, x1, _ = f.getbbox(ch)
+        m = Image.new("L", (x1 + 2, size * 2), 0)
+        d = ImageDraw.Draw(m)
+        d.fontmode = "1"  # no antialiasing: the palette has no in-between shades
+        d.text((1, 0), ch, font=f, fill=255)
+        ims.append(m.crop((1 + x0, 0, 1 + x1, size * 2)))
+    out = Image.new("L", (sum(i.width for i in ims) + track * (len(ims) - 1), size * 2), 0)
+    x = 0
+    for i in ims:
+        out.paste(i, (x, 0))
+        x += i.width + track
+    return out.crop(out.getbbox())
+
+
+def pixel_mask(s):
+    """s in the project's 8-px-cap pixel font (tbl/font_label.txt): crisp at this size where a TTF smears."""
+    font = gfx.load_font()
+    m = Image.new("L", (gfx.text_width(font, s), 8), 0)
+    x = 0
+    for c in s:
+        for y, row in enumerate(font[c][:8]):
+            for gx, ch in enumerate(row):
+                if ch == "#":
+                    m.putpixel((x + gx, y), 255)
+        x += len(font[c][0]) + 1
     return m
 
 
@@ -69,12 +93,13 @@ def grow(mask, r):
 
 
 def stamp(img, mask, at, layers):
-    """layers: [(outline radius, colour)] from the outside in; each fills mask grown by its radius."""
-    pad = max(r for r, _ in layers)
+    """layers: [(outline radius, colour[, (dx, dy) offset])] from the outside in; each fills mask grown by its radius."""
+    pad = max(r for r, *_ in layers)
     big = Image.new("L", (mask.width + 2 * pad, mask.height + 2 * pad), 0)
     big.paste(mask, (pad, pad))
-    for r, col in layers:
-        img.paste(col + (255,) if len(col) == 3 else col, (at[0] - pad, at[1] - pad), grow(big, r))
+    for r, col, *off in layers:
+        dx, dy = off[0] if off else (0, 0)
+        img.paste(col + (255,) if len(col) == 3 else col, (at[0] - pad + dx, at[1] - pad + dy), grow(big, r))
 
 
 def compose(jp):
@@ -97,18 +122,22 @@ def compose(jp):
         d.line((xa, y, xb, y), fill=DARK)
         if top + 1 < y < bot - 1:
             d.line((xa + 2, y, xb - 2, y), fill=band)
-    beet = text_mask("BEET", 26)
-    sub = text_mask("THE VANDEL BUSTER", 15)
-    bx = 54
-    by = bot - 3 - beet.height
-    # the title blends the logo towards red in game, so red on the plate loses contrast: cream letters instead
-    stamp(img, beet, (bx, by), [(2, PLATE_RED), (1, DARK), (0, CREAM)])
-    stamp(img, sub, (bx + beet.width + 6, bot - 4 - sub.height), [(1, CREAM), (0, DARK)])
-    # band: BUSTERS ROAD, white letters, maroon then black then white outline
-    road = text_mask("BUSTERS ROAD", 30, 1.2)
+    # the title blends the logo towards red in game, so the plate reads pink: white letters with a dark outline and
+    # dark pixel-font subtitle keep the contrast; maroon drop shadows give depth without eating the counters
+    beet = text_mask("BEET", 24)
+    l1, l2 = pixel_mask("THE VANDEL"), pixel_mask("BUSTER")
+    gap = 6
+    bx = (x0 + x1 + skew - beet.width - gap - l1.width) // 2
+    by = top + (bot - top + 1 - beet.height) // 2
+    stamp(img, beet, (bx, by), [(1, DARK), (1, DARK, (1, 1)), (0, CREAM)])  # the plate's bank has cream, no white
+    sx = bx + beet.width + gap
+    sy = top + (bot - top + 1 - 17) // 2
+    stamp(img, l1, (sx, sy), [(0, DARK)])
+    stamp(img, l2, (sx + (l1.width - l2.width) // 2, sy + 9), [(0, DARK)])
+    road = text_mask("BUSTERS ROAD", 30)
     rx = (240 - road.width) // 2
     stamp(img, road, (rx, BAND[0] + (BAND[1] - BAND[0] + 1 - road.height) // 2),
-          [(4, BLACK), (3, WHITE), (2, BLACK), (1, MAROON), (0, WHITE)])
+          [(3, BLACK), (2, WHITE), (1, BLACK), (1, MAROON, (1, 1)), (0, WHITE)])
     return img
 
 

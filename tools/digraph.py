@@ -5,7 +5,7 @@ cell holding two 6-px letters gives English with no code change and doubles what
 Codes: DIGRAPH + i*N + j for the pair (CHARSET[i], CHARSET[j]); the font is copied to free space and extended with
 every pair (font_block), and the one pointer to it (literal 0x4914) is moved. Japanese codes 0..0x1F1D keep their
 cells, so text left untranslated still reads. Letters: tbl/font_en.txt (5 px art, drawn for the getbackers project,
-MIT), centred in their 6-px half; font_en row r goes to cell row r+1 (caps rows 2-9, like the game's own ASCII).
+MIT), centred in their 6-px half; font_en row r goes to cell row r (caps rows 1-8, descenders to row 10; row 11 is clipped in-game).
 
     python -X utf8 tools/digraph.py sheet OUT.png "text"   # render a string the way the game will
     python -X utf8 tools/digraph.py                       # selftest
@@ -70,7 +70,8 @@ def pair(c):
 def cell(a, b):
     """24 bytes: 12 rows of u16 LE, bit 15 = leftmost pixel (the game's glyph format)."""
     la, lb = letters()[a], letters()[b]
-    rows = [0] + [(la[y] << 11) | (lb[y] << 5) for y in range(11)]
+    # cell row 11 is clipped in the dialogue window (JP glyphs never use it): letters take rows 0-10
+    rows = [(la[y] << 11) | (lb[y] << 5) for y in range(11)] + [0]
     return b"".join(struct.pack("<H", r) for r in rows)
 
 

@@ -13,7 +13,7 @@ Each 12x12 cell holds two 6-px letters (5 px art + 1 px gap): `tools/digraph.py`
 pair (CHARSET[i], CHARSET[j]), N = 90 (printable ASCII less `\^`{|}` plus `…`), up to `0x3FA4`. `build.font` copies
 the Japanese font (cells 0-0x1F1D) to `0xE04C00`, pads to 0x2000, appends all 8,100 pair cells (0x5F760 bytes in all,
 `0xE04C00-0xE64360`) and moves the literal at `0x4914`. Letters: `tbl/font_en.txt` (getbackers project, MIT), centred
-in the half cell, cap rows 2-9, descenders 10-11.
+in the half cell, cap rows 1-8, descenders 9-10 (cell row 11 is clipped by the dialogue window; 5 of 7,966 JP cells use it).
 - Cost: no code change; every fixed field holds 2 letters per code unit (names 20 letters, descriptions 72).
 - Limit: fixed 6-px pitch. A run between tags with odd length ends in a half space, so text right after a
   runtime-inserted name ([FF00]) starts on a cell boundary.
