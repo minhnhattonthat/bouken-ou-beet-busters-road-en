@@ -1,6 +1,6 @@
 """release.py: phase-9 release gate and package (references/pipeline.md §Release). Stops at the first failure.
 
-    python -X utf8 tools/release.py [--version 1.0] [--force] [--skip-build]
+    python -X utf8 tools/release.py [--version 1.1] [--force] [--skip-build]
 
 build -> tests -> smoke -> jp_left (text the game reads) -> qa_gate check on every work/qa/**/manifest*.tsv that a
 `verdicts` dir sits next to (visual tour, story pass) -> textcover -> no unticked line in docs/polish.md -> no template
@@ -44,7 +44,7 @@ def hashes(b):
 
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("--version", default="1.0")
+    ap.add_argument("--version", default="1.1")
     ap.add_argument("--force", action="store_true", help="overwrite release/v<version>/")
     ap.add_argument("--skip-build", action="store_true", help="gate the existing build/ output (tests still run)")
     a = ap.parse_args()
