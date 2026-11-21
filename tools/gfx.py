@@ -343,6 +343,52 @@ def sort_badge(rom, at=SORT_AT, text="SORT"):
     return tiles_put([list(block(img, tx, 0)) for tx in range(5)])
 
 
+# Battle result splash 昇格値 (issue #1): 64x16 raw label, top row 8 tiles at 0x086F3740, bottom row at +0x100
+# (literal at 0x239F0, beside HIT 0x6F3DC0). Same art as HIT/ITEM/MG: italic white caps (1, shaded 2/3, outline 4)
+# over a yellow spark (5-8). The spark is rebuilt per row (start x, left end, fill; the right end mirrors it), then
+# hand-drawn bold caps, sheared 1 px per 4 rows like HIT. Tiles 0 and 8 (x 0-7) are HIT's left end too: unchanged.
+MERIT_AT = 0x6F3740
+SPARK = {3: (4, "567", 1), 4: (6, "56711", 7), 5: (8, "56711", 7), 6: (10, "567", 1), 7: (12, "5", 6), 8: (13, "", 8),
+         9: (12, "56", 1), 10: (10, "5611", 7), 11: (8, "56711", 7), 12: (6, "56711", 7), 13: (4, "56711", 7),
+         14: (2, "567", 1)}
+CAPS12 = {
+    "M": "##.....## ###...### ####.#### ##.###.## ##..#..## ##.....## ##.....## ##.....## ##.....## ##.....## "
+         "##.....## ##.....##",
+    "E": "###### ###### ##.... ##.... ##.... #####. #####. ##.... ##.... ##.... ###### ######",
+    "R": "######. ####### ##...## ##...## ##...## ######. #####.. ##.##.. ##..##. ##..##. ##...## ##...##",
+    "I": "## ## ## ## ## ## ## ## ## ## ## ##",
+    "T": "######## ######## ...##... ...##... ...##... ...##... ...##... ...##... ...##... ...##... ...##... "
+         "...##...",
+}
+
+
+def splash_label(rom, at=MERIT_AT, text="MERIT"):
+    tiles = tiles_get(rom, at, 16)
+    img = [[tiles[(y // 8) * 8 + x // 8][(y % 8) * 8 + x % 8] for x in range(64)] for y in range(16)]
+    for y in range(15):  # row 15 = the spark tails, kept
+        img[y] = [0] * 64
+        if y in SPARK:
+            x0, end, fill = SPARK[y]
+            row = end + str(fill) * (64 - 2 * x0 - 2 * len(end)) + end[::-1]
+            img[y][x0:64 - x0] = [int(c) for c in row]
+    glyphs = [CAPS12[c].split() for c in text]
+    width = sum(len(g[0]) for g in glyphs) + 2 * (len(glyphs) - 1) + 3  # 2 px gaps, 3 px shear
+    ink, cx = {}, (64 - width) // 2
+    for g in glyphs:
+        for r, line in enumerate(g):
+            for gx, ch in enumerate(line):
+                if ch == "#":
+                    ink[(cx + gx + (11 - r) // 4, 2 + r)] = 1 if r < 9 else 2 if r < 11 else 3
+        cx += len(g[0]) + 2
+    for px, py in {(px + dx, py + dy) for px, py in ink for dx in (-1, 0, 1) for dy in (-1, 0, 1)} - set(ink):
+        img[py][px] = 4
+    for (px, py), v in ink.items():
+        img[py][px] = v
+    out = [list(block(img, tx, ty)) for ty in range(2) for tx in range(8)]
+    assert out[0] == tiles[0] and out[8] == tiles[8], "x 0-7 is shared with the HIT label"
+    return tiles_put(out)
+
+
 def raw_strip(rom, off, cols, rows, text, style, font, where=None):
     """Draw text centred in the strip, or in where = (rect, cap top, x as for draw)."""
     tiles = tiles_get(rom, off, cols * rows)
@@ -398,6 +444,7 @@ def patches(rom):
     for k, name in enumerate(ICONS):
         out.append((ICONS_AT + k * 128, icon(rom, k, name), f"gfx quest icon {k} {name}"))
     out += [(at, sort_badge(rom, at, text), f"gfx {text} badge") for at, text in BADGES]
+    out.append((MERIT_AT, splash_label(rom), "gfx battle result MERIT label"))
     import logo  # G2 title logo (its own generator: TrueType lettering, per-cell palette banks)
     return out + logo.patches(rom)
 
@@ -414,6 +461,7 @@ def regions():
     out += [(off, off + cols * rows * 32, f"gfx raw {text}") for off, cols, rows, text, *_ in RAW]
     out.append((ICONS_AT, ICONS_AT + len(ICONS) * 128, "gfx quest-type icons"))
     out += [(at, at + 5 * 32, f"gfx {text} badge") for at, text in BADGES]
+    out.append((MERIT_AT, MERIT_AT + 16 * 32, "gfx battle result MERIT label"))
     import logo
     return out + logo.regions(rom)
 

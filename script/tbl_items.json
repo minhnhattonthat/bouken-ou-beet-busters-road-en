@@ -310,7 +310,7 @@
   "addr": "0A46FC",
   "kind": "desc",
   "jp": "ＨＰ０時の行動不能状態からの復帰。ＨＰを１０だけ回復",
-  "en": "Revives from being knocked out      at 0 HP. Restores just 10 HP.",
+  "en": "Revives from being knocked out[BR]at 0 HP. Restores just 10 HP.",
   "max": 72,
   "status": "done"
  },
@@ -346,7 +346,7 @@
   "addr": "0A4794",
   "kind": "desc",
   "jp": "ＴＰ０時の眠り状態からの復帰。ＴＰを１０だけ回復",
-  "en": "Wakes from the sleep caused by      0 TP. Restores just 10 TP.",
+  "en": "Wakes from the sleep caused by[BR]0 TP. Restores just 10 TP.",
   "max": 72,
   "status": "done"
  },
@@ -382,7 +382,7 @@
   "addr": "0A482C",
   "kind": "desc",
   "jp": "行動不能状態及び眠り状態からの復帰。ＨＰ＆ＴＰをそれぞれ１０だけ回復",
-  "en": "Cures knockout and sleep.           Restores just 10 HP and 10 TP.",
+  "en": "Cures knockout and sleep.[BR]Restores just 10 HP and 10 TP.",
   "max": 72,
   "status": "done"
  },
@@ -418,7 +418,7 @@
   "addr": "0A48C4",
   "kind": "desc",
   "jp": "行動不能状態及び眠り状態からの復帰。ＨＰ＆ＴＰをすべてＭＡＸまで回復",
-  "en": "Cures knockout and sleep. Fully     restores HP and TP to MAX.",
+  "en": "Cures knockout and sleep. Fully[BR]restores HP and TP to MAX.",
   "max": 72,
   "status": "done"
  },
